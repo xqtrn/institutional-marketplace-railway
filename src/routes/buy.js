@@ -19,18 +19,23 @@ router.get('/', async (req, res) => {
       ['buy']
     );
 
-    // Transform to match Cloudflare format exactly - keep original values
+    // Transform to match Cloudflare format exactly
     const deals = result.rows.map((row, index) => ({
-      id: index + 1,  // Sequential IDs starting from 1
+      id: row.id.toString(),
       company: row.company,
-      managementFee: !row.management_fee || parseFloat(row.management_fee) === 0 ? '' : row.management_fee,
-      carry: !row.carry || parseFloat(row.carry) === 0 ? '' : row.carry,
-      lastUpdate: formatDate(row.last_update),
-      volume: row.volume || 'Request',
       price: row.price || 'Request',
+      volume: row.volume || 'Request',
       valuation: row.valuation || 'Request',
       structure: row.structure || 'Direct Trade',
-      shareClass: row.share_class || 'Common'
+      shareClass: row.share_class || 'Common',
+      series: row.series || '',
+      managementFee: parseFloat(row.management_fee) || 0,
+      carry: parseFloat(row.carry) || 0,
+      partner: row.partner || '',
+      partnerId: row.partner_id || '',
+      lastUpdate: formatDate(row.last_update),
+      source: row.source || 'manual',
+      status: row.status || 'active'
     }));
 
     res.json(deals);
