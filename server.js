@@ -29,6 +29,39 @@ app.post('/api/init-db', async (req, res) => {
   }
 });
 
+// Create admin user endpoint (one-time use)
+app.post('/api/init-admin', async (req, res) => {
+  const API_SECRET = process.env.API_SECRET || 'investclub-admin-secure-key-2024';
+  const authHeader = req.headers['x-api-key'];
+  if (!authHeader || authHeader !== API_SECRET) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
+  const { pool } = require('./src/db');
+  const CryptoJS = require('crypto-js');
+  const SALT = 'im_salt_2024';
+
+  const { email, password, role } = req.body;
+
+  if (!email || !password) {
+    return res.status(400).json({ error: 'email and password required' });
+  }
+
+  try {
+    const passwordHash = CryptoJS.SHA256(password + SALT).toString();
+    await pool.query(
+      `INSERT INTO users (email, password_hash, role, permissions)
+       VALUES ($1, $2, $3, $4)
+       ON CONFLICT (email) DO UPDATE SET password_hash = $2, role = $3`,
+      [email.toLowerCase(), passwordHash, role || 'super_admin', JSON.stringify(['all'])]
+    );
+    res.json({ success: true, message: `User ${email} created with role ${role || 'super_admin'}` });
+  } catch (error) {
+    console.error('Init admin error:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 // Migration endpoint for bulk data import
 app.post('/api/migrate', async (req, res) => {
   const API_SECRET = process.env.API_SECRET || 'investclub-admin-secure-key-2024';
