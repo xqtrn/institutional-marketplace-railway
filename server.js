@@ -41,7 +41,7 @@ app.post('/api/init-admin', async (req, res) => {
   const CryptoJS = require('crypto-js');
   const SALT = 'im_salt_2024';
 
-  const { email, password, role } = req.body;
+  const { email, password, role, permissions } = req.body;
 
   if (!email || !password) {
     return res.status(400).json({ error: 'email and password required' });
@@ -49,11 +49,12 @@ app.post('/api/init-admin', async (req, res) => {
 
   try {
     const passwordHash = CryptoJS.SHA256(password + SALT).toString();
+    const perms = permissions || (role === 'super_admin' ? [] : []);
     await pool.query(
       `INSERT INTO users (email, password_hash, role, permissions)
        VALUES ($1, $2, $3, $4)
-       ON CONFLICT (email) DO UPDATE SET password_hash = $2, role = $3`,
-      [email.toLowerCase(), passwordHash, role || 'super_admin', JSON.stringify(['all'])]
+       ON CONFLICT (email) DO UPDATE SET password_hash = $2, role = $3, permissions = $4`,
+      [email.toLowerCase(), passwordHash, role || 'super_admin', JSON.stringify(perms)]
     );
     res.json({ success: true, message: `User ${email} created with role ${role || 'super_admin'}` });
   } catch (error) {
