@@ -2,6 +2,16 @@ const express = require('express');
 const router = express.Router();
 const { pool } = require('../db');
 
+// Format date as "November 17, 2025"
+function formatDate(date) {
+  if (!date) return '';
+  const d = new Date(date);
+  if (isNaN(d.getTime())) return '';
+  const months = ['January', 'February', 'March', 'April', 'May', 'June',
+                  'July', 'August', 'September', 'October', 'November', 'December'];
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+}
+
 router.get('/', async (req, res) => {
   try {
     const result = await pool.query(
@@ -9,21 +19,21 @@ router.get('/', async (req, res) => {
       ['buy']
     );
 
-    // Transform to match old format
+    // Transform to match Cloudflare format exactly
     const deals = result.rows.map(row => ({
-      id: row.id.toString(),
+      id: row.id,
       company: row.company,
-      price: row.price,
-      volume: row.volume,
-      valuation: row.valuation,
-      structure: row.structure,
-      shareClass: row.share_class,
-      series: row.series,
-      managementFee: parseFloat(row.management_fee) || 0,
-      carry: parseFloat(row.carry) || 0,
-      partner: row.partner,
-      partnerId: row.partner_id,
-      lastUpdate: row.last_update?.toISOString(),
+      price: row.price || 'Request',
+      volume: row.volume || 'Request',
+      valuation: row.valuation || 'Request',
+      structure: row.structure || 'Direct Trade',
+      shareClass: row.share_class || 'Common',
+      series: row.series || '',
+      managementFee: row.management_fee || '',
+      carry: row.carry || '',
+      partner: row.partner || '',
+      partnerId: row.partner_id || '',
+      lastUpdate: formatDate(row.last_update),
       source: row.source,
       status: row.status
     }));
