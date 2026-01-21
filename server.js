@@ -15,6 +15,20 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
+// Database initialization endpoint (one-time use)
+app.post('/api/init-db', async (req, res) => {
+  try {
+    const fs = require('fs');
+    const { pool } = require('./src/db');
+    const schemaPath = path.join(__dirname, 'src/db/schema.sql');
+    const schema = fs.readFileSync(schemaPath, 'utf8');
+    await pool.query(schema);
+    res.json({ status: 'ok', message: 'Database initialized successfully' });
+  } catch (error) {
+    res.status(500).json({ status: 'error', message: error.message });
+  }
+});
+
 // API Routes
 app.use('/api/auth', require('./src/routes/auth'));
 app.use('/api/buy', require('./src/routes/buy'));
