@@ -23,17 +23,17 @@ router.get('/', validateBearerToken, async (req, res) => {
       return res.status(403).json({ error: 'Forbidden' });
     }
 
-    const result = await pool.query('SELECT id, email, role, permissions, created_at FROM users ORDER BY created_at DESC');
+    const result = await pool.query('SELECT id, email, role, permissions, created_at FROM users ORDER BY created_at ASC');
 
     const users = result.rows.map(row => ({
-      id: row.id,
       email: row.email,
       role: row.role,
       permissions: row.permissions || [],
       createdAt: row.created_at?.toISOString()
     }));
 
-    res.json(users);
+    // Match Cloudflare format
+    res.json({ users });
   } catch (error) {
     console.error('Users GET error:', error);
     res.status(500).json({ error: 'Failed to fetch users' });

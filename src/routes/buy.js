@@ -12,6 +12,19 @@ function formatDate(date) {
   return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
+// Parse value to match Cloudflare format: numbers as numbers, null for missing
+function parseValue(val) {
+  if (!val || val === '' || val === 'Request' || val === 'null') return null;
+  // If it's a formatted string like "$5M", keep as string
+  if (typeof val === 'string' && (val.includes('$') || val.includes('M') || val.includes('B') || val.includes('K'))) {
+    return val;
+  }
+  // Try to parse as number
+  const num = parseFloat(val);
+  if (!isNaN(num)) return num;
+  return val;
+}
+
 router.get('/', async (req, res) => {
   try {
     const result = await pool.query(
@@ -21,16 +34,16 @@ router.get('/', async (req, res) => {
 
     // Transform to match Cloudflare format exactly
     const deals = result.rows.map(row => ({
-      id: row.id,
+      id: row.id.toString(),
       company: row.company,
-      price: row.price || 'Request',
-      volume: row.volume || 'Request',
-      valuation: row.valuation || 'Request',
+      price: parseValue(row.price),
+      volume: parseValue(row.volume),
+      valuation: parseValue(row.valuation),
       structure: row.structure || 'Direct Trade',
       shareClass: row.share_class || 'Common',
       series: row.series || '',
-      managementFee: row.management_fee || '',
-      carry: row.carry || '',
+      managementFee: parseFloat(row.management_fee) || 0,
+      carry: parseFloat(row.carry) || 0,
       partner: row.partner || '',
       partnerId: row.partner_id || '',
       lastUpdate: formatDate(row.last_update),
