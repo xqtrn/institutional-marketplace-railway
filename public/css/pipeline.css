@@ -209,7 +209,9 @@
 .column-value {
   font-size: 12px;
   color: #64748b;
-  margin-top: 4px;
+  padding: 0 16px 12px;
+  border-bottom: 1px solid var(--pipeline-border);
+  font-weight: 500;
 }
 
 /* Stage Colors */
@@ -426,6 +428,27 @@
   color: #94a3b8;
   margin-top: 4px;
   text-align: right;
+}
+
+/* Show More Button */
+.show-more-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+  border: 1px dashed #94a3b8;
+  border-radius: 8px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+
+.show-more-btn:hover {
+  background: #e2e8f0;
+  border-color: #64748b;
+  color: #1e293b;
 }
 
 /* Empty State */

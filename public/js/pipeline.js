@@ -72,6 +72,10 @@
         }
     }
 
+    // Max cards to show per column initially
+    const MAX_CARDS_PER_COLUMN = 25;
+    const expandedColumns = {};
+
     // Render the entire board
     function renderBoard() {
         STAGES.forEach(stage => {
@@ -83,10 +87,10 @@
 
             // Update count and value
             const count = stageDeals.length;
-            const value = stageDeals.reduce((sum, d) => sum + (d.volume || 0), 0);
+            const value = stageDeals.reduce((sum, d) => sum + (parseFloat(d.volume) || 0), 0);
 
             column.querySelector('[data-count]').textContent = count;
-            column.querySelector('[data-value]').textContent = formatCurrency(value);
+            column.querySelector('[data-value]').textContent = formatCurrency(value) || '$0';
 
             // Render cards
             if (stageDeals.length === 0) {
@@ -97,67 +101,107 @@
                     </div>
                 `;
             } else {
-                cardsContainer.innerHTML = stageDeals.map(deal => renderDealCard(deal)).join('');
+                const isExpanded = expandedColumns[stage.id];
+                const visibleDeals = isExpanded ? stageDeals : stageDeals.slice(0, MAX_CARDS_PER_COLUMN);
+                const hiddenCount = stageDeals.length - MAX_CARDS_PER_COLUMN;
+
+                let html = visibleDeals.map(deal => renderDealCard(deal)).join('');
+
+                if (hiddenCount > 0 && !isExpanded) {
+                    html += `
+                        <button class="show-more-btn" onclick="expandColumn('${stage.id}')">
+                            Show ${hiddenCount} more deals
+                        </button>
+                    `;
+                } else if (isExpanded && stageDeals.length > MAX_CARDS_PER_COLUMN) {
+                    html += `
+                        <button class="show-more-btn" onclick="collapseColumn('${stage.id}')">
+                            Show less
+                        </button>
+                    `;
+                }
+
+                cardsContainer.innerHTML = html;
             }
         });
     }
 
+    // Column expand/collapse
+    window.expandColumn = function(stageId) {
+        expandedColumns[stageId] = true;
+        renderBoard();
+    };
+
+    window.collapseColumn = function(stageId) {
+        expandedColumns[stageId] = false;
+        renderBoard();
+    };
+
     // Render a single deal card
     function renderDealCard(deal) {
-        const logo = findLogo(deal.company);
-        const initials = getInitials(deal.partner);
-        const timeAgo = getTimeAgo(deal.updatedAt);
-        const probabilityClass = deal.probability >= 70 ? 'high' : (deal.probability >= 40 ? 'medium' : 'low');
+        try {
+            const logo = findLogo(deal.company);
+            const initials = getInitials(deal.partner);
+            const timeAgo = getTimeAgo(deal.updatedAt);
+            const probability = deal.probability || 20;
+            const probabilityClass = probability >= 70 ? 'high' : (probability >= 40 ? 'medium' : 'low');
+            const dealType = deal.dealType || 'buy';
+            const companyName = deal.company || 'Unknown Company';
+            const volumeDisplay = formatCurrency(deal.volume);
 
-        return `
-            <div class="deal-card"
-                 data-deal-id="${deal.id}"
-                 draggable="true"
-                 onclick="openDealPanel('${deal.id}')">
-                <div class="deal-card-header">
-                    ${logo ?
-                        `<img src="${logo}" class="deal-company-logo" alt="${deal.company}" onerror="this.style.display='none'">` :
-                        `<div class="deal-company-logo" style="display:flex;align-items:center;justify-content:center;font-weight:600;color:#64748b;">${deal.company.charAt(0)}</div>`
-                    }
-                    <div class="deal-company-info">
-                        <div class="deal-company-name">${escapeHtml(deal.company)}</div>
-                        <span class="deal-type-badge ${deal.dealType}">${deal.dealType.toUpperCase()}</span>
-                        ${deal.volume ? `<span style="margin-left:8px;font-size:13px;font-weight:600;color:#1e293b;">${formatCurrency(deal.volume)}</span>` : ''}
+            return `
+                <div class="deal-card"
+                     data-deal-id="${deal.id}"
+                     draggable="true"
+                     onclick="openDealPanel('${deal.id}')">
+                    <div class="deal-card-header">
+                        ${logo ?
+                            `<img src="${logo}" class="deal-company-logo" alt="${companyName}" onerror="this.style.display='none'">` :
+                            `<div class="deal-company-logo" style="display:flex;align-items:center;justify-content:center;font-weight:600;color:#64748b;">${companyName.charAt(0)}</div>`
+                        }
+                        <div class="deal-company-info">
+                            <div class="deal-company-name">${escapeHtml(companyName)}</div>
+                            <span class="deal-type-badge ${dealType}">${dealType.toUpperCase()}</span>
+                            ${volumeDisplay ? `<span style="margin-left:8px;font-size:13px;font-weight:600;color:#1e293b;">${volumeDisplay}</span>` : ''}
+                        </div>
+                    </div>
+                    <div class="deal-details">
+                        ${deal.price ? `
+                        <div class="deal-detail-row">
+                            <span class="deal-detail-label">Price</span>
+                            <span class="deal-detail-value">$${formatNumber(deal.price)}/share</span>
+                        </div>` : ''}
+                        ${deal.valuation ? `
+                        <div class="deal-detail-row">
+                            <span class="deal-detail-label">Valuation</span>
+                            <span class="deal-detail-value">${formatValuation(deal.valuation)}</span>
+                        </div>` : ''}
+                        <div class="deal-detail-row">
+                            <span class="deal-detail-label">Structure</span>
+                            <span class="deal-detail-value">${deal.structure || 'Direct Trade'}</span>
+                        </div>
+                    </div>
+                    <div class="deal-footer">
+                        <div class="deal-partner">
+                            <div class="deal-partner-avatar">${initials}</div>
+                            <span>${escapeHtml(deal.partner || 'Unknown')}</span>
+                        </div>
+                        <div class="deal-activity">
+                            <span class="deal-time">🕐 ${timeAgo}</span>
+                        </div>
+                    </div>
+                    <div class="deal-probability">
+                        <div class="probability-bar">
+                            <div class="probability-fill ${probabilityClass}" style="width: ${probability}%"></div>
+                        </div>
+                        <div class="probability-label">${probability}% probability</div>
                     </div>
                 </div>
-                <div class="deal-details">
-                    ${deal.price ? `
-                    <div class="deal-detail-row">
-                        <span class="deal-detail-label">Price</span>
-                        <span class="deal-detail-value">$${formatNumber(deal.price)}/share</span>
-                    </div>` : ''}
-                    ${deal.valuation ? `
-                    <div class="deal-detail-row">
-                        <span class="deal-detail-label">Valuation</span>
-                        <span class="deal-detail-value">${formatValuation(deal.valuation)}</span>
-                    </div>` : ''}
-                    <div class="deal-detail-row">
-                        <span class="deal-detail-label">Structure</span>
-                        <span class="deal-detail-value">${deal.structure || 'Direct Trade'}</span>
-                    </div>
-                </div>
-                <div class="deal-footer">
-                    <div class="deal-partner">
-                        <div class="deal-partner-avatar">${initials}</div>
-                        <span>${escapeHtml(deal.partner || 'Unknown')}</span>
-                    </div>
-                    <div class="deal-activity">
-                        <span class="deal-time">🕐 ${timeAgo}</span>
-                    </div>
-                </div>
-                <div class="deal-probability">
-                    <div class="probability-bar">
-                        <div class="probability-fill ${probabilityClass}" style="width: ${deal.probability || 20}%"></div>
-                    </div>
-                    <div class="probability-label">${deal.probability || 20}% probability</div>
-                </div>
-            </div>
-        `;
+            `;
+        } catch (error) {
+            console.error('Error rendering deal card:', error, deal);
+            return `<div class="deal-card" style="padding:12px;color:#ef4444;">Error loading deal</div>`;
+        }
     }
 
     // Setup drag and drop
@@ -568,7 +612,14 @@
     }
 
     function formatCurrency(value) {
-        if (!value) return '$0';
+        if (!value || value === 'Request' || value === 'null') return null;
+        // Handle string values like "$5M" or "Request"
+        if (typeof value === 'string') {
+            if (value.startsWith('$')) return value;
+            if (value === 'Request') return null;
+            value = parseFloat(value);
+        }
+        if (isNaN(value) || value === 0) return null;
         if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
         if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
         if (value >= 1e3) return '$' + (value / 1e3).toFixed(0) + 'K';
