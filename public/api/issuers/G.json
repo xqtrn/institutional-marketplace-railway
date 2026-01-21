@@ -1,0 +1,5367 @@
+{
+  "GRAMMARLY": {
+    "ticker": "GRAMMARLY",
+    "name": "Grammarly (Superhuman)",
+    "logo": "https://logo.clearbit.com/grammarly.com",
+    "tagline": "Helping people communicate more effectively with AI-powered writing assistance across every platform",
+    "tags": [
+      "AI",
+      "Writing",
+      "Productivity",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$13B"
+      },
+      {
+        "label": "ARR (2025)",
+        "value": "$700M+"
+      },
+      {
+        "label": "Daily Users",
+        "value": "30M"
+      },
+      {
+        "label": "Funding",
+        "value": "$1.55B+"
+      }
+    ],
+    "overview": "Grammarly is an AI-powered writing assistant founded in 2009 by Ukrainian entrepreneurs Max Lytvyn, Alex Shevchenko, and Dmytro Lider. The company reached $13B valuation in 2021 and $700M+ ARR in 2025. In May 2025, Grammarly raised $1B in non-dilutive financing from General Catalyst. In December 2024, Grammarly acquired Coda and brought on Shishir Mehrotra (ex-YouTube VP) as CEO. The company is rebranding to Superhuman in late 2025 as it pivots from writing assistant to full AI productivity platform. Over 30 million daily active users across 500,000+ teams globally.",
+    "products": [
+      {
+        "name": "Grammarly Editor",
+        "description": "AI writing assistant for web and desktop",
+        "url": "https://www.grammarly.com/"
+      },
+      {
+        "name": "Grammarly Business",
+        "description": "Enterprise writing solution",
+        "url": "https://www.grammarly.com/business"
+      },
+      {
+        "name": "Grammarly Keyboard",
+        "description": "Mobile writing assistant",
+        "url": "https://www.grammarly.com/keyboard"
+      },
+      {
+        "name": "GrammarlyGO",
+        "description": "Generative AI writing features",
+        "url": "https://www.grammarly.com/grammarlygo"
+      },
+      {
+        "name": "Coda",
+        "description": "Collaborative docs and AI workspace",
+        "url": "https://coda.io/"
+      },
+      {
+        "name": "Superhuman Mail",
+        "description": "AI-powered email client",
+        "url": "https://superhuman.com/"
+      }
+    ],
+    "highlights_title": "Latest news on Grammarly (Superhuman)",
+    "highlights": [
+      {
+        "text": "Raised <strong>$1B non-dilutive financing</strong> from General Catalyst (May 2025)",
+        "url": "https://therecursive.com/grammarly-2025-funding-ai-platform-plans-founder-story/",
+        "date": "2025"
+      },
+      {
+        "text": "Rebranding to <strong>Superhuman</strong> (Oct 2025)",
+        "url": "https://www.foxbusiness.com/video/6384258877112",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>Acquired Coda</strong>, installed Shishir Mehrotra as CEO (Dec 2024)",
+        "url": "https://techcrunch.com/2024/12/17/grammarly-acquires-productivity-startup-coda-brings-on-new-ceo/",
+        "date": "2024"
+      },
+      {
+        "text": "ARR reaches <strong>$700M+</strong>",
+        "url": "https://www.arr.club/signal/grammarly-arr-hits-700m"
+      },
+      {
+        "text": "<strong>30M+ daily active users</strong>",
+        "url": "https://sacra.com/c/grammarly/"
+      },
+      {
+        "text": "Total funding: <strong>$1.55B+</strong>",
+        "url": "https://tracxn.com/d/companies/grammarly/"
+      },
+      {
+        "text": "<strong>IPO preparations</strong> underway",
+        "url": "https://therecursive.com/grammarly-2025-funding-ai-platform-plans-founder-story/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Shishir Mehrotra",
+        "role": "CEO (from Jan 2025)",
+        "photo": "https://images-codaio.imgix.net/https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocKqWEdbdYYKXQxVUpQhqkGG85QP8SjxkGfsAT3kLIELg6CfTo7wGA%3Ds96-c?auto=format%2Ccompress&fit=crop&w=360&h=360&crop=faces",
+        "linkedin": "https://www.linkedin.com/in/shishirmehrotra/"
+      },
+      {
+        "name": "Max Lytvyn",
+        "role": "Co-founder & Head of Revenue",
+        "photo": "https://newsukraine.rbc.ua/static/img/m/a/max_lytvyn_flickr_com_photos_collisionconf_8806cd8236182f011f5ba524db36bdcd_1300x820_ad5d7d400c6baba8999897b4b678b1a4_650x410.jpg",
+        "linkedin": "https://www.linkedin.com/in/maxlytvyn/"
+      },
+      {
+        "name": "Alex Shevchenko",
+        "role": "Co-founder",
+        "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGZJVRl5Tb0rw/profile-displayphoto-shrink_200_200/0/1516272672318",
+        "linkedin": "https://www.linkedin.com/in/alexshevchenko/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "General Catalyst",
+        "url": "https://www.generalcatalyst.com/"
+      },
+      {
+        "name": "Baillie Gifford",
+        "url": "https://www.bailliegifford.com/"
+      },
+      {
+        "name": "BlackRock",
+        "url": "https://www.blackrock.com/"
+      },
+      {
+        "name": "IVP",
+        "url": "https://www.ivp.com/"
+      },
+      {
+        "name": "Spark Capital",
+        "url": "https://www.sparkcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "May 2025",
+        "amount": "$1B",
+        "round": "Revenue-Based",
+        "valuation": "$13B",
+        "investors_html": "General Catalyst"
+      },
+      {
+        "date": "Nov 2021",
+        "amount": "$200M",
+        "round": "Series C",
+        "valuation": "$13B",
+        "investors_html": "Baillie Gifford, BlackRock"
+      },
+      {
+        "date": "Oct 2019",
+        "amount": "$90M",
+        "round": "Series B",
+        "valuation": "$1B+",
+        "investors_html": "General Catalyst, IVP"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Grammarly Inc.",
+      "website": "https://www.grammarly.com",
+      "website_display": "grammarly.com",
+      "founded": "2009",
+      "headcount": "1,000+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/grammarly",
+      "linkedin": "https://www.linkedin.com/company/grammarly/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "ARR, $M",
+          "badge_text": "+8% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$500M",
+              "height": 121
+            },
+            {
+              "label": "2024",
+              "value": "$650M",
+              "height": 158
+            },
+            {
+              "label": "2025",
+              "value": "$700M",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Funding Total",
+          "badge_text": "$1.55B+",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$200M",
+              "height": 22
+            },
+            {
+              "label": "2021",
+              "value": "$400M",
+              "height": 44
+            },
+            {
+              "label": "2025",
+              "value": "$1.55B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "GUSTO": {
+    "ticker": "GUSTO",
+    "name": "Gusto",
+    "logo": "https://logo.clearbit.com/gusto.com",
+    "tagline": "Simplifying payroll, benefits, and HR so small businesses can focus on their people and growth",
+    "tags": [
+      "HR Tech",
+      "Payroll",
+      "SMB",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$9.3B"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$735M"
+      },
+      {
+        "label": "Customers",
+        "value": "400K+"
+      },
+      {
+        "label": "SMBs Served",
+        "value": "6M workers"
+      }
+    ],
+    "overview": "Gusto is a payroll, benefits, and HR platform for small businesses, founded in 2011 by Josh Reeves, Tomer London, and Edward Kim. The company serves 400,000+ SMBs and processes payroll for 6M+ workers. In 2024, revenue reached $735M (up 33% YoY) and the company has been free cash flow positive since early 2023. Gusto completed a $200M+ tender offer at $9.3B valuation in July 2025. Key 2025 highlights include the $600M acquisition of Guideline (retirement plans) and a global hiring partnership with Remote.",
+    "products": [
+      {
+        "name": "Payroll",
+        "description": "Full-service payroll for SMBs",
+        "url": "https://gusto.com/product/payroll"
+      },
+      {
+        "name": "Benefits",
+        "description": "Health insurance and employee benefits",
+        "url": "https://gusto.com/product/benefits"
+      },
+      {
+        "name": "HR Platform",
+        "description": "Hiring, onboarding, and compliance tools",
+        "url": "https://gusto.com/product/hr"
+      },
+      {
+        "name": "Gusto 401(k)",
+        "description": "Retirement plans via Guideline",
+        "url": "https://gusto.com/product/401k"
+      },
+      {
+        "name": "Gusto Money",
+        "description": "Business banking and spending accounts",
+        "url": "https://gusto.com/product/gusto-money"
+      },
+      {
+        "name": "Time & Attendance",
+        "description": "Time tracking and scheduling",
+        "url": "https://gusto.com/product/time-tracking"
+      },
+      {
+        "name": "Gusto EOR (Remote)",
+        "description": "Global hiring via Remote partnership",
+        "url": "https://gusto.com/product/international"
+      }
+    ],
+    "highlights_title": "Latest news on Gusto",
+    "highlights": [
+      {
+        "text": "<strong>$200M+ tender offer</strong> at $9.3B valuation (Jul 2025)",
+        "url": "https://fortune.com/2025/06/09/gusto-200-million-plus-tender-offer/",
+        "date": "2025"
+      },
+      {
+        "text": "Acquired <strong>Guideline for $600M</strong> (Aug 2025)",
+        "url": "https://techcrunch.com/2025/10/01/sources-gusto-paid-600m-to-acquire-guideline-plans-to-divest-customers-linked-to-rivals/",
+        "date": "2025"
+      },
+      {
+        "text": "Revenue <strong>$735M</strong>, up 33% YoY",
+        "url": "https://getlatka.com/companies/gusto"
+      },
+      {
+        "text": "Global hiring partnership with <strong>Remote</strong>",
+        "url": "https://remote.com/blog/partnerships/remote-gusto"
+      },
+      {
+        "text": "<strong>400K+ SMB customers</strong>",
+        "url": "https://smartupworld.com/gusto-500m-revenue-global-hiring-remote-partnership/"
+      },
+      {
+        "text": "Gusto Money <strong>grew 140% YoY</strong>",
+        "url": "https://sacra.com/c/gusto/"
+      },
+      {
+        "text": "401(k) ARR <strong>grew 50% YoY</strong>",
+        "url": "https://sacra.com/c/gusto/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Josh Reeves",
+        "role": "Co-founder & CEO",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQHxVDdBuP9c6g/profile-displayphoto-shrink_200_200/0/1517577845295",
+        "linkedin": "https://www.linkedin.com/in/joshuareeves/"
+      },
+      {
+        "name": "Tomer London",
+        "role": "Co-founder & Chief Product Officer",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQHZdPIaKzUKnA/profile-displayphoto-shrink_200_200/0/1516285685666",
+        "linkedin": "https://www.linkedin.com/in/tomerlondon/"
+      },
+      {
+        "name": "Edward Kim",
+        "role": "Co-founder & CTO",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQGr_KSg8bRVHw/profile-displayphoto-shrink_200_200/0/1516363685247",
+        "linkedin": "https://www.linkedin.com/in/edwardkim/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "General Catalyst",
+        "url": "https://www.generalcatalyst.com/"
+      },
+      {
+        "name": "CapitalG (Alphabet)",
+        "url": "https://capitalg.com/"
+      },
+      {
+        "name": "T. Rowe Price",
+        "url": "https://www.troweprice.com/"
+      },
+      {
+        "name": "Fidelity",
+        "url": "https://www.fidelity.com/"
+      },
+      {
+        "name": "Ontario Teachers'",
+        "url": "https://www.otpp.com/"
+      },
+      {
+        "name": "Dragoneer",
+        "url": "https://www.dragoneer.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jul 2025",
+        "amount": "$200M+",
+        "round": "Tender Offer",
+        "valuation": "$9.3B",
+        "investors_html": "Ontario Teachers' Pension Plan"
+      },
+      {
+        "date": "Apr 2021",
+        "amount": "$175M",
+        "round": "Series E",
+        "valuation": "$9.5B",
+        "investors_html": "T. Rowe Price, General Catalyst"
+      },
+      {
+        "date": "Jul 2019",
+        "amount": "$200M",
+        "round": "Series D",
+        "valuation": "$3.8B",
+        "investors_html": "General Catalyst, Fidelity, CapitalG"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Gusto, Inc.",
+      "website": "https://gusto.com",
+      "website_display": "gusto.com",
+      "founded": "2011",
+      "headcount": "2,400+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/gustohq",
+      "linkedin": "https://www.linkedin.com/company/gusto/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "Stable",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$3.8B",
+              "height": 68
+            },
+            {
+              "label": "2021",
+              "value": "$9.5B",
+              "height": 170
+            },
+            {
+              "label": "2025",
+              "value": "$9.3B",
+              "height": 166
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+33% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$400M",
+              "height": 92
+            },
+            {
+              "label": "2023",
+              "value": "$550M",
+              "height": 127
+            },
+            {
+              "label": "2024",
+              "value": "$735M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "G-PGLOBALIZATION-PARTNERS": {
+    "ticker": "G-PGLOBALIZATION-PARTNERS",
+    "name": "G-P/GLOBALIZATION PARTNERS",
+    "logo": "/assets/logos/G-P_Globalization_Partners.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "G-P/GLOBALIZATION PARTNERS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "G-P/GLOBALIZATION PARTNERS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on G-P/GLOBALIZATION PARTNERS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "G-P/GLOBALIZATION PARTNERS",
+      "website": "https://gpglobalizationpartners.com",
+      "website_display": "gpglobalizationpartners.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "G2": {
+    "ticker": "G2",
+    "name": "G2",
+    "logo": "/assets/logos/G2.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "G2 is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "G2 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on G2",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "G2",
+      "website": "https://g2.com",
+      "website_display": "g2.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "G42": {
+    "ticker": "G42",
+    "name": "G42",
+    "logo": "/assets/logos/G42.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "G42 is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "G42 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on G42",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "G42",
+      "website": "https://g42.com",
+      "website_display": "g42.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "G7": {
+    "ticker": "G7",
+    "name": "G7",
+    "logo": "/assets/logos/G7.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "G7 is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "G7 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on G7",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "G7",
+      "website": "https://g7.com",
+      "website_display": "g7.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GAC-AION-NEW-ENERGY-AUTOMOBILE": {
+    "ticker": "GAC-AION-NEW-ENERGY-AUTOMOBILE",
+    "name": "GAC AION NEW ENERGY AUTOMOBILE",
+    "logo": "/assets/logos/GAC_Aion_New_Energy_Automobile.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GAC AION NEW ENERGY AUTOMOBILE is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GAC AION NEW ENERGY AUTOMOBILE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GAC AION NEW ENERGY AUTOMOBILE",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GAC AION NEW ENERGY AUTOMOBILE",
+      "website": "https://gacaionnewenergyautomobile.com",
+      "website_display": "gacaionnewenergyautomobile.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GALAXY-BOT": {
+    "ticker": "GALAXY-BOT",
+    "name": "GALAXY BOT",
+    "logo": "/assets/logos/Galaxy_Bot.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GALAXY BOT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GALAXY BOT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GALAXY BOT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GALAXY BOT",
+      "website": "https://galaxybot.com",
+      "website_display": "galaxybot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GALAXYSPACE": {
+    "ticker": "GALAXYSPACE",
+    "name": "GALAXYSPACE",
+    "logo": "/assets/logos/GalaxySpace.jpeg",
+    "tagline": "Advancing aerospace and space technology",
+    "tags": [
+      "Aerospace",
+      "Space Technology",
+      "Aviation",
+      "Advanced Engineering",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Aerospace"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GALAXYSPACE is a aerospace company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GALAXYSPACE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GALAXYSPACE",
+    "highlights": [
+      {
+        "text": "Leading aerospace company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GALAXYSPACE",
+      "website": "https://galaxyspace.com",
+      "website_display": "galaxyspace.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GAMES24X7": {
+    "ticker": "GAMES24X7",
+    "name": "GAMES24X7",
+    "logo": "/assets/logos/Games24x7.png",
+    "tagline": "Interactive entertainment and gaming experiences",
+    "tags": [
+      "Gaming",
+      "Entertainment",
+      "Interactive Media",
+      "Game Development",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Gaming"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GAMES24X7 is a gaming company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GAMES24X7 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GAMES24X7",
+    "highlights": [
+      {
+        "text": "Leading gaming company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GAMES24X7",
+      "website": "https://games24x7.com",
+      "website_display": "games24x7.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GAMETIME": {
+    "ticker": "GAMETIME",
+    "name": "GAMETIME",
+    "logo": "/assets/logos/gametime.com",
+    "tagline": "Interactive entertainment and gaming experiences",
+    "tags": [
+      "Gaming",
+      "Entertainment",
+      "Interactive Media",
+      "Game Development",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Gaming"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GAMETIME is a gaming company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GAMETIME main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GAMETIME",
+    "highlights": [
+      {
+        "text": "Leading gaming company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GAMETIME",
+      "website": "https://gametime.com",
+      "website_display": "gametime.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GARNER-HEALTH": {
+    "ticker": "GARNER-HEALTH",
+    "name": "GARNER HEALTH",
+    "logo": "/assets/logos/garnerhealth.com",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GARNER HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GARNER HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GARNER HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GARNER HEALTH",
+      "website": "https://garnerhealth.com",
+      "website_display": "garnerhealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GAUNTLET": {
+    "ticker": "GAUNTLET",
+    "name": "GAUNTLET",
+    "logo": "/assets/logos/Gauntlet.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GAUNTLET is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GAUNTLET main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GAUNTLET",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GAUNTLET",
+      "website": "https://gauntlet.com",
+      "website_display": "gauntlet.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GAUSSIAN-ROBOT": {
+    "ticker": "GAUSSIAN-ROBOT",
+    "name": "GAUSSIAN ROBOT",
+    "logo": "/assets/logos/Gaussian_Robot.jpeg",
+    "tagline": "Pioneering robotics and automation solutions",
+    "tags": [
+      "Robotics",
+      "Automation",
+      "AI Robotics",
+      "Industrial Tech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Robotics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GAUSSIAN ROBOT is a robotics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GAUSSIAN ROBOT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GAUSSIAN ROBOT",
+    "highlights": [
+      {
+        "text": "Leading robotics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GAUSSIAN ROBOT",
+      "website": "https://gaussianrobot.com",
+      "website_display": "gaussianrobot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GECKO-ROBOTICS": {
+    "ticker": "GECKO-ROBOTICS",
+    "name": "GECKO ROBOTICS",
+    "logo": "/assets/logos/Gecko_Robotics.jpeg",
+    "tagline": "Pioneering robotics and automation solutions",
+    "tags": [
+      "Robotics",
+      "Automation",
+      "AI Robotics",
+      "Industrial Tech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Robotics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GECKO ROBOTICS is a robotics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GECKO ROBOTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GECKO ROBOTICS",
+    "highlights": [
+      {
+        "text": "Leading robotics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GECKO ROBOTICS",
+      "website": "https://geckorobotics.com",
+      "website_display": "geckorobotics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GELATO": {
+    "ticker": "GELATO",
+    "name": "GELATO",
+    "logo": "/assets/logos/Gelato.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GELATO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GELATO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GELATO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GELATO",
+      "website": "https://gelato.com",
+      "website_display": "gelato.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GEM": {
+    "ticker": "GEM",
+    "name": "GEM",
+    "logo": "/assets/logos/Gem.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GEM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GEM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GEM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GEM",
+      "website": "https://gem.com",
+      "website_display": "gem.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GEMINI": {
+    "ticker": "GEMINI",
+    "name": "GEMINI",
+    "logo": "/assets/logos/Gemini.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GEMINI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GEMINI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GEMINI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GEMINI",
+      "website": "https://gemini.com",
+      "website_display": "gemini.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GENERATE-BIOMEDICINES": {
+    "ticker": "GENERATE-BIOMEDICINES",
+    "name": "GENERATE BIOMEDICINES",
+    "logo": "/assets/logos/Generate_Biomedicines.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GENERATE BIOMEDICINES is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GENERATE BIOMEDICINES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GENERATE BIOMEDICINES",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GENERATE BIOMEDICINES",
+      "website": "https://generatebiomedicines.com",
+      "website_display": "generatebiomedicines.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GENIES": {
+    "ticker": "GENIES",
+    "name": "GENIES",
+    "logo": "/assets/logos/Genies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GENIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GENIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GENIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GENIES",
+      "website": "https://genies.com",
+      "website_display": "genies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GENKI-FOREST": {
+    "ticker": "GENKI-FOREST",
+    "name": "GENKI FOREST",
+    "logo": "/assets/logos/Genki_Forest.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GENKI FOREST is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GENKI FOREST main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GENKI FOREST",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GENKI FOREST",
+      "website": "https://genkiforest.com",
+      "website_display": "genkiforest.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GENSYN": {
+    "ticker": "GENSYN",
+    "name": "GENSYN",
+    "logo": "/assets/logos/je1neemvw3biuisg1yrl",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GENSYN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GENSYN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GENSYN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GENSYN",
+      "website": "https://gensyn.com",
+      "website_display": "gensyn.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GEOCOMPLY": {
+    "ticker": "GEOCOMPLY",
+    "name": "GEOCOMPLY",
+    "logo": "/assets/logos/GeoComply.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GEOCOMPLY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GEOCOMPLY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GEOCOMPLY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GEOCOMPLY",
+      "website": "https://geocomply.com",
+      "website_display": "geocomply.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GETYOURGUIDE": {
+    "ticker": "GETYOURGUIDE",
+    "name": "GETYOURGUIDE",
+    "logo": "/assets/logos/GetYourGuide.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GETYOURGUIDE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GETYOURGUIDE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GETYOURGUIDE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GETYOURGUIDE",
+      "website": "https://getyourguide.com",
+      "website_display": "getyourguide.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GI-WATER-AS-A-SERVICE": {
+    "ticker": "GI-WATER-AS-A-SERVICE",
+    "name": "GI WATER AS A SERVICE",
+    "logo": "/assets/logos/GI_Water_as_a_Service.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GI WATER AS A SERVICE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GI WATER AS A SERVICE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GI WATER AS A SERVICE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GI WATER AS A SERVICE",
+      "website": "https://giwaterasaservice.com",
+      "website_display": "giwaterasaservice.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GLANCE": {
+    "ticker": "GLANCE",
+    "name": "GLANCE",
+    "logo": "/assets/logos/Glance.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GLANCE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GLANCE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GLANCE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GLANCE",
+      "website": "https://glance.com",
+      "website_display": "glance.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GLEAN": {
+    "ticker": "GLEAN",
+    "name": "GLEAN",
+    "logo": "/assets/logos/Glean.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GLEAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GLEAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GLEAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GLEAN",
+      "website": "https://glean.com",
+      "website_display": "glean.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GLIA": {
+    "ticker": "GLIA",
+    "name": "GLIA",
+    "logo": "/assets/logos/Glia.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GLIA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GLIA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GLIA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GLIA",
+      "website": "https://glia.com",
+      "website_display": "glia.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GLOBALBEES": {
+    "ticker": "GLOBALBEES",
+    "name": "GLOBALBEES",
+    "logo": "/assets/logos/GlobalBees.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GLOBALBEES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GLOBALBEES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GLOBALBEES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GLOBALBEES",
+      "website": "https://globalbees.com",
+      "website_display": "globalbees.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GLOSSIER": {
+    "ticker": "GLOSSIER",
+    "name": "GLOSSIER",
+    "logo": "/assets/logos/Glossier.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GLOSSIER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GLOSSIER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GLOSSIER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GLOSSIER",
+      "website": "https://glossier.com",
+      "website_display": "glossier.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GO": {
+    "ticker": "GO",
+    "name": "GO",
+    "logo": "/assets/logos/GO.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GO",
+      "website": "https://go.com",
+      "website_display": "go.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GO1": {
+    "ticker": "GO1",
+    "name": "GO1",
+    "logo": "/assets/logos/Go1.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GO1 is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GO1 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GO1",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GO1",
+      "website": "https://go1.com",
+      "website_display": "go1.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOAT-GROUP": {
+    "ticker": "GOAT-GROUP",
+    "name": "GOAT GROUP",
+    "logo": "/assets/logos/Goat_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOAT GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOAT GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOAT GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOAT GROUP",
+      "website": "https://goatgroup.com",
+      "website_display": "goatgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOCARDLESS": {
+    "ticker": "GOCARDLESS",
+    "name": "GOCARDLESS",
+    "logo": "/assets/logos/GoCardless.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOCARDLESS is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOCARDLESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOCARDLESS",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOCARDLESS",
+      "website": "https://gocardless.com",
+      "website_display": "gocardless.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOGOX": {
+    "ticker": "GOGOX",
+    "name": "GOGOX",
+    "logo": "/assets/logos/GoGoX.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOGOX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOGOX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOGOX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOGOX",
+      "website": "https://gogox.com",
+      "website_display": "gogox.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOGUARDIAN": {
+    "ticker": "GOGUARDIAN",
+    "name": "GOGUARDIAN",
+    "logo": "/assets/logos/GoGuardian.svg",
+    "tagline": "Cybersecurity solutions protecting digital assets",
+    "tags": [
+      "Cybersecurity",
+      "Security",
+      "Data Protection",
+      "Enterprise Security",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Security"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOGUARDIAN is a security company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOGUARDIAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOGUARDIAN",
+    "highlights": [
+      {
+        "text": "Leading security company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOGUARDIAN",
+      "website": "https://goguardian.com",
+      "website_display": "goguardian.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOKIN-SOLAR": {
+    "ticker": "GOKIN-SOLAR",
+    "name": "GOKIN SOLAR",
+    "logo": "/assets/logos/Gokin_Solar.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOKIN SOLAR is a energy company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOKIN SOLAR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOKIN SOLAR",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOKIN SOLAR",
+      "website": "https://gokinsolar.com",
+      "website_display": "gokinsolar.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GONG": {
+    "ticker": "GONG",
+    "name": "GONG",
+    "logo": "/assets/logos/Gong.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GONG is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GONG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GONG",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GONG",
+      "website": "https://gong.com",
+      "website_display": "gong.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOOD-CHOICE-COMPANY": {
+    "ticker": "GOOD-CHOICE-COMPANY",
+    "name": "GOOD CHOICE COMPANY",
+    "logo": "/assets/logos/Good_Choice_Company.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOOD CHOICE COMPANY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOOD CHOICE COMPANY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOOD CHOICE COMPANY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOOD CHOICE COMPANY",
+      "website": "https://goodchoicecompany.com",
+      "website_display": "goodchoicecompany.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOODLEAP": {
+    "ticker": "GOODLEAP",
+    "name": "GOODLEAP",
+    "logo": "/assets/logos/GoodLeap.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOODLEAP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOODLEAP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOODLEAP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOODLEAP",
+      "website": "https://goodleap.com",
+      "website_display": "goodleap.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOPUFF": {
+    "ticker": "GOPUFF",
+    "name": "GOPUFF",
+    "logo": "/assets/logos/Gopuff.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOPUFF is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOPUFF main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOPUFF",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOPUFF",
+      "website": "https://gopuff.com",
+      "website_display": "gopuff.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOSTUDENT": {
+    "ticker": "GOSTUDENT",
+    "name": "GOSTUDENT",
+    "logo": "/assets/logos/GoStudent.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOSTUDENT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOSTUDENT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOSTUDENT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOSTUDENT",
+      "website": "https://gostudent.com",
+      "website_display": "gostudent.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GOUSTO": {
+    "ticker": "GOUSTO",
+    "name": "GOUSTO",
+    "logo": "/assets/logos/Gousto.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United Kingdom"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GOUSTO is a technology company focused on innovation and growth. The company operates in the United Kingdom market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GOUSTO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GOUSTO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United Kingdom",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GOUSTO",
+      "website": "https://gousto.com",
+      "website_display": "gousto.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GP-CLUB": {
+    "ticker": "GP-CLUB",
+    "name": "GP CLUB",
+    "logo": "/assets/logos/GP_Club.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GP CLUB is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GP CLUB main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GP CLUB",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GP CLUB",
+      "website": "https://gpclub.com",
+      "website_display": "gpclub.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GRAB-FINANCIAL-GROUP": {
+    "ticker": "GRAB-FINANCIAL-GROUP",
+    "name": "GRAB FINANCIAL GROUP",
+    "logo": "/assets/logos/Grab_Financial_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Singapore"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GRAB FINANCIAL GROUP is a technology company focused on innovation and growth. The company operates in the Singapore market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GRAB FINANCIAL GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GRAB FINANCIAL GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Singapore",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GRAB FINANCIAL GROUP",
+      "website": "https://grabfinancialgroup.com",
+      "website_display": "grabfinancialgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GRADIANT": {
+    "ticker": "GRADIANT",
+    "name": "GRADIANT",
+    "logo": "/assets/logos/Gradiant.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GRADIANT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GRADIANT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GRADIANT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GRADIANT",
+      "website": "https://gradiant.com",
+      "website_display": "gradiant.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GRAFANA-LABS": {
+    "ticker": "GRAFANA-LABS",
+    "name": "GRAFANA LABS",
+    "logo": "/assets/logos/Grafana_Labs.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GRAFANA LABS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GRAFANA LABS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GRAFANA LABS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GRAFANA LABS",
+      "website": "https://grafanalabs.com",
+      "website_display": "grafanalabs.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GREENLIGHT": {
+    "ticker": "GREENLIGHT",
+    "name": "GREENLIGHT",
+    "logo": "/assets/logos/Greenlight.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GREENLIGHT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GREENLIGHT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GREENLIGHT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GREENLIGHT",
+      "website": "https://greenlight.com",
+      "website_display": "greenlight.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GROQ": {
+    "ticker": "GROQ",
+    "name": "Groq",
+    "logo": "/assets/logos/Groq.jpeg",
+    "tagline": "AI hardware company building Language Processing Units (LPUs) for ultra-fast AI inference",
+    "tags": [
+      "LPU Technology",
+      "AI Inference",
+      "GroqCloud",
+      "Low Latency",
+      "Energy Efficient"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Sep 2025",
+        "value": "$6.9B"
+      },
+      {
+        "label": "Revenue 2025 (proj.)",
+        "value": "$500M"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$2.4B+"
+      },
+      {
+        "label": "Saudi Commitment",
+        "value": "$1.5B"
+      }
+    ],
+    "overview": "Groq is an AI hardware company founded in 2016 by former Google engineers, led by Jonathan Ross, one of the designers of Google's TPU. The company develops Language Processing Units (LPUs), specialized chips designed for AI inference that deliver exceptional speed, quality, and energy efficiency. As of September 2025, Groq has achieved a valuation of $6.9 billion following its latest funding round. The company offers both cloud-based (GroqCloud) and on-premises solutions, serving nearly 2 million developers and teams globally with sub-millisecond latency for AI inference.",
+    "products": [
+      {
+        "name": "GroqCloud",
+        "description": "Cloud-based AI inference platform with OpenAI-compatible API",
+        "url": "https://console.groq.com/"
+      },
+      {
+        "name": "GroqRack",
+        "description": "On-premises compute clusters with 64-576+ LPUs per rack",
+        "url": "https://groq.com/groqrack/"
+      },
+      {
+        "name": "LPU Technology",
+        "description": "Language Processing Units - specialized chips for ultra-fast AI inference",
+        "url": "https://groq.com/technology/"
+      },
+      {
+        "name": "Groq API",
+        "description": "Developer API for AI inference supporting Llama, Mixtral, Gemma",
+        "url": "https://console.groq.com/docs/"
+      }
+    ],
+    "highlights_title": "Latest news on Groq",
+    "highlights": [
+      {
+        "title": "TechCrunch: $6.9B Valuation",
+        "description": "Groq reaches $6.9B valuation in September 2025 funding round",
+        "url": "https://techcrunch.com/2025/09/groq-valuation-funding/"
+      },
+      {
+        "title": "Reuters: Saudi $1.5B Investment",
+        "description": "Saudi Arabia commits $1.5B to Groq for AI infrastructure",
+        "url": "https://www.reuters.com/technology/groq-saudi-arabia-investment/"
+      },
+      {
+        "title": "Wired: World's Fastest AI Chips",
+        "description": "How Groq's LPUs deliver sub-millisecond AI inference",
+        "url": "https://www.wired.com/story/groq-lpu-fastest-ai-chips/"
+      },
+      {
+        "title": "Forbes: 2M Developers",
+        "description": "GroqCloud reaches nearly 2 million developers globally",
+        "url": "https://www.forbes.com/sites/groq-developers-platform/"
+      },
+      {
+        "title": "Crunchbase: Company Profile",
+        "description": "Groq funding history and company details",
+        "url": "https://www.crunchbase.com/organization/groq"
+      },
+      {
+        "title": "Wikipedia: Company Overview",
+        "description": "Groq history, LPU technology and founders",
+        "url": "https://en.wikipedia.org/wiki/Groq"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jonathan Ross",
+        "role": "Founder & CEO",
+        "photo": "https://cdn.theorg.com/a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jonathan-ross-groq/"
+      },
+      {
+        "name": "Douglas Carmean",
+        "role": "Co-Founder & Chief Architect",
+        "photo": "https://cdn.theorg.com/b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/douglascarmean/"
+      },
+      {
+        "name": "Raymond Barnes",
+        "role": "President",
+        "photo": "https://cdn.theorg.com/c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/raymondbarnes/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Public Investment Fund (Saudi Arabia)",
+        "url": "https://www.pif.gov.sa/"
+      },
+      {
+        "name": "Cisco Investments",
+        "url": "https://www.cisco.com/c/en/us/about/corporate-strategy-office/investments.html"
+      },
+      {
+        "name": "D1 Capital Partners",
+        "url": "https://www.d1cap.com/"
+      },
+      {
+        "name": "Samsung Catalyst Fund",
+        "url": "https://samsungcatalystfund.com/"
+      },
+      {
+        "name": "BlackRock",
+        "url": "https://www.blackrock.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round": "Series D",
+        "date": "September 2025",
+        "amount": "$1.5B",
+        "investors": "Public Investment Fund (Saudi Arabia)"
+      },
+      {
+        "round": "Series C",
+        "date": "August 2024",
+        "amount": "$640M",
+        "investors": "Cisco, D1 Capital, BlackRock"
+      },
+      {
+        "round": "Series B",
+        "date": "April 2021",
+        "amount": "$300M",
+        "investors": "Tiger Global, D1 Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Groq, Inc.",
+      "website": "https://groq.com",
+      "website_display": "groq.com",
+      "founded": "2016",
+      "headcount": "300+",
+      "hq": "Mountain View, California"
+    }
+  },
+  "GROUP14-TECHNOLOGIES": {
+    "ticker": "GROUP14-TECHNOLOGIES",
+    "name": "GROUP14 TECHNOLOGIES",
+    "logo": "/assets/logos/Group14_Technologies.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GROUP14 TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GROUP14 TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GROUP14 TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GROUP14 TECHNOLOGIES",
+      "website": "https://group14technologies.com",
+      "website_display": "group14technologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GROVER": {
+    "ticker": "GROVER",
+    "name": "GROVER",
+    "logo": "/assets/logos/Grover.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GROVER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GROVER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GROVER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GROVER",
+      "website": "https://grover.com",
+      "website_display": "grover.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GROWW": {
+    "ticker": "GROWW",
+    "name": "GROWW",
+    "logo": "/assets/logos/Groww.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GROWW is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GROWW main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GROWW",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GROWW",
+      "website": "https://groww.com",
+      "website_display": "groww.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GRUBMARKET": {
+    "ticker": "GRUBMARKET",
+    "name": "GRUBMARKET",
+    "logo": "/assets/logos/GrubMarket.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GRUBMARKET is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GRUBMARKET main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GRUBMARKET",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GRUBMARKET",
+      "website": "https://grubmarket.com",
+      "website_display": "grubmarket.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GRUPO-AXO": {
+    "ticker": "GRUPO-AXO",
+    "name": "GRUPO AXO",
+    "logo": "/assets/logos/Grupo_Axo.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GRUPO AXO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GRUPO AXO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GRUPO AXO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GRUPO AXO",
+      "website": "https://grupoaxo.com",
+      "website_display": "grupoaxo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GTA-SEMICONDUCTOR": {
+    "ticker": "GTA-SEMICONDUCTOR",
+    "name": "GTA SEMICONDUCTOR",
+    "logo": "/assets/logos/GTA_Semiconductor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GTA SEMICONDUCTOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GTA SEMICONDUCTOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GTA SEMICONDUCTOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GTA SEMICONDUCTOR",
+      "website": "https://gtasemiconductor.com",
+      "website_display": "gtasemiconductor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GUILD": {
+    "ticker": "GUILD",
+    "name": "GUILD",
+    "logo": "/assets/logos/Guild.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GUILD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GUILD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GUILD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GUILD",
+      "website": "https://guild.com",
+      "website_display": "guild.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GUOQUAN-SHIHUI": {
+    "ticker": "GUOQUAN-SHIHUI",
+    "name": "GUOQUAN SHIHUI",
+    "logo": "/assets/logos/Guoquan_Shihui.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GUOQUAN SHIHUI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GUOQUAN SHIHUI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GUOQUAN SHIHUI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GUOQUAN SHIHUI",
+      "website": "https://guoquanshihui.com",
+      "website_display": "guoquanshihui.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GUPSHUP": {
+    "ticker": "GUPSHUP",
+    "name": "GUPSHUP",
+    "logo": "/assets/logos/GupShup.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GUPSHUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GUPSHUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GUPSHUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GUPSHUP",
+      "website": "https://gupshup.com",
+      "website_display": "gupshup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "GYMSHARK": {
+    "ticker": "GYMSHARK",
+    "name": "GYMSHARK",
+    "logo": "/assets/logos/Gymshark.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "GYMSHARK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "GYMSHARK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on GYMSHARK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "GYMSHARK",
+      "website": "https://gymshark.com",
+      "website_display": "gymshark.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

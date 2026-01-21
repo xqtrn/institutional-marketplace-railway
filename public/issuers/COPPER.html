@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copper - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="copper-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idJbzHi-c0/id7VCjJPOb.svg" alt="Copper" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Copper</h1>
+                    <p class="company-tagline">Institutional-grade digital asset custody and prime services for the largest crypto trading firms</p>
+                    <div class="company-tags"><span class="tag">Crypto Custody</span><span class="tag">Digital Assets</span><span class="tag">Institutional Finance</span><span class="tag">Prime Brokerage</span><span class="tag">UK</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Copper is a leading institutional digital asset infrastructure provider, offering secure custody, trading, and prime services to hedge funds, asset managers, and financial institutions. The company&#x27;s award-winning MPC (multi-party computation) custody solution eliminates single points of failure with distributed key shards, while ClearLoop enables off-exchange trading without moving assets. Backed by Tiger Global, Barclays, and Dawn Capital with $791M in funding at a $2B valuation, Copper serves clients including Brevan Howard Digital ($25B+ AUM) and 21Shares (world&#x27;s largest crypto ETP issuer). The company is pursuing US licensing including BitLicense as it expands blockchain-based collateral management into traditional finance.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2022-10</td>
+                <td>Series C</td>
+                <td>$196M</td>
+                <td>$2B</td>
+            </tr><tr>
+                <td>2022-02</td>
+                <td>Series B2</td>
+                <td>$475M</td>
+                <td></td>
+            </tr><tr>
+                <td>2021-09</td>
+                <td>Series B</td>
+                <td>$50M</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Copper Custody</div>
+            <div class="product-desc">MPC-based institutional custody with 2-of-3 quorum signing and no single point of failure</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">ClearLoop</div>
+            <div class="product-desc">Off-exchange trading and settlement enabling secure exchange trading without moving assets</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Copper Prime</div>
+            <div class="product-desc">Institutional prime services including margin, lending, and portfolio management</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Copper Unlimited</div>
+            <div class="product-desc">Institutional trading platform with direct market access and smart order routing</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Copper</h2>
+                        <div class="highlights-list"><a href="https://copper.co/en/insights/company-news/copper-recap-july-2024" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">ClearLoop processes $121.2B trading volume in July 2024, nearly 2x prior months</span>
+        </a><a href="https://www.crunchbase.com/organization/copper-05c5" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raises $196M Series C at $2B valuation led by Tiger Global and Barclays</span>
+        </a><a href="https://www.cbinsights.com/company/copperco/financials" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Pursues US BitLicense and custodial licenses for traditional finance expansion</span>
+        </a><a href="https://copper.co/en/company/about" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Appoints new leadership for TradFi collateral management strategy</span>
+        </a><a href="https://www.radixdlt.com/blog/copper-integrates-radix-into-institutional-custody-services" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Integrates Radix into institutional custody services</span>
+        </a><a href="https://www.linqto.com/products/copper/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Secures clients including Brevan Howard Digital and 21Shares</span>
+        </a><a href="https://www.copper.com/resources/product-update-h1-2024" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>35+ features in 2024</strong>—contact forms, business card scanning, pipeline automation, $9 Starter plan</span>
+        </a><a href="https://www.copper.com/resources/crm-wrapped-2024-your-year-in-crm-wins" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>30,000+ companies</strong>—only Google Workspace Recommended CRM, LinkedIn integration 2025</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/495ea007-b55f-4c63-b44e-6b7e9b4b3b51_medium.jpg" alt="Dmitry Tokarev" class="leader-photo">
+            <div><div class="leader-name">Dmitry Tokarev</div>
+            <div class="leader-role">Founder &amp; Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/dmitrytokarev/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/37b79dd1-f02d-4250-aa2b-8c10e56ca52a_medium.jpg" alt="Stefano Maestri" class="leader-photo">
+            <div><div class="leader-name">Stefano Maestri</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/stefanomaestri/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/301c232e-cb2a-4186-bf80-899a3101cee4_medium.jpg" alt="Sam Goh" class="leader-photo">
+            <div><div class="leader-name">Sam Goh</div>
+            <div class="leader-role">Group Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/samgoh/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Philip+Hammond&amp;background=3b82f6&amp;color=fff" alt="Philip Hammond" class="leader-photo">
+            <div><div class="leader-name">Philip Hammond</div>
+            <div class="leader-role">Chairman (Former UK Chancellor)</div></div>
+            <a href="https://www.linkedin.com/in/philiphammond/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a><a href="https://www.barclays.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Barclays</span>
+        </a><a href="https://www.dawncapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Dawn Capital</span>
+        </a><a href="https://mmc.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">MMC Ventures</span>
+        </a><a href="https://www.brevanhoward.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Alan Howard</span>
+        </a><a href="https://www.nvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Norwest Venture Partners</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Copper Technologies (UK) Limited</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://copper.co" target="_blank" class="detail-value">copper.co</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2018</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">200+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">London, UK</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

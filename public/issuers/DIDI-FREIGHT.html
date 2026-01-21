@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiDi Freight - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="didi-freight-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idXTZN89iK/idPRNmvPqf.svg" alt="DiDi Freight" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">DiDi Freight</h1>
+                    <p class="company-tagline">On-demand trucking platform connecting shippers with truck drivers for freight transportation across China</p>
+                    <div class="company-tags"><span class="tag">Logistics</span><span class="tag">Trucking</span><span class="tag">Chinese Unicorn</span><span class="tag">On-Demand</span><span class="tag">Supply Chain</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">DiDi Freight is a Chinese logistics unicorn and the trucking division of DiDi Chuxing, the country&#x27;s largest ride-hailing company. The platform uses technology to match shippers with truck drivers for on-demand freight transportation, similar to Uber Freight. DiDi Freight competes with Full Truck Alliance (Manbang) in China&#x27;s massive trucking market, leveraging DiDi&#x27;s expertise in transportation technology, logistics optimization, and driver management. The company raised $1.5B in its debut funding round at a $3B valuation, backed by Temasek, Yunfeng Capital, and other major investors.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>January 2021</td>
+                <td>Series A</td>
+                <td>$1.5B</td>
+                <td>$3B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DiDi Freight Platform</div>
+            <div class="product-desc">On-demand trucking marketplace connecting shippers with verified truck drivers</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Shipper Portal</div>
+            <div class="product-desc">Web and mobile platform for businesses to book, track, and manage freight shipments</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Driver App</div>
+            <div class="product-desc">Mobile application for truck drivers to find loads, optimize routes, and manage payments</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Logistics Intelligence</div>
+            <div class="product-desc">AI-powered route optimization, load matching, and demand forecasting for freight operations</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on DiDi Freight</h2>
+                        <div class="highlights-list"><a href="https://www.yicaiglobal.com/news/didi-truck-hailing-startup-raises-usd15-billion-in-first-funding-round" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DiDi Freight raises $1.5B at $3B valuation in debut funding round</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2021-01-26/didi-is-said-close-to-raising-1-5-billion-for-trucking-unit" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DiDi Freight exceeds $400M target by several-fold in debut round</span>
+        </a><a href="https://www.scmp.com/tech/start-ups/article/3119433/ride-hailing-giant-didi-chuxing-close-raising-us15-billion-demand" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Temasek and Yunfeng Capital lead DiDi Freight investment</span>
+        </a><a href="https://news.bloomberglaw.com/mergers-and-acquisitions/didis-logistics-arm-said-to-seek-400-million-in-debut-funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DiDi Freight competes with Full Truck Alliance in China trucking market</span>
+        </a><a href="https://www.cbinsights.com/company/didi-kuaidi/financials" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DiDi leverages ride-hailing technology for on-demand trucking</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2020-12-17/didi-s-logistics-arm-said-to-seek-400-million-in-debut-funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DiDi Freight expands amid China economic recovery in logistics</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Han+Gang&amp;background=00B140&amp;color=fff&amp;size=128" alt="Han Gang" class="leader-photo">
+            <div><div class="leader-name">Han Gang</div>
+            <div class="leader-role">CEO</div></div>
+            <a href="https://www.linkedin.com/company/didifreight/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Will+Cheng&amp;background=4F46E5&amp;color=fff&amp;size=128" alt="Will Wei Cheng" class="leader-photo">
+            <div><div class="leader-name">Will Wei Cheng</div>
+            <div class="leader-role">DiDi Founder &amp; Chairman</div></div>
+            <a href="https://www.linkedin.com/company/didiglobal/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Stephen+Zhu&amp;background=7C3AED&amp;color=fff&amp;size=128" alt="Stephen Zhu" class="leader-photo">
+            <div><div class="leader-name">Stephen Zhu</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/company/didifreight/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Li+Yang&amp;background=059669&amp;color=fff&amp;size=128" alt="Li Yang" class="leader-photo">
+            <div><div class="leader-name">Li Yang</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/company/didifreight/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.temasek.com.sg/" target="_blank" class="investor-card">
+            <span class="investor-name">Temasek Holdings</span>
+        </a><a href="https://www.yunfengcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Yunfeng Capital</span>
+        </a><a href="https://www.idgcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">IDG Capital</span>
+        </a><a href="https://www.citiccapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CITIC Capital</span>
+        </a><a href="https://www.hiddenhillcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Hidden Hill Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">DiDi Freight (Beijing) Technology Co., Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://freight.didiglobal.com" target="_blank" class="detail-value">freight.didiglobal.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2019</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">2,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Beijing, China</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

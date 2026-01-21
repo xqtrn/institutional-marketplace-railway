@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviatrix - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="aviatrix-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Aviatrix.jpeg" alt="Aviatrix" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Aviatrix</h1>
+                    <p class="company-tagline">The leading cloud network security platform delivering secure, scalable multicloud connectivity for enterprise environments</p>
+                    <div class="company-tags"><span class="tag">Cloud Networking</span><span class="tag">Multicloud</span><span class="tag">Network Security</span><span class="tag">Santa Clara</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Aviatrix is a leading cloud network security company that provides enterprises with secure, scalable multicloud connectivity across AWS, Azure, GCP, and hybrid environments. Founded in 2013 by Pankaj Manglik, the company enables network teams to build, scale, and secure cloud infrastructure with enterprise-grade visibility and control. Under CEO Doug Merritt, former CEO of Splunk who grew that company from $100M to nearly $3B in ARR, Aviatrix has expanded its platform to address the $30 billion cloud networking market. With 400+ enterprise customers and partnerships with Megaport, Equinix, and major cloud providers, Aviatrix is transforming how organizations connect and secure their multicloud architectures.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>September 2021</td>
+                <td>Series E</td>
+                <td>$200M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>February 2021</td>
+                <td>Series D</td>
+                <td>$75M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>May 2019</td>
+                <td>Series C</td>
+                <td>$40M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aviatrix Cloud Network Security Platform</div>
+            <div class="product-desc">Enterprise platform for multicloud networking with centralized control, network segmentation, and distributed firewalling across cloud environments</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aviatrix PaaS</div>
+            <div class="product-desc">Fully managed platform-as-a-service delivering AI-enhanced cloud network security with fast deployment and autoscaling capabilities</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aviatrix Secure Cloud Transit</div>
+            <div class="product-desc">High-performance encrypted transit network for connecting VPCs, VNets, and data centers with sub-second failover</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Aviatrix</h2>
+                        <div class="highlights-list"><a href="https://www.prnewswire.com/news-releases/aviatrix-introduces-cloud-network-security-platform-as-a-service-aviatrix-paas-302302111.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Aviatrix Introduces Cloud Network Security Platform-as-a-Service</span>
+        </a><a href="https://www.prnewswire.com/news-releases/megaport-and-aviatrix-partner-to-simplify-hybrid-and-multicloud-network-connectivity-302192213.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Megaport and Aviatrix Partner for Hybrid Multicloud Connectivity</span>
+        </a><a href="https://aviatrix.com/blog/vars-poised-to-thrive-in-the-30b-cloud-networking-market-with-aviatrixs-new-channel-partner-program/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Aviatrix Launches Channel Partner Program for $30B Cloud Networking Market</span>
+        </a><a href="https://www.prnewswire.com/news-releases/aviatrix-appoints-doug-merritt-as-chairman-ceo-and-president-301858184.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Doug Merritt Appointed Chairman, CEO and President of Aviatrix</span>
+        </a><a href="https://www.prnewswire.com/news-releases/aviatrix-raises-200-million-in-funding-led-by-tcv-elevating-the-cloud-networking-leaders-valuation-to-2-billion-301371330.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Aviatrix Raises $200M Series E at $2 Billion Valuation</span>
+        </a><a href="https://www.techtarget.com/searchitoperations/news/366596021/Aviatrix-CEO-pitches-cloud-networking-to-underserved-buyer" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">CEO Doug Merritt Outlines Vision for Cloud Network Modernization</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/d7c35415-7c1e-4c69-8e93-35c24a08d7a8_medium.jpg" alt="Doug Merritt" class="leader-photo">
+            <div><div class="leader-name">Doug Merritt</div>
+            <div class="leader-role">Chairman, CEO &amp; President</div></div>
+            <a href="https://www.linkedin.com/in/dougmerritt/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/9a92b720-079c-430e-b604-fbc03f86927e_medium.jpg" alt="Cyrous Jamé" class="leader-photo">
+            <div><div class="leader-name">Cyrous Jamé</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/cyrousjame/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/7080894b-9224-4247-bc36-fcbbfe630b26_medium.jpg" alt="Ken Horner" class="leader-photo">
+            <div><div class="leader-name">Ken Horner</div>
+            <div class="leader-role">Chief Revenue Officer</div></div>
+            <a href="https://www.linkedin.com/in/kenhorner/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/5cebdb93-5083-4c44-9e65-0d8b1c03f6bb_medium.jpg" alt="Varsha Vig" class="leader-photo">
+            <div><div class="leader-name">Varsha Vig</div>
+            <div class="leader-role">Chief Human Resources Officer</div></div>
+            <a href="https://www.linkedin.com/in/varshavig/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.tcv.com/" target="_blank" class="investor-card">
+            <span class="investor-name">TCV</span>
+        </a><a href="https://www.insightpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Insight Partners</span>
+        </a><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a><a href="https://www.generalcatalyst.com/" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://www.crv.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CRV</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Aviatrix Systems, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://aviatrix.com" target="_blank" class="detail-value">aviatrix.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2013</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">400+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Santa Clara, California, United States</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

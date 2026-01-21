@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alloy - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="alloy-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/idZhW64Twu/theme/dark/logo.svg" alt="Alloy" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Alloy</h1>
+                    <p class="company-tagline">Identity risk management platform streamlining KYC, AML compliance and fraud prevention for financial institutions</p>
+                    <div class="company-tags"><span class="tag">RegTech</span><span class="tag">Identity Verification</span><span class="tag">Fintech</span><span class="tag">Unicorn</span><span class="tag">United States</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Alloy is an identity risk management platform that helps financial institutions streamline compliance and fraud prevention. Founded by Tommy Nicholas, Charles Hearn, and Laura Spiekerman, the company provides a centralized dashboard integrating multiple data sources for KYC and AML compliance, automated identity verification, and fraud detection. Alloy became a unicorn in 2021 after raising $100M Series C at $1.35B valuation, followed by a $52M extension in 2022 at $1.55B. The company&#x27;s 2024 revenue reached $42.4M (up 72% from $24.7M in 2023) with over 200 enterprise customers including major banks and fintechs.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>Sep 2022</td>
+                <td>Series C Extension</td>
+                <td>$52M</td>
+                <td>$1.55B</td>
+            </tr><tr>
+                <td>Jun 2021</td>
+                <td>Series C</td>
+                <td>$100M</td>
+                <td>$1.35B</td>
+            </tr><tr>
+                <td>Sep 2020</td>
+                <td>Series B</td>
+                <td>$40M</td>
+                <td>$220M</td>
+            </tr><tr>
+                <td>Jan 2019</td>
+                <td>Series A</td>
+                <td>$12M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Identity Decisioning</div>
+            <div class="product-desc">Automated identity verification and KYC/AML compliance in a single platform</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Transaction Monitoring</div>
+            <div class="product-desc">Real-time AML transaction monitoring and suspicious activity detection</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Fraud Prevention</div>
+            <div class="product-desc">AI-powered fraud detection across the customer lifecycle</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Credit Underwriting</div>
+            <div class="product-desc">Data orchestration for credit decisioning and risk assessment</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Alloy</h2>
+                        <div class="highlights-list"><a href="https://getlatka.com/companies/alloy" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title"><strong>$42.4M revenue in 2024</strong>—up 72% from $24.7M in 2023</span>
+        </a><a href="https://www.prnewswire.com/news-releases/alloy-raises-52-million-in-additional-funding-to-accelerate-growth-and-global-expansion-301615371.html" target="_blank" class="highlight-item">
+            <span class="highlight-date">2022</span>
+            <span class="highlight-title"><strong>$52M Series C extension</strong> led by Lightspeed & Avenir (Sep 2022)</span>
+        </a><a href="https://research.contrary.com/company/alloy" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>200+ enterprise customers</strong> across banking and fintech</span>
+        </a><a href="https://fintechmagazine.com/articles/identity-decisioning-fintech-alloy-raises-another-us-52mn" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Global expansion</strong> accelerating with enterprise banking clients</span>
+        </a><a href="https://sacra.com/c/alloy/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Leading RegTech company in <strong>identity verification space</strong></span>
+        </a><a href="https://research.contrary.com/company/alloy" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform integrates <strong>200+ data sources</strong> for comprehensive risk assessment</span>
+        </a><a href="https://www.prnewswire.com/news-releases/mastercard-and-alloy-launch-enhanced-identity-and-fraud-prevention-solution-to-streamline-onboarding-302533813.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">PRNewswire: Mastercard partnership launch</span>
+        </a><a href="https://fintech.global/2025/09/23/alloy-introduces-ai-driven-compliance-tool-for-kyc/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Fintech Global: AI-driven KYC compliance</span>
+        </a><a href="https://www.prnewswire.com/news-releases/alloy-for-embedded-finance-launches-for-banks-and-fintechs-to-collaboratively-manage-identity-and-compliance-risk-302075060.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">PRNewswire: Embedded Finance launch</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/6e44895b-b4f3-4a45-b317-5dcbd772f7c4_medium.jpg" alt="Tommy Nicholas" class="leader-photo">
+            <div><div class="leader-name">Tommy Nicholas</div>
+            <div class="leader-role">CEO &amp; Co-Founder</div></div>
+            <a href="https://www.linkedin.com/in/tommynicholas/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/27036fc3-9128-45f0-ac54-f0f8c165e81e_medium.jpg" alt="Charles Hearn" class="leader-photo">
+            <div><div class="leader-name">Charles Hearn</div>
+            <div class="leader-role">Co-Founder &amp; CTO</div></div>
+            <a href="https://www.linkedin.com/in/charleshearn/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/0f680f89-0477-421d-9900-e45d667d8c15_medium.jpg" alt="Laura Spiekerman" class="leader-photo">
+            <div><div class="leader-name">Laura Spiekerman</div>
+            <div class="leader-role">Co-Founder</div></div>
+            <a href="https://www.linkedin.com/in/lauraspiekerman/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/fbbcb332-9af1-4d82-a715-ff841f0ab7d9_medium.jpg" alt="Kiran Hebbar" class="leader-photo">
+            <div><div class="leader-name">Kiran Hebbar</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/kiranhebbar/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://lsvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Lightspeed Venture Partners</span>
+        </a><a href="https://www.bvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Bessemer Venture Partners</span>
+        </a><a href="https://www.avenirgrowth.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Avenir Growth</span>
+        </a><a href="https://canapi.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Canapi Ventures</span>
+        </a><a href="https://www.felicis.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Felicis Ventures</span>
+        </a><a href="https://www.avidventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Avid Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Alloy, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.alloy.com" target="_blank" class="detail-value">www.alloy.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">300+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">New York, New York</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

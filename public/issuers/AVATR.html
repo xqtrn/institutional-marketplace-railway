@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatr Technology - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="avatr-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Avatr.jpeg" alt="Avatr Technology" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Avatr Technology</h1>
+                    <p class="company-tagline">Premium electric vehicles powered by Huawei intelligent driving and CATL battery technology, redefining luxury mobility in China</p>
+                    <div class="company-tags"><span class="tag">Electric Vehicles</span><span class="tag">Huawei Tech</span><span class="tag">Luxury EV</span><span class="tag">China</span><span class="tag">Pre-IPO</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Avatr Technology is a premium Chinese electric vehicle brand jointly developed by Changan Automobile, CATL, and Huawei. Originally founded in 2018 as Changan-Nio, the company rebranded as Avatr in 2021 after NIO&#x27;s withdrawal, evolving into a luxury EV manufacturer combining Changan&#x27;s manufacturing expertise, CATL&#x27;s advanced battery technology, and Huawei&#x27;s intelligent driving systems. Avatr vehicles feature the Huawei ADS 3.0 autonomous driving system with multiple LiDAR sensors, establishing the brand as a technology leader in China&#x27;s competitive EV market. With $1.5 billion raised in Series C funding in December 2024, Avatr is preparing for a Hong Kong IPO targeting 2026.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>December 2024</td>
+                <td>Series C</td>
+                <td>$1.5B (11B yuan)</td>
+                <td>—</td>
+            </tr><tr>
+                <td>August 2024</td>
+                <td>Series B</td>
+                <td>$580M (4.2B yuan)</td>
+                <td>—</td>
+            </tr><tr>
+                <td>January 2022</td>
+                <td>Series A</td>
+                <td>$2.5B (18B yuan)</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Avatr 11</div>
+            <div class="product-desc">Luxury electric SUV featuring dual motors with 570 hp, CATL 116.79 kWh battery, and Huawei ADS 2.0 intelligent driving with three LiDAR sensors</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Avatr 12</div>
+            <div class="product-desc">Premium electric sedan with extended-range option offering 1,155 km total range, equipped with Huawei Qian Kun ADS 3.0 autonomous system</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Avatr 06</div>
+            <div class="product-desc">Mid-size electric sedan targeting mainstream premium segment with competitive pricing and full Huawei technology integration</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Avatr Technology</h2>
+                        <div class="highlights-list"><a href="https://carnewschina.com/2024/12/17/avatr-secures-over-1-5-billion-usd-investment-in-its-series-c-financing-round/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avatr Secures $1.5 Billion Series C Funding for IPO Preparation</span>
+        </a><a href="https://cnevpost.com/2025/09/23/avatr-to-file-for-hk-ipo-q4" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avatr Files for Hong Kong IPO, Targets 2026 Listing</span>
+        </a><a href="https://www.ichongqing.info/2024/12/22/avatr-technology-secures-over-11-billion-yuan-in-series-c-funding-plans-2026-ipo/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avatr Achieves Record Monthly Sales of 11,579 Vehicles in November 2024</span>
+        </a><a href="https://english.liangjiang.gov.cn/2024-08/21/c_1015055.htm" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avatr and Huawei Sign Comprehensive Strategic Cooperation Agreement</span>
+        </a><a href="https://autonews.gasgoo.com/china_news/70030319.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avatr Acquires 10% Stake in Huawei's Yinwang Intelligent Technology</span>
+        </a><a href="https://cnevpost.com/2024/03/30/avatr-launches-updated-avatr-12/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Updated Avatr 12 Launches with 11.6% Price Reduction</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Chen+Zhuo&amp;background=3b82f6&amp;color=fff&amp;size=128" alt="Chen Zhuo" class="leader-photo">
+            <div><div class="leader-name">Chen Zhuo</div>
+            <div class="leader-role">President</div></div>
+            <a href="https://www.linkedin.com/company/avatr-technology/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Tan+Benhong&amp;background=3b82f6&amp;color=fff&amp;size=128" alt="Tan Benhong" class="leader-photo">
+            <div><div class="leader-name">Tan Benhong</div>
+            <div class="leader-role">Chairman</div></div>
+            <a href="https://www.linkedin.com/company/avatr-technology/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Yang+Jun&amp;background=3b82f6&amp;color=fff&amp;size=128" alt="Yang Jun" class="leader-photo">
+            <div><div class="leader-name">Yang Jun</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/company/avatr-technology/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.globalchangan.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Changan Automobile</span>
+        </a><a href="https://www.catl.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CATL</span>
+        </a><a href="https://www.chongqing.gov.cn/" target="_blank" class="investor-card">
+            <span class="investor-name">Chongqing Anyu Private Equity</span>
+        </a><a href="https://www.bankcomm.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Bank of Communications</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Avatr Technology Co., Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.avatr.com" target="_blank" class="detail-value">www.avatr.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2018</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">3,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Chongqing, China</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

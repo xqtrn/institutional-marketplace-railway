@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="canva-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://logo.clearbit.com/canva.com" alt="Canva" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Canva</h1>
+                    <p class="company-tagline">Empowering everyone to design anything and publish anywhere with visual collaboration tools</p>
+                    <div class="company-tags"><span class="tag">Design</span><span class="tag">SaaS</span><span class="tag">AI</span><span class="tag">Australia</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Canva is an online graphic design platform founded in 2013 by Melanie Perkins, Cliff Obrecht, and Cameron Adams in Sydney, Australia. The platform democratizes design with drag-and-drop tools for creating presentations, social media graphics, documents, and videos. As of August 2025, Canva is valued at $65B with $3.3B ARR and 240M monthly active users. The company has been profitable for 8 consecutive years with 50%+ annual growth. AI tools are used 800M times per month (up 700% YoY). Canva acquired Affinity in 2024 for ~$380M. IPO expected in 2025-2026 with new CFO Kelly Steckelberg (ex-Zoom).</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>May 2024</td>
+                <td>Series F</td>
+                <td>$8M</td>
+                <td>$48.7B</td>
+            </tr><tr>
+                <td>Sep 2021</td>
+                <td>Series E</td>
+                <td>$200M</td>
+                <td>$40B</td>
+            </tr><tr>
+                <td>Apr 2021</td>
+                <td>Series D</td>
+                <td>$71M</td>
+                <td>$15B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canva Design</div>
+            <div class="product-desc">Visual design editor with templates</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canva Presentations</div>
+            <div class="product-desc">Interactive presentations</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canva Docs</div>
+            <div class="product-desc">Visual documents</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canva Video</div>
+            <div class="product-desc">Video editing and creation</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Magic Studio</div>
+            <div class="product-desc">AI-powered design tools</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canva Teams</div>
+            <div class="product-desc">Enterprise collaboration</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canva Print</div>
+            <div class="product-desc">Physical print products</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Canva</h2>
+                        <div class="highlights-list"><a href="https://sacra.com/c/canva/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">Valuation reaches <strong>$65B</strong> (Aug 2025)</span>
+        </a><a href="https://famewall.io/statistics/canva-stats/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">Canva Teams <strong>66% ACV increase</strong> in 2025</span>
+        </a><a href="https://www.saastr.com/the-next-great-b2b-ipo-canva-crosses-3-3-billion-arr-42-billion-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">ARR hits <strong>$3.3B</strong> with 50%+ growth</span>
+        </a><a href="https://sacra.com/c/canva/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>240M MAUs</strong>, up 49% YoY</span>
+        </a><a href="https://sacra.com/c/canva/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AI tools used <strong>800M times/month</strong> (+700% YoY)</span>
+        </a><a href="https://techcrunch.com/2024/01/26/design-software-maker-canva-acquires-affinity/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Acquired <strong>Affinity</strong> for ~$380M</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2024-09-17/canva-hires-ex-zoom-cfo-ahead-of-expected-ipo" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Hired <strong>ex-Zoom CFO</strong> for IPO prep</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://api.time.com/wp-content/uploads/2023/05/time-next-generation-leaders-melanie-perkins.jpg" alt="Melanie Perkins" class="leader-photo">
+            <div><div class="leader-name">Melanie Perkins</div>
+            <div class="leader-role">Co-founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/melanieperkins/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://www.uwa.edu.au/news/-/media/project/uwa/uwa/newsroom/card-image/2022/cliff_obrecht_card.jpg" alt="Cliff Obrecht" class="leader-photo">
+            <div><div class="leader-name">Cliff Obrecht</div>
+            <div class="leader-role">Co-founder &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/cliff-obrecht-79ba9920/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://themaninblue.com/wp-content/uploads/2025/04/Cameron-Headshot.png" alt="Cameron Adams" class="leader-photo">
+            <div><div class="leader-name">Cameron Adams</div>
+            <div class="leader-role">Co-founder &amp; CPO</div></div>
+            <a href="https://www.linkedin.com/in/themaninblue/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://blackbird.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">Blackbird Ventures</span>
+        </a><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a><a href="https://www.generalcatalyst.com/" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://www.felicis.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Felicis Ventures</span>
+        </a><a href="https://www.troweprice.com/" target="_blank" class="investor-card">
+            <span class="investor-name">T. Rowe Price</span>
+        </a><a href="https://www.franklintempleton.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Franklin Templeton</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Canva Pty Ltd</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.canva.com" target="_blank" class="detail-value">www.canva.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2013</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">4,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Sydney, Australia</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

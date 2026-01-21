@@ -1,0 +1,5297 @@
+{
+  "INSITRO": {
+    "ticker": "INSITRO",
+    "name": "Insitro",
+    "logo": "https://logo.clearbit.com/insitro.com",
+    "tagline": "Accelerating drug discovery by combining machine learning with biology at scale",
+    "tags": [
+      "Biotech",
+      "AI",
+      "Drug Discovery",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2.5B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$643M"
+      },
+      {
+        "label": "Founded",
+        "value": "2018"
+      },
+      {
+        "label": "Headcount",
+        "value": "260+"
+      }
+    ],
+    "overview": "Insitro is an AI-first drug discovery company founded in 2018 by Daphne Koller, Stanford professor and Coursera co-founder. The company uses machine learning to redefine disease biology and accelerate drug development. Insitro raised $643M+ at $2.5B valuation from investors including T. Rowe Price, ARCH Ventures, Andreessen Horowitz, and Jeff Bezos. Major pharma partnerships include Gilead (metabolic diseases) and Bristol Myers Squibb (NASH, ALS). CEO Koller was a 2004 MacArthur 'genius' grant recipient.",
+    "products": [
+      {
+        "name": "Insitro Machine Learning Platform",
+        "description": "AI for drug discovery",
+        "url": "https://www.insitro.com/platform"
+      },
+      {
+        "name": "Cellular Disease Models",
+        "description": "Patient-derived cell systems",
+        "url": "https://www.insitro.com/platform"
+      },
+      {
+        "name": "Data Integration Platform",
+        "description": "Clinical + cellular data fusion",
+        "url": "https://www.insitro.com/platform"
+      },
+      {
+        "name": "Target Discovery",
+        "description": "AI-identified drug targets",
+        "url": "https://www.insitro.com/pipeline"
+      },
+      {
+        "name": "Biomarker Development",
+        "description": "Predictive biomarkers",
+        "url": "https://www.insitro.com/pipeline"
+      }
+    ],
+    "highlights_title": "Latest news on Insitro",
+    "highlights": [
+      {
+        "text": "<strong>Lilly partnership</strong> for metabolic diseases (Oct 2024)",
+        "url": "https://tracxn.com/d/companies/insitro/__odGYTUCwnx0afpj8iTT4rl2HmWecGxDNRpU_q1qy7AU",
+        "date": "2024"
+      },
+      {
+        "text": "Valuation <strong>$2.5B</strong>",
+        "url": "https://www.statnews.com/2024/01/07/jpm-2024-insitro-biotech-ai-drug-development-cancer-als-liver-disease/"
+      },
+      {
+        "text": "Total raised <strong>$643M+</strong>",
+        "url": "https://tracxn.com/d/companies/insitro/__odGYTUCwnx0afpj8iTT4rl2HmWecGxDNRpU_q1qy7AU"
+      },
+      {
+        "text": "<strong>Gilead and BMS</strong> collaborations",
+        "url": "https://www.statnews.com/2024/01/07/jpm-2024-insitro-biotech-ai-drug-development-cancer-als-liver-disease/"
+      },
+      {
+        "text": "CEO: <strong>MacArthur genius</strong>, Coursera co-founder",
+        "url": "https://www.cppinvestments.com/insight-institute/ai-first-daphne-kollers-plan-to-revolutionize-drug-discovery/"
+      },
+      {
+        "text": "<strong>260+ employees</strong>, 107K sq ft labs",
+        "url": "https://www.statnews.com/2024/01/07/jpm-2024-insitro-biotech-ai-drug-development-cancer-als-liver-disease/"
+      },
+      {
+        "text": "Backed by <strong>Bezos, a16z, ARCH</strong>",
+        "url": "https://www.clay.com/dossier/insitro-funding"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Daphne Koller",
+        "role": "Founder & CEO",
+        "photo": "https://cdn.theorg.com/f6af2065-9cff-4b36-999a-002142fb6c49_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/daphne-koller-4053a820/"
+      },
+      {
+        "name": "Mary Rozenman",
+        "role": "CFO & CBO",
+        "photo": "https://cdn.theorg.com/e3dcadc7-4d93-4733-9c40-f04c77847386_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/maryrozenman/"
+      },
+      {
+        "name": "S. Michael Rothenberg",
+        "role": "Chief Medical Officer",
+        "photo": "https://cdn.theorg.com/1806d458-08cb-44ca-96e0-ac8f681bf7ae_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/smichaelrothenberg/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "T. Rowe Price",
+        "url": "https://www.troweprice.com/"
+      },
+      {
+        "name": "ARCH Venture Partners",
+        "url": "https://www.archventure.com/"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "GV (Google Ventures)",
+        "url": "https://www.gv.com/"
+      },
+      {
+        "name": "Casdin Capital",
+        "url": "https://www.casdincapital.com/"
+      },
+      {
+        "name": "Jeff Bezos",
+        "url": "https://www.bezosexpeditions.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Aug 2021",
+        "amount": "$400M",
+        "round": "Series C",
+        "valuation": "$2.5B",
+        "investors_html": "T. Rowe Price, ARCH, Casdin"
+      },
+      {
+        "date": "Mar 2020",
+        "amount": "$143M",
+        "round": "Series B",
+        "valuation": "—",
+        "investors_html": "GV, a16z, ARCH"
+      },
+      {
+        "date": "2018",
+        "amount": "$100M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "a16z, ARCH, GV, Foresite, Third Rock"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Insitro Inc.",
+      "website": "https://www.insitro.com",
+      "website_display": "insitro.com",
+      "founded": "2018",
+      "headcount": "260+",
+      "hq": "South San Francisco, California",
+      "twitter": "https://twitter.com/insaboratoryitro",
+      "linkedin": "https://www.linkedin.com/company/insitro/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Total Raised, $M",
+          "badge_text": "$643M+",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2018",
+              "value": "$100M",
+              "height": 27
+            },
+            {
+              "label": "2020",
+              "value": "$243M",
+              "height": 64
+            },
+            {
+              "label": "2021",
+              "value": "$643M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "IAD-FRANCE": {
+    "ticker": "IAD-FRANCE",
+    "name": "IAD FRANCE",
+    "logo": "/assets/logos/IAD_France.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IAD FRANCE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IAD FRANCE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IAD FRANCE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IAD FRANCE",
+      "website": "https://iadfrance.com",
+      "website_display": "iadfrance.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ICAPITAL-NETWORK": {
+    "ticker": "ICAPITAL-NETWORK",
+    "name": "ICAPITAL NETWORK",
+    "logo": "/assets/logos/iCapital_Network.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ICAPITAL NETWORK is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ICAPITAL NETWORK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ICAPITAL NETWORK",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ICAPITAL NETWORK",
+      "website": "https://icapitalnetwork.com",
+      "website_display": "icapitalnetwork.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ICARBONX": {
+    "ticker": "ICARBONX",
+    "name": "ICARBONX",
+    "logo": "/assets/logos/iCarbonX.png",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ICARBONX is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ICARBONX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ICARBONX",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ICARBONX",
+      "website": "https://icarbonx.com",
+      "website_display": "icarbonx.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ICERTIS": {
+    "ticker": "ICERTIS",
+    "name": "ICERTIS",
+    "logo": "/assets/logos/Icertis.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ICERTIS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ICERTIS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ICERTIS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ICERTIS",
+      "website": "https://icertis.com",
+      "website_display": "icertis.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ICIMS": {
+    "ticker": "ICIMS",
+    "name": "ICIMS",
+    "logo": "/assets/logos/iCIMS.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ICIMS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ICIMS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ICIMS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ICIMS",
+      "website": "https://icims.com",
+      "website_display": "icims.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ICON": {
+    "ticker": "ICON",
+    "name": "ICON",
+    "logo": "/assets/logos/ICON.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ICON is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ICON main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ICON",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ICON",
+      "website": "https://icon.com",
+      "website_display": "icon.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IDME": {
+    "ticker": "IDME",
+    "name": "ID.me",
+    "logo": "/assets/logos/ID.me.jpeg",
+    "tagline": "Digital identity verification platform securing access to government services and benefits",
+    "tags": [
+      "Digital Identity",
+      "Government Services",
+      "Fraud Prevention",
+      "NIST Certified",
+      "Identity Verification"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Sep 2025",
+        "value": "$2B+"
+      },
+      {
+        "label": "Total Users",
+        "value": "152M+"
+      },
+      {
+        "label": "Federal Agencies",
+        "value": "20"
+      },
+      {
+        "label": "State Agencies",
+        "value": "45"
+      }
+    ],
+    "overview": "ID.me is a leading digital identity verification platform that simplifies how individuals securely prove their identity online. Founded in 2010 by Blake Hall, a decorated Army Ranger, the company has evolved from serving military communities to becoming the trusted identity partner for government agencies, healthcare organizations, and enterprises. ID.me enables users to verify their identity once and seamlessly access services across multiple platforms without repeated verification. As of 2025, the platform serves over 152 million users, including 20 federal agencies, 45 state government agencies, and more than 70 healthcare organizations, preventing billions in fraud while ensuring secure access to critical services.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ID.me main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ID.me",
+    "highlights": [
+      {
+        "text": "Raised $340M in Series E funding at $2B+ valuation led by Ribbit Capital.",
+        "url": ""
+      },
+      {
+        "text": "Expanded to 20 federal agencies and 45 state government agencies.",
+        "url": ""
+      },
+      {
+        "text": "Served 152+ million users with government identity verification.",
+        "url": ""
+      },
+      {
+        "text": "Prevented $270B+ in identity fraud across government programs.",
+        "url": ""
+      },
+      {
+        "text": "Enhanced IRS integration with optional facial recognition alternatives.",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Federal Government Portal: Access to IRS, SSA, VA, and other federal services.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ID.me",
+      "website": "https://id.me.com",
+      "website_display": "id.me.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IFIT": {
+    "ticker": "IFIT",
+    "name": "IFIT",
+    "logo": "/assets/logos/iFIT.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IFIT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IFIT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IFIT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IFIT",
+      "website": "https://ifit.com",
+      "website_display": "ifit.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IFOOD": {
+    "ticker": "IFOOD",
+    "name": "IFOOD",
+    "logo": "/assets/logos/iFood.jpeg",
+    "tagline": "Revolutionizing food delivery and dining",
+    "tags": [
+      "FoodTech",
+      "Delivery",
+      "Restaurant Tech",
+      "Food Innovation",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Food"
+      },
+      {
+        "label": "Country",
+        "value": "Brazil"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IFOOD is a food company focused on innovation and growth. The company operates in the Brazil market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IFOOD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IFOOD",
+    "highlights": [
+      {
+        "text": "Leading food company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Brazil",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IFOOD",
+      "website": "https://ifood.com",
+      "website_display": "ifood.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ILLUMIO": {
+    "ticker": "ILLUMIO",
+    "name": "ILLUMIO",
+    "logo": "/assets/logos/Illumio.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ILLUMIO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ILLUMIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ILLUMIO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ILLUMIO",
+      "website": "https://illumio.com",
+      "website_display": "illumio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMBUE": {
+    "ticker": "IMBUE",
+    "name": "IMBUE",
+    "logo": "/assets/logos/Imbue.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMBUE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMBUE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMBUE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMBUE",
+      "website": "https://imbue.com",
+      "website_display": "imbue.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMMUNAI": {
+    "ticker": "IMMUNAI",
+    "name": "IMMUNAI",
+    "logo": "/assets/logos/Immunai.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMMUNAI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMMUNAI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMMUNAI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMMUNAI",
+      "website": "https://immunai.com",
+      "website_display": "immunai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMMUTA": {
+    "ticker": "IMMUTA",
+    "name": "IMMUTA",
+    "logo": "/assets/logos/Immuta.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMMUTA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMMUTA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMMUTA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMMUTA",
+      "website": "https://immuta.com",
+      "website_display": "immuta.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMMUTABLE-SYSTEMS": {
+    "ticker": "IMMUTABLE-SYSTEMS",
+    "name": "IMMUTABLE SYSTEMS",
+    "logo": "/assets/logos/Immutable_Systems.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMMUTABLE SYSTEMS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMMUTABLE SYSTEMS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMMUTABLE SYSTEMS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMMUTABLE SYSTEMS",
+      "website": "https://immutablesystems.com",
+      "website_display": "immutablesystems.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMPACTCOM": {
+    "ticker": "IMPACTCOM",
+    "name": "IMPACT.COM",
+    "logo": "/assets/logos/impact.com.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMPACT.COM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMPACT.COM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMPACT.COM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMPACT.COM",
+      "website": "https://impactcom.com",
+      "website_display": "impactcom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMPLY": {
+    "ticker": "IMPLY",
+    "name": "IMPLY",
+    "logo": "/assets/logos/Imply.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMPLY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMPLY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMPLY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMPLY",
+      "website": "https://imply.com",
+      "website_display": "imply.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMPOSSIBLE-FOODS": {
+    "ticker": "IMPOSSIBLE-FOODS",
+    "name": "IMPOSSIBLE FOODS",
+    "logo": "/assets/logos/Impossible_Foods.png",
+    "tagline": "Revolutionizing food delivery and dining",
+    "tags": [
+      "FoodTech",
+      "Delivery",
+      "Restaurant Tech",
+      "Food Innovation",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Food"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMPOSSIBLE FOODS is a food company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMPOSSIBLE FOODS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMPOSSIBLE FOODS",
+    "highlights": [
+      {
+        "text": "Leading food company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMPOSSIBLE FOODS",
+      "website": "https://impossiblefoods.com",
+      "website_display": "impossiblefoods.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IMPROBABLE": {
+    "ticker": "IMPROBABLE",
+    "name": "IMPROBABLE",
+    "logo": "/assets/logos/Improbable.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IMPROBABLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IMPROBABLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IMPROBABLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IMPROBABLE",
+      "website": "https://improbable.com",
+      "website_display": "improbable.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INARI": {
+    "ticker": "INARI",
+    "name": "INARI",
+    "logo": "/assets/logos/Inari.svg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INARI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INARI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INARI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INARI",
+      "website": "https://inari.com",
+      "website_display": "inari.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INCLUDED-HEALTH": {
+    "ticker": "INCLUDED-HEALTH",
+    "name": "INCLUDED HEALTH",
+    "logo": "/assets/logos/Included_Health.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INCLUDED HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INCLUDED HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INCLUDED HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INCLUDED HEALTH",
+      "website": "https://includedhealth.com",
+      "website_display": "includedhealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INCODE-TECHNOLOGIES": {
+    "ticker": "INCODE-TECHNOLOGIES",
+    "name": "INCODE TECHNOLOGIES",
+    "logo": "/assets/logos/Incode_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INCODE TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INCODE TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INCODE TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INCODE TECHNOLOGIES",
+      "website": "https://incodetechnologies.com",
+      "website_display": "incodetechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INCRED": {
+    "ticker": "INCRED",
+    "name": "INCRED",
+    "logo": "/assets/logos/InCred.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INCRED is a technology company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INCRED main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INCRED",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INCRED",
+      "website": "https://incred.com",
+      "website_display": "incred.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INCREDIBLE-HEALTH": {
+    "ticker": "INCREDIBLE-HEALTH",
+    "name": "INCREDIBLE HEALTH",
+    "logo": "/assets/logos/Incredible_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INCREDIBLE HEALTH is a healthcare company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INCREDIBLE HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INCREDIBLE HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INCREDIBLE HEALTH",
+      "website": "https://incrediblehealth.com",
+      "website_display": "incrediblehealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INDRIVE": {
+    "ticker": "INDRIVE",
+    "name": "INDRIVE",
+    "logo": "/assets/logos/inDrive.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INDRIVE is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INDRIVE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INDRIVE",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INDRIVE",
+      "website": "https://indrive.com",
+      "website_display": "indrive.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INFARM": {
+    "ticker": "INFARM",
+    "name": "INFARM",
+    "logo": "/assets/logos/Infarm.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INFARM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INFARM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INFARM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INFARM",
+      "website": "https://infarm.com",
+      "website_display": "infarm.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INFINITE-REALITY": {
+    "ticker": "INFINITE-REALITY",
+    "name": "INFINITE REALITY",
+    "logo": "/assets/logos/Infinite_Reality.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INFINITE REALITY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INFINITE REALITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INFINITE REALITY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INFINITE REALITY",
+      "website": "https://infinitereality.com",
+      "website_display": "infinitereality.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INFLECTION-AI": {
+    "ticker": "INFLECTION-AI",
+    "name": "INFLECTION AI",
+    "logo": "/assets/logos/Inflection_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INFLECTION AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INFLECTION AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INFLECTION AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INFLECTION AI",
+      "website": "https://inflectionai.com",
+      "website_display": "inflectionai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INFOBIP": {
+    "ticker": "INFOBIP",
+    "name": "INFOBIP",
+    "logo": "/assets/logos/Infobip.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INFOBIP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INFOBIP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INFOBIP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INFOBIP",
+      "website": "https://infobip.com",
+      "website_display": "infobip.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INFRAMARKET": {
+    "ticker": "INFRAMARKET",
+    "name": "INFRA.MARKET",
+    "logo": "/assets/logos/Infra.Market.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INFRA.MARKET is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INFRA.MARKET main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INFRA.MARKET",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INFRA.MARKET",
+      "website": "https://inframarket.com",
+      "website_display": "inframarket.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INJECTIVE": {
+    "ticker": "INJECTIVE",
+    "name": "INJECTIVE",
+    "logo": "/assets/logos/Injective.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INJECTIVE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INJECTIVE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INJECTIVE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INJECTIVE",
+      "website": "https://injective.com",
+      "website_display": "injective.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INMOBI": {
+    "ticker": "INMOBI",
+    "name": "INMOBI",
+    "logo": "/assets/logos/InMobi.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INMOBI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INMOBI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INMOBI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INMOBI",
+      "website": "https://inmobi.com",
+      "website_display": "inmobi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INMYSHOW": {
+    "ticker": "INMYSHOW",
+    "name": "INMYSHOW",
+    "logo": "/assets/logos/InMyShow.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INMYSHOW is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INMYSHOW main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INMYSHOW",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INMYSHOW",
+      "website": "https://inmyshow.com",
+      "website_display": "inmyshow.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INNOVACCER": {
+    "ticker": "INNOVACCER",
+    "name": "INNOVACCER",
+    "logo": "/assets/logos/Innovaccer.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INNOVACCER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INNOVACCER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INNOVACCER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INNOVACCER",
+      "website": "https://innovaccer.com",
+      "website_display": "innovaccer.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INNOVUSION": {
+    "ticker": "INNOVUSION",
+    "name": "INNOVUSION",
+    "logo": "/assets/logos/Innovusion.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INNOVUSION is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INNOVUSION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INNOVUSION",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INNOVUSION",
+      "website": "https://innovusion.com",
+      "website_display": "innovusion.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INSIDER": {
+    "ticker": "INSIDER",
+    "name": "INSIDER",
+    "logo": "/assets/logos/Insider.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INSIDER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INSIDER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INSIDER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INSIDER",
+      "website": "https://insider.com",
+      "website_display": "insider.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INSIGHTSOFTWARE": {
+    "ticker": "INSIGHTSOFTWARE",
+    "name": "INSIGHTSOFTWARE",
+    "logo": "/assets/logos/insightsoftware.png",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INSIGHTSOFTWARE is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INSIGHTSOFTWARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INSIGHTSOFTWARE",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INSIGHTSOFTWARE",
+      "website": "https://insightsoftware.com",
+      "website_display": "insightsoftware.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INSILICO-MEDICINE": {
+    "ticker": "INSILICO-MEDICINE",
+    "name": "INSILICO MEDICINE",
+    "logo": "/assets/logos/Insilico_Medicine.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INSILICO MEDICINE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INSILICO MEDICINE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INSILICO MEDICINE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INSILICO MEDICINE",
+      "website": "https://insilicomedicine.com",
+      "website_display": "insilicomedicine.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INSPUR-CLOUD": {
+    "ticker": "INSPUR-CLOUD",
+    "name": "INSPUR CLOUD",
+    "logo": "/assets/logos/Inspur_Cloud.jpeg",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INSPUR CLOUD is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INSPUR CLOUD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INSPUR CLOUD",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INSPUR CLOUD",
+      "website": "https://inspurcloud.com",
+      "website_display": "inspurcloud.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INSTABASE": {
+    "ticker": "INSTABASE",
+    "name": "INSTABASE",
+    "logo": "/assets/logos/Instabase.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INSTABASE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INSTABASE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INSTABASE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INSTABASE",
+      "website": "https://instabase.com",
+      "website_display": "instabase.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INSTABOX": {
+    "ticker": "INSTABOX",
+    "name": "INSTABOX",
+    "logo": "/assets/logos/Instabox.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INSTABOX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INSTABOX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INSTABOX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INSTABOX",
+      "website": "https://instabox.com",
+      "website_display": "instabox.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INTELYCARE": {
+    "ticker": "INTELYCARE",
+    "name": "INTELYCARE",
+    "logo": "/assets/logos/IntelyCare.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INTELYCARE is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INTELYCARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INTELYCARE",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INTELYCARE",
+      "website": "https://intelycare.com",
+      "website_display": "intelycare.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INTERCOM": {
+    "ticker": "INTERCOM",
+    "name": "INTERCOM",
+    "logo": "/assets/logos/Intercom.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INTERCOM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INTERCOM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INTERCOM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INTERCOM",
+      "website": "https://intercom.com",
+      "website_display": "intercom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INTEROS": {
+    "ticker": "INTEROS",
+    "name": "INTEROS",
+    "logo": "/assets/logos/Interos.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INTEROS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INTEROS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INTEROS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INTEROS",
+      "website": "https://interos.com",
+      "website_display": "interos.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INTERSWITCH": {
+    "ticker": "INTERSWITCH",
+    "name": "INTERSWITCH",
+    "logo": "/assets/logos/Interswitch.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INTERSWITCH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INTERSWITCH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INTERSWITCH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INTERSWITCH",
+      "website": "https://interswitch.com",
+      "website_display": "interswitch.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INTRABIO": {
+    "ticker": "INTRABIO",
+    "name": "INTRABIO",
+    "logo": "/assets/logos/IntraBio.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INTRABIO is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INTRABIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INTRABIO",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INTRABIO",
+      "website": "https://intrabio.com",
+      "website_display": "intrabio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INVESTCLOUD": {
+    "ticker": "INVESTCLOUD",
+    "name": "INVESTCLOUD",
+    "logo": "/assets/logos/InvestCloud.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INVESTCLOUD is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INVESTCLOUD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INVESTCLOUD",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INVESTCLOUD",
+      "website": "https://investcloud.com",
+      "website_display": "investcloud.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INVISIBLE-TECHNOLOGIES": {
+    "ticker": "INVISIBLE-TECHNOLOGIES",
+    "name": "INVISIBLE TECHNOLOGIES",
+    "logo": "/assets/logos/Invisible_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INVISIBLE TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INVISIBLE TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INVISIBLE TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INVISIBLE TECHNOLOGIES",
+      "website": "https://invisibletechnologies.com",
+      "website_display": "invisibletechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INVOCA": {
+    "ticker": "INVOCA",
+    "name": "INVOCA",
+    "logo": "/assets/logos/Invoca.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INVOCA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INVOCA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INVOCA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INVOCA",
+      "website": "https://invoca.com",
+      "website_display": "invoca.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "INXEPTION": {
+    "ticker": "INXEPTION",
+    "name": "INXEPTION",
+    "logo": "/assets/logos/Inxeption.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "INXEPTION is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "INXEPTION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on INXEPTION",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "INXEPTION",
+      "website": "https://inxeption.com",
+      "website_display": "inxeption.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IONET": {
+    "ticker": "IONET",
+    "name": "IO.NET",
+    "logo": "/assets/logos/io.net.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IO.NET is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IO.NET main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IO.NET",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IO.NET",
+      "website": "https://ionet.com",
+      "website_display": "ionet.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IQM-QUANTUM-COMPUTERS": {
+    "ticker": "IQM-QUANTUM-COMPUTERS",
+    "name": "IQM QUANTUM COMPUTERS",
+    "logo": "/assets/logos/IQM_Quantum_Computers.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IQM QUANTUM COMPUTERS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IQM QUANTUM COMPUTERS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IQM QUANTUM COMPUTERS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IQM QUANTUM COMPUTERS",
+      "website": "https://iqmquantumcomputers.com",
+      "website_display": "iqmquantumcomputers.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IRONCLAD": {
+    "ticker": "IRONCLAD",
+    "name": "IRONCLAD",
+    "logo": "/assets/logos/Ironclad.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IRONCLAD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IRONCLAD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IRONCLAD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IRONCLAD",
+      "website": "https://ironclad.com",
+      "website_display": "ironclad.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ISAR-AEROSPACE": {
+    "ticker": "ISAR-AEROSPACE",
+    "name": "ISAR AEROSPACE",
+    "logo": "/assets/logos/Isar_Aerospace.png",
+    "tagline": "Advancing aerospace and space technology",
+    "tags": [
+      "Aerospace",
+      "Space Technology",
+      "Aviation",
+      "Advanced Engineering",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Aerospace"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ISAR AEROSPACE is a aerospace company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ISAR AEROSPACE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ISAR AEROSPACE",
+    "highlights": [
+      {
+        "text": "Leading aerospace company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ISAR AEROSPACE",
+      "website": "https://isaraerospace.com",
+      "website_display": "isaraerospace.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ISLAND": {
+    "ticker": "ISLAND",
+    "name": "ISLAND",
+    "logo": "/assets/logos/Island.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ISLAND is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ISLAND main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ISLAND",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ISLAND",
+      "website": "https://island.com",
+      "website_display": "island.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ISN-SOFTWARE-CORPORATION": {
+    "ticker": "ISN-SOFTWARE-CORPORATION",
+    "name": "ISN SOFTWARE CORPORATION",
+    "logo": "/assets/logos/ISN_Software_Corporation.jpeg",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ISN SOFTWARE CORPORATION is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ISN SOFTWARE CORPORATION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ISN SOFTWARE CORPORATION",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ISN SOFTWARE CORPORATION",
+      "website": "https://isnsoftwarecorporation.com",
+      "website_display": "isnsoftwarecorporation.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ISPOTTV": {
+    "ticker": "ISPOTTV",
+    "name": "ISPOT.TV",
+    "logo": "/assets/logos/iSpot.tv.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ISPOT.TV is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ISPOT.TV main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ISPOT.TV",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ISPOT.TV",
+      "website": "https://ispottv.com",
+      "website_display": "ispottv.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ITERABLE": {
+    "ticker": "ITERABLE",
+    "name": "ITERABLE",
+    "logo": "/assets/logos/Iterable.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ITERABLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ITERABLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ITERABLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ITERABLE",
+      "website": "https://iterable.com",
+      "website_display": "iterable.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ITRUSTCAPITAL-INC": {
+    "ticker": "ITRUSTCAPITAL-INC",
+    "name": "ITRUSTCAPITAL INC.",
+    "logo": "/assets/logos/iTrustCapital_Inc..jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ITRUSTCAPITAL INC. is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ITRUSTCAPITAL INC. main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ITRUSTCAPITAL INC.",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ITRUSTCAPITAL INC.",
+      "website": "https://itrustcapitalinc.com",
+      "website_display": "itrustcapitalinc.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IVALUA": {
+    "ticker": "IVALUA",
+    "name": "IVALUA",
+    "logo": "/assets/logos/Ivalua.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IVALUA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IVALUA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IVALUA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IVALUA",
+      "website": "https://ivalua.com",
+      "website_display": "ivalua.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "IYUNO-SDI": {
+    "ticker": "IYUNO-SDI",
+    "name": "IYUNO-SDI",
+    "logo": "/assets/logos/Iyuno-SDI.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "IYUNO-SDI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "IYUNO-SDI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on IYUNO-SDI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "IYUNO-SDI",
+      "website": "https://iyunosdi.com",
+      "website_display": "iyunosdi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

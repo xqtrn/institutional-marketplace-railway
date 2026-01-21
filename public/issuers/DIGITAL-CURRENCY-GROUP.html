@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Currency Group - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="digital-currency-group-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idAa3OD6Lx/idF5GfnZfV.png" alt="Digital Currency Group" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Digital Currency Group</h1>
+                    <p class="company-tagline">Building the foundation for a better financial system through blockchain and digital currency investments</p>
+                    <div class="company-tags"><span class="tag">Crypto</span><span class="tag">Venture Capital</span><span class="tag">Blockchain</span><span class="tag">Digital Assets</span><span class="tag">Decacorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Digital Currency Group (DCG) is a global enterprise that builds, buys, and invests in blockchain and digital currency companies. Founded by Barry Silbert in 2015, DCG has become one of the most influential investment firms in the cryptocurrency industry. The company owns major subsidiaries including Grayscale Investments (the world&#x27;s largest digital currency asset manager), Genesis (crypto lending and trading), Foundry (Bitcoin mining and staking), and Luno (emerging markets crypto exchange). DCG has invested in over 200 blockchain-related companies including Coinbase, Ripple, Circle, Chainalysis, and many others. The firm reached a $10 billion valuation in 2021 before facing challenges from the crypto winter and Genesis bankruptcy in 2023. Founder Barry Silbert owns nearly 40% of the company.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>November 2021</td>
+                <td>Series B</td>
+                <td>$700M</td>
+                <td>$10B</td>
+            </tr><tr>
+                <td>October 2015</td>
+                <td>Series A</td>
+                <td>Undisclosed</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Grayscale Investments</div>
+            <div class="product-desc">World&#x27;s largest digital currency asset manager offering crypto investment trusts including GBTC Bitcoin Trust</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Foundry</div>
+            <div class="product-desc">North America&#x27;s largest Bitcoin mining and staking infrastructure provider</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Luno</div>
+            <div class="product-desc">Digital currency exchange serving emerging markets in Africa, Southeast Asia, and Europe</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DCG Venture Portfolio</div>
+            <div class="product-desc">Strategic investments in 200+ blockchain companies across payments, infrastructure, trading, and DeFi</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Digital Currency Group</h2>
+                        <div class="highlights-list"><a href="https://blockworks.co/news/digital-currency-group-raises-700m-now-valued-at-10b" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DCG raises $700M at $10B valuation from SoftBank and CapitalG</span>
+        </a><a href="https://www.reuters.com/technology/grayscale-bitcoin-trust-converts-etf-2024-01-11/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Grayscale Bitcoin Trust converts to spot ETF after SEC approval</span>
+        </a><a href="https://fortune.com/crypto/2023/01/19/genesis-bankruptcy-crypto-lending/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Genesis files for bankruptcy amid FTX contagion impact</span>
+        </a><a href="https://www.theblock.co/post/323456/barry-silbert-launches-yuma-ai" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Barry Silbert launches Yuma decentralized AI company</span>
+        </a><a href="https://fortune.com/crypto/2024/02/12/digital-currency-group-barry-silbert-grayscale-genesis-fourth-quarter/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DCG reports $275M EBITDA and $749M revenue for 2023</span>
+        </a><a href="https://www.coindesk.com/business/2023/07/18/foundry-usa-mining-pool/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Foundry becomes largest Bitcoin mining pool in North America</span>
+        </a><a href="https://fortune.com/crypto/2025/01/30/billionaire-barry-silberts-digital-currency-group-launches-crypto-mining-venture-fortitude/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Fortitude mining venture launched</strong> (Jan 2025)—spun out from Foundry, largest BTC pool 30%+ hashrate</span>
+        </a><a href="https://dcg.co/portfolio" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>51% revenue growth Q1 2024</strong>—$229M revenue, Grayscale $45B+ AUM, 150+ portfolio investments</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Barry+Silbert&amp;background=1E88E5&amp;color=fff&amp;size=128" alt="Barry Silbert" class="leader-photo">
+            <div><div class="leader-name">Barry Silbert</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/barrysilbert/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/e5b1a3b1-bf83-4ea2-9b65-7f09abcce3eb_medium.jpg" alt="Mark Murphy" class="leader-photo">
+            <div><div class="leader-name">Mark Murphy</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/murphymark/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/e1fd9c3e-da78-4fb7-a7c4-7a3751a6eeea_medium.jpg" alt="Mark Shifke" class="leader-photo">
+            <div><div class="leader-name">Mark Shifke</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/markshifke/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/7e9948fa-6196-4508-8ae5-6a6df361ce47_medium.jpg" alt="Aimie Killeen" class="leader-photo">
+            <div><div class="leader-name">Aimie Killeen</div>
+            <div class="leader-role">Chief Legal Officer</div></div>
+            <a href="https://www.linkedin.com/in/aimiekilleen/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://group.softbank/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Group</span>
+        </a><a href="https://www.capitalg.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CapitalG (Alphabet)</span>
+        </a><a href="https://ribbitcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Ribbit Capital</span>
+        </a><a href="https://www.baincapitalventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Bain Capital Ventures</span>
+        </a><a href="https://www.mastercard.com/" target="_blank" class="investor-card">
+            <span class="investor-name">MasterCard</span>
+        </a><a href="https://capitalg.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CapitalG</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Digital Currency Group, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://dcg.co/" target="_blank" class="detail-value">dcg.co/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Stamford, Connecticut</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

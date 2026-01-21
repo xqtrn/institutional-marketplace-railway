@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="spacex-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/id2g3lee9x/theme/dark/logo.svg" alt="SpaceX" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">SpaceX</h1>
+                    <p class="company-tagline">Designing, manufacturing and launching advanced rockets and spacecraft to revolutionize space technology and enable humanity to become a multi-planetary species</p>
+                    <div class="company-tags"><span class="tag">Aerospace</span><span class="tag">Space Technology</span><span class="tag">Starlink</span><span class="tag">Rockets</span><span class="tag">United States</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation company founded in 2002 by Elon Musk. The company designs, manufactures, and launches advanced rockets and spacecraft with the goal of reducing space transportation costs and enabling Mars colonization. SpaceX operates the Falcon 9 and Falcon Heavy rockets, the Dragon spacecraft, and is developing the Starship—the largest and most powerful rocket ever built. The company&#x27;s Starlink satellite internet constellation has become its largest revenue driver, with 2025 revenue projected at $13.3 billion. SpaceX is in talks to raise new funding at a $400 billion valuation as of July 2025, making it one of the most valuable private companies in the world. Total funding raised to date: $11.9 billion over 31 rounds from 229 investors.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>Jul 2025</td>
+                <td>Secondary Tender</td>
+                <td>$1B</td>
+                <td>$400B</td>
+            </tr><tr>
+                <td>Jan 2025</td>
+                <td>Series J</td>
+                <td>—</td>
+                <td>$350B+</td>
+            </tr><tr>
+                <td>Dec 2024</td>
+                <td>Secondary</td>
+                <td>$1.25B</td>
+                <td>$350B</td>
+            </tr><tr>
+                <td>Jun 2024</td>
+                <td>Secondary</td>
+                <td>—</td>
+                <td>$210B</td>
+            </tr><tr>
+                <td>Dec 2023</td>
+                <td>Series M</td>
+                <td>$750M</td>
+                <td>$180B</td>
+            </tr><tr>
+                <td>Jan 2023</td>
+                <td>Series L</td>
+                <td>$750M</td>
+                <td>$137B</td>
+            </tr><tr>
+                <td>Jul 2022</td>
+                <td>Series K</td>
+                <td>$250M</td>
+                <td>$127B</td>
+            </tr><tr>
+                <td>Jun 2022</td>
+                <td>Series K</td>
+                <td>$1.68B</td>
+                <td>$125B</td>
+            </tr><tr>
+                <td>Feb 2021</td>
+                <td>Series J</td>
+                <td>$1.61B</td>
+                <td>$74B</td>
+            </tr><tr>
+                <td>Aug 2020</td>
+                <td>Series J</td>
+                <td>$1.9B</td>
+                <td>$46B</td>
+            </tr><tr>
+                <td>Jun 2019</td>
+                <td>Series I</td>
+                <td>$1.33B</td>
+                <td>$33B</td>
+            </tr><tr>
+                <td>Apr 2019</td>
+                <td>Series H</td>
+                <td>$536M</td>
+                <td>$33.3B</td>
+            </tr><tr>
+                <td>Jan 2015</td>
+                <td>Series F</td>
+                <td>$1B</td>
+                <td>$12B</td>
+            </tr><tr>
+                <td>Oct 2010</td>
+                <td>Series E</td>
+                <td>$50M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Aug 2008</td>
+                <td>Series D</td>
+                <td>$20M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Mar 2005</td>
+                <td>Series B</td>
+                <td>$50M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Dec 2002</td>
+                <td>Series A</td>
+                <td>$12.1M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Falcon 9</div>
+            <div class="product-desc">Partially reusable two-stage rocket designed for reliable transport of people and payloads to Earth orbit and beyond</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Falcon Heavy</div>
+            <div class="product-desc">Most powerful operational rocket in the world, capable of lifting nearly 64 metric tons to orbit</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Starship</div>
+            <div class="product-desc">Fully reusable transportation system designed for crew and cargo to Earth orbit, Moon, Mars and beyond</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Dragon</div>
+            <div class="product-desc">Spacecraft capable of carrying cargo and crew to the International Space Station and other destinations</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Starlink</div>
+            <div class="product-desc">Satellite internet constellation providing high-speed, low-latency broadband to 8.5M+ subscribers in 100+ countries</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Starshield</div>
+            <div class="product-desc">Government and military-focused satellite network leveraging Starlink technology for national security applications</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on SpaceX</h2>
+                        <div class="highlights-list"><a href="https://fortune.com/2025/06/11/cathie-wood-ark-invest-spacex-elon-musk-mars-starlink/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2030</span>
+            <span class="highlight-title">ARK Invest projects <strong>$2.5 trillion valuation by 2030</strong></span>
+        </a><a href="https://www.defense.gov/News/Contracts/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2027</span>
+            <span class="highlight-title">Secured <strong>$537M Pentagon contract</strong> to support Ukraine's military through Starlink (2027)</span>
+        </a><a href="https://techcrunch.com/2025/07/08/spacex-in-talks-to-raise-new-funding-at-400b-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">In talks to raise new funding at <strong>$400B valuation</strong> (July 2025) - combining primary equity + tender offer</span>
+        </a><a href="https://www.cnbc.com/2024/12/11/spacex-is-buying-up-to-1point25-billion-of-insider-stock-at-350-billion-valuation.html" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title">Reached <strong>$350B valuation</strong> in December 2024 through $1.25B secondary share sale at $185/share</span>
+        </a><a href="https://spacenews.com/starlink-outpaces-launches-spacex-enters-new-era-of-profitability/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title"><strong>Starlink revenue hit $7.7B in 2024</strong>, up 83% YoY, now 65% of total company revenue</span>
+        </a><a href="https://www.spacex.com/updates/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title"><strong>Starship completed first successful catch</strong> by tower chopsticks (Oct 2024)</span>
+        </a><a href="https://www.fool.com/investing/2025/02/10/its-official-starlink-is-spacexs-biggest-money-mak/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Surpassed <strong>8.5 million Starlink subscribers</strong> globally across 100+ countries</span>
+        </a><a href="https://www.reuters.com/business/aerospace-defense/spacex-wins-2-billion-pentagon-contract-golden-dome-satellite-program/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Won <strong>$2B Pentagon Golden Dome contract</strong> for satellite-based missile tracking system</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/9c06279e-b0c9-47c8-a42a-805ae0b40ad0_medium.jpg" alt="Elon Musk" class="leader-photo">
+            <div><div class="leader-name">Elon Musk</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/elonmusk/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/1261fa6f-d9ba-42d3-b07e-6a83d362fee2_medium.jpg" alt="Gwynne Shotwell" class="leader-photo">
+            <div><div class="leader-name">Gwynne Shotwell</div>
+            <div class="leader-role">President &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/gwynne-shotwell/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/449b48d4-5473-43f1-86af-525a9e10e3cd_medium.jpg" alt="Bret Johnsen" class="leader-photo">
+            <div><div class="leader-name">Bret Johnsen</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/bret-johnsen-1795126/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/0a7f7f54-cb5f-4656-9c4c-05149b70bd8e_medium.jpg" alt="Mark Juncosa" class="leader-photo">
+            <div><div class="leader-name">Mark Juncosa</div>
+            <div class="leader-role">VP, Vehicle Engineering</div></div>
+            <a href="https://www.linkedin.com/in/mark-juncosa-764a9551/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://foundersfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Founders Fund</span>
+        </a><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a><a href="https://a16z.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Andreessen Horowitz</span>
+        </a><a href="https://gigafund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Gigafund</span>
+        </a><a href="https://valorep.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Valor Equity Partners</span>
+        </a><a href="https://www.fidelity.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Fidelity Investments</span>
+        </a><a href="https://www.google.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Google</span>
+        </a><a href="https://www.baesystems.com/" target="_blank" class="investor-card">
+            <span class="investor-name">BAE Systems</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Space Exploration Technologies Corp.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.spacex.com" target="_blank" class="detail-value">www.spacex.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2002</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">13,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Hawthorne, California</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

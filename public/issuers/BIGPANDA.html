@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigPanda - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="bigpanda-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idNIVd3mCF/idCqc7i6B_.svg" alt="BigPanda" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">BigPanda</h1>
+                    <p class="company-tagline">The AI-powered autonomous operations platform transforming IT incident management</p>
+                    <div class="company-tags"><span class="tag">AIOps</span><span class="tag">IT Operations</span><span class="tag">Incident Management</span><span class="tag">Unicorn</span><span class="tag">Enterprise Software</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">BigPanda is the pioneering leader in AI-powered IT operations (AIOps), helping enterprises transform reactive and manual incident management into intelligent, automated workflows. Founded in 2012 by former Sequoia investor Assaf Resnick, BigPanda&#x27;s platform uses machine learning to correlate alerts from monitoring tools, identify root causes, and orchestrate rapid incident resolution. The platform integrates with 100+ tools including Datadog, ServiceNow, PagerDuty, and Slack. BigPanda serves hundreds of Fortune 500 enterprises, helping reduce alert noise by up to 99% and cut MTTR by 50%. The company launched Agentic IT Operations in 2025 to bring autonomous AI to the $200 billion ITOps market.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>January 2022</td>
+                <td>Series E</td>
+                <td>$190M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>April 2020</td>
+                <td>Series D</td>
+                <td>$50M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>October 2018</td>
+                <td>Series C</td>
+                <td>$50M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">BigPanda AIOps Platform</div>
+            <div class="product-desc">Core platform that ingests alerts from monitoring tools, correlates them into actionable incidents, and identifies probable root causes using AI</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AI Detection and Response (ADR)</div>
+            <div class="product-desc">Automates L1 incident workflows by detecting issues early, diagnosing with AI, and responding with machine precision</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Biggy AI</div>
+            <div class="product-desc">Context-aware incident management assistant that analyzes infrastructure data and provides insight-packed answers in natural language</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on BigPanda</h2>
+                        <div class="highlights-list"><a href="https://www.businesswire.com/news/home/20250528507389/en/BigPanda-Launches-Agentic-IT-Operations-to-Bring-Intelligent-Automation-to-the-200-billion-ITOps-Market" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">BigPanda launches Agentic IT Operations to bring intelligent automation to $200B ITOps market</span>
+        </a><a href="https://philiptaphouse.com/blog/bigpandas-november-2024-update-introducing-biggy-ai-more-integration-flexibility-and-future-facing-enhancements/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">BigPanda introduces Biggy AI context-aware incident management assistant in November 2024 release</span>
+        </a><a href="https://verinext.com/verinext-and-bigpanda-partner-to-revolutionize-incident-management-through-ai-driven-automation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Verinext partners with BigPanda to revolutionize incident management through AI-driven automation</span>
+        </a><a href="https://www.idevnews.com/stories/7331/BigPanda-AIOps-Adds-Root-Cause-Changes-To-Speed-Incident-and-Outage-Resolution" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">BigPanda AIOps adds root-cause changes to speed incident and outage resolution</span>
+        </a><a href="https://venturebeat.com/business/aiops-platform-bigpanda-nabs-190m-in-fresh-funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AIOps platform BigPanda raises $190M in Series E at $1.2B valuation</span>
+        </a><a href="https://news.crunchbase.com/venture/bigpanda-funding-unicorn-ai-it/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">BigPanda transforms into unicorn after $190M raise led by Advent International</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/fb7d3b24-ae82-4b17-af2d-22e6cf79b4bb_medium.jpg" alt="Assaf Resnick" class="leader-photo">
+            <div><div class="leader-name">Assaf Resnick</div>
+            <div class="leader-role">Co-Founder &amp; Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/assafresnick/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/e7e65699-a9a8-4a6b-8bc5-57a90651918a_medium.jpg" alt="Ed Tang" class="leader-photo">
+            <div><div class="leader-name">Ed Tang</div>
+            <div class="leader-role">Chief Financial Officer &amp; Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/edtang/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/bb077c1a-f639-4889-9831-ee2374a24dfd_medium.jpg" alt="Fred Koopmans" class="leader-photo">
+            <div><div class="leader-name">Fred Koopmans</div>
+            <div class="leader-role">Chief Product Officer</div></div>
+            <a href="https://www.linkedin.com/in/fredkoopmans/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/b77517aa-aa04-44f7-b4b3-4fbae738e3ba_medium.jpg" alt="Tom Melzl" class="leader-photo">
+            <div><div class="leader-name">Tom Melzl</div>
+            <div class="leader-role">Chief Revenue Officer</div></div>
+            <a href="https://www.linkedin.com/in/tommelzl/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.adventinternational.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Advent International</span>
+        </a><a href="https://www.insightpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Insight Partners</span>
+        </a><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a><a href="https://www.mayfield.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Mayfield Fund</span>
+        </a><a href="https://www.battery.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Battery Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">BigPanda Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.bigpanda.io/" target="_blank" class="detail-value">www.bigpanda.io/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2012</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">300+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Redwood City, California</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

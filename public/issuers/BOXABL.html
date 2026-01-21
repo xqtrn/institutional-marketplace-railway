@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxabl - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="boxabl-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idWKc7B-WS/id1Xm8l1oZ.svg" alt="Boxabl" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Boxabl</h1>
+                    <p class="company-tagline">Revolutionary modular housing company building foldable homes with automotive-style manufacturing efficiency</p>
+                    <div class="company-tags"><span class="tag">Modular Housing</span><span class="tag">PropTech</span><span class="tag">Manufacturing</span><span class="tag">Construction Tech</span><span class="tag">Pre-IPO</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Construction Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Boxabl is a modular housing company revolutionizing construction with its foldable Casita homes that can be mass-produced on automotive-style assembly lines. The flagship 361-square-foot Casita starts at $60,000 and ships flat to unfold on-site in hours. The company announced a SPAC merger with FG Merger in 2025, valuing Boxabl at $3.5 billion, with expected Nasdaq listing under ticker BXBL. Despite over 170,000 customer reservation deposits representing $10+ billion in indicated demand, Boxabl has delivered approximately 285 Casitas while scaling its Las Vegas factory to 4,000 homes annual capacity. Key 2025 regulatory approvals include California full climate zone modular approval and Nevada residential code compliance. The company also announced the Baby Box RV unit starting at $19,999 and made a Bitcoin treasury purchase in May 2025.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2025-01</td>
+                <td>SPAC Merger</td>
+                <td>$3.5B valuation</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Casita</div>
+            <div class="product-desc">361 sq ft foldable modular home starting at $60,000 with kitchen, bathroom, and bedroom</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Baby Box</div>
+            <div class="product-desc">Compact RV unit starting at $19,999 for mobile living and tiny home enthusiasts</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Boxabl Factory</div>
+            <div class="product-desc">Automotive-style manufacturing facility in Las Vegas with 4,000+ annual capacity</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Modular Platform</div>
+            <div class="product-desc">Stackable and expandable units that can connect for larger living spaces</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Boxabl</h2>
+                        <div class="highlights-list"><a href="https://news.crunchbase.com/real-estate-property-tech/tiny-home-builder-boxabl-spac-merger/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Boxabl announces SPAC merger with FG Merger at $3.5B valuation for Nasdaq listing</span>
+        </a><a href="https://media.hubtas.com/2024/12/05/boxabl-finishes-building-casita-700-representing-42000000-in-potential-revenue/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Reaches 700 Casitas built representing $42M in potential revenue</span>
+        </a><a href="https://www.btcc.com/en-US/academy/research-analysis/boxabl-stock-price-prediction-is-boxabl-stock-a-good-investment" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Over 170,000 customer reservations representing $10B+ indicated demand</span>
+        </a><a href="https://www.ipo.club/blog/boxab-10k-2024" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">California full climate zone modular approval received January 2025</span>
+        </a><a href="https://builtoffsite.com.au/news/boxabl-secures-us3-5b-valuation-while-fewer-than-300-casitas-have-been-delivered/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Nevada residential code compliance approval January 2025</span>
+        </a><a href="https://media.hubtas.com/2024/07/23/investing-in-boxabl-comprehensive-guide-and-analysis/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Las Vegas factory scales to 4,000+ homes annual production capacity</span>
+        </a><a href="https://www.ipo.club/deals/boxabl" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Purchases 10 Bitcoin as treasury diversification in May 2025</span>
+        </a><a href="https://www.boxabl.com/casita" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Launches Baby Box RV unit starting at $19,999</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d_medium.jpg" alt="Paolo Tiramani" class="leader-photo">
+            <div><div class="leader-name">Paolo Tiramani</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/paolotiramani/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e_medium.jpg" alt="Galiano Tiramani" class="leader-photo">
+            <div><div class="leader-name">Galiano Tiramani</div>
+            <div class="leader-role">Co-Founder &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/galianotiramani/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f_medium.jpg" alt="Kyle Denman" class="leader-photo">
+            <div><div class="leader-name">Kyle Denman</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/kyledenman/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a_medium.jpg" alt="Emmanuel Urquieta" class="leader-photo">
+            <div><div class="leader-name">Emmanuel Urquieta</div>
+            <div class="leader-role">Chief Medical Advisor (NASA)</div></div>
+            <a href="https://www.linkedin.com/in/emmanuelurquieta/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.boxabl.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Retail Investors (Regulation A)</span>
+        </a><a href="https://www.d1cap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">D1 Capital Partners (rumored)</span>
+        </a><a href="https://foundersfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Founders Fund (rumored)</span>
+        </a><a href="https://www.tesla.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Elon Musk (rumored customer)</span>
+        </a><a href="https://www.fgmerger.com/" target="_blank" class="investor-card">
+            <span class="investor-name">FG Merger (SPAC partner)</span>
+        </a><a href="https://www.d1capitalpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">D1 Capital Partners</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

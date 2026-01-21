@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile Robots - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="agile-robots-ag-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/idc92Y2cct/theme/light/logo.svg" alt="Agile Robots" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Agile Robots</h1>
+                    <p class="company-tagline">Building the intelligent robots that transform industries</p>
+                    <div class="company-tags"><span class="tag">Robotics</span><span class="tag">AI</span><span class="tag">Humanoid Robots</span><span class="tag">Automation</span><span class="tag">Physical AI</span><span class="tag">Industrial Tech</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Agile Robots is a Munich-based robotics unicorn founded in 2018 by experts from the German Aerospace Center (DLR). The company has built the most comprehensive AI-driven robotics portfolio in Europe, spanning force-sensitive robot arms (Diana 7, FR3, Thor Series), dexterous robotic hands, autonomous mobile robots (AMRs/AGVs), and the groundbreaking Agile ONE humanoid robot. Through strategic acquisitions including Franka Robotics, BÄR Automation, idealworks (BMW JV), thyssenkrupp Automation Engineering, and audEERING, Agile Robots has assembled a 2,500+ person team across 60 countries. The company maintains full in-house manufacturing and has doubled revenue year-over-year, reaching €200M in 2024. Backed by SoftBank Vision Fund 2, Foxconn, Hillhouse, and Sequoia, Agile Robots is targeting the $1.2-4 trillion humanoid robotics market opportunity by 2035.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>Sep 2021</td>
+                <td>Series C</td>
+                <td>$220M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2022</td>
+                <td>Strategic</td>
+                <td>$30M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2020</td>
+                <td>Series B</td>
+                <td>$100M+</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2019</td>
+                <td>Series A</td>
+                <td>$20M+</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Agile ONE</div>
+            <div class="product-desc">Industrial humanoid robot with world-leading dexterous hands, layered AI architecture, and real-world industrial data training - launching 2026</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Diana 7</div>
+            <div class="product-desc">7-axis force-controlled robot arm with AI-driven torque sensors in all joints, 7kg payload, ±0.05mm precision for automotive and electronics</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Diana 7 Med</div>
+            <div class="product-desc">Medical-grade robot for orthopedic, neurosurgery, dental procedures and ultrasound-guided diagnostics</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">FR3 &amp; Thor Series</div>
+            <div class="product-desc">Force-sensitive collaborative robot arms for precision industrial applications</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Agile Hand</div>
+            <div class="product-desc">Biomimetic robotic hand with fingertip and force-torque sensors for human-level dexterity</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AgileCore</div>
+            <div class="product-desc">Central AI software platform integrating all robotic systems with seamless fleet orchestration</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Agile Robots</h2>
+                        <div class="highlights-list"><a href="https://roboticsandautomationnews.com/2025/11/20/agile-robots-launches-its-first-humanoid-robot-for-industry/96733/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2026</span>
+            <span class="highlight-title">Building new Bavarian facility for in-house humanoid manufacturing starting 2026</span>
+        </a><a href="https://www.agile-robots.com/en/news/detail/agile-robots-launches-humanoid-robot-for-industry-agile-one/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">November 2025: Launched Agile ONE industrial humanoid robot with world-leading dexterous hands</span>
+        </a><a href="https://www.audeering.com/audeering-ai-audio-analysis-leader-partners-with-agile-robots/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">March 2025: Acquired audEERING AI audio analysis startup (70+ employees)</span>
+        </a><a href="https://www.agile-robots.com/en/news/detail/agile-robots-acquires-thyssenkrupp-automation-engineering-physical-ai-as-a-catalyst-for-industrial-transformation/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title">November 2024: Acquired thyssenkrupp Automation Engineering (650 experts, 10 locations in EU/NA)</span>
+        </a><a href="https://www.agile-robots.com/en/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title">2024: Revenue doubled to €200M; deployed 20,000+ robots globally</span>
+        </a><a href="https://www.agile-robots.com/en/news/detail/agile-robots-ag-acquires-robotics-specialist-franka-emika/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2023</span>
+            <span class="highlight-title">2023: Acquired cobot pioneer Franka Emika GmbH</span>
+        </a><a href="https://www.agile-robots.com/en/about-us/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Team grew to 2,500+ employees from 60 countries</span>
+        </a><a href="https://www.agile-robots.com/en/news/detail/series-c-financing-led-by-softbank-vision-fund-2/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">First intelligent robotics unicorn invested by SoftBank Vision Fund 2</span>
+        </a><a href="https://www.agile-robots.com/en/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Strategic BMW joint venture (idealworks) for mobile robotics</span>
+        </a><a href="https://www.agile-robots.com/en/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Full portfolio: cobot arms, humanoids, AMRs, AGVs, and AI platform</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/agile-robots-zhaopeng-chen_medium.jpg" alt="Zhaopeng Chen" class="leader-photo">
+            <div><div class="leader-name">Zhaopeng Chen</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/zhaopeng-chen/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/agile-robots-peter-meusel_medium.jpg" alt="Peter Meusel" class="leader-photo">
+            <div><div class="leader-name">Peter Meusel</div>
+            <div class="leader-role">Co-Founder &amp; Vice Chairman</div></div>
+            <a href="https://www.linkedin.com/in/peter-meusel/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/agile-robots-felix-keinath_medium.jpg" alt="Felix Keinath" class="leader-photo">
+            <div><div class="leader-name">Felix Keinath</div>
+            <div class="leader-role">Legal Director</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Dmitrij%20Forssilow&amp;background=3b82f6&amp;color=fff" alt="Dmitrij Forssilow" class="leader-photo">
+            <div><div class="leader-name">Dmitrij Forssilow</div>
+            <div class="leader-role">Head of Strategic Accounts</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://visionfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund 2</span>
+        </a><a href="https://www.fii-foxconn.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Foxconn Industrial Internet</span>
+        </a><a href="https://www.hillhousecap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Hillhouse Capital</span>
+        </a><a href="https://www.sequoiacap.com/china/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital China</span>
+        </a><a href="https://www.temasek.com.sg/" target="_blank" class="investor-card">
+            <span class="investor-name">Temasek</span>
+        </a><a href="https://www.chimerainvestment.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Chimera Investments (Abu Dhabi)</span>
+        </a><a href="https://www.gl.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">GL Ventures</span>
+        </a><a href="https://www.mi.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Xiaomi Group</span>
+        </a><a href="https://www.linear.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">Linear Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Agile Robots SE</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.agile-robots.com/" target="_blank" class="detail-value">www.agile-robots.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2018</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">2,500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Munich, Germany</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

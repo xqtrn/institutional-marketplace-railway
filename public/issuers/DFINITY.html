@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFINITY Foundation - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="dfinity-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idPYJBfLUL/idHPCYDT3F.svg" alt="DFINITY Foundation" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">DFINITY Foundation</h1>
+                    <p class="company-tagline">Non-profit foundation developing the Internet Computer Protocol for decentralized cloud computing</p>
+                    <div class="company-tags"><span class="tag">Blockchain</span><span class="tag">Web3</span><span class="tag">Decentralized Computing</span><span class="tag">Crypto</span><span class="tag">Swiss Foundation</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">DFINITY Foundation is a Swiss non-profit developing the Internet Computer Protocol (ICP), a blockchain that extends the functionality of the public internet to host smart contracts, web applications, and data at scale. Founded by computer scientist Dominic Williams, the project aims to create a &#x27;World Computer&#x27; that allows developers to build and run web applications entirely on blockchain without traditional cloud providers. The ICP network features 500% year-on-year growth in on-chain compute, AI capabilities for smart contracts, and cross-chain interoperability with Bitcoin and Ethereum. The ecosystem has distributed over $6M in grants to 239 projects across 41 countries.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2018</td>
+                <td>Series B</td>
+                <td>$102M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2017</td>
+                <td>Series A</td>
+                <td>$61M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Internet Computer Protocol</div>
+            <div class="product-desc">Layer-1 blockchain enabling smart contracts to serve web applications at web speed with infinite scalability</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Canisters</div>
+            <div class="product-desc">Smart contracts that can store data, serve web interfaces, and run machine learning models</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Chain Fusion</div>
+            <div class="product-desc">Cross-chain technology enabling native Bitcoin and Ethereum integration without bridges</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Internet Identity</div>
+            <div class="product-desc">Decentralized authentication system using passkeys and biometrics without passwords</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on DFINITY Foundation</h2>
+                        <div class="highlights-list"><a href="https://dfinity.org/blog/dfinity-2024-roadmap" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Internet Computer achieves 500% YoY growth in on-chain compute</span>
+        </a><a href="https://venturebeat.com/games/internet-computer-blockchain-has-raised-77m-dfinity-foundation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DFINITY launches AI capabilities for canister smart contracts</span>
+        </a><a href="https://dfinity.org/ecosystem" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">ICP ecosystem raises over $80M through decentralized fundraising</span>
+        </a><a href="https://dfinity.org/grants" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DFINITY distributes $6.25M in grants to 239 global projects</span>
+        </a><a href="https://internetcomputer.org/chainfusion" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Chain Fusion enables native Bitcoin and Ethereum integration</span>
+        </a><a href="https://medium.com/dfinity/internet-computer-2024-roadmap" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Internet Computer roadmap emphasizes multi-chain compatibility</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Dominic+Williams&amp;background=6366F1&amp;color=fff&amp;size=128" alt="Dominic Williams" class="leader-photo">
+            <div><div class="leader-name">Dominic Williams</div>
+            <div class="leader-role">Founder &amp; Chief Scientist</div></div>
+            <a href="https://www.linkedin.com/in/nicwilliams/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Diego+Prat&amp;background=4F46E5&amp;color=fff&amp;size=128" alt="Diego Prat" class="leader-photo">
+            <div><div class="leader-name">Diego Prat</div>
+            <div class="leader-role">VP Engineering</div></div>
+            <a href="https://www.linkedin.com/company/dfinity/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Jan+Camenisch&amp;background=7C3AED&amp;color=fff&amp;size=128" alt="Jan Camenisch" class="leader-photo">
+            <div><div class="leader-name">Jan Camenisch</div>
+            <div class="leader-role">VP Research</div></div>
+            <a href="https://www.linkedin.com/in/jancamenisch/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Lomesh+Dutta&amp;background=059669&amp;color=fff&amp;size=128" alt="Lomesh Dutta" class="leader-photo">
+            <div><div class="leader-name">Lomesh Dutta</div>
+            <div class="leader-role">VP Growth</div></div>
+            <a href="https://www.linkedin.com/in/lomeshdutta/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://a16z.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Andreessen Horowitz</span>
+        </a><a href="https://polychain.capital/" target="_blank" class="investor-card">
+            <span class="investor-name">Polychain Capital</span>
+        </a><a href="https://svangel.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SV Angel</span>
+        </a><a href="https://www.aspectventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Aspect Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">DFINITY Foundation</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://dfinity.org" target="_blank" class="detail-value">dfinity.org</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2016</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">270</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Zurich, Switzerland</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

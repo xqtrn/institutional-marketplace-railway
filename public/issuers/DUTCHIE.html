@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutchie - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="dutchie-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idq0h0WGxI/idMpjDCnkB.svg" alt="Dutchie" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Dutchie</h1>
+                    <p class="company-tagline">All-in-one cannabis technology platform powering 6,500+ dispensaries with POS, e-commerce, payments, and marketing solutions</p>
+                    <div class="company-tags"><span class="tag">Cannabis Tech</span><span class="tag">Unicorn</span><span class="tag">E-commerce</span><span class="tag">Point of Sale</span><span class="tag">Fintech</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Dutchie is the leading cannabis technology platform in North America, powering over 6,500 dispensaries and processing more than $22 billion in annual cannabis sales. The company provides an all-in-one solution including point of sale systems, e-commerce, payments processing, and loyalty marketing tools for cannabis retailers. Founded in 2017, Dutchie reached a peak valuation of $3.8 billion in 2021 backed by prominent investors including Tiger Global, Thrive Capital, and celebrity backers Snoop Dogg (Casa Verde Capital), Kevin Durant, and former Starbucks CEO Howard Schultz. The company has consolidated the cannabis tech market through strategic acquisitions including Greenbits and Leaf Logix.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2024-01</td>
+                <td>Series E</td>
+                <td>$100M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2021-10</td>
+                <td>Series D</td>
+                <td>$350M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2021-03</td>
+                <td>Series C</td>
+                <td>$200M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2020-10</td>
+                <td>Series B</td>
+                <td>$35M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Dutchie POS</div>
+            <div class="product-desc">All-in-one cannabis retail point of sale system with compliance tracking, inventory management, and customer check-in</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Dutchie Ecommerce</div>
+            <div class="product-desc">Online ordering and delivery platform enabling dispensaries to sell cannabis products with pickup, delivery, and kiosk options</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Dutchie Pay</div>
+            <div class="product-desc">Compliant cannabis payments solution enabling ACH and cashless transactions in the cannabis industry</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Dutchie CRM</div>
+            <div class="product-desc">Customer relationship and loyalty marketing platform with targeted messaging and rewards programs for dispensaries</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Dutchie</h2>
+                        <div class="highlights-list"><a href="https://reformingretail.com/index.php/2024/01/30/dutchie-raises-100m-at-400m-valuation-an-89-discount-from-last-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Dutchie raises $100M at $400M valuation in down round amid cannabis market correction</span>
+        </a><a href="https://business.dutchie.com/about" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform processes over $22 billion in annual cannabis sales across 6,500+ dispensaries</span>
+        </a><a href="https://www.newcannabisventures.com/dutchie-becomes-the-most-valuable-cannabis-technology-company-after-350-million-capital-raise/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company achieves $3.8B unicorn status with $350M Series D from D1 Capital and Tiger Global</span>
+        </a><a href="https://www.newcannabisventures.com/cannabis-technology-platform-dutchie-raises-200-million-and-acquires-greenbits-and-leaf-logix/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company acquires Greenbits and Leaf Logix to consolidate cannabis POS market</span>
+        </a><a href="https://mjbizdaily.com/marijuana-tech-firm-dutchie-raises-350-million-as-big-funding-deals-flourish/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Celebrity investors including Snoop Dogg, Kevin Durant, and Howard Schultz back platform</span>
+        </a><a href="https://www.businesswire.com/news/home/20241001720056/en/Dutchie-2.0-Modernizing-Cannabis-Retail-with-Personalization-and-AI-Across-Point-of-Sale-E-commerce-and-Loyalty-Marketing" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Dutchie 2.0 launched</strong> (Oct 2024)—AI personalization, $22B in annual cannabis sales powered</span>
+        </a><a href="https://business.dutchie.com/about" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>6,500+ dispensaries</strong> across US/Canada—complete cannabis operating system, Kiosk Pro launched</span>
+        </a><a href="https://businessofcannabis.com/dutchie-launches-transformative-update-to-its-software-platform-focusing-on-personalization-efficiency-and-data-driven-decision-making/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Business of Cannabis: Platform transformation</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/03d05cb9-75da-4a92-b51d-401c7b36a8de_medium.jpg" alt="Tim Barash" class="leader-photo">
+            <div><div class="leader-name">Tim Barash</div>
+            <div class="leader-role">Chairman &amp; Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/timbarash/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/6df2a952-928d-4099-adb7-73c3c640e94d_medium.jpg" alt="Spencer Scott" class="leader-photo">
+            <div><div class="leader-name">Spencer Scott</div>
+            <div class="leader-role">Chief Revenue Officer</div></div>
+            <a href="https://www.linkedin.com/in/spencerscott/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/977ef52f-fd8a-48b5-ac24-0b1a9c4bb8ce_medium.jpg" alt="Nick DeLeonardis" class="leader-photo">
+            <div><div class="leader-name">Nick DeLeonardis</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/nickdeleonardis/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/2964b277-deee-409e-89cd-2a08b8bb09ea_medium.jpg" alt="Christopher Ostrowski" class="leader-photo">
+            <div><div class="leader-name">Christopher Ostrowski</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/christopherostrowski/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.tigerglobal.com" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a><a href="https://www.thrivecap.com" target="_blank" class="investor-card">
+            <span class="investor-name">Thrive Capital</span>
+        </a><a href="https://www.d1cap.com" target="_blank" class="investor-card">
+            <span class="investor-name">D1 Capital Partners</span>
+        </a><a href="https://www.casaverdecapital.com" target="_blank" class="investor-card">
+            <span class="investor-name">Casa Verde Capital</span>
+        </a><a href="https://www.dragoneer.com" target="_blank" class="investor-card">
+            <span class="investor-name">Dragoneer Investment Group</span>
+        </a><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Dutchie Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://dutchie.com" target="_blank" class="detail-value">dutchie.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2017</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">501-1,000</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Bend, Oregon</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deputy - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="deputy-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idobeEZjNo/idc86MdtLf.svg" alt="Deputy" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Deputy</h1>
+                    <p class="company-tagline">Workforce management platform for employee scheduling, time tracking, and team communication</p>
+                    <div class="company-tags"><span class="tag">HR Tech</span><span class="tag">Workforce Management</span><span class="tag">Scheduling</span><span class="tag">Australian Unicorn</span><span class="tag">SaaS</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Deputy is an Australian workforce management unicorn providing scheduling, time and attendance, and communication tools for hourly and shift-based workers. The platform enables businesses to create optimized schedules, track time via mobile apps, manage compliance, and communicate with distributed teams. Deputy serves over 365,000 workplaces globally across industries including retail, hospitality, healthcare, and manufacturing. The company&#x27;s AI-powered auto-scheduling and demand forecasting help businesses reduce labor costs while improving employee satisfaction and work-life balance.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>March 2024</td>
+                <td>Strategic</td>
+                <td>$37M</td>
+                <td>$1.1B</td>
+            </tr><tr>
+                <td>November 2018</td>
+                <td>Series B</td>
+                <td>$81M</td>
+                <td>$423M</td>
+            </tr><tr>
+                <td>2016</td>
+                <td>Series A</td>
+                <td>$25M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Scheduling</div>
+            <div class="product-desc">AI-powered shift scheduling with demand forecasting, availability management, and auto-fill capabilities</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Time &amp; Attendance</div>
+            <div class="product-desc">GPS time clock with facial recognition, geofencing, and automated timesheet generation</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Communication</div>
+            <div class="product-desc">Team messaging, announcements, and shift swapping tools for distributed workforces</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Compliance</div>
+            <div class="product-desc">Automated break compliance, labor law adherence, and Fair Workweek scheduling tools</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Deputy</h2>
+                        <div class="highlights-list"><a href="https://www.startupdaily.net/topic/funding/casual-worker-management-platform-deputy-is-a-unicorn/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Deputy achieves unicorn status with $1.1B valuation in 2024</span>
+        </a><a href="https://www.businesswire.com/news/home/20181128005197/en/Deputy-Raises-81M-to-Revolutionize-the-U.S.-Hourly-Paid-Workforce" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Deputy raises $37M strategic investment from Express Employment Professionals</span>
+        </a><a href="https://www.afr.com/technology/deputy-is-a-1-1b-unicorn-thanks-to-us-staffing-giant-deal-20240319-p5fdqt" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Deputy surpasses $100M ARR milestone</span>
+        </a><a href="https://www.xero.com/au/marketplace/app/deputy/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Deputy partners with Xero for integrated payroll and scheduling</span>
+        </a><a href="https://www.deputy.com/blog/ai-scheduling" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Deputy expands AI-powered demand forecasting for retail and hospitality</span>
+        </a><a href="https://www.deputy.com/about" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Deputy serves 365,000+ workplaces globally across 100+ countries</span>
+        </a><a href="https://www.deputy.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Official: Workforce management platform</span>
+        </a><a href="https://www.forbes.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Forbes: HR tech innovation</span>
+        </a><a href="https://techcrunch.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">TechCrunch: Workforce scheduling</span>
+        </a><a href="https://www.businesswire.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Business Wire: Product announcements</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/d91df65e-1a40-417b-9cbe-a861052c4039_medium.jpg" alt="Ashik Ahmed" class="leader-photo">
+            <div><div class="leader-name">Ashik Ahmed</div>
+            <div class="leader-role">Co-Founder, CEO &amp; CTO</div></div>
+            <a href="https://www.linkedin.com/in/ashikahmed/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/d4b5bfa3-d91c-4aab-af84-f0306bfa6bdd_medium.jpg" alt="Steve Shelley" class="leader-photo">
+            <div><div class="leader-name">Steve Shelley</div>
+            <div class="leader-role">Co-Founder &amp; Chairman</div></div>
+            <a href="https://www.linkedin.com/in/steveshelley/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/6b912029-6e91-40fe-8ae8-b1f3e83284a3_medium.jpg" alt="Emma Seymour" class="leader-photo">
+            <div><div class="leader-name">Emma Seymour</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/emmaseymour/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/58e48763-bab2-411b-925e-84d4fef69c42_medium.jpg" alt="Frank Chila" class="leader-photo">
+            <div><div class="leader-name">Frank Chila</div>
+            <div class="leader-role">General Counsel &amp; SVP Legal</div></div>
+            <a href="https://www.linkedin.com/in/frankchila/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.expresspros.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Express Employment Professionals</span>
+        </a><a href="https://www.ivp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">IVP</span>
+        </a><a href="https://www.squarepegcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Square Peg Capital</span>
+        </a><a href="https://www.xero.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Xero</span>
+        </a><a href="https://openviewpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">OpenView</span>
+        </a><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Deputy Holdings Pty Ltd</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.deputy.com" target="_blank" class="detail-value">www.deputy.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2008</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">400+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Sydney, Australia</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohesity - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="cohesity-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idmhH_cDc9/idwnJ3x-lR.svg" alt="Cohesity" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Cohesity</h1>
+                    <p class="company-tagline">AI-powered data security and management platform protecting enterprise data across cloud, on-premises, and edge environments</p>
+                    <div class="company-tags"><span class="tag">Data Protection</span><span class="tag">Enterprise Software</span><span class="tag">Cybersecurity</span><span class="tag">Unicorn</span><span class="tag">IPO Candidate</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Cohesity is the world&#x27;s largest data protection software provider following its December 2024 acquisition of Veritas&#x27; enterprise data protection business. Founded in 2013 by Mohit Aron (who also founded Nutanix), Cohesity consolidates backup, disaster recovery, and file services into a unified platform powered by AI. The company&#x27;s DataProtect and DataHawk solutions help organizations secure and manage their data across multi-cloud environments. With the Veritas combination, Cohesity now serves over 12,000 customers including 86 of the Fortune 100, reaching $1.5B ARR in just 11 years - the fastest in the data protection industry. The company is positioned for a potential IPO in 2025.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2024-12</td>
+                <td>Series H + Debt</td>
+                <td>$3B (Veritas)</td>
+                <td>$7B</td>
+            </tr><tr>
+                <td>2022-06</td>
+                <td>Series G</td>
+                <td>$Series G</td>
+                <td>$3.7B</td>
+            </tr><tr>
+                <td>2020-04</td>
+                <td>Series E</td>
+                <td>$250M</td>
+                <td>$2.5B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cohesity Data Cloud</div>
+            <div class="product-desc">Unified platform for backup, recovery, and data management across hybrid multicloud environments</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DataProtect</div>
+            <div class="product-desc">AI-powered backup and recovery solution with ransomware protection</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DataHawk</div>
+            <div class="product-desc">Threat intelligence and cyber resilience solution detecting ransomware and anomalies</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">NetBackup (from Veritas)</div>
+            <div class="product-desc">Enterprise backup solution for diverse environments acquired from Veritas</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Cohesity</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2024/12/10/cohesity-completes-its-merger-with-veritas-heres-how-theyll-integrate/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Completes $7B Veritas data protection acquisition in December 2024</span>
+        </a><a href="https://www.cohesity.com/newsroom/press/cohesity-becomes-worlds-largest-data-protection-provider-after-completing-combination-with-veritas-enterprise-data-protection-business/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Becomes world's largest data protection software provider</span>
+        </a><a href="https://fintech.global/2024/12/12/data-protection-leader-cohesity-secures-7bn-valuation-following-veritas-merger/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raises $1B equity and $2B debt to fund Veritas acquisition</span>
+        </a><a href="https://blocksandfiles.com/2024/12/11/cohesity-completes-veritas-netbackup-business-buy-with-arctera-emerging-as-the-new-backup-exec-business/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Reaches $1.5B ARR - fastest in data protection industry</span>
+        </a><a href="https://www.reuters.com/technology/cohesity-ipo-candidate-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">IPO candidate for 2025 after transformational Veritas deal</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2024-12-10/cohesity-veritas-deal-creates-data-protection-leader" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Customer base grows to 12,000+ enterprises including 86 Fortune 100</span>
+        </a><a href="https://www.cohesity.com/newsroom/press/cohesity-becomes-worlds-largest-data-protection-provider-after-completing-combination-with-veritas-enterprise-data-protection-business/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Veritas merger completed</strong> (Dec 2024)—world's largest data protection provider at $7B valuation</span>
+        </a><a href="https://fintech.global/2024/12/12/data-protection-leader-cohesity-secures-7bn-valuation-following-veritas-merger/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>$1.5B ARR</strong>—$1.7B revenue combined, 12,000+ enterprise customers including 85 Fortune 100</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/8c3fa318-3cd6-4a69-945a-d6d43b8a4690_medium.jpg" alt="Sanjay Poonen" class="leader-photo">
+            <div><div class="leader-name">Sanjay Poonen</div>
+            <div class="leader-role">CEO &amp; President</div></div>
+            <a href="https://www.linkedin.com/in/spoonen/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/3f318ae9-f4af-449b-a27e-388b773f33ae_medium.jpg" alt="Eric Brown" class="leader-photo">
+            <div><div class="leader-name">Eric Brown</div>
+            <div class="leader-role">CFO &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/ericbrowncfo/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/58bb304f-e754-43a7-b108-0fc445e80edc_medium.jpg" alt="Anubhav Gupta" class="leader-photo">
+            <div><div class="leader-name">Anubhav Gupta</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/anubhavgupta/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/28dd9d03-abbd-4c6b-a599-bee56effbfc5_medium.jpg" alt="Kit Beall" class="leader-photo">
+            <div><div class="leader-name">Kit Beall</div>
+            <div class="leader-role">Chief Revenue Officer</div></div>
+            <a href="https://www.linkedin.com/in/kitbeall/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a><a href="https://visionfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund</span>
+        </a><a href="https://www.carlyle.com/" target="_blank" class="investor-card">
+            <span class="investor-name">The Carlyle Group</span>
+        </a><a href="https://www.coatue.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Coatue Management</span>
+        </a><a href="https://sapphireventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sapphire Ventures</span>
+        </a><a href="https://www.haveliinvestments.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Haveli Investments</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Cohesity, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.cohesity.com" target="_blank" class="detail-value">www.cohesity.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2013</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">4,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">San Jose, CA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

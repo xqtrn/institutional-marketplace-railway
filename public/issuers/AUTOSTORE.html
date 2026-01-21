@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoStore - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="autostore-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/idautostore/theme/dark/logo.svg" alt="AutoStore" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">AutoStore</h1>
+                    <p class="company-tagline">The world&#x27;s leading cube storage automation system, delivering unmatched warehouse density and efficiency through robotic technology</p>
+                    <div class="company-tags"><span class="tag">Warehouse Robotics</span><span class="tag">Automation</span><span class="tag">Logistics Tech</span><span class="tag">Norway</span><span class="tag">Public (OSE)</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">AutoStore is the world&#x27;s leading cube storage automation system, pioneering a revolutionary approach to warehouse logistics that maximizes storage density while dramatically improving picking efficiency. Founded in 1996 in Norway, the company has deployed over 42,000 robots across 1,000+ installations in 46 countries, commanding 97% of the cubic storage automation market. AutoStore&#x27;s grid-based system uses compact robots that retrieve bins from a dense cube structure, delivering items to human operators with remarkable speed and accuracy. The company went public on the Oslo Stock Exchange in October 2021 in Norway&#x27;s largest IPO in two decades, with SoftBank as a major shareholder. Major customers include PUMA, DHL, and leading retailers worldwide.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>October 2021</td>
+                <td>IPO</td>
+                <td>NOK 28.3B ($3.3B)</td>
+                <td>—</td>
+            </tr><tr>
+                <td>April 2021</td>
+                <td>Strategic Investment</td>
+                <td>$2.8B</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AutoStore Grid</div>
+            <div class="product-desc">Modular aluminum grid structure that stacks bins vertically in a dense cube formation, maximizing storage capacity by up to 4x compared to traditional warehousing</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AutoStore Robots</div>
+            <div class="product-desc">Battery-powered robots that navigate the top of the grid to retrieve and deliver bins, operating 24/7 with automatic charging and swarm intelligence</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AutoStore Ports</div>
+            <div class="product-desc">Workstations where operators pick and place items as robots deliver bins, with ergonomic designs optimizing speed and accuracy</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AutoStore Controller</div>
+            <div class="product-desc">Software system that orchestrates robot movements, inventory management, and integration with warehouse management systems</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on AutoStore</h2>
+                        <div class="highlights-list"><a href="https://www.fastcompany.com/most-innovative-companies/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AutoStore Named to Fast Company Most Innovative Companies List 2024</span>
+        </a><a href="https://www.robotics247.com/article/autostore_bastian_solutions_expands_automated_fulfillment_partnership_with_puma/Batteries_Power" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">PUMA Expands AutoStore Partnership with New Phoenix Distribution Center</span>
+        </a><a href="https://group.dhl.com/en/media-relations/press-releases/2023/dhl-supply-chain-and-robotics-technology-company-autostore-announce-partnership-expansion.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DHL Supply Chain Expands Global AutoStore Partnership</span>
+        </a><a href="https://www.autostoresystem.com/investors/press-releases" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AutoStore Opens New U.S. Headquarters in Salem, New Hampshire</span>
+        </a><a href="https://www.autostoresystem.com/news/autostore-named-order-fulfillment-solution-of-the-year-by-supplytech-breakthrough-awards" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AutoStore Wins 2024 Order Fulfillment Solution of the Year Award</span>
+        </a><a href="https://en.wikipedia.org/wiki/AutoStore" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AutoStore Opens Robot Assembly Factory in Thailand</span>
+        </a><a href="https://www.autostoresystem.com/news/new-modular-robot-factory-global-market-expansion" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Opened new Thailand factory to double robot production to 15K/year</span>
+        </a><a href="https://www.iotworldtoday.com/robotics/autostore-debuts-warehouse-fulfillment-robot-at-nrf-2024" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Launched R5 Pro Robot at NRF 2024 with 2,200 units shipped</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/709150aa-af00-4c7c-943b-0db778b98e5f_medium.jpg" alt="Mats Hovland Vikse" class="leader-photo">
+            <div><div class="leader-name">Mats Hovland Vikse</div>
+            <div class="leader-role">Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/mats-hovland-vikse/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/90bde655-2063-40dc-aaee-902db4558cb2_medium.jpg" alt="Bent Skisaker" class="leader-photo">
+            <div><div class="leader-name">Bent Skisaker</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/bent-skisaker/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/b3ce987c-81f5-456f-94f8-c695d00cba45_medium.jpg" alt="Carlos Fernandez" class="leader-photo">
+            <div><div class="leader-name">Carlos Fernandez</div>
+            <div class="leader-role">Chief Product Officer</div></div>
+            <a href="https://www.linkedin.com/in/carlosfernandez/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/0838f543-9f1d-4f35-a6bc-bb5750dca528_medium.jpg" alt="Israel Losada Salvador" class="leader-photo">
+            <div><div class="leader-name">Israel Losada Salvador</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/israel-losada-salvador/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://visionfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund</span>
+        </a><a href="https://www.thl.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Thomas H. Lee Partners</span>
+        </a><a href="https://eqtgroup.com/" target="_blank" class="investor-card">
+            <span class="investor-name">EQT Partners</span>
+        </a><a href="https://www.oslobors.no/" target="_blank" class="investor-card">
+            <span class="investor-name">Public (Oslo Stock Exchange)</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">AutoStore Holdings Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.autostoresystem.com" target="_blank" class="detail-value">www.autostoresystem.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">1996</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">1,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Nedre Vats, Norway</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

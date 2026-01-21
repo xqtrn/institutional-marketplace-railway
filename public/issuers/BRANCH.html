@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="branch-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/id8uB_hhOb/idCDqtNahy.svg" alt="Branch" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Branch</h1>
+                    <p class="company-tagline">Leading workforce payments platform powering earned wage access and embedded finance for enterprise employers</p>
+                    <div class="company-tags"><span class="tag">Fintech</span><span class="tag">Workforce Payments</span><span class="tag">EWA</span><span class="tag">Embedded Finance</span><span class="tag">Payroll</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Fintech</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Branch is the leading workforce payments platform enabling employers to offer fast, flexible payment options to both W-2 employees and 1099 contractors. Founded by Atif Siddiqi, Branch provides Earned Wage Access (EWA), paycards, digital banking, cashless tips, mileage reimbursement, and instant contractor payouts. In September 2025, Branch launched Branch Embedded, a solution allowing vertical SaaS platforms and gig marketplaces to integrate payments directly into their applications in weeks instead of quarters. Branch&#x27;s suite includes the Branch App and Card digital banking account, White Label products, and Branch Direct. The company powers workforce payments for the nation&#x27;s leading employers, enabling workers to access wages before payday and businesses to reduce turnover while unlocking new revenue streams through embedded finance.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2022-01</td>
+                <td>Series C</td>
+                <td>$75M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Branch Embedded</div>
+            <div class="product-desc">Pre-built components for integrating EWA, 1099 payouts, and paycards into existing platforms</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Branch App &amp; Card</div>
+            <div class="product-desc">Digital banking account and debit card for workforce members with instant access to earnings</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Branch White Label</div>
+            <div class="product-desc">Customizable branded workforce payments solution for enterprise employers</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Branch Direct</div>
+            <div class="product-desc">Direct deposit and paycard solutions for W-2 employees and 1099 contractors</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Branch</h2>
+                        <div class="highlights-list"><a href="https://www.prnewswire.com/news-releases/branch-launches-branch-embedded-to-power-fast-flexible-worker-payments-directly-within-platforms-302560414.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Branch launches Branch Embedded to power fast worker payments in platforms</span>
+        </a><a href="https://www.pymnts.com/payroll/2025/branch-debuts-embedded-platform-to-ease-earned-wage-access/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Embedded platform enables integration in weeks instead of quarters</span>
+        </a><a href="https://www.branchapp.com/solutions/branch-embedded-finance" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Powers earned wage access for W-2 and 1099 workforces nationwide</span>
+        </a><a href="https://ffnews.com/newsarticle/paytech/branch-launches-branch-embedded-to-power-fast-flexible-worker-payments-directly-within-platforms/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Branch Embedded joins award-winning workforce payments suite</span>
+        </a><a href="https://www.branchapp.com/blog/introducing-branch-embedded" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Enables cashless tips, mileage reimbursement, and instant contractor payouts</span>
+        </a><a href="https://www.pymnts.com/news/payments-innovation/2025/earned-wage-access-pulls-embedded-finance-into-everyday-life/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Helps platforms unlock new revenue opportunities through embedded finance</span>
+        </a><a href="https://www.globenewswire.com/news-release/2025/10/29/3176303/28124/en/Embedded-Finance-Business-Report-2025-Market-to-grow-by-9-3-to-Reach-646-1-Million-this-Year-Explore-21-Markets-with-Forecasts-to-2030.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Competes in $646B embedded finance market growing 9.3% annually</span>
+        </a><a href="https://www.aba.com/news-research/analysis-guides/10-groundbreaking-embedded-lending-trends-set-to-redefine-2025" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Designed for vertical SaaS platforms and gig marketplaces</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b_medium.jpg" alt="Atif Siddiqi" class="leader-photo">
+            <div><div class="leader-name">Atif Siddiqi</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/atifsiddiqi/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c_medium.jpg" alt="Dan Tappan" class="leader-photo">
+            <div><div class="leader-name">Dan Tappan</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/dantappan/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d_medium.jpg" alt="Steve Malone" class="leader-photo">
+            <div><div class="leader-name">Steve Malone</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/stevemalone/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e_medium.jpg" alt="John Hanley" class="leader-photo">
+            <div><div class="leader-name">John Hanley</div>
+            <div class="leader-role">Chief Revenue Officer</div></div>
+            <a href="https://www.linkedin.com/in/johnhanley/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.drivecapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Drive Capital</span>
+        </a><a href="https://www.crosslinkcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Crosslink Capital</span>
+        </a><a href="https://www.felicis.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Felicis Ventures</span>
+        </a><a href="https://www.anthemis.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Anthemis Group</span>
+        </a><a href="https://www.accel.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Accel</span>
+        </a><a href="https://foundationcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Foundation Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

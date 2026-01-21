@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autodoc - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="autodoc-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Autodoc.jpeg" alt="Autodoc" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Autodoc</h1>
+                    <p class="company-tagline">Europe&#x27;s leading online marketplace for automotive parts and accessories, serving workshops and consumers across 27 countries</p>
+                    <div class="company-tags"><span class="tag">E-commerce</span><span class="tag">Automotive</span><span class="tag">Marketplace</span><span class="tag">Germany</span><span class="tag">Pre-IPO</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Autodoc is the leading digital pure-play automotive parts platform in Europe, offering over 6.7 million products from 2,500 brand manufacturers to both consumers and professional workshops across 27 countries. Founded in Berlin in 2008 by Alexej Erdle, Max Wegner, and Vitalij Kungel, the company has grown from a small startup to a €1.6 billion revenue business with approximately 5,000 employees across 13 locations. Autodoc&#x27;s e-commerce platform provides vehicle spare parts, accessories, tires, tools, oils, and consumables for cars, trucks, and motorcycles, with its largest logistics center in Szczecin, Poland handling fulfillment across the continent.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>April 2024</td>
+                <td>Minority Investment</td>
+                <td>Undisclosed (€2.3B valuation)</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Autodoc Consumer Platform</div>
+            <div class="product-desc">B2C e-commerce platform for individual car owners to purchase spare parts, accessories, and automotive products with delivery across Europe</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Autodoc PRO</div>
+            <div class="product-desc">B2B platform serving professional workshops with bulk ordering, trade pricing, and specialized tools for automotive service businesses</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Autodoc Club</div>
+            <div class="product-desc">Free membership program offering DIY repair tutorials, maintenance guides, and exclusive discounts for registered customers</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Autodoc</h2>
+                        <div class="highlights-list"><a href="https://www.bloomberg.com/news/articles/2025-04-21/apollo-backed-autodoc-eyes-2025-ipo-as-profit-growth-bucks-trend" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Autodoc Files for Frankfurt IPO at €2.4 Billion Valuation</span>
+        </a><a href="https://www.aoshearman.com/en/news/apollo-invests-in-autodoc" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Apollo Funds Acquires Minority Stake in Autodoc at €2.3B Valuation</span>
+        </a><a href="https://autodoc.group/wp-content/uploads/Successful-financial-year-2024-for-AUTODOC.pdf" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Autodoc Reports €1.6 Billion Revenue in Successful 2024</span>
+        </a><a href="https://www.tradingview.com/news/eqs:c8ea3dd4a094b:0-autodoc-with-ongoing-growth-in-the-first-nine-months/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">B2B Division Autodoc PRO Surges 280% in 2024</span>
+        </a><a href="https://autodoc.group/wp-content/uploads/AUTODOC-achieves-strong-growth-in-Q1-2025.pdf" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Autodoc Achieves Strong Growth in First Nine Months of 2025</span>
+        </a><a href="https://wolk-aftersales.com/autodoc-exceeds-one-billion-euros-in-turnover/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Autodoc Exceeds One Billion Euros Annual Revenue Milestone</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/8aca3519-b5c3-4b26-83a2-e1d7fbcd814a_medium.jpg" alt="Dmitry Zadorojnii" class="leader-photo">
+            <div><div class="leader-name">Dmitry Zadorojnii</div>
+            <div class="leader-role">Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/dmitry-zadorojnii/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/ac1e5e87-14cb-4908-9352-b422ed37db9a_medium.jpg" alt="Lennart Schmidt" class="leader-photo">
+            <div><div class="leader-name">Lennart Schmidt</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/lennart-schmidt/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/09674050-c34b-44a0-864e-0106d6bf2908_medium.jpg" alt="Hélder Ribeiro" class="leader-photo">
+            <div><div class="leader-name">Hélder Ribeiro</div>
+            <div class="leader-role">VP of Product</div></div>
+            <a href="https://www.linkedin.com/in/helderribeiro/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/9031fd0b-ae83-4101-8968-07693c7700fd_medium.jpg" alt="Zdenek Kompanek" class="leader-photo">
+            <div><div class="leader-name">Zdenek Kompanek</div>
+            <div class="leader-role">Logistics Director</div></div>
+            <a href="https://www.linkedin.com/in/zdenek-kompanek/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.apollo.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Apollo Global Management</span>
+        </a><a href="https://www.linkedin.com/in/alexej-erdle/" target="_blank" class="investor-card">
+            <span class="investor-name">Alexej Erdle (Co-Founder)</span>
+        </a><a href="https://www.linkedin.com/in/maxwegner/" target="_blank" class="investor-card">
+            <span class="investor-name">Max Wegner (Co-Founder)</span>
+        </a><a href="https://www.linkedin.com/in/vitalij-kungel/" target="_blank" class="investor-card">
+            <span class="investor-name">Vitalij Kungel (Co-Founder)</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Autodoc SE</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://autodoc.group" target="_blank" class="detail-value">autodoc.group</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2008</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">5,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Berlin, Germany</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

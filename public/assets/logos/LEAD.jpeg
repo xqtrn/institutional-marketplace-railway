@@ -1,0 +1,2269 @@
+<!-- Institutional Deals Platform Overlay -->
+<div id="institutional-overlay-platform" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; overflow: auto;">
+<style>
+/* Hide main page scrollbar */
+body {
+    overflow: hidden !important;
+}
+
+/* Hide original toggle button */
+.cs-header__offcanvas-toggle {
+    display: none !important;
+}
+
+/* Custom menu button */
+.platform-menu-button {
+    background: #ffffff !important;
+    border: 1px solid rgba(229, 231, 235, 0.5) !important;
+    width: 40px !important;
+    height: 40px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    border-radius: 4px !important;
+    transition: all 0.3s ease !important;
+}
+
+.platform-menu-button:hover {
+    background: #f8f9fa !important;
+    border-color: #0a64bc !important;
+    box-shadow: 0 4px 12px rgba(10, 100, 188, 0.15) !important;
+}
+
+.platform-menu-button span {
+    display: block !important;
+    width: 24px !important;
+    height: 2px !important;
+    background: #0a64bc !important;
+    position: relative !important;
+}
+
+.platform-menu-button span::before,
+.platform-menu-button span::after {
+    content: '' !important;
+    position: absolute !important;
+    left: 0 !important;
+    width: 24px !important;
+    height: 2px !important;
+    background: #0a64bc !important;
+}
+
+.platform-menu-button span::before {
+    top: -8px !important;
+}
+
+.platform-menu-button span::after {
+    top: 8px !important;
+}
+
+/* Platform Header with Title */
+.platform-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: auto;
+}
+
+.platform-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 16px;
+    background: linear-gradient(135deg, rgba(10, 100, 188, 0.05) 0%, rgba(10, 100, 188, 0.02) 100%);
+    border: 1px solid rgba(10, 100, 188, 0.15);
+    border-radius: 4px;
+    position: relative;
+}
+
+.platform-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--platform-primary);
+    border-radius: 4px 0 0 4px;
+}
+
+/* Show offcanvas menu when opened */
+.cs-offcanvas {
+    z-index: 1000004 !important;
+}
+
+.cs-site-overlay {
+    z-index: 1000003 !important;
+}
+
+/* Variables */
+:root {
+    --platform-primary: #0a64bc;
+    --platform-primary-dark: #083d89;
+    --platform-fg: #000000;
+    --platform-muted: #818181;
+    --platform-line: #F4F8FB;
+    --platform-card-bg: #f8f9fb;
+    --platform-white: #ffffff;
+    --platform-success: #10b981;
+    --platform-danger: #dc2626;
+    --platform-border: rgba(229, 231, 235, 0.5);
+    --platform-table-border: rgba(229, 231, 235, 0.3);
+    --platform-header-height: 88px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#institutional-overlay-platform {
+    font-family: 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--platform-white);
+    color: var(--platform-fg);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Fixed Header Container */
+.fixed-header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--platform-white);
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Controls Bar */
+.controls-bar {
+    background: var(--platform-card-bg);
+    border-bottom: 1px solid var(--platform-border);
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-width: 1250px;
+    position: relative;
+}
+
+/* Updated top border - static gradient without animation */
+.controls-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, 
+        var(--platform-primary) 0%, 
+        var(--platform-primary-dark) 50%, 
+        var(--platform-primary) 100%);
+}
+
+.controls-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* Company Selector */
+.company-selector {
+    position: relative;
+    min-width: 180px;
+}
+
+.selector-button {
+    width: 100%;
+    padding: 10px 36px 10px 14px;
+    background: var(--platform-white);
+    border: 1px solid var(--platform-border);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--platform-fg);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    border-radius: 4px;
+}
+
+.selector-button:hover {
+    border-color: var(--platform-primary);
+    box-shadow: 0 4px 12px rgba(10, 100, 188, 0.15);
+}
+
+.selector-button::after {
+    content: '▼';
+    position: absolute;
+    right: 14px;
+    color: var(--platform-muted);
+    font-size: 10px;
+    transition: transform 0.3s ease;
+}
+
+.company-selector.open .selector-button::after {
+    transform: rotate(180deg);
+}
+
+.clear-btn {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: none;
+    background: transparent;
+    color: var(--platform-muted);
+    cursor: pointer;
+    display: none;
+    font-size: 14px;
+    opacity: 0.6;
+    padding: 0;
+}
+
+.clear-btn:hover {
+    opacity: 1;
+    color: var(--platform-danger);
+}
+
+.selector-button.has-filter .clear-btn {
+    display: block;
+    color: var(--platform-fg);
+    opacity: 0.8;
+}
+
+.selector-button.has-filter {
+    padding-right: 48px;
+}
+
+.selector-dropdown {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    right: 0;
+    background: var(--platform-white);
+    border: 1px solid var(--platform-border);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: none;
+    max-height: 400px;
+    overflow: hidden;
+    z-index: 100000;
+    min-width: 200px;
+    border-radius: 4px;
+}
+
+.company-selector.open .selector-dropdown {
+    display: block;
+}
+
+.dropdown-search {
+    padding: 12px;
+    border-bottom: 1px solid var(--platform-line);
+    background: rgba(244, 248, 251, 0.5);
+}
+
+.dropdown-search input {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid var(--platform-primary);
+    font-size: 13px;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-list {
+    max-height: 320px;
+    overflow-y: auto;
+    padding: 8px 0;
+}
+
+.dropdown-item {
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background: rgba(10, 100, 188, 0.05);
+    padding-left: 18px;
+}
+
+.dropdown-item.selected {
+    background: rgba(10, 100, 188, 0.08);
+    border-left: 3px solid var(--platform-primary);
+}
+
+.company-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--platform-border);
+    background: var(--platform-white);
+    flex-shrink: 0;
+    border-radius: 2px;
+}
+
+.company-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Tab Buttons */
+.tab-group {
+    display: flex;
+    gap: 0;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background: var(--platform-card-bg);
+    border: 1px solid var(--platform-border);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    color: var(--platform-fg);
+}
+
+.tab-btn:first-child {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.tab-btn:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.tab-btn:hover {
+    background: rgba(10, 100, 188, 0.05);
+}
+
+.tab-btn.active {
+    background: var(--platform-primary);
+    color: var(--platform-white);
+    border-color: var(--platform-primary);
+}
+
+/* Filter Toggle */
+.filter-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggle-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--platform-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 44px;
+    height: 22px;
+    background: var(--platform-line);
+    border: 1px solid var(--platform-border);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 11px;
+}
+
+.toggle-switch.active {
+    background: var(--platform-primary);
+    border-color: var(--platform-primary-dark);
+}
+
+.toggle-slider {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: var(--platform-white);
+    top: 1px;
+    left: 2px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-switch.active .toggle-slider {
+    left: 23px;
+}
+
+/* New Order Button */
+.btn-new-order {
+    background: var(--platform-primary);
+    color: var(--platform-white);
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+}
+
+.btn-new-order:hover {
+    background: var(--platform-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(10, 100, 188, 0.25);
+}
+
+/* Reset All Filters Button */
+.btn-reset-all {
+    background: transparent;
+    color: var(--platform-muted);
+    border: 1px solid var(--platform-border);
+    padding: 6px 12px;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.btn-reset-all:hover {
+    opacity: 1;
+    background: var(--platform-line);
+    color: var(--platform-fg);
+}
+
+/* Table Header */
+.table-header {
+    background: var(--platform-primary);
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-width: 1250px;
+    overflow: visible;
+    position: relative;
+    z-index: 900;
+}
+
+.header-row {
+    display: table-row;
+}
+
+.header-cell {
+    display: table-cell;
+    padding: 14px 16px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--platform-white);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+}
+
+.header-cell:last-child {
+    border-right: none;
+}
+
+.header-cell.sortable {
+    cursor: pointer;
+    position: relative;
+    padding-right: 28px;
+}
+
+.header-cell.sortable::after {
+    content: '↕';
+    position: absolute;
+    right: 12px;
+    opacity: 0.5;
+}
+
+.header-cell.sortable:hover::after {
+    opacity: 1;
+}
+
+.header-cell.sort-asc::after {
+    content: '↑';
+    opacity: 1;
+}
+
+.header-cell.sort-desc::after {
+    content: '↓';
+    opacity: 1;
+}
+
+/* Column widths */
+.col-company { width: 250px; min-width: 250px; max-width: 250px; }
+.col-date { width: 180px; min-width: 180px; max-width: 180px; }
+.col-volume { width: 140px; min-width: 140px; max-width: 140px; }
+.col-price { width: 120px; min-width: 120px; max-width: 120px; }
+.col-valuation { width: 140px; min-width: 140px; max-width: 140px; }
+.col-structure { width: 150px; min-width: 150px; max-width: 150px; }
+.col-share { width: 150px; min-width: 150px; max-width: 150px; }
+.col-action { width: 120px; min-width: 120px; max-width: 120px; }
+
+/* Main Content Area */
+.main-content {
+    padding-top: 120px;
+    min-height: 100vh;
+    background: var(--platform-white);
+}
+
+.content-wrapper {
+    padding: 0;
+}
+
+/* Data Table Container - Fixed to prevent first row cutoff */
+.data-container {
+    background: var(--platform-white);
+    border: 1px solid var(--platform-border);
+    border-top: none;
+    overflow-x: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 2px; /* Added padding to prevent first row cutoff */
+}
+
+.data-table {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    min-width: 1250px;
+}
+
+/* Fixed row height issue */
+.data-row {
+    display: table-row;
+    border-bottom: 1px solid var(--platform-table-border);
+    transition: all 0.2s ease;
+    min-height: 48px; /* Ensure minimum height for all rows */
+}
+
+.data-row:hover {
+    background: rgba(10, 100, 188, 0.02);
+}
+
+/* Fixed cell padding for consistent height */
+.data-cell {
+    display: table-cell;
+    padding: 16px; /* Increased and made consistent */
+    font-size: 13px;
+    color: var(--platform-fg);
+    font-family: 'Inter', sans-serif;
+    vertical-align: middle;
+    border-right: 1px solid var(--platform-table-border);
+    box-sizing: border-box;
+    height: 48px; /* Fixed height for all cells */
+}
+
+.data-cell:last-child {
+    border-right: none;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.company-name {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.date-value {
+    font-weight: 500;
+    color: var(--platform-muted);
+    font-size: 13px;
+}
+
+.volume-value {
+    font-weight: 600;
+    text-align: right;
+    display: block;
+}
+
+.price-value {
+    font-weight: 700;
+    color: var(--platform-primary);
+    text-align: right;
+    font-size: 14px;
+    display: block;
+}
+
+.valuation-value {
+    font-weight: 700;
+    text-align: right;
+    font-size: 14px;
+    display: block;
+}
+
+.structure-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--platform-line);
+    border: 1px solid var(--platform-border);
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+}
+
+.share-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    background: rgba(10, 100, 188, 0.08);
+    border: 1px solid var(--platform-primary);
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--platform-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+}
+
+.btn-inquire {
+    background: var(--platform-primary);
+    color: var(--platform-white);
+    border: 1px solid var(--platform-primary);
+    padding: 6px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+}
+
+.btn-inquire:hover {
+    background: var(--platform-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(10, 100, 188, 0.2);
+}
+
+/* Loading State */
+.loading-container {
+    padding: 40px;
+    text-align: center;
+}
+
+.spinner {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 3px solid var(--platform-line);
+    border-top: 3px solid var(--platform-primary);
+    border-radius: 50%;
+    animation: platform-spin 1s linear infinite;
+}
+
+@keyframes platform-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Empty State */
+.empty-state {
+    padding: 40px;
+    text-align: center;
+    color: var(--platform-muted);
+}
+
+.empty-state h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.empty-state p {
+    font-size: 14px;
+}
+
+/* Modal */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-content {
+    background: var(--platform-white);
+    padding: 28px;
+    width: 100%;
+    max-width: 560px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--platform-border);
+    border-radius: 8px;
+}
+
+.modal-header {
+    margin-bottom: 24px;
+    position: relative;
+    border-bottom: 2px solid var(--platform-line);
+    padding-bottom: 14px;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--platform-fg);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: var(--platform-muted);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+}
+
+.modal-close:hover {
+    color: var(--platform-danger);
+    transform: rotate(90deg);
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--platform-fg);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-input, .form-select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--platform-border);
+    font-size: 14px;
+    color: var(--platform-fg);
+    background: var(--platform-white);
+    outline: none;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus, .form-select:focus {
+    border-color: var(--platform-primary);
+    box-shadow: 0 0 0 3px rgba(10, 100, 188, 0.1);
+}
+
+/* Deal Type Selector */
+.deal-type-selector {
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+}
+
+.deal-type-option {
+    flex: 1;
+    padding: 14px;
+    background: var(--platform-line);
+    border: 2px solid var(--platform-border);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.deal-type-option:first-child {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.deal-type-option:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.deal-type-option:hover {
+    background: rgba(10, 100, 188, 0.05);
+}
+
+.deal-type-option.selected {
+    background: var(--platform-primary);
+    border-color: var(--platform-primary);
+    color: var(--platform-white);
+}
+
+.deal-type-option input[type="radio"] {
+    display: none;
+}
+
+.deal-type-label {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Form Actions */
+.form-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 2px solid var(--platform-line);
+}
+
+.btn-cancel {
+    padding: 10px 20px;
+    background: var(--platform-white);
+    color: var(--platform-fg);
+    border: 2px solid var(--platform-border);
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-cancel:hover {
+    background: var(--platform-line);
+    transform: translateY(-1px);
+}
+
+.btn-submit {
+    padding: 10px 28px;
+    background: var(--platform-primary);
+    color: var(--platform-white);
+    border: 2px solid var(--platform-primary);
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: var(--platform-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(10, 100, 188, 0.25);
+}
+
+/* Filter Dropdown Styles */
+.filter-wrapper {
+    position: relative;
+    display: inline-block;
+    z-index: 10000;
+}
+
+.filter-header {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.filter-header:hover {
+    opacity: 0.8;
+}
+
+.filter-icon {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.filter-dropdown {
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    background: var(--platform-white);
+    border: 1px solid var(--platform-border);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    z-index: 100000;
+    display: none;
+    min-width: 200px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.filter-dropdown.open {
+    display: block;
+}
+
+.filter-list {
+    padding: 14px;
+    background: var(--platform-white);
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.filter-item:hover {
+    background: rgba(244, 248, 251, 0.5);
+    margin: 0 -14px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.filter-item input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--platform-primary);
+}
+
+.filter-item label {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--platform-fg);
+    font-family: 'Poppins', sans-serif;
+    flex: 1;
+}
+
+.filter-actions {
+    padding: 14px;
+    border-top: 1px solid var(--platform-line);
+    display: flex;
+    gap: 8px;
+    background: rgba(244, 248, 251, 0.3);
+}
+
+.filter-btn {
+    flex: 1;
+    padding: 8px 14px;
+    border: 1px solid var(--platform-border);
+    background: var(--platform-white);
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s ease;
+    color: var(--platform-fg);
+    border-radius: 2px;
+}
+
+.filter-btn:hover {
+    background: var(--platform-line);
+    transform: translateY(-1px);
+}
+
+.filter-btn.apply {
+    background: var(--platform-primary);
+    color: var(--platform-white);
+    border-color: var(--platform-primary);
+}
+
+.filter-btn.apply:hover {
+    background: var(--platform-primary-dark);
+    border-color: var(--platform-primary-dark);
+    box-shadow: 0 4px 8px rgba(10, 100, 188, 0.3);
+}
+
+.filter-active-indicator {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--platform-primary);
+    border-radius: 50%;
+    margin-left: 4px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.8); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+    .platform-title {
+        display: none;
+    }
+    
+    html, body {
+        overflow-x: hidden !important;
+        overflow-y: auto;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .page-scroll-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: visible;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .page-scroll-wrapper > * {
+        width: 1250px;
+        min-width: 1250px;
+    }
+    
+    .fixed-header-container {
+        position: static !important;
+        width: 1250px;
+        min-width: 1250px;
+        overflow: visible;
+    }
+    
+    .controls-bar {
+        width: 1250px;
+        min-width: 1250px;
+        margin: 0;
+    }
+    
+    .table-header {
+        width: 1250px;
+        min-width: 1250px;
+        margin: 0;
+    }
+    
+    .controls-wrapper {
+        width: 1250px;
+        min-width: 1250px;
+    }
+    
+    .main-content {
+        padding-top: 0 !important;
+        width: 1250px;
+        min-width: 1250px;
+        overflow: visible !important;
+        background: var(--platform-white);
+    }
+    
+    .content-wrapper {
+        width: 1250px;
+        min-width: 1250px;
+        overflow: visible !important;
+    }
+    
+    .data-container {
+        width: 1250px;
+        min-width: 1250px;
+        overflow: visible !important;
+        margin: 0;
+    }
+    
+    .data-table {
+        width: 1250px;
+        min-width: 1250px;
+    }
+    
+    .page-scroll-wrapper::-webkit-scrollbar {
+        height: 10px;
+    }
+    
+    .page-scroll-wrapper::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-top: 1px solid var(--platform-border);
+    }
+    
+    .page-scroll-wrapper::-webkit-scrollbar-thumb {
+        background: var(--platform-primary);
+        border-radius: 5px;
+    }
+    
+    .page-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+        background: var(--platform-primary-dark);
+    }
+}
+
+@media (max-width: 768px) {
+    .platform-header {
+        gap: 10px;
+    }
+    
+    .platform-title {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+    
+    .controls-wrapper {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .company-selector {
+        min-width: 150px;
+    }
+    
+    .filter-toggle {
+        margin-left: 0;
+    }
+    
+    .selector-dropdown,
+    .filter-dropdown {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-btn {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    
+    .btn-new-order {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    
+    .modal-content {
+        padding: 20px;
+        margin: 20px;
+        max-width: calc(100% - 40px);
+    }
+}
+</style>
+
+<!-- Single scroll wrapper for all content -->
+<div class="page-scroll-wrapper">
+    <!-- Fixed Header with Controls and Table Header -->
+    <div class="fixed-header-container">
+        <!-- Controls Bar -->
+        <div class="controls-bar">
+            <div class="controls-wrapper">
+                <!-- Platform Header with Title -->
+                <div class="platform-header">
+                    <button class="platform-menu-button" onclick="document.querySelector('.cs-header__offcanvas-toggle') ? document.querySelector('.cs-header__offcanvas-toggle').click() : document.querySelector('.cs-offcanvas').classList.toggle('cs-offcanvas-show')">
+                        <span></span>
+                    </button>
+                    <div class="platform-title">Institutional Marketplace</div>
+                </div>
+                
+                <!-- Company Selector -->
+                <div class="company-selector" id="platform-companySelector">
+                    <button class="selector-button">
+                        <span>All Companies</span>
+                        <button class="clear-btn" onclick="platformClearCompanyFilter(event)">×</button>
+                    </button>
+                    <div class="selector-dropdown">
+                        <div class="dropdown-search">
+                            <input type="text" placeholder="Search companies..." id="platform-companySearch">
+                        </div>
+                        <div class="dropdown-list" id="platform-companyList"></div>
+                    </div>
+                </div>
+                
+                <!-- Tab Buttons -->
+                <div class="tab-group">
+                    <button class="tab-btn active" data-tab="sell">Sell Side</button>
+                    <button class="tab-btn" data-tab="buy">Buy Side</button>
+                </div>
+                
+                <!-- Filter Toggle -->
+                <div class="filter-toggle">
+                    <span class="toggle-label">Complete</span>
+                    <div class="toggle-switch active" id="platform-filterToggle">
+                        <div class="toggle-slider"></div>
+                    </div>
+                    <span class="toggle-label">All</span>
+                </div>
+                
+                <!-- Reset All Filters Button -->
+                <button class="btn-reset-all" onclick="platformResetAllFilters()">Reset</button>
+                
+                <!-- New Order Button -->
+                <button class="btn-new-order" onclick="platformOpenModal()">
+                    <span style="font-size: 16px;">+</span> New Order
+                </button>
+            </div>
+        </div>
+        
+        <!-- Table Header -->
+        <div class="table-header">
+            <div class="header-row">
+                <div class="header-cell col-company sortable" data-sort="company">Target Company</div>
+                <div class="header-cell col-date sortable sort-desc" data-sort="date">Last Update</div>
+                <div class="header-cell col-volume sortable" data-sort="volume">Volume</div>
+                <div class="header-cell col-price sortable" data-sort="price">Price</div>
+                <div class="header-cell col-valuation sortable" data-sort="valuation">Valuation</div>
+                <div class="header-cell col-structure">
+                    <div class="filter-wrapper">
+                        <div class="filter-header" id="platform-structureFilterToggle">
+                            <span>Structure</span>
+                            <span class="filter-icon">▼</span>
+                            <span class="filter-active-indicator" id="platform-structureActiveIndicator" style="display: none;"></span>
+                        </div>
+                        <div class="filter-dropdown" id="platform-structureFilterDropdown">
+                            <div class="filter-list">
+                                <div class="filter-item">
+                                    <input type="checkbox" id="platform-structure-direct" value="Direct trade" checked>
+                                    <label for="platform-structure-direct">Direct Trade</label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="platform-structure-spv" value="SPV" checked>
+                                    <label for="platform-structure-spv">SPV</label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="platform-structure-forward" value="Forward" checked>
+                                    <label for="platform-structure-forward">Forward</label>
+                                </div>
+                            </div>
+                            <div class="filter-actions">
+                                <button class="filter-btn" onclick="platformResetStructureFilter()">Reset</button>
+                                <button class="filter-btn apply" onclick="platformApplyStructureFilter()">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-cell col-share">
+                    <div class="filter-wrapper">
+                        <div class="filter-header" id="platform-shareFilterToggle">
+                            <span>Share Class</span>
+                            <span class="filter-icon">▼</span>
+                            <span class="filter-active-indicator" id="platform-shareActiveIndicator" style="display: none;"></span>
+                        </div>
+                        <div class="filter-dropdown" id="platform-shareFilterDropdown">
+                            <div class="filter-list">
+                                <div class="filter-item">
+                                    <input type="checkbox" id="platform-share-common" value="Common" checked>
+                                    <label for="platform-share-common">Common</label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="platform-share-preferred" value="Preferred" checked>
+                                    <label for="platform-share-preferred">Preferred</label>
+                                </div>
+                            </div>
+                            <div class="filter-actions">
+                                <button class="filter-btn" onclick="platformResetShareFilter()">Reset</button>
+                                <button class="filter-btn apply" onclick="platformApplyShareFilter()">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-cell col-action">Action</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <div class="content-wrapper">
+            <div class="data-container">
+                <div id="platform-dataContent">
+                    <!-- Loading State -->
+                    <div class="loading-container">
+                        <div class="spinner"></div>
+                        <p style="margin-top: 16px; color: var(--platform-muted);">Loading deals...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal-overlay" id="platform-dealModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">New Transaction Order</h2>
+                <button class="modal-close" onclick="platformCloseModal()">&times;</button>
+            </div>
+            
+            <!-- Deal Type Selector -->
+            <div class="deal-type-selector">
+                <label class="deal-type-option selected" data-type="sell">
+                    <input type="radio" name="platformDealType" value="sell" checked>
+                    <div class="deal-type-label">Sell Order</div>
+                </label>
+                <label class="deal-type-option" data-type="buy">
+                    <input type="radio" name="platformDealType" value="buy">
+                    <div class="deal-type-label">Buy Order</div>
+                </label>
+            </div>
+            
+            <!-- Form -->
+            <div class="form-group">
+                <label class="form-label">Target Company</label>
+                <div class="company-selector" id="platform-modalCompanySelector">
+                    <button class="selector-button">
+                        <span>Select Company</span>
+                    </button>
+                    <div class="selector-dropdown">
+                        <div class="dropdown-search">
+                            <input type="text" placeholder="Search companies..." id="platform-modalCompanySearch">
+                        </div>
+                        <div class="dropdown-list" id="platform-modalCompanyList"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label" id="platform-priceLabel">Offer Price</label>
+                <input type="text" class="form-input" id="platform-dealPrice" placeholder="$100.00">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Transaction Volume</label>
+                <input type="text" class="form-input" id="platform-dealVolume" placeholder="$1,000,000">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Implied Valuation</label>
+                <input type="text" class="form-input" id="platform-dealValuation" placeholder="$1.5B">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Deal Structure</label>
+                <select class="form-select" id="platform-dealStructure">
+                    <option value="">Select Structure</option>
+                    <option value="Direct trade">Direct Trade</option>
+                    <option value="SPV">SPV</option>
+                    <option value="Secondary">Secondary</option>
+                    <option value="Block Trade">Block Trade</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Share Classification</label>
+                <select class="form-select" id="platform-dealShareClass">
+                    <option value="">Select Classification</option>
+                    <option value="Common">Common</option>
+                    <option value="Preferred">Preferred</option>
+                    <option value="Series A">Series A</option>
+                    <option value="Series B">Series B</option>
+                    <option value="Series C+">Series C+</option>
+                </select>
+            </div>
+            
+            <!-- Form Actions -->
+            <div class="form-actions">
+                <button class="btn-cancel" onclick="platformCloseModal()">Cancel</button>
+                <button class="btn-submit" onclick="platformSubmitDeal()">Submit Order</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// [JavaScript код остается без изменений]
+(function() {
+    // Configuration
+    const SHEET_ID = '1_Ab8Qi3wFI0TmrA2fqzqaSlc5WNPdUsU4B2BGNSKx-0';
+    const API_KEY = 'AIzaSyBhupxK4H_W5Z41RwlpBcUYtG3EnuPZceE';
+    const LOGOS_URL = 'https://docs.google.com/spreadsheets/d/1kQr17XMj8-iNjGP7OAwLNz6p5juvJJ0obyUmqBH_lmU/export?format=csv';
+    
+    // State
+    let platformState = {
+        buyData: [],
+        sellData: [],
+        currentData: [],
+        filteredData: [],
+        activeTab: 'sell',
+        selectedCompany: null,
+        modalSelectedCompany: null,
+        companyLogos: {},
+        sortColumn: 'date',
+        sortDirection: 'desc',
+        showAllData: true,
+        selectedStructures: ['Direct trade', 'SPV', 'Forward'],
+        selectedShareClasses: ['Common', 'Preferred']
+    };
+    
+    // Fallback data
+    const fallbackData = {
+        buy: [
+            {company: 'SpaceX', lastUpdate: '09/18/2025', volume: '$2,500,000', price: '$210.00', valuation: '$397.30B', structure: 'Direct trade', shareClass: 'Common'},
+            {company: 'Databricks', lastUpdate: '09/17/2025', volume: '$12,000,000', price: '$85.50', valuation: '$43B', structure: 'SPV', shareClass: 'Series I'},
+            {company: 'Stripe', lastUpdate: '09/16/2025', volume: '$5,000,000', price: '$32.75', valuation: '$65B', structure: 'Secondary', shareClass: 'Preferred'},
+            {company: 'OpenAI', lastUpdate: '09/15/2025', volume: '$20,000,000', price: '$86.00', valuation: '$157B', structure: 'Block Trade', shareClass: 'Common'},
+            {company: 'Anthropic', lastUpdate: '09/14/2025', volume: '$15,000,000', price: '$15.50', valuation: '$40B', structure: 'Direct trade', shareClass: 'Series E'},
+            {company: 'Ripple', lastUpdate: '09/11/2025', volume: '$3,500,000', price: '$10.25', valuation: '$15B', structure: 'Direct trade', shareClass: 'Preferred'},
+            {company: 'Bolt', lastUpdate: '09/09/2025', volume: '$10,000,000', price: '$135.00', valuation: 'Request', structure: 'Direct trade', shareClass: 'Common/Preferred'}
+        ],
+        sell: [
+            {company: 'ByteDance', lastUpdate: '09/18/2025', volume: '$250M', price: '$199.15', valuation: '$335B', structure: 'Block Trade', shareClass: 'Preferred'},
+            {company: 'Discord', lastUpdate: '09/17/2025', volume: '$10M', price: '$45.00', valuation: '$15B', structure: 'Secondary', shareClass: 'Common'},
+            {company: 'Plaid', lastUpdate: '09/16/2025', volume: '$5M', price: '$13.50', valuation: '$13.5B', structure: 'Direct trade', shareClass: 'Series D'},
+            {company: 'Revolut', lastUpdate: '09/12/2025', volume: 'Request', price: '$820.00', valuation: '$33B', structure: 'SPV', shareClass: 'Series A'}
+        ]
+    };
+    
+    // Initialize from URL params
+    function loadStateFromURL() {
+        const params = new URLSearchParams(window.location.search);
+        
+        if (params.get('tab')) {
+            platformState.activeTab = params.get('tab');
+        }
+        
+        if (params.get('company')) {
+            platformState.selectedCompany = decodeURIComponent(params.get('company'));
+        }
+        
+        if (params.get('complete') !== null) {
+            platformState.showAllData = params.get('complete') === 'false';
+        }
+        
+        if (params.get('structures')) {
+            platformState.selectedStructures = decodeURIComponent(params.get('structures')).split(',');
+        }
+        
+        if (params.get('shares')) {
+            platformState.selectedShareClasses = decodeURIComponent(params.get('shares')).split(',');
+        }
+        
+        if (params.get('sort')) {
+            platformState.sortColumn = params.get('sort');
+        }
+        
+        if (params.get('dir')) {
+            platformState.sortDirection = params.get('dir');
+        }
+    }
+    
+    // Update URL with current state
+    function updateURL() {
+        const params = new URLSearchParams();
+        
+        params.set('tab', platformState.activeTab);
+        
+        if (platformState.selectedCompany) {
+            params.set('company', platformState.selectedCompany);
+        }
+        
+        params.set('complete', !platformState.showAllData);
+        
+        if (platformState.selectedStructures.length < 4) {
+            params.set('structures', platformState.selectedStructures.join(','));
+        }
+        
+        if (platformState.selectedShareClasses.length < 5) {
+            params.set('shares', platformState.selectedShareClasses.join(','));
+        }
+        
+        params.set('sort', platformState.sortColumn);
+        params.set('dir', platformState.sortDirection);
+        
+        window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
+    }
+    
+    // Initialize
+    async function init() {
+        try {
+            loadStateFromURL();
+            await loadCompanyLogos();
+            await loadData();
+            setupEventListeners();
+            updateUIFromState();
+            applyFilters();
+        } catch (error) {
+            console.error('Initialization error:', error);
+            platformState.buyData = fallbackData.buy;
+            platformState.sellData = fallbackData.sell;
+            platformState.currentData = platformState.sellData;
+            applyFilters();
+        }
+    }
+    
+    // Update UI from state
+    function updateUIFromState() {
+        // Update tab buttons
+        document.querySelectorAll('#institutional-overlay-platform .tab-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.tab === platformState.activeTab);
+        });
+        
+        // Update company selector
+        if (platformState.selectedCompany) {
+            const button = document.querySelector('#platform-companySelector .selector-button');
+            button.querySelector('span').textContent = platformState.selectedCompany;
+            button.classList.add('has-filter');
+        }
+        
+        // Update toggle
+        const toggle = document.getElementById('platform-filterToggle');
+        toggle.classList.toggle('active', platformState.showAllData);
+        
+        // Update sort headers
+        document.querySelectorAll('#institutional-overlay-platform .header-cell.sortable').forEach(header => {
+            if (header.dataset.sort === platformState.sortColumn) {
+                header.classList.add(platformState.sortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
+            }
+        });
+    }
+    
+    // Load company logos
+    async function loadCompanyLogos() {
+        try {
+            const response = await fetch(LOGOS_URL);
+            if (!response.ok) throw new Error('Failed to fetch logos');
+            
+            const csv = await response.text();
+            const lines = csv.split('\n');
+            
+            for (let i = 1; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (!line) continue;
+                
+                const urlMatch = line.match(/,(https?:\/\/[^,\s]+)$/);
+                if (urlMatch) {
+                    const url = urlMatch[1].trim();
+                    const name = line.substring(0, urlMatch.index).trim().replace(/^["']|["']$/g, '');
+                    platformState.companyLogos[name] = url;
+                }
+            }
+        } catch (error) {
+            console.error('Error loading logos:', error);
+        }
+    }
+    
+    // Load data from Google Sheets
+    async function loadData() {
+        try {
+            const buyResponse = await fetch(
+                `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/BUY?key=${API_KEY}`
+            );
+            if (buyResponse.ok) {
+                const buyJson = await buyResponse.json();
+                platformState.buyData = parseSheetData(buyJson.values);
+            }
+            
+            const sellResponse = await fetch(
+                `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/SELL?key=${API_KEY}`
+            );
+            if (sellResponse.ok) {
+                const sellJson = await sellResponse.json();
+                platformState.sellData = parseSheetData(sellJson.values);
+            }
+            
+            if (platformState.buyData.length === 0) platformState.buyData = fallbackData.buy;
+            if (platformState.sellData.length === 0) platformState.sellData = fallbackData.sell;
+            
+            platformState.currentData = platformState.activeTab === 'buy' ? platformState.buyData : platformState.sellData;
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            platformState.buyData = fallbackData.buy;
+            platformState.sellData = fallbackData.sell;
+            platformState.currentData = platformState.sellData;
+        }
+    }
+    
+    // Parse sheet data
+    function parseSheetData(values) {
+        if (!values || values.length < 2) return [];
+        const rows = values.slice(1);
+        return rows.map(row => ({
+            company: row[0] || '',
+            lastUpdate: row[1] || '',
+            volume: row[2] || '',
+            price: row[3] || '',
+            valuation: row[4] || '',
+            structure: row[5] || 'Unknown',
+            shareClass: row[6] || 'Unknown'
+        }));
+    }
+    
+    // Find company logo
+    function findCompanyLogo(companyName) {
+        if (!companyName) return null;
+        
+        if (platformState.companyLogos[companyName]) {
+            return platformState.companyLogos[companyName];
+        }
+        
+        const normalizedInput = companyName.toLowerCase().trim();
+        for (const [logoCompanyName, logoUrl] of Object.entries(platformState.companyLogos)) {
+            const normalizedLogoName = logoCompanyName.toLowerCase().trim();
+            if (normalizedLogoName.includes(normalizedInput) || normalizedInput.includes(normalizedLogoName)) {
+                return logoUrl;
+            }
+        }
+        
+        return null;
+    }
+    
+    // Apply filters and sort
+    function applyFilters() {
+        // Filter data
+        platformState.filteredData = platformState.currentData.filter(row => {
+            // Company filter
+            if (platformState.selectedCompany && row.company !== platformState.selectedCompany) {
+                return false;
+            }
+            
+            // Structure filter
+            if (platformState.selectedStructures.length > 0 && platformState.selectedStructures.length < 4) {
+                const structureMatch = platformState.selectedStructures.some(s => {
+                    const rowStructure = (row.structure || '').toLowerCase();
+                    const filterStructure = s.toLowerCase();
+                    return rowStructure === filterStructure || 
+                           rowStructure.includes(filterStructure) ||
+                           filterStructure.includes(rowStructure);
+                });
+                if (!structureMatch) {
+                    return false;
+                }
+            }
+            
+            // Share Class filter
+            if (platformState.selectedShareClasses.length > 0 && platformState.selectedShareClasses.length < 5) {
+                const shareMatch = platformState.selectedShareClasses.some(sc => {
+                    const rowShare = (row.shareClass || '').toLowerCase();
+                    const filterShare = sc.toLowerCase();
+                    
+                    if (rowShare.includes('/')) {
+                        return rowShare.split('/').some(part => 
+                            platformState.selectedShareClasses.some(s => 
+                                s.toLowerCase() === part.trim().toLowerCase()
+                            )
+                        );
+                    }
+                    
+                    if (filterShare.includes('series') && rowShare.includes('series')) {
+                        return true;
+                    }
+                    
+                    return rowShare === filterShare || 
+                           rowShare.includes(filterShare) ||
+                           filterShare.includes(rowShare);
+                });
+                if (!shareMatch) {
+                    return false;
+                }
+            }
+            
+            // Complete/All filter - Fixed to exclude "Request" values
+            if (!platformState.showAllData) {
+                // Check for missing required fields
+                if (!row.company || !row.lastUpdate || !row.volume || !row.price || !row.valuation) {
+                    return false;
+                }
+                // Check for "Request" in any field (case-insensitive)
+                const fields = [row.volume, row.price, row.valuation];
+                for (const field of fields) {
+                    const fieldStr = (field || '').toLowerCase();
+                    if (fieldStr.includes('request') || fieldStr.includes('offer') || fieldStr === 'n/a') {
+                        return false;
+                    }
+                }
+            }
+            
+            return true;
+        });
+        
+        // Sort data
+        sortData();
+        
+        // Update URL
+        updateURL();
+        
+        // Render
+        renderData();
+    }
+    
+    // Sort data
+    function sortData() {
+        platformState.filteredData.sort((a, b) => {
+            let aVal, bVal;
+            
+            if (platformState.sortColumn === 'company') {
+                aVal = a.company.toLowerCase();
+                bVal = b.company.toLowerCase();
+            } else if (platformState.sortColumn === 'date') {
+                aVal = parseDate(a.lastUpdate);
+                bVal = parseDate(b.lastUpdate);
+            } else if (platformState.sortColumn === 'volume') {
+                aVal = parseValue(a.volume);
+                bVal = parseValue(b.volume);
+            } else if (platformState.sortColumn === 'price') {
+                aVal = parseValue(a.price);
+                bVal = parseValue(b.price);
+            } else if (platformState.sortColumn === 'valuation') {
+                aVal = parseValue(a.valuation);
+                bVal = parseValue(b.valuation);
+            } else {
+                return 0;
+            }
+            
+            if (platformState.sortDirection === 'asc') {
+                return aVal > bVal ? 1 : aVal < bVal ? -1 : 0;
+            } else {
+                return bVal > aVal ? 1 : bVal < aVal ? -1 : 0;
+            }
+        });
+    }
+    
+    // Parse date
+    function parseDate(dateStr) {
+        if (!dateStr) return new Date(0);
+        const parts = dateStr.split('/');
+        if (parts.length === 3) {
+            return new Date(parts[2], parts[0] - 1, parts[1]);
+        }
+        return new Date(dateStr);
+    }
+    
+    // Parse value
+    function parseValue(str) {
+        if (!str || str === 'N/A' || str.toLowerCase() === 'market' || str.toLowerCase().includes('request')) return 0;
+        let cleaned = str.replace(/[$,]/g, '');
+        if (cleaned.includes('M')) {
+            cleaned = cleaned.replace('M', '');
+            return parseFloat(cleaned) * 1000000;
+        }
+        if (cleaned.includes('B')) {
+            cleaned = cleaned.replace('B', '');
+            return parseFloat(cleaned) * 1000000000;
+        }
+        return parseFloat(cleaned) || 0;
+    }
+    
+    // Render data
+    function renderData() {
+        const container = document.getElementById('platform-dataContent');
+        
+        if (platformState.filteredData.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state">
+                    <h3>No Deals Found</h3>
+                    <p>Try adjusting your filters or add a new order</p>
+                </div>
+            `;
+            return;
+        }
+        
+        const dataRows = platformState.filteredData.map(row => {
+            const logoUrl = findCompanyLogo(row.company);
+            const logoHtml = logoUrl
+                ? `<img src="${logoUrl}" alt="${row.company}">`
+                : `<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #f3f4f6; font-size: 9px; font-weight: 700;">${row.company.substring(0, 3).toUpperCase()}</div>`;
+            
+            const action = platformState.activeTab === 'buy' ? 'Purchase' : 'Sale';
+            const subject = `RE: ${row.company} ${action} Order`;
+            const body = `Dear Sir/Madam,\n\nWe wish to inquire about your ${action.toLowerCase()} order for ${row.company} securities.\n\nDetails:\n- Structure: ${row.structure}\n- Price: ${row.price}\n- Valuation: ${row.valuation}\n- Volume: ${row.volume}\n- Last Update: ${row.lastUpdate}\n\nPlease confirm availability.\n\nBest regards`;
+            const mailtoLink = `mailto:deals@institutional-platform.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            return `
+                <div class="data-row">
+                    <div class="data-cell col-company">
+                        <div class="company-info">
+                            <div class="company-icon">${logoHtml}</div>
+                            <span class="company-name">${row.company}</span>
+                        </div>
+                    </div>
+                    <div class="data-cell col-date">
+                        <span class="date-value">${row.lastUpdate}</span>
+                    </div>
+                    <div class="data-cell col-volume">
+                        <span class="volume-value">${row.volume}</span>
+                    </div>
+                    <div class="data-cell col-price">
+                        <span class="price-value">${row.price}</span>
+                    </div>
+                    <div class="data-cell col-valuation">
+                        <span class="valuation-value">${row.valuation}</span>
+                    </div>
+                    <div class="data-cell col-structure">
+                        <span class="structure-tag">${row.structure}</span>
+                    </div>
+                    <div class="data-cell col-share">
+                        <span class="share-tag">${row.shareClass}</span>
+                    </div>
+                    <div class="data-cell col-action">
+                        <a href="${mailtoLink}" class="btn-inquire">Inquire</a>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        container.innerHTML = `<div class="data-table">${dataRows}</div>`;
+    }
+    
+    // Filter company list - Fixed to search by first letters
+    function filterCompanyList(searchValue) {
+        const items = document.querySelectorAll('#platform-companyList .dropdown-item');
+        const search = searchValue.toLowerCase().trim();
+        
+        items.forEach(item => {
+            const companySpan = item.querySelector('span');
+            if (companySpan) {
+                const text = companySpan.textContent.toLowerCase();
+                // Filter by first letters only
+                item.style.display = !search || text.startsWith(search) ? 'flex' : 'none';
+            }
+        });
+    }
+    
+    // Filter modal company list - Fixed to search by first letters
+    function filterModalCompanyList(searchValue) {
+        const items = document.querySelectorAll('#platform-modalCompanyList .dropdown-item');
+        const search = searchValue.toLowerCase().trim();
+        
+        items.forEach(item => {
+            const companySpan = item.querySelector('span');
+            if (companySpan) {
+                const text = companySpan.textContent.toLowerCase();
+                // Filter by first letters only
+                item.style.display = !search || text.startsWith(search) ? 'flex' : 'none';
+            }
+        });
+    }
+    
+    // Setup event listeners
+    function setupEventListeners() {
+        // Company selector
+        const companySelector = document.getElementById('platform-companySelector');
+        const companySelectorBtn = companySelector.querySelector('.selector-button');
+        
+        companySelectorBtn.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('clear-btn')) {
+                companySelector.classList.toggle('open');
+                if (companySelector.classList.contains('open')) {
+                    renderCompanyDropdown();
+                    document.getElementById('platform-companySearch').focus();
+                }
+            }
+        });
+        
+        // Company search (fixed to filter by first letters)
+        document.getElementById('platform-companySearch').addEventListener('input', (e) => {
+            filterCompanyList(e.target.value);
+        });
+        
+        // Tab buttons
+        document.querySelectorAll('#institutional-overlay-platform .tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#institutional-overlay-platform .tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                platformState.activeTab = btn.dataset.tab;
+                platformState.currentData = platformState.activeTab === 'buy' ? platformState.buyData : platformState.sellData;
+                applyFilters();
+            });
+        });
+        
+        // Filter toggle
+        document.getElementById('platform-filterToggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            platformState.showAllData = this.classList.contains('active');
+            applyFilters();
+        });
+        
+        // Structure filter toggle
+        const structureToggle = document.getElementById('platform-structureFilterToggle');
+        const structureDropdown = document.getElementById('platform-structureFilterDropdown');
+        
+        structureToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            structureDropdown.classList.toggle('open');
+            document.getElementById('platform-shareFilterDropdown').classList.remove('open');
+        });
+        
+        // Share Class filter toggle
+        const shareToggle = document.getElementById('platform-shareFilterToggle');
+        const shareDropdown = document.getElementById('platform-shareFilterDropdown');
+        
+        shareToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            shareDropdown.classList.toggle('open');
+            document.getElementById('platform-structureFilterDropdown').classList.remove('open');
+        });
+        
+        // Prevent filter dropdowns from closing when clicking inside
+        document.getElementById('platform-structureFilterDropdown').addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+        
+        document.getElementById('platform-shareFilterDropdown').addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+        
+        // Sort headers
+        document.querySelectorAll('#institutional-overlay-platform .header-cell.sortable').forEach(header => {
+            header.addEventListener('click', () => {
+                const sortBy = header.dataset.sort;
+                
+                document.querySelectorAll('#institutional-overlay-platform .header-cell.sortable').forEach(h => {
+                    h.classList.remove('sort-asc', 'sort-desc');
+                });
+                
+                if (platformState.sortColumn === sortBy) {
+                    platformState.sortDirection = platformState.sortDirection === 'asc' ? 'desc' : 'asc';
+                } else {
+                    platformState.sortColumn = sortBy;
+                    platformState.sortDirection = 'desc';
+                }
+                
+                header.classList.add(platformState.sortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
+                applyFilters();
+            });
+        });
+        
+        // Deal type options
+        document.querySelectorAll('#institutional-overlay-platform .deal-type-option').forEach(option => {
+            option.addEventListener('click', function() {
+                document.querySelectorAll('#institutional-overlay-platform .deal-type-option').forEach(opt => opt.classList.remove('selected'));
+                this.classList.add('selected');
+                const type = this.dataset.type;
+                document.getElementById('platform-priceLabel').textContent = type === 'buy' ? 'Bid Price' : 'Offer Price';
+            });
+        });
+        
+        // Modal company selector
+        const modalCompanySelector = document.getElementById('platform-modalCompanySelector');
+        const modalCompanySelectorBtn = modalCompanySelector.querySelector('.selector-button');
+        
+        modalCompanySelectorBtn.addEventListener('click', () => {
+            modalCompanySelector.classList.toggle('open');
+            if (modalCompanySelector.classList.contains('open')) {
+                renderModalCompanyDropdown();
+                document.getElementById('platform-modalCompanySearch').focus();
+            }
+        });
+        
+        // Modal company search (fixed to filter by first letters)
+        document.getElementById('platform-modalCompanySearch').addEventListener('input', (e) => {
+            filterModalCompanyList(e.target.value);
+        });
+        
+        // Close dropdowns on outside click
+        document.addEventListener('click', (e) => {
+            if (!companySelector.contains(e.target)) {
+                companySelector.classList.remove('open');
+            }
+            
+            if (modalCompanySelector && !modalCompanySelector.contains(e.target)) {
+                modalCompanySelector.classList.remove('open');
+            }
+            
+            if (!structureToggle.contains(e.target) && !structureDropdown.contains(e.target)) {
+                structureDropdown.classList.remove('open');
+            }
+            if (!shareToggle.contains(e.target) && !shareDropdown.contains(e.target)) {
+                shareDropdown.classList.remove('open');
+            }
+        });
+    }
+    
+    // Render company dropdown
+    function renderCompanyDropdown() {
+        const list = document.getElementById('platform-companyList');
+        const companies = [...new Set(platformState.currentData.map(row => row.company))].filter(Boolean);
+        const allCompanies = [...new Set([...companies, ...Object.keys(platformState.companyLogos)])].sort();
+        
+        list.innerHTML = allCompanies.map(company => {
+            const logoUrl = platformState.companyLogos[company];
+            const logoHtml = logoUrl
+                ? `<img src="${logoUrl}" alt="${company}">`
+                : `<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #f3f4f6; font-size: 9px; font-weight: 700;">${company.substring(0, 3).toUpperCase()}</div>`;
+            
+            return `
+                <div class="dropdown-item ${platformState.selectedCompany === company ? 'selected' : ''}" onclick="platformSelectCompany('${company}')">
+                    <div class="company-icon" style="width: 24px; height: 24px;">${logoHtml}</div>
+                    <span style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 11px;">${company}</span>
+                </div>
+            `;
+        }).join('');
+    }
+    
+    // Render modal company dropdown
+    function renderModalCompanyDropdown() {
+        const list = document.getElementById('platform-modalCompanyList');
+        const allCompanies = Object.keys(platformState.companyLogos).sort();
+        
+        list.innerHTML = allCompanies.map(company => {
+            const logoUrl = platformState.companyLogos[company];
+            const logoHtml = logoUrl
+                ? `<img src="${logoUrl}" alt="${company}">`
+                : `<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #f3f4f6; font-size: 9px; font-weight: 700;">${company.substring(0, 3).toUpperCase()}</div>`;
+            
+            return `
+                <div class="dropdown-item ${platformState.modalSelectedCompany === company ? 'selected' : ''}" onclick="platformSelectModalCompany('${company}')">
+                    <div class="company-icon" style="width: 24px; height: 24px;">${logoHtml}</div>
+                    <span style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 11px;">${company}</span>
+                </div>
+            `;
+        }).join('');
+    }
+    
+    // Global functions
+    window.platformSelectCompany = function(company) {
+        const selector = document.getElementById('platform-companySelector');
+        const button = selector.querySelector('.selector-button span');
+        
+        if (platformState.selectedCompany === company) {
+            platformState.selectedCompany = null;
+            button.textContent = 'All Companies';
+            selector.querySelector('.selector-button').classList.remove('has-filter');
+        } else {
+            platformState.selectedCompany = company;
+            button.textContent = company;
+            selector.querySelector('.selector-button').classList.add('has-filter');
+        }
+        
+        selector.classList.remove('open');
+        applyFilters();
+    }
+    
+    window.platformSelectModalCompany = function(company) {
+        const selector = document.getElementById('platform-modalCompanySelector');
+        const button = selector.querySelector('.selector-button span');
+        
+        platformState.modalSelectedCompany = company;
+        button.textContent = company;
+        selector.classList.remove('open');
+    }
+    
+    window.platformClearCompanyFilter = function(event) {
+        event.stopPropagation();
+        platformState.selectedCompany = null;
+        const button = document.querySelector('#platform-companySelector .selector-button');
+        button.querySelector('span').textContent = 'All Companies';
+        button.classList.remove('has-filter');
+        applyFilters();
+    }
+    
+    // Reset All Filters - Fixed to set All as default
+    window.platformResetAllFilters = function() {
+        // Reset company
+        platformState.selectedCompany = null;
+        const companyButton = document.querySelector('#platform-companySelector .selector-button');
+        companyButton.querySelector('span').textContent = 'All Companies';
+        companyButton.classList.remove('has-filter');
+        
+        // Reset toggle to All
+        platformState.showAllData = true;
+        document.getElementById('platform-filterToggle').classList.add('active');
+        
+        // Reset structures
+        platformState.selectedStructures = ['Direct trade', 'SPV', 'Forward'];
+        document.querySelectorAll('#platform-structureFilterDropdown input[type="checkbox"]').forEach(checkbox => {
+            checkbox.checked = true;
+        });
+        document.getElementById('platform-structureActiveIndicator').style.display = 'none';
+        
+        // Reset share classes
+        platformState.selectedShareClasses = ['Common', 'Preferred'];
+        document.querySelectorAll('#platform-shareFilterDropdown input[type="checkbox"]').forEach(checkbox => {
+            checkbox.checked = true;
+        });
+        document.getElementById('platform-shareActiveIndicator').style.display = 'none';
+        
+        // Reset sort
+        platformState.sortColumn = 'date';
+        platformState.sortDirection = 'desc';
+        document.querySelectorAll('#institutional-overlay-platform .header-cell.sortable').forEach(h => {
+            h.classList.remove('sort-asc', 'sort-desc');
+            if (h.dataset.sort === 'date') {
+                h.classList.add('sort-desc');
+            }
+        });
+        
+        applyFilters();
+    }
+    
+    window.platformOpenModal = function() {
+        document.getElementById('platform-dealModal').classList.add('active');
+        platformState.modalSelectedCompany = null;
+        document.querySelector('#platform-modalCompanySelector .selector-button span').textContent = 'Select Company';
+        document.getElementById('platform-dealPrice').value = '';
+        document.getElementById('platform-dealVolume').value = '';
+        document.getElementById('platform-dealValuation').value = '';
+        document.getElementById('platform-dealStructure').value = '';
+        document.getElementById('platform-dealShareClass').value = '';
+    }
+    
+    window.platformCloseModal = function() {
+        document.getElementById('platform-dealModal').classList.remove('active');
+    }
+    
+    window.platformSubmitDeal = function() {
+        const dealType = document.querySelector('input[name="platformDealType"]:checked').value;
+        const newDeal = {
+            company: platformState.modalSelectedCompany,
+            lastUpdate: new Date().toLocaleDateString('en-US', {
+                month: '2-digit',
+                day: '2-digit',
+                year: 'numeric'
+            }),
+            volume: document.getElementById('platform-dealVolume').value,
+            price: document.getElementById('platform-dealPrice').value,
+            valuation: document.getElementById('platform-dealValuation').value,
+            structure: document.getElementById('platform-dealStructure').value,
+            shareClass: document.getElementById('platform-dealShareClass').value
+        };
+        
+        if (!newDeal.company || !newDeal.price || !newDeal.volume) {
+            alert('Please fill in all required fields');
+            return;
+        }
+        
+        if (dealType === 'buy') {
+            platformState.buyData.unshift(newDeal);
+            if (platformState.activeTab === 'buy') {
+                platformState.currentData = platformState.buyData;
+            }
+        } else {
+            platformState.sellData.unshift(newDeal);
+            if (platformState.activeTab === 'sell') {
+                platformState.currentData = platformState.sellData;
+            }
+        }
+        
+        platformCloseModal();
+        applyFilters();
+    }
+    
+    // Structure filter functions
+    window.platformApplyStructureFilter = function() {
+        platformState.selectedStructures = [];
+        document.querySelectorAll('#platform-structureFilterDropdown input[type="checkbox"]:checked').forEach(checkbox => {
+            platformState.selectedStructures.push(checkbox.value);
+        });
+        
+        const allChecked = document.querySelectorAll('#platform-structureFilterDropdown input[type="checkbox"]').length === 
+                           platformState.selectedStructures.length;
+        document.getElementById('platform-structureActiveIndicator').style.display = allChecked ? 'none' : 'inline-block';
+        
+        document.getElementById('platform-structureFilterDropdown').classList.remove('open');
+        
+        applyFilters();
+    }
+    
+    window.platformResetStructureFilter = function() {
+        document.querySelectorAll('#platform-structureFilterDropdown input[type="checkbox"]').forEach(checkbox => {
+            checkbox.checked = true;
+        });
+        platformState.selectedStructures = ['Direct trade', 'SPV', 'Secondary', 'Block Trade'];
+        document.getElementById('platform-structureActiveIndicator').style.display = 'none';
+        
+        document.getElementById('platform-structureFilterDropdown').classList.remove('open');
+        
+        applyFilters();
+    }
+    
+    // Share Class filter functions
+    window.platformApplyShareFilter = function() {
+        platformState.selectedShareClasses = [];
+        document.querySelectorAll('#platform-shareFilterDropdown input[type="checkbox"]:checked').forEach(checkbox => {
+            platformState.selectedShareClasses.push(checkbox.value);
+        });
+        
+        const allChecked = document.querySelectorAll('#platform-shareFilterDropdown input[type="checkbox"]').length === 
+                           platformState.selectedShareClasses.length;
+        document.getElementById('platform-shareActiveIndicator').style.display = allChecked ? 'none' : 'inline-block';
+        
+        document.getElementById('platform-shareFilterDropdown').classList.remove('open');
+        
+        applyFilters();
+    }
+    
+    window.platformResetShareFilter = function() {
+        document.querySelectorAll('#platform-shareFilterDropdown input[type="checkbox"]').forEach(checkbox => {
+            checkbox.checked = true;
+        });
+        platformState.selectedShareClasses = ['Common', 'Preferred', 'Series A', 'Series B', 'Series C+'];
+        document.getElementById('platform-shareActiveIndicator').style.display = 'none';
+        
+        document.getElementById('platform-shareFilterDropdown').classList.remove('open');
+        
+        applyFilters();
+    }
+    
+    // Start the app
+    init();
+})();
+</script>
+</div>

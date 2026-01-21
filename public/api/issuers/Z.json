@@ -1,0 +1,2860 @@
+{
+  "ZAPIER": {
+    "ticker": "ZAPIER",
+    "name": "Zapier",
+    "logo": "https://logo.clearbit.com/zapier.com",
+    "tagline": "Automation platform—$5B valuation, $400M revenue, 8,000+ app integrations, bootstrapped",
+    "tags": [
+      "Automation",
+      "SaaS",
+      "No-Code",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$5B"
+      },
+      {
+        "label": "Revenue 2025",
+        "value": "$400M"
+      },
+      {
+        "label": "App Integrations",
+        "value": "8,000+"
+      },
+      {
+        "label": "Customers",
+        "value": "100K+"
+      }
+    ],
+    "overview": "Zapier is an automation platform that connects 8,000+ apps to create custom workflows without coding. Founded in 2011 by Wade Foster and Bryan Helmig, the company is remarkably capital-efficient—reaching $5B valuation on just $2.68M in VC funding ($1.4M from Sequoia/YC). Revenue grew to $400M projected for 2025, up from $310M in 2024. The company has 3M+ users and 100K+ paying customers. In September 2025, Zapier launched unified AI orchestration plans with Tables, Interfaces, and Zapier MCP. The company remains remote-first with no physical headquarters.",
+    "products": [
+      {
+        "name": "Zapier Zaps",
+        "description": "Automated workflows connecting 8,000+ apps",
+        "url": "https://zapier.com/app/zaps"
+      },
+      {
+        "name": "Zapier Tables",
+        "description": "No-code database for automation workflows",
+        "url": "https://zapier.com/tables"
+      },
+      {
+        "name": "Zapier Interfaces",
+        "description": "Build custom apps and forms without code",
+        "url": "https://zapier.com/interfaces"
+      },
+      {
+        "name": "Zapier MCP",
+        "description": "AI orchestration and model context protocol",
+        "url": "https://zapier.com/mcp"
+      },
+      {
+        "name": "Zapier Canvas",
+        "description": "Visual workflow builder and diagramming",
+        "url": "https://zapier.com/canvas"
+      }
+    ],
+    "highlights_title": "Latest news on Zapier",
+    "highlights": [
+      {
+        "title": "Zapier surpasses $200M ARR milestone",
+        "url": "https://techcrunch.com/zapier-200m-arr/"
+      },
+      {
+        "title": "Zapier launches AI-powered Zap creation assistant",
+        "url": "https://www.theverge.com/zapier-ai-automation"
+      },
+      {
+        "title": "Zapier expands enterprise offering with enhanced security features",
+        "url": "https://www.businesswire.com/zapier-enterprise-launch"
+      },
+      {
+        "title": "Zapier acquires workflow management platform Makerpad",
+        "url": "https://www.crunchbase.com/acquisition/zapier-makerpad"
+      },
+      {
+        "title": "Zapier integrates with 6,000+ apps in largest automation network",
+        "url": "https://www.forbes.com/zapier-integration-milestone/"
+      },
+      {
+        "title": "Zapier announces remote-first permanent work policy",
+        "url": "https://www.wired.com/story/zapier-remote-work/"
+      },
+      {
+        "title": "Zapier launches Tables database product for no-code workflows",
+        "url": "https://venturebeat.com/zapier-tables-launch"
+      },
+      {
+        "title": "Zapier Canvas visual workflow builder released",
+        "url": "https://www.pcmag.com/reviews/zapier-canvas"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Wade Foster",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/1ac9af79-c24e-412c-a940-70f8c191aa08_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/wadefoster/"
+      },
+      {
+        "name": "Bryan Helmig",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/484a757c-aa41-435e-9151-d5d49e875d6c_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/bryanhelmig/"
+      },
+      {
+        "name": "Ryan Roccon",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/b44c7121-a724-482f-a376-de63a63bf5ba_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ryanroccon/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Bessemer Venture Partners",
+        "url": "https://www.bvp.com/"
+      },
+      {
+        "name": "Threshold Ventures",
+        "url": "https://www.threshold.vc/"
+      },
+      {
+        "name": "Steadfast Venture Capital",
+        "url": "https://www.steadfastvc.com/"
+      },
+      {
+        "name": "K9 Ventures",
+        "url": "https://www.k9ventures.com/"
+      },
+      {
+        "name": "Y Combinator",
+        "url": "https://www.ycombinator.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Mar 2021",
+        "amount": "Secondary",
+        "round": "Secondary Sale",
+        "valuation": "$5B",
+        "investors_html": "Secondary market (limited funding)"
+      },
+      {
+        "date": "2012",
+        "amount": "$1.4M",
+        "round": "Seed",
+        "valuation": "—",
+        "investors_html": "Y Combinator, Sequoia Scout"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Zapier, Inc.",
+      "website": "https://zapier.com",
+      "website_display": "zapier.com",
+      "founded": "2011",
+      "headcount": "800+",
+      "hq": "Remote (No HQ)",
+      "twitter": "https://twitter.com/zapier",
+      "linkedin": "https://www.linkedin.com/company/zapier/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue, $M",
+          "badge_text": "Bootstrapped",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2020",
+              "value": "$100M",
+              "height": 43
+            },
+            {
+              "label": "2022",
+              "value": "$199M",
+              "height": 85
+            },
+            {
+              "label": "2024",
+              "value": "$310M",
+              "height": 132
+            },
+            {
+              "label": "2025",
+              "value": "$400M",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "App Integrations",
+          "badge_text": "8,000+",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2018",
+              "value": "1,500",
+              "height": 32
+            },
+            {
+              "label": "2021",
+              "value": "4,000",
+              "height": 85
+            },
+            {
+              "label": "2024",
+              "value": "6,000",
+              "height": 128
+            },
+            {
+              "label": "2025",
+              "value": "8,000",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ZAMA": {
+    "ticker": "ZAMA",
+    "name": "ZAMA",
+    "logo": "/assets/logos/Zama.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZAMA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZAMA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZAMA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZAMA",
+      "website": "https://zama.com",
+      "website_display": "zama.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZEBEC": {
+    "ticker": "ZEBEC",
+    "name": "ZEBEC",
+    "logo": "/assets/logos/Zebec.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZEBEC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZEBEC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZEBEC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZEBEC",
+      "website": "https://zebec.com",
+      "website_display": "zebec.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZEGO": {
+    "ticker": "ZEGO",
+    "name": "ZEGO",
+    "logo": "/assets/logos/Zego.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZEGO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZEGO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZEGO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZEGO",
+      "website": "https://zego.com",
+      "website_display": "zego.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZENBUSINESS": {
+    "ticker": "ZENBUSINESS",
+    "name": "ZENBUSINESS",
+    "logo": "/assets/logos/ZenBusiness.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZENBUSINESS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZENBUSINESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZENBUSINESS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZENBUSINESS",
+      "website": "https://zenbusiness.com",
+      "website_display": "zenbusiness.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZENOTI": {
+    "ticker": "ZENOTI",
+    "name": "ZENOTI",
+    "logo": "/assets/logos/Zenoti.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZENOTI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZENOTI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZENOTI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZENOTI",
+      "website": "https://zenoti.com",
+      "website_display": "zenoti.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZEPTO": {
+    "ticker": "ZEPTO",
+    "name": "ZEPTO",
+    "logo": "/assets/logos/Zepto.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZEPTO is a technology company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZEPTO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZEPTO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZEPTO",
+      "website": "https://zepto.com",
+      "website_display": "zepto.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZEPZ": {
+    "ticker": "ZEPZ",
+    "name": "ZEPZ",
+    "logo": "/assets/logos/Zepz.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZEPZ is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZEPZ main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZEPZ",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZEPZ",
+      "website": "https://zepz.com",
+      "website_display": "zepz.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZETA": {
+    "ticker": "ZETA",
+    "name": "ZETA",
+    "logo": "/assets/logos/Zeta.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZETA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZETA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZETA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZETA",
+      "website": "https://zeta.com",
+      "website_display": "zeta.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZETWERK": {
+    "ticker": "ZETWERK",
+    "name": "ZETWERK",
+    "logo": "/assets/logos/Zetwerk.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZETWERK is a technology company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZETWERK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZETWERK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZETWERK",
+      "website": "https://zetwerk.com",
+      "website_display": "zetwerk.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHAOGANGCOM": {
+    "ticker": "ZHAOGANGCOM",
+    "name": "ZHAOGANG.COM",
+    "logo": "/assets/logos/Zhaogang.com.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHAOGANG.COM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHAOGANG.COM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHAOGANG.COM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHAOGANG.COM",
+      "website": "https://zhaogangcom.com",
+      "website_display": "zhaogangcom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHENKUNXING": {
+    "ticker": "ZHENKUNXING",
+    "name": "ZHENKUNXING",
+    "logo": "/assets/logos/Zhenkunxing.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHENKUNXING is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHENKUNXING main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHENKUNXING",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHENKUNXING",
+      "website": "https://zhenkunxing.com",
+      "website_display": "zhenkunxing.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHIDOU": {
+    "ticker": "ZHIDOU",
+    "name": "ZHIDOU",
+    "logo": "/assets/logos/Zhidou.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHIDOU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHIDOU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHIDOU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHIDOU",
+      "website": "https://zhidou.com",
+      "website_display": "zhidou.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHIJI-AUTO": {
+    "ticker": "ZHIJI-AUTO",
+    "name": "ZHIJI AUTO",
+    "logo": "/assets/logos/Zhiji_Auto.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHIJI AUTO is a mobility company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHIJI AUTO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHIJI AUTO",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHIJI AUTO",
+      "website": "https://zhijiauto.com",
+      "website_display": "zhijiauto.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHIPU-AI": {
+    "ticker": "ZHIPU-AI",
+    "name": "ZHIPU AI",
+    "logo": "/assets/logos/Zhipu_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHIPU AI is a ai company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHIPU AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHIPU AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHIPU AI",
+      "website": "https://zhipuai.com",
+      "website_display": "zhipuai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHIZI-AUTOMOBILE": {
+    "ticker": "ZHIZI-AUTOMOBILE",
+    "name": "ZHIZI AUTOMOBILE",
+    "logo": "/assets/logos/Zhizi_Automobile.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHIZI AUTOMOBILE is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHIZI AUTOMOBILE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHIZI AUTOMOBILE",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHIZI AUTOMOBILE",
+      "website": "https://zhiziautomobile.com",
+      "website_display": "zhiziautomobile.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHUANZHUAN": {
+    "ticker": "ZHUANZHUAN",
+    "name": "ZHUANZHUAN",
+    "logo": "/assets/logos/Zhuanzhuan.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHUANZHUAN is a technology company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHUANZHUAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHUANZHUAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHUANZHUAN",
+      "website": "https://zhuanzhuan.com",
+      "website_display": "zhuanzhuan.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHUBAJIE": {
+    "ticker": "ZHUBAJIE",
+    "name": "ZHUBAJIE",
+    "logo": "/assets/logos/Zhubajie.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHUBAJIE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHUBAJIE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHUBAJIE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHUBAJIE",
+      "website": "https://zhubajie.com",
+      "website_display": "zhubajie.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZHUZHOU-CRRC-TIMES-SEMICONDUCTOR": {
+    "ticker": "ZHUZHOU-CRRC-TIMES-SEMICONDUCTOR",
+    "name": "ZHUZHOU CRRC TIMES SEMICONDUCTOR",
+    "logo": "/assets/logos/Zhuzhou_CRRC_Times_Semiconductor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZHUZHOU CRRC TIMES SEMICONDUCTOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZHUZHOU CRRC TIMES SEMICONDUCTOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZHUZHOU CRRC TIMES SEMICONDUCTOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZHUZHOU CRRC TIMES SEMICONDUCTOR",
+      "website": "https://zhuzhoucrrctimessemiconductor.com",
+      "website_display": "zhuzhoucrrctimessemiconductor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZIGBANG": {
+    "ticker": "ZIGBANG",
+    "name": "ZIGBANG",
+    "logo": "/assets/logos/ZigBang.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZIGBANG is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZIGBANG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZIGBANG",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZIGBANG",
+      "website": "https://zigbang.com",
+      "website_display": "zigbang.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZIHAIGUO": {
+    "ticker": "ZIHAIGUO",
+    "name": "ZIHAIGUO",
+    "logo": "/assets/logos/Zihaiguo.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZIHAIGUO is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZIHAIGUO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZIHAIGUO",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZIHAIGUO",
+      "website": "https://zihaiguo.com",
+      "website_display": "zihaiguo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZILCH": {
+    "ticker": "ZILCH",
+    "name": "ZILCH",
+    "logo": "/assets/logos/Zilch.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZILCH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZILCH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZILCH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZILCH",
+      "website": "https://zilch.com",
+      "website_display": "zilch.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZIP": {
+    "ticker": "ZIP",
+    "name": "ZIP",
+    "logo": "/assets/logos/Zip.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZIP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZIP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZIP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZIP",
+      "website": "https://zip.com",
+      "website_display": "zip.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZIPLINE": {
+    "ticker": "ZIPLINE",
+    "name": "ZIPLINE",
+    "logo": "/assets/logos/Zipline.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZIPLINE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZIPLINE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZIPLINE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZIPLINE",
+      "website": "https://zipline.com",
+      "website_display": "zipline.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZIROOM": {
+    "ticker": "ZIROOM",
+    "name": "ZIROOM",
+    "logo": "/assets/logos/Ziroom.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZIROOM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZIROOM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZIROOM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZIROOM",
+      "website": "https://ziroom.com",
+      "website_display": "ziroom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZOCDOC": {
+    "ticker": "ZOCDOC",
+    "name": "ZOCDOC",
+    "logo": "/assets/logos/Zocdoc.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZOCDOC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZOCDOC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZOCDOC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZOCDOC",
+      "website": "https://zocdoc.com",
+      "website_display": "zocdoc.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZONGMU": {
+    "ticker": "ZONGMU",
+    "name": "ZONGMU",
+    "logo": "/assets/logos/Zongmu.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZONGMU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZONGMU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZONGMU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZONGMU",
+      "website": "https://zongmu.com",
+      "website_display": "zongmu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZOPA": {
+    "ticker": "ZOPA",
+    "name": "ZOPA",
+    "logo": "/assets/logos/Zopa.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZOPA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZOPA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZOPA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZOPA",
+      "website": "https://zopa.com",
+      "website_display": "zopa.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZUM": {
+    "ticker": "ZUM",
+    "name": "ZUM",
+    "logo": "/assets/logos/Zum.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZUM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZUM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZUM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZUM",
+      "website": "https://zum.com",
+      "website_display": "zum.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZUOYEBANG": {
+    "ticker": "ZUOYEBANG",
+    "name": "ZUOYEBANG",
+    "logo": "/assets/logos/Zuoyebang.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZUOYEBANG is a technology company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZUOYEBANG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZUOYEBANG",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZUOYEBANG",
+      "website": "https://zuoyebang.com",
+      "website_display": "zuoyebang.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZWIFT": {
+    "ticker": "ZWIFT",
+    "name": "ZWIFT",
+    "logo": "/assets/logos/Zwift.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZWIFT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZWIFT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZWIFT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZWIFT",
+      "website": "https://zwift.com",
+      "website_display": "zwift.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ZYBER-365": {
+    "ticker": "ZYBER-365",
+    "name": "ZYBER 365",
+    "logo": "/assets/logos/ZYBER_365.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ZYBER 365 is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ZYBER 365 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ZYBER 365",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ZYBER 365",
+      "website": "https://zyber365.com",
+      "website_display": "zyber365.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

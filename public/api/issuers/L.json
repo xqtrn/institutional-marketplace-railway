@@ -1,0 +1,5611 @@
+{
+  "LAUNCHDARKLY": {
+    "ticker": "LAUNCHDARKLY",
+    "name": "LaunchDarkly",
+    "logo": "https://logo.clearbit.com/launchdarkly.com",
+    "tagline": "Giving engineering teams control over feature releases with confidence and precision",
+    "tags": [
+      "Feature Flags",
+      "DevOps",
+      "SaaS",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$3B"
+      },
+      {
+        "label": "Revenue (2025E)",
+        "value": "$70-100M"
+      },
+      {
+        "label": "Customers",
+        "value": "5,500+"
+      },
+      {
+        "label": "Fortune 500",
+        "value": "25%"
+      }
+    ],
+    "overview": "LaunchDarkly is a feature management platform founded in 2014 by Edith Harbaugh and John Kodumal. The company raised $200M at $3B valuation in August 2021 led by Lead Edge Capital. Revenue reached $60M in 2024 with projections of $70-100M for 2025. LaunchDarkly serves 30 billion feature flags daily to 5,500+ organizations including 25% of Fortune 500. Co-founder Edith Harbaugh returned as CEO in 2024 after briefly stepping down in 2022. Acquired Highlight in April 2025.",
+    "products": [
+      {
+        "name": "LaunchDarkly Platform",
+        "description": "Feature flag management and release control",
+        "url": "https://launchdarkly.com/"
+      },
+      {
+        "name": "Feature Flags",
+        "description": "Feature toggles for safe deployments",
+        "url": "https://launchdarkly.com/product/feature-flags"
+      },
+      {
+        "name": "Experimentation",
+        "description": "A/B testing and feature experiments",
+        "url": "https://launchdarkly.com/product/experimentation"
+      },
+      {
+        "name": "Progressive Delivery",
+        "description": "Controlled rollouts and targeting",
+        "url": "https://launchdarkly.com/product/progressive-delivery"
+      },
+      {
+        "name": "Feature Workflows",
+        "description": "Approval workflows and scheduling",
+        "url": "https://launchdarkly.com/product/feature-workflows"
+      },
+      {
+        "name": "Highlight (Acquired)",
+        "description": "Error monitoring acquired Apr 2025",
+        "url": "https://launchdarkly.com/"
+      }
+    ],
+    "highlights_title": "Latest news on LaunchDarkly",
+    "highlights": [
+      {
+        "title": "DevOps: Highlight Acquisition",
+        "description": "LaunchDarkly acquires Highlight to bring observability to application release management",
+        "url": "https://devops.com/launchdarkly-acquires-highlight-to-bring-observability-to-application-release-management/"
+      },
+      {
+        "title": "Bitrise Integration",
+        "description": "New LaunchDarkly feature flags integration with Release Management on Bitrise",
+        "url": "https://bitrise.io/blog/post/new-launchdarkly-feature-flags-integration-with-release-management"
+      },
+      {
+        "title": "Contrary Research: Business Breakdown",
+        "description": "LaunchDarkly business breakdown and founding story deep dive",
+        "url": "https://research.contrary.com/company/launchdarkly"
+      },
+      {
+        "title": "Clay: Funding Analysis",
+        "description": "How much did LaunchDarkly raise? Funding and key investors breakdown",
+        "url": "https://www.clay.com/dossier/launchdarkly-funding"
+      },
+      {
+        "title": "Tracxn Funding Rounds",
+        "description": "LaunchDarkly 2025 funding rounds and list of investors analysis",
+        "url": "https://tracxn.com/d/companies/launchdarkly/__1FN6mELkzgZwLTpDu1WQ7mwuVAAEv14f0RK0vIfF-cY/funding-and-investors"
+      },
+      {
+        "title": "Tracxn 2025 Profile",
+        "description": "LaunchDarkly 2025 company profile, team, funding and competitors",
+        "url": "https://tracxn.com/d/companies/launchdarkly/__1FN6mELkzgZwLTpDu1WQ7mwuVAAEv14f0RK0vIfF-cY"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Edith Harbaugh",
+        "role": "Co-founder & CEO",
+        "photo": "https://cdn.theorg.com/e4fc3160-427a-4725-8532-6c43c0191562_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/edithharbaugh/"
+      },
+      {
+        "name": "John Kodumal",
+        "role": "Co-founder & CTO",
+        "photo": "https://cdn.theorg.com/4af282b0-0cbf-4672-b341-f85436d837f0_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jkodumal/"
+      },
+      {
+        "name": "Jesse Hulsing",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/cf66d383-0848-48ef-8537-6385a789c625_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jessehulsing/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Lead Edge Capital",
+        "url": "https://leadedgecapital.com/"
+      },
+      {
+        "name": "Bessemer Venture Partners",
+        "url": "https://www.bvp.com/"
+      },
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com/"
+      },
+      {
+        "name": "Redpoint Ventures",
+        "url": "https://www.redpoint.com/"
+      },
+      {
+        "name": "Uncork Capital",
+        "url": "https://uncorkcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Aug 2021",
+        "amount": "$200M",
+        "round": "Series D",
+        "valuation": "$3B",
+        "investors_html": "Lead Edge Capital, Bessemer, Insight Partners"
+      },
+      {
+        "date": "Jul 2020",
+        "amount": "$50M",
+        "round": "Series C",
+        "valuation": "$1B",
+        "investors_html": "Insight Partners, Redpoint, Uncork"
+      },
+      {
+        "date": "Dec 2018",
+        "amount": "$21M",
+        "round": "Series B",
+        "valuation": "—",
+        "investors_html": "Bessemer Venture Partners, Redpoint"
+      }
+    ],
+    "company_details": {
+      "legal_name": "LaunchDarkly, Inc.",
+      "website": "https://launchdarkly.com",
+      "website_display": "launchdarkly.com",
+      "founded": "2014",
+      "headcount": "581",
+      "hq": "Oakland, California",
+      "twitter": "https://twitter.com/LaunchDarkly",
+      "linkedin": "https://www.linkedin.com/company/launchdarkly"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "200% since 2020",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2020",
+              "value": "$1B",
+              "height": 57
+            },
+            {
+              "label": "2021",
+              "value": "$3B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+252% since 2020",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2020",
+              "value": "$17M",
+              "height": 29
+            },
+            {
+              "label": "2021",
+              "value": "$37M",
+              "height": 62
+            },
+            {
+              "label": "2022",
+              "value": "$57M",
+              "height": 95
+            },
+            {
+              "label": "2024",
+              "value": "$60M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LATTICE": {
+    "ticker": "LATTICE",
+    "name": "Lattice",
+    "logo": "https://logo.clearbit.com/lattice.com",
+    "tagline": "Helping companies build engaged, high-performing teams through continuous performance management",
+    "tags": [
+      "HR Tech",
+      "Performance Management",
+      "SaaS",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$3B"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$137M"
+      },
+      {
+        "label": "Customers",
+        "value": "5,000+"
+      },
+      {
+        "label": "Employees",
+        "value": "550"
+      }
+    ],
+    "overview": "Lattice is a people management platform founded in 2015 by Jack Altman and Eric Koslow. The company provides performance management, engagement surveys, goals/OKRs, and career development tools. In January 2024, Sarah Franklin (ex-Salesforce CMO/President) became CEO. Lattice serves 5,000+ customers including Slack, Gusto, Monzo, and Discord. In October 2024, Lattice launched its HRIS and AI Assistant at Lattiverse. Revenue reached $137M in 2024. The company's AI Agent Plus launched in 2025 provides personalized coaching and 1:1 support.",
+    "products": [
+      {
+        "name": "Performance",
+        "description": "Reviews, feedback, and performance cycles",
+        "url": "https://lattice.com/performance"
+      },
+      {
+        "name": "Engagement",
+        "description": "Employee surveys and pulse checks",
+        "url": "https://lattice.com/engagement"
+      },
+      {
+        "name": "OKRs & Goals",
+        "description": "Goal setting and tracking",
+        "url": "https://lattice.com/goals"
+      },
+      {
+        "name": "Grow",
+        "description": "Career development and growth plans",
+        "url": "https://lattice.com/grow"
+      },
+      {
+        "name": "Compensation",
+        "description": "Pay management and equity",
+        "url": "https://lattice.com/compensation"
+      },
+      {
+        "name": "HRIS",
+        "description": "Core HR and employee records (2024)",
+        "url": "https://lattice.com/hris"
+      },
+      {
+        "name": "AI Agent Plus",
+        "description": "AI coaching and 1:1 support (2025)",
+        "url": "https://lattice.com/ai"
+      }
+    ],
+    "highlights_title": "Latest news on Lattice",
+    "highlights": [
+      {
+        "text": "<strong>AI Agent Plus</strong> launched Oct 2025",
+        "url": "https://www.prnewswire.com/news-releases/lattice-debuts-habits-and-ai-agent-plus-where-people--ai-is-the-new-way-to-work-302589951.html",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>Sarah Franklin</strong> became CEO (Jan 2024)",
+        "url": "https://lattice.com/blog/the-next-chapter",
+        "date": "2024"
+      },
+      {
+        "text": "Launched <strong>Lattice HRIS</strong> at Lattiverse 2024",
+        "url": "https://lattice.com/blog/building-the-people-powered-future-lattice-unveils-ai-assistant-hris-and-more-at-lattiverse-2024",
+        "date": "2024"
+      },
+      {
+        "text": "Revenue reached <strong>$137M</strong> in 2024",
+        "url": "https://getlatka.com/companies/lattice",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>5,000+ customers</strong> including Slack, Monzo",
+        "url": "https://lattice.com/about"
+      },
+      {
+        "text": "Lattice <strong>Habits</strong> product launched",
+        "url": "https://www.prnewswire.com/news-releases/lattice-debuts-habits-and-ai-agent-plus-where-people--ai-is-the-new-way-to-work-302589951.html"
+      },
+      {
+        "text": "Jack Altman moved to <strong>Executive Chairman</strong>",
+        "url": "https://lattice.com/blog/the-next-chapter"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Sarah Franklin",
+        "role": "Chief Executive Officer",
+        "photo": "https://cdn.prod.website-files.com/64d227d0bd6695f39ef77395/680a21d3b05751ded11bf094_sarah-franklin.webp",
+        "linkedin": "https://www.linkedin.com/in/sarahfranklin/"
+      },
+      {
+        "name": "Jack Altman",
+        "role": "Co-founder & Executive Chairman",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQG4K8r9JDvxMQ/profile-displayphoto-shrink_200_200/0/1627426424744",
+        "linkedin": "https://www.linkedin.com/in/jackealtman/"
+      },
+      {
+        "name": "Eric Koslow",
+        "role": "Co-founder",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQEwzMYL_QHTUA/profile-displayphoto-shrink_200_200/0/1517692155287",
+        "linkedin": "https://www.linkedin.com/in/ekoslow/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Thrive Capital",
+        "url": "https://www.thrivecap.com/"
+      },
+      {
+        "name": "Tiger Global",
+        "url": "https://www.tigerglobal.com/"
+      },
+      {
+        "name": "Dragoneer",
+        "url": "https://www.dragoneer.com/"
+      },
+      {
+        "name": "Founders Fund",
+        "url": "https://foundersfund.com/"
+      },
+      {
+        "name": "Khosla Ventures",
+        "url": "https://www.khoslaventures.com/"
+      },
+      {
+        "name": "Shasta Ventures",
+        "url": "https://www.shastaventures.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jan 2022",
+        "amount": "$175M",
+        "round": "Series F",
+        "valuation": "$3B",
+        "investors_html": "Thrive Capital, Tiger Global, Dragoneer"
+      },
+      {
+        "date": "Sep 2020",
+        "amount": "$45M",
+        "round": "Series E",
+        "valuation": "$1.1B",
+        "investors_html": "Tiger Global, Dragoneer"
+      },
+      {
+        "date": "Mar 2019",
+        "amount": "$25M",
+        "round": "Series C",
+        "valuation": "—",
+        "investors_html": "Shasta Ventures, Khosla Ventures"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Lattice, Inc.",
+      "website": "https://lattice.com",
+      "website_display": "lattice.com",
+      "founded": "2015",
+      "headcount": "550",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/latticehq",
+      "linkedin": "https://www.linkedin.com/company/latticehq/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "3x Growth",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$0.4B",
+              "height": 23
+            },
+            {
+              "label": "2020",
+              "value": "$1.1B",
+              "height": 62
+            },
+            {
+              "label": "2022",
+              "value": "$3B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+50% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$61M",
+              "height": 76
+            },
+            {
+              "label": "2023",
+              "value": "$91M",
+              "height": 113
+            },
+            {
+              "label": "2024",
+              "value": "$137M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LINEAR": {
+    "ticker": "LINEAR",
+    "name": "Linear",
+    "logo": "https://logo.clearbit.com/linear.app",
+    "tagline": "Streamlining software development with fast, beautiful issue tracking built for modern teams",
+    "tags": [
+      "Developer Tools",
+      "Project Management",
+      "SaaS",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.25B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$134M"
+      },
+      {
+        "label": "Revenue Growth",
+        "value": "280%"
+      },
+      {
+        "label": "Founded",
+        "value": "2019"
+      }
+    ],
+    "overview": "Linear is a modern issue-tracking and project management tool built for software development teams, founded in 2019 by former Airbnb, Coinbase, and Uber engineers. The company focuses on speed, simplicity, and the execution part of development. In June 2025, Linear raised $82M Series C led by Accel at $1.25B valuation after achieving 280% revenue growth. The platform has won marquee AI clients with its lean, user-centered product. Previous investors include Sequoia, founders of Slack, Vercel, and Supercell.",
+    "products": [
+      {
+        "name": "Linear Issues",
+        "description": "Fast issue tracking with keyboard shortcuts and real-time sync",
+        "url": "https://linear.app/features/issues"
+      },
+      {
+        "name": "Linear Projects",
+        "description": "Project management with roadmaps and milestones",
+        "url": "https://linear.app/features/projects"
+      },
+      {
+        "name": "Linear Cycles",
+        "description": "Sprint planning and iteration management",
+        "url": "https://linear.app/features/cycles"
+      },
+      {
+        "name": "Linear Insights",
+        "description": "Analytics and reporting for engineering teams",
+        "url": "https://linear.app/features/insights"
+      },
+      {
+        "name": "Linear API",
+        "description": "Developer-first API for integrations and automation",
+        "url": "https://linear.app/developers"
+      }
+    ],
+    "highlights_title": "Latest news on Linear",
+    "highlights": [
+      {
+        "title": "TechCrunch: $82M Series C",
+        "description": "Atlassian rival Linear raises $82M at $1.25B valuation - unicorn status achieved",
+        "url": "https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/"
+      },
+      {
+        "title": "Tech Funding News: Unicorn",
+        "description": "Linear rockets to unicorn status: $82M Series C fuels $1.25B valuation in Jira showdown",
+        "url": "https://techfundingnews.com/linear-rockets-to-unicorn-status-82m-series-c-fuels-1-25b-valuation-in-jira-showdown/"
+      },
+      {
+        "title": "SaaS News: Series C",
+        "description": "Linear raises $82 million in Series C for product development expansion",
+        "url": "https://www.thesaasnews.com/news/linear-raises-82-million-in-series-c"
+      },
+      {
+        "title": "SalesTools: Series B Analysis",
+        "description": "Linear raises $35M Series B for issue tracking platform growth",
+        "url": "https://salestools.io/en/report/linear-35m-series-b-2024"
+      },
+      {
+        "title": "Sacra: Valuation Analysis",
+        "description": "Linear valuation, funding and business news deep dive",
+        "url": "https://sacra.com/c/linear/"
+      },
+      {
+        "title": "Clay: Funding Breakdown",
+        "description": "How much did Linear raise? Funding and key investors analysis",
+        "url": "https://www.clay.com/dossier/linear-funding"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Karri Saarinen",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/e446fc95-19ca-4478-a5d0-f9777da743d4_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/karrisaarinen/"
+      },
+      {
+        "name": "Tuomas Artman",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/24359e93-f856-484c-aaaa-1a7d2a8dcd6f_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/artman/"
+      },
+      {
+        "name": "Cristina Cordova",
+        "role": "COO",
+        "photo": "https://cdn.theorg.com/e4be8b57-a20b-4ed2-9457-620a00de6ad7_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/cristinacordova/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Accel",
+        "url": "https://www.accel.com/"
+      },
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "01 Advisors",
+        "url": "https://www.01advisors.com/"
+      },
+      {
+        "name": "Slack Fund",
+        "url": "https://slack.com/fund"
+      },
+      {
+        "name": "Vercel Founders",
+        "url": "https://vercel.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jun 2025",
+        "amount": "$82M",
+        "round": "Series C",
+        "valuation": "$1.25B",
+        "investors_html": "Accel (lead), Sequoia, 01 Advisors"
+      },
+      {
+        "date": "2024",
+        "amount": "$35M",
+        "round": "Series B",
+        "valuation": "$400M",
+        "investors_html": "Accel, Sequoia, Slack founders"
+      },
+      {
+        "date": "Jul 2020",
+        "amount": "$13M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "Sequoia Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Linear Orbit Inc.",
+      "website": "https://linear.app",
+      "website_display": "linear.app",
+      "founded": "2019",
+      "headcount": "50-100",
+      "hq": "San Francisco, CA",
+      "twitter": "https://twitter.com/linear",
+      "linkedin": "https://www.linkedin.com/company/linearapp/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $M",
+          "badge_text": "3x in 18 Mo",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2024",
+              "value": "$400M",
+              "height": 54
+            },
+            {
+              "label": "Jun 25",
+              "value": "$1.25B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LOVABLE": {
+    "ticker": "LOVABLE",
+    "name": "Lovable",
+    "logo": "https://logo.clearbit.com/lovable.dev",
+    "tagline": "Enabling anyone to build full-stack software applications through conversational AI",
+    "tags": [
+      "AI Coding",
+      "No-Code",
+      "SaaS",
+      "Sweden"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$5B+"
+      },
+      {
+        "label": "ARR (Nov 2025)",
+        "value": "$200M"
+      },
+      {
+        "label": "Growth",
+        "value": "$1M→$100M <1yr"
+      },
+      {
+        "label": "Founded",
+        "value": "2023"
+      }
+    ],
+    "overview": "Lovable is a Stockholm-based AI app builder founded in 2023 by Anton Osika and Oliver Edholm. The platform lets anyone build full-stack software by chatting with AI. Lovable reached $100M ARR in under one year—one of the fastest in history. In July 2025, the company raised $200M Series A at $1.8B valuation led by Accel. By November 2025, secondary market valuations hit $5B+. ARR doubled from $100M to $200M in just four months. Total funding: $228M.",
+    "products": [
+      {
+        "name": "Lovable Builder",
+        "description": "AI app builder from prompts",
+        "url": "https://lovable.dev/"
+      },
+      {
+        "name": "Full-Stack Generation",
+        "description": "Complete apps with frontend and backend",
+        "url": "https://lovable.dev/features"
+      },
+      {
+        "name": "Real-Time Preview",
+        "description": "Instant app previews",
+        "url": "https://lovable.dev/features"
+      },
+      {
+        "name": "Deploy & Share",
+        "description": "One-click deployment",
+        "url": "https://lovable.dev/features"
+      },
+      {
+        "name": "Integrations",
+        "description": "Connect to APIs and databases",
+        "url": "https://lovable.dev/features"
+      }
+    ],
+    "highlights_title": "Latest news on Lovable",
+    "highlights": [
+      {
+        "text": "Raised <strong>$200M Series A at $1.8B</strong> (Jul 2025)",
+        "url": "https://techstartups.com/2025/07/17/lovable-raises-200m-series-a-at-1-8b-valuation-to-scale-its-ai-vibe-coding-platform/",
+        "date": "2025"
+      },
+      {
+        "text": "Secondary valuation <strong>$5B+</strong> (Nov 2025)",
+        "url": "https://techfundingnews.com/europes-ai-unicorn-lovable-rockets-to-5b-valuation-at-100m-arr/",
+        "date": "2025"
+      },
+      {
+        "text": "ARR <strong>$200M</strong>, doubled in 4 months",
+        "url": "https://techfundingnews.com/europes-ai-unicorn-lovable-rockets-to-5b-valuation-at-100m-arr/"
+      },
+      {
+        "text": "<strong>$1M→$100M ARR</strong> in under 1 year",
+        "url": "https://techfundingnews.com/lovable-raises-150m-growth-round/"
+      },
+      {
+        "text": "<strong>Europe's fastest-growing</strong> startup",
+        "url": "https://sifted.eu/articles/big-interview-lovable-anton-osika"
+      },
+      {
+        "text": "In talks for <strong>$6B valuation</strong> round",
+        "url": "https://techfundingnews.com/europes-ai-unicorn-lovable-rockets-to-5b-valuation-at-100m-arr/"
+      },
+      {
+        "text": "Total funding: <strong>$228M</strong>",
+        "url": "https://www.crunchbase.com/organization/lovable-803a"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Anton Osika",
+        "role": "Co-founder & CEO",
+        "photo": "https://cdn.theorg.com/367514dc-455e-4d9f-befc-927e4a2c0ecb_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/antonosika/"
+      },
+      {
+        "name": "Fabian Hedin",
+        "role": "Co-founder & CTO",
+        "photo": "https://cdn.theorg.com/43157364-2679-4e20-a298-169b668c9ca0_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/fabian-hedin-2377b0144/"
+      },
+      {
+        "name": "Cecilia Stallsmith",
+        "role": "Head of Marketing",
+        "photo": "https://cdn.theorg.com/2da2f293-1993-43f3-a1d5-1567505ccc35_medium.jpg"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Accel",
+        "url": "https://www.accel.com/"
+      },
+      {
+        "name": "20VC",
+        "url": "https://www.thetwentyminutevc.com/"
+      },
+      {
+        "name": "Creandum",
+        "url": "https://www.creandum.com/"
+      },
+      {
+        "name": "Hummingbird Ventures",
+        "url": "https://www.hummingbird.vc/"
+      },
+      {
+        "name": "Visionaries Club",
+        "url": "https://www.visionaries.club/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jul 2025",
+        "amount": "$200M",
+        "round": "Series A",
+        "valuation": "$1.8B",
+        "investors_html": "Accel, 20VC, Creandum"
+      },
+      {
+        "date": "Feb 2025",
+        "amount": "$15M",
+        "round": "Seed",
+        "valuation": "—",
+        "investors_html": "Creandum, Visionaries Club"
+      },
+      {
+        "date": "Oct 2024",
+        "amount": "€6.8M",
+        "round": "Pre-seed",
+        "valuation": "—",
+        "investors_html": "Hummingbird, byFounders"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Lovable AB",
+      "website": "https://lovable.dev",
+      "website_display": "lovable.dev",
+      "founded": "2023",
+      "headcount": "50+",
+      "hq": "Stockholm, Sweden",
+      "twitter": "https://twitter.com/lovaboratorydev",
+      "linkedin": "https://www.linkedin.com/company/lovable-dev/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "5x in 4 Months",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Feb 25",
+              "value": "$0.5B",
+              "height": 17
+            },
+            {
+              "label": "Jul 25",
+              "value": "$1.8B",
+              "height": 61
+            },
+            {
+              "label": "Nov 25",
+              "value": "$5B+",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "ARR, $M",
+          "badge_text": "200x in 1 Year",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Nov 24",
+              "value": "$1M",
+              "height": 1
+            },
+            {
+              "label": "May 25",
+              "value": "$50M",
+              "height": 43
+            },
+            {
+              "label": "Nov 25",
+              "value": "$200M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LALAMOVE": {
+    "ticker": "LALAMOVE",
+    "name": "LALAMOVE",
+    "logo": "/assets/logos/Lalamove.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LALAMOVE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LALAMOVE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LALAMOVE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LALAMOVE",
+      "website": "https://lalamove.com",
+      "website_display": "lalamove.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LAMABANG": {
+    "ticker": "LAMABANG",
+    "name": "LAMABANG",
+    "logo": "/assets/logos/Lamabang.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LAMABANG is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LAMABANG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LAMABANG",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LAMABANG",
+      "website": "https://lamabang.com",
+      "website_display": "lamabang.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LAMBDA": {
+    "ticker": "LAMBDA",
+    "name": "LAMBDA",
+    "logo": "/assets/logos/Lambda.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LAMBDA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LAMBDA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LAMBDA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LAMBDA",
+      "website": "https://lambda.com",
+      "website_display": "lambda.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LANDA-DIGITAL-PRINTING": {
+    "ticker": "LANDA-DIGITAL-PRINTING",
+    "name": "LANDA DIGITAL PRINTING",
+    "logo": "/assets/logos/Landa_Digital_Printing.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LANDA DIGITAL PRINTING is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LANDA DIGITAL PRINTING main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LANDA DIGITAL PRINTING",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LANDA DIGITAL PRINTING",
+      "website": "https://landadigitalprinting.com",
+      "website_display": "landadigitalprinting.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LANHU": {
+    "ticker": "LANHU",
+    "name": "LANHU",
+    "logo": "/assets/logos/Lanhu.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LANHU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LANHU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LANHU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LANHU",
+      "website": "https://lanhu.com",
+      "website_display": "lanhu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LATITUDE-FINANCIAL-SERVICES": {
+    "ticker": "LATITUDE-FINANCIAL-SERVICES",
+    "name": "LATITUDE FINANCIAL SERVICES",
+    "logo": "/assets/logos/Latitude_Financial_Services.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LATITUDE FINANCIAL SERVICES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LATITUDE FINANCIAL SERVICES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LATITUDE FINANCIAL SERVICES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LATITUDE FINANCIAL SERVICES",
+      "website": "https://latitudefinancialservices.com",
+      "website_display": "latitudefinancialservices.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LAYERZERO-LABS": {
+    "ticker": "LAYERZERO-LABS",
+    "name": "LAYERZERO LABS",
+    "logo": "/assets/logos/LayerZero_Labs.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LAYERZERO LABS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LAYERZERO LABS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LAYERZERO LABS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LAYERZERO LABS",
+      "website": "https://layerzerolabs.com",
+      "website_display": "layerzerolabs.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LEAD": {
+    "ticker": "LEAD",
+    "name": "LEAD",
+    "logo": "/assets/logos/LEAD.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LEAD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LEAD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LEAD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LEAD",
+      "website": "https://lead.com",
+      "website_display": "lead.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LEADSQUARED": {
+    "ticker": "LEADSQUARED",
+    "name": "LEADSQUARED",
+    "logo": "/assets/logos/LeadSquared.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LEADSQUARED is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LEADSQUARED main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LEADSQUARED",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LEADSQUARED",
+      "website": "https://leadsquared.com",
+      "website_display": "leadsquared.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LEARNEO": {
+    "ticker": "LEARNEO",
+    "name": "LEARNEO",
+    "logo": "/assets/logos/Learneo.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LEARNEO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LEARNEO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LEARNEO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LEARNEO",
+      "website": "https://learneo.com",
+      "website_display": "learneo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LECLOUD": {
+    "ticker": "LECLOUD",
+    "name": "LECLOUD",
+    "logo": "/assets/logos/LeCloud.png",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LECLOUD is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LECLOUD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LECLOUD",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LECLOUD",
+      "website": "https://lecloud.com",
+      "website_display": "lecloud.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LEDGER": {
+    "ticker": "LEDGER",
+    "name": "LEDGER",
+    "logo": "/assets/logos/Ledger.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "France"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LEDGER is a technology company focused on innovation and growth. The company operates in the France market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LEDGER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LEDGER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in France",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LEDGER",
+      "website": "https://ledger.com",
+      "website_display": "ledger.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LENDABLE": {
+    "ticker": "LENDABLE",
+    "name": "LENDABLE",
+    "logo": "/assets/logos/Lendable.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LENDABLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LENDABLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LENDABLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LENDABLE",
+      "website": "https://lendable.com",
+      "website_display": "lendable.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LENDBUZZ": {
+    "ticker": "LENDBUZZ",
+    "name": "LENDBUZZ",
+    "logo": "/assets/logos/Lendbuzz.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LENDBUZZ is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LENDBUZZ main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LENDBUZZ",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LENDBUZZ",
+      "website": "https://lendbuzz.com",
+      "website_display": "lendbuzz.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LENSKART": {
+    "ticker": "LENSKART",
+    "name": "LENSKART",
+    "logo": "/assets/logos/Lenskart.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LENSKART is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LENSKART main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LENSKART",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LENSKART",
+      "website": "https://lenskart.com",
+      "website_display": "lenskart.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LESSEN": {
+    "ticker": "LESSEN",
+    "name": "LESSEN",
+    "logo": "/assets/logos/Lessen.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LESSEN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LESSEN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LESSEN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LESSEN",
+      "website": "https://lessen.com",
+      "website_display": "lessen.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LETSGETCHECKED": {
+    "ticker": "LETSGETCHECKED",
+    "name": "LETSGETCHECKED",
+    "logo": "/assets/logos/LetsGetChecked.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LETSGETCHECKED is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LETSGETCHECKED main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LETSGETCHECKED",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LETSGETCHECKED",
+      "website": "https://letsgetchecked.com",
+      "website_display": "letsgetchecked.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LETU": {
+    "ticker": "LETU",
+    "name": "LETU",
+    "logo": "/assets/logos/Letu.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LETU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LETU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LETU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LETU",
+      "website": "https://letu.com",
+      "website_display": "letu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIANJIA": {
+    "ticker": "LIANJIA",
+    "name": "LIANJIA",
+    "logo": "/assets/logos/Lianjia.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIANJIA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIANJIA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIANJIA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIANJIA",
+      "website": "https://lianjia.com",
+      "website_display": "lianjia.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIANSHANG-LITERATURE": {
+    "ticker": "LIANSHANG-LITERATURE",
+    "name": "LIANSHANG LITERATURE",
+    "logo": "/assets/logos/Lianshang_Literature.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIANSHANG LITERATURE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIANSHANG LITERATURE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIANSHANG LITERATURE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIANSHANG LITERATURE",
+      "website": "https://lianshangliterature.com",
+      "website_display": "lianshangliterature.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LICIOUS": {
+    "ticker": "LICIOUS",
+    "name": "LICIOUS",
+    "logo": "/assets/logos/Licious.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LICIOUS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LICIOUS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LICIOUS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LICIOUS",
+      "website": "https://licious.com",
+      "website_display": "licious.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIFTOFF": {
+    "ticker": "LIFTOFF",
+    "name": "LIFTOFF",
+    "logo": "/assets/logos/Liftoff.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIFTOFF is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIFTOFF main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIFTOFF",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIFTOFF",
+      "website": "https://liftoff.com",
+      "website_display": "liftoff.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIGHTHOUSE": {
+    "ticker": "LIGHTHOUSE",
+    "name": "LIGHTHOUSE",
+    "logo": "/assets/logos/Lighthouse.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIGHTHOUSE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIGHTHOUSE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIGHTHOUSE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIGHTHOUSE",
+      "website": "https://lighthouse.com",
+      "website_display": "lighthouse.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIGHTMATTER": {
+    "ticker": "LIGHTMATTER",
+    "name": "LIGHTMATTER",
+    "logo": "/assets/logos/Lightmatter.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIGHTMATTER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIGHTMATTER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIGHTMATTER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIGHTMATTER",
+      "website": "https://lightmatter.com",
+      "website_display": "lightmatter.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIGHTRICKS": {
+    "ticker": "LIGHTRICKS",
+    "name": "LIGHTRICKS",
+    "logo": "/assets/logos/Lightricks.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIGHTRICKS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIGHTRICKS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIGHTRICKS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIGHTRICKS",
+      "website": "https://lightricks.com",
+      "website_display": "lightricks.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LILA-SCIENCES": {
+    "ticker": "LILA-SCIENCES",
+    "name": "LILA SCIENCES",
+    "logo": "/assets/logos/Lila_Sciences.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LILA SCIENCES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LILA SCIENCES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LILA SCIENCES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LILA SCIENCES",
+      "website": "https://lilasciences.com",
+      "website_display": "lilasciences.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LINE-MAN-WONGNAI": {
+    "ticker": "LINE-MAN-WONGNAI",
+    "name": "LINE MAN WONGNAI",
+    "logo": "/assets/logos/LINE_MAN_Wongnai.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LINE MAN WONGNAI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LINE MAN WONGNAI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LINE MAN WONGNAI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LINE MAN WONGNAI",
+      "website": "https://linemanwongnai.com",
+      "website_display": "linemanwongnai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LINKDOC-TECHNOLOGY": {
+    "ticker": "LINKDOC-TECHNOLOGY",
+    "name": "LINKDOC TECHNOLOGY",
+    "logo": "/assets/logos/LinkDoc_Technology.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LINKDOC TECHNOLOGY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LINKDOC TECHNOLOGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LINKDOC TECHNOLOGY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LINKDOC TECHNOLOGY",
+      "website": "https://linkdoctechnology.com",
+      "website_display": "linkdoctechnology.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LINKTREE": {
+    "ticker": "LINKTREE",
+    "name": "LINKTREE",
+    "logo": "/assets/logos/Linktree.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Australia"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LINKTREE is a technology company focused on innovation and growth. The company operates in the Australia market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LINKTREE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LINKTREE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Australia",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LINKTREE",
+      "website": "https://linktree.com",
+      "website_display": "linktree.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIONHEART-STUDIO": {
+    "ticker": "LIONHEART-STUDIO",
+    "name": "LIONHEART STUDIO",
+    "logo": "/assets/logos/Lionheart_Studio.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIONHEART STUDIO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIONHEART STUDIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIONHEART STUDIO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIONHEART STUDIO",
+      "website": "https://lionheartstudio.com",
+      "website_display": "lionheartstudio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIQUID-AI": {
+    "ticker": "LIQUID-AI",
+    "name": "LIQUID AI",
+    "logo": "/assets/logos/Liquid_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIQUID AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIQUID AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIQUID AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIQUID AI",
+      "website": "https://liquidai.com",
+      "website_display": "liquidai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIQUID-DEATH": {
+    "ticker": "LIQUID-DEATH",
+    "name": "LIQUID DEATH",
+    "logo": "/assets/logos/Liquid_Death.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIQUID DEATH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIQUID DEATH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIQUID DEATH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIQUID DEATH",
+      "website": "https://liquiddeath.com",
+      "website_display": "liquiddeath.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIQUIDITY-GROUP": {
+    "ticker": "LIQUIDITY-GROUP",
+    "name": "LIQUIDITY GROUP",
+    "logo": "/assets/logos/LIQUiDITY_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIQUIDITY GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIQUIDITY GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIQUIDITY GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIQUIDITY GROUP",
+      "website": "https://liquiditygroup.com",
+      "website_display": "liquiditygroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LIVSPACE": {
+    "ticker": "LIVSPACE",
+    "name": "LIVSPACE",
+    "logo": "/assets/logos/Livspace.jpeg",
+    "tagline": "Advancing aerospace and space technology",
+    "tags": [
+      "Aerospace",
+      "Space Technology",
+      "Aviation",
+      "Advanced Engineering",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Aerospace"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LIVSPACE is a aerospace company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LIVSPACE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LIVSPACE",
+    "highlights": [
+      {
+        "text": "Leading aerospace company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LIVSPACE",
+      "website": "https://livspace.com",
+      "website_display": "livspace.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LMAX-GROUP": {
+    "ticker": "LMAX-GROUP",
+    "name": "LMAX GROUP",
+    "logo": "/assets/logos/LMAX_Group.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LMAX GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LMAX GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LMAX GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LMAX GROUP",
+      "website": "https://lmaxgroup.com",
+      "website_display": "lmaxgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOADSMART": {
+    "ticker": "LOADSMART",
+    "name": "LOADSMART",
+    "logo": "/assets/logos/Loadsmart.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOADSMART is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOADSMART main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOADSMART",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOADSMART",
+      "website": "https://loadsmart.com",
+      "website_display": "loadsmart.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOCALS-LTD": {
+    "ticker": "LOCALS-LTD",
+    "name": "LOCALS LTD",
+    "logo": "/assets/logos/locals.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOCALS LTD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOCALS LTD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOCALS LTD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOCALS LTD",
+      "website": "https://localsltd.com",
+      "website_display": "localsltd.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOCUS-ROBOTICS": {
+    "ticker": "LOCUS-ROBOTICS",
+    "name": "LOCUS ROBOTICS",
+    "logo": "/assets/logos/Locus_Robotics.jpeg",
+    "tagline": "Pioneering robotics and automation solutions",
+    "tags": [
+      "Robotics",
+      "Automation",
+      "AI Robotics",
+      "Industrial Tech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Robotics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOCUS ROBOTICS is a robotics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOCUS ROBOTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOCUS ROBOTICS",
+    "highlights": [
+      {
+        "text": "Leading robotics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOCUS ROBOTICS",
+      "website": "https://locusrobotics.com",
+      "website_display": "locusrobotics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOFT": {
+    "ticker": "LOFT",
+    "name": "LOFT",
+    "logo": "/assets/logos/Loft.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOFT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOFT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOFT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOFT",
+      "website": "https://loft.com",
+      "website_display": "loft.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOFT-ORBITAL": {
+    "ticker": "LOFT-ORBITAL",
+    "name": "LOFT ORBITAL",
+    "logo": "/assets/logos/Loft_Orbital.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOFT ORBITAL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOFT ORBITAL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOFT ORBITAL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOFT ORBITAL",
+      "website": "https://loftorbital.com",
+      "website_display": "loftorbital.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOGGI": {
+    "ticker": "LOGGI",
+    "name": "LOGGI",
+    "logo": "/assets/logos/Loggi.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Brazil"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOGGI is a technology company focused on innovation and growth. The company operates in the Brazil market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOGGI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOGGI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Brazil",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOGGI",
+      "website": "https://loggi.com",
+      "website_display": "loggi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOGICMONITOR": {
+    "ticker": "LOGICMONITOR",
+    "name": "LOGICMONITOR",
+    "logo": "/assets/logos/LogicMonitor.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOGICMONITOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOGICMONITOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOGICMONITOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOGICMONITOR",
+      "website": "https://logicmonitor.com",
+      "website_display": "logicmonitor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LONGI-HYDROGEN-ENERGY": {
+    "ticker": "LONGI-HYDROGEN-ENERGY",
+    "name": "LONGI HYDROGEN ENERGY",
+    "logo": "/assets/logos/LONGi_Hydrogen_Energy.svg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LONGI HYDROGEN ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LONGI HYDROGEN ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LONGI HYDROGEN ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LONGI HYDROGEN ENERGY",
+      "website": "https://longihydrogenenergy.com",
+      "website_display": "longihydrogenenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LOOKOUT": {
+    "ticker": "LOOKOUT",
+    "name": "LOOKOUT",
+    "logo": "/assets/logos/Lookout.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LOOKOUT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LOOKOUT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LOOKOUT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LOOKOUT",
+      "website": "https://lookout.com",
+      "website_display": "lookout.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LP-COSMETIC": {
+    "ticker": "LP-COSMETIC",
+    "name": "L&P COSMETIC",
+    "logo": "/assets/logos/LP_Cosmetic.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "L&P COSMETIC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "L&P COSMETIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on L&P COSMETIC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "L&P COSMETIC",
+      "website": "https://lpcosmetic.com",
+      "website_display": "lpcosmetic.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LTK": {
+    "ticker": "LTK",
+    "name": "LTK",
+    "logo": "/assets/logos/LTK.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LTK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LTK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LTK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LTK",
+      "website": "https://ltk.com",
+      "website_display": "ltk.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LUCID-SOFTWARE": {
+    "ticker": "LUCID-SOFTWARE",
+    "name": "LUCID SOFTWARE",
+    "logo": "/assets/logos/Lucid_Software.png",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LUCID SOFTWARE is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LUCID SOFTWARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LUCID SOFTWARE",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LUCID SOFTWARE",
+      "website": "https://lucidsoftware.com",
+      "website_display": "lucidsoftware.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LUKKA": {
+    "ticker": "LUKKA",
+    "name": "LUKKA",
+    "logo": "/assets/logos/Lukka.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LUKKA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LUKKA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LUKKA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LUKKA",
+      "website": "https://lukka.com",
+      "website_display": "lukka.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LUMAPPS": {
+    "ticker": "LUMAPPS",
+    "name": "LUMAPPS",
+    "logo": "/assets/logos/LumApps.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LUMAPPS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LUMAPPS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LUMAPPS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LUMAPPS",
+      "website": "https://lumapps.com",
+      "website_display": "lumapps.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LUNAR": {
+    "ticker": "LUNAR",
+    "name": "LUNAR",
+    "logo": "/assets/logos/Lunar.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LUNAR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LUNAR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LUNAR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LUNAR",
+      "website": "https://lunar.com",
+      "website_display": "lunar.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LUOJI-SIWEI": {
+    "ticker": "LUOJI-SIWEI",
+    "name": "LUOJI SIWEI",
+    "logo": "/assets/logos/Luoji_Siwei.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LUOJI SIWEI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LUOJI SIWEI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LUOJI SIWEI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LUOJI SIWEI",
+      "website": "https://luojisiwei.com",
+      "website_display": "luojisiwei.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LUSHA": {
+    "ticker": "LUSHA",
+    "name": "LUSHA",
+    "logo": "/assets/logos/Lusha.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LUSHA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LUSHA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LUSHA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LUSHA",
+      "website": "https://lusha.com",
+      "website_display": "lusha.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LYCOM": {
+    "ticker": "LYCOM",
+    "name": "LY.COM",
+    "logo": "/assets/logos/LY.com.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LY.COM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LY.COM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LY.COM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LY.COM",
+      "website": "https://lycom.com",
+      "website_display": "lycom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LYDIA": {
+    "ticker": "LYDIA",
+    "name": "LYDIA",
+    "logo": "/assets/logos/Lydia.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LYDIA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LYDIA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LYDIA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LYDIA",
+      "website": "https://lydia.com",
+      "website_display": "lydia.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LYRA-HEALTH": {
+    "ticker": "LYRA-HEALTH",
+    "name": "LYRA HEALTH",
+    "logo": "/assets/logos/Lyra_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LYRA HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LYRA HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LYRA HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LYRA HEALTH",
+      "website": "https://lyrahealth.com",
+      "website_display": "lyrahealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "LYTEN": {
+    "ticker": "LYTEN",
+    "name": "LYTEN",
+    "logo": "/assets/logos/Lyten.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "LYTEN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "LYTEN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on LYTEN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "LYTEN",
+      "website": "https://lyten.com",
+      "website_display": "lyten.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

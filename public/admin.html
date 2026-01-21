@@ -1,0 +1,578 @@
+<!-- Auth Script - must be first -->
+<script src="./js/auth.js"></script>
+<script>
+    // Check authentication immediately
+    if (!getSession() || !hasPermission('admin')) {
+        window.location.href = '/login.html?redirect=' + encodeURIComponent(window.location.pathname);
+    }
+</script>
+
+<!-- Institutional Deals Platform Overlay -->
+<div id="institutional-overlay-platform" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; overflow: auto;">
+<link rel="stylesheet" href="./css/admin.css">
+
+<!-- Offcanvas Overlay -->
+<div class="cs-site-overlay" id="siteOverlay" onclick="closeOffcanvas()"></div>
+
+<!-- Offcanvas Menu -->
+<div class="cs-offcanvas" id="offcanvasMenu">
+    <div class="cs-offcanvas__header">
+        <div class="cs-offcanvas__logo">
+            <span style="color: #fff; font-size: 18px; font-weight: 700;">Institutional Marketplace</span>
+        </div>
+        <span class="cs-offcanvas__toggle" role="button" onclick="closeOffcanvas()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </span>
+    </div>
+    <aside class="cs-offcanvas__sidebar">
+        <nav class="cs-offcanvas__nav">
+            <ul class="offcanvas-menu">
+                <li class="menu-item"><a href="/">Marketplace</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                <li class="menu-item active"><a href="/admin.html">Admin Marketplace</a></li>
+                <li class="menu-item" id="usersMenuItem" style="display: none;"><a href="/users.html">Users</a></li>
+                <li class="menu-item"><a href="/partners.html">Partners</a></li>
+                <li class="menu-item"><a href="/companies.html">Companies</a></li>
+                <li class="menu-item"><a href="/issuers.html">Issuers</a></li>
+                <li class="menu-item"><a href="/auto-updater.html">Auto-Updater</a></li>
+                <li class="menu-item"><a href="/settings.html">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="offcanvas-footer">
+            <button class="logout-btn" onclick="logout()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                    <polyline points="16 17 21 12 16 7"></polyline>
+                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Logout
+            </button>
+        </div>
+    </aside>
+    <script>
+        // Show Users menu item if user is super_admin
+        const session = getSession();
+        if (session && session.role === 'super_admin') {
+            document.getElementById('usersMenuItem').style.display = 'block';
+        }
+    </script>
+</div>
+
+<!-- DESKTOP VERSION -->
+<div class="desktop-version">
+    <div class="platform-container">
+        <!-- Sticky Header with Controls and Table Header -->
+        <div class="sticky-header">
+            <!-- Controls Bar -->
+            <div class="controls-bar">
+                <div class="controls-wrapper">
+                    <!-- Platform Header with Title and Tabs -->
+                    <div class="platform-header">
+                        <button class="platform-menu-button" onclick="openOffcanvas()">
+                            <span></span>
+                        </button>
+                        <div class="platform-title" onclick="platformResetAllFilters()">Institutional Marketplace | Admin</div>
+                        
+                        <!-- Tab Buttons moved next to title -->
+                        <div class="tab-group">
+                            <button class="tab-btn active" data-tab="sell">Sell Side</button>
+                            <button class="tab-btn" data-tab="buy">Buy Side</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Company Search Bar -->
+                    <div class="company-search-bar">
+                        <input type="text" class="search-input" placeholder="Search Companies..." id="platform-searchInput">
+                        <span class="search-clear" onclick="platformClearSearch()">×</span>
+                        <span class="search-icon"></span>
+                        <div class="search-dropdown" id="platform-searchDropdown"></div>
+                    </div>
+                    
+                    <!-- Filter Toggle -->
+                    <div class="filter-toggle">
+                        <span class="toggle-label">Complete</span>
+                        <div class="toggle-switch active" id="platform-filterToggle">
+                            <div class="toggle-slider"></div>
+                        </div>
+                        <span class="toggle-label">All</span>
+                    </div>
+                    
+                    <!-- New Order Button -->
+                    <button class="btn-new-order" onclick="platformOpenModal()">
+                        <span style="font-size: 16px;">+</span> New Order
+                    </button>
+
+                    <!-- History Button -->
+                    <button class="btn-history" onclick="openHistoryModal()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        History
+                    </button>
+                </div>
+            </div>
+
+            <!-- Table Header -->
+            <div class="table-header">
+                <div class="header-row">
+                    <div class="header-cell col-company sortable" data-sort="company">Target Company</div>
+                    <div class="header-cell col-partner">Partner</div>
+                    <div class="header-cell col-date sortable sort-desc" data-sort="date">Last Update</div>
+                    <div class="header-cell col-volume sortable" data-sort="volume">Volume</div>
+                    <div class="header-cell col-price sortable" data-sort="price">Price per share</div>
+                    <div class="header-cell col-valuation sortable" data-sort="valuation">Valuation</div>
+                    <div class="header-cell col-structure has-filter" id="platform-structureHeader">
+                        <div class="filter-wrapper">
+                            <div class="filter-header">
+                                <span>Structure</span>
+                                <span class="filter-icon">▼</span>
+                                <span class="filter-active-indicator" id="platform-structureActiveIndicator" style="display: none;"></span>
+                            </div>
+                            <div class="filter-dropdown" id="platform-structureFilterDropdown">
+                                <div class="filter-list">
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="platform-structure-direct" value="Direct trade" checked>
+                                        <label for="platform-structure-direct">Direct Trade</label>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="platform-structure-spv" value="SPV" checked>
+                                        <label for="platform-structure-spv">SPV</label>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="platform-structure-forward" value="Forward" checked>
+                                        <label for="platform-structure-forward">Forward</label>
+                                    </div>
+                                </div>
+                                <div class="filter-actions">
+                                    <button class="filter-btn" onclick="platformResetStructureFilter()">Reset</button>
+                                    <button class="filter-btn apply" onclick="platformApplyStructureFilter()">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-cell col-share has-filter" id="platform-shareHeader">
+                        <div class="filter-wrapper">
+                            <div class="filter-header">
+                                <span>Share Class</span>
+                                <span class="filter-icon">▼</span>
+                                <span class="filter-active-indicator" id="platform-shareActiveIndicator" style="display: none;"></span>
+                            </div>
+                            <div class="filter-dropdown" id="platform-shareFilterDropdown">
+                                <div class="filter-list">
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="platform-share-common" value="Common" checked>
+                                        <label for="platform-share-common">Common</label>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="platform-share-preferred" value="Preferred" checked>
+                                        <label for="platform-share-preferred">Preferred</label>
+                                    </div>
+                                </div>
+                                <div class="filter-actions">
+                                    <button class="filter-btn" onclick="platformResetShareFilter()">Reset</button>
+                                    <button class="filter-btn apply" onclick="platformApplyShareFilter()">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-cell col-action">
+                        Action
+                        <!-- Info Icon with Tooltip - Moved here -->
+                        <div class="info-icon">
+                            i
+                            <div class="info-tooltip">
+                                Any securities offered to or on behalf of U.S. Persons are being conducted pursuant to a chaperone arrangement under SEC Rule 15a-6 and through Finalis Securities LLC Member FINRA and SIPC.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Row for Adding New Deal -->
+        <div class="input-row-container">
+            <div class="data-table">
+                <div class="data-row input-row" id="newDealInputRow">
+                    <div class="data-cell col-company">
+                        <div class="input-cell-wrapper">
+                            <div class="company-search-bar input-company-search">
+                                <input type="text" class="search-input input-cell" placeholder="Select company..." id="inputCompany" autocomplete="off">
+                                <span class="search-clear" onclick="clearInputCompanySearch()">×</span>
+                                <div class="search-dropdown" id="inputCompanyDropdown"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-cell col-partner">
+                        <div class="input-cell-wrapper">
+                            <div class="company-search-bar input-partner-search">
+                                <input type="text" class="search-input input-cell" placeholder="Select partner..." id="inputPartner" autocomplete="off">
+                                <span class="search-clear" onclick="clearInputPartnerSearch()">×</span>
+                                <div class="search-dropdown" id="inputPartnerDropdown"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-cell col-date date-cell" id="dateCell">
+                        <div class="input-cell-wrapper date-wrapper">
+                            <input type="text" class="input-cell date-input" id="inputDate" placeholder="Select date..." readonly>
+                            <input type="date" class="hidden-date-picker" id="inputDatePicker">
+                        </div>
+                    </div>
+                    <div class="data-cell col-volume">
+                        <div class="input-cell-wrapper volume-wrapper">
+                            <span class="input-prefix currency-selector" id="volumeCurrency" onclick="toggleCurrencyDropdown('volume')">$</span>
+                            <div class="currency-dropdown" id="volumeCurrencyDropdown"></div>
+                            <input type="text" class="input-cell volume-input" id="inputVolume" placeholder="0">
+                            <span class="input-suffix volume-suffix" id="volumeSuffix" onclick="toggleVolumeSuffix()">M</span>
+                        </div>
+                    </div>
+                    <div class="data-cell col-price">
+                        <div class="input-cell-wrapper price-wrapper">
+                            <span class="input-prefix currency-selector" id="priceCurrency" onclick="toggleCurrencyDropdown('price')">$</span>
+                            <div class="currency-dropdown" id="priceCurrencyDropdown"></div>
+                            <input type="text" class="input-cell price-input" id="inputPrice" placeholder="0">
+                        </div>
+                    </div>
+                    <div class="data-cell col-valuation">
+                        <div class="input-cell-wrapper valuation-wrapper">
+                            <span class="input-prefix currency-selector" id="valuationCurrency" onclick="toggleCurrencyDropdown('valuation')">$</span>
+                            <div class="currency-dropdown" id="valuationCurrencyDropdown"></div>
+                            <input type="text" class="input-cell valuation-input" id="inputValuation" placeholder="0">
+                            <span class="input-suffix">B</span>
+                        </div>
+                    </div>
+                    <div class="data-cell col-structure">
+                        <div class="input-cell-wrapper structure-wrapper">
+                            <div class="input-cell structure-input" id="inputStructure" tabindex="0">
+                                <span class="structure-placeholder">Select...</span>
+                                <span class="filter-icon">▼</span>
+                            </div>
+                            <div class="structure-dropdown" id="inputStructureDropdown">
+                                <div class="filter-list">
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="input-structure-direct" value="Direct trade">
+                                        <label for="input-structure-direct">Direct Trade</label>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="input-structure-spv" value="SPV">
+                                        <label for="input-structure-spv">SPV</label>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="input-structure-forward" value="Forward">
+                                        <label for="input-structure-forward">Forward</label>
+                                    </div>
+                                </div>
+                                <div class="spv-fee-input" id="inputSpvFeeContainer" style="display: none;">
+                                    <div class="spv-fee-fields">
+                                        <div class="spv-fee-field-wrapper">
+                                            <label class="spv-fee-label">Fee %</label>
+                                            <input type="text" class="input-cell spv-fee-field" id="inputSpvFee" placeholder="0">
+                                        </div>
+                                        <span class="spv-fee-separator">/</span>
+                                        <div class="spv-fee-field-wrapper">
+                                            <label class="spv-fee-label">Carry %</label>
+                                            <input type="text" class="input-cell spv-fee-field" id="inputSpvCarry" placeholder="0">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-actions">
+                                    <button class="filter-btn apply" onclick="applyInputStructure()">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-cell col-share">
+                        <div class="input-cell-wrapper share-wrapper">
+                            <div class="input-cell share-input" id="inputShareClass" tabindex="0">
+                                <span class="share-placeholder">Select...</span>
+                                <span class="filter-icon">▼</span>
+                            </div>
+                            <div class="share-dropdown" id="inputShareDropdown">
+                                <div class="filter-list">
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="input-share-common" value="Common">
+                                        <label for="input-share-common">Common</label>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="checkbox" id="input-share-preferred" value="Preferred">
+                                        <label for="input-share-preferred">Preferred</label>
+                                    </div>
+                                </div>
+                                <div class="filter-actions">
+                                    <button class="filter-btn apply" onclick="applyInputShareClass()">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-cell col-action">
+                        <button class="btn-apply" id="btnApplyNewDeal" onclick="saveNewDeal()">APPLY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Container -->
+        <div class="data-container">
+            <div id="platform-dataContent">
+                <!-- Loading State -->
+                <div class="loading-container">
+                    <div class="spinner"></div>
+                    <p style="margin-top: 16px; color: var(--platform-muted);">Loading deals...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MOBILE VERSION - Completely Redesigned -->
+<div class="mobile-version">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <div class="mobile-header-top">
+            <button class="platform-menu-button" onclick="document.querySelector('.cs-header__offcanvas-toggle') ? document.querySelector('.cs-header__offcanvas-toggle').click() : document.querySelector('.cs-offcanvas').classList.toggle('cs-offcanvas-show')">
+                <span></span>
+            </button>
+            <div class="mobile-title" onclick="platformResetAllMobileFilters()">Institutional Marketplace | Admin</div>
+            <div style="width: 32px;"></div>
+        </div>
+        <div class="mobile-controls">
+            <div class="mobile-tabs">
+                <button class="mobile-tab active" data-tab="sell">Sell</button>
+                <button class="mobile-tab" data-tab="buy">Buy</button>
+            </div>
+            <div class="mobile-search-wrapper">
+                <input type="text" class="mobile-search" placeholder="Search companies..." id="mobile-searchInput">
+                <span class="mobile-search-clear" onclick="platformClearMobileSearch()">×</span>
+                <div class="mobile-search-dropdown" id="mobile-searchDropdown"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mobile Content -->
+    <div class="mobile-content" id="mobile-dataContent">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p style="margin-top: 12px; color: var(--platform-muted); font-size: 11px;">Loading deals...</p>
+        </div>
+    </div>
+    
+    <!-- Mobile FAB -->
+    <button class="mobile-fab" onclick="platformOpenModal()">+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="platform-dealModal">
+    <div class="modal-content sell-order-active" id="platform-modalContent">
+        <div class="modal-header">
+            <h2 class="modal-title">New Order</h2>
+            <button class="modal-close" onclick="platformCloseModal()">&times;</button>
+        </div>
+        
+        <!-- Deal Type Selector -->
+        <div class="deal-type-selector">
+            <label class="deal-type-option selected" data-type="sell">
+                <input type="radio" name="platformDealType" value="sell" checked>
+                <div class="deal-type-label">Sell Order</div>
+            </label>
+            <label class="deal-type-option" data-type="buy">
+                <input type="radio" name="platformDealType" value="buy">
+                <div class="deal-type-label">Buy Order</div>
+            </label>
+        </div>
+        
+        <!-- Form -->
+        <div class="form-group">
+            <label class="form-label">Target Company</label>
+            <div class="company-search-bar">
+                <input type="text" class="search-input" placeholder="Search companies..." id="platform-modalSearchInput">
+                <span class="search-clear" onclick="platformClearModalSearch()">×</span>
+                <span class="search-icon"></span>
+                <div class="search-dropdown" id="platform-modalSearchDropdown"></div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label" id="platform-priceLabel">Offer Price</label>
+            <input type="text" class="form-input" id="platform-dealPrice" placeholder="$100.00">
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Transaction Volume</label>
+            <input type="text" class="form-input" id="platform-dealVolume" placeholder="$1,000,000">
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Implied Valuation</label>
+            <input type="text" class="form-input" id="platform-dealValuation" placeholder="$10B">
+        </div>
+        
+        <!-- Deal Structure for BUY orders (checkboxes) -->
+        <div class="form-group buy-only">
+            <label class="form-label">Deal Structure</label>
+            <div class="checkbox-group" id="platform-structureCheckboxGroup">
+                <label class="checkbox-option" for="platform-structure-direct-buy">
+                    <input type="checkbox" name="platformStructureBuy" value="Direct trade" id="platform-structure-direct-buy">
+                    <span>Direct Trade</span>
+                </label>
+                <label class="checkbox-option" for="platform-structure-spv-buy">
+                    <input type="checkbox" name="platformStructureBuy" value="SPV" id="platform-structure-spv-buy">
+                    <span>SPV</span>
+                </label>
+                <label class="checkbox-option" for="platform-structure-forward-buy">
+                    <input type="checkbox" name="platformStructureBuy" value="Forward" id="platform-structure-forward-buy">
+                    <span>Forward</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Deal Structure for SELL orders (checkboxes) -->
+        <div class="form-group sell-only">
+            <label class="form-label">Deal Structure</label>
+            <div class="checkbox-group" id="platform-structureCheckboxGroupSell">
+                <label class="checkbox-option" for="platform-structure-direct-sell">
+                    <input type="checkbox" name="platformStructureSell" value="Direct trade" id="platform-structure-direct-sell">
+                    <span>Direct Trade</span>
+                </label>
+                <label class="checkbox-option" for="platform-structure-spv-sell">
+                    <input type="checkbox" name="platformStructureSell" value="SPV" id="platform-structure-spv-sell">
+                    <span>SPV</span>
+                </label>
+                <label class="checkbox-option" for="platform-structure-forward-sell">
+                    <input type="checkbox" name="platformStructureSell" value="Forward" id="platform-structure-forward-sell">
+                    <span>Forward</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- SPV-specific fields (hidden by default) -->
+        <div class="spv-fields" id="platform-spvFields">
+            <div class="spv-fields-row">
+                <div class="form-group">
+                    <label class="form-label">Management Fee (%)</label>
+                    <input type="text" class="form-input" id="platform-managementFee" placeholder="$0">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Carry (%)</label>
+                    <input type="text" class="form-input" id="platform-carry" placeholder="$0">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Share Class for BUY orders (checkboxes) -->
+        <div class="form-group buy-only">
+            <label class="form-label">Share Class</label>
+            <div class="checkbox-group" id="platform-shareCheckboxGroup">
+                <label class="checkbox-option" for="platform-share-common-buy">
+                    <input type="checkbox" name="platformShareClassBuy" value="Common" id="platform-share-common-buy">
+                    <span>Common</span>
+                </label>
+                <label class="checkbox-option" for="platform-share-preferred-buy">
+                    <input type="checkbox" name="platformShareClassBuy" value="Preferred" id="platform-share-preferred-buy">
+                    <span>Preferred</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Share Class for SELL orders (radio buttons) -->
+        <div class="form-group sell-only">
+            <label class="form-label">Share Class</label>
+            <div class="radio-group" id="platform-shareRadioGroup">
+                <label class="radio-option" for="platform-share-common">
+                    <input type="radio" name="platformShareClass" value="Common" id="platform-share-common">
+                    <span>Common</span>
+                </label>
+                <label class="radio-option" for="platform-share-preferred">
+                    <input type="radio" name="platformShareClass" value="Preferred" id="platform-share-preferred">
+                    <span>Preferred</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Series field (for Preferred shares, hidden by default) -->
+        <div class="series-field" id="platform-seriesField">
+            <div class="form-group">
+                <label class="form-label">Series</label>
+                <input type="text" class="form-input" id="platform-series" placeholder="Series A">
+            </div>
+        </div>
+        
+        <!-- Form Actions -->
+        <div class="form-actions">
+            <button class="btn-cancel" onclick="platformCloseModal()">Cancel</button>
+            <button class="btn-submit" onclick="platformSubmitDeal()">Submit Order</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Edit Modal -->
+<div id="editModal" class="edit-modal">
+    <div class="edit-modal-content">
+        <div class="edit-modal-header">
+            <h2>Edit Deal</h2>
+            <button class="edit-modal-close" onclick="closeEditModal()">&times;</button>
+        </div>
+        <div class="edit-modal-body">
+            <div class="edit-form-group">
+                <label for="editCompany">Company</label>
+                <input type="text" id="editCompany" class="edit-form-input" />
+            </div>
+            <div class="edit-form-group">
+                <label for="editPrice">Price per Share</label>
+                <input type="text" id="editPrice" class="edit-form-input" />
+            </div>
+            <div class="edit-form-group">
+                <label for="editVolume">Volume</label>
+                <input type="text" id="editVolume" class="edit-form-input" />
+            </div>
+            <div class="edit-form-group">
+                <label for="editValuation">Valuation</label>
+                <input type="text" id="editValuation" class="edit-form-input" />
+            </div>
+            <div class="edit-form-group">
+                <label for="editStructure">Structure</label>
+                <input type="text" id="editStructure" class="edit-form-input" />
+            </div>
+            <div class="edit-form-group">
+                <label for="editShareClass">Share Class</label>
+                <input type="text" id="editShareClass" class="edit-form-input" />
+            </div>
+        </div>
+        <div class="edit-modal-footer">
+            <button class="edit-btn-cancel" onclick="closeEditModal()">Cancel</button>
+            <button class="edit-btn-save" onclick="saveEditedDeal()">Save</button>
+        </div>
+    </div>
+</div>
+
+<!-- History Modal -->
+<div id="historyModal" class="history-modal">
+    <div class="history-modal-content">
+        <div class="history-modal-header">
+            <h2>Change History</h2>
+            <button class="history-modal-close" onclick="closeHistoryModal()">&times;</button>
+        </div>
+        <div class="history-modal-body">
+            <div id="historyLoading" class="history-loading">Loading history...</div>
+            <table id="historyTable" class="history-table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Action</th>
+                        <th>Type</th>
+                        <th>Company</th>
+                    </tr>
+                </thead>
+                <tbody id="historyTableBody">
+                </tbody>
+            </table>
+            <div id="historyEmpty" class="history-empty" style="display: none;">No history records found</div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="./js/admin.js"></script>
+</div>

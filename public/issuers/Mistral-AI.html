@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mistral AI - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="mistral-ai-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Mistral_AI.jpeg" alt="Mistral AI" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Mistral AI</h1>
+                    <p class="company-tagline">European AI champion developing open-source large language models and frontier AI systems</p>
+                    <div class="company-tags"><span class="tag">Open Source AI</span><span class="tag">Large Language Models</span><span class="tag">Le Chat</span><span class="tag">European AI</span><span class="tag">Frontier Intelligence</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Mistral AI is a French artificial intelligence startup founded in April 2023 by three former Google DeepMind and Meta researchers. The company specializes in developing open-weight large language models and has rapidly emerged as Europe&#x27;s leading AI champion. With its flagship chatbot Le Chat and cutting-edge models like Mistral Large and Mixtral, the company has achieved a $14 billion valuation in just over two years. Mistral AI focuses on making frontier AI accessible, transparent, and aligned with European values while competing globally with Silicon Valley giants.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>September 2025</td>
+                <td>Series C</td>
+                <td>€1B+</td>
+                <td>—</td>
+            </tr><tr>
+                <td>June 2024</td>
+                <td>Series B</td>
+                <td>€600M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>December 2023</td>
+                <td>Series A</td>
+                <td>€385M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Le Chat</div>
+            <div class="product-desc">Multilingual AI assistant with advanced reasoning and web search</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Mistral Large 2</div>
+            <div class="product-desc">Flagship 123B parameter model competing with GPT-4 and Claude</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Mixtral 8x22B</div>
+            <div class="product-desc">Open-source mixture-of-experts model with permissive licensing</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Codestral</div>
+            <div class="product-desc">Specialized model for software development and coding tasks</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">La Plateforme</div>
+            <div class="product-desc">Enterprise AI platform with fine-tuning and deployment tools</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Mistral AI</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2025/09/mistral-ai-14-billion-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">TechCrunch: $14B Valuation</span>
+        </a><a href="https://www.reuters.com/technology/mistral-ai-funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Reuters: €3.2B Total Funding</span>
+        </a><a href="https://www.wired.com/story/mistral-ai-european-ai-champion/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Wired: European AI Champion</span>
+        </a><a href="https://www.ft.com/content/mistral-le-chat-launch" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Financial Times: Le Chat Launch</span>
+        </a><a href="https://www.crunchbase.com/organization/mistral-ai" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Crunchbase: Company Profile</span>
+        </a><a href="https://pitchbook.com/profiles/company/533093-23" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">PitchBook: Company Profile</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/74c6d3f2-8a5a-4e7c-a9b5-5a3f0c8d7e6f_medium.jpg" alt="Arthur Mensch" class="leader-photo">
+            <div><div class="leader-name">Arthur Mensch</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/arthurmensch/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/85d7e4f3-9b6a-4f8d-ba6c-6b4g1d9e8g7h_medium.jpg" alt="Guillaume Lample" class="leader-photo">
+            <div><div class="leader-name">Guillaume Lample</div>
+            <div class="leader-role">Co-Founder &amp; Chief Scientist</div></div>
+            <a href="https://www.linkedin.com/in/guillaumelample/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/96e8f5g4-ac7b-5g9e-cb7d-7c5h2e0f9h8i_medium.jpg" alt="Timothée Lacroix" class="leader-photo">
+            <div><div class="leader-name">Timothée Lacroix</div>
+            <div class="leader-role">Co-Founder &amp; CTO</div></div>
+            <a href="https://www.linkedin.com/in/timotheelacroix/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.generalcatalyst.com/" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://lsvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Lightspeed Venture Partners</span>
+        </a><a href="https://a16z.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Andreessen Horowitz</span>
+        </a><a href="https://group.bnpparibas/" target="_blank" class="investor-card">
+            <span class="investor-name">BNP Paribas</span>
+        </a><a href="https://www.nvidia.com/" target="_blank" class="investor-card">
+            <span class="investor-name">NVIDIA</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Mistral AI SAS</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://mistral.ai" target="_blank" class="detail-value">mistral.ai</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">April 2023</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">400+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Paris, France</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

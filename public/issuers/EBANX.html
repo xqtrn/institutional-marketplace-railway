@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBANX - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="ebanx-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/id7HtPb0FH/id0PG0g3cN.svg" alt="EBANX" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">EBANX</h1>
+                    <p class="company-tagline">Leading LatAm payments platform connecting global brands like Spotify, Uber, and TikTok to emerging market consumers</p>
+                    <div class="company-tags"><span class="tag">Fintech</span><span class="tag">Unicorn</span><span class="tag">Brazilian Tech</span><span class="tag">Payments</span><span class="tag">LatAm</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">EBANX is a leading payment platform connecting global companies with consumers in emerging markets across Latin America, Africa, and Asia. Founded in 2012 in Curitiba, Brazil by João Del Valle, Alphonse Voigt, and co-founders, EBANX became Brazil&#x27;s first southern-region tech unicorn in 2019 after investment from FTV Capital. The company serves over 1,600 global digital businesses including Microsoft, Sony, TikTok, Coinbase, Uber, AliExpress, and Ubisoft, processing payments across e-commerce, gaming, SaaS, streaming, and travel verticals. In 2021, Advent International made a $430 million investment in EBANX, representing their largest investment in a Latin American technology company.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2021-06</td>
+                <td>Growth</td>
+                <td>$430M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2019-10</td>
+                <td>Series C</td>
+                <td>$30M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2018-01</td>
+                <td>Series B</td>
+                <td>$30M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">EBANX Pay</div>
+            <div class="product-desc">Full-stack payment processing platform supporting 100+ local payment methods across 15+ emerging market countries</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">EBANX Shield</div>
+            <div class="product-desc">Fraud prevention and risk management solution using AI to protect cross-border transactions</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">EBANX Payout</div>
+            <div class="product-desc">Mass disbursement solution enabling global companies to pay creators, affiliates, and vendors in local currency</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">EBANX Digital Account</div>
+            <div class="product-desc">White-label digital banking infrastructure for merchants to offer financial services to their customers</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on EBANX</h2>
+                        <div class="highlights-list"><a href="https://business.ebanx.com/en/press-room/press-releases/ebanx-celebrates-10-year-anniversary-with-nearly-one-billion-total-payments-processed" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">EBANX processes nearly one billion total payments reaching 10-year anniversary milestone</span>
+        </a><a href="https://business.ebanx.com/en/press-room/press-releases/ebanx-announces-us430-million-investment-from-advent-international" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Advent International invests $430 million in EBANX before planned US IPO</span>
+        </a><a href="https://nearshoreamericas.com/brazilian-fintech-ebanx-achieves-unicorn-status-ftv-capital-funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">EBANX becomes first Brazilian southern-region tech unicorn with $1B+ valuation</span>
+        </a><a href="https://fintechnews.am/fintech-brazil/52664/top-funded-fintech-startups-from-brazil-in-2024/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform expands to serve 1,600+ global merchants including TikTok, Microsoft, and Coinbase</span>
+        </a><a href="https://ibsintelligence.com/ibsi-news/5-fintech-companies-transforming-the-financial-space-in-brazil/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company extends payment solutions across Africa and Asia emerging markets</span>
+        </a><a href="https://business.ebanx.com/en/press-room" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">EBANX achieves 100%+ growth in 2021 payment volume</span>
+        </a><a href="https://business.ebanx.com/en/press-room/press-releases/ebanx-takes-the-lead-and-prepares-the-integration-of-global-companies-ahead-of-pix-automatico" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Pix Automático pioneer</strong> (Jun 2025)—first to integrate global merchants with Brazil's recurring payments</span>
+        </a><a href="https://finovate.com/stripe-taps-ebanx-to-facilitate-pix-payments-in-brazil/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Stripe partnership expansion</strong> (Aug 2025)—Pix payment method for all Stripe merchants in Brazil</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/8f02c403-4de8-44a0-ac3e-1818a5651355_medium.jpg" alt="João Del Valle" class="leader-photo">
+            <div><div class="leader-name">João Del Valle</div>
+            <div class="leader-role">Co-founder &amp; Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/joaodelvalle/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/8a48282b-32f7-4616-85a1-a337be924815_medium.jpg" alt="Alphonse Voigt" class="leader-photo">
+            <div><div class="leader-name">Alphonse Voigt</div>
+            <div class="leader-role">Co-founder &amp; Executive Chairman</div></div>
+            <a href="https://www.linkedin.com/in/alphonsevoigt/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/bdcf88a4-f3e6-45fa-bc50-b93eda08a210_medium.jpg" alt="Alexandre Dinkelmann" class="leader-photo">
+            <div><div class="leader-name">Alexandre Dinkelmann</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/alexandredinkelmann/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/6a05d1aa-ad34-437c-bf6f-d0e53b7964c5_medium.jpg" alt="Eduardo de Abreu" class="leader-photo">
+            <div><div class="leader-name">Eduardo de Abreu</div>
+            <div class="leader-role">Vice President of Product</div></div>
+            <a href="https://www.linkedin.com/in/eduardodeabreu/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.adventinternational.com" target="_blank" class="investor-card">
+            <span class="investor-name">Advent International</span>
+        </a><a href="https://www.ftvcapital.com" target="_blank" class="investor-card">
+            <span class="investor-name">FTV Capital</span>
+        </a><a href="https://www.leadedge.com" target="_blank" class="investor-card">
+            <span class="investor-name">Lead Edge Capital</span>
+        </a><a href="https://endeavor.org/catalyst" target="_blank" class="investor-card">
+            <span class="investor-name">Endeavor Catalyst</span>
+        </a><a href="https://www.ltsinvestments.com" target="_blank" class="investor-card">
+            <span class="investor-name">LTS Growth</span>
+        </a><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">EBANX S.A.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://business.ebanx.com" target="_blank" class="detail-value">business.ebanx.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2012</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">501-1,000</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Curitiba, Brazil</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

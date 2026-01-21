@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envision AESC - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="aesc-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/idBXOFp_x2/theme/dark/logo.png" alt="Envision AESC" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Envision AESC</h1>
+                    <p class="company-tagline">Global leader in EV batteries powering 1M+ vehicles across 60 countries</p>
+                    <div class="company-tags"><span class="tag">EV Batteries</span><span class="tag">CleanTech</span><span class="tag">Energy Storage</span><span class="tag">Manufacturing</span><span class="tag">Japan/China</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Envision AESC is a global leader in electric vehicle battery technology and energy storage systems. Originally founded as a joint venture between Nissan and NEC in 2007, the company was acquired by Envision Group in 2019, with Nissan retaining a 25% stake. Today AESC powers over one million electric vehicles across 60+ countries for automakers including Nissan, BMW, Mercedes-Benz, and Honda. The company has raised $2.4B from investors including GIC, Primavera Capital, and Hongshan Capital, targeting a $10B valuation. AESC operates gigafactories in Japan, UK, USA, China, and France, and ranks among the world&#x27;s top 3 companies in energy storage cell shipments.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2023-2024</td>
+                <td>Series C</td>
+                <td>$1.5B (target)</td>
+                <td>$10B (target)</td>
+            </tr><tr>
+                <td>2018</td>
+                <td>Acquisition</td>
+                <td>$2.4B</td>
+                <td>Undisclosed</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">EV Battery Cells</div>
+            <div class="product-desc">Lithium-ion cells for Nissan, BMW, Mercedes, Honda</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Energy Storage Systems</div>
+            <div class="product-desc">Grid-scale batteries, top 3 global shipments in 2024</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">1000km Range Battery</div>
+            <div class="product-desc">Next-gen cells enabling 1000km driving range</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Solid-State Battery (R&amp;D)</div>
+            <div class="product-desc">Next-generation solid-state battery development</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Envision AESC</h2>
+                        <div class="highlights-list"><a href="https://charlestonbusiness.com/former-bmw-manufacturing-ceo-to-lead-aescs-south-carolina-us-operations/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2026</span>
+            <span class="highlight-title"><strong>BMW South Carolina plant 2026</strong>—next-gen cells supply</span>
+        </a><a href="https://www.businesswire.com/news/home/20240820190505/en/AESC-Expands-US-Europe-and-Global-Executive-Leadership-Team" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title"><strong>Leadership expansion (Aug 2024)</strong>—ex-BMW CEO Knudt Flor joins</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2023-11-24/gic-backed-aesc-targets-10-billion-valuation-in-new-funding-round-sources-say" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Targeting $10B valuation</strong>—$1.5B Series C round planned</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2024-05-23/ev-battery-maker-aesc-plans-u-s-ipo-as-soon-as-next-year" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bloomberg: Energy Storage Rankings</span>
+        </a><a href="https://www.reuters.com/business/autos-transportation/japans-aesc-plans-30-bln-battery-plant-south-carolina-2022-08-25/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Reuters: AESC OEM Partnerships</span>
+        </a><a href="https://www.businesswire.com/news/home/20240820190505/en/AESC-Expands-US-Europe-and-Global-Executive-Leadership-Team" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Business Wire: Global Manufacturing</span>
+        </a><a href="https://www.reuters.com/business/autos-transportation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Reuters: Envision AESC battery expansion</span>
+        </a><a href="https://www.autonews.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Automotive News: EV battery manufacturing</span>
+        </a><a href="https://www.bloomberg.com/energy" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bloomberg: Global battery factory expansion</span>
+        </a><a href="https://www.envision-aesc.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Official: Electric vehicle battery solutions</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/be2e6d46-f288-41e4-a340-d8a4112fecff_medium.jpg" alt="Shoichi Matsumoto" class="leader-photo">
+            <div><div class="leader-name">Shoichi Matsumoto</div>
+            <div class="leader-role">CEO</div></div>
+            <a href="https://www.linkedin.com/in/shoichi-matsumoto/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/38ac0008-05ce-4fd2-8c07-12083862865a_medium.jpg" alt="Lei Zhang" class="leader-photo">
+            <div><div class="leader-name">Lei Zhang</div>
+            <div class="leader-role">Executive Chairman</div></div>
+            <a href="https://www.linkedin.com/in/lei-zhang-envision/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/eff7f5f7-35fd-4ee3-8faf-5ff4db108a80_medium.jpg" alt="Hiroyuki Akashi" class="leader-photo">
+            <div><div class="leader-name">Hiroyuki Akashi</div>
+            <div class="leader-role">CTO &amp; Executive VP</div></div>
+            <a href="https://www.linkedin.com/in/hiroyuki-akashi/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Alpay%20Uguz&amp;background=3b82f6&amp;color=fff" alt="Alpay Uguz" class="leader-photo">
+            <div><div class="leader-name">Alpay Uguz</div>
+            <div class="leader-role">Global Chief Quality Officer</div></div>
+            <a href="https://www.linkedin.com/in/alpayuguz/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.gic.com.sg/" target="_blank" class="investor-card">
+            <span class="investor-name">GIC (Singapore)</span>
+        </a><a href="https://www.envision-group.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Envision Group</span>
+        </a><a href="https://www.primaveracapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Primavera Capital</span>
+        </a><a href="https://www.hongshanpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Hongshan Capital</span>
+        </a><a href="https://www.nissan-global.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Nissan Motor</span>
+        </a><a href="https://www.nec.com/" target="_blank" class="investor-card">
+            <span class="investor-name">NEC Corporation</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">AESC Group Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.aesc-group.com" target="_blank" class="detail-value">www.aesc-group.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2007</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">5,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Yokohama, Japan</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

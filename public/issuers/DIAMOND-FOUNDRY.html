@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Foundry - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="diamond-foundry-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idA-f6Wz0z/idDJvLZxNZ.svg" alt="Diamond Foundry" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Diamond Foundry</h1>
+                    <p class="company-tagline">Zero-emission lab-grown diamond producer using plasma reactors for jewelry and semiconductor applications</p>
+                    <div class="company-tags"><span class="tag">Clean Tech</span><span class="tag">Lab-Grown Diamonds</span><span class="tag">Sustainability</span><span class="tag">Unicorn</span><span class="tag">DeepTech</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Diamond Foundry is a clean tech unicorn producing lab-grown diamonds using zero-emission plasma reactors powered by renewable energy. The company grows single-crystal diamonds for jewelry and semiconductor applications, offering an ethical and sustainable alternative to mined diamonds. Diamond Foundry&#x27;s technology creates gem-quality diamonds atom by atom in specialized reactors, with each diamond certified carbon neutral. Backed by Leonardo DiCaprio, Twitter founder Evan Williams, and iPod creator Tony Fadell, the company is expanding production in Spain with an $85M EU grant to reach 20 million carats annually.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>March 2021</td>
+                <td>Series C</td>
+                <td>$200M</td>
+                <td>$1.8B</td>
+            </tr><tr>
+                <td>2019</td>
+                <td>Series B</td>
+                <td>$100M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2017</td>
+                <td>Series A</td>
+                <td>$50M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Jewelry Diamonds</div>
+            <div class="product-desc">Lab-grown gem-quality diamonds for engagement rings and fine jewelry with full certification</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Industrial Diamonds</div>
+            <div class="product-desc">High-purity single-crystal diamonds for semiconductor, quantum computing, and scientific applications</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">VRAI</div>
+            <div class="product-desc">Direct-to-consumer sustainable fine jewelry brand featuring Diamond Foundry diamonds</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Diamond Foundry Certified</div>
+            <div class="product-desc">Blockchain-verified provenance and carbon-neutral certification for each diamond</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Diamond Foundry</h2>
+                        <div class="highlights-list"><a href="https://industryeurope.com/sectors/metals-mining/lab-grown-gemstone-producer-diamond-foundry-valued-at-18bn/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Diamond Foundry receives $85M EU grant for Spanish production facility</span>
+        </a><a href="https://www.technowize.com/diamond-foundry-valued-at-1-8-billion-following-200-million-investment/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Diamond Foundry reaches $1.8B valuation after $200M Fidelity investment</span>
+        </a><a href="https://en.wikipedia.org/wiki/Diamond_Foundry" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">D Foundry II Spain facility begins operations, targeting 20M carats/year</span>
+        </a><a href="https://www.diamondfoundry.com/technology" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Diamond Foundry expands semiconductor diamond production</span>
+        </a><a href="https://equityzen.com/company/diamondfoundry/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Leonardo DiCaprio-backed Diamond Foundry leads lab-grown diamond revolution</span>
+        </a><a href="https://forgeglobal.com/diamond-foundry_ipo/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Diamond Foundry carbon-neutral certification gains industry recognition</span>
+        </a><a href="https://www.jckonline.com/editorial-article/eu-grants-diamond-foundry/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>€81M EU grant</strong> (Dec 2024)—funding Spanish factory, 300 jobs, 20M carats/year capacity</span>
+        </a><a href="https://marketandmind.com/diamond-foundry-the-future-of-lab-grown-diamonds/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>First diamond EV inverter</strong>—6x smaller than Tesla 3, solving AI/cloud thermal limits</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/7cd91cc8-629a-405a-b33f-c8d375a31cdd_medium.jpg" alt="Martin Roscheisen" class="leader-photo">
+            <div><div class="leader-name">Martin Roscheisen</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/roscheisen/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/bd587c25-d33a-4076-b10f-61a8077c714b_medium.jpg" alt="Michael Calonico" class="leader-photo">
+            <div><div class="leader-name">Michael Calonico</div>
+            <div class="leader-role">VP Finance</div></div>
+            <a href="https://www.linkedin.com/company/diamond-foundry/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/782d3f24-715f-43ba-a8bc-7334e6acb647_medium.jpg" alt="Jeroen Van Duren" class="leader-photo">
+            <div><div class="leader-name">Jeroen Van Duren</div>
+            <div class="leader-role">VP Tech Applications</div></div>
+            <a href="https://www.linkedin.com/company/diamond-foundry/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/14d56473-89da-4a88-b782-90464d8c9a0a_medium.jpg" alt="Toby Cruse" class="leader-photo">
+            <div><div class="leader-name">Toby Cruse</div>
+            <div class="leader-role">VP Strategic Sales</div></div>
+            <a href="https://www.linkedin.com/in/tobycruse/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.fidelity.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Fidelity Investments</span>
+        </a><a href="https://www.capricorninvestment.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Capricorn Investment Group</span>
+        </a><a href="https://leonardodicaprio.org/" target="_blank" class="investor-card">
+            <span class="investor-name">Leonardo DiCaprio</span>
+        </a><a href="https://www.vastventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Vast Ventures</span>
+        </a><a href="https://www.wellington.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Wellington Management</span>
+        </a><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Diamond Foundry Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.diamondfoundry.com" target="_blank" class="detail-value">www.diamondfoundry.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2012</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">300+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">San Francisco, CA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

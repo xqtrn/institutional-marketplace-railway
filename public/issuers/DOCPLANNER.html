@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocPlanner - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="docplanner-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idXw7T_wZt/idABcDeFgH.svg" alt="DocPlanner" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">DocPlanner</h1>
+                    <p class="company-tagline">Making the healthcare experience more human with online booking and practice management</p>
+                    <div class="company-tags"><span class="tag">HealthTech</span><span class="tag">Unicorn</span><span class="tag">Healthcare Marketplace</span><span class="tag">Polish Tech</span><span class="tag">SaaS</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">DocPlanner is Europe&#x27;s largest healthcare booking marketplace, connecting patients with healthcare professionals across 13 countries in Europe and Latin America. Founded in Warsaw, Poland by Mariusz Gralewski, Lucjan Samulowski, and Luca Puccioni, the company has built a network of nearly 2 million healthcare professionals serving over 260,000 customers globally. DocPlanner processes more than 22 million patient appointments monthly through its marketplace brands including ZnanyLekarz (Poland), Doctoralia (Spain, Brazil, Mexico), and Jameda (Germany). The platform also provides practice management software for doctors and clinics. DocPlanner achieved unicorn status with a $1 billion valuation in 2021 after raising €80 million in Series E funding led by One Peak Partners and Goldman Sachs.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>September 2021</td>
+                <td>Series E</td>
+                <td>€80M</td>
+                <td>$1B</td>
+            </tr><tr>
+                <td>May 2017</td>
+                <td>Series D</td>
+                <td>€15M</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DocPlanner Marketplace</div>
+            <div class="product-desc">Online platform for finding and booking appointments with healthcare professionals</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Practice Management Software</div>
+            <div class="product-desc">Comprehensive SaaS solution for managing medical practices, appointments, and patient records</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Doctoralia</div>
+            <div class="product-desc">Healthcare marketplace for Spanish-speaking markets in Europe and Latin America</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Telemedicine Platform</div>
+            <div class="product-desc">Video consultation capabilities integrated with booking and practice management</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on DocPlanner</h2>
+                        <div class="highlights-list"><a href="https://siliconcanals.com/warsaw-based-docplanner-secures-e80m-funding-5-things-to-know-about-healthcare-booking-platform/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DocPlanner reaches $1B unicorn valuation with €80M Series E</span>
+        </a><a href="https://www.docplanner.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Network expands to 2 million healthcare professionals across 13 countries</span>
+        </a><a href="https://www.globalbankingandfinance.com/docplanner-europes-largest-healthcare-marketplace-raises-20-million-and-merges-with-doctoralia/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Continued expansion in Latin America through Doctoralia brand</span>
+        </a><a href="https://www.docplanner.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Integration of AI-powered features for appointment scheduling</span>
+        </a><a href="https://www.healthtechalpha.com/person/mariusz-gralewski" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">260,000+ healthcare customers served globally</span>
+        </a><a href="https://www.leadsontrees.com/news/docplanner-secures-140-million-in-funding-to-transform-healthcare-a-global-mission-to-make-the-patient-experience-more-human" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>€140M funding round</strong> 2024—total funding €300M, 2M healthcare professionals on platform</span>
+        </a><a href="https://www.eu-startups.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">EU Startups: European healthtech leader</span>
+        </a><a href="https://tech.eu/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Tech.eu: Telemedicine expansion</span>
+        </a><a href="https://www.healthcareitnews.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Healthcare IT: Digital health solutions</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/69313d72-c056-488a-ad2a-8332e5f5eaf9_medium.jpg" alt="Mariusz Gralewski" class="leader-photo">
+            <div><div class="leader-name">Mariusz Gralewski</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/mariuszgralewski/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/ed4fe72c-4e43-4938-abf4-edb8cf7cbca0_medium.jpg" alt="Lucek Samulowski" class="leader-photo">
+            <div><div class="leader-name">Lucek Samulowski</div>
+            <div class="leader-role">Co-Founder &amp; Chief People Officer</div></div>
+            <a href="https://www.linkedin.com/in/luceksamulowski/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/b2e739dc-b091-4724-ba62-4d82604a8a9e_medium.jpg" alt="Carlos Fernández Elviro" class="leader-photo">
+            <div><div class="leader-name">Carlos Fernández Elviro</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/carlosfernandezelviro/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/285447b7-8a23-4d52-a90a-683d1577010c_medium.jpg" alt="Alejandro Scandroli" class="leader-photo">
+            <div><div class="leader-name">Alejandro Scandroli</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/alejandroscandroli/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.onepeakpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">One Peak Partners</span>
+        </a><a href="https://www.goldmansachs.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Goldman Sachs</span>
+        </a><a href="https://enern.eu/" target="_blank" class="investor-card">
+            <span class="investor-name">ENERN Investments</span>
+        </a><a href="https://www.piton.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Piton Capital</span>
+        </a><a href="https://www.luxorcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Luxor Capital</span>
+        </a><a href="https://www.pointnine.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Point Nine Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">DocPlanner Group Sp. z o.o.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.docplanner.com/" target="_blank" class="detail-value">www.docplanner.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2012</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">1,000-5,000</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Warsaw, Poland</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,2424 @@
+{
+  "JASPER": {
+    "ticker": "JASPER",
+    "name": "Jasper",
+    "logo": "https://logo.clearbit.com/jasper.ai",
+    "tagline": "Accelerating content creation with AI purpose-built for marketing teams and brand storytelling",
+    "tags": [
+      "AI",
+      "Content",
+      "Marketing",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Peak Valuation",
+        "value": "$1.5B"
+      },
+      {
+        "label": "Revenue (2023)",
+        "value": "$120M"
+      },
+      {
+        "label": "Customers",
+        "value": "70K+"
+      },
+      {
+        "label": "Users",
+        "value": "1M+"
+      }
+    ],
+    "overview": "Jasper (formerly Jarvis) is a generative AI platform for marketing content, founded in 2021 by Dave Rogenmoser, John Philip Morgan, and Chris Hull. The company raised $125M Series A in October 2022 at $1.5B valuation led by Insight Partners. Jasper was an early GPT-3 wrapper that grew rapidly to $120M revenue in 2023 but faced challenges with ChatGPT competition. In September 2023, Timothy Young (ex-Dropbox President) became CEO. In February 2024, Jasper acquired Clipdrop (15M users) from Stability AI. The company is pivoting to enterprise marketing AI with focus on brand voice and campaign workflows.",
+    "products": [
+      {
+        "name": "Jasper Chat",
+        "description": "AI chat for content creation",
+        "url": "https://www.jasper.ai/chat"
+      },
+      {
+        "name": "Jasper Campaigns",
+        "description": "AI marketing campaign builder",
+        "url": "https://www.jasper.ai/campaigns"
+      },
+      {
+        "name": "Jasper Brand Voice",
+        "description": "AI that writes in your brand voice",
+        "url": "https://www.jasper.ai/brand-voice"
+      },
+      {
+        "name": "Jasper Art",
+        "description": "AI image generation",
+        "url": "https://www.jasper.ai/art"
+      },
+      {
+        "name": "Clipdrop",
+        "description": "AI photo editing suite",
+        "url": "https://clipdrop.co/"
+      },
+      {
+        "name": "Jasper API",
+        "description": "Enterprise AI integration",
+        "url": "https://www.jasper.ai/api"
+      }
+    ],
+    "highlights_title": "Latest news on Jasper",
+    "highlights": [
+      {
+        "title": "TechCrunch: $125M Series A",
+        "description": "Jasper raises $125M at $1.5B valuation (Oct 2022)",
+        "url": "https://techcrunch.com/2022/10/18/jasper-ai-raises-125m/"
+      },
+      {
+        "title": "TheNota: Clipdrop Acquisition",
+        "description": "Jasper acquires Clipdrop from Stability AI (Feb 2024)",
+        "url": "https://thenota.com/post/2024/feb/22/jasper-acquires-clipdrop-expand-ai-offerings-photos/"
+      },
+      {
+        "title": "Latka: Revenue Data",
+        "description": "70,000+ paying customers and revenue metrics",
+        "url": "https://getlatka.com/companies/jasper.ai"
+      },
+      {
+        "title": "Maginative: Valuation Cut",
+        "description": "Jasper cuts internal valuation as AI growth slows",
+        "url": "https://www.maginative.com/article/jasper-cuts-internal-valuation-as-ai-growth-slows/"
+      },
+      {
+        "title": "Crunchbase: Company Profile",
+        "description": "Jasper funding history and company details",
+        "url": "https://www.crunchbase.com/organization/jasper-ai"
+      },
+      {
+        "title": "PitchBook: Company Profile",
+        "description": "Jasper valuation, investors and funding history",
+        "url": "https://pitchbook.com/profiles/company/476618-68"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Timothy Young",
+        "role": "CEO",
+        "photo": "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/6853bfc195eb9f99f1a5e8de_timothy-young-headshot.webp",
+        "linkedin": "https://www.linkedin.com/in/timhyoung/"
+      },
+      {
+        "name": "Dave Rogenmoser",
+        "role": "Co-founder",
+        "photo": "https://media.licdn.com/dms/image/v2/D5603AQHPJnLqWqH5yw/profile-displayphoto-shrink_200_200/0/1695929271855",
+        "linkedin": "https://www.linkedin.com/in/daverogenmoser/"
+      },
+      {
+        "name": "Chris Hull",
+        "role": "Co-founder & Chief Product Officer",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQGAqMNbHR8w_A/profile-displayphoto-shrink_200_200/0/1643150097143",
+        "linkedin": "https://www.linkedin.com/in/chrishullco/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com/"
+      },
+      {
+        "name": "Coatue",
+        "url": "https://www.coatue.com/"
+      },
+      {
+        "name": "Bessemer Venture Partners",
+        "url": "https://www.bvp.com/"
+      },
+      {
+        "name": "IVP",
+        "url": "https://www.ivp.com/"
+      },
+      {
+        "name": "Y Combinator",
+        "url": "https://www.ycombinator.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Oct 2022",
+        "amount": "$125M",
+        "round": "Series A",
+        "valuation": "$1.5B",
+        "investors_html": "Insight Partners, Coatue, Bessemer"
+      },
+      {
+        "date": "Oct 2021",
+        "amount": "$6M",
+        "round": "Seed",
+        "valuation": "—",
+        "investors_html": "Y Combinator, Foundation Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Jasper AI, Inc.",
+      "website": "https://www.jasper.ai",
+      "website_display": "jasper.ai",
+      "founded": "2021",
+      "headcount": "200+",
+      "hq": "Austin, Texas",
+      "twitter": "https://twitter.com/heyjasperai",
+      "linkedin": "https://www.linkedin.com/company/heyjasperai/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue, $M",
+          "badge_text": "Peak $120M",
+          "badge_type": "neutral",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$45M",
+              "height": 64
+            },
+            {
+              "label": "2022",
+              "value": "$75M",
+              "height": 106
+            },
+            {
+              "label": "2023",
+              "value": "$120M",
+              "height": 170
+            },
+            {
+              "label": "2024",
+              "value": "$55M",
+              "height": 78
+            }
+          ]
+        },
+        {
+          "title": "Valuation",
+          "badge_text": "~$1.2B (2024)",
+          "badge_type": "neutral",
+          "bars": [
+            {
+              "label": "Oct 22",
+              "value": "$1.5B",
+              "height": 170
+            },
+            {
+              "label": "2024*",
+              "value": "~$1.2B",
+              "height": 136
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "JAGUAR-MICROSYSTEMS": {
+    "ticker": "JAGUAR-MICROSYSTEMS",
+    "name": "JAGUAR MICROSYSTEMS",
+    "logo": "/assets/logos/Jaguar_Microsystems.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JAGUAR MICROSYSTEMS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JAGUAR MICROSYSTEMS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JAGUAR MICROSYSTEMS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JAGUAR MICROSYSTEMS",
+      "website": "https://jaguarmicrosystems.com",
+      "website_display": "jaguarmicrosystems.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JD-DIGITS": {
+    "ticker": "JD-DIGITS",
+    "name": "JD DIGITS",
+    "logo": "/assets/logos/JD_Digits.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JD DIGITS is a technology company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JD DIGITS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JD DIGITS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JD DIGITS",
+      "website": "https://jddigits.com",
+      "website_display": "jddigits.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JD-INDUSTRY": {
+    "ticker": "JD-INDUSTRY",
+    "name": "JD INDUSTRY",
+    "logo": "/assets/logos/JD_Industry.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JD INDUSTRY is a technology company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JD INDUSTRY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JD INDUSTRY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JD INDUSTRY",
+      "website": "https://jdindustry.com",
+      "website_display": "jdindustry.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JDID": {
+    "ticker": "JDID",
+    "name": "JD.ID",
+    "logo": "/assets/logos/JD.ID.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JD.ID is a technology company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JD.ID main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JD.ID",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JD.ID",
+      "website": "https://jdid.com",
+      "website_display": "jdid.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JEEVES-INC": {
+    "ticker": "JEEVES-INC",
+    "name": "JEEVES INC.",
+    "logo": "/assets/logos/Jeeves_Inc..jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JEEVES INC. is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JEEVES INC. main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JEEVES INC.",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JEEVES INC.",
+      "website": "https://jeevesinc.com",
+      "website_display": "jeevesinc.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JELLYSMACK": {
+    "ticker": "JELLYSMACK",
+    "name": "JELLYSMACK",
+    "logo": "/assets/logos/Jellysmack.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JELLYSMACK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JELLYSMACK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JELLYSMACK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JELLYSMACK",
+      "website": "https://jellysmack.com",
+      "website_display": "jellysmack.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JETTI-RESOURCES": {
+    "ticker": "JETTI-RESOURCES",
+    "name": "JETTI RESOURCES",
+    "logo": "/assets/logos/Jetti_Resources.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JETTI RESOURCES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JETTI RESOURCES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JETTI RESOURCES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JETTI RESOURCES",
+      "website": "https://jettiresources.com",
+      "website_display": "jettiresources.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JIANGXIAOBAI": {
+    "ticker": "JIANGXIAOBAI",
+    "name": "JIANGXIAOBAI",
+    "logo": "/assets/logos/JIANGXIAOBAI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JIANGXIAOBAI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JIANGXIAOBAI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JIANGXIAOBAI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JIANGXIAOBAI",
+      "website": "https://jiangxiaobai.com",
+      "website_display": "jiangxiaobai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JIEDAIBAO": {
+    "ticker": "JIEDAIBAO",
+    "name": "JIEDAIBAO",
+    "logo": "/assets/logos/Jiedaibao.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JIEDAIBAO is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JIEDAIBAO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JIEDAIBAO",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JIEDAIBAO",
+      "website": "https://jiedaibao.com",
+      "website_display": "jiedaibao.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JIUXIAN": {
+    "ticker": "JIUXIAN",
+    "name": "JIUXIAN",
+    "logo": "/assets/logos/Jiuxian.jpg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JIUXIAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JIUXIAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JIUXIAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JIUXIAN",
+      "website": "https://jiuxian.com",
+      "website_display": "jiuxian.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JLSEMI": {
+    "ticker": "JLSEMI",
+    "name": "JLSEMI",
+    "logo": "/assets/logos/JLSemi.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JLSEMI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JLSEMI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JLSEMI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JLSEMI",
+      "website": "https://jlsemi.com",
+      "website_display": "jlsemi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JMGO": {
+    "ticker": "JMGO",
+    "name": "JMGO",
+    "logo": "/assets/logos/JMGO.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JMGO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JMGO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JMGO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JMGO",
+      "website": "https://jmgo.com",
+      "website_display": "jmgo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JOBTALENT": {
+    "ticker": "JOBTALENT",
+    "name": "JOB&TALENT",
+    "logo": "/assets/logos/JobTalent.png",
+    "tagline": "HR technology and workforce solutions",
+    "tags": [
+      "HR Tech",
+      "Talent Management",
+      "Workforce Solutions",
+      "People Analytics",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "HR"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JOB&TALENT is a hr company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JOB&TALENT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JOB&TALENT",
+    "highlights": [
+      {
+        "text": "Leading hr company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JOB&TALENT",
+      "website": "https://jobtalent.com",
+      "website_display": "jobtalent.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JOLED": {
+    "ticker": "JOLED",
+    "name": "JOLED",
+    "logo": "/assets/logos/JOLED.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JOLED is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JOLED main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JOLED",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JOLED",
+      "website": "https://joled.com",
+      "website_display": "joled.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JOLLYCHIC": {
+    "ticker": "JOLLYCHIC",
+    "name": "JOLLYCHIC",
+    "logo": "/assets/logos/Jollychic.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JOLLYCHIC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JOLLYCHIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JOLLYCHIC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JOLLYCHIC",
+      "website": "https://jollychic.com",
+      "website_display": "jollychic.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JSW-ONE": {
+    "ticker": "JSW-ONE",
+    "name": "JSW ONE",
+    "logo": "/assets/logos/JSW_One.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JSW ONE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JSW ONE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JSW ONE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JSW ONE",
+      "website": "https://jswone.com",
+      "website_display": "jswone.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUANPI": {
+    "ticker": "JUANPI",
+    "name": "JUANPI",
+    "logo": "/assets/logos/Juanpi.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUANPI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUANPI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUANPI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUANPI",
+      "website": "https://juanpi.com",
+      "website_display": "juanpi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUDO-BANK": {
+    "ticker": "JUDO-BANK",
+    "name": "JUDO BANK",
+    "logo": "/assets/logos/Judo_Bank.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUDO BANK is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUDO BANK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUDO BANK",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUDO BANK",
+      "website": "https://judobank.com",
+      "website_display": "judobank.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUMBOTAIL": {
+    "ticker": "JUMBOTAIL",
+    "name": "JUMBOTAIL",
+    "logo": "/assets/logos/Jumbotail.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUMBOTAIL is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUMBOTAIL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUMBOTAIL",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUMBOTAIL",
+      "website": "https://jumbotail.com",
+      "website_display": "jumbotail.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUMPCLOUD": {
+    "ticker": "JUMPCLOUD",
+    "name": "JUMPCLOUD",
+    "logo": "/assets/logos/JumpCloud.jpeg",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUMPCLOUD is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUMPCLOUD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUMPCLOUD",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUMPCLOUD",
+      "website": "https://jumpcloud.com",
+      "website_display": "jumpcloud.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUNIPER-SQUARE": {
+    "ticker": "JUNIPER-SQUARE",
+    "name": "JUNIPER SQUARE",
+    "logo": "/assets/logos/Juniper_Square.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUNIPER SQUARE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUNIPER SQUARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUNIPER SQUARE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUNIPER SQUARE",
+      "website": "https://junipersquare.com",
+      "website_display": "junipersquare.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUPITERONE": {
+    "ticker": "JUPITERONE",
+    "name": "JUPITERONE",
+    "logo": "/assets/logos/JupiterOne.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUPITERONE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUPITERONE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUPITERONE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUPITERONE",
+      "website": "https://jupiterone.com",
+      "website_display": "jupiterone.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUSDA": {
+    "ticker": "JUSDA",
+    "name": "JUSDA",
+    "logo": "/assets/logos/Jusda.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUSDA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUSDA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUSDA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUSDA",
+      "website": "https://jusda.com",
+      "website_display": "jusda.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUSHUITAN-NETWORK-TECHNOLOGY": {
+    "ticker": "JUSHUITAN-NETWORK-TECHNOLOGY",
+    "name": "JUSHUITAN NETWORK TECHNOLOGY",
+    "logo": "/assets/logos/Jushuitan_Network_Technology.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUSHUITAN NETWORK TECHNOLOGY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUSHUITAN NETWORK TECHNOLOGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUSHUITAN NETWORK TECHNOLOGY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUSHUITAN NETWORK TECHNOLOGY",
+      "website": "https://jushuitannetworktechnology.com",
+      "website_display": "jushuitannetworktechnology.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUUL": {
+    "ticker": "JUUL",
+    "name": "JUUL",
+    "logo": "/assets/logos/JUUL.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUUL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUUL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUUL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUUL",
+      "website": "https://juul.com",
+      "website_display": "juul.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "JUWAN-TECHNOLOGY": {
+    "ticker": "JUWAN-TECHNOLOGY",
+    "name": "JUWAN TECHNOLOGY",
+    "logo": "/assets/logos/Juwan_Technology.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "JUWAN TECHNOLOGY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "JUWAN TECHNOLOGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on JUWAN TECHNOLOGY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "JUWAN TECHNOLOGY",
+      "website": "https://juwantechnology.com",
+      "website_display": "juwantechnology.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

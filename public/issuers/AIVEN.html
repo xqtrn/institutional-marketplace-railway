@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiven - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="aiven-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/idXBJEbkqC/theme/dark/logo.svg" alt="Aiven" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Aiven</h1>
+                    <p class="company-tagline">AI-ready open source data platform for the cloud</p>
+                    <div class="company-tags"><span class="tag">Cloud Data</span><span class="tag">Apache Kafka</span><span class="tag">PostgreSQL</span><span class="tag">Open Source</span><span class="tag">DBaaS</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Aiven is a Helsinki-based cloud data platform unicorn providing fully managed open-source database and streaming services. Founded in 2016 by four F-Secure alumni—Oskari Saarenmaa (CEO), Heikki Nousiainen (CTO), Hannu Valtonen, and Mika Eloranta—who recognized that all applications would be built in the cloud. Aiven reached unicorn status in 2021, achieving a $3B valuation with $421M in total funding from Eurazeo, BlackRock, IVP, Atomico, and Salesforce Ventures. The platform offers managed services for Apache Kafka, PostgreSQL, MySQL, Apache Flink, Cassandra, OpenSearch, ClickHouse, Redis, InfluxDB, and Grafana—available across 90+ regions on AWS, GCP, Azure, DigitalOcean, and UpCloud. In 2023, Aiven acquired EverSQL for AI-powered database optimization. In 2024, the company partnered with Google Cloud for AlloyDB Omni multi-cloud deployment. Aiven positions itself as the AI-ready data infrastructure layer for modern applications.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>May 2022</td>
+                <td>Series D</td>
+                <td>$210M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Oct 2021</td>
+                <td>Series C Extension</td>
+                <td>$60M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Mar 2021</td>
+                <td>Series C</td>
+                <td>$100M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2020</td>
+                <td>Series B</td>
+                <td>$40M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2019</td>
+                <td>Series A</td>
+                <td>$8M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aiven for Apache Kafka</div>
+            <div class="product-desc">Fully managed real-time data streaming with Kafka Connect and Schema Registry</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aiven for PostgreSQL</div>
+            <div class="product-desc">Managed PostgreSQL with high availability, automatic backups, and extensions</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aiven for Apache Flink</div>
+            <div class="product-desc">Managed stream processing for real-time analytics and ETL</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aiven for ClickHouse</div>
+            <div class="product-desc">Managed columnar OLAP database for fast analytics at scale</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aiven for OpenSearch</div>
+            <div class="product-desc">Managed search and analytics with Kibana-compatible dashboards</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aiven AI Database Optimizer</div>
+            <div class="product-desc">AI-powered query optimization via EverSQL acquisition</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Aiven</h2>
+                        <div class="highlights-list"><a href="https://aiven.io/blog/whats-new-at-aiven-q42023-q12024" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title">October 2024: Partnered with Google Cloud for AlloyDB Omni on AWS, Azure, GCP</span>
+        </a><a href="https://www.theregister.com/2022/05/13/aiven_funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2022</span>
+            <span class="highlight-title">May 2022: $210M Series D led by Eurazeo and BlackRock</span>
+        </a><a href="https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">$3B valuation with $421M total funding raised</span>
+        </a><a href="https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Available in 90+ cloud regions across AWS, GCP, Azure, DigitalOcean, UpCloud</span>
+        </a><a href="https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Expanded portfolio: Kafka, PostgreSQL, Flink, ClickHouse, OpenSearch, Redis</span>
+        </a><a href="https://www.theregister.com/2022/05/13/aiven_funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Offices in Helsinki, Berlin, Sydney, and Boston</span>
+        </a><a href="https://www.theinformation.com/articles/finnish-cloud-database-firm-aiven-doubles-valuation-to-2-billion-in-latest-funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">The Information: Doubles valuation to $2B in funding</span>
+        </a><a href="https://aiven.io/press" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Official: Google Cloud Partner of the Year 2025</span>
+        </a><a href="https://www.linkedin.com/company/aiven" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">LinkedIn: 440 employees across 6 continents</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/5b068b5f-7490-43f4-8e25-b40ff6bc29f0_medium.jpg" alt="Oskari Saarenmaa" class="leader-photo">
+            <div><div class="leader-name">Oskari Saarenmaa</div>
+            <div class="leader-role">CEO</div></div>
+            <a href="https://www.linkedin.com/in/oskarisaarenmaa/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/ad3962f7-a20a-448c-b4cc-43a8dd4c0d0d_medium.jpg" alt="Kenneth Chen" class="leader-photo">
+            <div><div class="leader-name">Kenneth Chen</div>
+            <div class="leader-role">COO</div></div>
+            <a href="https://www.linkedin.com/in/kennethchen/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/fb712261-e0fb-4480-80a3-f4cbd35f7ea7_medium.jpg" alt="James Arlen" class="leader-photo">
+            <div><div class="leader-name">James Arlen</div>
+            <div class="leader-role">SVP Technology &amp; CISO</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Hannu%20Valtonen&amp;background=3b82f6&amp;color=fff" alt="Hannu Valtonen" class="leader-photo">
+            <div><div class="leader-name">Hannu Valtonen</div>
+            <div class="leader-role">Co-Founder &amp; VP Engineering</div></div>
+            <a href="https://www.linkedin.com/in/hannuvaltonen/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.eurazeo.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Eurazeo</span>
+        </a><a href="https://www.blackrock.com/" target="_blank" class="investor-card">
+            <span class="investor-name">BlackRock</span>
+        </a><a href="https://www.ivp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">IVP</span>
+        </a><a href="https://www.atomico.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Atomico</span>
+        </a><a href="https://earlybird.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Earlybird</span>
+        </a><a href="https://www.salesforceventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Salesforce Ventures</span>
+        </a><a href="https://www.wilab.com/" target="_blank" class="investor-card">
+            <span class="investor-name">World Innovation Lab</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Aiven Oy</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://aiven.io/" target="_blank" class="detail-value">aiven.io/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2016</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">600+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Helsinki, Finland</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

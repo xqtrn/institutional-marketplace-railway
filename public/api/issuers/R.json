@@ -1,0 +1,5893 @@
+{
+  "RIPPLE": {
+    "ticker": "RIPPLE",
+    "name": "Ripple",
+    "logo": "https://logo.clearbit.com/ripple.com",
+    "tagline": "Enterprise blockchain company powering instant, low-cost global payments through RippleNet and the XRP Ledger",
+    "tags": [
+      "Blockchain",
+      "Crypto",
+      "Payments",
+      "XRP",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$40B"
+      },
+      {
+        "label": "XRP Holdings",
+        "value": "$100B+"
+      },
+      {
+        "label": "RLUSD Market Cap",
+        "value": "$1B+"
+      },
+      {
+        "label": "Network Partners",
+        "value": "300+"
+      }
+    ],
+    "overview": "Ripple Labs, Inc. is an American technology company founded in 2012 that focuses on blockchain-based payment solutions for financial institutions. The company develops RippleNet, a global payments network, and maintains the XRP Ledger, an open-source blockchain. After a landmark SEC lawsuit that concluded in August 2025 with a $50 million settlement (reduced from $125M), Ripple raised $500 million in November 2025 at a $40 billion valuation—its first major fundraising in six years. The company initiated a $700 million share buyback in June 2025 at $25 billion implied valuation. Ripple launched the RLUSD stablecoin in December 2024, which exceeded $1 billion market cap by November 2025. Multiple spot XRP ETFs have been approved following the SEC settlement.",
+    "products": [
+      {
+        "name": "RippleNet",
+        "description": "Global payments network connecting banks and payment providers for instant cross-border transactions",
+        "url": "https://ripple.com/ripplenet/"
+      },
+      {
+        "name": "XRP Ledger",
+        "description": "Open-source, decentralized blockchain for fast, low-cost transactions",
+        "url": "https://xrpl.org/"
+      },
+      {
+        "name": "RLUSD Stablecoin",
+        "description": "USD-backed stablecoin launched Dec 2024, now $1B+ market cap",
+        "url": "https://ripple.com/rlusd/"
+      },
+      {
+        "name": "On-Demand Liquidity (ODL)",
+        "description": "Real-time cross-border payments using XRP as a bridge currency",
+        "url": "https://ripple.com/solutions/on-demand-liquidity/"
+      },
+      {
+        "name": "Ripple Custody",
+        "description": "Enterprise-grade digital asset custody solution for institutions",
+        "url": "https://ripple.com/solutions/custody/"
+      },
+      {
+        "name": "Ripple Prime",
+        "description": "Prime brokerage service from Hidden Road acquisition ($1.25B)",
+        "url": "https://ripple.com/"
+      },
+      {
+        "name": "Liquidity Hub",
+        "description": "Enterprise liquidity management for digital assets",
+        "url": "https://ripple.com/solutions/liquidity-hub/"
+      }
+    ],
+    "highlights_title": "Latest news on Ripple",
+    "highlights": [
+      {
+        "text": "Raised <strong>$500M at $40B valuation</strong> led by Fortress and Citadel Securities (Nov 2025)",
+        "url": "https://www.bitget.com/academy/ripple-stock-ipo-xrp-price-latest-news",
+        "date": "2025"
+      },
+      {
+        "text": "SEC lawsuit <strong>concluded August 2025</strong> with $50M settlement—case closed after 5 years",
+        "url": "https://www.axios.com/2025/03/19/xrp-lawsuit-dropped-ripple-sec",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>RLUSD stablecoin exceeded $1B market cap</strong> by November 2025",
+        "url": "https://www.bitrue.com/blog/ripple-ipo-xrp-price-prediction",
+        "date": "2025"
+      },
+      {
+        "text": "Initiated <strong>$700M share buyback</strong> at $25B valuation (Jun 2025)",
+        "url": "https://accessipos.com/ripple-ipo-stock/",
+        "date": "2025"
+      },
+      {
+        "text": "CEO testified at <strong>Senate Banking Committee</strong> hearing on digital assets (Jul 2025)",
+        "url": "https://www.banking.senate.gov/download/garlinghouse-testimony-7-9-25",
+        "date": "2025"
+      },
+      {
+        "text": "Court ruled <strong>XRP is not a security</strong> in retail transactions",
+        "url": "https://capital.com/en-eu/analysis/ripple-sec-suit-decision-timing-xrp-details"
+      },
+      {
+        "text": "Acquired <strong>Hidden Road for $1.25B</strong> (Ripple Prime) and Rail for $200M",
+        "url": "https://coinpedia.org/news/ripple-news-will-ripples-100-billion-xrp-holdings-impact-its-future-ipo/"
+      },
+      {
+        "text": "Multiple <strong>spot XRP ETFs approved</strong> following SEC settlement",
+        "url": "https://tangem.com/en/blog/post/ripple-xrp-blockchain/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Brad Garlinghouse",
+        "role": "CEO",
+        "photo": "https://cdn.theorg.com/4dc97327-124b-4913-88d6-de309f1743d7_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/bradgarlinghouse/"
+      },
+      {
+        "name": "Monica Long",
+        "role": "President",
+        "photo": "https://cdn.theorg.com/e4882e53-30bf-4460-b27c-545f173d0667_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/monicalong/"
+      },
+      {
+        "name": "David Schwartz",
+        "role": "CTO",
+        "photo": "https://cdn.theorg.com/539edc0e-1857-406d-8eef-5d26dc54f7e3_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/joelkatz/"
+      },
+      {
+        "name": "Jon Bilich",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/98a85221-5606-445e-86a4-5de30a32f484_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jonbilich/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Fortress Investment Group",
+        "url": "https://www.fortress.com/"
+      },
+      {
+        "name": "Citadel Securities",
+        "url": "https://www.citadelsecurities.com/"
+      },
+      {
+        "name": "Pantera Capital",
+        "url": "https://panteracapital.com/"
+      },
+      {
+        "name": "Galaxy Digital",
+        "url": "https://www.galaxydigital.io/"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "Google Ventures",
+        "url": "https://www.gv.com/"
+      },
+      {
+        "name": "IDG Capital",
+        "url": "https://www.idgcapital.com/"
+      },
+      {
+        "name": "SBI Holdings",
+        "url": "https://www.sbigroup.co.jp/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Nov 2025",
+        "amount": "$500M",
+        "round": "Series ?",
+        "valuation": "$40B",
+        "investors_html": "<a href=\"https://www.fortress.com/\" target=\"_blank\" rel=\"noopener\">Fortress</a>, <a href=\"https://www.citadelsecurities.com/\" target=\"_blank\" rel=\"noopener\">Citadel Securities</a>, <a href=\"https://panteracapital.com/\" target=\"_blank\" rel=\"noopener\">Pantera</a>, <a href=\"https://www.galaxydigital.io/\" target=\"_blank\" rel=\"noopener\">Galaxy Digital</a>"
+      },
+      {
+        "date": "Jun 2025",
+        "amount": "$700M",
+        "round": "Buyback",
+        "valuation": "$25B",
+        "investors_html": "Share buyback at $175/share"
+      },
+      {
+        "date": "2019",
+        "amount": "$200M",
+        "round": "Series C",
+        "valuation": "$10B",
+        "investors_html": "<a href=\"https://www.tetragon.com/\" target=\"_blank\" rel=\"noopener\">Tetragon</a>, <a href=\"https://www.sbigroup.co.jp/\" target=\"_blank\" rel=\"noopener\">SBI Holdings</a>, <a href=\"https://www.route66ventures.com/\" target=\"_blank\" rel=\"noopener\">Route 66 Ventures</a>"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Ripple Labs, Inc.",
+      "website": "https://ripple.com",
+      "website_display": "ripple.com",
+      "founded": "2012",
+      "headcount": "750+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/Ripple",
+      "linkedin": "https://www.linkedin.com/company/ripple-labs"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "+60% from Jun 25",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$10B",
+              "height": 43
+            },
+            {
+              "label": "Early 24",
+              "value": "$11.3B",
+              "height": 48
+            },
+            {
+              "label": "Jun 25",
+              "value": "$25B",
+              "height": 106
+            },
+            {
+              "label": "Nov 25",
+              "value": "$40B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "RLUSD Market Cap, $M",
+          "badge_text": "10x in 11 months",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Dec 24",
+              "value": "$100M",
+              "height": 17
+            },
+            {
+              "label": "Mar 25",
+              "value": "$300M",
+              "height": 51
+            },
+            {
+              "label": "Jun 25",
+              "value": "$600M",
+              "height": 102
+            },
+            {
+              "label": "Nov 25",
+              "value": "$1B+",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "RIPPLING": {
+    "ticker": "RIPPLING",
+    "name": "Rippling",
+    "logo": "https://logo.clearbit.com/rippling.com",
+    "tagline": "Unifying HR, IT, and finance in one platform to manage the complete employee lifecycle",
+    "tags": [
+      "HR Tech",
+      "SaaS",
+      "Enterprise",
+      "Workforce Management",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$16.8B"
+      },
+      {
+        "label": "ARR",
+        "value": "$350M+"
+      },
+      {
+        "label": "Customers",
+        "value": "20,000+"
+      },
+      {
+        "label": "Employees",
+        "value": "4,000+"
+      }
+    ],
+    "overview": "Rippling is a unified workforce management platform founded in 2016 by Parker Conrad (former Zenefits CEO). The company provides HR, IT, and finance tools in a single platform, managing everything from onboarding to payroll to device management. In May 2025, Rippling raised $450M at $16.8B valuation (up from $13.5B in April 2024), with $200M allocated for employee share buybacks. Revenue is growing 30%+ annually with $350M+ ARR. Conrad's net worth reached $2.3B. Y Combinator is among Rippling's customers.",
+    "products": [
+      {
+        "name": "Rippling HR Cloud",
+        "description": "HRIS, payroll, benefits, and compliance",
+        "url": "https://www.rippling.com/hr-cloud"
+      },
+      {
+        "name": "Rippling IT Cloud",
+        "description": "Device management, app provisioning, and security",
+        "url": "https://www.rippling.com/it-cloud"
+      },
+      {
+        "name": "Rippling Finance Cloud",
+        "description": "Corporate cards, expense management, and bill pay",
+        "url": "https://www.rippling.com/finance-cloud"
+      },
+      {
+        "name": "Rippling Unity",
+        "description": "Unified employee data platform",
+        "url": "https://www.rippling.com/unity"
+      },
+      {
+        "name": "Rippling Workflow Automator",
+        "description": "No-code HR and IT automation",
+        "url": "https://www.rippling.com/workflow-automator"
+      },
+      {
+        "name": "Global Payroll",
+        "description": "Payroll in 50+ countries",
+        "url": "https://www.rippling.com/global-payroll"
+      }
+    ],
+    "highlights_title": "Latest news on Rippling",
+    "highlights": [
+      {
+        "text": "Raised <strong>$450M at $16.8B</strong> valuation (May 2025)",
+        "url": "https://www.cnbc.com/2025/05/09/rippling-valued-at-16point8-billion-in-450-million-funding-round.html",
+        "date": "2025"
+      },
+      {
+        "text": "Previous round: <strong>$200M at $13.5B</strong> (Apr 2024)",
+        "url": "https://siliconangle.com/2024/04/22/hr-software-maker-rippling-closes-200m-round-13-5b-valuation/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>$200M buyback</strong> for employees",
+        "url": "https://techcrunch.com/2025/05/09/rippling-raises-450m-at-a-16-8b-valuation-reveals-yc-is-a-customer/"
+      },
+      {
+        "text": "Revenue growing <strong>30%+ annually</strong>",
+        "url": "https://www.cnbc.com/2025/05/09/rippling-valued-at-16point8-billion-in-450-million-funding-round.html"
+      },
+      {
+        "text": "Parker Conrad's net worth: <strong>$2.3B</strong>",
+        "url": "https://www.caproasia.com/2025/05/12/united-states-hr-it-payment-workforce-management-platform-rippling-founder-ceo-billionaire-parker-conrad-fortune-increases-to-2-3-billion-rippling-raised-450-million-in-series-g-funding-at-1/"
+      },
+      {
+        "text": "<strong>Y Combinator is a customer</strong>",
+        "url": "https://techcrunch.com/2025/05/09/rippling-raises-450m-at-a-16-8b-valuation-reveals-yc-is-a-customer/"
+      },
+      {
+        "text": "<strong>20,000+ customers</strong> worldwide",
+        "url": "https://www.cnbc.com/2025/05/09/rippling-valued-at-16point8-billion-in-450-million-funding-round.html"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Parker Conrad",
+        "role": "Co-founder & CEO",
+        "photo": "https://rippling2.imgix.net/parker-conrad-headshot-updated-2.jpg",
+        "linkedin": "https://www.linkedin.com/in/parkerconrad/"
+      },
+      {
+        "name": "Matt MacInnis",
+        "role": "Chief Operating Officer",
+        "photo": "https://cdn.rippling.com/static/marketing/site-content/2020/06/matt1.png",
+        "linkedin": "https://www.linkedin.com/in/mattmacinnis/"
+      },
+      {
+        "name": "Adam Swiecicki",
+        "role": "Chief Financial Officer",
+        "photo": "https://rippling2.imgix.net/RipplingPortraits_Adam-Swiecicki_0673-square.jpg",
+        "linkedin": "https://www.linkedin.com/in/adamswiecicki/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Kleiner Perkins",
+        "url": "https://www.kleinerperkins.com/"
+      },
+      {
+        "name": "Founders Fund",
+        "url": "https://foundersfund.com/"
+      },
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Greenoaks Capital",
+        "url": "https://www.greenoakscap.com/"
+      },
+      {
+        "name": "Bedrock Capital",
+        "url": "https://www.bedrockcap.com/"
+      },
+      {
+        "name": "Coatue Management",
+        "url": "https://www.coatue.com/"
+      },
+      {
+        "name": "GIC",
+        "url": "https://www.gic.com.sg/"
+      },
+      {
+        "name": "Goldman Sachs",
+        "url": "https://www.goldmansachs.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "May 2025",
+        "amount": "$450M",
+        "round": "Series G",
+        "valuation": "$16.8B",
+        "investors_html": "Elad Gil, Sands Capital, GIC, Goldman Sachs, Baillie Gifford, YC"
+      },
+      {
+        "date": "Apr 2024",
+        "amount": "$200M",
+        "round": "Series F",
+        "valuation": "$13.5B",
+        "investors_html": "Coatue, Greenoaks"
+      },
+      {
+        "date": "Mar 2023",
+        "amount": "$500M",
+        "round": "Series E",
+        "valuation": "$11.25B",
+        "investors_html": "Greenoaks, Sequoia"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Rippling People Center Inc.",
+      "website": "https://www.rippling.com",
+      "website_display": "rippling.com",
+      "founded": "2016",
+      "headcount": "4,000+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/Rippling",
+      "linkedin": "https://www.linkedin.com/company/rippling/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "+49% since 2023",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2023",
+              "value": "$11.25B",
+              "height": 114
+            },
+            {
+              "label": "Apr 24",
+              "value": "$13.5B",
+              "height": 137
+            },
+            {
+              "label": "May 25",
+              "value": "$16.8B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "ARR, $M",
+          "badge_text": "+30% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$175M",
+              "height": 85
+            },
+            {
+              "label": "2023",
+              "value": "$350M",
+              "height": 170
+            },
+            {
+              "label": "2024",
+              "value": "$450M+",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "REMOTE": {
+    "ticker": "REMOTE",
+    "name": "Remote",
+    "logo": "https://logo.clearbit.com/remote.com",
+    "tagline": "Enabling companies to hire, pay, and manage distributed teams across borders with employer of record services",
+    "tags": [
+      "HR Tech",
+      "Global Employment",
+      "EOR",
+      "Netherlands"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$3B"
+      },
+      {
+        "label": "Countries",
+        "value": "170+"
+      },
+      {
+        "label": "Employees",
+        "value": "1,800"
+      },
+      {
+        "label": "Funding",
+        "value": "$506M"
+      }
+    ],
+    "overview": "Remote is a global employment platform founded in 2019 by Job van der Voort and Marcelo Lebre. The company provides Employer of Record (EOR), global payroll, and contractor management services across 170+ countries. Remote raised $300M at $3B valuation in 2022 led by SoftBank Vision Fund 2. The company grew from 50 to 1,800 employees and operates fully remotely. In 2025, Remote launched Remote Recruit (AI-powered talent sourcing with 800M+ candidates) and expanded AI-driven payroll to 100+ countries.",
+    "products": [
+      {
+        "name": "Remote EOR",
+        "description": "Employ workers in 170+ countries",
+        "url": "https://remote.com/employer-of-record"
+      },
+      {
+        "name": "Remote Contractor Management",
+        "description": "Pay contractors compliantly worldwide",
+        "url": "https://remote.com/contractor-management"
+      },
+      {
+        "name": "Remote Payroll",
+        "description": "Global payroll for owned entities",
+        "url": "https://remote.com/global-payroll"
+      },
+      {
+        "name": "Remote HR Management",
+        "description": "Unified HR platform for global teams",
+        "url": "https://remote.com/hr-management"
+      },
+      {
+        "name": "Remote Global Benefits",
+        "description": "Health insurance in multiple countries",
+        "url": "https://remote.com/global-benefits"
+      },
+      {
+        "name": "Remote Talent",
+        "description": "Job board for remote positions",
+        "url": "https://remote.com/jobs"
+      },
+      {
+        "name": "Remote Recruit",
+        "description": "AI talent sourcing (800M+ candidates)",
+        "url": "https://remote.com/recruit"
+      }
+    ],
+    "highlights_title": "Latest news on Remote",
+    "highlights": [
+      {
+        "text": "Partnership with <strong>Gusto</strong> for US SMB global hiring",
+        "url": "https://remote.com/blog/partnerships/remote-gusto"
+      },
+      {
+        "title": "TechCrunch: Remote Recruit Launch",
+        "description": "Remote launches AI-powered talent sourcing with 800M+ candidate database",
+        "url": "https://techcrunch.com/2024/09/12/remote-recruit-ai-sourcing/"
+      },
+      {
+        "text": "<strong>AI-driven payroll</strong> in 100+ countries",
+        "url": "https://remote.com/resources/research/remote-workforce-report"
+      },
+      {
+        "text": "<strong>1,800 employees</strong> in 170+ countries",
+        "url": "https://tracxn.com/d/companies/remote/__G9a_iB-tkLD4i6M27U3GsIb3i0WSL6B872-d51NWz1Y"
+      },
+      {
+        "text": "Acquired <strong>Easop</strong> for equity management",
+        "url": "https://tracxn.com/d/companies/remote/__G9a_iB-tkLD4i6M27U3GsIb3i0WSL6B872-d51NWz1Y"
+      },
+      {
+        "title": "TechCrunch: Remote Global Benefits",
+        "description": "Remote partners with Kota to launch global benefits solution for distributed teams",
+        "url": "https://techcrunch.com/2023/06/08/remote-adds-benefits-tool-for-distributed-teams/"
+      },
+      {
+        "text": "Fastest-growing in <strong>Index Ventures history</strong>",
+        "url": "https://www.saastr.com/lessons-learned-rapidly-scaling-a-team-from-2-to-1100-people-with-remote-ceo-and-co-founder-job-van-der-voort/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Job van der Voort",
+        "role": "CEO & Co-founder",
+        "photo": "https://remote.com/hs-fs/hubfs/Remote%20Website%20-%202025/(Approved)%20Headshots/job-van-der-voort-portrait-about@2x.webp",
+        "linkedin": "https://www.linkedin.com/in/jobvandervoort/"
+      },
+      {
+        "name": "Marcelo Lebre",
+        "role": "President & Co-founder",
+        "photo": "https://remote.com/hs-fs/hubfs/Remote%20Website%20-%202025/(Approved)%20Headshots/marcelo-lebre-portrait-about@2x.webp",
+        "linkedin": "https://www.linkedin.com/in/marcelolebre/"
+      },
+      {
+        "name": "Barbara Matthews",
+        "role": "Chief People Officer",
+        "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHJHvmgDBhbAw/profile-displayphoto-shrink_200_200/0/1695043244693",
+        "linkedin": "https://www.linkedin.com/in/barbaramatthews/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "SoftBank Vision Fund 2",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Accel",
+        "url": "https://www.accel.com/"
+      },
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Index Ventures",
+        "url": "https://www.indexventures.com/"
+      },
+      {
+        "name": "Two Sigma Ventures",
+        "url": "https://www.twosigmaventures.com/"
+      },
+      {
+        "name": "General Catalyst",
+        "url": "https://www.generalcatalyst.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Apr 2022",
+        "amount": "$300M",
+        "round": "Series C",
+        "valuation": "$3B",
+        "investors_html": "SoftBank Vision Fund 2"
+      },
+      {
+        "date": "Jul 2021",
+        "amount": "$150M",
+        "round": "Series B",
+        "valuation": "$1B+",
+        "investors_html": "Accel, Sequoia, Two Sigma"
+      },
+      {
+        "date": "Nov 2020",
+        "amount": "$35M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "Index Ventures, Sequoia, Two Sigma"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Remote Europe Holding B.V.",
+      "website": "https://remote.com",
+      "website_display": "remote.com",
+      "founded": "2019",
+      "headcount": "1,800",
+      "hq": "Amsterdam, Netherlands",
+      "twitter": "https://twitter.com/remote",
+      "linkedin": "https://www.linkedin.com/company/remotecom/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "3x in 2 Years",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$1B",
+              "height": 57
+            },
+            {
+              "label": "2022",
+              "value": "$3B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Employee Growth",
+          "badge_text": "36x in 4 Years",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2020",
+              "value": "50",
+              "height": 5
+            },
+            {
+              "label": "2021",
+              "value": "650",
+              "height": 61
+            },
+            {
+              "label": "2022",
+              "value": "1,100",
+              "height": 104
+            },
+            {
+              "label": "2025",
+              "value": "1,800",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "RETOOL": {
+    "ticker": "RETOOL",
+    "name": "Retool",
+    "logo": "https://logo.clearbit.com/retool.com",
+    "tagline": "Empowering developers to build custom internal tools rapidly using visual components and code",
+    "tags": [
+      "Developer Tools",
+      "Low-Code",
+      "Enterprise",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$3.2B"
+      },
+      {
+        "label": "Revenue ARR",
+        "value": "$120M"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$191M"
+      },
+      {
+        "label": "Founded",
+        "value": "2017"
+      }
+    ],
+    "overview": "Retool is a low-code platform for building internal tools, founded in 2017 by David Hsu (YC alum). The platform allows developers to build custom internal applications 10x faster using drag-and-drop components connected to any database or API. Retool raised $45M Series C2 at $3.2B valuation in 2022, with investors including Sequoia Capital and Stripe founders John and Patrick Collison. ARR reached $120M in October 2025, up from $90M in 2024. Enterprise customers include Amazon, Mercedes-Benz, Progressive, Peloton, and Rakuten. Recent AI launches (AppGen, Agents) introduced new monetization.",
+    "products": [
+      {
+        "name": "Retool Apps",
+        "description": "Drag-and-drop builder for internal web applications",
+        "url": "https://retool.com/products/apps"
+      },
+      {
+        "name": "Retool Workflows",
+        "description": "Backend automation and orchestration platform",
+        "url": "https://retool.com/products/workflows"
+      },
+      {
+        "name": "Retool Mobile",
+        "description": "Build native mobile apps for internal use cases",
+        "url": "https://retool.com/products/mobile"
+      },
+      {
+        "name": "Retool AI",
+        "description": "AI-powered app generation and agents (AppGen, Agents)",
+        "url": "https://retool.com/products/ai"
+      },
+      {
+        "name": "Retool Database",
+        "description": "Built-in PostgreSQL database for internal apps",
+        "url": "https://retool.com/products/database"
+      }
+    ],
+    "highlights_title": "Latest news on Retool",
+    "highlights": [
+      {
+        "text": "<strong>$120M ARR</strong> reached October 2025, up from $90M in 2024",
+        "url": "https://sacra.com/c/retool/",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>AppGen and Agents</strong> AI features launched for automated app generation (2025)",
+        "url": "https://sacra.com/c/retool/",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>$3.2B valuation</strong> from Sequoia, Stripe founders (Jul 2022)",
+        "url": "https://techcrunch.com/2022/07/28/retool-raises-45m-at-a-3-2b-valuation-to-make-building-custom-software-as-easy-as-buying-off-the-shelf/",
+        "date": "2022"
+      },
+      {
+        "text": "<strong>Amazon, Mercedes-Benz, Peloton</strong> among enterprise customers",
+        "url": "https://retool.com/customers"
+      },
+      {
+        "title": "Tracxn: Retool Growth Analysis",
+        "description": "Retool reaches 471 employees building low-code internal tools platform",
+        "url": "https://tracxn.com/d/companies/retool/__3Qw2mDrisfHcLzB8sG6xEXwD7lueXw7kuVlus34H2KY"
+      },
+      {
+        "title": "Contrary Research: Business Breakdown",
+        "description": "Deep dive into Retool's internal tools market opportunity and enterprise adoption",
+        "url": "https://research.contrary.com/company/retool"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "David Hsu",
+        "role": "Founder & CEO",
+        "photo": "https://cdn.theorg.com/8bd6e897-fece-4c9d-bf21-be16c9792234_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/davidhu/"
+      },
+      {
+        "name": "Ghazi Masood",
+        "role": "Chief Revenue Officer",
+        "photo": "https://cdn.theorg.com/534f82c1-a55e-4105-af43-a74d66bd2b8b_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ghazimasood/"
+      },
+      {
+        "name": "Adrian Kaplan",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/5a751054-7344-4474-97b3-1c67cbecdd13_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/adriankaplan/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "John Collison (Stripe)",
+        "url": "https://www.linkedin.com/in/johncollison/"
+      },
+      {
+        "name": "Patrick Collison (Stripe)",
+        "url": "https://www.linkedin.com/in/patrickc/"
+      },
+      {
+        "name": "Elad Gil",
+        "url": "https://eladgil.com/"
+      },
+      {
+        "name": "Nat Friedman (ex-GitHub CEO)",
+        "url": "https://nat.org/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jul 2022",
+        "amount": "$45M",
+        "round": "Series C2",
+        "valuation": "$3.2B",
+        "investors_html": "Sequoia Capital, Stripe founders, Elad Gil"
+      },
+      {
+        "date": "Dec 2021",
+        "amount": "$20M",
+        "round": "Series C",
+        "valuation": "$1.85B",
+        "investors_html": "Sequoia Capital"
+      },
+      {
+        "date": "Oct 2020",
+        "amount": "$50M",
+        "round": "Series B",
+        "valuation": "$925M",
+        "investors_html": "Sequoia Capital, Daniel Gross"
+      },
+      {
+        "date": "Oct 2019",
+        "amount": "$20.8M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "Sequoia Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Retool Inc.",
+      "website": "https://retool.com",
+      "website_display": "retool.com",
+      "founded": "2017",
+      "headcount": "471",
+      "hq": "San Francisco, CA",
+      "twitter": "https://twitter.com/retool",
+      "linkedin": "https://www.linkedin.com/company/retool/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "ARR, $M",
+          "badge_text": "AI Growth",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$45M",
+              "height": 64
+            },
+            {
+              "label": "2023",
+              "value": "$93M",
+              "height": 132
+            },
+            {
+              "label": "2024",
+              "value": "$90M",
+              "height": 128
+            },
+            {
+              "label": "2025",
+              "value": "$120M",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Valuation, $B",
+          "badge_text": "$3.2B",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2020",
+              "value": "$0.93B",
+              "height": 49
+            },
+            {
+              "label": "2021",
+              "value": "$1.85B",
+              "height": 98
+            },
+            {
+              "label": "2022",
+              "value": "$3.2B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "RAD-POWER-BIKES": {
+    "ticker": "RAD-POWER-BIKES",
+    "name": "RAD POWER BIKES",
+    "logo": "/assets/logos/Rad_Power_Bikes.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAD POWER BIKES is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAD POWER BIKES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAD POWER BIKES",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAD POWER BIKES",
+      "website": "https://radpowerbikes.com",
+      "website_display": "radpowerbikes.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RADIOLOGY-PARTNERS": {
+    "ticker": "RADIOLOGY-PARTNERS",
+    "name": "RADIOLOGY PARTNERS",
+    "logo": "/assets/logos/Radiology_Partners.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RADIOLOGY PARTNERS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RADIOLOGY PARTNERS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RADIOLOGY PARTNERS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RADIOLOGY PARTNERS",
+      "website": "https://radiologypartners.com",
+      "website_display": "radiologypartners.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RADIUS-PAYMENT-SOLUTIONS": {
+    "ticker": "RADIUS-PAYMENT-SOLUTIONS",
+    "name": "RADIUS PAYMENT SOLUTIONS",
+    "logo": "/assets/logos/Radius_Payment_Solutions.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RADIUS PAYMENT SOLUTIONS is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RADIUS PAYMENT SOLUTIONS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RADIUS PAYMENT SOLUTIONS",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RADIUS PAYMENT SOLUTIONS",
+      "website": "https://radiuspaymentsolutions.com",
+      "website_display": "radiuspaymentsolutions.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAISIN": {
+    "ticker": "RAISIN",
+    "name": "RAISIN",
+    "logo": "/assets/logos/Raisin.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAISIN is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAISIN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAISIN",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAISIN",
+      "website": "https://raisin.com",
+      "website_display": "raisin.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAKUTEN-SECURITIES": {
+    "ticker": "RAKUTEN-SECURITIES",
+    "name": "RAKUTEN SECURITIES",
+    "logo": "/assets/logos/Rakuten_Securities.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAKUTEN SECURITIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAKUTEN SECURITIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAKUTEN SECURITIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAKUTEN SECURITIES",
+      "website": "https://rakutensecurities.com",
+      "website_display": "rakutensecurities.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAMP": {
+    "ticker": "RAMP",
+    "name": "Ramp",
+    "logo": "/assets/logos/Ramp.jpeg",
+    "tagline": "AI-powered financial operations platform transforming corporate spend management and saving businesses time and money",
+    "tags": [
+      "Corporate Cards",
+      "Expense Management",
+      "AI Automation",
+      "Bill Pay",
+      "Procurement"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Nov 2025",
+        "value": "$32B"
+      },
+      {
+        "label": "Annualized Revenue",
+        "value": "$1B+"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$2.3B"
+      },
+      {
+        "label": "Customers",
+        "value": "50,000+"
+      }
+    ],
+    "overview": "Ramp is a leading financial operations platform founded in March 2019 by Eric Glyman, Karim Atiyeh, and Gene Lee. Headquartered in New York City, Ramp has revolutionized corporate spend management through its AI-powered platform that combines corporate cards, expense management, bill payments, procurement, and automated bookkeeping. The company's mission is to help businesses save time and money by automating financial operations and providing intelligent insights. As of November 2025, Ramp has achieved a valuation of $32 billion following a $300 million funding round, marking a remarkable 146% increase from its July 2025 valuation of $22.5 billion. With over 50,000 customers and processing more than $100 billion in annual purchases, Ramp has become one of the fastest-growing fintechs in the United States, challenging incumbents like American Express and SAP Concur.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Ramp main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Ramp",
+    "highlights": [
+      {
+        "text": "Ramp continues to grow and expand",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Corporate Cards: Up to 1.5% cashback with intelligent spend controls and no fees.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Ramp",
+      "website": "https://ramp.com",
+      "website_display": "ramp.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAPIDO": {
+    "ticker": "RAPIDO",
+    "name": "RAPIDO",
+    "logo": "/assets/logos/Rapido.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAPIDO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAPIDO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAPIDO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAPIDO",
+      "website": "https://rapido.com",
+      "website_display": "rapido.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAPPI": {
+    "ticker": "RAPPI",
+    "name": "RAPPI",
+    "logo": "/assets/logos/Rappi.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAPPI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAPPI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAPPI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAPPI",
+      "website": "https://rappi.com",
+      "website_display": "rappi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAPYD": {
+    "ticker": "RAPYD",
+    "name": "RAPYD",
+    "logo": "/assets/logos/Rapyd.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAPYD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAPYD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAPYD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAPYD",
+      "website": "https://rapyd.com",
+      "website_display": "rapyd.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAZOR-GROUP": {
+    "ticker": "RAZOR-GROUP",
+    "name": "RAZOR GROUP",
+    "logo": "/assets/logos/Razor_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAZOR GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAZOR GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAZOR GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAZOR GROUP",
+      "website": "https://razorgroup.com",
+      "website_display": "razorgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RAZORPAY": {
+    "ticker": "RAZORPAY",
+    "name": "RAZORPAY",
+    "logo": "/assets/logos/Razorpay.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RAZORPAY is a fintech company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RAZORPAY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RAZORPAY",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RAZORPAY",
+      "website": "https://razorpay.com",
+      "website_display": "razorpay.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REBEL-FOODS": {
+    "ticker": "REBEL-FOODS",
+    "name": "REBEL FOODS",
+    "logo": "/assets/logos/Rebel_Foods.jpeg",
+    "tagline": "Revolutionizing food delivery and dining",
+    "tags": [
+      "FoodTech",
+      "Delivery",
+      "Restaurant Tech",
+      "Food Innovation",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Food"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REBEL FOODS is a food company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REBEL FOODS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REBEL FOODS",
+    "highlights": [
+      {
+        "text": "Leading food company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REBEL FOODS",
+      "website": "https://rebelfoods.com",
+      "website_display": "rebelfoods.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REBELLION-DEFENSE": {
+    "ticker": "REBELLION-DEFENSE",
+    "name": "REBELLION DEFENSE",
+    "logo": "/assets/logos/Rebellion_Defense.png",
+    "tagline": "Cybersecurity solutions protecting digital assets",
+    "tags": [
+      "Cybersecurity",
+      "Security",
+      "Data Protection",
+      "Enterprise Security",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Security"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REBELLION DEFENSE is a security company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REBELLION DEFENSE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REBELLION DEFENSE",
+    "highlights": [
+      {
+        "text": "Leading security company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REBELLION DEFENSE",
+      "website": "https://rebelliondefense.com",
+      "website_display": "rebelliondefense.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REBELLIONS": {
+    "ticker": "REBELLIONS",
+    "name": "REBELLIONS",
+    "logo": "/assets/logos/fm0kkmmcqbc6qaj6iaej",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REBELLIONS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REBELLIONS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REBELLIONS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REBELLIONS",
+      "website": "https://rebellions.com",
+      "website_display": "rebellions.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REC-ROOM": {
+    "ticker": "REC-ROOM",
+    "name": "REC ROOM",
+    "logo": "/assets/logos/Rec_Room.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REC ROOM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REC ROOM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REC ROOM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REC ROOM",
+      "website": "https://recroom.com",
+      "website_display": "recroom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RECHARGE": {
+    "ticker": "RECHARGE",
+    "name": "RECHARGE",
+    "logo": "/assets/logos/Recharge.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RECHARGE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RECHARGE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RECHARGE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RECHARGE",
+      "website": "https://recharge.com",
+      "website_display": "recharge.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RECOVER": {
+    "ticker": "RECOVER",
+    "name": "RECOVER",
+    "logo": "/assets/logos/Recover.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RECOVER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RECOVER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RECOVER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RECOVER",
+      "website": "https://recover.com",
+      "website_display": "recover.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RED-VENTURES": {
+    "ticker": "RED-VENTURES",
+    "name": "RED VENTURES",
+    "logo": "/assets/logos/Red_Ventures.jpg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RED VENTURES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RED VENTURES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RED VENTURES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RED VENTURES",
+      "website": "https://redventures.com",
+      "website_display": "redventures.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REDESIGN-HEALTH": {
+    "ticker": "REDESIGN-HEALTH",
+    "name": "REDESIGN HEALTH",
+    "logo": "/assets/logos/Redesign_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REDESIGN HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REDESIGN HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REDESIGN HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REDESIGN HEALTH",
+      "website": "https://redesignhealth.com",
+      "website_display": "redesignhealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REDIS": {
+    "ticker": "REDIS",
+    "name": "REDIS",
+    "logo": "/assets/logos/Redis.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REDIS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REDIS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REDIS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REDIS",
+      "website": "https://redis.com",
+      "website_display": "redis.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REDPANDA-DATA": {
+    "ticker": "REDPANDA-DATA",
+    "name": "REDPANDA DATA",
+    "logo": "/assets/logos/Redpanda_Data.png",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REDPANDA DATA is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REDPANDA DATA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REDPANDA DATA",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REDPANDA DATA",
+      "website": "https://redpandadata.com",
+      "website_display": "redpandadata.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REDWOOD-MATERIALS": {
+    "ticker": "REDWOOD-MATERIALS",
+    "name": "Redwood Materials",
+    "logo": "/assets/logos/Redwood_Materials.jpeg",
+    "tagline": "Creating a circular supply chain for electric vehicles and clean energy",
+    "tags": [
+      "Battery Recycling",
+      "Sustainable Materials",
+      "Circular Economy",
+      "EV Supply Chain"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Battery Recycling"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      },
+      {
+        "label": "Founded",
+        "value": "N/A"
+      }
+    ],
+    "overview": "Redwood Materials is an innovative company focused on delivering cutting-edge solutions to its customers.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Redwood Materials main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Redwood Materials",
+    "highlights": [
+      {
+        "text": "T. Rowe Price",
+        "url": ""
+      },
+      {
+        "text": "Goldman Sachs Asset Management",
+        "url": ""
+      },
+      {
+        "text": "Capricorn Investment Group",
+        "url": ""
+      },
+      {
+        "text": "Microsoft Climate Innovation Fund",
+        "url": ""
+      },
+      {
+        "text": "Fidelity Investments",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Redwood Materials",
+      "website": "https://redwoodmaterials.com",
+      "website_display": "redwoodmaterials.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REEF": {
+    "ticker": "REEF",
+    "name": "REEF",
+    "logo": "/assets/logos/REEF.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REEF is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REEF main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REEF",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REEF",
+      "website": "https://reef.com",
+      "website_display": "reef.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REIFY-HEALTH": {
+    "ticker": "REIFY-HEALTH",
+    "name": "REIFY HEALTH",
+    "logo": "/assets/logos/Reify_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REIFY HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REIFY HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REIFY HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REIFY HEALTH",
+      "website": "https://reifyhealth.com",
+      "website_display": "reifyhealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REKA-AI": {
+    "ticker": "REKA-AI",
+    "name": "REKA AI",
+    "logo": "/assets/logos/Reka_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REKA AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REKA AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REKA AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REKA AI",
+      "website": "https://rekaai.com",
+      "website_display": "rekaai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELATIVITY": {
+    "ticker": "RELATIVITY",
+    "name": "RELATIVITY",
+    "logo": "/assets/logos/Relativity.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RELATIVITY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RELATIVITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RELATIVITY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RELATIVITY",
+      "website": "https://relativity.com",
+      "website_display": "relativity.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELATIVITY-SPACE": {
+    "ticker": "RELATIVITY-SPACE",
+    "name": "RELATIVITY SPACE",
+    "logo": "/assets/logos/Relativity_Space.jpeg",
+    "tagline": "Advancing aerospace and space technology",
+    "tags": [
+      "Aerospace",
+      "Space Technology",
+      "Aviation",
+      "Advanced Engineering",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Aerospace"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RELATIVITY SPACE is a aerospace company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RELATIVITY SPACE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RELATIVITY SPACE",
+    "highlights": [
+      {
+        "text": "Leading aerospace company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RELATIVITY SPACE",
+      "website": "https://relativityspace.com",
+      "website_display": "relativityspace.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELEX-SOLUTIONS": {
+    "ticker": "RELEX-SOLUTIONS",
+    "name": "RELEX SOLUTIONS",
+    "logo": "/assets/logos/RELEX_Solutions.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RELEX SOLUTIONS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RELEX SOLUTIONS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RELEX SOLUTIONS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RELEX SOLUTIONS",
+      "website": "https://relexsolutions.com",
+      "website_display": "relexsolutions.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELIANCE-JIO": {
+    "ticker": "RELIANCE-JIO",
+    "name": "Reliance Jio",
+    "logo": "https://logo.clearbit.com/jio.com",
+    "tagline": "India's largest telecom operator powering digital transformation with 5G, fiber, and digital services",
+    "tags": [
+      "Telecommunications",
+      "5G",
+      "Digital Services",
+      "India"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$112B+"
+      },
+      {
+        "label": "Revenue (FY24)",
+        "value": "$12B+"
+      },
+      {
+        "label": "Total Subscribers",
+        "value": "506M+"
+      },
+      {
+        "label": "5G Subscribers",
+        "value": "170M"
+      }
+    ],
+    "overview": "Reliance Jio Infocomm Limited is India's largest mobile network operator and the third-largest globally with over 506 million subscribers. A subsidiary of Reliance Industries, Jio revolutionized India's digital landscape by launching with free 4G services in 2016, sparking a data consumption revolution. Today, Jio operates the world's largest 5G network outside China with 170 million 5G subscribers, and offers integrated digital services spanning connectivity, entertainment, payments, and enterprise solutions across 190+ countries.",
+    "products": [
+      {
+        "name": "Jio 5G",
+        "description": "Ultra-fast 5G network covering major Indian cities with True 5G standalone architecture",
+        "url": "#"
+      },
+      {
+        "name": "JioFiber",
+        "description": "High-speed fiber-to-the-home broadband with speeds up to 1 Gbps",
+        "url": "#"
+      },
+      {
+        "name": "JioTV",
+        "description": "Streaming platform with 800+ live TV channels and OTT content",
+        "url": "#"
+      },
+      {
+        "name": "JioMart",
+        "description": "E-commerce platform integrated with WhatsApp for grocery and retail",
+        "url": "#"
+      },
+      {
+        "name": "JioCloud",
+        "description": "Cloud storage and enterprise cloud computing services",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Reliance Jio",
+    "highlights": [
+      {
+        "title": "Reuters: 5G Leadership",
+        "description": "Reliance Jio reaches 170 million 5G subscribers, largest 5G base outside China",
+        "url": "https://www.reuters.com/technology/indias-reliance-jio-reaches-170-million-5g-subscribers-2024-01-19/"
+      },
+      {
+        "title": "Economic Times: 5G Traffic",
+        "description": "Jio 5G traffic accounts for 40% of total wireless data consumption in India",
+        "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/jio-5g-traffic-accounts-for-40-of-total-wireless-data-consumption/"
+      },
+      {
+        "title": "TechCrunch: Q3 Growth",
+        "description": "Jio adds 22 million 5G subscribers in Q3 FY25 alone, net profit surges 26% YoY",
+        "url": "https://techcrunch.com/2024/01/19/reliance-jio-q3-fy25-results/"
+      },
+      {
+        "title": "Forbes: Jio Investment",
+        "description": "Meta and Google invest billions in Jio Platforms stake",
+        "url": "https://www.forbes.com/sites/meghabahree/2020/06/05/what-you-need-to-know-about-jio-platforms/"
+      },
+      {
+        "title": "Bloomberg: Jio Valuation",
+        "description": "Jio Platforms valued at over $100B after string of major investments",
+        "url": "https://www.bloomberg.com/news/articles/2020-07-15/jio-platforms-attracts-20-billion-in-months-how-ambani-did-it"
+      },
+      {
+        "title": "Tracxn: Company Profile",
+        "description": "Reliance Jio 2025 company profile, team, and funding analysis",
+        "url": "https://tracxn.com/d/companies/reliance-jio-infocomm/__5xGlQyOhEOhDIFmwxBSl0TqfLk1nJoZj7XBmVqHvmzA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mukesh Ambani",
+        "role": "Chairman, Reliance Industries",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mukesh_Ambani.jpg/220px-Mukesh_Ambani.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Akash Ambani",
+        "role": "Chairman, Reliance Jio",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Akash_Ambani.jpg/220px-Akash_Ambani.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Kiran Thomas",
+        "role": "CEO, Reliance Jio",
+        "photo": "https://ui-avatars.com/api/?name=Kiran+Thomas&background=0A64BC&color=fff",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Meta (Facebook)",
+        "url": "https://about.meta.com/"
+      },
+      {
+        "name": "Google",
+        "url": "https://about.google/"
+      },
+      {
+        "name": "General Atlantic",
+        "url": "https://www.generalatlantic.com/"
+      },
+      {
+        "name": "KKR",
+        "url": "https://www.kkr.com/"
+      },
+      {
+        "name": "Silver Lake",
+        "url": "https://www.silverlake.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round": "Investment",
+        "date": "July 2020",
+        "amount": "$4.5B",
+        "investors": "Google"
+      },
+      {
+        "round": "Investment",
+        "date": "June 2020",
+        "amount": "$5.7B",
+        "investors": "Meta (Facebook)"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Reliance Jio Infocomm Limited",
+      "website": "https://reliancejio.com",
+      "website_display": "reliancejio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELIANCE-RETAIL": {
+    "ticker": "RELIANCE-RETAIL",
+    "name": "Reliance Retail",
+    "logo": "/assets/logos/Reliance_Retail.jpeg",
+    "tagline": "India's largest, fastest-growing and most profitable retailer with 19,340+ stores across 7,000+ towns, serving 349M+ customers",
+    "tags": [
+      "Retail",
+      "E-Commerce",
+      "Consumer Goods",
+      "India"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$143B"
+      },
+      {
+        "label": "Revenue (FY25)",
+        "value": "$38.7B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$9.8B"
+      },
+      {
+        "label": "Store Count",
+        "value": "19,340+"
+      }
+    ],
+    "overview": "Reliance Retail Ventures Limited is India's largest and most profitable retailer, a subsidiary of Reliance Industries Limited. Founded in 2006, the company operates across consumer electronics (Reliance Digital), fashion (AJIO, Trends), grocery (JioMart, Smart Bazaar, Freshpik, 7-Eleven), beauty (Tira), toys (Hamleys), and specialty formats. In FY25, Reliance Retail posted revenues of ₹3.31 lakh crore ($38.7B), up 8% YoY, with EBITDA of ₹25,094 crore ($2.9B). With 19,340+ stores spanning 7,000+ towns and a registered customer base of 349 million, Reliance Retail is ranked 40th in Deloitte's Global Powers of Retailing—the only Indian retailer in the Top 100. JP Morgan valued the company at $143 billion in September 2024. The company has raised $9.8B from global investors including Silver Lake, KKR, General Atlantic, Qatar Investment Authority, and Saudi Arabia's PIF.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Reliance Retail main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Reliance Retail",
+    "highlights": [
+      {
+        "text": "Reliance Retail continues to grow and expand",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Isha Ambani",
+        "role": "Executive Director, RRVL",
+        "photo": "/assets/leadership/reliance-isha-ambani.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "V. Subramaniam",
+        "role": "Managing Director, RRVL",
+        "photo": "https://ui-avatars.com/api/?name=V+Subramaniam&background=0A64BC&color=fff",
+        "linkedin": "#"
+      },
+      {
+        "name": "Akhilesh Prasad",
+        "role": "CEO, Fashion & Lifestyle",
+        "photo": "https://ui-avatars.com/api/?name=Akhilesh+Prasad&background=0A64BC&color=fff",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Qatar Investment Authority",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Reliance Retail",
+      "website": "https://relianceretail.com",
+      "website_display": "relianceretail.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELIAQUEST": {
+    "ticker": "RELIAQUEST",
+    "name": "RELIAQUEST",
+    "logo": "/assets/logos/ReliaQuest.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RELIAQUEST is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RELIAQUEST main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RELIAQUEST",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RELIAQUEST",
+      "website": "https://reliaquest.com",
+      "website_display": "reliaquest.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RELTIO": {
+    "ticker": "RELTIO",
+    "name": "RELTIO",
+    "logo": "/assets/logos/Reltio.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RELTIO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RELTIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RELTIO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RELTIO",
+      "website": "https://reltio.com",
+      "website_display": "reltio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REMARKABLE": {
+    "ticker": "REMARKABLE",
+    "name": "REMARKABLE",
+    "logo": "/assets/logos/reMarkable.jpg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REMARKABLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REMARKABLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REMARKABLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REMARKABLE",
+      "website": "https://remarkable.com",
+      "website_display": "remarkable.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RENTBERRY": {
+    "ticker": "RENTBERRY",
+    "name": "RENTBERRY",
+    "logo": "/assets/logos/Rentberry.png",
+    "tagline": "PropTech solutions for real estate industry",
+    "tags": [
+      "PropTech",
+      "Real Estate",
+      "Property Technology",
+      "Housing",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RENTBERRY is a real estate company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RENTBERRY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RENTBERRY",
+    "highlights": [
+      {
+        "text": "Leading real estate company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RENTBERRY",
+      "website": "https://rentberry.com",
+      "website_display": "rentberry.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REPLIT": {
+    "ticker": "REPLIT",
+    "name": "Replit",
+    "logo": "/assets/logos/Replit.jpeg",
+    "tagline": "AI-powered platform enabling anyone to build software through natural language",
+    "tags": [
+      "AI Coding",
+      "Vibe Coding",
+      "Replit Agent",
+      "Cloud IDE",
+      "No-Code Development"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Sep 2025",
+        "value": "$3B"
+      },
+      {
+        "label": "Run-rate revenue Aug 2025",
+        "value": "$150M"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$478M"
+      },
+      {
+        "label": "Monthly Active Users",
+        "value": "30M+"
+      }
+    ],
+    "overview": "Replit is an AI-powered software creation platform founded in 2016 by Amjad Masad, Haya Odeh, and Faris Masad. It revolutionizes software development by enabling anyone to build applications using natural language through its flagship Replit Agent. As of September 2025, Replit has achieved a $3 billion valuation following its $250 million funding round. The company serves over 30 million users globally and generates $150 million in annual recurring revenue, having grown 10x from $10M to $100M ARR in just 5.5 months between late 2024 and mid-2025.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Replit main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Replit",
+    "highlights": [
+      {
+        "text": "Replit continues to grow and expand",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Replit Agent: Build complete apps from natural language prompts with AI automation.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Replit",
+      "website": "https://replit.com",
+      "website_display": "replit.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RESILIENCE": {
+    "ticker": "RESILIENCE",
+    "name": "RESILIENCE",
+    "logo": "/assets/logos/Resilience.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RESILIENCE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RESILIENCE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RESILIENCE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RESILIENCE",
+      "website": "https://resilience.com",
+      "website_display": "resilience.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RESTAURANT365": {
+    "ticker": "RESTAURANT365",
+    "name": "RESTAURANT365",
+    "logo": "/assets/logos/Restaurant365.jpeg",
+    "tagline": "Revolutionizing food delivery and dining",
+    "tags": [
+      "FoodTech",
+      "Delivery",
+      "Restaurant Tech",
+      "Food Innovation",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Food"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RESTAURANT365 is a food company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RESTAURANT365 main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RESTAURANT365",
+    "highlights": [
+      {
+        "text": "Leading food company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RESTAURANT365",
+      "website": "https://restaurant365.com",
+      "website_display": "restaurant365.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REVOLUT": {
+    "ticker": "REVOLUT",
+    "name": "Revolut",
+    "logo": "/assets/logos/Revolut.jpeg",
+    "tagline": "Global fintech leader providing digital banking, payments, and financial services to 65M+ customers worldwide",
+    "tags": [
+      "Digital Banking",
+      "Multi-Currency",
+      "Crypto Trading",
+      "Global Payments",
+      "AI Assistant"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Nov 2025",
+        "value": "$75B"
+      },
+      {
+        "label": "2024 Revenue",
+        "value": "$4B"
+      },
+      {
+        "label": "2024 Profit Before Tax",
+        "value": "$1.4B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$2.89B"
+      }
+    ],
+    "overview": "Revolut is a global financial technology company founded in July 2015 by Nikolay Storonsky and Vlad Yatsenko in London. The company started as a digital-first alternative to traditional banking, initially offering a prepaid card and multi-currency exchange at interbank rates. Today, Revolut has evolved into a comprehensive financial super-app serving over 65 million customers across 48+ countries. As of November 2025, the company achieved a valuation of $75 billion, making it Europe's most valuable private technology company. Revolut offers a full suite of banking services including multi-currency accounts supporting 120+ currencies, debit and credit cards, stock trading, cryptocurrency exchange, insurance, peer-to-peer payments, and business banking solutions. The company reported remarkable financial performance in 2024 with $4 billion in revenue (up 72% year-over-year) and $1.4 billion in profit before tax (up 149%). With banking licenses secured in multiple jurisdictions including the UK, EU, Mexico, Colombia, and India, Revolut is pursuing its ambitious vision to become the world's first truly global bank serving 100 million customers across 100 countries by 2027.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Revolut main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Revolut",
+    "highlights": [
+      {
+        "text": "NVentures (NVIDIA)",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Digital Banking: Multi-currency accounts, debit/credit cards in 48+ countries",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Revolut",
+      "website": "https://revolut.com",
+      "website_display": "revolut.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "REVOLUTION-PRECRAFTED": {
+    "ticker": "REVOLUTION-PRECRAFTED",
+    "name": "REVOLUTION PRECRAFTED",
+    "logo": "/assets/logos/Revolution_Precrafted.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United Kingdom"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "REVOLUTION PRECRAFTED is a technology company focused on innovation and growth. The company operates in the United Kingdom market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "REVOLUTION PRECRAFTED main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on REVOLUTION PRECRAFTED",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United Kingdom",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "REVOLUTION PRECRAFTED",
+      "website": "https://revolutionprecrafted.com",
+      "website_display": "revolutionprecrafted.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RIDI": {
+    "ticker": "RIDI",
+    "name": "RIDI",
+    "logo": "/assets/logos/RIDI.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RIDI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RIDI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RIDI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RIDI",
+      "website": "https://ridi.com",
+      "website_display": "ridi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RIGHTWAY": {
+    "ticker": "RIGHTWAY",
+    "name": "RIGHTWAY",
+    "logo": "/assets/logos/Rightway.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RIGHTWAY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RIGHTWAY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RIGHTWAY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RIGHTWAY",
+      "website": "https://rightway.com",
+      "website_display": "rightway.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RIGUP": {
+    "ticker": "RIGUP",
+    "name": "RIGUP",
+    "logo": "/assets/logos/RigUp.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RIGUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RIGUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RIGUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RIGUP",
+      "website": "https://rigup.com",
+      "website_display": "rigup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RIMAC-GROUP": {
+    "ticker": "RIMAC-GROUP",
+    "name": "RIMAC GROUP",
+    "logo": "/assets/logos/Rimac_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RIMAC GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RIMAC GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RIMAC GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RIMAC GROUP",
+      "website": "https://rimacgroup.com",
+      "website_display": "rimacgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RIVIGO": {
+    "ticker": "RIVIGO",
+    "name": "RIVIGO",
+    "logo": "/assets/logos/Rivigo.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RIVIGO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RIVIGO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RIVIGO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RIVIGO",
+      "website": "https://rivigo.com",
+      "website_display": "rivigo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RO": {
+    "ticker": "RO",
+    "name": "RO",
+    "logo": "/assets/logos/Ro.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RO",
+      "website": "https://ro.com",
+      "website_display": "ro.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROHLIK": {
+    "ticker": "ROHLIK",
+    "name": "ROHLIK",
+    "logo": "/assets/logos/Rohlik.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROHLIK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROHLIK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROHLIK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROHLIK",
+      "website": "https://rohlik.com",
+      "website_display": "rohlik.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROKID": {
+    "ticker": "ROKID",
+    "name": "ROKID",
+    "logo": "/assets/logos/Rokid.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROKID is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROKID main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROKID",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROKID",
+      "website": "https://rokid.com",
+      "website_display": "rokid.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROKT": {
+    "ticker": "ROKT",
+    "name": "ROKT",
+    "logo": "/assets/logos/Rokt.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROKT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROKT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROKT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROKT",
+      "website": "https://rokt.com",
+      "website_display": "rokt.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RONG-SEMICONDUCTOR": {
+    "ticker": "RONG-SEMICONDUCTOR",
+    "name": "RONG SEMICONDUCTOR",
+    "logo": "/assets/logos/Rong_Semiconductor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RONG SEMICONDUCTOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RONG SEMICONDUCTOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RONG SEMICONDUCTOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RONG SEMICONDUCTOR",
+      "website": "https://rongsemiconductor.com",
+      "website_display": "rongsemiconductor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROOFSTOCK": {
+    "ticker": "ROOFSTOCK",
+    "name": "ROOFSTOCK",
+    "logo": "/assets/logos/Roofstock.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROOFSTOCK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROOFSTOCK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROOFSTOCK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROOFSTOCK",
+      "website": "https://roofstock.com",
+      "website_display": "roofstock.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROOTCLOUD": {
+    "ticker": "ROOTCLOUD",
+    "name": "ROOTCLOUD",
+    "logo": "/assets/logos/RootCloud.jpeg",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROOTCLOUD is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROOTCLOUD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROOTCLOUD",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROOTCLOUD",
+      "website": "https://rootcloud.com",
+      "website_display": "rootcloud.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROTHYS": {
+    "ticker": "ROTHYS",
+    "name": "ROTHY'S",
+    "logo": "/assets/logos/Rothys.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROTHY'S is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROTHY'S main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROTHY'S",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROTHY'S",
+      "website": "https://rothys.com",
+      "website_display": "rothys.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROUTE": {
+    "ticker": "ROUTE",
+    "name": "ROUTE",
+    "logo": "/assets/logos/Route.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROUTE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROUTE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROUTE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROUTE",
+      "website": "https://route.com",
+      "website_display": "route.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROX-MOTOR": {
+    "ticker": "ROX-MOTOR",
+    "name": "ROX MOTOR",
+    "logo": "/assets/logos/ROX_Motor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROX MOTOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROX MOTOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROX MOTOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROX MOTOR",
+      "website": "https://roxmotor.com",
+      "website_display": "roxmotor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ROYOLE-CORPORATION": {
+    "ticker": "ROYOLE-CORPORATION",
+    "name": "ROYOLE CORPORATION",
+    "logo": "/assets/logos/Royole_Corporation.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ROYOLE CORPORATION is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ROYOLE CORPORATION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ROYOLE CORPORATION",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ROYOLE CORPORATION",
+      "website": "https://royolecorporation.com",
+      "website_display": "royolecorporation.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RUIPENG-PET-HEALTHCARE": {
+    "ticker": "RUIPENG-PET-HEALTHCARE",
+    "name": "RUIPENG PET HEALTHCARE",
+    "logo": "/assets/logos/Ruipeng_Pet_Healthcare.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RUIPENG PET HEALTHCARE is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RUIPENG PET HEALTHCARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RUIPENG PET HEALTHCARE",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RUIPENG PET HEALTHCARE",
+      "website": "https://ruipengpethealthcare.com",
+      "website_display": "ruipengpethealthcare.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RUNWAY": {
+    "ticker": "RUNWAY",
+    "name": "RUNWAY",
+    "logo": "/assets/logos/Runway.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RUNWAY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RUNWAY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RUNWAY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RUNWAY",
+      "website": "https://runway.com",
+      "website_display": "runway.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "RYEFIELD-ENERGY": {
+    "ticker": "RYEFIELD-ENERGY",
+    "name": "RYEFIELD ENERGY",
+    "logo": "/assets/logos/Ryefield_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "RYEFIELD ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "RYEFIELD ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on RYEFIELD ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "RYEFIELD ENERGY",
+      "website": "https://ryefieldenergy.com",
+      "website_display": "ryefieldenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

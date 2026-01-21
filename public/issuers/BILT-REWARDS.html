@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilt Rewards - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="bilt-rewards-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/iddKiinBCL/idwS9kpLxi.png" alt="Bilt Rewards" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Bilt Rewards</h1>
+                    <p class="company-tagline">The first loyalty program that lets you earn points on rent and build a path toward homeownership</p>
+                    <div class="company-tags"><span class="tag">Fintech</span><span class="tag">Loyalty &amp; Rewards</span><span class="tag">Real Estate</span><span class="tag">Decacorn</span><span class="tag">Consumer Finance</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Bilt Rewards is a fintech company that created the first loyalty program allowing renters to earn points on rent payments. Founded in 2021 by Ankur Jain through his startup studio Kairos, Bilt has transformed how Americans think about their largest monthly expense. Members can earn points on rent and mortgage payments through ACH, debit, or credit card methods, then transfer them 1:1 to 20+ airline and hotel partners including American Airlines, United, Hyatt, and IHG. Bilt reached a $10.8 billion valuation in July 2025 after raising $250 million, becoming one of the fastest-growing fintech companies in history. Revenue grew from $113M in 2023 to $400M+ in Q1 2025, with the company targeting $1 billion by Q1 2026. Ken Chenault, former AmEx CEO, joined as Chairman.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>July 2025</td>
+                <td>Series B</td>
+                <td>$250M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>August 2024</td>
+                <td>Series B Extension</td>
+                <td>$150M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>January 2024</td>
+                <td>Series B</td>
+                <td>$200M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bilt Mastercard</div>
+            <div class="product-desc">The only credit card that lets you earn points on rent with no fees, plus rewards on dining, travel, and everyday purchases</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bilt Alliance</div>
+            <div class="product-desc">Network of 4.5 million rental units across the country where residents can earn points on rent through their property</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bilt Home</div>
+            <div class="product-desc">Suite of tools to help renters build credit, save for a down payment, and eventually purchase their first home</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Bilt Rewards</h2>
+                        <div class="highlights-list"><a href="https://www.fintechfutures.com/venture-capital-funding/bilts-valuation-soars-to-10-75bn-following-250m-funding-round" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bilt valuation soars to $10.75 billion following $250 million funding round led by General Catalyst and GID</span>
+        </a><a href="https://www.businesswire.com/news/home/20250424526457/en/Bilt-Rewards-Announces-Southwest-Airlines-as-Newest-Travel-Partner" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bilt Rewards announces Southwest Airlines as newest travel partner with 1:1 points transfer</span>
+        </a><a href="https://techcrunch.com/2024/01/24/bilt-rewards-brings-in-200m-led-by-general-catalyst-doubles-valuation-to-3-1b/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">General Catalyst leads $200M investment into Bilt Rewards doubling valuation to $3.1B</span>
+        </a><a href="https://www.pymnts.com/news/fintech-investments/2025/bilt-raises-250-million-dollars-expands-loyalty-program-all-housing-categories/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bilt raises $250 million and expands loyalty program to all housing categories</span>
+        </a><a href="https://upgradedpoints.com/credit-cards/bilt-rewards-transfer-partners/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bilt adds 20th transfer partner with Etihad Guest featuring 1:1 conversion rate</span>
+        </a><a href="https://therealdeal.com/new-york/2025/05/09/ankur-jain-pitches-nyc-on-bilt-rewards/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Ankur Jain pitches Bilt Rewards to NYC landlords and brokers as platform reaches 5 million members</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/d02f9af7-1dcf-4a2b-be12-082fe0485509_medium.jpg" alt="Ankur Jain" class="leader-photo">
+            <div><div class="leader-name">Ankur Jain</div>
+            <div class="leader-role">Founder &amp; Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/ankurjainkairos/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/64f84d97-4d37-4c10-8e7b-89dcd7e072d1_medium.jpg" alt="David M. Wyler" class="leader-photo">
+            <div><div class="leader-name">David M. Wyler</div>
+            <div class="leader-role">Co-Founder &amp; Chief Business Officer</div></div>
+            <a href="https://www.linkedin.com/in/davidmwyler/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/d8822cb4-89e1-4f31-a266-84540f2a893f_medium.jpg" alt="Daniel Seder" class="leader-photo">
+            <div><div class="leader-name">Daniel Seder</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/danielseder/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/330f8821-bb4a-4dfa-947d-cd8d20fd751b_medium.jpg" alt="Brandt Smallwood" class="leader-photo">
+            <div><div class="leader-name">Brandt Smallwood</div>
+            <div class="leader-role">Chief Strategy Officer</div></div>
+            <a href="https://www.linkedin.com/in/brandtsmallwood/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.generalcatalyst.com/" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://www.gid.com/" target="_blank" class="investor-card">
+            <span class="investor-name">GID</span>
+        </a><a href="https://www.otpp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Teachers&#x27; Venture Growth</span>
+        </a><a href="https://www.prosus.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Prosus Ventures</span>
+        </a><a href="https://www.leftlane.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Left Lane Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Bilt Technologies, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.biltrewards.com/" target="_blank" class="detail-value">www.biltrewards.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2021</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">300+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">New York, New York</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

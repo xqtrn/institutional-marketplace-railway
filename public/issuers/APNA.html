@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="apna-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://img.brandfetch.com/idapna.co/w/400/h/400/" alt="Apna" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Apna</h1>
+                    <p class="company-tagline">India&#x27;s largest jobs and professional networking platform for the rising workforce</p>
+                    <div class="company-tags"><span class="tag">Jobs Platform</span><span class="tag">Professional Network</span><span class="tag">HR Tech</span><span class="tag">India</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Apna is India&#x27;s largest jobs and professional networking platform, founded in 2019 by Stanford MBA Nirmit Parikh (ex-Apple, Intel). The company became India&#x27;s fastest unicorn in 2021 after raising $100M Series C led by Tiger Global at a $1.1B valuation. With $190M+ raised from Tiger Global, Insight Partners, Sequoia India, and Lightspeed India, Apna connects the rising workforce with opportunities. In 2024, Kartik Narayan (ex-TeamLease) joined as CEO of Jobs Marketplace, while founder Nirmit Parikh serves as Group CEO.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>Sep 2021</td>
+                <td>Series C</td>
+                <td>$100M</td>
+                <td>$1.1B</td>
+            </tr><tr>
+                <td>Jun 2021</td>
+                <td>Series B</td>
+                <td>$70M</td>
+                <td>$570M</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Apna Jobs</div>
+            <div class="product-desc">India&#x27;s largest jobs marketplace for blue and grey collar workforce</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Apna Professional Network</div>
+            <div class="product-desc">Professional networking for India&#x27;s rising workforce</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Blue Machines</div>
+            <div class="product-desc">Enterprise-grade Voice AI platform for recruitment</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Apna for Business</div>
+            <div class="product-desc">Hiring solutions for enterprises seeking workforce talent</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Apna</h2>
+                        <div class="highlights-list"><a href="https://mediabrief.com/apna-group-appoints-kartik-narayan-as-ceo-jobs-marketplace-vertical/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Media Brief: Kartik Narayan appointed Jobs CEO</span>
+        </a><a href="https://techcrunch.com/2021/09/15/tiger-global-led-100m-investment-makes-apna-indias-fastest-unicorn/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">TechCrunch: India's fastest unicorn with Tiger Global</span>
+        </a><a href="https://yourstory.com/2024/10/tiger-global-unicorn-apna-revenue-falls-losses-halved-fy24-networking" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">YourStory: Tiger Global unicorn revenue update</span>
+        </a><a href="https://www.business-standard.com/article/companies/apna-acquires-unicorn-status-after-100-mn-fundraise-led-by-tiger-global-121091501644_1.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Business Standard: Unicorn status achieved</span>
+        </a><a href="https://www.adgully.com/apna-secures-100-mn-series-c-funding-led-by-tiger-global-108641.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AdGully: $100M Series C at $1.1B valuation</span>
+        </a><a href="https://www.prnewswire.com/news-releases/apna-raises-70m-in-series-b-funding-from-insight-partners--tiger-global-at-570-million-valuation-301313268.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">PR Newswire: $70M Series B from Insight Partners</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/bc381c78-adb7-4b1c-8519-5f3e1b698d0f_medium.jpg" alt="Nirmit Parikh" class="leader-photo">
+            <div><div class="leader-name">Nirmit Parikh</div>
+            <div class="leader-role">Founder &amp; Group CEO</div></div>
+            <a href="https://www.linkedin.com/in/nirmitparikh/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/ac37dbc5-5726-4702-a4b4-b6abf1844ef3_medium.jpg" alt="Karna Chokshi" class="leader-photo">
+            <div><div class="leader-name">Karna Chokshi</div>
+            <div class="leader-role">COO &amp; Head of Product - Apna Jobs</div></div>
+            <a href="https://www.linkedin.com/company/apna-co/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/43a99c80-c78c-49fc-8cfb-6e42231dd6a1_medium.jpg" alt="Piyush Raghuvanshi" class="leader-photo">
+            <div><div class="leader-name">Piyush Raghuvanshi</div>
+            <div class="leader-role">Chief Human Resources Officer</div></div>
+            <a href="https://www.linkedin.com/company/apna-co/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global</span>
+        </a><a href="https://www.insightpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Insight Partners</span>
+        </a><a href="https://www.sequoiacap.com/india/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital India</span>
+        </a><a href="https://lsvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Lightspeed India</span>
+        </a><a href="https://greenoakscap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Greenoaks Capital</span>
+        </a><a href="https://www.owlvc.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Owl Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Apna Time Private Limited</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://apna.co" target="_blank" class="detail-value">apna.co</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2019</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Bengaluru, India</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

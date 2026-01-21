@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berachain - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="berachain-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idHJ1VVvMt/ideSJQ4vPL.svg" alt="Berachain" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Berachain</h1>
+                    <p class="company-tagline">The EVM-identical Layer 1 blockchain with Proof of Liquidity consensus aligning network security with liquidity</p>
+                    <div class="company-tags"><span class="tag">Layer 1 Blockchain</span><span class="tag">DeFi</span><span class="tag">Crypto</span><span class="tag">Proof of Liquidity</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Berachain is an EVM-identical Layer 1 blockchain built on Cosmos SDK, featuring a novel Proof of Liquidity (PoL) consensus mechanism that aligns network security with liquidity at the protocol level. The project launched its mainnet on February 6, 2025, after attracting $3.1 billion in liquidity on its pre-launch platform Boyco. Berachain uses a tri-token system: BERA for gas and transactions, BGT for governance, and HONEY as a stablecoin. Founded by pseudonymous team members known as Papa Bear, Smokey the Bera, and Dev Bear, the project evolved from the Bong Bears NFT community.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>April 2024</td>
+                <td>Series B</td>
+                <td>$100M</td>
+                <td></td>
+            </tr><tr>
+                <td>April 2023</td>
+                <td>Series A</td>
+                <td>$42M</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Berachain Mainnet</div>
+            <div class="product-desc">EVM-compatible Layer 1 blockchain with Proof of Liquidity consensus</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">BGT Governance Token</div>
+            <div class="product-desc">Non-transferable governance token distributed to liquidity providers</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">HONEY Stablecoin</div>
+            <div class="product-desc">Native collateral-backed stablecoin for the Berachain ecosystem</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Boyco Pre-Launch Platform</div>
+            <div class="product-desc">Liquidity bootstrapping platform that attracted $3.1B TVL</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Berachain</h2>
+                        <div class="highlights-list"><a href="https://www.coindesk.com/markets/2025/02/04/berachain-to-roll-out-its-mainnet-on-feb-6" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Berachain Mainnet Launches February 6, 2025 with $1B Market Cap</span>
+        </a><a href="https://www.theblock.co/post/288066/layer-1-blockchain-developer-berachain-raises-100-million-in-series-b-funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Berachain Raises $100M Series B Led by Framework and Brevan Howard</span>
+        </a><a href="https://blockworks.co/news/berachain-mainnet-debuts" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Berachain Attracts $3.1B TVL Pre-Launch, Becomes 8th Largest Chain</span>
+        </a><a href="https://www.coinspeaker.com/binance-announces-berachain-bera-as-latest-hodler-airdrops-project/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Binance Announces BERA Token Listing and 10M Token Airdrop</span>
+        </a><a href="https://www.coindesk.com/tech/2024/01/11/liquidity-focused-berachain-opens-layer-1-testnet-to-public" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Berachain Opens Public Testnet Processing 100M+ Transactions</span>
+        </a><a href="https://99bitcoins.com/news/presales/berachain-mainnet-launches-today-with-9-figure-airdrop-and-binance-listing/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Berachain $600M+ Token Airdrop Distributed at Mainnet Launch</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2024-04-12/crypto-s-berachain-says-funding-round-increases-to-100-million" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bloomberg: Raised $100M Series B led by Framework, Brevan Howard</span>
+        </a><a href="https://www.theblock.co/post/288066/layer-1-blockchain-developer-berachain-raises-100-million-in-series-b-funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Testnet launch saw 300K users and 1M transactions in 48 hours</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://pbs.twimg.com/profile_images/1886838628191391744/NxZ5T2gD_400x400.jpg" alt="Smokey the Bera" class="leader-photo">
+            <div><div class="leader-name">Smokey the Bera</div>
+            <div class="leader-role">Co-Founder</div></div>
+            <a href="" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://pbs.twimg.com/profile_images/1575989158374846464/RQEoSckL_400x400.jpg" alt="Papa Bear" class="leader-photo">
+            <div><div class="leader-name">Papa Bear</div>
+            <div class="leader-role">Co-Founder</div></div>
+            <a href="" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://pbs.twimg.com/profile_images/1552364879498825728/ELvVPIr7_400x400.jpg" alt="Dev Bear" class="leader-photo">
+            <div><div class="leader-name">Dev Bear</div>
+            <div class="leader-role">Co-Founder</div></div>
+            <a href="" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://pbs.twimg.com/profile_images/1478445012769259520/R6mDDBnM_400x400.jpg" alt="Homme Bera" class="leader-photo">
+            <div><div class="leader-name">Homme Bera</div>
+            <div class="leader-role">Co-Founder</div></div>
+            <a href="" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://framework.ventures/" target="_blank" class="investor-card">
+            <span class="investor-name">Framework Ventures</span>
+        </a><a href="https://www.brevanhoward.com/digital" target="_blank" class="investor-card">
+            <span class="investor-name">Brevan Howard Digital</span>
+        </a><a href="https://polychain.capital/" target="_blank" class="investor-card">
+            <span class="investor-name">Polychain Capital</span>
+        </a><a href="https://www.samsungnext.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Samsung Next</span>
+        </a><a href="https://hack.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">Hack VC</span>
+        </a><a href="https://arringtonxrpcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Arrington Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Berachain Foundation</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.berachain.com" target="_blank" class="detail-value">www.berachain.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2021</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">30+</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

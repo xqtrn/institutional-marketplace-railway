@@ -1,0 +1,343 @@
+<!-- Auth Script - must be first -->
+<script src="/js/auth.js"></script>
+<script>
+    // Check authentication immediately
+    if (!getSession() || !hasPermission('admin')) {
+        window.location.href = '/login.html?redirect=' + encodeURIComponent(window.location.pathname);
+    }
+</script>
+
+<!-- News Database -->
+<div id="news-overlay-platform" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; overflow: auto;">
+<link rel="stylesheet" href="/css/news.css">
+
+<!-- Offcanvas Overlay -->
+<div class="cs-site-overlay" id="siteOverlay" onclick="closeOffcanvas()"></div>
+
+<!-- Offcanvas Menu -->
+<div class="cs-offcanvas" id="offcanvasMenu">
+    <div class="cs-offcanvas__header">
+        <div class="cs-offcanvas__logo">
+            <span style="color: #fff; font-size: 18px; font-weight: 700;">Institutional Marketplace</span>
+        </div>
+        <span class="cs-offcanvas__toggle" role="button" onclick="closeOffcanvas()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </span>
+    </div>
+    <aside class="cs-offcanvas__sidebar">
+        <nav class="cs-offcanvas__nav">
+            <ul class="offcanvas-menu">
+                <li class="menu-item"><a href="/">Marketplace</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                <li class="menu-item"><a href="/admin.html">Admin Marketplace</a></li>
+                <li class="menu-item" id="usersMenuItem" style="display: none;"><a href="/users.html">Users</a></li>
+                <li class="menu-item"><a href="/partners.html">Partners</a></li>
+                <li class="menu-item"><a href="/companies.html">Companies</a></li>
+                <li class="menu-item has-submenu active">
+                    <a href="/issuers.html">Issuers</a>
+                    <ul class="submenu">
+                        <li><a href="/issuers.html">All Issuers</a></li>
+                        <li><a href="/leaders.html">Leaders</a></li>
+                        <li class="active"><a href="/news.html">News</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="/auto-updater.html">Auto-Updater</a></li>
+                <li class="menu-item"><a href="/settings.html">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="offcanvas-footer">
+            <button class="logout-btn" onclick="logout()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                    <polyline points="16 17 21 12 16 7"></polyline>
+                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Logout
+            </button>
+        </div>
+    </aside>
+    <script>
+        // Show Users menu item if user is super_admin
+        const session = getSession();
+        if (session && session.role === 'super_admin') {
+            document.getElementById('usersMenuItem').style.display = 'block';
+        }
+    </script>
+</div>
+
+<!-- DESKTOP VERSION -->
+<div class="desktop-version">
+    <div class="platform-container">
+        <!-- Sticky Header with Controls and Table Header -->
+        <div class="sticky-header">
+            <!-- Controls Bar -->
+            <div class="controls-bar">
+                <div class="controls-wrapper">
+                    <!-- Platform Header with Title -->
+                    <div class="platform-header">
+                        <button class="platform-menu-button" onclick="openOffcanvas()">
+                            <span></span>
+                        </button>
+                        <div class="platform-title" onclick="resetAllFilters()">News & Highlights</div>
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="company-search-bar">
+                        <input type="text" class="search-input" placeholder="Search news or companies..." id="searchInput">
+                        <span class="search-clear" onclick="clearSearch()">×</span>
+                        <span class="search-icon"></span>
+                    </div>
+
+                    <!-- Source Filter -->
+                    <div class="filter-select-wrapper">
+                        <select class="filter-select" id="sourceFilter">
+                            <option value="">All Sources</option>
+                        </select>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="stats-badge">
+                        <span id="totalCount">0</span> Articles
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table Header -->
+            <div class="table-header">
+                <div class="header-row">
+                    <div class="header-cell col-company sortable" data-sort="company">Company</div>
+                    <div class="header-cell col-title sortable" data-sort="title">Headline</div>
+                    <div class="header-cell col-source sortable" data-sort="source">Source</div>
+                    <div class="header-cell col-link">Link</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Container -->
+        <div class="data-container">
+            <div id="dataContent">
+                <!-- Loading State -->
+                <div class="loading-container">
+                    <div class="spinner"></div>
+                    <p style="margin-top: 16px; color: var(--platform-muted);">Loading news...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MOBILE VERSION -->
+<div class="mobile-version">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <div class="mobile-header-top">
+            <button class="platform-menu-button" onclick="openOffcanvas()">
+                <span></span>
+            </button>
+            <div class="mobile-title" onclick="resetAllFilters()">News & Highlights</div>
+            <div style="width: 32px;"></div>
+        </div>
+        <div class="mobile-controls">
+            <div class="mobile-search-wrapper">
+                <input type="text" class="mobile-search" placeholder="Search news..." id="mobile-searchInput">
+                <span class="mobile-search-clear" onclick="clearMobileSearch()">×</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Content -->
+    <div class="mobile-content" id="mobile-dataContent">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p style="margin-top: 12px; color: var(--platform-muted); font-size: 11px;">Loading news...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+// Offcanvas functions
+function openOffcanvas() {
+    document.getElementById('offcanvasMenu').classList.add('cs-offcanvas-show');
+    document.getElementById('siteOverlay').classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeOffcanvas() {
+    document.getElementById('offcanvasMenu').classList.remove('cs-offcanvas-show');
+    document.getElementById('siteOverlay').classList.remove('show');
+    document.body.style.overflow = '';
+}
+
+// State
+let allNews = [];
+let filteredNews = [];
+let sources = new Set();
+
+// Load data
+async function loadNews() {
+    try {
+        const response = await fetch('/api/news.json');
+        allNews = await response.json();
+
+        // Filter out empty/invalid entries
+        allNews = allNews.filter(n => n.title && n.title.trim() !== '' && n.company);
+
+        // Collect unique sources
+        allNews.forEach(n => {
+            if (n.source) sources.add(n.source);
+        });
+
+        // Populate source filter
+        const sourceFilter = document.getElementById('sourceFilter');
+        Array.from(sources).sort().forEach(source => {
+            const option = document.createElement('option');
+            option.value = source;
+            option.textContent = source;
+            sourceFilter.appendChild(option);
+        });
+
+        filteredNews = [...allNews];
+        document.getElementById('totalCount').textContent = filteredNews.length;
+        renderNews();
+        renderMobileNews();
+    } catch (error) {
+        console.error('Error loading news:', error);
+    }
+}
+
+// Extract domain from URL
+function getDomain(url) {
+    try {
+        const u = new URL(url);
+        return u.hostname.replace('www.', '');
+    } catch {
+        return url;
+    }
+}
+
+// Render desktop table
+function renderNews() {
+    const container = document.getElementById('dataContent');
+
+    if (filteredNews.length === 0) {
+        container.innerHTML = '<div class="empty-state"><h3>No news found</h3><p>Try adjusting your search or filter</p></div>';
+        return;
+    }
+
+    let html = '<div class="data-table">';
+
+    filteredNews.forEach(news => {
+        const companyLogo = news.company_logo || `https://ui-avatars.com/api/?name=${encodeURIComponent(news.company)}&background=1e293b&color=fff&size=32`;
+        const domain = getDomain(news.link);
+
+        html += `
+        <div class="data-row">
+            <div class="data-cell col-company">
+                <div class="company-info">
+                    <div class="company-icon">
+                        <img src="${companyLogo}" alt="${news.company}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(news.company)}&background=1e293b&color=fff&size=32'">
+                    </div>
+                    <a href="/issuers/${news.ticker}" class="company-link">${news.company}</a>
+                </div>
+            </div>
+            <div class="data-cell col-title">
+                <span class="news-title">${news.title}</span>
+            </div>
+            <div class="data-cell col-source">
+                <span class="source-badge">${news.source || 'Unknown'}</span>
+            </div>
+            <div class="data-cell col-link">
+                ${news.link ? `<a href="${news.link}" target="_blank" class="link-btn" title="${domain}">${domain}</a>` : '-'}
+            </div>
+        </div>`;
+    });
+
+    html += '</div>';
+    container.innerHTML = html;
+}
+
+// Render mobile cards
+function renderMobileNews() {
+    const container = document.getElementById('mobile-dataContent');
+
+    if (filteredNews.length === 0) {
+        container.innerHTML = '<div class="empty-state"><h3>No news found</h3><p>Try adjusting your search</p></div>';
+        return;
+    }
+
+    let html = '';
+
+    filteredNews.forEach(news => {
+        const companyLogo = news.company_logo || `https://ui-avatars.com/api/?name=${encodeURIComponent(news.company)}&background=1e293b&color=fff&size=32`;
+        const domain = getDomain(news.link);
+
+        html += `
+        <div class="mobile-news-card">
+            <div class="mobile-news-company">
+                <img src="${companyLogo}" alt="${news.company}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(news.company)}&background=1e293b&color=fff&size=32'">
+                <a href="/issuers/${news.ticker}" class="company-link">${news.company}</a>
+            </div>
+            <div class="mobile-news-title">${news.title}</div>
+            <div class="mobile-news-meta">
+                <span class="source-badge">${news.source || 'Unknown'}</span>
+                ${news.link ? `<a href="${news.link}" target="_blank" class="link-btn">${domain}</a>` : ''}
+            </div>
+        </div>`;
+    });
+
+    container.innerHTML = html;
+}
+
+// Search functionality
+function filterNews() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const sourceFilter = document.getElementById('sourceFilter').value;
+
+    filteredNews = allNews.filter(news => {
+        const matchesSearch = !searchTerm ||
+            news.title.toLowerCase().includes(searchTerm) ||
+            news.company.toLowerCase().includes(searchTerm) ||
+            (news.source && news.source.toLowerCase().includes(searchTerm));
+
+        const matchesSource = !sourceFilter || news.source === sourceFilter;
+
+        return matchesSearch && matchesSource;
+    });
+
+    document.getElementById('totalCount').textContent = filteredNews.length;
+    renderNews();
+    renderMobileNews();
+}
+
+function clearSearch() {
+    document.getElementById('searchInput').value = '';
+    filterNews();
+}
+
+function clearMobileSearch() {
+    document.getElementById('mobile-searchInput').value = '';
+    filterNews();
+}
+
+function resetAllFilters() {
+    document.getElementById('searchInput').value = '';
+    document.getElementById('sourceFilter').value = '';
+    filterNews();
+}
+
+// Event listeners
+document.addEventListener('DOMContentLoaded', () => {
+    loadNews();
+
+    document.getElementById('searchInput').addEventListener('input', filterNews);
+    document.getElementById('sourceFilter').addEventListener('change', filterNews);
+    document.getElementById('mobile-searchInput').addEventListener('input', () => {
+        document.getElementById('searchInput').value = document.getElementById('mobile-searchInput').value;
+        filterNews();
+    });
+});
+</script>
+</div>

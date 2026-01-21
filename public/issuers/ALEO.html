@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleo - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="aleo-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Aleo.jpeg" alt="Aleo" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Aleo</h1>
+                    <p class="company-tagline">Zero-knowledge blockchain enabling privacy-preserving decentralized applications with private smart contracts</p>
+                    <div class="company-tags"><span class="tag">Blockchain</span><span class="tag">Web3</span><span class="tag">Zero Knowledge</span><span class="tag">Privacy</span><span class="tag">United States</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Aleo is the first blockchain enabling private and compliant decentralized applications through zero-knowledge cryptography. The platform allows developers to build applications that verify transactions without revealing sensitive data. Aleo raised $200M in Series B (2022) led by Kora Management and SoftBank Vision Fund 2, valued at $1.45B. This was the largest funding round in zero-knowledge history at the time. An additional $70M Series B+ followed in August 2022. Aleo achieved mainnet launch in 2024, enabling privacy-preserving smart contract execution. Unlike Ethereum where transactions are re-executed by all nodes, Aleo processes transactions off-chain and only verifies proofs on-chain, providing both privacy and scalability.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>August 2022</td>
+                <td>Series B+</td>
+                <td>$70M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>February 2022</td>
+                <td>Series B</td>
+                <td>$200M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>April 2021</td>
+                <td>Series A</td>
+                <td>$28M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aleo Network</div>
+            <div class="product-desc">Privacy-first Layer 1 blockchain using zero-knowledge proofs</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Leo Programming Language</div>
+            <div class="product-desc">Programming language for writing private applications on Aleo</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">snarkOS</div>
+            <div class="product-desc">Decentralized operating system for zero-knowledge applications</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Aleo Studio</div>
+            <div class="product-desc">IDE for building and deploying private applications</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Aleo</h2>
+                        <div class="highlights-list"><a href="https://www.businesswire.com/news/home/20220207005251/en/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Business Wire: $200M Series B</span>
+        </a><a href="https://www.gate.com/learn/articles/introduction-to-the-aleo-privacy-blockchain/4656" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Gate.io: Privacy Blockchain Introduction</span>
+        </a><a href="https://www.certik.com/resources/blog/introducing-aleo-a-premier-platform-for-private-blockchain-applications" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">CertiK: Private Blockchain Platform</span>
+        </a><a href="https://coinmarketcap.com/currencies/aleo/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">CoinMarketCap: ALEO Token</span>
+        </a><a href="https://daic.capital/blog/aleo-privacy-focused-zero-knowledge-cloud-computation-network" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DAIC Capital: ZK Cloud Computing</span>
+        </a><a href="https://www.coinbase.com/price/aleo" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Coinbase: ALEO Price & Info</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/85399abe-89a6-4a4f-9396-f6c25f8b9ad7_medium.jpg" alt="Alex Pruden" class="leader-photo">
+            <div><div class="leader-name">Alex Pruden</div>
+            <div class="leader-role">Chairman of the Board</div></div>
+            <a href="https://www.linkedin.com/in/alex-pruden/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/9c949cec-5fc4-4a63-9f20-ad14828e393c_medium.jpg" alt="Raymond Chu" class="leader-photo">
+            <div><div class="leader-name">Raymond Chu</div>
+            <div class="leader-role">Co-Founder</div></div>
+            <a href="https://www.linkedin.com/in/raymondchu/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/4c759b57-db95-4cb2-b148-b9e2d20db7a1_medium.jpg" alt="Bradley Feingerts" class="leader-photo">
+            <div><div class="leader-name">Bradley Feingerts</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/bradleyfeingerts/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://visionfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund 2</span>
+        </a><a href="https://www.koracap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Kora Management</span>
+        </a><a href="https://a16z.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Andreessen Horowitz (a16z)</span>
+        </a><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global</span>
+        </a><a href="https://www.samsungnext.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Samsung Next</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Aleo Systems, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://aleo.org" target="_blank" class="detail-value">aleo.org</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2019</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">100+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">San Francisco, CA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

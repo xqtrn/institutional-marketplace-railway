@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbyte - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="airbyte-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://cdn.brandfetch.io/id2WO4wLxK/theme/dark/logo.svg" alt="Airbyte" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Airbyte</h1>
+                    <p class="company-tagline">Open-source data movement platform for modern data stacks</p>
+                    <div class="company-tags"><span class="tag">Data Integration</span><span class="tag">ETL/ELT</span><span class="tag">Open Source</span><span class="tag">Data Engineering</span><span class="tag">AI Data</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Airbyte is a San Francisco-based open-source data integration platform and unicorn, building the leading ELT tool for moving data from APIs, databases, and files to data warehouses, lakes, and lakehouses. Founded in 2020 by Michel Tricot (ex-LiveRamp) and John Lafleur (serial entrepreneur) during Y Combinator W20, Airbyte has grown to 600+ connectors and achieved unicorn status with a $1.5B valuation in December 2021. The platform offers both self-hosted and cloud-hosted options with AI-powered connector creation that generates integrations from API documentation in seconds. Key 2024-2025 milestones include Airbyte 1.0 release, Apache Iceberg support, HIPAA/GDPR compliance features, and recognition in Fast Company&#x27;s Most Innovative Companies 2025. Backed by Altimeter Capital, Coatue, Benchmark, and Accel, Airbyte powers data movement for AI and analytics workloads with enterprise-grade security, RBAC, and self-healing pipelines.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>Dec 2021</td>
+                <td>Series B</td>
+                <td>$150M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>May 2021</td>
+                <td>Series A</td>
+                <td>$26M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Mar 2021</td>
+                <td>Seed</td>
+                <td>$5M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>Mar 2020</td>
+                <td>Pre-Seed</td>
+                <td>$150K</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Airbyte Cloud</div>
+            <div class="product-desc">Fully managed cloud service with 600+ pre-built connectors for APIs, databases, and data warehouses</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Airbyte Self-Managed</div>
+            <div class="product-desc">Open-source deployment with enterprise features including SSO, RBAC, and advanced monitoring</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AI Connector Builder</div>
+            <div class="product-desc">Generate production-ready connectors from OpenAPI specs or plain-language prompts in minutes</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">PyAirbyte</div>
+            <div class="product-desc">Python library for data scientists to integrate connectors directly into AI/ML pipelines</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Mappers</div>
+            <div class="product-desc">In-platform data transformation for encryption, hashing, field renaming, and row filtering</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Airbyte</h2>
+                        <div class="highlights-list"><a href="https://www.bigdatawire.com/2025/03/24/airbyte-expands-platform-with-iceberg-support-enterprise-connectors-and-more/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">March 2025: Added Apache Iceberg support, enterprise connectors at move(data) 2025</span>
+        </a><a href="https://www.fastcompany.com/91266609/most-innovative-companies-data-2025" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">Fast Company Most Innovative Companies 2025</span>
+        </a><a href="https://airbyte.com/blog/airbytes-journey-until-1-0" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title">September 2024: Released Airbyte 1.0 with enterprise-grade stability and self-healing jobs</span>
+        </a><a href="https://techcrunch.com/2024/09/24/data-platform-airbyte-can-now-create-api-connectors-by-reading-the-docs/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2024</span>
+            <span class="highlight-title">September 2024: AI connector builder creates integrations by reading API documentation</span>
+        </a><a href="https://airbyte.com/blog/a-150m-series-b-to-power-the-movement-of-data" target="_blank" class="highlight-item">
+            <span class="highlight-date">2021</span>
+            <span class="highlight-title">December 2021: $1.5B unicorn valuation with $150M Series B</span>
+        </a><a href="https://www.bigdatawire.com/2025/03/24/airbyte-expands-platform-with-iceberg-support-enterprise-connectors-and-more/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">HIPAA/GDPR compliance with Mappers for data encryption and row filtering</span>
+        </a><a href="https://www.bigdatawire.com/2025/03/24/airbyte-expands-platform-with-iceberg-support-enterprise-connectors-and-more/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">AWS PrivateLink support for secure cloud-to-cloud data transfers</span>
+        </a><a href="https://airbyte.com/blog/introducing-vector-database-destinations" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Vector database connectors for LLM/AI unstructured data pipelines</span>
+        </a><a href="https://www.techtarget.com/searchdatamanagement/news/252497175/Airbyte-set-to-advance-open-source-data-integration-platform" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">TechTarget: Advances open source data integration</span>
+        </a><a href="https://solutionsreview.com/data-integration/airbyte-nabs-26m-series-a-funding-for-open-source-data-integration/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Solutions Review: Series A funding for ETL platform</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/4e328c78-7d20-47dc-9ca4-a2c623bbd813_medium.jpg" alt="Michel Tricot" class="leader-photo">
+            <div><div class="leader-name">Michel Tricot</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/micheltricot/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/6d85cbd9-1a6e-4477-b0be-a05c54c3ef53_medium.jpg" alt="John Lafleur" class="leader-photo">
+            <div><div class="leader-name">John Lafleur</div>
+            <div class="leader-role">Co-Founder &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/jeanlafleur/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/721fdbe4-c38b-47ec-8f16-6ebf4b580c9e_medium.jpg" alt="Jonathan Whitney" class="leader-photo">
+            <div><div class="leader-name">Jonathan Whitney</div>
+            <div class="leader-role">Chief Product Officer</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Joel%20Newbert&amp;background=3b82f6&amp;color=fff" alt="Joel Newbert" class="leader-photo">
+            <div><div class="leader-name">Joel Newbert</div>
+            <div class="leader-role">VP Finance &amp; Operations</div></div>
+            <a href="https://www.linkedin.com/in/joelnewbert/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.altimeter.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Altimeter Capital</span>
+        </a><a href="https://www.coatue.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Coatue Management</span>
+        </a><a href="https://www.benchmark.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Benchmark</span>
+        </a><a href="https://www.accel.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Accel</span>
+        </a><a href="https://www.thrivecap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Thrive Capital</span>
+        </a><a href="https://www.salesforceventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Salesforce Ventures</span>
+        </a><a href="https://www.ycombinator.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Y Combinator</span>
+        </a><a href="https://svangel.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SV Angel</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Airbyte, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://airbyte.com/" target="_blank" class="detail-value">airbyte.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2020</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">100+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">San Francisco, CA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

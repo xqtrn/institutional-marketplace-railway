@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnix - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="earnix-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/id4s1VqKgB/idZqfqX-Qw.svg" alt="Earnix" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Earnix</h1>
+                    <p class="company-tagline">AI-powered dynamic pricing and decisioning platform for insurance and banking organizations with real-time personalization</p>
+                    <div class="company-tags"><span class="tag">InsurTech</span><span class="tag">Unicorn</span><span class="tag">Israeli Tech</span><span class="tag">AI Analytics</span><span class="tag">Pricing Optimization</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Earnix is a leading AI-powered pricing and decisioning platform for insurance and banking organizations, founded in 2001 by Sammy Krikler and Yoni Cheifetz in Israel. The cloud-based platform combines artificial intelligence with advanced analytics to enable real-time modeling, simulations, and personalized price and product offerings. Earnix achieved unicorn status in 2021 after raising $75 million at a $1 billion valuation. The company serves major insurance carriers and retail banks globally, helping them optimize pricing strategies while maintaining regulatory compliance. In 2025, Earnix acquired Zelros to expand its AI capabilities in the insurance space.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2021-02</td>
+                <td>Series D</td>
+                <td>$75M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2018-06</td>
+                <td>Series C</td>
+                <td>$15M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2010-03</td>
+                <td>Series B</td>
+                <td>$5M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Earnix Price-It</div>
+            <div class="product-desc">Dynamic AI pricing engine enabling real-time rate optimization for insurance products with regulatory compliance built-in</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Earnix Rate</div>
+            <div class="product-desc">Enterprise rate management platform streamlining pricing lifecycle from development to deployment across multiple markets</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Earnix Personalize</div>
+            <div class="product-desc">AI-driven personalization engine delivering customized product recommendations and pricing at the individual customer level</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Earnix Market-Risk</div>
+            <div class="product-desc">Market and credit risk analytics platform for banking institutions with advanced scenario modeling capabilities</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Earnix</h2>
+                        <div class="highlights-list"><a href="https://earnix.com/newsroom/press-releases/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Earnix acquires Zelros to expand AI capabilities in insurance decisioning</span>
+        </a><a href="https://earnix.com/newsroom/press-releases/earnix-announces-75m-growth-funding-with-a-valuation-of-1b/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company achieves $1 billion unicorn valuation after $75M Series D funding</span>
+        </a><a href="https://www.insurtechinsights.com/fintech-startup-earnix-raises-75-million-attains-unicorn-status-at-valuation-of-1-billion/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Insight Partners leads $75 million growth round for Earnix expansion</span>
+        </a><a href="https://earnix.com/customers/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform powers pricing optimization for leading global insurance carriers</span>
+        </a><a href="https://earnix.com/industries/banking/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Earnix expands AI-powered decisioning capabilities across banking sector</span>
+        </a><a href="https://fintech.global/2025/09/09/earnix-raises-290m-from-jvp-and-tpg/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>$290M funding</strong> (Sep 2025)—led by TPG/JVP, 8.7x return for early investors</span>
+        </a><a href="https://earnix.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Official: AI-driven pricing software</span>
+        </a><a href="https://www.insurancejournal.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Insurance Journal: Insurtech analytics</span>
+        </a><a href="https://www.forbes.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Forbes: Financial services AI</span>
+        </a><a href="https://www.businesswire.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Business Wire: Product launches</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/80f67474-f991-45b2-a991-b6ef10cefdfc_medium.jpg" alt="Robin Gilthorpe" class="leader-photo">
+            <div><div class="leader-name">Robin Gilthorpe</div>
+            <div class="leader-role">Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/robingilthorpe/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/a7ab32c8-e35e-49e9-84bb-30d439484b39_medium.jpg" alt="Sammy Krikler" class="leader-photo">
+            <div><div class="leader-name">Sammy Krikler</div>
+            <div class="leader-role">Founder &amp; Chief Insurance Officer</div></div>
+            <a href="https://www.linkedin.com/in/sammykrikler/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/633df305-f5a6-4a06-9610-2741d4d34272_medium.jpg" alt="Erez Barak" class="leader-photo">
+            <div><div class="leader-name">Erez Barak</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/erezbarak/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/52d7a477-fc5d-4dd0-a875-0b766872cd25_medium.jpg" alt="Ronit Maor" class="leader-photo">
+            <div><div class="leader-name">Ronit Maor</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/ronitmaor/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.insightpartners.com" target="_blank" class="investor-card">
+            <span class="investor-name">Insight Partners</span>
+        </a><a href="https://www.jvpvc.com" target="_blank" class="investor-card">
+            <span class="investor-name">Jerusalem Venture Partners (JVP)</span>
+        </a><a href="https://www.vintage.co.il" target="_blank" class="investor-card">
+            <span class="investor-name">Vintage Investment Partners</span>
+        </a><a href="https://www.igp.co.il" target="_blank" class="investor-card">
+            <span class="investor-name">Israel Growth Partners</span>
+        </a><a href="https://www.leumipartners.com" target="_blank" class="investor-card">
+            <span class="investor-name">Leumi Partners</span>
+        </a><a href="https://www.tpg.com/" target="_blank" class="investor-card">
+            <span class="investor-name">TPG GP Solutions</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Earnix Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://earnix.com" target="_blank" class="detail-value">earnix.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2001</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">201-500</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Ramat Gan, Israel</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

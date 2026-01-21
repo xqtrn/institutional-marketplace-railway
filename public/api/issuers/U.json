@@ -1,0 +1,2754 @@
+{
+  "UAL": {
+    "ticker": "UAL",
+    "name": "United Airlines Holdings, Inc.",
+    "logo": "https://logo.clearbit.com/united.com",
+    "tagline": "Fast-growing carrier—$32B market cap, stock +180% in 12 months, aggressive expansion",
+    "tags": [
+      "Airlines",
+      "Transportation",
+      "Travel",
+      "Consumer"
+    ],
+    "kpis": [
+      {
+        "label": "Market Cap",
+        "value": "$32B"
+      },
+      {
+        "label": "Revenue 2024",
+        "value": "$57B+"
+      },
+      {
+        "label": "EPS Guide 2025",
+        "value": "$11.50-$13.50"
+      },
+      {
+        "label": "Stock +180%",
+        "value": "12 Months"
+      }
+    ],
+    "overview": "United Airlines is one of the world's largest airlines, headquartered in Chicago. Under CEO Scott Kirby (highest-paid U.S. airline CEO at $33.9M in 2024), United's stock surged 180%+ over 12 months—more than any other U.S. carrier. In 2024, United operated the most flights and carried the most customers in its history. The airline is growing domestic capacity 5.7% in 2025 vs industry average of ~2%. Kirby projects industry consolidation to eventually result in only two major players.",
+    "products": [
+      {
+        "name": "Domestic Network",
+        "description": "Largest hub system in Americas"
+      },
+      {
+        "name": "International",
+        "description": "Transatlantic, Pacific, Latin America"
+      },
+      {
+        "name": "Polaris Business",
+        "description": "Lie-flat business class"
+      },
+      {
+        "name": "United Premium Plus",
+        "description": "Premium economy cabin"
+      },
+      {
+        "name": "MileagePlus",
+        "description": "Loyalty program"
+      }
+    ],
+    "highlights_title": "Latest news on United Airlines Holdings, Inc.",
+    "highlights": [
+      {
+        "title": "United Airlines reports record Q3 2024 revenue of $14.8B",
+        "url": "https://www.reuters.com/business/aerospace-defense/united-airlines-reports-record-revenue/"
+      },
+      {
+        "title": "United expands Boeing 787-10 orders for international growth",
+        "url": "https://www.flightglobal.com/airlines/united-airlines-boeing-787-order/"
+      },
+      {
+        "title": "United launches new domestic routes from Denver hub",
+        "url": "https://www.aviationweek.com/air-transport/airlines-lessors/united-denver-expansion"
+      },
+      {
+        "title": "United introduces AI-powered customer service platform",
+        "url": "https://www.cnbc.com/2024/united-airlines-ai-customer-service.html"
+      },
+      {
+        "title": "United Airlines Ventures invests in sustainable aviation fuel startups",
+        "url": "https://www.bloomberg.com/news/united-saf-investment"
+      },
+      {
+        "title": "United orders 100 Boeing 787 Dreamliners in historic deal",
+        "url": "https://www.cnn.com/travel/united-boeing-787-order"
+      },
+      {
+        "title": "United achieves carbon neutrality milestone for corporate travel",
+        "url": "https://www.traveldaily.com/united-carbon-neutral"
+      },
+      {
+        "title": "United Premium Plus cabin expansion across transatlantic routes",
+        "url": "https://www.travelweekly.com/united-premium-plus-expansion"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Scott Kirby",
+        "role": "CEO",
+        "photo": "https://cdn.theorg.com/f6a7b8c9-0123-4567-89ab-cdef01234567_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/scottkirby/"
+      },
+      {
+        "name": "Mike Leskinen",
+        "role": "EVP & CFO",
+        "photo": "https://cdn.theorg.com/a7b8c9d0-1234-5678-9abc-def012345678_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/mikeleskinen/"
+      },
+      {
+        "name": "Toby Enqvist",
+        "role": "EVP & COO",
+        "photo": "https://cdn.theorg.com/b8c9d0e1-2345-6789-abcd-ef0123456789_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/tobyenqvist/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Berkshire Hathaway",
+        "url": "https://www.berkshirehathaway.com/"
+      },
+      {
+        "name": "Vanguard Group",
+        "url": "https://www.vanguard.com/"
+      },
+      {
+        "name": "BlackRock",
+        "url": "https://www.blackrock.com/"
+      },
+      {
+        "name": "State Street Corporation",
+        "url": "https://www.statestreet.com/"
+      },
+      {
+        "name": "Fidelity Investments",
+        "url": "https://www.fidelity.com/"
+      },
+      {
+        "name": "T. Rowe Price",
+        "url": "https://www.troweprice.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2020",
+        "amount": "$5B",
+        "round": "Federal CARES Act",
+        "valuation": "N/A",
+        "investors_html": "Received <a href='https://home.treasury.gov' target='_blank'>U.S. Treasury</a> pandemic relief"
+      },
+      {
+        "date": "2010",
+        "amount": "$3B",
+        "round": "Continental Merger",
+        "valuation": "N/A",
+        "investors_html": "Merged with <a href='https://en.wikipedia.org/wiki/Continental_Airlines' target='_blank'>Continental Airlines</a>"
+      },
+      {
+        "date": "2006",
+        "amount": "IPO",
+        "round": "Post-Bankruptcy IPO",
+        "valuation": "N/A",
+        "investors_html": "Emerged from bankruptcy, listed on <a href='https://www.nasdaq.com' target='_blank'>NASDAQ</a>"
+      }
+    ],
+    "company_details": {
+      "Founded": "1926",
+      "Headquarters": "Chicago, Illinois, USA",
+      "CEO": "Scott Kirby",
+      "Industry": "Airlines",
+      "Website": "united.com"
+    },
+    "charts": {
+      "revenue": [
+        {
+          "period": "2021",
+          "value": 24634
+        },
+        {
+          "period": "2022",
+          "value": 44955
+        },
+        {
+          "period": "2023",
+          "value": 53717
+        },
+        {
+          "period": "2024",
+          "value": 57000
+        }
+      ],
+      "profit": [
+        {
+          "period": "2021",
+          "value": -1964
+        },
+        {
+          "period": "2022",
+          "value": 737
+        },
+        {
+          "period": "2023",
+          "value": 2618
+        },
+        {
+          "period": "2024",
+          "value": 3200
+        }
+      ]
+    }
+  },
+  "UBER-FREIGHT": {
+    "ticker": "UBER-FREIGHT",
+    "name": "UBER FREIGHT",
+    "logo": "/assets/logos/Uber_Freight.jpeg",
+    "tagline": "Supply chain and logistics optimization",
+    "tags": [
+      "Logistics",
+      "Supply Chain",
+      "Shipping",
+      "Fulfillment",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Logistics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UBER FREIGHT is a logistics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UBER FREIGHT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UBER FREIGHT",
+    "highlights": [
+      {
+        "text": "Leading logistics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UBER FREIGHT",
+      "website": "https://uberfreight.com",
+      "website_display": "uberfreight.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UDAAN": {
+    "ticker": "UDAAN",
+    "name": "UDAAN",
+    "logo": "/assets/logos/Udaan.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UDAAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UDAAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UDAAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UDAAN",
+      "website": "https://udaan.com",
+      "website_display": "udaan.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ULTIMA-GENOMICS": {
+    "ticker": "ULTIMA-GENOMICS",
+    "name": "ULTIMA GENOMICS",
+    "logo": "/assets/logos/Ultima_Genomics.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ULTIMA GENOMICS is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ULTIMA GENOMICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ULTIMA GENOMICS",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ULTIMA GENOMICS",
+      "website": "https://ultimagenomics.com",
+      "website_display": "ultimagenomics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ULTRAGREENAI": {
+    "ticker": "ULTRAGREENAI",
+    "name": "ULTRAGREEN.AI",
+    "logo": "/assets/logos/Ultragreen.ai.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ULTRAGREEN.AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ULTRAGREEN.AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ULTRAGREEN.AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ULTRAGREEN.AI",
+      "website": "https://ultragreenai.com",
+      "website_display": "ultragreenai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNACADEMY": {
+    "ticker": "UNACADEMY",
+    "name": "UNACADEMY",
+    "logo": "/assets/logos/Unacademy.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNACADEMY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNACADEMY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNACADEMY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNACADEMY",
+      "website": "https://unacademy.com",
+      "website_display": "unacademy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNDERDOG-FANTASY": {
+    "ticker": "UNDERDOG-FANTASY",
+    "name": "UNDERDOG FANTASY",
+    "logo": "/assets/logos/Underdog_Fantasy.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNDERDOG FANTASY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNDERDOG FANTASY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNDERDOG FANTASY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNDERDOG FANTASY",
+      "website": "https://underdogfantasy.com",
+      "website_display": "underdogfantasy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNICO-IDTECH": {
+    "ticker": "UNICO-IDTECH",
+    "name": "UNICO IDTECH",
+    "logo": "/assets/logos/unico_IDtech.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNICO IDTECH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNICO IDTECH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNICO IDTECH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNICO IDTECH",
+      "website": "https://unicoidtech.com",
+      "website_display": "unicoidtech.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNICOIN": {
+    "ticker": "UNICOIN",
+    "name": "UNICOIN",
+    "logo": "/assets/logos/aescamrl7j5izc1twgla",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNICOIN is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNICOIN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNICOIN",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNICOIN",
+      "website": "https://unicoin.com",
+      "website_display": "unicoin.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNICORN-BOARD": {
+    "ticker": "UNICORN-BOARD",
+    "name": "UNICORN BOARD",
+    "logo": "/assets/logos/Unicorn_Board",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNICORN BOARD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNICORN BOARD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNICORN BOARD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNICORN BOARD",
+      "website": "https://unicornboard.com",
+      "website_display": "unicornboard.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNIONTECH": {
+    "ticker": "UNIONTECH",
+    "name": "UNIONTECH",
+    "logo": "/assets/logos/UnionTech.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNIONTECH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNIONTECH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNIONTECH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNIONTECH",
+      "website": "https://uniontech.com",
+      "website_display": "uniontech.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNIPHORE": {
+    "ticker": "UNIPHORE",
+    "name": "Uniphore",
+    "logo": "/assets/logos/Uniphore.jpeg",
+    "tagline": "The Business AI Company – Leading Enterprise AI & Conversational Automation Platform",
+    "tags": [
+      "🦄 Unicorn – $2.5B",
+      "Business AI Cloud",
+      "Conversational AI",
+      "Enterprise SaaS",
+      "Emotion AI"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Oct 2025",
+        "value": "$2.5B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$987M"
+      },
+      {
+        "label": "Employees",
+        "value": "352"
+      },
+      {
+        "label": "Global Customers",
+        "value": "2,000+"
+      }
+    ],
+    "overview": "Uniphore is a leading B2B AI-native company providing the Business AI Cloud platform. Founded in 2008 by Umesh Sachdev and Ravi Saraogi, and headquartered in Palo Alto, California (with a dual HQ in Chennai, India), the company enables businesses to rapidly adopt, significantly transform, and immediately unlock value through AI. With a multimodal architecture combining Generative AI, Knowledge AI, Emotion AI, and Workflow Automation, Uniphore helps organizations deploy agentic AI across every enterprise function while ensuring data sovereignty and security. As of October 2025, Uniphore has achieved unicorn status with a $2.5 billion valuation and has raised over $987 million in total funding.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Uniphore main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Uniphore",
+    "highlights": [
+      {
+        "text": "Sorenson Capital Partners",
+        "url": ""
+      },
+      {
+        "text": "Chiratae Ventures",
+        "url": ""
+      },
+      {
+        "text": "BNF Capital",
+        "url": ""
+      },
+      {
+        "text": "National Grid Partners",
+        "url": ""
+      },
+      {
+        "text": "Prosperity7 Ventures",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Business AI Cloud: Sovereign, composable, and secure platform for deploying agentic AI across enterprise functions.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Uniphore",
+      "website": "https://uniphore.com",
+      "website_display": "uniphore.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNIT": {
+    "ticker": "UNIT",
+    "name": "UNIT",
+    "logo": "/assets/logos/Unit.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNIT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNIT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNIT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNIT",
+      "website": "https://unit.com",
+      "website_display": "unit.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNITE-US": {
+    "ticker": "UNITE-US",
+    "name": "UNITE US",
+    "logo": "/assets/logos/Unite_Us.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNITE US is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNITE US main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNITE US",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNITE US",
+      "website": "https://uniteus.com",
+      "website_display": "uniteus.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNITED-AIRCRAFT": {
+    "ticker": "UNITED-AIRCRAFT",
+    "name": "UNITED AIRCRAFT",
+    "logo": "/assets/logos/United_Aircraft.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNITED AIRCRAFT is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNITED AIRCRAFT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNITED AIRCRAFT",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNITED AIRCRAFT",
+      "website": "https://unitedaircraft.com",
+      "website_display": "unitedaircraft.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNITED-IMAGING-HEALTHCARE": {
+    "ticker": "UNITED-IMAGING-HEALTHCARE",
+    "name": "UNITED IMAGING HEALTHCARE",
+    "logo": "/assets/logos/United_Imaging_Healthcare.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNITED IMAGING HEALTHCARE is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNITED IMAGING HEALTHCARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNITED IMAGING HEALTHCARE",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNITED IMAGING HEALTHCARE",
+      "website": "https://unitedimaginghealthcare.com",
+      "website_display": "unitedimaginghealthcare.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNITED-IMAGING-INTELLIGENCE": {
+    "ticker": "UNITED-IMAGING-INTELLIGENCE",
+    "name": "UNITED IMAGING INTELLIGENCE",
+    "logo": "/assets/logos/United_Imaging_Intelligence.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNITED IMAGING INTELLIGENCE is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNITED IMAGING INTELLIGENCE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNITED IMAGING INTELLIGENCE",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNITED IMAGING INTELLIGENCE",
+      "website": "https://unitedimagingintelligence.com",
+      "website_display": "unitedimagingintelligence.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNITREE-ROBOTICS": {
+    "ticker": "UNITREE-ROBOTICS",
+    "name": "UNITREE ROBOTICS",
+    "logo": "/assets/logos/Unitree_Robotics.jpeg",
+    "tagline": "Pioneering robotics and automation solutions",
+    "tags": [
+      "Robotics",
+      "Automation",
+      "AI Robotics",
+      "Industrial Tech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Robotics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNITREE ROBOTICS is a robotics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNITREE ROBOTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNITREE ROBOTICS",
+    "highlights": [
+      {
+        "text": "Leading robotics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNITREE ROBOTICS",
+      "website": "https://unitreerobotics.com",
+      "website_display": "unitreerobotics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNIVERS": {
+    "ticker": "UNIVERS",
+    "name": "UNIVERS",
+    "logo": "/assets/logos/Univers.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNIVERS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNIVERS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNIVERS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNIVERS",
+      "website": "https://univers.com",
+      "website_display": "univers.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNQORK": {
+    "ticker": "UNQORK",
+    "name": "UNQORK",
+    "logo": "/assets/logos/Unqork.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNQORK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNQORK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNQORK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNQORK",
+      "website": "https://unqork.com",
+      "website_display": "unqork.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UNSTOPPABLE-DOMAINS": {
+    "ticker": "UNSTOPPABLE-DOMAINS",
+    "name": "UNSTOPPABLE DOMAINS",
+    "logo": "/assets/logos/Unstoppable_Domains.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UNSTOPPABLE DOMAINS is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UNSTOPPABLE DOMAINS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UNSTOPPABLE DOMAINS",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UNSTOPPABLE DOMAINS",
+      "website": "https://unstoppabledomains.com",
+      "website_display": "unstoppabledomains.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPGRAD": {
+    "ticker": "UPGRAD",
+    "name": "UPGRAD",
+    "logo": "/assets/logos/UpGrad.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPGRAD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPGRAD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPGRAD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPGRAD",
+      "website": "https://upgrad.com",
+      "website_display": "upgrad.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPGRADE": {
+    "ticker": "UPGRADE",
+    "name": "UPGRADE",
+    "logo": "/assets/logos/Upgrade.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPGRADE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPGRADE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPGRADE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPGRADE",
+      "website": "https://upgrade.com",
+      "website_display": "upgrade.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPLIGHT": {
+    "ticker": "UPLIGHT",
+    "name": "UPLIGHT",
+    "logo": "/assets/logos/Uplight.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPLIGHT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPLIGHT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPLIGHT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPLIGHT",
+      "website": "https://uplight.com",
+      "website_display": "uplight.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPSIDE": {
+    "ticker": "UPSIDE",
+    "name": "UPSIDE",
+    "logo": "/assets/logos/Upside.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPSIDE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPSIDE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPSIDE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPSIDE",
+      "website": "https://upside.com",
+      "website_display": "upside.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPSIDE-FOODS": {
+    "ticker": "UPSIDE-FOODS",
+    "name": "UPSIDE FOODS",
+    "logo": "/assets/logos/UPSIDE_Foods.jpeg",
+    "tagline": "Revolutionizing food delivery and dining",
+    "tags": [
+      "FoodTech",
+      "Delivery",
+      "Restaurant Tech",
+      "Food Innovation",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Food"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPSIDE FOODS is a food company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPSIDE FOODS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPSIDE FOODS",
+    "highlights": [
+      {
+        "text": "Leading food company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPSIDE FOODS",
+      "website": "https://upsidefoods.com",
+      "website_display": "upsidefoods.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPSTOX": {
+    "ticker": "UPSTOX",
+    "name": "UPSTOX",
+    "logo": "/assets/logos/Upstox.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPSTOX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPSTOX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPSTOX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPSTOX",
+      "website": "https://upstox.com",
+      "website_display": "upstox.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UPTAKE-TECHNOLOGIES": {
+    "ticker": "UPTAKE-TECHNOLOGIES",
+    "name": "UPTAKE TECHNOLOGIES",
+    "logo": "/assets/logos/Uptake_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UPTAKE TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UPTAKE TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UPTAKE TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UPTAKE TECHNOLOGIES",
+      "website": "https://uptaketechnologies.com",
+      "website_display": "uptaketechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "URBAN-COMPANY": {
+    "ticker": "URBAN-COMPANY",
+    "name": "URBAN COMPANY",
+    "logo": "/assets/logos/Urban_Company.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "URBAN COMPANY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "URBAN COMPANY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on URBAN COMPANY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "URBAN COMPANY",
+      "website": "https://urbancompany.com",
+      "website_display": "urbancompany.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UST": {
+    "ticker": "UST",
+    "name": "UST",
+    "logo": "/assets/logos/UST.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UST is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UST main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UST",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UST",
+      "website": "https://ust.com",
+      "website_display": "ust.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "UZUM": {
+    "ticker": "UZUM",
+    "name": "UZUM",
+    "logo": "/assets/logos/Uzum.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "UZUM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "UZUM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on UZUM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "UZUM",
+      "website": "https://uzum.com",
+      "website_display": "uzum.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenue One - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="avenue-one-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Avenue_One.svg" alt="Avenue One" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Avenue One</h1>
+                    <p class="company-tagline">Transforming single-family rental investing by connecting institutional capital with local operators through AI-powered technology</p>
+                    <div class="company-tags"><span class="tag">PropTech</span><span class="tag">Single-Family Rental</span><span class="tag">Real Estate</span><span class="tag">New York</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Avenue One is a technology service platform and investment marketplace that connects institutional investors with local operators for single-family rental (SFR) real estate investing. Founded in 2020, the company leverages artificial intelligence and on-the-ground market insights to enable financial institutions to efficiently purchase and manage rental properties across the United States. Avenue One&#x27;s capital marketplace has on-boarded over $2 billion in assets, providing institutional portfolio managers unprecedented visibility and control in creating custom portfolios. By not acquiring properties directly, Avenue One operates as a pure technology platform, partnering local experts who find, buy, renovate, lease, and manage properties on behalf of institutional clients.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>May 2023</td>
+                <td>Series B</td>
+                <td>$100M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2021</td>
+                <td>Series A</td>
+                <td>Undisclosed</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Capital Marketplace</div>
+            <div class="product-desc">Investment platform connecting institutional debt and equity capital to local operating partners and property owners for SFR investments</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Portfolio Management Platform</div>
+            <div class="product-desc">Technology solution providing institutional investors visibility and control over custom single-family rental portfolios</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Local Operator Network</div>
+            <div class="product-desc">Nationwide network of vetted local partners who source, acquire, renovate, and manage properties on behalf of investors</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Avenue One</h2>
+                        <div class="highlights-list"><a href="https://proptechconnect.com/rental-platform-avenue-one-reaches-unicorn-status/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avenue One Achieves Unicorn Status with $100M Funding Round</span>
+        </a><a href="https://www.pymnts.com/real-estate/2023/rental-platform-avenue-one-reaches-1-billion-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avenue One Surpasses $2 Billion in Platform Assets</span>
+        </a><a href="https://www.businesswire.com/news/home/20230911311126/en/Avenue-One-Adds-Investment-Industry-Leaders-to-Head-Capital-Partnerships-Team" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avenue One Adds Investment Industry Leaders to Capital Team</span>
+        </a><a href="https://www.inman.com/2023/05/15/avenue-one-nets-100m-in-sign-of-sfr-market-evolution/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Single-Family Rental Market Expected to Hit 150,000 Built-for-Rent Units</span>
+        </a><a href="https://www.proptechbuzz.com/blog/top-ten-proptech-companies-in-new-york" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Avenue One Named Top PropTech Company in New York</span>
+        </a><a href="https://www.thesoftwarereport.com/bringing-efficiency-to-residential-real-estate-investing-avenue-ones-bill-martiner/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">CTO Bill Martiner Discusses Efficiency in Residential Real Estate Investing</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/8bd68e3d-ea6e-480d-97ab-0d06b35ef926_medium.jpg" alt="Ryan Stroker" class="leader-photo">
+            <div><div class="leader-name">Ryan Stroker</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/ryanstroker/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/aa209485-d039-4689-be8d-28704021866b_medium.jpg" alt="William Martiner" class="leader-photo">
+            <div><div class="leader-name">William Martiner</div>
+            <div class="leader-role">Co-Founder &amp; CTO</div></div>
+            <a href="https://www.linkedin.com/in/billmartiner/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/c4012576-3106-4e31-b0ab-e35e11f7f4d4_medium.jpg" alt="Austin Sandler" class="leader-photo">
+            <div><div class="leader-name">Austin Sandler</div>
+            <div class="leader-role">General Counsel</div></div>
+            <a href="https://www.linkedin.com/in/austinsandler/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/cfa3333a-b3ef-4cd3-941e-274e4fba0cfb_medium.jpg" alt="Alexandra Distefano" class="leader-photo">
+            <div><div class="leader-name">Alexandra Distefano</div>
+            <div class="leader-role">Head of Acquisitions</div></div>
+            <a href="https://www.linkedin.com/in/alexandradistefano/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://investments.metlife.com/" target="_blank" class="investor-card">
+            <span class="investor-name">MetLife Investment Management</span>
+        </a><a href="https://westcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">WestCap</span>
+        </a><a href="https://foundercollective.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Founder Collective</span>
+        </a><a href="https://www.ycombinator.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Y Combinator</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Avenue One, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.avenueone.com" target="_blank" class="detail-value">www.avenueone.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2020</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">100+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">New York, New York, United States</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

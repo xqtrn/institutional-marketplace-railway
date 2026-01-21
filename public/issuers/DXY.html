@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DXY (Dingxiang Yuan) - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="dxy-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idlOxr6bU6/idJJPEA2VW.png" alt="DXY (Dingxiang Yuan)" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">DXY (Dingxiang Yuan)</h1>
+                    <p class="company-tagline">China&#x27;s largest online healthcare community connecting physicians, patients, and healthcare organizations through digital platforms</p>
+                    <div class="company-tags"><span class="tag">HealthTech</span><span class="tag">Unicorn</span><span class="tag">Chinese Tech</span><span class="tag">Digital Health</span><span class="tag">Telemedicine</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">DXY (Dingxiang Yuan, 丁香园) is China&#x27;s largest online healthcare community and digital service provider, connecting physicians, consumers, and healthcare organizations since 2000. The platform has built the country&#x27;s most comprehensive physician network with online forums, mobile applications, and wholly-owned clinics providing telemedicine services. DXY serves as a bridge between pharmaceutical companies like Pfizer and the Chinese medical community, offering professional education, clinical resources, and patient engagement tools. Backed by Tencent with a $500 million investment, DXY achieved unicorn status and continues to lead China&#x27;s digital health transformation.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2020-12</td>
+                <td>Series E</td>
+                <td>$500M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2018-04</td>
+                <td>Series D</td>
+                <td>$100M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2014-09</td>
+                <td>Series C</td>
+                <td>$70M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DXY Physician Community</div>
+            <div class="product-desc">China&#x27;s largest online forum for doctors featuring clinical discussions, medical literature, and peer networking with millions of members</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DXY Clinics</div>
+            <div class="product-desc">Wholly-owned physical and online clinics providing telemedicine consultations and primary care services to patients across China</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DXY Professional Education</div>
+            <div class="product-desc">Continuing medical education platform for healthcare professionals with courses, certifications, and pharmaceutical company partnerships</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">DXY Consumer Health</div>
+            <div class="product-desc">Patient-facing health information and appointment booking platform connecting consumers with verified healthcare providers</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on DXY (Dingxiang Yuan)</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2020/12/28/china-dxy-500-million-funding-tencent/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Tencent leads $500 million funding round for China's leading healthcare community DXY</span>
+        </a><a href="https://www.chinamoneynetwork.com/2018/04/10/dealshot-chinese-healthcare-portal-dxy-completes-100m-series-d-funding-reaching-a-unicorn-valuation" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DXY achieves unicorn valuation after completing $100M Series D round</span>
+        </a><a href="https://www.healthtechalpha.com/venture/dxy" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform expands telemedicine services through wholly-owned clinic network across China</span>
+        </a><a href="https://www.cbinsights.com/company/dxy" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DXY partners with global pharmaceutical companies for physician engagement and education</span>
+        </a><a href="https://www.chinabiotoday.com/articles/DXY-100-Million-D-Round" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company celebrates 24+ years as China's leading digital healthcare community since 2000</span>
+        </a><a href="https://pitchbook.com/profiles/company/64689-94" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">DXY maintains position as largest physician network in Chinese healthcare market</span>
+        </a><a href="https://en.wikipedia.org/wiki/DXY.cn" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>3.2M+ physician members</strong>—largest physician online community worldwide</span>
+        </a><a href="https://www.businesswire.com/news/home/20240701323038/en/China-Online-Healthcare-Market-Insights-Forecast-Report-2024-2028-with-Profiles-of-Leading-Players-JD.com-Alibaba-Group-Ping-An-Good-Doctor-WeDoctor-Miao-Health-and-DXY.cn---ResearchAndMarkets.com" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Key player in $583B market</strong>—China online healthcare 36.89% CAGR to 2028</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/1ec8e41e-3684-45ce-90ff-88209131aef8_medium.jpg" alt="Tiantian Li" class="leader-photo">
+            <div><div class="leader-name">Tiantian Li</div>
+            <div class="leader-role">Founder &amp; Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/company/dxy-cn/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/2c1cbc8e-d29d-411b-b090-1dca66040414_medium.jpg" alt="Xiaoming Zhou" class="leader-photo">
+            <div><div class="leader-name">Xiaoming Zhou</div>
+            <div class="leader-role">Chief Human Resources Officer</div></div>
+            <a href="https://www.linkedin.com/company/dxy-cn/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Soli+Cheng&amp;background=DC2626&amp;color=fff&amp;size=128" alt="Soli Cheng" class="leader-photo">
+            <div><div class="leader-name">Soli Cheng</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/company/dxy-cn/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/7465565e-7f54-450d-92da-57a35a489441_medium.jpg" alt="Yang Tang" class="leader-photo">
+            <div><div class="leader-name">Yang Tang</div>
+            <div class="leader-role">Senior Product Manager</div></div>
+            <a href="https://www.linkedin.com/company/dxy-cn/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.tencent.com" target="_blank" class="investor-card">
+            <span class="investor-name">Tencent Holdings</span>
+        </a><a href="https://www.idgcapital.com" target="_blank" class="investor-card">
+            <span class="investor-name">IDG Capital</span>
+        </a><a href="https://www.glventures.com" target="_blank" class="investor-card">
+            <span class="investor-name">GL Ventures</span>
+        </a><a href="https://www.trustbridgepartners.com" target="_blank" class="investor-card">
+            <span class="investor-name">Trustbridge Partners</span>
+        </a><a href="https://www.sequoiacap.com/china/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital China</span>
+        </a><a href="https://www.tigerglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Dingxiang Yuan Information Technology Co., Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.dxy.cn" target="_blank" class="detail-value">www.dxy.cn</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2000</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">201-500</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Hangzhou, China</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

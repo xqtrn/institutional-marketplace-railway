@@ -1,0 +1,3059 @@
+{
+  "1PASSWORD": {
+    "ticker": "1PASSWORD",
+    "name": "1Password",
+    "logo": "https://cdn.brandfetch.io/ids0xxqhX-/theme/dark/logo.png",
+    "tagline": "Human-centric security to safeguard your most important information—at work, at home, and everywhere in between",
+    "tags": [
+      "Cybersecurity",
+      "Identity Security",
+      "Password Management",
+      "Enterprise SaaS",
+      "Canada"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$6.8B"
+      },
+      {
+        "label": "ARR (Oct 2025)",
+        "value": "$400M+"
+      },
+      {
+        "label": "Business Customers",
+        "value": "180K"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$920M"
+      }
+    ],
+    "overview": "1Password is a Canadian password management company founded in 2005 by Dave Teare and Roustem Karimov. The company provides secure password vaults for individuals and enterprises. 1Password raised $620M Series C in January 2022 at $6.8B valuation—the largest funding round in Canadian history. ARR surpassed $400M in October 2025, with 75%+ revenue from business customers and 180K business accounts. Gross retention exceeds 90%. In October 2025, founders completed a $100M secondary sale. CEO David Faugno confirmed IPO consideration for 2026-2027. Notable celebrity investors include Ryan Reynolds, Robert Downey Jr., and Justin Timberlake.",
+    "products": [
+      {
+        "name": "1Password Personal/Family",
+        "description": "Password manager for individuals and families",
+        "url": "https://1password.com/personal"
+      },
+      {
+        "name": "1Password Business",
+        "description": "Enterprise password and secrets management",
+        "url": "https://1password.com/business"
+      },
+      {
+        "name": "1Password Enterprise",
+        "description": "Advanced security controls and SSO integration",
+        "url": "https://1password.com/enterprise"
+      },
+      {
+        "name": "1Password Developer Tools",
+        "description": "Secret management for developers (CLI, SSH)",
+        "url": "https://developer.1password.com/"
+      },
+      {
+        "name": "Passage by 1Password",
+        "description": "Passkey authentication platform (acquired)",
+        "url": "https://passage.1password.com/"
+      },
+      {
+        "name": "1Password Extended Access Management",
+        "description": "Device trust and access management",
+        "url": "https://1password.com/solutions/extended-access-management"
+      }
+    ],
+    "highlights_title": "Latest news on 1Password",
+    "highlights": [
+      {
+        "text": "CEO confirmed <strong>IPO consideration 2026-2027</strong>",
+        "url": "https://accessipos.com/1password-ipo-stock/",
+        "date": "consideration 2026"
+      },
+      {
+        "text": "ARR surpassed <strong>$400M</strong> (Oct 2025)",
+        "url": "https://sacra.com/c/1password/",
+        "date": "2025"
+      },
+      {
+        "text": "Founders completed <strong>$100M secondary</strong> (Oct 2025)",
+        "url": "https://accessipos.com/1password-ipo-stock/",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>180K business customers</strong>, 75%+ B2B revenue",
+        "url": "https://sacra.com/c/1password/"
+      },
+      {
+        "text": "<strong>Gross retention above 90%</strong>, cash-flow positive",
+        "url": "https://sacra.com/c/1password/"
+      },
+      {
+        "text": "<strong>$620M Series C</strong>—largest Canadian funding round ($6.8B valuation)",
+        "url": "https://techcrunch.com/2022/01/19/1password-series-c-funding/"
+      },
+      {
+        "title": "<strong>Partnership with Perplexity</strong>—launch partner for Comet AI browser with secure credential management",
+        "url": "https://www.businesswire.com/news/home/20250917040840/en/1Password-Partners-with-Perplexity-to-Secure-the-Future-of-AI-Browsing"
+      },
+      {
+        "title": "<strong>Halo Fund flagship investment</strong>—$75M stake from Ryan Smith's billion-dollar growth fund",
+        "url": "https://www.biometricupdate.com/202510/1password-to-be-flagship-cybersecurity-investment-for-halo-fund"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jeff Shiner",
+        "role": "Executive Chair",
+        "photo": "https://cdn.theorg.com/44294525-c0ea-4981-9d7b-7a6fc87a7ac4_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jeffshiner/"
+      },
+      {
+        "name": "David Faugno",
+        "role": "CEO",
+        "photo": "https://images.ctfassets.net/2h488pz7kgfv/6pHKacOAODwNl5eFmsRyAC/2ef76c732632e888938ce376ff27f0a4/company-david-faugno-photo-706x706.webp",
+        "linkedin": "https://www.linkedin.com/in/davidfaugno/"
+      },
+      {
+        "name": "Pedro Canahuati",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/99803bb4-00fb-4dcb-ab0e-631344fd60d0_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/pedrocanahuati/"
+      },
+      {
+        "name": "Abe Ankumah",
+        "role": "Chief Product Officer",
+        "photo": "https://cdn.theorg.com/d561fc07-0ce4-4d96-87e8-4075a9b53563_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/abeankumah/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "ICONIQ Growth",
+        "url": "https://iconiqcapital.com/"
+      },
+      {
+        "name": "Accel",
+        "url": "https://www.accel.com/"
+      },
+      {
+        "name": "Tiger Global",
+        "url": "https://www.tigerglobal.com/"
+      },
+      {
+        "name": "Lightspeed Venture Partners",
+        "url": "https://lsvp.com/"
+      },
+      {
+        "name": "Salesforce Ventures",
+        "url": "https://www.salesforce.com/ventures/"
+      },
+      {
+        "name": "Backbone Angels",
+        "url": "https://backboneangels.com/"
+      },
+      {
+        "name": "Ryan Reynolds",
+        "url": "https://www.imdb.com/name/nm0005351/"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "url": "https://www.imdb.com/name/nm0000375/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Oct 2025",
+        "amount": "$100M",
+        "round": "Secondary",
+        "valuation": "—",
+        "investors_html": "<a href='https://halofund.com/' target='_blank'>Halo Fund</a> ($75M), existing shareholders"
+      },
+      {
+        "date": "Jan 2022",
+        "amount": "$620M",
+        "round": "Series C",
+        "valuation": "$6.8B",
+        "investors_html": "<a href='https://iconiqcapital.com/' target='_blank'>ICONIQ Growth</a>, <a href='https://www.tigerglobal.com/' target='_blank'>Tiger Global</a>, <a href='https://lsvp.com/' target='_blank'>Lightspeed</a>, <a href='https://www.accel.com/' target='_blank'>Accel</a>"
+      },
+      {
+        "date": "Jul 2021",
+        "amount": "$100M",
+        "round": "Series B",
+        "valuation": "$2B",
+        "investors_html": "<a href='https://www.accel.com/' target='_blank'>Accel</a>"
+      },
+      {
+        "date": "Nov 2019",
+        "amount": "$200M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "<a href='https://www.accel.com/' target='_blank'>Accel</a>"
+      }
+    ],
+    "company_details": {
+      "legal_name": "AgileBits Inc.",
+      "website": "https://1password.com",
+      "website_display": "1password.com",
+      "founded": "2005",
+      "headcount": "1,000+",
+      "hq": "Toronto, Canada",
+      "twitter": "https://twitter.com/1Password",
+      "linkedin": "https://www.linkedin.com/company/1password"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "240% Growth",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$2B",
+              "height": 50
+            },
+            {
+              "label": "Jan 2022",
+              "value": "$6.8B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "ARR, $M",
+          "badge_text": "+21% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$200M",
+              "height": 85
+            },
+            {
+              "label": "2023",
+              "value": "$263M",
+              "height": 112
+            },
+            {
+              "label": "2024",
+              "value": "$331M",
+              "height": 141
+            },
+            {
+              "label": "Oct 2025",
+              "value": "$400M+",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "1X": {
+    "ticker": "1X",
+    "name": "1X Technologies",
+    "logo": "https://cdn.brandfetch.io/idpwrf_3Ya/w/820/h/505/theme/dark/logo.png?c=1bxid64Mup7aczewSAYMX&t=1756088092934",
+    "tagline": "Building humanoid robots that work alongside humans in homes and workplaces",
+    "tags": [
+      "Robotics",
+      "Humanoid",
+      "AI",
+      "Norway"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Target",
+        "value": "$10B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$126M"
+      },
+      {
+        "label": "Backers",
+        "value": "OpenAI, Tiger"
+      },
+      {
+        "label": "Founded",
+        "value": "2014"
+      }
+    ],
+    "overview": "1X Technologies (formerly Halodi Robotics) is a Norwegian-American humanoid robotics company founded in 2014 by roboticist Bernt Øivind Børnich. The company develops general-purpose humanoid robots for home environments. 1X's NEO robot is designed as a personal assistant. In September 2025, 1X entered talks to raise up to $1B at a $10B+ valuation—12x higher than its January 2024 valuation. The company is backed by OpenAI Startup Fund, Tiger Global, and EQT Ventures. Headquarters in Palo Alto with manufacturing in Moss, Norway.",
+    "products": [
+      {
+        "name": "NEO",
+        "description": "Humanoid robot for home assistance",
+        "url": "https://www.1x.tech/androids/neo"
+      },
+      {
+        "name": "EVE",
+        "description": "Commercial humanoid robot",
+        "url": "https://www.1x.tech/androids/eve"
+      },
+      {
+        "name": "1X Operating System",
+        "description": "AI-powered robot control",
+        "url": "https://www.1x.tech/"
+      },
+      {
+        "name": "Revo1 Motors",
+        "description": "High-torque direct drive servomotors",
+        "url": "https://www.1x.tech/"
+      }
+    ],
+    "highlights_title": "Latest news on 1X Technologies",
+    "highlights": [
+      {
+        "text": "Seeking <strong>$1B at $10B+ valuation</strong> (Sep 2025)",
+        "url": "https://techstartups.com/2025/09/24/norways-1x-raising-1b-at-10b-valuation-to-bring-humanoid-robot-neo-into-homes/",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>12x valuation growth</strong> from Jan 2024",
+        "url": "https://www.humanoidsdaily.com/feed/report-humanoid-robotics-firm-1x-seeking-up-to-dollar1b-at-a-valuation-of-dollar10b-or-more",
+        "date": "2024"
+      },
+      {
+        "text": "Raised <strong>$100M Series B</strong> (Jan 2024)",
+        "url": "https://techcrunch.com/2024/01/11/openai-backed-1x-raises-another-100m-for-the-race-to-humanoid-robots/",
+        "date": "2024"
+      },
+      {
+        "text": "Backed by <strong>OpenAI Startup Fund</strong>",
+        "url": "https://sacra.com/c/1x-technologies/"
+      },
+      {
+        "text": "<strong>EQT Ventures</strong> led Series B",
+        "url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures"
+      },
+      {
+        "text": "<strong>NEO robot</strong> for home environments",
+        "url": "https://techstartups.com/2025/09/24/norways-1x-raising-1b-at-10b-valuation-to-bring-humanoid-robot-neo-into-homes/"
+      },
+      {
+        "title": "<strong>NEO pre-orders open</strong>—$20,000 humanoid robot for homes, launching 2026 with $499/month subscription",
+        "url": "https://sifted.eu/articles/1x-humanoid-robot-launch"
+      },
+      {
+        "title": "TechCrunch: Deal to send humanoids to factories",
+        "description": "TechCrunch: Deal to send humanoids to factories",
+        "url": "https://techcrunch.com/2025/12/11/1x-struck-a-deal-to-send-its-home-humanoids-to-factories-and-warehouses/"
+      },
+      {
+        "title": "BusinessWire: 10,000 robots partnership with EQT",
+        "description": "BusinessWire: 10,000 robots partnership with EQT",
+        "url": "https://www.businesswire.com/news/home/20251211360340/en/1X-Announces-Strategic-Partnership-to-Make-up-to-10000-Humanoid-Robots-Available-to-EQTs-Global-Portfolio"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mustally Hussain",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/c726e76c-3fb6-44ff-b211-a7390d756ed0_medium.jpg"
+      },
+      {
+        "name": "Eric Jang",
+        "role": "VP of AI",
+        "photo": "https://cdn.theorg.com/faa48bac-237a-4be1-bcfa-5c8b7fc059cb_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ericjang/"
+      },
+      {
+        "name": "Vikram Kothari",
+        "role": "VP of Operations",
+        "photo": "https://cdn.theorg.com/64e47113-ec74-4a9d-ba50-965559e86ba8_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/vikkothari/"
+      },
+      {
+        "name": "Eric Jang",
+        "role": "VP of AI",
+        "photo": "https://cdn.theorg.com/29d73f39-4bb7-428f-9d2c-e1e85e7fc1fb_medium.jpg"
+      }
+    ],
+    "investors": [
+      {
+        "name": "OpenAI Startup Fund",
+        "url": "https://openai.com/fund/"
+      },
+      {
+        "name": "Tiger Global",
+        "url": "https://www.tigerglobal.com/"
+      },
+      {
+        "name": "EQT Ventures",
+        "url": "https://eqtventures.com/"
+      },
+      {
+        "name": "Samsung NEXT",
+        "url": "https://www.samsungnext.com/"
+      },
+      {
+        "name": "Sandwater",
+        "url": "https://sandwater.no/"
+      },
+      {
+        "name": "Nistad Group",
+        "url": "https://nistad.no/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2025",
+        "amount": "$1B (target)",
+        "round": "Series C",
+        "valuation": "$10B+ (target)",
+        "investors_html": "In discussions"
+      },
+      {
+        "date": "Jan 2024",
+        "amount": "$100M",
+        "round": "Series B",
+        "valuation": "$800M",
+        "investors_html": "EQT Ventures, Samsung NEXT"
+      },
+      {
+        "date": "Mar 2023",
+        "amount": "$23.5M",
+        "round": "Series A2",
+        "valuation": "—",
+        "investors_html": "OpenAI Startup Fund, Tiger Global"
+      }
+    ],
+    "company_details": {
+      "legal_name": "1X Technologies AS",
+      "website": "https://www.1x.tech",
+      "website_display": "1x.tech",
+      "founded": "2014",
+      "headcount": "200+",
+      "hq": "Palo Alto, CA / Moss, Norway",
+      "twitter": "https://twitter.com/1aboratoryx_",
+      "linkedin": "https://www.linkedin.com/company/1x-technologies/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "12x Target Growth",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Jan 24",
+              "value": "$0.8B",
+              "height": 14
+            },
+            {
+              "label": "Sep 25",
+              "value": "$10B (tgt)",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "01AI": {
+    "ticker": "01AI",
+    "name": "01.AI",
+    "logo": "https://user-assets.sxlcdn.com/images/987821/Fm0n5qabe3QXeklo_mDhTy8pkp97.png",
+    "tagline": "Building world-class open-source AI models to democratize artificial intelligence",
+    "tags": [
+      "Artificial Intelligence",
+      "Large Language Models",
+      "Open Source",
+      "Generative AI",
+      "China",
+      "Unicorn"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$300M"
+      },
+      {
+        "label": "Time to Unicorn",
+        "value": "8 months"
+      },
+      {
+        "label": "2024 Revenue",
+        "value": "¥100M"
+      }
+    ],
+    "overview": "01.AI (零一万物) is a Beijing-based artificial intelligence company founded in March 2023 by Kai-Fu Lee, former President of Google China and founder of Sinovation Ventures. The company achieved unicorn status ($1B valuation) in just eight months—one of the fastest in AI history. 01.AI's Yi series models consistently rank among the top open-source LLMs globally, with Yi-Lightning surpassing GPT-4o and Claude 3.5 Sonnet to rank #6 worldwide and #1 in China on LMSYS benchmarks. Notable for training world-class models with just 2,000 GPUs at $3M cost (2% of competitors). In January 2025, 01.AI formed a joint industrial AI lab with Alibaba Cloud to develop enterprise solutions. The company generated ¥100M revenue in 2024 and is pivoting to B2B AI solutions leveraging DeepSeek and other open models.",
+    "products": [
+      {
+        "name": "Yi-Lightning",
+        "description": "Flagship LLM using Mixture-of-Experts architecture, ranked #6 globally and #1 in China on LMSYS, surpassing GPT-4o at 14¢/M tokens",
+        "url": "https://platform.lingyiwanwu.com/"
+      },
+      {
+        "name": "Yi-34B",
+        "description": "Open-source 34B parameter foundation model matching GPT-3.5 performance, Apache 2.0 licensed on Hugging Face",
+        "url": "https://huggingface.co/01-ai/Yi-34B"
+      },
+      {
+        "name": "Yi-VL-34B",
+        "description": "Vision-language model ranked #1 globally on MMMU and CMMMU multimodal benchmarks",
+        "url": "https://huggingface.co/01-ai/Yi-VL-34B"
+      },
+      {
+        "name": "Yi-Coder",
+        "description": "Code generation model supporting 52 programming languages with 128K context window",
+        "url": "https://github.com/01-ai/Yi"
+      },
+      {
+        "name": "Wanzhi (万知)",
+        "description": "Free AI productivity assistant for documents, spreadsheets, and presentations—China's answer to Office Copilot",
+        "url": "https://www.wanzhi.com/"
+      },
+      {
+        "name": "Yi-1.5",
+        "description": "Upgraded model series with enhanced coding, math, and reasoning capabilities, fine-tuned on 3M diverse samples, available in 6B, 9B, and 34B variants",
+        "url": "https://github.com/01-ai/Yi-1.5"
+      },
+      {
+        "name": "Yi-34B-200K",
+        "description": "Extended context foundation model with 200K token context window, achieving 99.8% accuracy on Needle-in-a-Haystack tests",
+        "url": "https://huggingface.co/01-ai/Yi-34B-200K"
+      },
+      {
+        "name": "WanZhi Enterprise Platform",
+        "description": "One-stop enterprise platform for deploying DeepSeek, Qwen, and Yi models with pre-equipped GPUs, targeting SMBs with rapid AI deployment",
+        "url": "https://www.wanzhi.com/"
+      }
+    ],
+    "highlights_title": "Latest news on 01.AI",
+    "highlights": [
+      {
+        "text": "<strong>Dec 9, 2025</strong>—Kai-Fu Lee: AI Agents will revolutionize business, making company building 'like assembling blocks'",
+        "url": "https://pandaily.com/kai-fu-lee-ai-agents-will-revolutionize-business-organization-making-company-building-like-assembling-blocks",
+        "date": "December 9, 2025"
+      },
+      {
+        "text": "<strong>Nov 18, 2025</strong>—Kai-Fu Lee on Bloomberg: US companies will monetize AI first, followed by China",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-18/sinovation-ventures-lee-on-china-us-ai-race-video",
+        "date": "November 18, 2025"
+      },
+      {
+        "text": "<strong>Oct 27, 2025</strong>—New executive appointments: Shen Pengfei to lead ToB/ToG; Zhao Binqiang and Ning Ning promoted to VPs",
+        "url": "https://www.lingyiwanwu.com/newsroom",
+        "date": "October 27, 2025"
+      },
+      {
+        "text": "<strong>July 22, 2025</strong>—Wanzhi Enterprise Platform 2.0 launched with 'Super Employee Wanzai' AI Agent for enterprise automation",
+        "url": "https://www.aibase.com/news/19851",
+        "date": "July 22, 2025"
+      },
+      {
+        "text": "<strong>March 2025</strong>—Kai-Fu Lee predicts only 3 AI models will survive China shakeout: DeepSeek, Alibaba, and one other",
+        "url": "https://www.bloomberg.com/news/articles/2025-03-20/ai-pioneer-sees-handful-of-models-surviving-us-china-shakeout",
+        "date": "March 20, 2025"
+      },
+      {
+        "text": "<strong>March 2025</strong>—Launched WanZhi Enterprise Platform for DeepSeek V3/R1 deployment with 88% AI search accuracy",
+        "url": "https://en.tmtpost.com/post/7497277",
+        "date": "March 17, 2025"
+      },
+      {
+        "text": "<strong>March 2025</strong>—Kai-Fu Lee: China hits 'ChatGPT moment' with DeepSeek; DeepSeek is 'AI 2.0-era Windows kernel'",
+        "url": "https://www.digitimes.com/news/a20250401PD229/deepseek-2025-01.ai-ceo-beijing.html",
+        "date": "March 2025"
+      },
+      {
+        "text": "<strong>Feb 21, 2025</strong>—01.AI restructures to focus on AI video editing; plans to spin off digital human business",
+        "url": "https://technode.com/2025/02/21/kaifu-lees-ai-unicorn-01-ai-restructures-to-focus-on-ai-video-editing-and-new-ventures/",
+        "date": "February 21, 2025"
+      },
+      {
+        "text": "<strong>Feb 11, 2025</strong>—PopAI integrates DeepSeek-R1—first among China's 'Big Six AI' to adopt DeepSeek model",
+        "url": "https://en.tmtpost.com/news/7450701",
+        "date": "February 11, 2025"
+      },
+      {
+        "text": "<strong>Jan 2025</strong>—Kai-Fu Lee denies rumors of selling 01.AI to Alibaba; pivots strategy to lightweight models",
+        "url": "https://kr-asia.com/kai-fu-lee-sets-the-record-straight-on-01-ais-pivot",
+        "date": "January 2025"
+      },
+      {
+        "text": "<strong>Jan 2, 2025</strong>—Alibaba Cloud + 01.AI form 'Industrial Large Model Joint Laboratory' for enterprise LLM deployment",
+        "url": "https://www.scmp.com/tech/big-tech/article/3293297/alibaba-ties-lee-kai-fus-unicorn-chinas-ai-sector-consolidates",
+        "date": "January 2, 2025"
+      },
+      {
+        "text": "<strong>Nov 2024</strong>—Yi-Lightning trained at $3M (3% of GPT-4 cost) using just 2,000 GPUs",
+        "url": "https://arxiv.org/abs/2412.01253",
+        "date": "November 2024"
+      },
+      {
+        "text": "<strong>Oct 2024</strong>—Yi-Lightning ranked #6 globally, #1 in China on LMSYS Chatbot Arena, surpassing GPT-4o",
+        "url": "https://pandaily.com/01-ai-releases-new-flagship-model-yi-lightning",
+        "date": "October 2024"
+      },
+      {
+        "text": "<strong>Sep 2024</strong>—Yi-Coder launched with 85.4% HumanEval pass rate, supporting 52 programming languages",
+        "url": "https://venturebeat.com/ai/yi-coder-the-open-source-ai-that-wants-to-be-your-coding-buddy/",
+        "date": "September 2024"
+      },
+      {
+        "text": "<strong>May 2024</strong>—Yi-Large released, surpassing GPT-4 on AlpacaEval 2.0 at one-third the cost",
+        "url": "https://news.cgtn.com/news/2024-05-15/AI-expert-Kai-Fu-Lee-s-new-large-model-surpasses-GPT-4-1tCtspyGLte/p.html",
+        "date": "May 2024"
+      },
+      {
+        "text": "<strong>2024</strong>—Revenue exceeded ¥100M; nearing profitability with B2B pivot; Kai-Fu Lee commits no cash-out for 10 years",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3293791/chinese-start-01ai-founder-lee-kai-fu-denies-rumours-asset-sale-alibaba",
+        "date": "2024"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Kai-Fu Lee",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/aa51fae0-6414-4495-b05f-21244e4b60ec_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/kaifulee/"
+      },
+      {
+        "name": "Anita Huang",
+        "role": "Co-Founder & CMO",
+        "photo": "https://cdn.theorg.com/c29d5c7e-89f2-4ba0-bcae-d989d4ce0fa7_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/anitahuang98/"
+      },
+      {
+        "name": "Ken Qi",
+        "role": "Co-Founder",
+        "photo": "https://cdn.theorg.com/aa51fae0-6414-4495-b05f-21244e4b60ec_medium.jpg",
+        "linkedin": "https://cn.linkedin.com/in/ken-qi-42a27b16"
+      },
+      {
+        "name": "Shen Pengfei",
+        "role": "Co-Founder & VP of B2B",
+        "photo": "https://cdn.theorg.com/c29d5c7e-89f2-4ba0-bcae-d989d4ce0fa7_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/01-ai/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Alibaba Cloud",
+        "url": "https://www.alibabacloud.com/"
+      },
+      {
+        "name": "Tencent",
+        "url": "https://www.tencent.com/en-us/"
+      },
+      {
+        "name": "Xiaomi",
+        "url": "https://www.mi.com/global"
+      },
+      {
+        "name": "Sinovation Ventures",
+        "url": "https://www.sinovationventures.com/"
+      },
+      {
+        "name": "Southeast Asian Consortium",
+        "url": "https://tracxn.com/d/companies/01.ai/__-gDw3QA2cxhEHCuampmbLXvEk9cBAO1Opo3mdn774Kg/funding-and-investors"
+      },
+      {
+        "name": "IDG Capital",
+        "url": "https://www.idgcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Aug 2024",
+        "round": "Series D",
+        "amount": "Undisclosed",
+        "valuation": "—",
+        "investors_html": "Southeast Asian consortium"
+      },
+      {
+        "date": "Nov 2023",
+        "round": "Series D",
+        "amount": "$300M",
+        "valuation": "$1B",
+        "investors_html": "<a href=\"https://www.alibabacloud.com/\" target=\"_blank\">Alibaba Cloud</a> (lead), <a href=\"https://www.tencent.com/en-us/\" target=\"_blank\">Tencent</a>, <a href=\"https://www.mi.com/global\" target=\"_blank\">Xiaomi</a>, <a href=\"https://www.sinovationventures.com/\" target=\"_blank\">Sinovation</a>"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Beijing Lingyiwanwu Technology Co., Ltd. (零一万物)",
+      "website": "https://www.01.ai/",
+      "website_display": "01.ai",
+      "founded": "March 2023",
+      "headcount": "300+",
+      "hq": "Beijing, China",
+      "twitter": "https://twitter.com/01AI_Yi",
+      "linkedin": "https://www.linkedin.com/company/01-ai/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue Growth, ¥M",
+          "badge_text": "Multi-X in 2025",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2023",
+              "value": "¥20M",
+              "height": 24
+            },
+            {
+              "label": "2024",
+              "value": "¥100M",
+              "height": 120
+            },
+            {
+              "label": "2025E",
+              "value": "¥300M+",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Training Cost vs GPT-4, $M",
+          "badge_text": "97% cheaper",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "GPT-4",
+              "value": "$100M",
+              "height": 170
+            },
+            {
+              "label": "Grok",
+              "value": "$50M",
+              "height": 85
+            },
+            {
+              "label": "Yi-Light",
+              "value": "$3M",
+              "height": 15
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "1047-GAMES": {
+    "ticker": "1047-GAMES",
+    "name": "1047 Games",
+    "logo": "https://lp-cms-prod.images.maverick-rooster.prod.1047games.com/1047_ffd9fa009f.png",
+    "tagline": "Creators of Splitgate—the portal-based arena shooter that redefined competitive FPS gaming",
+    "tags": [
+      "Gaming",
+      "Free-to-Play",
+      "FPS Shooter",
+      "Esports",
+      "United States",
+      "Unicorn"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.5B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$130M"
+      },
+      {
+        "label": "Employees",
+        "value": "200+"
+      },
+      {
+        "label": "Downloads",
+        "value": "13M+"
+      }
+    ],
+    "overview": "Developer of competitive multiplayer games combining portal mechanics with arena shooter gameplay. The company focuses on fast-paced first-person shooter experiences, innovative movement systems, and cross-platform competitive gaming. It helps gamers experience unique sci-fi combat through seamless portal-based navigation and tactical arena design. The company provides the Splitgate franchise featuring portal warfare, Unreal Engine-powered game technology, and competitive esports infrastructure. It promotes innovation in the free-to-play multiplayer shooter genre through community-driven development and classic arena combat philosophy.",
+    "products": [
+      {
+        "name": "Splitgate: Arena Reloaded",
+        "description": "Back-to-basics portal shooter combining best elements of original and sequel—classic arena combat without factions or abilities, new Railgun power weapon, five new maps, rebuilt progression system, and simplified battle pass launching December 17, 2025",
+        "url": "https://www.splitgate.com/news/introducing-splitgate-arena-reloaded/"
+      },
+      {
+        "name": "Portal Combat System",
+        "description": "Proprietary gameplay mechanic allowing players to create inter-dimensional portals for strategic movement and combat advantages—see enemies through portals, create flanking routes, and execute impossible shots across 15 maps",
+        "url": "https://www.splitgate.com/game"
+      },
+      {
+        "name": "Cross-Platform Multiplayer",
+        "description": "Full cross-play support across PlayStation 5, PlayStation 4, Xbox Series X/S, Xbox One, and PC (Steam, Epic Games Store)—unified matchmaking and progression system enabling seamless competitive play",
+        "url": "https://store.steampowered.com/app/2918300/SPLITGATE_Arena_Reloaded/"
+      },
+      {
+        "name": "Ranked Competitive Mode",
+        "description": "Skill-based ranked system featuring SBMM matchmaking, seasonal rankings, competitive playlists, and esports-ready tournament infrastructure with Bitcoin rewards through ZBD partnership",
+        "url": "https://www.splitgate.com/ranked"
+      },
+      {
+        "name": "Classic Arena Mode",
+        "description": "Even-start gameplay mode with map weapon pickups—no loadouts or abilities, pure skill-based combat reminiscent of classic arena shooters like Halo and Quake",
+        "url": "https://www.splitgate.com/game-modes"
+      }
+    ],
+    "highlights_title": "Latest news on 1047 Games",
+    "highlights": [
+      {
+        "text": "<strong>Dec 5, 2025</strong>—Splitgate: Arena Reloaded announced for December 17 launch—back-to-basics reboot with Railgun, new maps, rebuilt progression",
+        "url": "https://www.gematsu.com/2025/12/splitgate-2-relaunches-as-splitgate-arena-reloaded-on-december-17",
+        "date": "December 5, 2025"
+      },
+      {
+        "text": "<strong>Dec 4, 2025</strong>—Splitgate 2 rebooted as Arena Reloaded—combines best of original and sequel, removes factions and abilities",
+        "url": "https://gameinformer.com/2025/12/04/splitgate-2-has-been-rebooted-as-splitgate-arena-reloaded-and-it-relaunches-this-month",
+        "date": "December 4, 2025"
+      },
+      {
+        "text": "<strong>Dec 4, 2025</strong>—Arena Reloaded revealed at PC Gaming Show: Most Wanted—seven months after Splitgate 2 went back to drawing board",
+        "url": "https://www.pcgamer.com/gaming-industry/events-conferences/splitgate-2-is-dead-long-live-splitgate-arena-reloaded-the-shooters-back-to-the-basics-relaunch-is-coming-december-17/",
+        "date": "December 4, 2025"
+      },
+      {
+        "text": "<strong>July 23, 2025</strong>—1047 Games pulls Splitgate 2 back to beta: 'We rushed certain features, made boneheaded mistakes'",
+        "url": "https://www.engadget.com/gaming/splitgate-2-is-yanked-back-to-beta-a-month-after-release-231022772.html",
+        "date": "July 23, 2025"
+      },
+      {
+        "text": "<strong>July 2025</strong>—45 employees laid off, co-founders forgo salaries; original Splitgate servers shutting down to cut costs",
+        "url": "https://www.gamedeveloper.com/business/1047-games-lays-off-developers-ceo-says-he-s-made-many-many-mistakes-",
+        "date": "July 2025"
+      },
+      {
+        "text": "<strong>June 21, 2025</strong>—First round of layoffs (10-15% of staff) following rocky Splitgate 2 launch",
+        "url": "https://xboxera.com/2025/06/21/1047-games-developers-of-splitgate-2-layoff-a-small-group-of-valued-staff/",
+        "date": "June 21, 2025"
+      },
+      {
+        "text": "<strong>June 6, 2025</strong>—Splitgate 2 launches on PC and consoles; CEO's 'Make FPS Great Again' hat sparks controversy at Summer Game Fest",
+        "url": "https://kotaku.com/splitgate-2-arena-shooter-beta-1047-games-2000650903",
+        "date": "June 6, 2025"
+      },
+      {
+        "text": "<strong>May 22, 2025</strong>—Splitgate 2 open beta launches with 25 weapons, 15 maps, and 10 modes",
+        "url": "https://www.pushsquare.com/news/2024/07/splitgate-2-announced-for-2025-more-news-coming-in-august",
+        "date": "May 22, 2025"
+      },
+      {
+        "text": "<strong>Sep 2025</strong>—VentureBeat interview: How 1047 Games put VC money to use building Splitgate 2",
+        "url": "https://venturebeat.com/games/how-1047-games-put-its-vc-money-to-good-use-on-splitgate-2-ian-proulx-interview/",
+        "date": "September 2025"
+      },
+      {
+        "text": "<strong>Sep 2021</strong>—1047 Games raises $100M at $1.5B valuation after 13M Splitgate downloads—Lightspeed leads",
+        "url": "https://techcrunch.com/2021/09/14/1047-games-raises-100m-on-the-runaway-success-of-its-debut-title-splitgate/",
+        "date": "September 2021"
+      },
+      {
+        "text": "<strong>Sep 2021</strong>—$100M funding round backed by Insight Partners after breakthrough summer success",
+        "url": "https://www.insightpartners.com/ideas/1047-games-raises-100m-at-1-5b-valuation-after-13m-splitgate-downloads/",
+        "date": "September 2021"
+      },
+      {
+        "text": "<strong>Aug 2021</strong>—Peak 67,724 concurrent Steam players during Season 0; servers overwhelmed by 120K+ total players",
+        "url": "https://venturebeat.com/games/1047-games-raises-100m-at-1-5b-valuation-after-13m-splitgate-downloads/",
+        "date": "August 2021"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ian Proulx",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/1ab97b91-00b0-487c-a52c-0e4fca69c444_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ianproulx/"
+      },
+      {
+        "name": "Nicholas Bagamian",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/edfa8c20-0114-453d-aad8-3bd8a2600961_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/nicholasbagamian/"
+      },
+      {
+        "name": "Tom Proulx",
+        "role": "Chairman & CFO",
+        "photo": "https://cdn.theorg.com/d0d27076-aed9-481a-b89e-4ef2981bad83_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/1047games/"
+      },
+      {
+        "name": "Alex Chrisman",
+        "role": "VP, Executive Producer",
+        "photo": "https://cdn.theorg.com/8790af65-9381-4c67-b260-8a96a0d12d79_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/1047games/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Lightspeed Venture Partners",
+        "url": "https://lsvp.com/"
+      },
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com/"
+      },
+      {
+        "name": "Human Capital",
+        "url": "https://www.humancapital.com/"
+      },
+      {
+        "name": "Anthos Capital",
+        "url": "https://www.anthoscapital.com/"
+      },
+      {
+        "name": "Draper Dragon",
+        "url": "https://www.draperdragon.com/"
+      },
+      {
+        "name": "Galaxy Interactive",
+        "url": "https://galaxydigital.io/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2021",
+        "round": "Series C",
+        "amount": "$100M",
+        "valuation": "$1.5B",
+        "investors_html": "<a href=\"https://lsvp.com/\" target=\"_blank\">Lightspeed</a> (lead), <a href=\"https://www.insightpartners.com/\" target=\"_blank\">Insight Partners</a>"
+      },
+      {
+        "date": "Jul 2021",
+        "round": "Series B",
+        "amount": "$20M",
+        "valuation": "—",
+        "investors_html": "<a href=\"https://www.humancapital.com/\" target=\"_blank\">Human Capital</a> (lead)"
+      },
+      {
+        "date": "May 2021",
+        "round": "Series A",
+        "amount": "$6.5M",
+        "valuation": "—",
+        "investors_html": "Multiple investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "1047 Games LLC",
+      "website": "https://www.splitgate.com/",
+      "website_display": "splitgate.com",
+      "founded": "2017",
+      "headcount": "200+",
+      "hq": "Zephyr Cove, Nevada",
+      "twitter": "https://twitter.com/Splitgate",
+      "linkedin": "https://www.linkedin.com/company/1047games/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Funding Rounds 2021, $M",
+          "badge_text": "$130M total",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "May 2021", "value": "$6.5M", "height": 15},
+            {"label": "Jul 2021", "value": "$20M", "height": 40},
+            {"label": "Sep 2021", "value": "$100M", "height": 170}
+          ]
+        },
+        {
+          "title": "Peak Concurrent Players, K",
+          "badge_text": "15M+ downloads",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2019", "value": "2K", "height": 5},
+            {"label": "Jul 2021", "value": "10K", "height": 30},
+            {"label": "Aug 2021", "value": "67K", "height": 170}
+          ]
+        },
+        {
+          "title": "Valuation Growth, $B",
+          "badge_text": "Unicorn",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "May 2021", "value": "~$50M", "height": 8},
+            {"label": "Jul 2021", "value": "~$200M", "height": 30},
+            {"label": "Sep 2021", "value": "$1.5B", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "1INCH-LABS": {
+    "ticker": "1INCH-LABS",
+    "name": "1inch Network",
+    "logo": "https://cdn.brandfetch.io/idyJhw04qE/theme/dark/logo.svg",
+    "tagline": "Leading DEX aggregator finding the best swap rates across 400+ liquidity sources in DeFi",
+    "tags": [
+      "DeFi",
+      "DEX Aggregator",
+      "Cryptocurrency",
+      "Web3",
+      "Blockchain"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2.25B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$190M"
+      },
+      {
+        "label": "Trading Volume",
+        "value": "$700B+"
+      },
+      {
+        "label": "Users",
+        "value": "10M+"
+      }
+    ],
+    "overview": "Developer of decentralized exchange aggregation protocols and DeFi infrastructure for optimal token swaps across multiple blockchain networks. The company focuses on intelligent trade routing, gas-efficient execution, and cross-chain liquidity aggregation through its Pathfinder algorithm. It helps crypto traders and DeFi users achieve best swap rates with minimal slippage and MEV protection. The company provides the Aggregation Protocol, Fusion+ cross-chain swaps, Limit Order Protocol, and mobile wallet applications. It promotes decentralized finance accessibility through open-source development and multi-chain interoperability.",
+    "products": [
+      {
+        "name": "Aggregation Protocol",
+        "description": "Core routing engine using Pathfinder algorithm to analyze 400+ DEXs and liquidity pools across 13+ chains, splitting trades across multiple venues for optimal execution with minimal slippage and best swap rates",
+        "url": "https://1inch.network/aggregation-protocol/"
+      },
+      {
+        "name": "Fusion+ Cross-Chain Swaps",
+        "description": "Intent-based atomic swap system enabling gasless, MEV-protected cross-chain transactions across Ethereum, Solana, BNB Chain, and 12+ EVM networks without bridges through resolver network and Dutch auction pricing",
+        "url": "https://1inch.network/fusion-plus-protocol"
+      },
+      {
+        "name": "Limit Order Protocol",
+        "description": "Gasless limit order functionality allowing users to set target prices for token swaps without holding native tokens for gas fees, supporting 112+ permit-enabled tokens including USDC, DAI, AAVE, and UNI",
+        "url": "https://1inch.network/limit-order-protocol/"
+      },
+      {
+        "name": "1inch Wallet",
+        "description": "Self-custodial mobile wallet for iOS and Android with built-in DEX aggregation, cross-chain swaps, Ledger Nano X hardware wallet integration via Bluetooth, and WalletConnect support for dApps",
+        "url": "https://1inch.com/wallet"
+      },
+      {
+        "name": "1inch Card",
+        "description": "Web3 debit card in partnership with Mastercard and Baanx for instant crypto-to-fiat conversion, enabling real-world purchases and ATM withdrawals from crypto holdings in UK and EEA regions",
+        "url": "https://1inch.com/"
+      },
+      {
+        "name": "Aqua Protocol",
+        "description": "Shared liquidity layer allowing capital from a single wallet to back multiple DeFi trading strategies simultaneously without compromising user custody, with SDK and bounties up to $100K for developers",
+        "url": "https://blog.1inch.com/1inch-introduces-aqua/"
+      }
+    ],
+    "highlights_title": "Latest news on 1inch Network",
+    "highlights": [
+      {
+        "text": "<strong>Dec 11, 2025</strong>—1inch named exclusive swap provider at launch for Ledger Multisig with deep liquidity aggregation and MEV protection",
+        "url": "https://techstartups.com/2025/12/11/1inch-named-exclusive-swap-provider-at-launch-for-ledger-multisig/",
+        "date": "December 11, 2025"
+      },
+      {
+        "text": "<strong>Nov 20, 2025</strong>—Coinbase app integrating 1inch Swap API to enhance non-custodial token swaps—largest US client to date",
+        "url": "https://www.theblock.co/post/373149/coinbase-app-integrating-1inch-api-to-enhance-token-swaps",
+        "date": "November 20, 2025"
+      },
+      {
+        "text": "<strong>Nov 17, 2025</strong>—1inch launches Aqua protocol for shared DeFi liquidity model at Devconnect Buenos Aires",
+        "url": "https://www.coindesk.com/web3/2025/11/17/1inch-launches-aqua-a-protocol-letting-multiple-defi-strategies-share-the-same-capital",
+        "date": "November 17, 2025"
+      },
+      {
+        "text": "<strong>Aug 2025</strong>—1inch launches industry-first native Solana–EVM cross-chain swaps without bridges",
+        "url": "https://cointelegraph.com/news/1inch-solana-evm-crosschain-swaps-no-bridges",
+        "date": "August 2025"
+      },
+      {
+        "text": "<strong>Jul 14, 2025</strong>—SafePal and 1inch partner to give away 300 co-branded hardware wallets to boost DeFi security",
+        "url": "https://www.coindesk.com/business/2025/07/14/safepal-and-1inch-to-give-away-hardware-wallets-to-boost-defi-security",
+        "date": "July 14, 2025"
+      },
+      {
+        "text": "<strong>Jun 11, 2025</strong>—1inch unveils new Pathfinder algorithm with up to 6.5% better swap rates",
+        "url": "https://www.theblock.co/post/357669/leading-dex-aggregated-1inch-unveils-new-pathfinder-algorithm-for-improved-swap-rates",
+        "date": "June 11, 2025"
+      },
+      {
+        "text": "<strong>Jun 2025</strong>—1inch reclaims DEX aggregator lead with 60% market share after Solana expansion—up from 32% in March",
+        "url": "https://www.theblock.co/post/356650/1inch-dex-aggregator-60-market-share-solana-expansion",
+        "date": "June 2025"
+      },
+      {
+        "text": "<strong>Feb 6, 2025</strong>—1inch integrates ZKsync to boost cross-chain swaps via Fusion+ technology",
+        "url": "https://www.coindesk.com/business/2025/02/06/dex-aggregator-1inch-integrates-zksync-to-boost-cross-chain-swaps",
+        "date": "February 6, 2025"
+      },
+      {
+        "text": "<strong>Nov 25, 2024</strong>—1inch reveals Fusion+ cross-chain feature enabling intent-based atomic swaps without bridges",
+        "url": "https://www.theblock.co/post/328056/1inch-to-turn-cross-chain-swaps-into-an-intent-based-system-with-fusion",
+        "date": "November 25, 2024"
+      },
+      {
+        "text": "<strong>Oct 2024</strong>—1inch and Bruce Lee family launch 'seriousLee' DeFi campaign to promote crypto adoption",
+        "url": "https://cointelegraph.com/news/1inch-bruce-lee-family-defi-adoption-seriouslee-campaign",
+        "date": "October 2024"
+      },
+      {
+        "text": "<strong>Apr 8, 2024</strong>—1inch introduces Web3 debit card in partnership with Mastercard and Baanx",
+        "url": "https://www.coindesk.com/business/2024/04/08/defi-firm-1inch-introduces-web3-debit-card-in-partnership-with-mastercard-and-baanx",
+        "date": "April 8, 2024"
+      },
+      {
+        "text": "<strong>Feb 2024</strong>—Lido adds 1inch for faster withdrawals of stETH and wstETH",
+        "url": "https://www.theblock.co/post/278409/lido-adds-1inch-for-faster-withdrawals-of-steth-and-wsteth",
+        "date": "February 2024"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Sergej Kunz",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/f80e4e61-29a1-4e50-8ec8-b62dd5e6023b_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/deacix0/"
+      },
+      {
+        "name": "Anton Bukov",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/a61ed1cd-a583-47db-a486-bb776055fcd4_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/k06a/"
+      },
+      {
+        "name": "Chae Ho Shin",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/5e7d1eca-b7b7-472e-8d21-20981c725762_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/chaehoshin/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Amber Group",
+        "url": "https://www.ambergroup.io/"
+      },
+      {
+        "name": "Pantera Capital",
+        "url": "https://panteracapital.com/"
+      },
+      {
+        "name": "Binance Labs",
+        "url": "https://labs.binance.com/"
+      },
+      {
+        "name": "Jane Street",
+        "url": "https://www.janestreet.com/"
+      },
+      {
+        "name": "VanEck",
+        "url": "https://www.vaneck.com/"
+      },
+      {
+        "name": "Gemini Frontier Fund",
+        "url": "https://www.gemini.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Dec 2021",
+        "amount": "$175M",
+        "round": "Series B",
+        "valuation": "$2.25B",
+        "investors_html": "<a href='https://www.ambergroup.io/' target='_blank'>Amber Group</a> (lead), <a href='https://www.janestreet.com/' target='_blank'>Jane Street</a>, <a href='https://www.vaneck.com/' target='_blank'>VanEck</a>, 50+ others"
+      },
+      {
+        "date": "Dec 2020",
+        "amount": "$12M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "<a href='https://panteracapital.com/' target='_blank'>Pantera Capital</a> (lead)"
+      },
+      {
+        "date": "Aug 2020",
+        "amount": "$2.8M",
+        "round": "Seed",
+        "valuation": "—",
+        "investors_html": "<a href='https://labs.binance.com/' target='_blank'>Binance Labs</a>"
+      }
+    ],
+    "company_details": {
+      "legal_name": "1inch Labs",
+      "website": "https://1inch.io/",
+      "website_display": "1inch.io",
+      "founded": "2019",
+      "headcount": "100+",
+      "hq": "Dubai, UAE",
+      "twitter": "https://twitter.com/1inch",
+      "linkedin": "https://www.linkedin.com/company/1inch/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Daily Trading Volume, $M",
+          "badge_text": "$848M Q2 2025",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "Q1 2024", "value": "$350M", "height": 70},
+            {"label": "Q1 2025", "value": "$422M", "height": 85},
+            {"label": "Q2 2025", "value": "$848M", "height": 170}
+          ]
+        },
+        {
+          "title": "DEX Aggregator Market Share, %",
+          "badge_text": "60% leader",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "Mar 2025", "value": "32%", "height": 55},
+            {"label": "May 2025", "value": "60%", "height": 100},
+            {"label": "Jun 2025", "value": "60%", "height": 170}
+          ]
+        },
+        {
+          "title": "Supported Blockchain Networks",
+          "badge_text": "Multi-chain",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2020", "value": "2", "height": 25},
+            {"label": "2023", "value": "8", "height": 85},
+            {"label": "2025", "value": "13+", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "1KMXC": {
+    "ticker": "1KMXC",
+    "name": "MXC Foundation",
+    "logo": "/assets/logos/1KMXC.jpeg",
+    "tagline": "Building the world's largest decentralized IoT network on blockchain",
+    "tags": [
+      "IoT",
+      "Blockchain",
+      "LPWAN",
+      "DePIN",
+      "Germany"
+    ],
+    "kpis": [
+      {
+        "label": "Total Funding",
+        "value": "$10M"
+      },
+      {
+        "label": "Network Type",
+        "value": "LPWAN"
+      },
+      {
+        "label": "Employees",
+        "value": "14"
+      },
+      {
+        "label": "Founded",
+        "value": "2018"
+      }
+    ],
+    "overview": "Developer of blockchain-based IoT data networks and low-power wide-area wireless infrastructure for decentralized machine-to-machine communication. The company focuses on LPWAN sensor networks, edge computing, and proof-of-participation mining protocols for IoT data monetization. It helps cities and enterprises capture smart city data through crowdsourced network infrastructure and secure blockchain-powered marketplaces. The company provides the MXProtocol, M2 Pro mining devices, DataDash mobile application, and Moonchain zkEVM Layer 3 blockchain. It promotes democratization of IoT data ownership through tokenized incentive mechanisms and global wireless network coverage.",
+    "products": [
+      {
+        "name": "MXProtocol",
+        "description": "Decentralized machine-to-machine communication protocol enabling IoT devices to transmit data via LPWAN networks with proof-of-participation consensus, smart bidding for bandwidth, and interchain data markets across permissionless blockchains",
+        "url": "https://www.mxc.org/mxprotocol"
+      },
+      {
+        "name": "M2 Pro Miner",
+        "description": "Multi-token LPWAN crypto mining device supporting MXC, DHX, and Bitcoin with plug-and-play setup, 20km+ LoRaWAN coverage range, under 5W power consumption, and IP66 weatherproof enclosure for outdoor deployment",
+        "url": "https://matchx.io/products/m2-pro-lpwan-crypto-miner"
+      },
+      {
+        "name": "DataDash App",
+        "description": "Mobile application for iOS and Android enabling users to manage M2 Pro miners, stake MXC tokens on Supernodes, mine multiple cryptocurrencies, and monitor IoT network earnings with 24/7 wallet activity tracking",
+        "url": "https://www.mxc.org/datadash-app"
+      },
+      {
+        "name": "Moonchain zkEVM",
+        "description": "Layer 3 zero-knowledge EVM blockchain built on Arbitrum providing DePIN-focused infrastructure with enhanced scalability, privacy protection, and low gas fees for IoT applications and smart city deployments",
+        "url": "https://www.mxc.org/blog/mxc-building-on-arbitrum"
+      },
+      {
+        "name": "MatchX Hardware",
+        "description": "Enterprise-grade LPWAN gateways and sensors with listen-before-talk technology, 35km+ range coverage, 10-year battery life sensors, and deep penetration capability for underground and indoor IoT deployments",
+        "url": "https://matchx.io/"
+      }
+    ],
+    "highlights_title": "Latest news on MXC Foundation",
+    "highlights": [
+      {
+        "text": "<strong>Jul 2025</strong>—Moonchain partners with CyberCharge to launch free Web3 energy devices via Initial Hardware Offering (IHO)",
+        "url": "https://crypto.news/heres-why-moonchains-mxc-rallied-over-240-today/",
+        "date": "July 2025"
+      },
+      {
+        "text": "<strong>May 2025</strong>—MXC token surges 247% after mining reactivation and OKX Wallet integration",
+        "url": "https://crypto.news/heres-why-moonchains-mxc-rallied-over-240-today/",
+        "date": "May 2025"
+      },
+      {
+        "text": "<strong>May 2024</strong>—MXC completes brand upgrade to Moonchain with mainnet and cross-chain product launch",
+        "url": "https://www.binance.com/en-JP/square/post/2024-05-08-mxc-moonchain-7806467646706",
+        "date": "May 2024"
+      },
+      {
+        "text": "<strong>Mar 26, 2024</strong>—JDI Ventures invests $10M into MXC Foundation to advance Ethereum's largest DePIN network",
+        "url": "https://decrypt.co/223477/jdi-invests-10m-into-mxc-foundation-to-advance-ethereums-largest-depin-network",
+        "date": "March 26, 2024"
+      },
+      {
+        "text": "<strong>2023</strong>—MXC becomes first ever Layer 3 on Arbitrum at EDCON 2023 conference",
+        "url": "https://www.mxc.org/blog/mxc-building-on-arbitrum",
+        "date": "2023"
+      },
+      {
+        "text": "<strong>May 2021</strong>—MXC Foundation becomes first blockchain IoT project to join Alibaba's IoT Connectivity Alliance",
+        "url": "https://wca.org/mxc-foundation-first-blockchain-iot-project-to-join-alibabas-ica/",
+        "date": "May 2021"
+      },
+      {
+        "text": "<strong>2019</strong>—Shanghai Yangpu district partners with MXC for smart city IoT deployment via MXProtocol",
+        "url": "https://technode.com/2019/03/11/shanghai-partners-with-mxc-foundation-to-improve-smart-city-technology/",
+        "date": "March 2019"
+      },
+      {
+        "text": "<strong>2019</strong>—MXC brings smart city IoT standard to South Korea with Enlink partnership",
+        "url": "https://blog.mxc.org/mxc-brings-smart-city-iot-standard-to-south-korea/",
+        "date": "January 2019"
+      },
+      {
+        "text": "<strong>Dec 2018</strong>—MXProtocol launches in New York City in cooperation with MatchX and Citiesense",
+        "url": "https://blog.mxc.org/nyc-adopts-mxprotocol/",
+        "date": "December 2018"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Xin Sheen Hu",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/b0bd89fe-5a38-4f57-a732-61ad2aace1e5_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/sheenhu/"
+      },
+      {
+        "name": "Aaron Wagener",
+        "role": "Co-Founder & COO",
+        "photo": "https://cdn.theorg.com/c30ffd41-5cc7-44e3-a966-8cb0df9f2d40_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/aaron-wagener-0424821/"
+      },
+      {
+        "name": "Piotr Brzezinski",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/fc52f4cf-10d2-4db9-9f0c-8b3c5f8c3f92_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/mxc-foundation/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "JDI Ventures",
+        "url": "https://jdi.global/"
+      },
+      {
+        "name": "CITIC Group",
+        "url": "https://www.citic.com/"
+      },
+      {
+        "name": "OKX Ventures",
+        "url": "https://www.okx.com/ventures"
+      },
+      {
+        "name": "Node Capital",
+        "url": "https://www.node.capital/"
+      },
+      {
+        "name": "Huobi Capital",
+        "url": "https://www.huobi.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Mar 2024",
+        "amount": "$10M",
+        "round": "Strategic",
+        "valuation": "—",
+        "investors_html": "<a href='https://jdi.global/' target='_blank'>JDI Ventures</a> (lead)"
+      }
+    ],
+    "company_details": {
+      "legal_name": "MXC Foundation gGmbH",
+      "website": "https://www.mxc.org/",
+      "website_display": "mxc.org",
+      "founded": "2017",
+      "headcount": "14",
+      "hq": "Berlin, Germany",
+      "twitter": "https://twitter.com/MXCfoundation",
+      "linkedin": "https://www.linkedin.com/company/mxc-foundation/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Global Network Coverage, Countries",
+          "badge_text": "200 countries",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2019", "value": "10", "height": 20},
+            {"label": "2022", "value": "100", "height": 85},
+            {"label": "2025", "value": "200", "height": 170}
+          ]
+        },
+        {
+          "title": "Smart City Deployments",
+          "badge_text": "Global reach",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "NYC", "value": "2018", "height": 50},
+            {"label": "Shanghai", "value": "2019", "height": 100},
+            {"label": "Seoul", "value": "2019", "height": 170}
+          ]
+        },
+        {
+          "title": "Funding Progress, $M",
+          "badge_text": "$10M raised",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2018", "value": "Seed", "height": 30},
+            {"label": "2021", "value": "ICA", "height": 70},
+            {"label": "2024", "value": "$10M", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "1KOMMA5": {
+    "ticker": "1KOMMA5",
+    "name": "1KOMMA5°",
+    "logo": "https://cdn.brandfetch.io/idfcjP_Y6L/theme/dark/logo.svg",
+    "tagline": "Europe's leading one-stop shop for CO2-neutral energy, heat, and mobility solutions",
+    "tags": [
+      "CleanTech",
+      "Renewable Energy",
+      "Solar",
+      "Heat Pumps",
+      "Germany"
+    ],
+    "kpis": [
+      {
+        "label": "Revenue (2024)",
+        "value": "€520M"
+      },
+      {
+        "label": "Total Funding",
+        "value": "€450M+"
+      },
+      {
+        "label": "Employees",
+        "value": "2,500+"
+      },
+      {
+        "label": "Locations",
+        "value": "80+"
+      }
+    ],
+    "overview": "Developer of integrated home energy systems and AI-powered energy management software for residential decarbonization across Europe and Australia. The company focuses on one-stop installation of solar panels, battery storage, heat pumps, and EV chargers through a network of certified local partners. It helps homeowners achieve carbon neutrality while reducing energy costs through intelligent consumption optimization and dynamic electricity pricing. The company provides the Heartbeat AI virtual power plant platform, photovoltaic systems, home batteries, heat pump solutions, and smart wallbox chargers. It promotes clean energy adoption by connecting decentralized systems into Europe's largest residential virtual power plant.",
+    "products": [
+      {
+        "name": "Heartbeat AI",
+        "description": "AI-powered energy management platform connecting 500+ MW of distributed systems into Europe's largest residential virtual power plant, making 4.8 million automated decisions daily to optimize energy consumption based on weather and electricity prices",
+        "url": "https://1komma5.com/au/heartbeat/"
+      },
+      {
+        "name": "Solar Systems",
+        "description": "Residential photovoltaic installations with premium panels and optimized roof configurations, professionally installed by certified local partners with integrated monitoring and 25-year performance warranties",
+        "url": "https://1komma5.com/au/solar/"
+      },
+      {
+        "name": "Battery Storage",
+        "description": "Home energy storage systems enabling self-consumption optimization, backup power during outages, and participation in virtual power plant trading through Heartbeat AI integration",
+        "url": "https://1komma5.com/en/"
+      },
+      {
+        "name": "Heat Pumps",
+        "description": "Air-source and ground-source heat pump solutions for CO2-neutral heating and cooling, intelligently controlled by Heartbeat AI to run during periods of low electricity prices and high renewable availability",
+        "url": "https://1komma5.com/en/"
+      },
+      {
+        "name": "Wallbox Chargers",
+        "description": "Smart EV charging stations with dynamic load management and solar surplus charging, integrated into the Heartbeat ecosystem for cost-optimized vehicle charging during off-peak hours",
+        "url": "https://1komma5.com/en/"
+      }
+    ],
+    "highlights_title": "Latest news on 1KOMMA5°",
+    "highlights": [
+      {
+        "text": "<strong>Nov 2025</strong>—Heartbeat AI opens to millions of existing solar systems, heat pumps and batteries for the first time",
+        "url": "https://1komma5.com/en/press/press-releases/heartbeat-ai-available-for-millions-of-existing-energy-systems/",
+        "date": "November 2025"
+      },
+      {
+        "text": "<strong>Oct 2025</strong>—1KOMMA5° breaks €100 million monthly orders milestone for first time",
+        "url": "https://1komma5.com/en/press/press-releases/all-time-high-in-order-intake-sales-and-software-revenue/",
+        "date": "October 2025"
+      },
+      {
+        "text": "<strong>Jul 2025</strong>—Pre-IPO round extended with Sabanci Climate Ventures joining as new shareholder",
+        "url": "https://1komma5.com/en/press/press-releases/1komma5-extends-pre-ipo-round/",
+        "date": "July 2025"
+      },
+      {
+        "text": "<strong>Feb 2025</strong>—Record €520M revenue in 2024 announced with 36% organic growth and €10B target by 2030",
+        "url": "https://www.eu-startups.com/2025/02/clean-energy-startup-1komma5-grows-to-e520-million-eyes-e10-billion-target-by-2030/",
+        "date": "February 2025"
+      },
+      {
+        "text": "<strong>Dec 2024</strong>—€150M pre-IPO round closed with CalSTRS and G2VP as lead investors",
+        "url": "https://sifted.eu/articles/1komma5-e150m-pre-ipo-news",
+        "date": "December 2024"
+      },
+      {
+        "text": "<strong>2024</strong>—CEO Philipp Schröder honored with EY Entrepreneur Of The Year award in Sustainability category",
+        "url": "https://ecapital.vc/news/1komma5-ceo-philipp-schroder-honoured-with-the-ey-entrepreneur-of-the-year-2024-award/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>2024</strong>—Heartbeat AI connects 500MW to Europe's largest residential virtual power plant",
+        "url": "https://1komma5.com/en/press/press-releases/1komma5-connects-500-mw-to-europe-s-largest-virtual-power-plant/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>2023</strong>—Achieved unicorn status with €215M Series B funding round",
+        "url": "https://www.eu-startups.com/2023/06/revolutionising-the-energy-landscape-1komma5-reaches-the-unicorn-status/",
+        "date": "2023"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Philipp Schröder",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/35b11524-13f7-48f8-9dd3-6c06d83d696e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/philipp-schr%C3%B6der-b94b6576/"
+      },
+      {
+        "name": "Micha Grüber",
+        "role": "Co-Founder & CFO",
+        "photo": "https://cdn.theorg.com/95176770-0544-4df3-b9fd-23692c1389f5_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/micha-grueber-10227814/"
+      },
+      {
+        "name": "Jannik Schall",
+        "role": "Co-Founder & CPO",
+        "photo": "https://cdn.theorg.com/909ccdef-1e11-400d-a3e1-6ff31e18884a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jannik-schall/"
+      },
+      {
+        "name": "Philip Liesenfeld",
+        "role": "Co-Founder & COO",
+        "photo": "https://cdn.theorg.com/d99cf3a6-bcfa-4017-9d8d-17311d508c1d_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/philip-liesenfeld-a31851180/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Porsche Ventures",
+        "url": "https://www.porsche.com/ventures/"
+      },
+      {
+        "name": "Hamilton Lane",
+        "url": "https://www.hamiltonlane.com/"
+      },
+      {
+        "name": "CalSTRS",
+        "url": "https://www.calstrs.com/"
+      },
+      {
+        "name": "G2VP",
+        "url": "https://www.g2vp.com/"
+      },
+      {
+        "name": "Eurazeo",
+        "url": "https://www.eurazeo.com/"
+      },
+      {
+        "name": "2150vc",
+        "url": "https://www.2150.vc/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Dec 2024",
+        "amount": "€150M",
+        "round": "Pre-IPO",
+        "valuation": "Unicorn",
+        "investors_html": "<a href='https://www.hamiltonlane.com/' target='_blank'>Hamilton Lane</a>, <a href='https://www.calstrs.com/' target='_blank'>CalSTRS</a>"
+      },
+      {
+        "date": "2023",
+        "amount": "€215M",
+        "round": "Series B",
+        "valuation": "—",
+        "investors_html": "<a href='https://www.porsche.com/ventures/' target='_blank'>Porsche Ventures</a>, <a href='https://www.g2vp.com/' target='_blank'>G2VP</a>"
+      }
+    ],
+    "company_details": {
+      "legal_name": "1KOMMA5° GmbH",
+      "website": "https://1komma5.com/",
+      "website_display": "1komma5.com",
+      "founded": "2021",
+      "headcount": "2,500+",
+      "hq": "Hamburg, Germany",
+      "twitter": "https://twitter.com/1KOMMA5",
+      "linkedin": "https://www.linkedin.com/company/1komma5/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue Growth, €M",
+          "badge_text": "€520M 2024",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2022", "value": "€200M", "height": 65},
+            {"label": "2023", "value": "€450M", "height": 147},
+            {"label": "2024", "value": "€520M", "height": 170}
+          ]
+        },
+        {
+          "title": "Virtual Power Plant Capacity, MW",
+          "badge_text": "500+ MW",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2023", "value": "100MW", "height": 35},
+            {"label": "2024", "value": "300MW", "height": 100},
+            {"label": "2025", "value": "500MW", "height": 170}
+          ]
+        },
+        {
+          "title": "Total Funding Raised, €M",
+          "badge_text": "€400M+",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "Series A", "value": "€50M", "height": 20},
+            {"label": "Series B", "value": "€215M", "height": 90},
+            {"label": "Pre-IPO", "value": "€150M", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "1MG": {
+    "ticker": "1MG",
+    "name": "Tata 1mg",
+    "logo": "https://cdn.brandfetch.io/id1mg/theme/dark/logo.svg",
+    "tagline": "India's leading digital healthcare platform—online pharmacy, teleconsultation, and diagnostics",
+    "tags": [
+      "HealthTech",
+      "E-Pharmacy",
+      "Telemedicine",
+      "Diagnostics",
+      "India"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.25B"
+      },
+      {
+        "label": "Revenue (FY24)",
+        "value": "₹1,990Cr"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$231M"
+      },
+      {
+        "label": "Employees",
+        "value": "4,500+"
+      }
+    ],
+    "overview": "Developer of digital healthcare infrastructure and e-pharmacy platforms serving consumers across India with medicine delivery, diagnostic testing, and telemedicine services. The company focuses on online pharmacy fulfillment, at-home lab sample collection, and video consultations with licensed healthcare professionals. It helps patients access affordable medicines with up to 25% discounts, book diagnostic tests from NABL-accredited labs, and consult doctors across 25+ medical specialties. The company provides the 1mg online pharmacy, Tata 1mg Labs diagnostics, teleconsultation platform, and comprehensive health content database. It promotes healthcare accessibility through technology-enabled delivery networks and AI-powered health insights.",
+    "products": [
+      {
+        "name": "Online Pharmacy",
+        "description": "E-pharmacy platform offering 2 lakh+ allopathic, homeopathic, and Ayurvedic medicines with up to 25% discounts, home delivery in 1000+ cities, and LegitScript-certified authenticity verification",
+        "url": "https://www.1mg.com/"
+      },
+      {
+        "name": "Tata 1mg Labs",
+        "description": "Diagnostic testing service with 2,000+ lab tests from 120+ NABL-accredited partner labs, featuring home sample collection, drone-enabled transport, and AI-powered health insights",
+        "url": "https://www.1mg.com/labs"
+      },
+      {
+        "name": "Teleconsultation",
+        "description": "Virtual healthcare platform enabling video and chat consultations with registered doctors across 25+ specialties including general physicians, gynecologists, dermatologists, and pediatricians",
+        "url": "https://www.1mg.com/online-doctor-consultation"
+      },
+      {
+        "name": "Health Content",
+        "description": "Comprehensive medical information database featuring drug interactions, side effects, dosage guidelines, and health articles reviewed by licensed healthcare professionals",
+        "url": "https://www.1mg.com/"
+      },
+      {
+        "name": "30-Minute Delivery",
+        "description": "Quick commerce medicine delivery service leveraging network of company-owned stores and partner outlets across 26 cities for urgent healthcare needs",
+        "url": "https://www.1mg.com/"
+      }
+    ],
+    "highlights_title": "Latest news on Tata 1mg",
+    "highlights": [
+      {
+        "text": "<strong>Aug 2025</strong>—Tata 1mg holds 30% market share of India's e-pharmacy space, planning expansion to 3,000 offline stores",
+        "url": "https://www.indianretailer.com/news/tata-digitals-1mg-reports-rs-2392-cr-revenue-fy25-amid-continued-investment-phase",
+        "date": "August 2025"
+      },
+      {
+        "text": "<strong>Jul 2025</strong>—FY25 revenue grows 22% to ₹2,392 crore with continued investment in omnichannel expansion",
+        "url": "https://www.indianretailer.com/news/tata-digitals-1mg-reports-rs-2392-cr-revenue-fy25-amid-continued-investment-phase",
+        "date": "July 2025"
+      },
+      {
+        "text": "<strong>May 2025</strong>—Tata 1mg hybrid retail model analysis: reinventing Indian pharma retail with online-offline integration",
+        "url": "https://medicinman.net/2025/05/will-tata-succeed-in-reinventing-indian-pharma-retail-through-1-mg-hybrid/",
+        "date": "May 2025"
+      },
+      {
+        "text": "<strong>2025</strong>—$200M funding talks with Novo Holdings, CPPIB, Permira amid valuation negotiations",
+        "url": "https://www.digitalhealthnews.com/tata-1mg-in-talks-to-raise-200-mn-amid-valuation-standoffs",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>Jun 2024</strong>—BigBasket and Tata 1mg opt for debt over equity for expansion in FY25",
+        "url": "https://www.business-standard.com/companies/news/bigbasket-and-tata-1mg-opt-for-debt-over-equity-for-expansion-in-fy25-124062700302_1.html",
+        "date": "June 2024"
+      },
+      {
+        "text": "<strong>FY24</strong>—Net loss narrows 75% to ₹313 crore on revenue growth and cost optimization",
+        "url": "https://inc42.com/buzz/tata-1mg-fy24-loss-declines-75-to-inr-313-cr-on-business-growth-fall-in-expenses/",
+        "date": "FY24"
+      },
+      {
+        "text": "<strong>Sep 2022</strong>—Achieves unicorn status at $1.25B valuation with $40M funding led by Tata Digital",
+        "url": "https://yourstory.com/2022/09/tata-1mg-epharmacy-funding-unicorn-healthtech-startup",
+        "date": "September 2022"
+      },
+      {
+        "text": "<strong>Jun 2021</strong>—Tata Digital acquires 63% majority stake in 1mg for ₹720 crore",
+        "url": "https://www.tata.com/newsroom/business/tata-digital-1mg-healthcare-marketplace",
+        "date": "June 2021"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Prashant Tandon",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/0a16a54a-56a4-4317-98e6-a8d8e174f740_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/prashant-tandon-2802a4/"
+      },
+      {
+        "name": "Gaurav Agarwal",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/3e50c17f-d07d-4a20-b995-0bf04ba6386e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/agarwalga/"
+      },
+      {
+        "name": "Tanmay Saksena",
+        "role": "COO",
+        "photo": "https://cdn.theorg.com/42f0362b-e863-4767-9c99-857d1e9dd123_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/tanmay-saksena/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Tata Digital",
+        "url": "https://www.tatadigital.in/"
+      },
+      {
+        "name": "HBM Healthcare Investments",
+        "url": "https://www.hbmhealthcare.com/"
+      },
+      {
+        "name": "IFC (World Bank)",
+        "url": "https://www.ifc.org/"
+      },
+      {
+        "name": "Bill & Melinda Gates Foundation",
+        "url": "https://www.gatesfoundation.org/"
+      },
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Sequoia Capital India",
+        "url": "https://www.sequoiacap.com/india/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2022",
+        "amount": "$40.8M",
+        "round": "Series D",
+        "valuation": "$1.25B",
+        "investors_html": "<a href='https://www.tatadigital.in/' target='_blank'>Tata Digital</a> (lead)"
+      },
+      {
+        "date": "2021",
+        "amount": "$40M",
+        "round": "Series C",
+        "valuation": "—",
+        "investors_html": "<a href='https://www.hbmhealthcare.com/' target='_blank'>HBM Healthcare</a>, existing investors"
+      },
+      {
+        "date": "2021",
+        "amount": "Acquisition",
+        "round": "M&A",
+        "valuation": "—",
+        "investors_html": "<a href='https://www.tatadigital.in/' target='_blank'>Tata Digital</a> acquired majority stake"
+      }
+    ],
+    "company_details": {
+      "legal_name": "1mg Technologies Pvt Ltd",
+      "website": "https://www.1mg.com/",
+      "website_display": "1mg.com",
+      "founded": "2015",
+      "headcount": "4,500+",
+      "hq": "Gurugram, India",
+      "twitter": "https://twitter.com/1aboratorymg",
+      "linkedin": "https://www.linkedin.com/company/1mg/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue Growth, ₹Cr",
+          "badge_text": "₹2,392Cr FY25",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "FY23", "value": "₹1,968Cr", "height": 140},
+            {"label": "FY24", "value": "₹1,990Cr", "height": 142},
+            {"label": "FY25", "value": "₹2,392Cr", "height": 170}
+          ]
+        },
+        {
+          "title": "E-Pharmacy Market Share, %",
+          "badge_text": "30% leader",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2022", "value": "22%", "height": 75},
+            {"label": "2024", "value": "28%", "height": 95},
+            {"label": "2025", "value": "30%", "height": 170}
+          ]
+        },
+        {
+          "title": "Offline Store Expansion",
+          "badge_text": "3,000 target",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2024", "value": "110", "height": 20},
+            {"label": "2025", "value": "500", "height": 60},
+            {"label": "2029", "value": "3,000", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "21CO": {
+    "ticker": "21CO",
+    "name": "21.co",
+    "logo": "https://cdn.brandfetch.io/id21co/theme/dark/logo.svg",
+    "tagline": "Making crypto accessible through institutional-grade exchange-traded products",
+    "tags": [
+      "Crypto",
+      "ETPs",
+      "Asset Management",
+      "Institutional",
+      "Switzerland"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2B"
+      },
+      {
+        "label": "AUM",
+        "value": "$11B+"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$146M"
+      },
+      {
+        "label": "ETPs Issued",
+        "value": "50+"
+      }
+    ],
+    "overview": "Developer of cryptocurrency exchange-traded products and digital asset infrastructure enabling institutional investors to access crypto markets through regulated financial instruments. The company focuses on designing, issuing, and managing physically-backed crypto ETPs across Bitcoin, Ethereum, and diversified crypto baskets. It helps institutional and retail investors gain exposure to digital assets through traditional brokerage accounts without direct custody complexities. The company provides crypto ETPs listed on major European exchanges, the ARK 21Shares Bitcoin ETF for US markets, and white-label technology infrastructure for asset managers. It promotes mainstream crypto adoption by bridging traditional finance with decentralized digital assets.",
+    "products": [
+      {
+        "name": "21Shares ETPs",
+        "description": "Suite of 55+ physically-backed cryptocurrency exchange-traded products covering Bitcoin, Ethereum, Solana, XRP, and diversified crypto baskets listed on European exchanges including SIX, Euronext, and Deutsche Börse",
+        "url": "https://www.21shares.com/"
+      },
+      {
+        "name": "ARK 21Shares Bitcoin ETF (ARKB)",
+        "description": "Spot Bitcoin ETF launched in partnership with ARK Invest in January 2024, offering US investors direct exposure to BTC with Chainlink proof-of-reserves integration for transparency",
+        "url": "https://www.21shares.com/product/arkb"
+      },
+      {
+        "name": "21Shares Core Ethereum ETF (CETH)",
+        "description": "Spot Ethereum ETF for US institutional investors providing regulated access to ETH through traditional brokerage accounts with competitive expense ratios",
+        "url": "https://www.21shares.com/"
+      },
+      {
+        "name": "21.co Technologies",
+        "description": "White-label infrastructure platform enabling asset managers and financial institutions to launch their own crypto investment products with custody, compliance, and reporting solutions",
+        "url": "https://www.21.co/"
+      }
+    ],
+    "highlights_title": "Latest news on 21.co",
+    "highlights": [
+      {
+        "text": "<strong>Nov 2025</strong>—FalconX completes acquisition of 21Shares, combining ETP infrastructure with $2T trading volume prime brokerage",
+        "url": "https://www.prnewswire.com/news-releases/falconx-completes-acquisition-of-21shares-302620920.html",
+        "date": "November 2025"
+      },
+      {
+        "text": "<strong>Sep 2025</strong>—21Shares reaches 50 listed crypto ETPs in Europe with $11B+ AUM globally",
+        "url": "https://www.globenewswire.com/news-release/2025/09/17/3151390/0/en/21Shares-Reaches-50-Listed-Crypto-ETPs-in-Europe-with-Launch-of-Two-New-Products.html",
+        "date": "September 2025"
+      },
+      {
+        "text": "<strong>Dec 2024</strong>—21.co announces new operating structure with 21Shares and 21.co Technologies becoming separate entities",
+        "url": "https://www.globenewswire.com/news-release/2024/12/03/2990603/0/en/21-co-Announces-Plans-for-New-Operating-Structure-21Shares-and-21-co-Technologies-to-Become-Separate-Entities.html",
+        "date": "December 2024"
+      },
+      {
+        "text": "<strong>Feb 2024</strong>—ARK 21Shares Bitcoin ETF integrates Chainlink proof-of-reserves for transparency",
+        "url": "https://www.coindesk.com/business/2024/02/28/ark-and-21shares-to-disclose-spot-bitcoin-etf-reserves-via-chainlink-integration",
+        "date": "February 2024"
+      },
+      {
+        "text": "<strong>Jan 2024</strong>—ARK 21Shares Spot Bitcoin ETF (ARKB) launches in US market",
+        "url": "https://www.21shares.com/product/arkb",
+        "date": "January 2024"
+      },
+      {
+        "text": "<strong>Sep 2022</strong>—Raises $25M at $2B valuation, becoming Switzerland's largest crypto unicorn",
+        "url": "https://cointelegraph.com/news/crypto-investment-product-firm-21-co-raises-25m-to-reach-2b-valuation",
+        "date": "September 2022"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Hany Rashwan",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/8b4b70b6-d8f4-4a19-9fce-1f8aa7ec404e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/hanyrashwan/"
+      },
+      {
+        "name": "Ophelia Snyder",
+        "role": "Co-Founder & President",
+        "photo": "https://cdn.theorg.com/4f8437bf-a538-44ee-aeac-c00478feda80_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/opheliasnyder/"
+      },
+      {
+        "name": "Massimo Siano",
+        "role": "Managing Director, Head of Southern Europe",
+        "photo": "https://cdn.theorg.com/1a7d9ce6-7e2a-4a5f-8989-da3b61ec6f20_medium.jpg"
+      },
+      {
+        "name": "Duncan Moir",
+        "role": "President",
+        "photo": "https://cdn.theorg.com/8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b_medium.jpg"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Marshall Wace",
+        "url": "https://www.mwam.com/"
+      },
+      {
+        "name": "World Innovation Lab",
+        "url": "https://www.wilab.com/"
+      },
+      {
+        "name": "Cisco Investments",
+        "url": "https://www.cisco.com/"
+      },
+      {
+        "name": "Collab+Currency",
+        "url": "https://collab.currency.com/"
+      },
+      {
+        "name": "Point72 Ventures",
+        "url": "https://www.point72ventures.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2022",
+        "amount": "$25M",
+        "round": "Series A",
+        "valuation": "$2B",
+        "investors_html": "<a href='https://www.mwam.com/' target='_blank'>Marshall Wace</a> (lead), <a href='https://www.wilab.com/' target='_blank'>World Innovation Lab</a>"
+      },
+      {
+        "date": "2021",
+        "amount": "$121M",
+        "round": "Earlier Rounds",
+        "valuation": "—",
+        "investors_html": "Various investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "21.co AG",
+      "website": "https://www.21.co/",
+      "website_display": "21.co",
+      "founded": "2018",
+      "headcount": "89",
+      "hq": "Zurich, Switzerland",
+      "twitter": "https://twitter.com/21aboratory",
+      "linkedin": "https://www.linkedin.com/company/21-co/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Assets Under Management, $B",
+          "badge_text": "$11B+ AUM",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2022", "value": "$3B", "height": 50},
+            {"label": "2024", "value": "$8B", "height": 120},
+            {"label": "2025", "value": "$11B+", "height": 170}
+          ]
+        },
+        {
+          "title": "Crypto ETPs Listed",
+          "badge_text": "55+ products",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2021", "value": "20", "height": 60},
+            {"label": "2023", "value": "40", "height": 120},
+            {"label": "2025", "value": "55+", "height": 170}
+          ]
+        },
+        {
+          "title": "Total Funding Raised, $M",
+          "badge_text": "$146M total",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2021", "value": "$121M", "height": 140},
+            {"label": "2022", "value": "$25M", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "24M-TECHNOLOGIES": {
+    "ticker": "24M-TECHNOLOGIES",
+    "name": "24M Technologies",
+    "logo": "https://24-m.com/wp-content/uploads/2021/01/24M-Logo.png",
+    "tagline": "Revolutionizing battery manufacturing with SemiSolid technology for safer, cheaper, and more sustainable energy storage",
+    "tags": [
+      "Battery Tech",
+      "CleanTech",
+      "Energy Storage",
+      "Manufacturing",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.3B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$526M"
+      },
+      {
+        "label": "Series H (2024)",
+        "value": "$87M"
+      },
+      {
+        "label": "Founded",
+        "value": "2010"
+      }
+    ],
+    "overview": "Developer of revolutionary SemiSolid battery manufacturing technology that transforms energy storage production. The company focuses on chemistry-agnostic electrode platforms that dramatically reduce manufacturing costs while improving safety, performance, and recyclability. It helps battery manufacturers, automotive OEMs, and grid storage providers deploy cleaner, more efficient production processes. The company provides SemiSolid electrode technology, Unit Cell architecture, ETOP manufacturing systems, and licensing partnerships. It promotes sustainable energy storage through simplified manufacturing and reduced environmental impact.",
+    "products": [
+      {
+        "name": "SemiSolid Battery Platform",
+        "description": "Revolutionary battery architecture using thick SemiSolid electrodes that dramatically reduce manufacturing complexity and cost while improving energy density, safety characteristics, and recyclability compared to conventional lithium-ion cells through patented electrode formulations.",
+        "url": "https://24-m.com/technology/"
+      },
+      {
+        "name": "Unit Cell Technology",
+        "description": "Patented modular cell architecture enabling simpler manufacturing with fewer components, eliminating complex lamination processes while providing uniform thermal management and scalable production capacity for diverse battery chemistries including LFP and NMC variants.",
+        "url": "https://24-m.com/technology/unit-cell/"
+      },
+      {
+        "name": "ETOP Manufacturing Process",
+        "description": "Electrodes-to-Order Production system that eliminates conventional solvent drying steps, reducing capital equipment costs by up to fifty percent, energy consumption, and factory footprint while enabling faster production line deployment and lower environmental impact.",
+        "url": "https://24-m.com/manufacturing/"
+      },
+      {
+        "name": "Grid Storage Solutions",
+        "description": "Large-format SemiSolid battery systems optimized for utility-scale energy storage applications, providing enhanced cycle life, improved safety margins for stationary installations, and compatibility with renewable energy integration at commercial and industrial sites.",
+        "url": "https://24-m.com/applications/grid-storage/"
+      },
+      {
+        "name": "Technology Licensing",
+        "description": "Comprehensive licensing program enabling global battery manufacturers to adopt SemiSolid technology, including technical training, manufacturing line design support, and ongoing process optimization assistance for partners in Japan, Thailand, and India.",
+        "url": "https://24-m.com/partnerships/"
+      }
+    ],
+    "highlights_title": "Latest news on 24M Technologies",
+    "highlights": [
+      {
+        "text": "<strong>Dec 2024</strong>—Kyocera doubles SemiSolid battery production capacity to 400 MWh for Japan market expansion",
+        "url": "https://www.businesswire.com/news/home/20241203642571/en/Kyocera-a-24M-Technology-License-Partner-Doubles-Production-of-SemiSolid-Lithium-Ion-Batteries-Using-24M-Technology",
+        "date": "December 2024"
+      },
+      {
+        "text": "<strong>Dec 2024</strong>—24M and Kyocera win 2024 Electrochemical Society Technology Award for commercializing SemiSolid battery technology",
+        "url": "https://www.greencarcongress.com/2024/12/20241204-kyocera.html",
+        "date": "December 2024"
+      },
+      {
+        "text": "<strong>Sep 2024</strong>—Raises $87M Series H at $1.3B valuation led by Nuovo+ to expand global licensing and manufacturing",
+        "url": "https://finance.yahoo.com/news/24m-raises-87-million-series-164500656.html",
+        "date": "September 2024"
+      },
+      {
+        "text": "<strong>Sep 2024</strong>—Opens 100 MWh pilot manufacturing facility in Thailand with Nuovo Energy partner",
+        "url": "https://mercomcapital.com/energy-storage-company-24m-raises-87-million-series-h-funding/",
+        "date": "September 2024"
+      },
+      {
+        "text": "<strong>Sep 2024</strong>—Strategic investors Kyocera, ASAHI Kasei, DNP, and Lucas TVS participate in Series H round",
+        "url": "https://batteriesnews.com/24m-raises-87-million-in-series-h-preferred-investment-round/",
+        "date": "September 2024"
+      },
+      {
+        "text": "<strong>2024</strong>—Total funding reaches over $500M across eight funding rounds since MIT spinout",
+        "url": "https://www.finsmes.com/2024/09/24m-raises-87m-in-series-h-funding.html",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>Apr 2024</strong>—Kyocera announces major expansion plans for SemiSolid battery manufacturing in Japan domestic market",
+        "url": "https://www.kyocera.com/news/2024/0401.html",
+        "date": "April 2024"
+      },
+      {
+        "text": "<strong>2024</strong>—Nuovo Energy Thailand facility begins commercial production using licensed SemiSolid technology platform",
+        "url": "https://24-m.com/news/thailand-facility",
+        "date": "2024"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Naoki Ota",
+        "role": "President & CEO",
+        "photo": "https://cdn.theorg.com/083135e6-d8a3-4774-a45d-8e7241caa86b_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/naoki-ota-5436802/"
+      },
+      {
+        "name": "Yet-Ming Chiang",
+        "role": "Co-Founder & Chief Scientist",
+        "photo": "https://cdn.theorg.com/02da052a-0c5c-4355-879c-08dc8baea4ad_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/yet-ming-chiang-74aa3/"
+      },
+      {
+        "name": "Throop Wilder",
+        "role": "Executive Chairman & Co-Founder",
+        "photo": "https://cdn.theorg.com/117890e2-68ef-4f05-a9f2-91220963f17f_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/24m-technologies/"
+      },
+      {
+        "name": "Richard Feldt",
+        "role": "VP Manufacturing",
+        "photo": "https://cdn.theorg.com/d5e6f7a8-9b0c-1d2e-3f4a-5b6c7d8e9f0a_medium.jpg"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Nuovo+",
+        "url": "https://www.nuovoplus.com/"
+      },
+      {
+        "name": "Kyocera",
+        "url": "https://www.kyocera.com/"
+      },
+      {
+        "name": "ASAHI Kasei",
+        "url": "https://www.asahi-kasei.com/"
+      },
+      {
+        "name": "Dai Nippon Printing (DNP)",
+        "url": "https://www.dnp.co.jp/eng/"
+      },
+      {
+        "name": "Mitsui O.S.K. Lines",
+        "url": "https://www.mol.co.jp/en/"
+      },
+      {
+        "name": "Lucas TVS",
+        "url": "https://www.lucastvs.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2024",
+        "amount": "$87M",
+        "round": "Series H",
+        "valuation": "$1.3B",
+        "investors_html": "Nuovo+ (lead), <a href='https://www.kyocera.com/' target='_blank'>Kyocera</a>, <a href='https://www.asahi-kasei.com/' target='_blank'>ASAHI Kasei</a>"
+      },
+      {
+        "date": "2022",
+        "amount": "$200M+",
+        "round": "Series G",
+        "valuation": "—",
+        "investors_html": "Various investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "24M Technologies, Inc.",
+      "website": "https://24-m.com/",
+      "website_display": "24-m.com",
+      "founded": "2010",
+      "headcount": "150+",
+      "hq": "Cambridge, Massachusetts",
+      "linkedin": "https://www.linkedin.com/company/24m/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Licensee Production Capacity, MWh",
+          "badge_text": "400 MWh Kyocera",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2021", "value": "50", "height": 25},
+            {"label": "2023", "value": "200", "height": 85},
+            {"label": "2024", "value": "400", "height": 170}
+          ]
+        },
+        {
+          "title": "Total Funding Raised, $M",
+          "badge_text": "$526M total",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2018", "value": "$100M", "height": 35},
+            {"label": "2022", "value": "$400M", "height": 130},
+            {"label": "2024", "value": "$526M", "height": 170}
+          ]
+        },
+        {
+          "title": "Global License Partners",
+          "badge_text": "6 partners",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2020", "value": "2", "height": 55},
+            {"label": "2022", "value": "4", "height": 110},
+            {"label": "2024", "value": "6", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "2TM": {
+    "ticker": "2TM",
+    "name": "2TM Group (Mercado Bitcoin)",
+    "logo": "/assets/logos/2TM.png",
+    "tagline": "Latin America's largest digital assets ecosystem powering Mercado Bitcoin",
+    "tags": [
+      "Crypto Exchange",
+      "FinTech",
+      "Digital Assets",
+      "Latin America",
+      "Brazil"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2.1B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$250M"
+      },
+      {
+        "label": "Customers",
+        "value": "3.2M+"
+      },
+      {
+        "label": "Trading Volume",
+        "value": "$7B+"
+      }
+    ],
+    "overview": "Operator of Latin America's largest digital assets ecosystem and cryptocurrency trading infrastructure. The company focuses on providing secure crypto exchange services, asset tokenization platforms, and digital investment products for retail and institutional clients across Brazil and Europe. It helps investors access cryptocurrency markets, tokenized securities, and digital asset custody services through regulated platforms. The company provides Mercado Bitcoin exchange, MB Tokens tokenization platform, and Mercado Bitcoin Portugal for European expansion. It promotes financial inclusion and cryptocurrency adoption across Latin American and European markets.",
+    "products": [
+      {
+        "name": "Mercado Bitcoin Exchange",
+        "description": "Brazil's premier cryptocurrency trading platform offering spot trading, advanced order types, and institutional-grade security infrastructure for buying, selling, and storing digital assets across hundreds of cryptocurrency pairs with competitive fees.",
+        "url": "https://www.mercadobitcoin.com.br/negociar"
+      },
+      {
+        "name": "MB Tokens Platform",
+        "description": "Asset tokenization infrastructure enabling issuance of security tokens, real estate fractions, receivables, and other traditional assets on blockchain with full regulatory compliance under Brazilian securities laws and CVM oversight.",
+        "url": "https://www.mercadobitcoin.com.br/mb-tokens/"
+      },
+      {
+        "name": "Mercado Bitcoin Portugal",
+        "description": "European Union-licensed cryptocurrency exchange acquired through CriptoLoja, providing regulated digital asset services to customers across all EU member states from its Lisbon headquarters under Portuguese banking supervision.",
+        "url": "https://www.mercadobitcoin.pt/"
+      },
+      {
+        "name": "MB Pro Trading",
+        "description": "Professional trading interface designed for active traders and institutions featuring advanced charting tools, API access for algorithmic trading, enhanced liquidity pools, and reduced trading fees for high-volume market participants.",
+        "url": "https://www.mercadobitcoin.com.br/pro/"
+      },
+      {
+        "name": "Digital Asset Custody",
+        "description": "Institutional-grade cryptocurrency custody solutions with multi-signature security, cold storage infrastructure, insurance coverage, and regulatory-compliant segregated accounts for corporate clients and investment funds.",
+        "url": "https://www.mercadobitcoin.com.br/custodia/"
+      }
+    ],
+    "highlights_title": "Latest news on 2TM Group (Mercado Bitcoin)",
+    "highlights": [
+      {
+        "text": "<strong>Jan 2022</strong>—Expands into Europe by acquiring CriptoLoja Portugal, gaining EU-wide operating license",
+        "url": "https://www.coindesk.com/business/2022/01/12/parent-company-of-brazils-largest-crypto-exchange-enters-europe-with-portuguese-acquisition",
+        "date": "January 2022"
+      },
+      {
+        "text": "<strong>Nov 2021</strong>—Raises $50M Series B extension from 10T and Tribe Capital, cementing unicorn status",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-parent-company-2tm-raises-50m-further-cementing-unicorn-status",
+        "date": "November 2021"
+      },
+      {
+        "text": "<strong>Jul 2021</strong>—Closes record $200M Series B from SoftBank at $2.1B valuation, largest LatAm crypto funding ever",
+        "url": "https://www.businesswire.com/news/home/20210701005361/en/Mercado-Bitcoin-Latin-Americas-Largest-Digital-Assets-Platform-raises-200-Million-USD-from-SoftBank",
+        "date": "July 2021"
+      },
+      {
+        "text": "<strong>Jul 2021</strong>—Achieves unicorn status with $2.1B valuation, joining top 10 Latin American unicorns",
+        "url": "https://techcrunch.com/2021/07/01/mercado-bitcoin-raises-200m/",
+        "date": "July 2021"
+      },
+      {
+        "text": "<strong>2021</strong>—Surpasses 3.2M registered customers, equivalent to 80% of Brazil's stock exchange total accounts",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-parent-company-2tm-raises-50m-further-cementing-unicorn-status",
+        "date": "2021"
+      },
+      {
+        "text": "<strong>2022</strong>—Secures EU-wide operating license through Portugal subsidiary for pan-European expansion",
+        "url": "https://www.coindesk.com/business/2022/01/12/parent-company-of-brazils-largest-crypto-exchange-enters-europe-with-portuguese-acquisition",
+        "date": "2022"
+      },
+      {
+        "text": "<strong>2021</strong>—Reports profitability streak since 2018, demonstrating sustainable business model in crypto",
+        "url": "https://techcrunch.com/2021/07/01/mercado-bitcoin-raises-200m/",
+        "date": "2021"
+      },
+      {
+        "text": "<strong>2021</strong>—Reaches $7B+ cumulative trading volume across Mercado Bitcoin exchange platform",
+        "url": "https://www.businesswire.com/news/home/20210701005361/en/Mercado-Bitcoin-Latin-Americas-Largest-Digital-Assets-Platform-raises-200-Million-USD-from-SoftBank",
+        "date": "2021"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Reinaldo Rabelo",
+        "role": "CEO",
+        "photo": "https://cdn.theorg.com/197fc926-821c-4dd0-9b87-5d9ceaafccee_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/reinaldorabelo/"
+      },
+      {
+        "name": "Mauricio Chamati",
+        "role": "Co-Founder & Tech Committee Sponsor",
+        "photo": "https://cdn.theorg.com/5971d563-f038-4358-8242-562ff20a2fd8_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/mauriciochamati/"
+      },
+      {
+        "name": "André Gouvinhas",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/e3e84a62-6dad-4eb4-a0ae-6341ba7a1d46_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/andregouvinhas/"
+      },
+      {
+        "name": "Gustavo de Figueiredo",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/20aa1e7a-5287-4e51-b08b-d2b860e36d13_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/gustavodefigueiredo/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "SoftBank Latin America Fund",
+        "url": "https://latinamericafund.com/"
+      },
+      {
+        "name": "Alibaba Group",
+        "url": "https://www.alibaba.com/"
+      },
+      {
+        "name": "KKR",
+        "url": "https://www.kkr.com/"
+      },
+      {
+        "name": "Tribe Capital",
+        "url": "https://tribecap.co/"
+      },
+      {
+        "name": "10T Holdings",
+        "url": "https://www.10t.io/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Nov 2021",
+        "amount": "$50M",
+        "round": "Series B Extension",
+        "valuation": "$2.1B+",
+        "investors_html": "<a href='https://www.10t.io/' target='_blank'>10T</a>, <a href='https://tribecap.co/' target='_blank'>Tribe Capital</a>"
+      },
+      {
+        "date": "Jul 2021",
+        "amount": "$200M",
+        "round": "Series B",
+        "valuation": "$2.1B",
+        "investors_html": "<a href='https://latinamericafund.com/' target='_blank'>SoftBank LatAm Fund</a> (lead)"
+      }
+    ],
+    "company_details": {
+      "legal_name": "2TM Group",
+      "website": "https://2tmgroup.com/",
+      "website_display": "2tmgroup.com",
+      "founded": "2013",
+      "headcount": "500+",
+      "hq": "São Paulo, Brazil",
+      "linkedin": "https://www.linkedin.com/company/2tm-group/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Registered Customers, M",
+          "badge_text": "3.2M users",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2019", "value": "0.5M", "height": 27},
+            {"label": "2020", "value": "1.5M", "height": 80},
+            {"label": "2021", "value": "3.2M", "height": 170}
+          ]
+        },
+        {
+          "title": "Total Funding Raised, $M",
+          "badge_text": "$250M total",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2020", "value": "$10M", "height": 7},
+            {"label": "Jul 2021", "value": "$200M", "height": 135},
+            {"label": "Nov 2021", "value": "$250M", "height": 170}
+          ]
+        },
+        {
+          "title": "Valuation Growth, $B",
+          "badge_text": "$2.1B unicorn",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2020", "value": "$0.2B", "height": 16},
+            {"label": "Jul 2021", "value": "$2.1B", "height": 170},
+            {"label": "Nov 2021", "value": "$2.1B+", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "58-DAOJIA": {
+    "ticker": "58-DAOJIA",
+    "name": "58 Daojia (58到家)",
+    "logo": "/assets/logos/58_Daojia.png",
+    "tagline": "China's leading O2O platform for home and lifestyle services",
+    "tags": [
+      "O2O",
+      "Home Services",
+      "On-Demand",
+      "Consumer",
+      "China"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B+"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$550M"
+      },
+      {
+        "label": "Cities",
+        "value": "30+"
+      },
+      {
+        "label": "Founded",
+        "value": "2014"
+      }
+    ],
+    "overview": "Operator of China's leading on-demand home services marketplace connecting millions of customers with verified service professionals. The company focuses on delivering convenient, quality-assured home services through its mobile platform and proprietary order-matching technology. It helps Chinese consumers access cleaning, moving, childcare, elderly care, and beauty services with standardized pricing and vetted providers. The company provides home cleaning services, relocation assistance, nanny placement, caregiver matching, and at-home beauty treatments. It promotes professionalizing China's domestic services industry through technology-enabled quality control and worker training programs.",
+    "products": [
+      {
+        "name": "Home Cleaning Services",
+        "description": "Professional residential and commercial cleaning services delivered by trained and verified cleaning professionals, featuring hourly or deep cleaning options with standardized quality protocols, real-time booking, and customer satisfaction guarantees.",
+        "url": "https://www.58daojia.com/baomu/"
+      },
+      {
+        "name": "Relocation & Moving Services",
+        "description": "Comprehensive local and long-distance moving solutions including professional packing, furniture disassembly, secure transportation, and reassembly services with transparent pricing, damage protection insurance, and GPS tracking capabilities.",
+        "url": "https://www.58daojia.com/banjia/"
+      },
+      {
+        "name": "Childcare & Nanny Placement",
+        "description": "Professional nanny and babysitter matching platform with background-verified caregivers, personalized matching algorithms based on family preferences, trial periods, and ongoing support for domestic helper employment arrangements.",
+        "url": "https://www.58daojia.com/yuesao/"
+      },
+      {
+        "name": "Elderly Care Services",
+        "description": "Professional in-home elderly care solutions connecting families with trained caregivers specializing in senior assistance, medical support coordination, companionship services, and specialized dementia care programs.",
+        "url": "https://www.58daojia.com/yanglaohuli/"
+      },
+      {
+        "name": "At-Home Beauty & Wellness",
+        "description": "On-demand beauty and personal care services delivered to customers' homes, including haircuts, manicures, massage therapy, skincare treatments, and other wellness services from licensed professionals.",
+        "url": "https://www.58daojia.com/meirong/"
+      }
+    ],
+    "highlights_title": "Latest news on 58 Daojia (58到家)",
+    "highlights": [
+      {
+        "text": "<strong>Sep 2020</strong>—Closes Series C funding round led by Sequoia Capital China to accelerate platform expansion",
+        "url": "https://pitchbook.com/profiles/company/112289-68",
+        "date": "September 2020"
+      },
+      {
+        "text": "<strong>Oct 2015</strong>—Raises $300M Series A from Alibaba, KKR, and Ping An at unicorn valuation",
+        "url": "https://www.prnewswire.com/news-releases/58com-subsidiary-58-home-raises-us300-million-in-series-a-funding-300157755.html",
+        "date": "October 2015"
+      },
+      {
+        "text": "<strong>2020</strong>—Total funding reaches $550M across multiple investment rounds from strategic investors",
+        "url": "https://pitchbook.com/profiles/company/112289-68",
+        "date": "2020"
+      },
+      {
+        "text": "<strong>2020</strong>—Expands platform coverage to over 30 major Chinese cities for home services delivery",
+        "url": "https://alltechasia.com/2015/10/13/58-daojia-raises-usd-300m-from-alibaba-led-investment-group/",
+        "date": "2020"
+      },
+      {
+        "text": "<strong>2015</strong>—Achieves unicorn status with $1B+ valuation following landmark Series A investment",
+        "url": "https://thebambooworks.com/daojia-chases-unicorn-status-on-chinas-growing-thirst-for-maids-nannies/",
+        "date": "2015"
+      },
+      {
+        "text": "<strong>2019</strong>—Becomes largest home services platform in China by transaction volume and service provider count",
+        "url": "https://www.58daojia.com/",
+        "date": "2019"
+      },
+      {
+        "text": "<strong>2018</strong>—Launches standardized training programs for service providers to ensure quality consistency",
+        "url": "https://www.58daojia.com/",
+        "date": "2018"
+      },
+      {
+        "text": "<strong>2014</strong>—Founded as spin-off from 58.com to capture growing demand for O2O home services in China",
+        "url": "https://www.58daojia.com/",
+        "date": "2014"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Chen Xiaohua",
+        "role": "Founder & CEO",
+        "photo": "https://ui-avatars.com/api/?name=Chen+Xiaohua&background=0A64BC&color=fff",
+        "linkedin": "https://www.weforum.org/people/chen-xiaohua/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Alibaba Group",
+        "url": "https://www.alibaba.com/"
+      },
+      {
+        "name": "KKR",
+        "url": "https://www.kkr.com/"
+      },
+      {
+        "name": "Sequoia Capital China",
+        "url": "https://www.sequoiacap.cn/"
+      },
+      {
+        "name": "Ping An Group",
+        "url": "https://www.pingan.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2020",
+        "amount": "Undisclosed",
+        "round": "Series C",
+        "valuation": "—",
+        "investors_html": "<a href='https://www.sequoiacap.cn/' target='_blank'>Sequoia Capital China</a> (lead)"
+      },
+      {
+        "date": "Oct 2015",
+        "amount": "$300M",
+        "round": "Series A",
+        "valuation": "$1B+",
+        "investors_html": "<a href='https://www.alibaba.com/' target='_blank'>Alibaba</a>, <a href='https://www.kkr.com/' target='_blank'>KKR</a>, Ping An"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Daojia Group",
+      "website": "https://www.58daojia.com/",
+      "website_display": "58daojia.com",
+      "founded": "2014",
+      "headcount": "1,000+",
+      "hq": "Beijing, China",
+      "linkedin": "https://www.linkedin.com/company/daojia/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "City Coverage",
+          "badge_text": "30+ cities",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2015", "value": "5", "height": 28},
+            {"label": "2018", "value": "20", "height": 110},
+            {"label": "2020", "value": "30+", "height": 170}
+          ]
+        },
+        {
+          "title": "Total Funding Raised, $M",
+          "badge_text": "$550M total",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2014", "value": "Seed", "height": 20},
+            {"label": "2015", "value": "$300M", "height": 93},
+            {"label": "2020", "value": "$550M", "height": 170}
+          ]
+        },
+        {
+          "title": "Service Provider Network",
+          "badge_text": "Millions trained",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "2015", "value": "10K", "height": 10},
+            {"label": "2018", "value": "500K", "height": 50},
+            {"label": "2020", "value": "1M+", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "5IRE": {
+    "ticker": "5IRE",
+    "name": "5ire",
+    "logo": "/assets/logos/5ire.png",
+    "tagline": "The world's first sustainable blockchain—incentivizing UN Sustainable Development Goals",
+    "tags": [
+      "Blockchain",
+      "Sustainability",
+      "Web3",
+      "ESG",
+      "India"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.5B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$121M"
+      },
+      {
+        "label": "Series A",
+        "value": "$100M"
+      },
+      {
+        "label": "Founded",
+        "value": "2021"
+      }
+    ],
+    "overview": "Developer of a fifth-generation blockchain ecosystem designed around the United Nations Sustainable Development Goals. The company focuses on building sustainable Web3 infrastructure through its unique Proof-of-Benefit consensus mechanism that rewards validators based on sustainability practices and ESG alignment. It helps enterprises, governments, and developers build environmentally conscious decentralized applications with built-in impact measurement. The company provides the 5ireChain Layer 1 blockchain, non-custodial wallet solutions, and developer grant programs. It promotes sustainable blockchain adoption by integrating ESG metrics directly into network consensus and governance mechanisms.",
+    "products": [
+      {
+        "name": "5ireChain",
+        "description": "Fifth-generation Layer 1 blockchain featuring the proprietary Proof-of-Benefit consensus mechanism that measures and rewards validators based on their sustainability practices, ESG scores, and contributions to UN Sustainable Development Goals.",
+        "url": "https://www.5ire.org/5irechain/"
+      },
+      {
+        "name": "5ire Wallet",
+        "description": "Non-custodial cryptocurrency wallet enabling secure storage and management of 5IRE tokens and interactions with sustainable dApps, featuring multi-chain support, biometric security, and seamless integration with the 5ireChain ecosystem.",
+        "url": "https://www.5ire.org/wallet/"
+      },
+      {
+        "name": "5ire Grants Program",
+        "description": "Multi-million dollar developer funding initiative supporting innovative sustainable Web3 projects building on 5ireChain, providing technical mentorship, marketing support, and financial resources for SDG-aligned blockchain applications.",
+        "url": "https://www.5ire.org/grants/"
+      },
+      {
+        "name": "5ire EVM",
+        "description": "Ethereum Virtual Machine compatibility layer enabling developers to deploy existing Solidity smart contracts on 5ireChain with minimal modifications while benefiting from sustainability-focused consensus and lower carbon footprint.",
+        "url": "https://www.5ire.org/developers/"
+      },
+      {
+        "name": "5ire Explorer",
+        "description": "Blockchain explorer providing real-time visibility into 5ireChain transactions, validator performance, sustainability metrics, and network health statistics with detailed analytics on ESG impact measurements.",
+        "url": "https://explorer.5ire.org/"
+      }
+    ],
+    "highlights_title": "Latest news on 5ire",
+    "highlights": [
+      {
+        "text": "<strong>Aug 2024</strong>—Launches hybrid Layer 1 mainnet after processing over 1 million test transactions on testnet",
+        "url": "https://crypto.news/5ire-launches-hybrid-layer-1-mainnet-after-1m-test-transactions/",
+        "date": "August 2024"
+      },
+      {
+        "text": "<strong>Feb 2024</strong>—Announces $10M grant program to fund sustainable Web3 projects building on 5ireChain",
+        "url": "https://5ire.medium.com/innovate-with-5ire-the-10-million-grants-program-675959d289de",
+        "date": "February 2024"
+      },
+      {
+        "text": "<strong>Jul 2022</strong>—Raises $100M Series A from SRAM & MRAM at $1.5B valuation, becoming India's fastest blockchain unicorn",
+        "url": "https://www.coindesk.com/business/2022/07/15/5ire-raises-100m-to-fund-expansion-of-sustainable-blockchain",
+        "date": "July 2022"
+      },
+      {
+        "text": "<strong>Jul 2022</strong>—Becomes India's fastest-growing blockchain unicorn within 10 months of founding",
+        "url": "https://blockworks.co/news/indias-latest-blockchain-unicorn-5ire-valued-at-1-5b",
+        "date": "July 2022"
+      },
+      {
+        "text": "<strong>Jul 2022</strong>—Recognized as world's only sustainable blockchain unicorn focused on UN SDG alignment",
+        "url": "https://financialit.net/news/fundraising-news/5ire-raises-usd-100-million-series-funding-valuation-usd-15-billion-turns",
+        "date": "July 2022"
+      },
+      {
+        "text": "<strong>Oct 2021</strong>—Closes $21M seed round from Alphabit, Marshland Capital, and other investors",
+        "url": "https://inc42.com/buzz/blockchain-startup-5ire-turns-unicorn-after-raising-100-mn-in-series-a-funding/",
+        "date": "October 2021"
+      },
+      {
+        "text": "<strong>2024</strong>—Introduces Proof-of-Benefit consensus mechanism incentivizing validators for SDG contributions",
+        "url": "https://www.5ire.org/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>2021</strong>—Founded with mission to create sustainable blockchain aligned with United Nations Development Goals",
+        "url": "https://www.5ire.org/",
+        "date": "2021"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Pratik Gauri",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/0338bd8d-a6c7-4202-aa13-8e7ee97436d6_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/pratikgauri/"
+      },
+      {
+        "name": "Prateek Dwivedi",
+        "role": "Co-Founder & CMO",
+        "photo": "https://cdn.theorg.com/c7a7ab39-f618-4405-b405-0c8794967a5e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/prateekdwivedi/"
+      },
+      {
+        "name": "Rahul Rautela",
+        "role": "COO",
+        "photo": "https://cdn.theorg.com/e7707f75-63dd-4a77-bb7a-ad17eb8341b1_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/rahulrautela/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "SRAM & MRAM",
+        "url": "https://srammram.com/"
+      },
+      {
+        "name": "GotBit Hedge Fund",
+        "url": "https://gotbit.io/"
+      },
+      {
+        "name": "Alphabit",
+        "url": "https://alphabit.fund/"
+      },
+      {
+        "name": "Marshland Capital",
+        "url": "https://marshlandcapital.com/"
+      },
+      {
+        "name": "Launchpool Labs",
+        "url": "https://www.launchpool.xyz/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jul 2022",
+        "amount": "$100M",
+        "round": "Series A",
+        "valuation": "$1.5B",
+        "investors_html": "SRAM & MRAM (sole investor)"
+      },
+      {
+        "date": "Oct 2021",
+        "amount": "$21M",
+        "round": "Seed",
+        "valuation": "—",
+        "investors_html": "Alphabit, Marshland Capital, Launchpool Labs, Moonrock Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "5ire Labs FZ-LLC",
+      "website": "https://www.5ire.org/",
+      "website_display": "5ire.org",
+      "founded": "2021",
+      "headcount": "100+",
+      "hq": "Dubai, UAE",
+      "twitter": "https://twitter.com/5aboratory",
+      "linkedin": "https://www.linkedin.com/company/5aboratory/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Total Funding Raised, $M",
+          "badge_text": "$121M total",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "Oct 2021", "value": "$21M", "height": 30},
+            {"label": "Jul 2022", "value": "$121M", "height": 170}
+          ]
+        },
+        {
+          "title": "Valuation Growth, $B",
+          "badge_text": "$1.5B unicorn",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "Seed", "value": "—", "height": 20},
+            {"label": "Jul 2022", "value": "$1.5B", "height": 170}
+          ]
+        },
+        {
+          "title": "Test Transactions (Testnet)",
+          "badge_text": "1M+ processed",
+          "badge_type": "positive",
+          "bars": [
+            {"label": "Q1 2024", "value": "100K", "height": 17},
+            {"label": "Q2 2024", "value": "500K", "height": 85},
+            {"label": "Aug 2024", "value": "1M+", "height": 170}
+          ]
+        }
+      ]
+    }
+  },
+  "6SENSE": {
+    "ticker": "6SENSE",
+    "name": "6sense",
+    "logo": "https://cdn.brandfetch.io/idJrswPmSq/theme/dark/logo.svg",
+    "tagline": "The leading account-based marketing platform powered by AI and predictive analytics",
+    "tags": [
+      "ABM",
+      "B2B Marketing",
+      "Revenue Intelligence",
+      "AI",
+      "SaaS"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$5.2B"
+      },
+      {
+        "label": "ARR (2024)",
+        "value": "$250M+"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$526M"
+      },
+      {
+        "label": "Employees",
+        "value": "1,500+"
+      }
+    ],
+    "overview": "Provider of the leading account-based marketing and revenue intelligence platform powered by artificial intelligence. The company focuses on identifying anonymous buyer intent signals and predicting which accounts are actively in-market for purchasing decisions. It helps B2B sales and marketing teams target high-value prospects, prioritize outreach efforts, and orchestrate personalized multi-channel campaigns. The company provides Revenue AI for intent prediction, Orchestration for campaign management, and Conversational Email for automated sales engagement. It promotes data-driven revenue operations through predictive analytics and AI-powered buyer behavior insights.",
+    "products": [
+      {
+        "name": "6sense Revenue AI Platform",
+        "description": "Comprehensive AI-powered revenue intelligence platform that identifies anonymous website visitors, predicts buying behavior, and reveals in-market accounts through analysis of billions of intent signals across the web.",
+        "url": "https://6sense.com/platform/"
+      },
+      {
+        "name": "Predictive Analytics Engine",
+        "description": "Machine learning models trained on extensive B2B buyer data that predict purchase intent timing, account fit scores, and likelihood to buy, enabling sales teams to prioritize highest-value opportunities accurately.",
+        "url": "https://6sense.com/platform/predictive-analytics/"
+      },
+      {
+        "name": "Campaign Orchestration",
+        "description": "Multi-channel campaign management platform enabling personalized advertising, email sequences, and sales outreach coordinated across accounts based on buying stage, persona, and intent signals.",
+        "url": "https://6sense.com/platform/orchestration/"
+      },
+      {
+        "name": "Conversational Email",
+        "description": "AI-powered email automation solution generating personalized sales engagement sequences, automating follow-ups, and qualifying leads through natural language processing and intelligent response handling.",
+        "url": "https://6sense.com/platform/conversational-email/"
+      },
+      {
+        "name": "RevvyAI Assistant",
+        "description": "Conversational AI command center enabling sales and marketing teams to query signals, build audiences, and launch campaigns using natural language prompts, democratizing access to revenue intelligence.",
+        "url": "https://6sense.com/platform/revvy-ai/"
+      }
+    ],
+    "highlights_title": "Latest news on 6sense",
+    "highlights": [
+      {
+        "text": "<strong>Nov 2025</strong>—Launches RevvyAI conversational command center enabling natural language queries for signals and campaigns at Breakthrough 2025",
+        "url": "https://www.businesswire.com/news/home/20251114007377/en/6sense-Customers-Redefine-AI-Driven-Revenue-Execution-at-Breakthrough-2025",
+        "date": "November 2025"
+      },
+      {
+        "text": "<strong>Nov 2025</strong>—Named Gartner Magic Quadrant Leader for ABM Platforms fifth consecutive year with highest Ability to Execute score",
+        "url": "https://www.businesswire.com/news/home/20251114007377/en/6sense-Customers-Redefine-AI-Driven-Revenue-Execution-at-Breakthrough-2025",
+        "date": "November 2025"
+      },
+      {
+        "text": "<strong>Nov 2025</strong>—Co-founder Amanda Kahlow raises $30M for new AI sales automation startup 1mind",
+        "url": "https://techcrunch.com/2025/11/10/6sense-founder-amanda-kahlow-raises-30-million-for-new-human-replacement-ai-sales-startup-1mind/",
+        "date": "November 2025"
+      },
+      {
+        "text": "<strong>Oct 2024</strong>—Advances AI capabilities to unlock B2B revenue potential announced at Breakthrough 2024 conference",
+        "url": "https://www.businesswire.com/news/home/20241010171709/en/6sense-Advances-Use-of-AI-to-Unlock-B2B-Revenue-Potential-at-Breakthrough-2024",
+        "date": "October 2024"
+      },
+      {
+        "text": "<strong>Jan 2022</strong>—Closes $200M Series E at $5.2B valuation led by Blue Owl and MSD Partners",
+        "url": "https://sacra.com/c/6sense/",
+        "date": "January 2022"
+      },
+      {
+        "text": "<strong>2024</strong>—ARR exceeds $250M with continued strong growth in B2B revenue intelligence market",
+        "url": "https://sacra.com/c/6sense/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>2024</strong>—Named leader in Forrester Wave B2B Revenue Marketing Platforms Q3 2024 evaluation",
+        "url": "https://6sense.com/newsroom/6sense-advances-use-of-ai-to-unlock-b2b-revenue-potential-at-breakthrough-2024/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>Sep 2025</strong>—Chris Ball appointed CEO with Jason Zintak transitioning to Executive Chairman",
+        "url": "https://6sense.com/",
+        "date": "September 2025"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Chris Ball",
+        "role": "CEO",
+        "photo": "https://cdn.theorg.com/1b2b2c0a-43c8-4950-87bd-aebdbc209681_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/chrisball1/"
+      },
+      {
+        "name": "Jason Zintak",
+        "role": "Chairman of the Board",
+        "photo": "https://cdn.theorg.com/e4583133-be2e-4050-b615-6280d2102410_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/jasonzintak/"
+      },
+      {
+        "name": "Viral Bajaria",
+        "role": "Co-Founder & Chief Innovation Officer",
+        "photo": "https://cdn.theorg.com/dc8d8f27-e844-4660-b38f-f2cb3af1b850_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/viralbajaria/"
+      },
+      {
+        "name": "Latane Conant",
+        "role": "Chief Revenue Officer",
+        "photo": "https://cdn.theorg.com/a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6_medium.jpg"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Blue Owl",
+        "url": "https://www.blueowl.com/"
+      },
+      {
+        "name": "MSD Partners",
+        "url": "https://www.msdpartners.com/"
+      },
+      {
+        "name": "SoftBank Vision Fund 2",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Tiger Global",
+        "url": "https://www.tigerglobal.com/"
+      },
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com/"
+      },
+      {
+        "name": "D1 Capital Partners",
+        "url": "https://www.d1capital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Jan 2022",
+        "amount": "$200M",
+        "round": "Series E",
+        "valuation": "$5.2B",
+        "investors_html": "<a href='https://www.blueowl.com/' target='_blank'>Blue Owl</a>, <a href='https://www.msdpartners.com/' target='_blank'>MSD Partners</a>, <a href='https://visionfund.com/' target='_blank'>SoftBank</a>"
+      },
+      {
+        "date": "Mar 2021",
+        "amount": "$125M",
+        "round": "Series D",
+        "valuation": "$2.1B",
+        "investors_html": "<a href='https://www.insightpartners.com/' target='_blank'>Insight Partners</a>, <a href='https://www.tigerglobal.com/' target='_blank'>Tiger Global</a>"
+      },
+      {
+        "date": "Jun 2020",
+        "amount": "$40M",
+        "round": "Series C",
+        "valuation": "—",
+        "investors_html": "Insight Partners, existing investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "6sense Insights, Inc.",
+      "website": "https://6sense.com/",
+      "website_display": "6sense.com",
+      "founded": "2013",
+      "headcount": "1,500+",
+      "hq": "San Francisco, CA",
+      "twitter": "https://twitter.com/6aboratory",
+      "linkedin": "https://www.linkedin.com/company/6sense/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "ARR Growth ($M)",
+          "badge_text": "+40% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$150M",
+              "height": 121
+            },
+            {
+              "label": "2023",
+              "value": "$210M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

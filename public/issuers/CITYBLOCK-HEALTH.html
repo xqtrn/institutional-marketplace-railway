@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cityblock Health - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="cityblock-health-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idKc_9Qzde/idjIJbgzVF.png" alt="Cityblock Health" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Cityblock Health</h1>
+                    <p class="company-tagline">Tech-driven healthcare provider transforming care delivery for Medicaid and Medicare populations with value-based community health</p>
+                    <div class="company-tags"><span class="tag">Healthcare</span><span class="tag">Value-Based Care</span><span class="tag">Medicaid</span><span class="tag">Decacorn</span><span class="tag">Digital Health</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Cityblock Health is a tech-driven healthcare provider transforming care delivery for underserved Medicaid and Medicare populations through value-based care. Founded in 2017 by Toyin Ajayi, Bay Gross, and Iyah Romm (spun out of Sidewalk Labs), Cityblock provides integrated primary care, behavioral health, and social services across seven states. The company surpassed $1 billion in revenue in 2023 and serves over 100,000 members, demonstrating 11.5% reduction in payer expenses and 19.7% decrease in inpatient utilization. Named to CNBC Disruptor 50 in 2024, Cityblock is considered the clear leader in Medicaid value-based care.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2022-01</td>
+                <td>Series D</td>
+                <td>$400M</td>
+                <td>$5.7B</td>
+            </tr><tr>
+                <td>2021-03</td>
+                <td>Series C Extension</td>
+                <td>$192M</td>
+                <td></td>
+            </tr><tr>
+                <td>2020-12</td>
+                <td>Series C</td>
+                <td>$160M</td>
+                <td>$1B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cityblock Primary Care</div>
+            <div class="product-desc">Community-based primary care with in-home and virtual visits for Medicaid and dually eligible patients</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cityblock Behavioral Health</div>
+            <div class="product-desc">Integrated behavioral health services addressing mental health and substance use for complex populations</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cityblock Social Care</div>
+            <div class="product-desc">Care coordination addressing social determinants of health including housing, food security, and transportation</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Cityblock Health</h2>
+                        <div class="highlights-list"><a href="https://www.cnbc.com/2024/05/14/cityblock-cnbc-disruptor-50.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Named to CNBC Disruptor 50 list in 2024 for healthcare innovation</span>
+        </a><a href="https://bhbusiness.com/2024/11/22/cityblock-health-validates-value-based-care-arrangement-with-11-5-payer-expense-reduction/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">NEJM Catalyst study showed 11.5% payer expense reduction for enrolled patients</span>
+        </a><a href="https://www.hcinnovationgroup.com/policy-value-based-care/medicare-medicaid/news/53096004/cityblock-partners-with-ny-medicaid-managed-care-organization" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Partnered with Centene's Fidelis for New York City and Long Island market</span>
+        </a><a href="https://www.kinnevik.com/insights/cityblock-and-the-us-healthcare-system/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Revenue surpassed $1B in 2023 serving 100K+ Medicaid members</span>
+        </a><a href="https://www.mobihealthnews.com/news/cityblock-rakes-400m-platform-focused-medicaid-and-low-income-populations-and-other-digital" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raised total of $886M at $6.3B valuation from SoftBank and leading VCs</span>
+        </a><a href="https://www.fiercehealthcare.com/practices/cityblock-health-reaches-1b-valuation-raises-major-funding-round-to-address-healthcare" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Expanded to serve members across NY, MA, NC, OH, IN, IL, and FL</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/ac53ac29-fc78-458d-aef4-8dd127d9e3e0_medium.jpg" alt="Toyin Ajayi" class="leader-photo">
+            <div><div class="leader-name">Toyin Ajayi</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/toyinajayi/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/37930bd4-03c6-4606-bbb1-ab4c43f23e18_medium.jpg" alt="Mitch Betses" class="leader-photo">
+            <div><div class="leader-name">Mitch Betses</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/in/mitchbetses/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/6f05579e-68ba-4f5f-b839-67ff23b96673_medium.jpg" alt="Andrea Blankmeyer" class="leader-photo">
+            <div><div class="leader-name">Andrea Blankmeyer</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/andreablankmeyer/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/857f53f0-73f4-4493-a30e-7866b673777d_medium.jpg" alt="Kameron Matthews" class="leader-photo">
+            <div><div class="leader-name">Kameron Matthews</div>
+            <div class="leader-role">Chief Health Officer</div></div>
+            <a href="https://www.linkedin.com/in/kameronmatthews/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://visionfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund</span>
+        </a><a href="https://www.generalcatalyst.com/" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://www.kinnevik.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Kinnevik</span>
+        </a><a href="https://a16z.com/" target="_blank" class="investor-card">
+            <span class="investor-name">a16z</span>
+        </a><a href="https://www.maverick.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">Maverick Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Cityblock Health, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.cityblock.com/" target="_blank" class="detail-value">www.cityblock.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2017</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">1,500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Brooklyn, NY</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

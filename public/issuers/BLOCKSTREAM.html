@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockstream - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="blockstream-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idzB0xvF8q/id5PCmwKXj.svg" alt="Blockstream" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Blockstream</h1>
+                    <p class="company-tagline">Bitcoin infrastructure leader advancing Layer 2 solutions with the Liquid Network and Lightning implementations</p>
+                    <div class="company-tags"><span class="tag">Bitcoin</span><span class="tag">Layer 2</span><span class="tag">Lightning</span><span class="tag">Mining</span><span class="tag">Crypto Infrastructure</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Blockchain</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">Canada</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Blockstream is a leading Bitcoin infrastructure company building the foundation for financial freedom. Founded in 2014 by Dr. Adam Back (inventor of Hashcash) and other prominent Bitcoin developers, Blockstream has developed key Bitcoin technologies including the Liquid Network sidechain and Core Lightning implementation. In October 2024, the company raised $210 million led by Fulgur Ventures to accelerate Layer 2 adoption and expand its Bitcoin treasury. With over $1.8 billion in assets issued on Liquid including stablecoins and tokenized securities, and 3,844 BTC locked onchain, Blockstream is central to Bitcoin&#x27;s institutional adoption. The company expanded globally in 2025 with a research center in Lugano and new Tokyo office, launched Blockstream Asset Management for institutional investors, and spun out its mining and ASIC divisions as independent companies with over $350 million in combined funding.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2024-10</td>
+                <td>Convertible Note</td>
+                <td>$210M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Liquid Network</div>
+            <div class="product-desc">Federated Bitcoin sidechain with 1-minute blocks, confidential transactions, and asset tokenization</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Core Lightning</div>
+            <div class="product-desc">Lightning Network implementation enabling fast, low-cost Bitcoin transactions</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Blockstream Mining</div>
+            <div class="product-desc">Enterprise Bitcoin mining with hash rate-backed security tokens (BMN)</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Blockstream AMP</div>
+            <div class="product-desc">Asset management platform for issuing and managing digital securities on Liquid</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Blockstream</h2>
+                        <div class="highlights-list"><a href="https://blockstream.com/press-releases/2024-10-15-blockstream-secures-210m-dollars-led-fulgur-ventures-drive-layer-2-growth-expand-bitcoin-treasury/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Blockstream secures $210M led by Fulgur Ventures for Layer 2 growth and Bitcoin treasury</span>
+        </a><a href="https://www.theblock.co/post/321074/blockstream-funding-layer-2-mining-bitcoin-treasury" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">$1.8B+ in assets issued on Liquid Network including stablecoins and tokenized securities</span>
+        </a><a href="https://www.businesswire.com/news/home/20250430112790/en/Blockstream-Shares-Key-Strategic-Update-on-Growth-Expansion-in-2025" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Launches research center in Lugano, Switzerland for Liquid and Lightning development</span>
+        </a><a href="https://blockstream.com/press-releases/2025-04-28-blockstream-shares-key-strategic-update-growth-expansion-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Opens new Tokyo office in early 2025 strengthening Asia presence</span>
+        </a><a href="https://bitcoinmagazine.com/news/blockstream-announces-major-growth-expansion-plans-for-2025-following-210m-raise" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Blockstream Mining secures $350M+ and operates as independent company</span>
+        </a><a href="https://beincrypto.com/blockstream-fundraise-layer-2-bitcoin-development/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">BMN2 hash rate-backed security token launched following BMN1's 103% returns</span>
+        </a><a href="https://en.cryptonomist.ch/2025/05/02/blockstream-innovation-and-growth-in-the-bitcoin-sector-in-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Launches Blockstream Asset Management for institutional Bitcoin products</span>
+        </a><a href="https://www.nasdaq.com/articles/blockstream-announces-major-growth-expansion-plans-2025-following-210m-raise" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">$75M investment in Komainu enhancing custody with Liquid Network integration</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f_medium.jpg" alt="Adam Back" class="leader-photo">
+            <div><div class="leader-name">Adam Back</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/adam-back-a2a35/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a_medium.jpg" alt="Samson Mow" class="leader-photo">
+            <div><div class="leader-name">Samson Mow</div>
+            <div class="leader-role">Former CSO (now CEO of JAN3)</div></div>
+            <a href="https://www.linkedin.com/in/samsonmow/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b_medium.jpg" alt="Sean Bill" class="leader-photo">
+            <div><div class="leader-name">Sean Bill</div>
+            <div class="leader-role">CIO, Blockstream Asset Management</div></div>
+            <a href="https://www.linkedin.com/in/seanbill/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c_medium.jpg" alt="Assaf Gilboa" class="leader-photo">
+            <div><div class="leader-name">Assaf Gilboa</div>
+            <div class="leader-role">CEO, Blockstream ASIC</div></div>
+            <a href="https://www.linkedin.com/in/assafgilboa/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://fulgur.ventures/" target="_blank" class="investor-card">
+            <span class="investor-name">Fulgur Ventures</span>
+        </a><a href="https://www.kingswaycap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Kingsway Capital</span>
+        </a><a href="https://www.horizonsventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Horizons Ventures</span>
+        </a><a href="https://www.garage.co.jp/en/" target="_blank" class="investor-card">
+            <span class="investor-name">Digital Garage</span>
+        </a><a href="https://www.khoslaventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Khosla Ventures</span>
+        </a><a href="https://www.linkedin.com/in/reidhoffman/" target="_blank" class="investor-card">
+            <span class="investor-name">Reid Hoffman</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

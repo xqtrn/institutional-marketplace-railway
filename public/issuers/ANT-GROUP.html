@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ant Group - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="ant-group-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idJz6FPjfT/idvvHvs3SH.svg" alt="Ant Group" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Ant Group</h1>
+                    <p class="company-tagline">World&#x27;s largest fintech company powering Alipay and transforming digital payments across China and emerging markets</p>
+                    <div class="company-tags"><span class="tag">Fintech</span><span class="tag">Digital Payments</span><span class="tag">Alipay</span><span class="tag">China</span><span class="tag">AI</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Fintech</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">China</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Ant Group is the world&#x27;s largest fintech company and parent of Alipay, China&#x27;s dominant mobile payments platform with over 1 billion users. Founded in 2004 as Alipay under Alibaba, the company was spun off as Ant Financial in 2014 and rebranded to Ant Group in 2020. The company&#x27;s planned $37 billion IPO in 2020—what would have been the world&#x27;s largest—was suspended by Chinese regulators days before listing. Following regulatory restructuring, Ant Group&#x27;s valuation recovered to $102.7 billion in 2025, up from $78.5 billion in 2023. The company achieved 61% profit growth in 2024 to $5.3 billion, driven by record R&amp;D investment of $3.26 billion in AI. Ant International, the global unit generating $3 billion in revenue, is preparing for a potential Hong Kong IPO with valuations between $8-24 billion. In 2024, Jack Ma&#x27;s control was formally diluted with 10 management staff receiving voting rights.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2018-06</td>
+                <td>Series C</td>
+                <td>$14B</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Alipay</div>
+            <div class="product-desc">World&#x27;s largest mobile payment platform with over 1 billion users in China</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Alipay+</div>
+            <div class="product-desc">Cross-border digital payment network connecting 3 billion users across 60+ markets</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Zhixiaobao</div>
+            <div class="product-desc">AI-powered digital assistant for financial services and customer support</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Ant International</div>
+            <div class="product-desc">Global fintech platform generating $3B revenue serving Southeast Asia and emerging markets</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Ant Group</h2>
+                        <div class="highlights-list"><a href="https://www.ainvest.com/news/ant-group-strategic-ai-global-expansion-high-risk-high-reward-investment-play-2508/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Ant Group valuation recovered to $102.7B in 2025, up from $78.5B in 2023</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2025-05-19/ant-group-s-global-unit-brings-in-3-billion-ahead-of-spinoff" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Profit growth of 61% to $5.3B in 2024 driven by AI investments</span>
+        </a><a href="https://www.scmp.com/tech/big-tech/article/3310945/ant-groups-global-unit-pulls-us3-billion-revenue-ahead-spin" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Record R&D investment of $3.26B in AI and technology in 2024</span>
+        </a><a href="https://finance.yahoo.com/news/alibabas-fintech-arm-ant-group-163611251.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Ant International generates $3B revenue ahead of potential Hong Kong IPO</span>
+        </a><a href="https://www.caproasia.com/2025/05/20/alibaba-fintech-ant-group-plans-hong-kong-ipo-for-ant-international-with-reports-of-valuation-between-8-billion-to-24-billion-ant-group-had-removed-controlling-shareholders-in-2024-including-jack-m/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Alipay Tap! contactless payment service surpasses 100M users by April 2025</span>
+        </a><a href="https://www.caixinglobal.com/2025-05-05/exclusive-ant-group-in-talks-for-international-unit-ipo-in-hong-kong-102316506.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Cyril Han appointed CEO effective March 2025, Eric Jing remains Chairman</span>
+        </a><a href="https://www.scmp.com/tech/big-tech/article/3310945/ant-groups-global-unit-pulls-us3-billion-revenue-ahead-spin" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Ant International revenue share grew from 5% in 2020 to 20% in 2024</span>
+        </a><a href="https://www.cnbc.com/2024/05/06/chinese-fintech-ant-group-doubles-down-on-global-expansion-with-alipay.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">CNBC: Global expansion with Alipay+</span>
+        </a><a href="https://technode.com/2024/03/20/three-ant-group-subsidiaries-to-go-independent-in-chinese-fintech-giants-biggest-restructure-since-blocked-ipo/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">TechNode: Major restructure since blocked IPO</span>
+        </a><a href="https://www.pymnts.com/earnings/2024/ant-group-earnings-fall-19-amid-digital-wallet-efforts/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">PYMNTS: Digital wallet efforts amid earnings</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/8f3d2a1b-5c6e-4d7f-9a8b-1c2d3e4f5a6b_medium.jpg" alt="Cyril Han" class="leader-photo">
+            <div><div class="leader-name">Cyril Han</div>
+            <div class="leader-role">Chief Executive Officer (from March 2025)</div></div>
+            <a href="https://www.linkedin.com/in/cyrilhan/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/2b4c6d8e-1f3a-5b7c-9d8e-4f6a2c3b5d7e_medium.jpg" alt="Eric Jing" class="leader-photo">
+            <div><div class="leader-name">Eric Jing</div>
+            <div class="leader-role">Chairman (former CEO)</div></div>
+            <a href="https://www.linkedin.com/in/ericjing/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/5e7f9a1b-3c4d-6e8f-2a1b-4c5d6e7f8a9b_medium.jpg" alt="Jack Ma" class="leader-photo">
+            <div><div class="leader-name">Jack Ma</div>
+            <div class="leader-role">Founder (reduced voting rights to 6.2%)</div></div>
+            <a href="https://www.linkedin.com/in/jackma/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/9a1b2c3d-4e5f-6a7b-8c9d-1e2f3a4b5c6d_medium.jpg" alt="Simon Hu" class="leader-photo">
+            <div><div class="leader-name">Simon Hu</div>
+            <div class="leader-role">Former CEO &amp; Executive Chairman</div></div>
+            <a href="https://www.linkedin.com/in/simonhu/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.alibaba.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Alibaba Group</span>
+        </a><a href="https://www.china-inv.cn/" target="_blank" class="investor-card">
+            <span class="investor-name">China Investment Corporation</span>
+        </a><a href="https://www.ssf.gov.cn/" target="_blank" class="investor-card">
+            <span class="investor-name">National Social Security Fund</span>
+        </a><a href="https://www.temasek.com.sg/" target="_blank" class="investor-card">
+            <span class="investor-name">Temasek Holdings</span>
+        </a><a href="https://www.gic.com.sg/" target="_blank" class="investor-card">
+            <span class="investor-name">GIC Private Limited</span>
+        </a><a href="https://www.cppinvestments.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Canada Pension Plan Investment Board</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

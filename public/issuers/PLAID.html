@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaid - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="plaid-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://logo.clearbit.com/plaid.com" alt="Plaid" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Plaid</h1>
+                    <p class="company-tagline">Connecting consumer bank accounts to fintech applications through secure open banking APIs</p>
+                    <div class="company-tags"><span class="tag">Fintech</span><span class="tag">Open Banking</span><span class="tag">API</span><span class="tag">United States</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Plaid is an open banking API platform founded in 2013 by Zach Perret and William Hockey. The company connects consumer bank accounts to fintech applications via API, powering services like Venmo, Robinhood, Coinbase, Betterment, and H&amp;R Block. Plaid serves 8,000+ customers and roughly half of all Americans with bank accounts use apps connected via Plaid. In 2021, Visa&#x27;s $5.3B acquisition fell through due to DOJ antitrust concerns. In April 2025, Plaid raised $575M at $6.1B valuation (down from $13.4B peak in 2021). Revenue grew 25% in 2024 to ~$380M with positive operating margins.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>Apr 2025</td>
+                <td>Secondary</td>
+                <td>$575M</td>
+                <td>$6.1B</td>
+            </tr><tr>
+                <td>Apr 2021</td>
+                <td>Series D</td>
+                <td>$425M</td>
+                <td>$13.4B</td>
+            </tr><tr>
+                <td>Dec 2018</td>
+                <td>Series C</td>
+                <td>$250M</td>
+                <td>$2.65B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Plaid Link</div>
+            <div class="product-desc">Connect bank accounts via UI</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Auth</div>
+            <div class="product-desc">Instant account verification</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Transactions</div>
+            <div class="product-desc">Transaction data API</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Identity</div>
+            <div class="product-desc">Account ownership verification</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Balance</div>
+            <div class="product-desc">Real-time balance checks</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Assets</div>
+            <div class="product-desc">Bank statement reports</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Plaid</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2025/04/03/fintech-plaid-raises-575m-at-6-1b-valuation-says-it-will-not-go-public-in-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">Raised <strong>$575M at $6.1B valuation</strong> (Apr 2025)</span>
+        </a><a href="https://fortune.com/2025/10/20/plaid-seun-sodipo-cfo-next-phase-fintech-growth/" target="_blank" class="highlight-item">
+            <span class="highlight-date">2025</span>
+            <span class="highlight-title">Named <strong>Seun Sodipo as CFO</strong> (Oct 2025)</span>
+        </a><a href="https://www.cnbc.com/2025/04/03/plaid-raises-575-million-funding-round-at-6-billion-valuation.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Revenue <strong>$380M</strong>, up 25% YoY</span>
+        </a><a href="https://fortune.com/2025/04/03/fintech-plaid-funding-round-fidelity-blackrock-franklin-templeton-nea-perret/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Positive operating margins</strong> achieved</span>
+        </a><a href="https://sacra.com/c/plaid/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>50% of Americans</strong> use Plaid-connected apps</span>
+        </a><a href="https://techcrunch.com/2025/04/03/fintech-plaid-raises-575m-at-6-1b-valuation-says-it-will-not-go-public-in-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>8,000+ customers</strong> including Venmo, Robinhood</span>
+        </a><a href="https://techcrunch.com/2025/04/03/fintech-plaid-raises-575m-at-6-1b-valuation-says-it-will-not-go-public-in-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Enterprise growth <strong>outpacing consumer fintech</strong></span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/e214c95a-4b95-401a-90c7-e423eef8778f_medium.jpg" alt="Zach Perret" class="leader-photo">
+            <div><div class="leader-name">Zach Perret</div>
+            <div class="leader-role">Co-founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/zperret/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/d91e1bcc-8cd7-45b2-bf65-2ef1b5b4912b_medium.jpg" alt="Will Robinson" class="leader-photo">
+            <div><div class="leader-name">Will Robinson</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/williamrobinson/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/60f73b0f-09e0-42c7-934f-ca2f89a74c5e_medium.jpg" alt="Seun Sodipo" class="leader-photo">
+            <div><div class="leader-name">Seun Sodipo</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/seunsodipo/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.franklintempleton.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Franklin Templeton</span>
+        </a><a href="https://www.fidelity.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Fidelity</span>
+        </a><a href="https://www.blackrock.com/" target="_blank" class="investor-card">
+            <span class="investor-name">BlackRock</span>
+        </a><a href="https://www.nea.com/" target="_blank" class="investor-card">
+            <span class="investor-name">NEA</span>
+        </a><a href="https://ribbitcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Ribbit Capital</span>
+        </a><a href="https://www.indexventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Index Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Plaid Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://plaid.com" target="_blank" class="detail-value">plaid.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2013</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">1,500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">San Francisco, California</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

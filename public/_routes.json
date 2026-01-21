@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/issuers.html",
+    "/partners.html",
+    "/companies.html",
+    "/users.html",
+    "/admin.html",
+    "/login.html",
+    "/settings.html",
+    "/issuers/*.html",
+    "/api/*.json",
+    "/issuers",
+    "/partners",
+    "/companies",
+    "/users",
+    "/admin",
+    "/login",
+    "/settings"
+  ]
+}

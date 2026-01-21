@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coralogix - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="coralogix-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idsJ3RdK3D/idY9u40VFZ.svg" alt="Coralogix" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Coralogix</h1>
+                    <p class="company-tagline">AI-powered full-stack observability platform transforming how enterprises monitor, secure, and scale digital infrastructure</p>
+                    <div class="company-tags"><span class="tag">Observability</span><span class="tag">DevOps</span><span class="tag">AI/ML</span><span class="tag">Log Analytics</span><span class="tag">Israeli Tech</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Coralogix is a full-stack observability platform powered by AI, helping over 4,000 enterprises monitor, troubleshoot, and secure their digital infrastructure. The platform combines logs, metrics, traces, and security in a unified solution with real-time streaming analytics and machine learning-driven insights. Founded in Israel and reaching unicorn status in June 2025 with $115M Series E funding, Coralogix has achieved 7x revenue growth since 2022. The company acquired AI startup Aporia in December 2024 to enhance its AI capabilities and launched &#x27;Olly,&#x27; an agentic AI assistant for automated observability workflows.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2025-06</td>
+                <td>Series E</td>
+                <td>$115M</td>
+                <td>$1B+</td>
+            </tr><tr>
+                <td>2022-06</td>
+                <td>Series D</td>
+                <td>$142M</td>
+                <td>~$500M</td>
+            </tr><tr>
+                <td>2021-05</td>
+                <td>Series C</td>
+                <td>$55M</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Coralogix Observability Platform</div>
+            <div class="product-desc">Unified logs, metrics, and traces with real-time streaming analytics</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Olly AI Assistant</div>
+            <div class="product-desc">Agentic AI for automated incident response and observability workflows</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">APM &amp; Distributed Tracing</div>
+            <div class="product-desc">Application performance monitoring with end-to-end transaction tracing</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cloud Security</div>
+            <div class="product-desc">Real-time security monitoring and threat detection for cloud environments</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Coralogix</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2025/06/17/observability-startup-coralogix-becomes-a-unicorn-eyes-india-expansion/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raises $115M Series E at $1B+ valuation, achieving unicorn status</span>
+        </a><a href="https://www.calcalistech.com/ctechnews/article/h1tsdarqge" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Acquires AI startup Aporia to enhance ML-powered observability</span>
+        </a><a href="https://www.channelinsider.com/news-and-trends/coralogix-olly-ai-assistant-funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Launches Olly, agentic AI assistant for automated incident response</span>
+        </a><a href="https://www.bnnbloomberg.ca/business/2025/06/17/data-analytics-startup-coralogix-doubles-valuation-to-over-us1-billion-in-latest-funding-round/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Achieves 7x revenue growth since 2022 Series D</span>
+        </a><a href="https://www.globenewswire.com/news-release/2025/06/17/3100564/0/en/Coralogix-Raises-115M-E-Round-at-1B-Valuation-to-Advance-AI-Powered-Observability.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Expands to serve 4,000+ enterprise customers globally</span>
+        </a><a href="https://www.msspalert.com/news/coralogix-secures-115m-to-scale-ai-driven-observability-and-launch-agentic-assistant-olly" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Secures backing from CPPIB and NextEquity in unicorn round</span>
+        </a><a href="https://coralogix.com/blog/coralogix-raises-115m-series-e-to-fuel-ai-powered-observability/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>$115M Series E at $1B+</strong> (Jun 2025)—unicorn status achieved with AI observability focus</span>
+        </a><a href="https://www.globenewswire.com/news-release/2025/06/17/3100567/0/en/Coralogix-Surpasses-1B-Valuation-and-Unveils-Industry-s-First-AI-Agent-That-Extends-Observability-Value-Across-the-Enterprise.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>Olly AI agent GA</strong> (Dec 2025)—first autonomous observability agent for real-time issue investigation</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/796b66cc-4bbc-4c99-a0ff-8add80739d1d_medium.jpg" alt="Ariel Assaraf" class="leader-photo">
+            <div><div class="leader-name">Ariel Assaraf</div>
+            <div class="leader-role">CEO &amp; Co-Founder</div></div>
+            <a href="https://www.linkedin.com/in/arielassaraf/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/b7b505cd-0861-4c27-bcc9-2ee7eae4c99d_medium.jpg" alt="Yoni Farin" class="leader-photo">
+            <div><div class="leader-name">Yoni Farin</div>
+            <div class="leader-role">CTO &amp; Co-Founder</div></div>
+            <a href="https://www.linkedin.com/in/yonifarin/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/47b73585-2461-448b-a45e-da8ebec94ff3_medium.jpg" alt="Matt Handler" class="leader-photo">
+            <div><div class="leader-name">Matt Handler</div>
+            <div class="leader-role">Chief Operating Officer &amp; President</div></div>
+            <a href="https://www.linkedin.com/in/matthandler/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/76b5e771-70db-488e-af80-df700bb5839a_medium.jpg" alt="Ron Davidi" class="leader-photo">
+            <div><div class="leader-name">Ron Davidi</div>
+            <div class="leader-role">Chief Sales Officer</div></div>
+            <a href="https://www.linkedin.com/in/rondavidi/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.newviewcap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">NewView Capital</span>
+        </a><a href="https://www.cppinvestments.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CPPIB</span>
+        </a><a href="https://www.adventinternational.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Advent International</span>
+        </a><a href="https://www.brightonparkcp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Brighton Park Capital</span>
+        </a><a href="https://www.nextequity.com/" target="_blank" class="investor-card">
+            <span class="investor-name">NextEquity</span>
+        </a><a href="https://www.greenfieldpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Greenfield Partners</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Coralogix Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://coralogix.com" target="_blank" class="detail-value">coralogix.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">400+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Tel Aviv, Israel</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

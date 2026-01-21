@@ -1,0 +1,4892 @@
+{
+  "H2OAI": {
+    "ticker": "H2OAI",
+    "name": "H2O.AI",
+    "logo": "/assets/logos/H2O.ai.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "H2O.AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "H2O.AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on H2O.AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "H2O.AI",
+      "website": "https://h2oai.com",
+      "website_display": "h2oai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HABI": {
+    "ticker": "HABI",
+    "name": "HABI",
+    "logo": "/assets/logos/Habi.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HABI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HABI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HABI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HABI",
+      "website": "https://habi.com",
+      "website_display": "habi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HADRIAN": {
+    "ticker": "HADRIAN",
+    "name": "HADRIAN",
+    "logo": "/assets/logos/hadrian.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HADRIAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HADRIAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HADRIAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HADRIAN",
+      "website": "https://hadrian.com",
+      "website_display": "hadrian.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAEGIN": {
+    "ticker": "HAEGIN",
+    "name": "HAEGIN",
+    "logo": "/assets/logos/HAEGIN.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAEGIN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAEGIN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAEGIN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAEGIN",
+      "website": "https://haegin.com",
+      "website_display": "haegin.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAI-ROBOTICS": {
+    "ticker": "HAI-ROBOTICS",
+    "name": "HAI ROBOTICS",
+    "logo": "/assets/logos/HAI_ROBOTICS.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAI ROBOTICS is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAI ROBOTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAI ROBOTICS",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAI ROBOTICS",
+      "website": "https://hairobotics.com",
+      "website_display": "hairobotics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAIHE-BIOPHARMA": {
+    "ticker": "HAIHE-BIOPHARMA",
+    "name": "HAIHE BIOPHARMA",
+    "logo": "/assets/logos/Haihe_Biopharma.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAIHE BIOPHARMA is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAIHE BIOPHARMA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAIHE BIOPHARMA",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAIHE BIOPHARMA",
+      "website": "https://haihebiopharma.com",
+      "website_display": "haihebiopharma.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAILO": {
+    "ticker": "HAILO",
+    "name": "HAILO",
+    "logo": "/assets/logos/Hailo.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAILO is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAILO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAILO",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAILO",
+      "website": "https://hailo.com",
+      "website_display": "hailo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HALCYON": {
+    "ticker": "HALCYON",
+    "name": "HALCYON",
+    "logo": "/assets/logos/Halcyon.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HALCYON is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HALCYON main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HALCYON",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HALCYON",
+      "website": "https://halcyon.com",
+      "website_display": "halcyon.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HALTER": {
+    "ticker": "HALTER",
+    "name": "HALTER",
+    "logo": "/assets/logos/Halter.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HALTER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HALTER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HALTER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HALTER",
+      "website": "https://halter.com",
+      "website_display": "halter.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HANDSHAKE": {
+    "ticker": "HANDSHAKE",
+    "name": "HANDSHAKE",
+    "logo": "/assets/logos/Handshake.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HANDSHAKE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HANDSHAKE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HANDSHAKE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HANDSHAKE",
+      "website": "https://handshake.com",
+      "website_display": "handshake.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAOMOAI": {
+    "ticker": "HAOMOAI",
+    "name": "HAOMO.AI",
+    "logo": "/assets/logos/Haomo.AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAOMO.AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAOMO.AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAOMO.AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAOMO.AI",
+      "website": "https://haomoai.com",
+      "website_display": "haomoai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAPPY-MONEY": {
+    "ticker": "HAPPY-MONEY",
+    "name": "HAPPY MONEY",
+    "logo": "/assets/logos/Happy_Money.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAPPY MONEY is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAPPY MONEY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAPPY MONEY",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAPPY MONEY",
+      "website": "https://happymoney.com",
+      "website_display": "happymoney.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HARNESS": {
+    "ticker": "HARNESS",
+    "name": "HARNESS",
+    "logo": "/assets/logos/Harness.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HARNESS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HARNESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HARNESS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HARNESS",
+      "website": "https://harness.com",
+      "website_display": "harness.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HARRYS": {
+    "ticker": "HARRYS",
+    "name": "HARRY'S",
+    "logo": "/assets/logos/Harrys.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HARRY'S is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HARRY'S main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HARRY'S",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HARRY'S",
+      "website": "https://harrys.com",
+      "website_display": "harrys.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HARVEY": {
+    "ticker": "HARVEY",
+    "name": "Harvey AI",
+    "logo": "/assets/logos/Harvey.jpeg",
+    "tagline": "Domain-specific AI platform transforming legal and professional services with frontier AI",
+    "tags": [
+      "Legal AI",
+      "Generative AI",
+      "Enterprise Solutions",
+      "LLM Platform",
+      "Professional Services"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation June 2025",
+        "value": "$5B"
+      },
+      {
+        "label": "ARR August 2025",
+        "value": "$100M+"
+      },
+      {
+        "label": "Total Funding 2025",
+        "value": "$806M"
+      },
+      {
+        "label": "Customers Aug 2025",
+        "value": "500+"
+      }
+    ],
+    "overview": "Harvey AI is a pioneering legal technology company founded in 2022 by Winston Weinberg and Gabriel Pereyra. The company specializes in domain-specific artificial intelligence for legal and professional services sectors. Harvey provides AI-powered solutions for tasks such as contract analysis, due diligence, legal research, compliance, and litigation support. Its platform is used by global law firms and Fortune 500 enterprises. As of June 2025, Harvey achieved a $5 billion valuation following a $300 million Series E funding round. The company reached $100 million in annual recurring revenue in August 2025, serving over 500 customers across 54 countries, including 42% of AmLaw 100 firms.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Harvey AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Harvey AI",
+    "highlights": [
+      {
+        "text": "Harvey AI continues to grow and expand",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Harvey Assistant: Domain-specific personal assistant for complex legal tasks.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Harvey AI",
+      "website": "https://harvey.com",
+      "website_display": "harvey.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HASHKEY": {
+    "ticker": "HASHKEY",
+    "name": "HASHKEY",
+    "logo": "/assets/logos/HashKey.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HASHKEY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HASHKEY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HASHKEY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HASHKEY",
+      "website": "https://hashkey.com",
+      "website_display": "hashkey.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HASURA": {
+    "ticker": "HASURA",
+    "name": "HASURA",
+    "logo": "/assets/logos/Hasura.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HASURA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HASURA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HASURA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HASURA",
+      "website": "https://hasura.com",
+      "website_display": "hasura.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HAYDON": {
+    "ticker": "HAYDON",
+    "name": "HAYDON",
+    "logo": "/assets/logos/Haydon.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HAYDON is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HAYDON main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HAYDON",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HAYDON",
+      "website": "https://haydon.com",
+      "website_display": "haydon.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HEADWAY": {
+    "ticker": "HEADWAY",
+    "name": "HEADWAY",
+    "logo": "/assets/logos/Headway.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HEADWAY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HEADWAY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HEADWAY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HEADWAY",
+      "website": "https://headway.com",
+      "website_display": "headway.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HEALTHCARECOM": {
+    "ticker": "HEALTHCARECOM",
+    "name": "HEALTHCARE.COM",
+    "logo": "/assets/logos/Healthcare.com.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HEALTHCARE.COM is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HEALTHCARE.COM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HEALTHCARE.COM",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HEALTHCARE.COM",
+      "website": "https://healthcarecom.com",
+      "website_display": "healthcarecom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HELION-ENERGY": {
+    "ticker": "HELION-ENERGY",
+    "name": "HELION ENERGY",
+    "logo": "/assets/logos/Helion_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HELION ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HELION ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HELION ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HELION ENERGY",
+      "website": "https://helionenergy.com",
+      "website_display": "helionenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HELIUM": {
+    "ticker": "HELIUM",
+    "name": "HELIUM",
+    "logo": "/assets/logos/Helium.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HELIUM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HELIUM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HELIUM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HELIUM",
+      "website": "https://helium.com",
+      "website_display": "helium.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HELLO-TRANSTECH": {
+    "ticker": "HELLO-TRANSTECH",
+    "name": "HELLO TRANSTECH",
+    "logo": "/assets/logos/Hello_TransTech.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HELLO TRANSTECH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HELLO TRANSTECH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HELLO TRANSTECH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HELLO TRANSTECH",
+      "website": "https://hellotranstech.com",
+      "website_display": "hellotranstech.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HELSING": {
+    "ticker": "HELSING",
+    "name": "HELSING",
+    "logo": "/assets/logos/Helsing.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HELSING is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HELSING main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HELSING",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HELSING",
+      "website": "https://helsing.com",
+      "website_display": "helsing.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HEYTEA": {
+    "ticker": "HEYTEA",
+    "name": "HEYTEA",
+    "logo": "/assets/logos/HeyTea.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HEYTEA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HEYTEA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HEYTEA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HEYTEA",
+      "website": "https://heytea.com",
+      "website_display": "heytea.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIBOB": {
+    "ticker": "HIBOB",
+    "name": "HIBOB",
+    "logo": "/assets/logos/HiBob.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Israel"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIBOB is a technology company focused on innovation and growth. The company operates in the Israel market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIBOB main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIBOB",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Israel",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIBOB",
+      "website": "https://hibob.com",
+      "website_display": "hibob.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIF-GLOBAL": {
+    "ticker": "HIF-GLOBAL",
+    "name": "HIF GLOBAL",
+    "logo": "/assets/logos/HIF_Global.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIF GLOBAL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIF GLOBAL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIF GLOBAL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIF GLOBAL",
+      "website": "https://hifglobal.com",
+      "website_display": "hifglobal.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIGHRADIUS": {
+    "ticker": "HIGHRADIUS",
+    "name": "HIGHRADIUS",
+    "logo": "/assets/logos/HighRadius.jpeg",
+    "tagline": "HR technology and workforce solutions",
+    "tags": [
+      "HR Tech",
+      "Talent Management",
+      "Workforce Solutions",
+      "People Analytics",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "HR"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIGHRADIUS is a hr company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIGHRADIUS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIGHRADIUS",
+    "highlights": [
+      {
+        "text": "Leading hr company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIGHRADIUS",
+      "website": "https://highradius.com",
+      "website_display": "highradius.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIGHSPOT": {
+    "ticker": "HIGHSPOT",
+    "name": "HIGHSPOT",
+    "logo": "/assets/logos/Highspot.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIGHSPOT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIGHSPOT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIGHSPOT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIGHSPOT",
+      "website": "https://highspot.com",
+      "website_display": "highspot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIGHTOUCH": {
+    "ticker": "HIGHTOUCH",
+    "name": "HIGHTOUCH",
+    "logo": "/assets/logos/Hightouch.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIGHTOUCH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIGHTOUCH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIGHTOUCH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIGHTOUCH",
+      "website": "https://hightouch.com",
+      "website_display": "hightouch.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIKE": {
+    "ticker": "HIKE",
+    "name": "HIKE",
+    "logo": "/assets/logos/Hike.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIKE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIKE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIKE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIKE",
+      "website": "https://hike.com",
+      "website_display": "hike.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIPPOCRATIC-AI": {
+    "ticker": "HIPPOCRATIC-AI",
+    "name": "Hippocratic AI",
+    "logo": "/assets/logos/Hippocratic_AI.jpeg",
+    "tagline": "Building the safest generative AI healthcare agents to bring clinical abundance and close the global healthcare worker shortage",
+    "tags": [
+      "Healthcare AI Agents",
+      "Safety-First LLM",
+      "Patient Care",
+      "Clinical Excellence",
+      "Do No Harm"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Nov 2025",
+        "value": "$3.5B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$404M"
+      },
+      {
+        "label": "Healthcare Partners",
+        "value": "50+"
+      },
+      {
+        "label": "Patient Interactions",
+        "value": "115M+"
+      }
+    ],
+    "overview": "Hippocratic AI is the global leader in safety-focused generative AI healthcare agents, founded in 2023 by CEO Munjal Shah alongside physicians, hospital administrators, healthcare professionals, and AI researchers from leading institutions including El Camino Health, Johns Hopkins, Washington University in St. Louis, Stanford, Google, and NVIDIA. The company's mission is to develop the safest Large Language Model for healthcare, bringing clinical abundance to address the growing shortage of 15 million healthcare workers worldwide. Named after the Hippocratic Oath, the company prioritizes \"Do No Harm\" above all else, focusing exclusively on non-diagnostic, patient-facing clinical tasks. As of November 2025, Hippocratic AI has achieved a $3.5 billion valuation following its Series C round, establishing partnerships with over 50 large health systems, payors, and pharma clients across 6 countries, completing over 115 million patient interactions with zero safety issues.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Hippocratic AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Hippocratic AI",
+    "highlights": [
+      {
+        "text": "Hippocratic AI continues to grow and expand",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Healthcare AI Agent App Store: Platform enabling clinicians to design AI agents in 30 minutes.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Hippocratic AI",
+      "website": "https://hippocraticai.com",
+      "website_display": "hippocraticai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HITHIUM-ENERGY-STORAGE": {
+    "ticker": "HITHIUM-ENERGY-STORAGE",
+    "name": "HITHIUM ENERGY STORAGE",
+    "logo": "/assets/logos/Hithium_Energy_Storage.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HITHIUM ENERGY STORAGE is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HITHIUM ENERGY STORAGE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HITHIUM ENERGY STORAGE",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HITHIUM ENERGY STORAGE",
+      "website": "https://hithiumenergystorage.com",
+      "website_display": "hithiumenergystorage.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIVE": {
+    "ticker": "HIVE",
+    "name": "HIVE",
+    "logo": "/assets/logos/Hive.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIVE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIVE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIVE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIVE",
+      "website": "https://hive.com",
+      "website_display": "hive.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HIVE-BOX": {
+    "ticker": "HIVE-BOX",
+    "name": "HIVE BOX",
+    "logo": "/assets/logos/Hive_Box.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HIVE BOX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HIVE BOX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HIVE BOX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HIVE BOX",
+      "website": "https://hivebox.com",
+      "website_display": "hivebox.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HMD": {
+    "ticker": "HMD",
+    "name": "HMD",
+    "logo": "/assets/logos/HMD.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HMD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HMD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HMD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HMD",
+      "website": "https://hmd.com",
+      "website_display": "hmd.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HOMELANE": {
+    "ticker": "HOMELANE",
+    "name": "HOMELANE",
+    "logo": "/assets/logos/homelane.com",
+    "tagline": "PropTech solutions for real estate industry",
+    "tags": [
+      "PropTech",
+      "Real Estate",
+      "Property Technology",
+      "Housing",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HOMELANE is a real estate company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HOMELANE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HOMELANE",
+    "highlights": [
+      {
+        "text": "Leading real estate company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HOMELANE",
+      "website": "https://homelane.com",
+      "website_display": "homelane.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HOMELIGHT": {
+    "ticker": "HOMELIGHT",
+    "name": "HOMELIGHT",
+    "logo": "/assets/logos/HomeLight.jpeg",
+    "tagline": "PropTech solutions for real estate industry",
+    "tags": [
+      "PropTech",
+      "Real Estate",
+      "Property Technology",
+      "Housing",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HOMELIGHT is a real estate company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HOMELIGHT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HOMELIGHT",
+    "highlights": [
+      {
+        "text": "Leading real estate company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HOMELIGHT",
+      "website": "https://homelight.com",
+      "website_display": "homelight.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HONEYBOOK": {
+    "ticker": "HONEYBOOK",
+    "name": "HONEYBOOK",
+    "logo": "/assets/logos/HoneyBook.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HONEYBOOK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HONEYBOOK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HONEYBOOK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HONEYBOOK",
+      "website": "https://honeybook.com",
+      "website_display": "honeybook.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HONOR": {
+    "ticker": "HONOR",
+    "name": "HONOR",
+    "logo": "/assets/logos/Honor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HONOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HONOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HONOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HONOR",
+      "website": "https://honor.com",
+      "website_display": "honor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HOPPER": {
+    "ticker": "HOPPER",
+    "name": "HOPPER",
+    "logo": "/assets/logos/Hopper.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HOPPER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HOPPER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HOPPER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HOPPER",
+      "website": "https://hopper.com",
+      "website_display": "hopper.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HOTMART": {
+    "ticker": "HOTMART",
+    "name": "HOTMART",
+    "logo": "/assets/logos/Hotmart.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HOTMART is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HOTMART main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HOTMART",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HOTMART",
+      "website": "https://hotmart.com",
+      "website_display": "hotmart.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HOUZZ": {
+    "ticker": "HOUZZ",
+    "name": "HOUZZ",
+    "logo": "/assets/logos/Houzz.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HOUZZ is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HOUZZ main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HOUZZ",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HOUZZ",
+      "website": "https://houzz.com",
+      "website_display": "houzz.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HOZON": {
+    "ticker": "HOZON",
+    "name": "HOZON",
+    "logo": "/assets/logos/Hozon.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HOZON is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HOZON main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HOZON",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HOZON",
+      "website": "https://hozon.com",
+      "website_display": "hozon.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HT-AERO": {
+    "ticker": "HT-AERO",
+    "name": "HT AERO",
+    "logo": "/assets/logos/HT_Aero.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HT AERO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HT AERO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HT AERO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HT AERO",
+      "website": "https://htaero.com",
+      "website_display": "htaero.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUASHENG-HAOCHE": {
+    "ticker": "HUASHENG-HAOCHE",
+    "name": "HUASHENG HAOCHE",
+    "logo": "/assets/logos/Huasheng_Haoche.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUASHENG HAOCHE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUASHENG HAOCHE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUASHENG HAOCHE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUASHENG HAOCHE",
+      "website": "https://huashenghaoche.com",
+      "website_display": "huashenghaoche.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUASUN-ENERGY": {
+    "ticker": "HUASUN-ENERGY",
+    "name": "HUASUN ENERGY",
+    "logo": "/assets/logos/Huasun_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUASUN ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUASUN ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUASUN ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUASUN ENERGY",
+      "website": "https://huasunenergy.com",
+      "website_display": "huasunenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUGGING-FACE": {
+    "ticker": "HUGGING-FACE",
+    "name": "Hugging Face",
+    "logo": "/assets/logos/Hugging_Face.png",
+    "tagline": "The AI community building the future with open-source models, datasets, and collaborative spaces",
+    "tags": [
+      "Open Source AI",
+      "ML Platform",
+      "Transformers",
+      "Model Hub",
+      "AI Community"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$4.5B"
+      },
+      {
+        "label": "Models Hosted",
+        "value": "800K+"
+      },
+      {
+        "label": "Datasets",
+        "value": "200K+"
+      },
+      {
+        "label": "Monthly Users",
+        "value": "10M+"
+      }
+    ],
+    "overview": "Hugging Face is the leading open-source AI platform founded in 2016, providing a hub for machine learning models, datasets, and collaborative applications. Originally a chatbot startup, the company pivoted to become the 'GitHub of AI,' hosting over 800,000 models and 200,000 datasets. Hugging Face's Transformers library is the most popular ML library on GitHub. With a $4.5 billion valuation after raising $235M in Series D funding led by Salesforce, Google, and NVIDIA, the company serves major enterprises including Apple, Google, Meta, and Microsoft. The platform enables developers to discover, share, and deploy AI models for free.",
+    "products": [
+      {
+        "name": "Hugging Face Hub",
+        "description": "Platform hosting 800K+ ML models and 200K+ datasets",
+        "url": "https://huggingface.co/"
+      },
+      {
+        "name": "Transformers Library",
+        "description": "Most popular open-source ML library with 100K+ GitHub stars",
+        "url": "https://huggingface.co/docs/transformers/"
+      },
+      {
+        "name": "Spaces",
+        "description": "Host and share ML demos and applications",
+        "url": "https://huggingface.co/spaces"
+      },
+      {
+        "name": "Enterprise Hub",
+        "description": "Private model hosting and team collaboration for enterprises",
+        "url": "https://huggingface.co/enterprise"
+      },
+      {
+        "name": "Inference Endpoints",
+        "description": "Deploy models to production with dedicated infrastructure",
+        "url": "https://huggingface.co/inference-endpoints"
+      }
+    ],
+    "highlights_title": "Latest news on Hugging Face",
+    "highlights": [
+      {
+        "title": "TechCrunch: $4.5B Valuation",
+        "description": "Hugging Face raises $235M Series D at $4.5B valuation",
+        "url": "https://techcrunch.com/2023/08/24/hugging-face-raises-235m/"
+      },
+      {
+        "title": "Wired: GitHub of AI",
+        "description": "How Hugging Face became the platform for AI development",
+        "url": "https://www.wired.com/story/hugging-face-github-of-ai/"
+      },
+      {
+        "title": "Forbes: 800K Models Milestone",
+        "description": "Hugging Face Hub surpasses 800,000 hosted models",
+        "url": "https://www.forbes.com/sites/hugging-face-models-milestone/"
+      },
+      {
+        "title": "Reuters: Enterprise Growth",
+        "description": "Apple, Google, Meta, Microsoft among Hugging Face enterprise clients",
+        "url": "https://www.reuters.com/technology/hugging-face-enterprise-clients/"
+      },
+      {
+        "title": "Crunchbase: Company Profile",
+        "description": "Hugging Face funding history and company details",
+        "url": "https://www.crunchbase.com/organization/hugging-face"
+      },
+      {
+        "title": "Wikipedia: Company Overview",
+        "description": "Hugging Face history, products and founders",
+        "url": "https://en.wikipedia.org/wiki/Hugging_Face"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Clément Delangue",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/clementdelangue/"
+      },
+      {
+        "name": "Julien Chaumond",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/b2c3d4e5-f6a7-8b9c-0d1e-f2a3b4c5d6e7_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/julienchaumond/"
+      },
+      {
+        "name": "Thomas Wolf",
+        "role": "Co-Founder & Chief Science Officer",
+        "photo": "https://cdn.theorg.com/c3d4e5f6-a7b8-9c0d-1e2f-a3b4c5d6e7f8_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/thomas-wolf-a056857/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Salesforce Ventures",
+        "url": "https://www.salesforce.com/company/ventures/"
+      },
+      {
+        "name": "Google",
+        "url": "https://about.google/"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/"
+      },
+      {
+        "name": "Coatue Management",
+        "url": "https://www.coatue.com/"
+      },
+      {
+        "name": "Lux Capital",
+        "url": "https://www.luxcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round": "Series D",
+        "date": "August 2023",
+        "amount": "$235M",
+        "investors": "Salesforce, Google, NVIDIA"
+      },
+      {
+        "round": "Series C",
+        "date": "May 2022",
+        "amount": "$100M",
+        "investors": "Lux Capital, Sequoia"
+      },
+      {
+        "round": "Series B",
+        "date": "March 2021",
+        "amount": "$40M",
+        "investors": "Addition, Lux Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Hugging Face, Inc.",
+      "website": "https://huggingface.co",
+      "website_display": "huggingface.co",
+      "founded": "2016",
+      "headcount": "200+",
+      "hq": "New York, New York"
+    }
+  },
+  "HUIKEDU-GROUP": {
+    "ticker": "HUIKEDU-GROUP",
+    "name": "HUIKEDU GROUP",
+    "logo": "/assets/logos/Huikedu_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUIKEDU GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUIKEDU GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUIKEDU GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUIKEDU GROUP",
+      "website": "https://huikedugroup.com",
+      "website_display": "huikedugroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUIMIN": {
+    "ticker": "HUIMIN",
+    "name": "HUIMIN",
+    "logo": "/assets/logos/Huimin.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUIMIN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUIMIN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUIMIN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUIMIN",
+      "website": "https://huimin.com",
+      "website_display": "huimin.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUJIANG-EDUCATION-TECHNOLOGIES": {
+    "ticker": "HUJIANG-EDUCATION-TECHNOLOGIES",
+    "name": "HUJIANG EDUCATION TECHNOLOGIES",
+    "logo": "/assets/logos/Hujiang_Education_Technologies.jpeg",
+    "tagline": "EdTech platform transforming learning",
+    "tags": [
+      "EdTech",
+      "Online Learning",
+      "Education Technology",
+      "E-Learning",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Education"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUJIANG EDUCATION TECHNOLOGIES is a education company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUJIANG EDUCATION TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUJIANG EDUCATION TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading education company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUJIANG EDUCATION TECHNOLOGIES",
+      "website": "https://hujiangeducationtechnologies.com",
+      "website_display": "hujiangeducationtechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUMA": {
+    "ticker": "HUMA",
+    "name": "HUMA",
+    "logo": "/assets/logos/Huma.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUMA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUMA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUMA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUMA",
+      "website": "https://huma.com",
+      "website_display": "huma.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUMAN-INTEREST": {
+    "ticker": "HUMAN-INTEREST",
+    "name": "HUMAN INTEREST",
+    "logo": "/assets/logos/Human_Interest.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUMAN INTEREST is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUMAN INTEREST main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUMAN INTEREST",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUMAN INTEREST",
+      "website": "https://humaninterest.com",
+      "website_display": "humaninterest.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUMAN-LONGEVITY": {
+    "ticker": "HUMAN-LONGEVITY",
+    "name": "HUMAN LONGEVITY",
+    "logo": "/assets/logos/Human_Longevity.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUMAN LONGEVITY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUMAN LONGEVITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUMAN LONGEVITY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUMAN LONGEVITY",
+      "website": "https://humanlongevity.com",
+      "website_display": "humanlongevity.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUMANITY-PROTOCOL": {
+    "ticker": "HUMANITY-PROTOCOL",
+    "name": "HUMANITY PROTOCOL",
+    "logo": "/assets/logos/Humanity_Protocol.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUMANITY PROTOCOL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUMANITY PROTOCOL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUMANITY PROTOCOL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUMANITY PROTOCOL",
+      "website": "https://humanityprotocol.com",
+      "website_display": "humanityprotocol.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HUNTRESS": {
+    "ticker": "HUNTRESS",
+    "name": "HUNTRESS",
+    "logo": "/assets/logos/Huntress.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HUNTRESS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HUNTRESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HUNTRESS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HUNTRESS",
+      "website": "https://huntress.com",
+      "website_display": "huntress.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "HYPERCHAIN-TECHNOLOGIES": {
+    "ticker": "HYPERCHAIN-TECHNOLOGIES",
+    "name": "HYPERCHAIN TECHNOLOGIES",
+    "logo": "/assets/logos/Hyperchain_Technologies.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "HYPERCHAIN TECHNOLOGIES is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "HYPERCHAIN TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on HYPERCHAIN TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "HYPERCHAIN TECHNOLOGIES",
+      "website": "https://hyperchaintechnologies.com",
+      "website_display": "hyperchaintechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

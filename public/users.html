@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users | Institutional Marketplace</title>
+    <link rel="stylesheet" href="/css/users.css">
+</head>
+<body>
+    <!-- Offcanvas Overlay -->
+    <div class="cs-site-overlay" id="siteOverlay" onclick="closeOffcanvas()"></div>
+
+    <!-- Offcanvas Menu -->
+    <div class="cs-offcanvas" id="offcanvasMenu">
+        <div class="cs-offcanvas__header">
+            <div class="cs-offcanvas__logo">
+                <span style="color: #fff; font-size: 18px; font-weight: 700;">Institutional Marketplace</span>
+            </div>
+            <span class="cs-offcanvas__toggle" role="button" onclick="closeOffcanvas()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </span>
+        </div>
+        <aside class="cs-offcanvas__sidebar">
+            <nav class="cs-offcanvas__nav">
+                <ul class="offcanvas-menu">
+                    <li class="menu-item"><a href="/">Marketplace</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                    <li class="menu-item"><a href="/admin.html">Admin Marketplace</a></li>
+                    <li class="menu-item active"><a href="/users.html">Users</a></li>
+                    <li class="menu-item"><a href="/partners.html">Partners</a></li>
+                    <li class="menu-item"><a href="/companies.html">Companies</a></li>
+                    <li class="menu-item"><a href="/issuers.html">Issuers</a></li>
+                    <li class="menu-item"><a href="/auto-updater.html">Auto-Updater</a></li>
+                <li class="menu-item"><a href="/settings.html">Settings</a></li>
+                </ul>
+            </nav>
+            <div class="offcanvas-footer">
+                <button class="logout-btn" onclick="logout()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    Logout
+                </button>
+            </div>
+        </aside>
+    </div>
+
+    <div class="page-container">
+        <!-- Header -->
+        <header class="page-header">
+            <div class="header-left">
+                <button class="menu-button" onclick="openOffcanvas()">
+                    <span></span>
+                </button>
+                <h1>User Management</h1>
+            </div>
+            <div class="header-right">
+                <span class="user-email" id="currentUserEmail"></span>
+                <button class="btn-add-user" onclick="openUserModal()">
+                    <span>+</span> Add User
+                </button>
+            </div>
+        </header>
+
+        <!-- Users Table -->
+        <div class="users-content">
+            <div class="users-table-container">
+                <table class="users-table">
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Permissions</th>
+                            <th>Created</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody">
+                        <tr>
+                            <td colspan="5" class="loading-cell">Loading users...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Modal -->
+    <div class="modal-overlay" id="userModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add User</h2>
+                <button class="modal-close" onclick="closeUserModal()">&times;</button>
+            </div>
+            <form id="userForm" onsubmit="return handleSaveUser(event)">
+                <div class="form-group">
+                    <label for="userEmail">Email</label>
+                    <input type="email" id="userEmail" required placeholder="user@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="userPassword">Password</label>
+                    <input type="password" id="userPassword" placeholder="Leave empty to keep current">
+                    <small>Minimum 6 characters. Leave empty when editing to keep current password.</small>
+                </div>
+
+                <div class="form-group">
+                    <label>Role</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="userRole" value="admin" checked>
+                            <span>Admin</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="userRole" value="super_admin">
+                            <span>Super Admin</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group" id="permissionsGroup">
+                    <label>Page Permissions</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="permissions" value="admin">
+                            <span>Admin Marketplace</span>
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="permissions" value="users">
+                            <span>Users Management</span>
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="permissions" value="partners">
+                            <span>Partners</span>
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="permissions" value="companies">
+                            <span>Companies</span>
+                        </label>
+                    </div>
+                    <small>Super Admin has access to all pages automatically.</small>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn-cancel" onclick="closeUserModal()">Cancel</button>
+                    <button type="submit" class="btn-save">Save User</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div class="modal-overlay" id="deleteModal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>Delete User</h2>
+                <button class="modal-close" onclick="closeDeleteModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete <strong id="deleteUserEmail"></strong>?</p>
+                <p class="warning-text">This action cannot be undone.</p>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn-cancel" onclick="closeDeleteModal()">Cancel</button>
+                <button type="button" class="btn-delete" onclick="confirmDeleteUser()">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/auth.js"></script>
+    <script>
+        // ========================================
+        // OFFCANVAS MENU
+        // ========================================
+        function openOffcanvas() {
+            document.getElementById('offcanvasMenu').classList.add('active');
+            document.getElementById('siteOverlay').classList.add('active');
+            document.body.classList.add('offcanvas-open');
+        }
+
+        function closeOffcanvas() {
+            document.getElementById('offcanvasMenu').classList.remove('active');
+            document.getElementById('siteOverlay').classList.remove('active');
+            document.body.classList.remove('offcanvas-open');
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeOffcanvas();
+                closeUserModal();
+                closeDeleteModal();
+            }
+        });
+
+        // ========================================
+        // USER MANAGEMENT
+        // ========================================
+        let editingUser = null;
+        let deletingUserEmail = null;
+
+        // Load users on page load
+        document.addEventListener('DOMContentLoaded', async function() {
+            // Check authentication
+            if (!requireAuth('users')) return;
+
+            // Show current user
+            const session = getSession();
+            document.getElementById('currentUserEmail').textContent = session.email;
+
+            // Load users
+            await loadUsers();
+
+            // Handle role change to show/hide permissions
+            document.querySelectorAll('input[name="userRole"]').forEach(radio => {
+                radio.addEventListener('change', function() {
+                    const permGroup = document.getElementById('permissionsGroup');
+                    if (this.value === 'super_admin') {
+                        permGroup.style.opacity = '0.5';
+                        permGroup.querySelectorAll('input').forEach(cb => cb.disabled = true);
+                    } else {
+                        permGroup.style.opacity = '1';
+                        permGroup.querySelectorAll('input').forEach(cb => cb.disabled = false);
+                    }
+                });
+            });
+        });
+
+        async function loadUsers() {
+            const tbody = document.getElementById('usersTableBody');
+
+            try {
+                const data = await getUsers();
+                const users = data.users || [];
+
+                if (users.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="5" class="empty-cell">No users found</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = users.map(user => `
+                    <tr>
+                        <td class="email-cell">${escapeHtml(user.email)}</td>
+                        <td>
+                            <span class="role-badge ${user.role === 'super_admin' ? 'super-admin' : 'admin'}">
+                                ${user.role === 'super_admin' ? 'Super Admin' : 'Admin'}
+                            </span>
+                        </td>
+                        <td class="permissions-cell">
+                            ${user.role === 'super_admin'
+                                ? '<span class="all-access">All Access</span>'
+                                : (user.permissions || []).map(p => `<span class="perm-tag">${formatPermission(p)}</span>`).join(' ') || '<span class="no-perms">None</span>'
+                            }
+                        </td>
+                        <td class="date-cell">${formatDate(user.createdAt)}</td>
+                        <td class="actions-cell">
+                            <button class="btn-edit" onclick="editUser('${escapeHtml(user.email)}')">Edit</button>
+                            ${user.role !== 'super_admin' || users.filter(u => u.role === 'super_admin').length > 1
+                                ? `<button class="btn-delete-small" onclick="openDeleteModal('${escapeHtml(user.email)}')">Delete</button>`
+                                : ''
+                            }
+                        </td>
+                    </tr>
+                `).join('');
+
+            } catch (error) {
+                tbody.innerHTML = `<tr><td colspan="5" class="error-cell">Error: ${escapeHtml(error.message)}</td></tr>`;
+            }
+        }
+
+        function openUserModal(user = null) {
+            editingUser = user;
+            const modal = document.getElementById('userModal');
+            const form = document.getElementById('userForm');
+            const title = document.getElementById('modalTitle');
+            const emailInput = document.getElementById('userEmail');
+            const passwordInput = document.getElementById('userPassword');
+
+            form.reset();
+
+            if (user) {
+                title.textContent = 'Edit User';
+                emailInput.value = user.email;
+                emailInput.readOnly = true;
+                passwordInput.placeholder = 'Leave empty to keep current';
+
+                // Set role
+                document.querySelector(`input[name="userRole"][value="${user.role}"]`).checked = true;
+
+                // Set permissions
+                if (user.permissions) {
+                    user.permissions.forEach(perm => {
+                        const cb = document.querySelector(`input[name="permissions"][value="${perm}"]`);
+                        if (cb) cb.checked = true;
+                    });
+                }
+
+                // Handle super_admin permissions display
+                const permGroup = document.getElementById('permissionsGroup');
+                if (user.role === 'super_admin') {
+                    permGroup.style.opacity = '0.5';
+                    permGroup.querySelectorAll('input').forEach(cb => cb.disabled = true);
+                }
+            } else {
+                title.textContent = 'Add User';
+                emailInput.readOnly = false;
+                passwordInput.placeholder = 'Enter password';
+                passwordInput.required = true;
+
+                const permGroup = document.getElementById('permissionsGroup');
+                permGroup.style.opacity = '1';
+                permGroup.querySelectorAll('input').forEach(cb => cb.disabled = false);
+            }
+
+            modal.classList.add('active');
+        }
+
+        function closeUserModal() {
+            document.getElementById('userModal').classList.remove('active');
+            editingUser = null;
+        }
+
+        async function editUser(email) {
+            try {
+                const data = await getUsers();
+                const user = data.users.find(u => u.email === email);
+                if (user) {
+                    openUserModal(user);
+                }
+            } catch (error) {
+                alert('Error loading user: ' + error.message);
+            }
+        }
+
+        async function handleSaveUser(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('userEmail').value.trim();
+            const password = document.getElementById('userPassword').value;
+            const role = document.querySelector('input[name="userRole"]:checked').value;
+            const permissions = Array.from(document.querySelectorAll('input[name="permissions"]:checked')).map(cb => cb.value);
+
+            // Validate
+            if (!editingUser && password.length < 6) {
+                alert('Password must be at least 6 characters');
+                return false;
+            }
+
+            if (editingUser && password && password.length < 6) {
+                alert('Password must be at least 6 characters');
+                return false;
+            }
+
+            const userData = {
+                email,
+                role,
+                permissions: role === 'super_admin' ? [] : permissions
+            };
+
+            if (password) {
+                userData.password = password;
+            }
+
+            try {
+                await saveUser(userData);
+                closeUserModal();
+                await loadUsers();
+            } catch (error) {
+                alert('Error saving user: ' + error.message);
+            }
+
+            return false;
+        }
+
+        function openDeleteModal(email) {
+            deletingUserEmail = email;
+            document.getElementById('deleteUserEmail').textContent = email;
+            document.getElementById('deleteModal').classList.add('active');
+        }
+
+        function closeDeleteModal() {
+            document.getElementById('deleteModal').classList.remove('active');
+            deletingUserEmail = null;
+        }
+
+        async function confirmDeleteUser() {
+            if (!deletingUserEmail) return;
+
+            try {
+                await deleteUser(deletingUserEmail);
+                closeDeleteModal();
+                await loadUsers();
+            } catch (error) {
+                alert('Error deleting user: ' + error.message);
+            }
+        }
+
+        // Helpers
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatPermission(perm) {
+            const names = {
+                'admin': 'Admin',
+                'users': 'Users',
+                'partners': 'Partners',
+                'companies': 'Companies'
+            };
+            return names[perm] || perm;
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '-';
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+    </script>
+</body>
+</html>

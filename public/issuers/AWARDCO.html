@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awardco - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="awardco-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="/assets/logos/Awardco.jpeg" alt="Awardco" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Awardco</h1>
+                    <p class="company-tagline">The leading employee recognition and rewards platform building culture through value-driven engagement</p>
+                    <div class="company-tags"><span class="tag">HR Tech</span><span class="tag">Employee Recognition</span><span class="tag">SaaS</span><span class="tag">Utah</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Awardco is the leading employee recognition and rewards platform that boosts employee productivity, reduces spend on disorganized rewards programs, and builds culture through value-driven recognition and rewards. As the first employee recognition solution to partner with Amazon Business, Awardco offers the largest reward network in the world with zero markups. The platform serves over 6 million users across 160+ countries and 3,000+ organizations including enterprise customers like AT&amp;T, Adobe, Hertz, and Pacific Life. Founded in 2011 and headquartered in Lindon, Utah, Awardco quadrupled revenue since 2021 while maintaining cash-flow neutrality, achieving unicorn status in 2025.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>May 2025</td>
+                <td>Series B</td>
+                <td>$165M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>October 2021</td>
+                <td>Series A</td>
+                <td>$65M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Awardco Recognition Platform</div>
+            <div class="product-desc">Comprehensive employee recognition and rewards solution with peer-to-peer recognition, manager rewards, and service awards</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Amazon Business Rewards</div>
+            <div class="product-desc">Exclusive partnership providing access to millions of Amazon rewards with no markups and free shipping</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">External Recognition</div>
+            <div class="product-desc">AI-powered feature allowing customers, vendors, and partners to recognize employee efforts in real-time</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Awardco</h2>
+                        <div class="highlights-list"><a href="https://www.prnewswire.com/news-releases/awardco-raises-165-million-surpasses-1-billion-valuation-302459776.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Awardco raises $165 million Series B, surpasses $1 billion valuation</span>
+        </a><a href="https://techcrunch.com/2025/12/01/at-least-36-new-tech-unicorns-were-minted-in-2025-so-far/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">TechCrunch names Awardco among new tech unicorns minted in 2025</span>
+        </a><a href="https://www.awardco.com/newsroom/awardco-amazon-business" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Awardco and Amazon Business strengthen relationship, transforming enterprise rewards</span>
+        </a><a href="https://www.prnewswire.com/news-releases/awardco-launches-external-recognition-an-employee-rewards-and-recognition-innovation-built-for-customer-facing-teams-302215613.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Awardco launches External Recognition, an AI-powered innovation for customer-facing teams</span>
+        </a><a href="https://www.inc.com/brian-contreras/awardco-inc-5000-billion-dollar-valuation-unicorn-general-catalyst-spectrum-equity-sixth-street-growth/91191446" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">This 3-Time Inc. 5000 company just secured a billion-dollar valuation</span>
+        </a><a href="https://www.getmasset.com/articles/awardco-rockets-past-unicorn-status-with-a-165-million-series-b" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Awardco rockets past unicorn status with $165 million Series B</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/ac9ab86f-21b0-44ca-a3ff-fece1d64df63_medium.jpg" alt="Steve Sonnenberg" class="leader-photo">
+            <div><div class="leader-name">Steve Sonnenberg</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/stevesonnenberg/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Tanner+Runia&amp;background=3b82f6&amp;color=fff&amp;size=128" alt="Tanner Runia" class="leader-photo">
+            <div><div class="leader-name">Tanner Runia</div>
+            <div class="leader-role">President</div></div>
+            <a href="https://www.linkedin.com/company/awardco/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/990046bc-c17b-427c-a3d8-f3e6d61d7992_medium.jpg" alt="John Richards" class="leader-photo">
+            <div><div class="leader-name">John Richards</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/company/awardco/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/900848fd-453f-401f-a520-05d48bcc3d0c_medium.jpg" alt="Isaiah Birdwell" class="leader-photo">
+            <div><div class="leader-name">Isaiah Birdwell</div>
+            <div class="leader-role">Chief Operating Officer</div></div>
+            <a href="https://www.linkedin.com/company/awardco/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.generalcatalyst.com/" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://www.spectrumequity.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Spectrum Equity</span>
+        </a><a href="https://sixthstreet.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sixth Street Growth</span>
+        </a><a href="https://www.linkedin.com/in/ryanqualtrics/" target="_blank" class="investor-card">
+            <span class="investor-name">HXCO (Ryan Smith)</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Awardco</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.awardco.com/" target="_blank" class="detail-value">www.awardco.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2011</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Lindon, Utah</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

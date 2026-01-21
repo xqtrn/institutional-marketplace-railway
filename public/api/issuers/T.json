@@ -1,0 +1,7793 @@
+{
+  "TURO": {
+    "ticker": "TURO",
+    "name": "Turo",
+    "logo": "https://logo.clearbit.com/turo.com",
+    "tagline": "Creating the world's largest car sharing marketplace where anyone can share and access vehicles",
+    "tags": [
+      "Mobility",
+      "Marketplace",
+      "Car Sharing",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2.7B"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$958M"
+      },
+      {
+        "label": "Active Vehicles",
+        "value": "350,000"
+      },
+      {
+        "label": "Cities",
+        "value": "16,000+"
+      }
+    ],
+    "overview": "Turo is a peer-to-peer car sharing marketplace founded in 2009 by Shelby Clark. The platform connects car owners with people who want to rent vehicles, operating in 16,000+ cities with 350,000 active vehicles. Turo filed for IPO in January 2022 and updated filings through November 2024 but withdrew plans in February 2025. Revenue grew 9% to $958M in 2024 (down from 59% growth in 2022). The company achieved profitability in 2022 ($154.7M net income) but margins have compressed. In 2025, Turo partnered with Uber to list vehicles on Uber Rent.",
+    "products": [
+      {
+        "name": "Turo Marketplace",
+        "description": "Peer-to-peer car rental platform",
+        "url": "https://turo.com/"
+      },
+      {
+        "name": "Turo Go",
+        "description": "Keyless car access and delivery",
+        "url": "https://turo.com/turo-go"
+      },
+      {
+        "name": "Turo Host",
+        "description": "Platform for car owners to list vehicles",
+        "url": "https://turo.com/how-turo-works/hosts"
+      },
+      {
+        "name": "Turo Protection Plans",
+        "description": "Insurance and liability coverage",
+        "url": "https://turo.com/protection"
+      },
+      {
+        "name": "Turo Carculator",
+        "description": "Earnings estimator for hosts",
+        "url": "https://turo.com/carculator"
+      },
+      {
+        "name": "Uber Rent Integration",
+        "description": "Turo vehicles on Uber app (2025)",
+        "url": "https://turo.com/"
+      }
+    ],
+    "highlights_title": "Latest news on Turo",
+    "highlights": [
+      {
+        "text": "<strong>IPO withdrawn</strong> (Feb 2025) after 11 S-1 amendments",
+        "url": "https://tickernerd.com/resources/ipo/turo-ipo/",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>Uber Rent partnership</strong> launches early 2025",
+        "url": "https://sacra.com/c/turo/",
+        "date": "2025"
+      },
+      {
+        "text": "Competitor <strong>Getaround shut down</strong> US operations (2025)",
+        "url": "https://sacra.com/c/turo/",
+        "date": "2025"
+      },
+      {
+        "text": "Revenue <strong>$958M in 2024</strong>, +9% YoY",
+        "url": "https://sacra.com/c/turo/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>$2.7B valuation</strong>—2x since 2019",
+        "url": "https://sacra.com/c/turo/",
+        "date": "2019"
+      },
+      {
+        "text": "<strong>350,000 active vehicles</strong> in 16K+ cities",
+        "url": "https://sacra.com/c/turo/"
+      },
+      {
+        "text": "<strong>$4.8B in host earnings</strong> to date",
+        "url": "https://sacra.com/c/turo/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Andre Haddad",
+        "role": "CEO & Chairperson",
+        "photo": "https://cdn.theorg.com/d9b93956-214c-40ce-bd15-d045abb955f1_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/andrehaddad/"
+      },
+      {
+        "name": "Chuck Fisher",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/6f634fb6-4fed-4676-a57a-e5ce5f54e0ca_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/chuckfisher/"
+      },
+      {
+        "name": "Paul Velez",
+        "role": "SVP Engineering",
+        "photo": "https://cdn.theorg.com/dd34df71-c1cb-488c-a5ee-f56bf88ae361_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/paulvelez/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "IAC",
+        "url": "https://www.iac.com/"
+      },
+      {
+        "name": "Google Ventures",
+        "url": "https://www.gv.com/"
+      },
+      {
+        "name": "Kleiner Perkins",
+        "url": "https://www.kleinerperkins.com/"
+      },
+      {
+        "name": "Daimler",
+        "url": "https://www.daimler.com/"
+      },
+      {
+        "name": "Canaan Partners",
+        "url": "https://www.canaan.com/"
+      },
+      {
+        "name": "August Capital",
+        "url": "https://www.augustcap.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2019",
+        "amount": "$250M",
+        "round": "Series E",
+        "valuation": "$1.25B",
+        "investors_html": "IAC"
+      },
+      {
+        "date": "2016",
+        "amount": "$92M",
+        "round": "Series D",
+        "valuation": "—",
+        "investors_html": "Google Ventures, Kleiner Perkins, August Capital"
+      },
+      {
+        "date": "2014",
+        "amount": "$47M",
+        "round": "Series C",
+        "valuation": "—",
+        "investors_html": "Canaan Partners, Google Ventures"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Turo Inc.",
+      "website": "https://turo.com",
+      "website_display": "turo.com",
+      "founded": "2009",
+      "headcount": "1,500+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/taboratory",
+      "linkedin": "https://www.linkedin.com/company/turo"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "+116% since 2019",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$1.25B",
+              "height": 79
+            },
+            {
+              "label": "2024",
+              "value": "$2.7B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+9% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$469M",
+              "height": 83
+            },
+            {
+              "label": "2022",
+              "value": "$747M",
+              "height": 132
+            },
+            {
+              "label": "2023",
+              "value": "$880M",
+              "height": 156
+            },
+            {
+              "label": "2024",
+              "value": "$958M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "T3-MOBILE-TRAVEL-SERVICES": {
+    "ticker": "T3-MOBILE-TRAVEL-SERVICES",
+    "name": "T3 MOBILE TRAVEL SERVICES",
+    "logo": "/assets/logos/T3_Mobile_Travel_Services.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "T3 MOBILE TRAVEL SERVICES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "T3 MOBILE TRAVEL SERVICES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on T3 MOBILE TRAVEL SERVICES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "T3 MOBILE TRAVEL SERVICES",
+      "website": "https://t3mobiletravelservices.com",
+      "website_display": "t3mobiletravelservices.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TABBY": {
+    "ticker": "TABBY",
+    "name": "TABBY",
+    "logo": "/assets/logos/Tabby.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TABBY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TABBY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TABBY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TABBY",
+      "website": "https://tabby.com",
+      "website_display": "tabby.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TACKLE": {
+    "ticker": "TACKLE",
+    "name": "TACKLE",
+    "logo": "/assets/logos/Tackle.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TACKLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TACKLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TACKLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TACKLE",
+      "website": "https://tackle.com",
+      "website_display": "tackle.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TAILSCALE": {
+    "ticker": "TAILSCALE",
+    "name": "TAILSCALE",
+    "logo": "/assets/logos/Tailscale.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TAILSCALE is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TAILSCALE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TAILSCALE",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TAILSCALE",
+      "website": "https://tailscale.com",
+      "website_display": "tailscale.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TALA-HEALTH": {
+    "ticker": "TALA-HEALTH",
+    "name": "TALA HEALTH",
+    "logo": "/assets/logos/Tala_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TALA HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TALA HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TALA HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TALA HEALTH",
+      "website": "https://talahealth.com",
+      "website_display": "talahealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TALKDESK": {
+    "ticker": "TALKDESK",
+    "name": "TALKDESK",
+    "logo": "/assets/logos/Talkdesk.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TALKDESK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TALKDESK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TALKDESK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TALKDESK",
+      "website": "https://talkdesk.com",
+      "website_display": "talkdesk.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TALKINGDATA": {
+    "ticker": "TALKINGDATA",
+    "name": "TALKINGDATA",
+    "logo": "/assets/logos/TalkingData.jpeg",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TALKINGDATA is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TALKINGDATA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TALKINGDATA",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TALKINGDATA",
+      "website": "https://talkingdata.com",
+      "website_display": "talkingdata.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TALOS": {
+    "ticker": "TALOS",
+    "name": "TALOS",
+    "logo": "/assets/logos/Talos.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TALOS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TALOS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TALOS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TALOS",
+      "website": "https://talos.com",
+      "website_display": "talos.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TAMARA": {
+    "ticker": "TAMARA",
+    "name": "TAMARA",
+    "logo": "/assets/logos/Tamara.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TAMARA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TAMARA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TAMARA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TAMARA",
+      "website": "https://tamara.com",
+      "website_display": "tamara.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TANGO-ME": {
+    "ticker": "TANGO-ME",
+    "name": "TANGO ME",
+    "logo": "/assets/logos/Tango_Me.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TANGO ME is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TANGO ME main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TANGO ME",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TANGO ME",
+      "website": "https://tangome.com",
+      "website_display": "tangome.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TANIUM": {
+    "ticker": "TANIUM",
+    "name": "TANIUM",
+    "logo": "/assets/logos/Tanium.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TANIUM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TANIUM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TANIUM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TANIUM",
+      "website": "https://tanium.com",
+      "website_display": "tanium.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TAOBAO-MOVIE": {
+    "ticker": "TAOBAO-MOVIE",
+    "name": "TAOBAO MOVIE",
+    "logo": "/assets/logos/Taobao_Movie.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TAOBAO MOVIE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TAOBAO MOVIE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TAOBAO MOVIE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TAOBAO MOVIE",
+      "website": "https://taobaomovie.com",
+      "website_display": "taobaomovie.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TARANA-WIRELESS": {
+    "ticker": "TARANA-WIRELESS",
+    "name": "TARANA WIRELESS",
+    "logo": "/assets/logos/Tarana_Wireless.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TARANA WIRELESS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TARANA WIRELESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TARANA WIRELESS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TARANA WIRELESS",
+      "website": "https://taranawireless.com",
+      "website_display": "taranawireless.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TATA-PASSENGER-ELECTRIC-MOBILITY": {
+    "ticker": "TATA-PASSENGER-ELECTRIC-MOBILITY",
+    "name": "TATA PASSENGER ELECTRIC MOBILITY",
+    "logo": "/assets/logos/Tata_Passenger_Electric_Mobility.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TATA PASSENGER ELECTRIC MOBILITY is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TATA PASSENGER ELECTRIC MOBILITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TATA PASSENGER ELECTRIC MOBILITY",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TATA PASSENGER ELECTRIC MOBILITY",
+      "website": "https://tatapassengerelectricmobility.com",
+      "website_display": "tatapassengerelectricmobility.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TAXBIT": {
+    "ticker": "TAXBIT",
+    "name": "TAXBIT",
+    "logo": "/assets/logos/TaxBit.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TAXBIT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TAXBIT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TAXBIT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TAXBIT",
+      "website": "https://taxbit.com",
+      "website_display": "taxbit.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TAXFIX": {
+    "ticker": "TAXFIX",
+    "name": "TAXFIX",
+    "logo": "/assets/logos/Taxfix.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TAXFIX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TAXFIX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TAXFIX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TAXFIX",
+      "website": "https://taxfix.com",
+      "website_display": "taxfix.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TBM": {
+    "ticker": "TBM",
+    "name": "TBM",
+    "logo": "/assets/logos/TBM.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TBM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TBM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TBM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TBM",
+      "website": "https://tbm.com",
+      "website_display": "tbm.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEALIUM": {
+    "ticker": "TEALIUM",
+    "name": "TEALIUM",
+    "logo": "/assets/logos/Tealium.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEALIUM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEALIUM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEALIUM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEALIUM",
+      "website": "https://tealium.com",
+      "website_display": "tealium.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEAMWORKS": {
+    "ticker": "TEAMWORKS",
+    "name": "TEAMWORKS",
+    "logo": "/assets/logos/Teamworks.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEAMWORKS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEAMWORKS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEAMWORKS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEAMWORKS",
+      "website": "https://teamworks.com",
+      "website_display": "teamworks.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEBRA": {
+    "ticker": "TEBRA",
+    "name": "TEBRA",
+    "logo": "/assets/logos/Tebra.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEBRA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEBRA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEBRA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEBRA",
+      "website": "https://tebra.com",
+      "website_display": "tebra.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TECHSTYLE-FASHION-GROUP": {
+    "ticker": "TECHSTYLE-FASHION-GROUP",
+    "name": "TECHSTYLE FASHION GROUP",
+    "logo": "/assets/logos/TechStyle_Fashion_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TECHSTYLE FASHION GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TECHSTYLE FASHION GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TECHSTYLE FASHION GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TECHSTYLE FASHION GROUP",
+      "website": "https://techstylefashiongroup.com",
+      "website_display": "techstylefashiongroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEKEVER": {
+    "ticker": "TEKEVER",
+    "name": "TEKEVER",
+    "logo": "/assets/logos/TEKEVER.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEKEVER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEKEVER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEKEVER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEKEVER",
+      "website": "https://tekever.com",
+      "website_display": "tekever.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEKION": {
+    "ticker": "TEKION",
+    "name": "TEKION",
+    "logo": "/assets/logos/Tekion.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEKION is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEKION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEKION",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEKION",
+      "website": "https://tekion.com",
+      "website_display": "tekion.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TELD-NEW-ENERGY": {
+    "ticker": "TELD-NEW-ENERGY",
+    "name": "TELD NEW ENERGY",
+    "logo": "/assets/logos/Teld_New_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TELD NEW ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TELD NEW ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TELD NEW ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TELD NEW ENERGY",
+      "website": "https://teldnewenergy.com",
+      "website_display": "teldnewenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TELEPORT": {
+    "ticker": "TELEPORT",
+    "name": "TELEPORT",
+    "logo": "/assets/logos/Teleport.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TELEPORT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TELEPORT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TELEPORT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TELEPORT",
+      "website": "https://teleport.com",
+      "website_display": "teleport.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEMPORAL-TECHNOLOGIES": {
+    "ticker": "TEMPORAL-TECHNOLOGIES",
+    "name": "TEMPORAL TECHNOLOGIES",
+    "logo": "/assets/logos/Temporal_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEMPORAL TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEMPORAL TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEMPORAL TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEMPORAL TECHNOLOGIES",
+      "website": "https://temporaltechnologies.com",
+      "website_display": "temporaltechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TENCENT-TRUSTED-DOCTORS": {
+    "ticker": "TENCENT-TRUSTED-DOCTORS",
+    "name": "TENCENT TRUSTED DOCTORS",
+    "logo": "/assets/logos/Tencent_Trusted_Doctors.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "China"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TENCENT TRUSTED DOCTORS is a technology company focused on innovation and growth. The company operates in the China market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TENCENT TRUSTED DOCTORS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TENCENT TRUSTED DOCTORS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in China",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TENCENT TRUSTED DOCTORS",
+      "website": "https://tencenttrusteddoctors.com",
+      "website_display": "tencenttrusteddoctors.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TENGLONG-HOLDING-GROUP": {
+    "ticker": "TENGLONG-HOLDING-GROUP",
+    "name": "TENGLONG HOLDING GROUP",
+    "logo": "/assets/logos/Tenglong_Holding_Group.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TENGLONG HOLDING GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TENGLONG HOLDING GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TENGLONG HOLDING GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TENGLONG HOLDING GROUP",
+      "website": "https://tenglongholdinggroup.com",
+      "website_display": "tenglongholdinggroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TENSTORRENT": {
+    "ticker": "TENSTORRENT",
+    "name": "TENSTORRENT",
+    "logo": "/assets/logos/Tenstorrent.jpeg",
+    "tagline": "PropTech solutions for real estate industry",
+    "tags": [
+      "PropTech",
+      "Real Estate",
+      "Property Technology",
+      "Housing",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TENSTORRENT is a real estate company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TENSTORRENT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TENSTORRENT",
+    "highlights": [
+      {
+        "text": "Leading real estate company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TENSTORRENT",
+      "website": "https://tenstorrent.com",
+      "website_display": "tenstorrent.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TERAWATT-INFRASTRUCTURE": {
+    "ticker": "TERAWATT-INFRASTRUCTURE",
+    "name": "TERAWATT INFRASTRUCTURE",
+    "logo": "/assets/logos/Terawatt_Infrastructure.png",
+    "tagline": "Construction technology and infrastructure",
+    "tags": [
+      "ConstructionTech",
+      "Infrastructure",
+      "Building Technology",
+      "Engineering",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Construction"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TERAWATT INFRASTRUCTURE is a construction company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TERAWATT INFRASTRUCTURE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TERAWATT INFRASTRUCTURE",
+    "highlights": [
+      {
+        "text": "Leading construction company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TERAWATT INFRASTRUCTURE",
+      "website": "https://terawattinfrastructure.com",
+      "website_display": "terawattinfrastructure.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TERMINUS-TECHNOLOGIES": {
+    "ticker": "TERMINUS-TECHNOLOGIES",
+    "name": "TERMINUS TECHNOLOGIES",
+    "logo": "/assets/logos/Terminus_Technologies.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TERMINUS TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TERMINUS TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TERMINUS TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TERMINUS TECHNOLOGIES",
+      "website": "https://terminustechnologies.com",
+      "website_display": "terminustechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TERRAPOWER": {
+    "ticker": "TERRAPOWER",
+    "name": "TERRAPOWER",
+    "logo": "/assets/logos/TerraPower.png",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TERRAPOWER is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TERRAPOWER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TERRAPOWER",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TERRAPOWER",
+      "website": "https://terrapower.com",
+      "website_display": "terrapower.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TESSERA-THERAPEUTICS": {
+    "ticker": "TESSERA-THERAPEUTICS",
+    "name": "TESSERA THERAPEUTICS",
+    "logo": "/assets/logos/Tessera_Therapeutics.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TESSERA THERAPEUTICS is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TESSERA THERAPEUTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TESSERA THERAPEUTICS",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TESSERA THERAPEUTICS",
+      "website": "https://tesseratherapeutics.com",
+      "website_display": "tesseratherapeutics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEYA": {
+    "ticker": "TEYA",
+    "name": "TEYA",
+    "logo": "/assets/logos/Teya.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEYA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEYA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEYA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEYA",
+      "website": "https://teya.com",
+      "website_display": "teya.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TEZIGN": {
+    "ticker": "TEZIGN",
+    "name": "TEZIGN",
+    "logo": "/assets/logos/Tezign.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TEZIGN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TEZIGN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TEZIGN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TEZIGN",
+      "website": "https://tezign.com",
+      "website_display": "tezign.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THATGAMECOMPANY": {
+    "ticker": "THATGAMECOMPANY",
+    "name": "THATGAMECOMPANY",
+    "logo": "/assets/logos/thatgamecompany.jpg",
+    "tagline": "Interactive entertainment and gaming experiences",
+    "tags": [
+      "Gaming",
+      "Entertainment",
+      "Interactive Media",
+      "Game Development",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Gaming"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THATGAMECOMPANY is a gaming company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THATGAMECOMPANY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THATGAMECOMPANY",
+    "highlights": [
+      {
+        "text": "Leading gaming company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THATGAMECOMPANY",
+      "website": "https://thatgamecompany.com",
+      "website_display": "thatgamecompany.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-ACCESS-GROUP": {
+    "ticker": "THE-ACCESS-GROUP",
+    "name": "THE ACCESS GROUP",
+    "logo": "/assets/logos/The_Access_Group.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE ACCESS GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE ACCESS GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE ACCESS GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE ACCESS GROUP",
+      "website": "https://theaccessgroup.com",
+      "website_display": "theaccessgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-BORING-COMPANY": {
+    "ticker": "THE-BORING-COMPANY",
+    "name": "THE BORING COMPANY",
+    "logo": "/assets/logos/The_Boring_Company.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE BORING COMPANY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE BORING COMPANY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE BORING COMPANY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE BORING COMPANY",
+      "website": "https://theboringcompany.com",
+      "website_display": "theboringcompany.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-BOT-COMPANY": {
+    "ticker": "THE-BOT-COMPANY",
+    "name": "THE BOT COMPANY",
+    "logo": "/assets/logos/The_Bot_Company.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE BOT COMPANY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE BOT COMPANY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE BOT COMPANY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE BOT COMPANY",
+      "website": "https://thebotcompany.com",
+      "website_display": "thebotcompany.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-BRANDTECH-GROUP": {
+    "ticker": "THE-BRANDTECH-GROUP",
+    "name": "THE BRANDTECH GROUP",
+    "logo": "/assets/logos/The_Brandtech_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE BRANDTECH GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE BRANDTECH GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE BRANDTECH GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE BRANDTECH GROUP",
+      "website": "https://thebrandtechgroup.com",
+      "website_display": "thebrandtechgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-CROWNX": {
+    "ticker": "THE-CROWNX",
+    "name": "THE CROWNX",
+    "logo": "/assets/logos/The_CrownX.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE CROWNX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE CROWNX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE CROWNX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE CROWNX",
+      "website": "https://thecrownx.com",
+      "website_display": "thecrownx.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-GOOD-GLAMM-GROUP": {
+    "ticker": "THE-GOOD-GLAMM-GROUP",
+    "name": "THE GOOD GLAMM GROUP",
+    "logo": "/assets/logos/The_Good_Glamm_Group.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE GOOD GLAMM GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE GOOD GLAMM GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE GOOD GLAMM GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE GOOD GLAMM GROUP",
+      "website": "https://thegoodglammgroup.com",
+      "website_display": "thegoodglammgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-OPEN-PLATFORM": {
+    "ticker": "THE-OPEN-PLATFORM",
+    "name": "THE OPEN PLATFORM",
+    "logo": "/assets/logos/The_Open_Platform.jpeg",
+    "tagline": "Enterprise software solutions for modern businesses",
+    "tags": [
+      "SaaS",
+      "Enterprise Software",
+      "Cloud Platform",
+      "B2B",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "SaaS"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE OPEN PLATFORM is a saas company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE OPEN PLATFORM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE OPEN PLATFORM",
+    "highlights": [
+      {
+        "text": "Leading saas company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE OPEN PLATFORM",
+      "website": "https://theopenplatform.com",
+      "website_display": "theopenplatform.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THE-ZEBRA": {
+    "ticker": "THE-ZEBRA",
+    "name": "THE ZEBRA",
+    "logo": "/assets/logos/The_Zebra.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THE ZEBRA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THE ZEBRA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THE ZEBRA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THE ZEBRA",
+      "website": "https://thezebra.com",
+      "website_display": "thezebra.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THG-INGENUITY": {
+    "ticker": "THG-INGENUITY",
+    "name": "THG INGENUITY",
+    "logo": "/assets/logos/THG_Ingenuity.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THG INGENUITY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THG INGENUITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THG INGENUITY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THG INGENUITY",
+      "website": "https://thgingenuity.com",
+      "website_display": "thgingenuity.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THINKING-MACHINES-LAB": {
+    "ticker": "THINKING-MACHINES-LAB",
+    "name": "THINKING MACHINES LAB",
+    "logo": "/assets/logos/Thinking_Machines_Lab.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THINKING MACHINES LAB is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THINKING MACHINES LAB main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THINKING MACHINES LAB",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THINKING MACHINES LAB",
+      "website": "https://thinkingmachineslab.com",
+      "website_display": "thinkingmachineslab.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THOUGHT-MACHINE": {
+    "ticker": "THOUGHT-MACHINE",
+    "name": "THOUGHT MACHINE",
+    "logo": "/assets/logos/Thought_Machine.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THOUGHT MACHINE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THOUGHT MACHINE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THOUGHT MACHINE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THOUGHT MACHINE",
+      "website": "https://thoughtmachine.com",
+      "website_display": "thoughtmachine.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THOUGHTSPOT": {
+    "ticker": "THOUGHTSPOT",
+    "name": "THOUGHTSPOT",
+    "logo": "/assets/logos/ThoughtSpot.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THOUGHTSPOT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THOUGHTSPOT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THOUGHTSPOT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THOUGHTSPOT",
+      "website": "https://thoughtspot.com",
+      "website_display": "thoughtspot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THRASIO": {
+    "ticker": "THRASIO",
+    "name": "THRASIO",
+    "logo": "/assets/logos/Thrasio.png",
+    "tagline": "HR technology and workforce solutions",
+    "tags": [
+      "HR Tech",
+      "Talent Management",
+      "Workforce Solutions",
+      "People Analytics",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "HR"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THRASIO is a hr company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THRASIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THRASIO",
+    "highlights": [
+      {
+        "text": "Leading hr company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THRASIO",
+      "website": "https://thrasio.com",
+      "website_display": "thrasio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THRIVE-MARKET": {
+    "ticker": "THRIVE-MARKET",
+    "name": "THRIVE MARKET",
+    "logo": "/assets/logos/thrivemarket.com",
+    "tagline": "HR technology and workforce solutions",
+    "tags": [
+      "HR Tech",
+      "Talent Management",
+      "Workforce Solutions",
+      "People Analytics",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "HR"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THRIVE MARKET is a hr company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THRIVE MARKET main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THRIVE MARKET",
+    "highlights": [
+      {
+        "text": "Leading hr company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THRIVE MARKET",
+      "website": "https://thrivemarket.com",
+      "website_display": "thrivemarket.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "THUMBTACK": {
+    "ticker": "THUMBTACK",
+    "name": "THUMBTACK",
+    "logo": "/assets/logos/Thumbtack.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "THUMBTACK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "THUMBTACK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on THUMBTACK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "THUMBTACK",
+      "website": "https://thumbtack.com",
+      "website_display": "thumbtack.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TIANBING-TECHNOLOGY": {
+    "ticker": "TIANBING-TECHNOLOGY",
+    "name": "TIANBING TECHNOLOGY",
+    "logo": "/assets/logos/Tianbing_Technology.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TIANBING TECHNOLOGY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TIANBING TECHNOLOGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TIANBING TECHNOLOGY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TIANBING TECHNOLOGY",
+      "website": "https://tianbingtechnology.com",
+      "website_display": "tianbingtechnology.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TIANYU-SEMICONDUCTOR": {
+    "ticker": "TIANYU-SEMICONDUCTOR",
+    "name": "TIANYU SEMICONDUCTOR",
+    "logo": "/assets/logos/Tianyu_Semiconductor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TIANYU SEMICONDUCTOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TIANYU SEMICONDUCTOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TIANYU SEMICONDUCTOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TIANYU SEMICONDUCTOR",
+      "website": "https://tianyusemiconductor.com",
+      "website_display": "tianyusemiconductor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TIER-MOBILITY": {
+    "ticker": "TIER-MOBILITY",
+    "name": "TIER MOBILITY",
+    "logo": "/assets/logos/TIER_Mobility.jpeg",
+    "tagline": "Transforming urban mobility and transportation",
+    "tags": [
+      "Mobility",
+      "Transportation",
+      "Urban Tech",
+      "Sustainable Transport",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Mobility"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TIER MOBILITY is a mobility company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TIER MOBILITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TIER MOBILITY",
+    "highlights": [
+      {
+        "text": "Leading mobility company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TIER MOBILITY",
+      "website": "https://tiermobility.com",
+      "website_display": "tiermobility.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TIMESCALE": {
+    "ticker": "TIMESCALE",
+    "name": "TIMESCALE",
+    "logo": "/assets/logos/Timescale.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TIMESCALE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TIMESCALE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TIMESCALE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TIMESCALE",
+      "website": "https://timescale.com",
+      "website_display": "timescale.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TINDER": {
+    "ticker": "TINDER",
+    "name": "TINDER",
+    "logo": "/assets/logos/Tinder.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TINDER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TINDER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TINDER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TINDER",
+      "website": "https://tinder.com",
+      "website_display": "tinder.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TINES": {
+    "ticker": "TINES",
+    "name": "TINES",
+    "logo": "/assets/logos/Tines.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TINES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TINES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TINES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TINES",
+      "website": "https://tines.com",
+      "website_display": "tines.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TIPALTI": {
+    "ticker": "TIPALTI",
+    "name": "TIPALTI",
+    "logo": "/assets/logos/Tipalti.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Israel"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TIPALTI is a technology company focused on innovation and growth. The company operates in the Israel market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TIPALTI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TIPALTI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Israel",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TIPALTI",
+      "website": "https://tipalti.com",
+      "website_display": "tipalti.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TO8TO": {
+    "ticker": "TO8TO",
+    "name": "TO8TO",
+    "logo": "/assets/logos/To8to.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TO8TO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TO8TO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TO8TO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TO8TO",
+      "website": "https://to8to.com",
+      "website_display": "to8to.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TOGETHER-AI": {
+    "ticker": "TOGETHER-AI",
+    "name": "TOGETHER AI",
+    "logo": "/assets/logos/Together_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TOGETHER AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TOGETHER AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TOGETHER AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TOGETHER AI",
+      "website": "https://togetherai.com",
+      "website_display": "togetherai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TOSS": {
+    "ticker": "TOSS",
+    "name": "TOSS",
+    "logo": "/assets/logos/Toss.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "South Korea"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TOSS is a technology company focused on innovation and growth. The company operates in the South Korea market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TOSS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TOSS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in South Korea",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TOSS",
+      "website": "https://toss.com",
+      "website_display": "toss.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TOSS-BANK": {
+    "ticker": "TOSS-BANK",
+    "name": "TOSS BANK",
+    "logo": "/assets/logos/Toss_Bank.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "South Korea"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TOSS BANK is a fintech company focused on innovation and growth. The company operates in the South Korea market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TOSS BANK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TOSS BANK",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in South Korea",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TOSS BANK",
+      "website": "https://tossbank.com",
+      "website_display": "tossbank.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRACTABLE": {
+    "ticker": "TRACTABLE",
+    "name": "TRACTABLE",
+    "logo": "/assets/logos/Tractable.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRACTABLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRACTABLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRACTABLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRACTABLE",
+      "website": "https://tractable.com",
+      "website_display": "tractable.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRADE-REPUBLIC": {
+    "ticker": "TRADE-REPUBLIC",
+    "name": "TRADE REPUBLIC",
+    "logo": "/assets/logos/Trade_Republic.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRADE REPUBLIC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRADE REPUBLIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRADE REPUBLIC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRADE REPUBLIC",
+      "website": "https://traderepublic.com",
+      "website_display": "traderepublic.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRADESHIFT": {
+    "ticker": "TRADESHIFT",
+    "name": "TRADESHIFT",
+    "logo": "/assets/logos/Tradeshift.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRADESHIFT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRADESHIFT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRADESHIFT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRADESHIFT",
+      "website": "https://tradeshift.com",
+      "website_display": "tradeshift.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRADINGVIEW": {
+    "ticker": "TRADINGVIEW",
+    "name": "TRADINGVIEW",
+    "logo": "/assets/logos/TradingView.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRADINGVIEW is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRADINGVIEW main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRADINGVIEW",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRADINGVIEW",
+      "website": "https://tradingview.com",
+      "website_display": "tradingview.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRANSCARENT": {
+    "ticker": "TRANSCARENT",
+    "name": "TRANSCARENT",
+    "logo": "/assets/logos/Transcarent.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRANSCARENT is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRANSCARENT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRANSCARENT",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRANSCARENT",
+      "website": "https://transcarent.com",
+      "website_display": "transcarent.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRANSFERMATE": {
+    "ticker": "TRANSFERMATE",
+    "name": "TRANSFERMATE",
+    "logo": "/assets/logos/TransferMate.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRANSFERMATE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRANSFERMATE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRANSFERMATE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRANSFERMATE",
+      "website": "https://transfermate.com",
+      "website_display": "transfermate.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRANSMIT-SECURITY": {
+    "ticker": "TRANSMIT-SECURITY",
+    "name": "TRANSMIT SECURITY",
+    "logo": "/assets/logos/Transmit_Security.jpeg",
+    "tagline": "Cybersecurity solutions protecting digital assets",
+    "tags": [
+      "Cybersecurity",
+      "Security",
+      "Data Protection",
+      "Enterprise Security",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Security"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRANSMIT SECURITY is a security company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRANSMIT SECURITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRANSMIT SECURITY",
+    "highlights": [
+      {
+        "text": "Leading security company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRANSMIT SECURITY",
+      "website": "https://transmitsecurity.com",
+      "website_display": "transmitsecurity.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRAVELOKA": {
+    "ticker": "TRAVELOKA",
+    "name": "TRAVELOKA",
+    "logo": "/assets/logos/Traveloka.jpg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Indonesia"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRAVELOKA is a technology company focused on innovation and growth. The company operates in the Indonesia market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRAVELOKA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRAVELOKA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Indonesia",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRAVELOKA",
+      "website": "https://traveloka.com",
+      "website_display": "traveloka.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRAVELPERK": {
+    "ticker": "TRAVELPERK",
+    "name": "TRAVELPERK",
+    "logo": "/assets/logos/TravelPerk.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRAVELPERK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRAVELPERK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRAVELPERK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRAVELPERK",
+      "website": "https://travelperk.com",
+      "website_display": "travelperk.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRAX": {
+    "ticker": "TRAX",
+    "name": "TRAX",
+    "logo": "/assets/logos/Trax.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRAX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRAX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRAX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRAX",
+      "website": "https://trax.com",
+      "website_display": "trax.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRENDY-INTERNATIONAL-GROUP": {
+    "ticker": "TRENDY-INTERNATIONAL-GROUP",
+    "name": "TRENDY INTERNATIONAL GROUP",
+    "logo": "/assets/logos/Trendy_International_Group.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRENDY INTERNATIONAL GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRENDY INTERNATIONAL GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRENDY INTERNATIONAL GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRENDY INTERNATIONAL GROUP",
+      "website": "https://trendyinternationalgroup.com",
+      "website_display": "trendyinternationalgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRENDYOL-GROUP": {
+    "ticker": "TRENDYOL-GROUP",
+    "name": "TRENDYOL GROUP",
+    "logo": "/assets/logos/Trendyol_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRENDYOL GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRENDYOL GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRENDYOL GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRENDYOL GROUP",
+      "website": "https://trendyolgroup.com",
+      "website_display": "trendyolgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRESATA": {
+    "ticker": "TRESATA",
+    "name": "TRESATA",
+    "logo": "/assets/logos/Tresata.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRESATA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRESATA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRESATA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRESATA",
+      "website": "https://tresata.com",
+      "website_display": "tresata.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRICENTIS": {
+    "ticker": "TRICENTIS",
+    "name": "TRICENTIS",
+    "logo": "/assets/logos/Tricentis.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRICENTIS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRICENTIS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRICENTIS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRICENTIS",
+      "website": "https://tricentis.com",
+      "website_display": "tricentis.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRIDGE": {
+    "ticker": "TRIDGE",
+    "name": "TRIDGE",
+    "logo": "/assets/logos/Tridge.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRIDGE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRIDGE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRIDGE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRIDGE",
+      "website": "https://tridge.com",
+      "website_display": "tridge.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRIPLEDOT-STUDIOS": {
+    "ticker": "TRIPLEDOT-STUDIOS",
+    "name": "TRIPLEDOT STUDIOS",
+    "logo": "/assets/logos/Tripledot_Studios.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRIPLEDOT STUDIOS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRIPLEDOT STUDIOS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRIPLEDOT STUDIOS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRIPLEDOT STUDIOS",
+      "website": "https://tripledotstudios.com",
+      "website_display": "tripledotstudios.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRULIOO": {
+    "ticker": "TRULIOO",
+    "name": "TRULIOO",
+    "logo": "/assets/logos/Trulioo.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRULIOO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRULIOO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRULIOO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRULIOO",
+      "website": "https://trulioo.com",
+      "website_display": "trulioo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRUMID": {
+    "ticker": "TRUMID",
+    "name": "TRUMID",
+    "logo": "/assets/logos/Trumid.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRUMID is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRUMID main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRUMID",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRUMID",
+      "website": "https://trumid.com",
+      "website_display": "trumid.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRUSTDECISION": {
+    "ticker": "TRUSTDECISION",
+    "name": "TRUSTDECISION",
+    "logo": "/assets/logos/TrustDecision.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRUSTDECISION is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRUSTDECISION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRUSTDECISION",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRUSTDECISION",
+      "website": "https://trustdecision.com",
+      "website_display": "trustdecision.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TRUVETA": {
+    "ticker": "TRUVETA",
+    "name": "TRUVETA",
+    "logo": "/assets/logos/Truveta.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TRUVETA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TRUVETA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TRUVETA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TRUVETA",
+      "website": "https://truveta.com",
+      "website_display": "truveta.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TUANDAIWANG": {
+    "ticker": "TUANDAIWANG",
+    "name": "TUANDAIWANG",
+    "logo": "/assets/logos/Tuandaiwang.jpg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TUANDAIWANG is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TUANDAIWANG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TUANDAIWANG",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TUANDAIWANG",
+      "website": "https://tuandaiwang.com",
+      "website_display": "tuandaiwang.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TUJIA": {
+    "ticker": "TUJIA",
+    "name": "TUJIA",
+    "logo": "/assets/logos/Tujia.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TUJIA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TUJIA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TUJIA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TUJIA",
+      "website": "https://tujia.com",
+      "website_display": "tujia.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TURING": {
+    "ticker": "TURING",
+    "name": "TURING",
+    "logo": "/assets/logos/Turing.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TURING is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TURING main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TURING",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TURING",
+      "website": "https://turing.com",
+      "website_display": "turing.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TURNTIDE-TECHNOLOGIES": {
+    "ticker": "TURNTIDE-TECHNOLOGIES",
+    "name": "TURNTIDE TECHNOLOGIES",
+    "logo": "/assets/logos/Turntide_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TURNTIDE TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TURNTIDE TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TURNTIDE TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TURNTIDE TECHNOLOGIES",
+      "website": "https://turntidetechnologies.com",
+      "website_display": "turntidetechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TWELVE": {
+    "ticker": "TWELVE",
+    "name": "TWELVE",
+    "logo": "/assets/logos/Twelve.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TWELVE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TWELVE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TWELVE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TWELVE",
+      "website": "https://twelve.com",
+      "website_display": "twelve.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TYME-GROUP": {
+    "ticker": "TYME-GROUP",
+    "name": "TYME GROUP",
+    "logo": "/assets/logos/Tyme_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TYME GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TYME GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TYME GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TYME GROUP",
+      "website": "https://tymegroup.com",
+      "website_display": "tymegroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "TYPEFACE": {
+    "ticker": "TYPEFACE",
+    "name": "TYPEFACE",
+    "logo": "/assets/logos/Typeface.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "TYPEFACE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "TYPEFACE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on TYPEFACE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "TYPEFACE",
+      "website": "https://typeface.com",
+      "website_display": "typeface.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

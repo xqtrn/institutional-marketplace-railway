@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarify Health - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="clarify-health-solutions-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idN_HJ3MmI/idnX_xTZLW.svg" alt="Clarify Health" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Clarify Health</h1>
+                    <p class="company-tagline">Healthcare analytics and value-based care platform delivering AI-powered insights across 300 million patient journeys to transform care decisions</p>
+                    <div class="company-tags"><span class="tag">Healthcare Analytics</span><span class="tag">Value-Based Care</span><span class="tag">AI/ML</span><span class="tag">Unicorn</span><span class="tag">Health Tech</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Clarify Health is building healthcare&#x27;s system of intelligence, generating over 300 million annual patient journeys and 18 billion AI-powered predictions that empower providers, health plans, and life sciences companies to make better care decisions. The company unites longitudinal data from government and commercial claims, electronic health records, and prescriptions to deliver actionable insights for value-based care. Clarify&#x27;s platform enables healthcare organizations to understand patient journeys, optimize network design, and improve outcomes across the care continuum. Ranked #1 in Data Analytics Platforms (Payers) by KLAS Research in 2024.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2022-04</td>
+                <td>Series D</td>
+                <td>$150M</td>
+                <td>$1.4B</td>
+            </tr><tr>
+                <td>2021-03</td>
+                <td>Series C</td>
+                <td>$115M</td>
+                <td></td>
+            </tr><tr>
+                <td>2019-06</td>
+                <td>Series B</td>
+                <td>$65M</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Clarify Navigator</div>
+            <div class="product-desc">Patient journey analytics platform mapping 300M+ patient journeys for network and referral optimization</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Clarify Performance</div>
+            <div class="product-desc">Value-based care analytics enabling risk adjustment, quality measurement, and performance optimization</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Clarify Engage</div>
+            <div class="product-desc">Patient engagement and care coordination tools for population health management</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Clarify Health</h2>
+                        <div class="highlights-list"><a href="https://klasresearch.com/best-in-klas-ranking/data-analytics-platforms-payers/2024/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Ranked #1 in KLAS Data Analytics Platforms for Payers in 2024 Best in KLAS Awards</span>
+        </a><a href="https://www.bloomberg.com/news/articles/2022-04-05/clarify-health-reaches-1-4-billion-value-in-softbank-led-round" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Series D funding at $1.4B valuation led by SoftBank Vision Fund 2</span>
+        </a><a href="https://www.fiercehealthcare.com/health-tech/clarify-health-clinches-150m-series-d-boosting-valuation-14b" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raised $150M Series D to unlock value-based care with AI intelligence</span>
+        </a><a href="https://clarifyhealth.com/press/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Powers insights across 300 million patient journeys annually</span>
+        </a><a href="https://www.businesswire.com/news/home/20220405005283/en/Clarify-Health-Closes-150M-Series-D-Funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">BlackRock and Memorial Hermann join strategic investor syndicate</span>
+        </a><a href="https://www.mobihealthnews.com/news/clarify-health-scores-115m-funding-clinical-analytics-platform" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Accelerated adoption of on-demand healthcare analytics with $115M Series C</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/a9747877-737b-4e66-b337-08e79d66d28c_medium.jpg" alt="Steve Pease" class="leader-photo">
+            <div><div class="leader-name">Steve Pease</div>
+            <div class="leader-role">Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/stephendpease/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/fa55ae24-cb0b-4070-a4fd-d9d20c3972c4_medium.jpg" alt="Todd Gottula" class="leader-photo">
+            <div><div class="leader-name">Todd Gottula</div>
+            <div class="leader-role">Co-Founder &amp; President</div></div>
+            <a href="https://www.linkedin.com/in/toddgottula/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/9abc04d4-084f-4c32-8844-592eb4b6a4f9_medium.jpg" alt="Justin Warner" class="leader-photo">
+            <div><div class="leader-name">Justin Warner</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/justinrwarner/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/c68695e3-b4c7-4a9a-b8d2-3262cf951831_medium.jpg" alt="Alejandro Reti" class="leader-photo">
+            <div><div class="leader-name">Alejandro Reti</div>
+            <div class="leader-role">Chief Product Officer &amp; CIO</div></div>
+            <a href="https://www.linkedin.com/in/alejandroreti/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://visionfund.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund 2</span>
+        </a><a href="https://www.blackrock.com/" target="_blank" class="investor-card">
+            <span class="investor-name">BlackRock</span>
+        </a><a href="https://www.insightpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Insight Partners</span>
+        </a><a href="https://www.sparkcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Spark Capital</span>
+        </a><a href="https://www.kkr.com/" target="_blank" class="investor-card">
+            <span class="investor-name">KKR</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Clarify Health Solutions, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://clarifyhealth.com/" target="_blank" class="detail-value">clarifyhealth.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">400+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">San Francisco, CA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

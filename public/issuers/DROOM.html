@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Droom - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="droom-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idfzYXfP0S/id_JsGPT9c.svg" alt="Droom" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Droom</h1>
+                    <p class="company-tagline">India&#x27;s first and largest online automobile marketplace connecting buyers with new and used vehicles through a tech-driven platform</p>
+                    <div class="company-tags"><span class="tag">Auto Marketplace</span><span class="tag">Unicorn</span><span class="tag">Indian Tech</span><span class="tag">Automotive</span><span class="tag">Pre-IPO</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Droom is India&#x27;s first and largest technology-driven online automobile marketplace, enabling consumers and dealers to buy and sell new and used cars, motorcycles, scooters, and commercial vehicles. Founded in 2014 by Sandeep Aggarwal (who also founded ShopClues), Droom became a unicorn in 2021 at a $1.2B valuation. The platform hosts 1.1 million automobiles worth $15.7 billion in inventory from over 20,600 dealers across 1,105 cities in India. With 14 million app users, Droom has pioneered services like Orange Book Value (fair market pricing), History (vehicle inspection reports), and ECO (ecosystem for automotive services). Aggarwal is the only Indian entrepreneur to have founded two unicorns back-to-back.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>July 2021</td>
+                <td>Pre-IPO</td>
+                <td>$200M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>October 2018</td>
+                <td>Series F</td>
+                <td>$30M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>January 2017</td>
+                <td>Series D</td>
+                <td>$20M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Droom Marketplace</div>
+            <div class="product-desc">Online platform for buying and selling new and used automobiles including cars, bikes, scooters, and commercial vehicles</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Orange Book Value (OBV)</div>
+            <div class="product-desc">AI-powered fair market value calculator for automobiles based on over 100 data points and algorithmic pricing</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Droom ECO</div>
+            <div class="product-desc">Full-stack ecosystem offering insurance, loans, warranties, RSA, and other automotive services to buyers and dealers</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Droom</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2021/07/27/indian-automobile-marketplace-droom-valued-at-1-2-billion-in-200-million-pre-ipo-funding/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Droom achieves unicorn status at $1.2 billion valuation with $200M pre-IPO round</span>
+        </a><a href="https://inc42.com/buzz/automobile-marketplace-droom-enters-unicorn-club/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform reaches 1.1 million vehicles and $15.7 billion inventory value</span>
+        </a><a href="https://startuptalky.com/droom-success-story/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Monthly automobile sales grow to 17,000-18,000 vehicles post-COVID recovery</span>
+        </a><a href="https://www.business-standard.com/amp/article/companies/india-s-droom-aims-to-list-on-nasdaq-valuation-crosses-1-2-bn-in-200-mn-121072800569_1.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Droom expands dealer network to 20,600+ across 1,105 Indian cities</span>
+        </a><a href="https://www.businessinsider.in/business/startups/news/droom-founder-explains-why-he-is-considering-a-us-ipo-and-where-he-intends-to-spend-the-money/articleshow/84917608.cms" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company maintains contribution margin positive status since September 2020</span>
+        </a><a href="https://www.founderthesis.com/p/the-phoenix-thesis-sandeep-aggarwals" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Founder Sandeep Aggarwal becomes only Indian entrepreneur with two unicorns</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/ce5b9d29-6c38-4310-a4a0-5c1fda643297_medium.jpg" alt="Sandeep Aggarwal" class="leader-photo">
+            <div><div class="leader-name">Sandeep Aggarwal</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/sandeepaggarwal/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/76433b25-8328-453c-b35e-11004d76c899_medium.jpg" alt="Sudhir Singh" class="leader-photo">
+            <div><div class="leader-name">Sudhir Singh</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/sudhirsingh/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/dc37823d-a0c6-4389-bb94-b90b5637c087_medium.jpg" alt="Pankaj Judge" class="leader-photo">
+            <div><div class="leader-name">Pankaj Judge</div>
+            <div class="leader-role">VP Business</div></div>
+            <a href="https://www.linkedin.com/in/pankajjudge/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/e4fbd3e0-f165-4ab8-aed4-2a45db0208dd_medium.jpg" alt="Asheesh Chandolia" class="leader-photo">
+            <div><div class="leader-name">Asheesh Chandolia</div>
+            <div class="leader-role">Senior Director HR</div></div>
+            <a href="https://www.linkedin.com/in/asheeshchandolia/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.57stars.com/" target="_blank" class="investor-card">
+            <span class="investor-name">57 Stars</span>
+        </a><a href="https://www.seventrain.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Seven Train Ventures</span>
+        </a><a href="https://www.toyota-ventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Toyota Ventures</span>
+        </a><a href="https://www.lightbox.vc/" target="_blank" class="investor-card">
+            <span class="investor-name">Lightbox</span>
+        </a><a href="https://www.beenext.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Beenext</span>
+        </a><a href="https://www.garage.co.jp/" target="_blank" class="investor-card">
+            <span class="investor-name">Digital Garage</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Droom Technology Private Limited</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://droom.in" target="_blank" class="detail-value">droom.in</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2014</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">300+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Gurugram, Haryana, India</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

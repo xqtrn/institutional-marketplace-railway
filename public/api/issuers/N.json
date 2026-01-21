@@ -1,0 +1,4742 @@
+{
+  "NOTION": {
+    "ticker": "NOTION",
+    "name": "Notion",
+    "logo": "https://logo.clearbit.com/notion.so",
+    "tagline": "Unifying notes, docs, wikis, projects, and databases into a single connected workspace",
+    "tags": [
+      "Productivity",
+      "SaaS",
+      "Collaboration",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$10B"
+      },
+      {
+        "label": "Revenue 2025",
+        "value": "$500M"
+      },
+      {
+        "label": "Users",
+        "value": "100M"
+      },
+      {
+        "label": "Paying Customers",
+        "value": "4M+"
+      }
+    ],
+    "overview": "Notion is an all-in-one workspace platform founded in 2013 by Ivan Zhao and Simon Last. The company provides a connected workspace combining notes, docs, databases, wikis, and project management. Notion reached $10B valuation in 2021 after raising $275M Series D. The company hit $500M ARR in 2025 with 100M users worldwide—a 5x growth from 20M in 2022. Over 50% of Fortune 500 companies use Notion. Recent AI features, Notion Calendar, Forms, and advanced Automation have driven enterprise adoption. Acquisitions include Automate.io (2021), Cron (2022), and Skiff (2024).",
+    "products": [
+      {
+        "name": "Notion Workspace",
+        "description": "All-in-one workspace for docs, databases, wikis, and project management",
+        "url": "https://www.notion.so/product"
+      },
+      {
+        "name": "Notion AI",
+        "description": "AI writing assistant and content generation integrated into workspace",
+        "url": "https://www.notion.so/product/ai"
+      },
+      {
+        "name": "Notion Calendar",
+        "description": "Calendar app integrated with Notion workspace (from Cron acquisition)",
+        "url": "https://www.notion.so/product/calendar"
+      },
+      {
+        "name": "Notion Projects",
+        "description": "Project management with timelines, sprints, and team collaboration",
+        "url": "https://www.notion.so/product/projects"
+      },
+      {
+        "name": "Notion Sites",
+        "description": "Publish websites directly from Notion pages",
+        "url": "https://www.notion.so/product/sites"
+      }
+    ],
+    "highlights_title": "Latest news on Notion",
+    "highlights": [
+      {
+        "title": "TechCrunch: Skiff Acquisition",
+        "description": "Notion acquires privacy-focused Skiff to expand secure collaboration features",
+        "url": "https://techcrunch.com/2024/02/09/notion-acquires-skiff-privacy-productivity/"
+      },
+      {
+        "title": "Forbes: $10B Valuation",
+        "description": "Notion valued at $10 billion after $275M Series D funding round",
+        "url": "https://www.forbes.com/sites/kenrickcai/2021/10/08/notion-valued-at-10-billion-after-new-funding-round/"
+      },
+      {
+        "title": "Contrary Research: Business Breakdown",
+        "description": "Deep dive into Notion's product-led growth and enterprise expansion strategy",
+        "url": "https://research.contrary.com/company/notion"
+      },
+      {
+        "title": "Tracxn: Funding Analysis",
+        "description": "Notion 2025 funding rounds and key investor profile analysis",
+        "url": "https://tracxn.com/d/companies/notion/__P1KlcS2SJ7pAe_8m9Z1YFQy_u1a0d_FQcEZMJe3XJFE/funding-and-investors"
+      },
+      {
+        "title": "SaaStr: Notion AI Launch",
+        "description": "How Notion AI transformed the productivity workspace with integrated assistant",
+        "url": "https://www.saastr.com/notion-ai-launch-interview/"
+      },
+      {
+        "title": "The Verge: Notion Calendar",
+        "description": "Notion launches dedicated calendar app with workspace integration",
+        "url": "https://www.theverge.com/2024/1/18/24041992/notion-calendar-app-launch"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ivan Zhao",
+        "role": "Co-Founder & CEO",
+        "photo": "https://cdn.theorg.com/bcf04527-c2ce-4678-9736-d5025f402b53_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/notionhq/"
+      },
+      {
+        "name": "Akshay Kothari",
+        "role": "COO",
+        "photo": "https://cdn.theorg.com/4f90c8cf-589a-4051-b78c-dbb72cd88c86_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/akothari/"
+      },
+      {
+        "name": "Rama Katkar",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/506b39dc-e0a9-4fbd-a63a-ab66eafc58c2_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ramakatkar/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Index Ventures",
+        "url": "https://www.indexventures.com/"
+      },
+      {
+        "name": "Coatue Management",
+        "url": "https://www.coatue.com/"
+      },
+      {
+        "name": "Daniel Gross",
+        "url": "https://dcgross.com/"
+      },
+      {
+        "name": "Elad Gil",
+        "url": "https://eladgil.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Oct 2021",
+        "amount": "$275M",
+        "round": "Series D",
+        "valuation": "$10B",
+        "investors_html": "Sequoia, Index Ventures, Coatue"
+      },
+      {
+        "date": "Jul 2020",
+        "amount": "$50M",
+        "round": "Series B",
+        "valuation": "$2B",
+        "investors_html": "Index Ventures"
+      },
+      {
+        "date": "Apr 2019",
+        "amount": "$10M",
+        "round": "Series A",
+        "valuation": "$800M",
+        "investors_html": "Index Ventures"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Notion Labs, Inc.",
+      "website": "https://www.notion.so",
+      "website_display": "notion.so",
+      "founded": "2013",
+      "headcount": "800+",
+      "hq": "San Francisco, CA",
+      "twitter": "https://twitter.com/NotionHQ",
+      "linkedin": "https://www.linkedin.com/company/notionhq/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue, $M",
+          "badge_text": "60% YoY Growth",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$67M",
+              "height": 23
+            },
+            {
+              "label": "2023",
+              "value": "$250M",
+              "height": 85
+            },
+            {
+              "label": "2024",
+              "value": "$400M",
+              "height": 136
+            },
+            {
+              "label": "2025",
+              "value": "$500M",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Users, M",
+          "badge_text": "5x in 3 Years",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "20M",
+              "height": 34
+            },
+            {
+              "label": "2023",
+              "value": "40M",
+              "height": 68
+            },
+            {
+              "label": "2024",
+              "value": "80M",
+              "height": 136
+            },
+            {
+              "label": "2025",
+              "value": "100M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "NETLIFY": {
+    "ticker": "NETLIFY",
+    "name": "Netlify",
+    "logo": "https://logo.clearbit.com/netlify.com",
+    "tagline": "Pioneering composable web development by connecting frameworks, content, and modern workflows",
+    "tags": [
+      "Developer Tools",
+      "Web Hosting",
+      "Jamstack",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2B"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$46.3M"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$212M"
+      },
+      {
+        "label": "Employees",
+        "value": "202"
+      }
+    ],
+    "overview": "Netlify is a web development platform founded in 2015 by Matt Biilmann who coined the term 'Jamstack'. The company raised $105M at $2B valuation in November 2021. Revenue reached $46.3M in 2024, up from $33M in 2023. Netlify celebrated 10 years since launch in February 2025. The platform competes with Vercel, Cloudflare Pages, and AWS Amplify. Investors include a16z, Kleiner Perkins, Menlo Ventures, and founders from GitHub, Heroku, Slack, and Figma.",
+    "products": [
+      {
+        "name": "Netlify Platform",
+        "description": "Deploy and host modern web projects",
+        "url": "https://www.netlify.com/"
+      },
+      {
+        "name": "Netlify Functions",
+        "description": "Serverless functions at the edge",
+        "url": "https://www.netlify.com/products/functions/"
+      },
+      {
+        "name": "Netlify Edge",
+        "description": "Edge computing and personalization",
+        "url": "https://www.netlify.com/products/edge/"
+      },
+      {
+        "name": "Netlify Identity",
+        "description": "User authentication and management",
+        "url": "https://www.netlify.com/products/identity/"
+      },
+      {
+        "name": "Netlify Forms",
+        "description": "Form handling without backend",
+        "url": "https://www.netlify.com/products/forms/"
+      },
+      {
+        "name": "OpenNext",
+        "description": "Next.js deployment across clouds (2024)",
+        "url": "https://opennext.js.org/"
+      }
+    ],
+    "highlights_title": "Latest news on Netlify",
+    "highlights": [
+      {
+        "text": "<strong>10 years since launch</strong> (Feb 2025)",
+        "url": "https://netlify.app/blog/authors/matt-biilmann/",
+        "date": "2025"
+      },
+      {
+        "text": "Revenue grew to <strong>$46.3M in 2024</strong>, +40% YoY",
+        "url": "https://getlatka.com/companies/netlify",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>$2B valuation</strong> from 2021 Series D",
+        "url": "https://tracxn.com/d/companies/netlify/__UWAWrsJpFE3Vzn9J3YuRMWLZp1E84BA2KtPNWeH9EUE",
+        "date": "2021"
+      },
+      {
+        "text": "<strong>Coined 'Jamstack'</strong>—JavaScript, APIs, Markup",
+        "url": "https://www.netlify.com/about/"
+      },
+      {
+        "text": "<strong>$212M total funding</strong> from 19 investors",
+        "url": "https://tracxn.com/d/companies/netlify/__UWAWrsJpFE3Vzn9J3YuRMWLZp1E84BA2KtPNWeH9EUE"
+      },
+      {
+        "text": "<strong>202 employees</strong>—84 engineering, 13 marketing",
+        "url": "https://getlatka.com/companies/netlify"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mathias Biilmann",
+        "role": "Co-founder & CEO",
+        "photo": "https://cdn.theorg.com/3f9a8b67-3555-4714-b6ac-5cdd00e785d3_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/mathias-biilmann-christensen-a5a3805/"
+      },
+      {
+        "name": "Dana Lawson",
+        "role": "CTO",
+        "photo": "https://cdn.theorg.com/5d62dd0c-8e67-4f04-b25a-e07b0fdd280a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/danaklawson/"
+      },
+      {
+        "name": "Iain Hassall",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/ab463290-4536-4113-94c9-d4dc6dd91e51_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/iainhassall/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "Kleiner Perkins",
+        "url": "https://www.kleinerperkins.com/"
+      },
+      {
+        "name": "Menlo Ventures",
+        "url": "https://www.menlovc.com/"
+      },
+      {
+        "name": "EQT Ventures",
+        "url": "https://eqtventures.com/"
+      },
+      {
+        "name": "BOND",
+        "url": "https://www.bond.vc/"
+      },
+      {
+        "name": "Bessemer Venture Partners",
+        "url": "https://www.bvp.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Nov 2021",
+        "amount": "$105M",
+        "round": "Series D",
+        "valuation": "$2B",
+        "investors_html": "a16z, Menlo Ventures, EQT Ventures"
+      },
+      {
+        "date": "Mar 2020",
+        "amount": "$53M",
+        "round": "Series C",
+        "valuation": "—",
+        "investors_html": "a16z, Kleiner Perkins"
+      },
+      {
+        "date": "Oct 2018",
+        "amount": "$30M",
+        "round": "Series B",
+        "valuation": "—",
+        "investors_html": "Kleiner Perkins, Bloomberg Beta"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Netlify, Inc.",
+      "website": "https://www.netlify.com",
+      "website_display": "netlify.com",
+      "founded": "2015",
+      "headcount": "202",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/Netlify",
+      "linkedin": "https://www.linkedin.com/company/netlify"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Funding Rounds, $M",
+          "badge_text": "$212M Total",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Series B",
+              "value": "$30M",
+              "height": 49
+            },
+            {
+              "label": "Series C",
+              "value": "$53M",
+              "height": 86
+            },
+            {
+              "label": "Series D",
+              "value": "$105M",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+40% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$23M",
+              "height": 84
+            },
+            {
+              "label": "2023",
+              "value": "$33M",
+              "height": 121
+            },
+            {
+              "label": "2024",
+              "value": "$46M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "N26": {
+    "ticker": "N26",
+    "name": "N26",
+    "logo": "https://logo.clearbit.com/n26.com",
+    "tagline": "Europe's leading mobile bank with €440M revenue—first profitable quarter in 2024 after BaFin cap lifted",
+    "tags": [
+      "FinTech",
+      "Neobank",
+      "Mobile Banking",
+      "Germany"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "€6B (2023)"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "€440M"
+      },
+      {
+        "label": "Customers",
+        "value": "8M+"
+      },
+      {
+        "label": "Deposits",
+        "value": "€10B+"
+      }
+    ],
+    "overview": "N26 is a German direct bank founded in 2013 by Valentin Stalf and Maximilian Tayenthal. The company offers mobile banking services across 24 European markets. In Q3 2024, N26 achieved its first-ever quarterly profit (€2.8M net operating income) after BaFin lifted its customer growth restriction in June 2024. Revenue grew 40% to €440M in 2024, with deposits exceeding €10B for the first time. Customer sign-ups more than doubled to 200K/month. N26 plans to launch business banking and expand investment products in 2025.",
+    "products": [
+      {
+        "name": "N26 Standard",
+        "description": "Free mobile bank account with Mastercard",
+        "url": "https://n26.com/en-eu/free-bank-account"
+      },
+      {
+        "name": "N26 Smart",
+        "description": "€4.90/month with extra features and perks",
+        "url": "https://n26.com/en-eu/smart"
+      },
+      {
+        "name": "N26 You",
+        "description": "€9.90/month with travel insurance and withdrawals",
+        "url": "https://n26.com/en-eu/you"
+      },
+      {
+        "name": "N26 Metal",
+        "description": "€16.90/month premium with metal card",
+        "url": "https://n26.com/en-eu/metal"
+      },
+      {
+        "name": "N26 Crypto",
+        "description": "Buy and sell cryptocurrencies in-app",
+        "url": "https://n26.com/en-eu/crypto"
+      },
+      {
+        "name": "N26 Stocks",
+        "description": "Free stocks and ETF trading (Jan 2025)",
+        "url": "https://n26.com/en-eu/stocks"
+      },
+      {
+        "name": "Instant Savings",
+        "description": "Savings accounts in 13 European countries",
+        "url": "https://n26.com/en-eu/savings"
+      }
+    ],
+    "highlights_title": "Latest news on N26",
+    "highlights": [
+      {
+        "text": "Launched <strong>N26 Stocks</strong>—free trading (Jan 2025)",
+        "url": "https://n26.com/en-eu/press/press-release/n26-group-shares-profitability-expectations-and-announces-upcoming-trading-product",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>BaFin cap lifted</strong> June 2024—200K+ signups/month",
+        "url": "https://n26.com/en-eu/press/press-release/n26-welcomes-bafin-s-lift-of-its-growth-restriction",
+        "date": "June 2024"
+      },
+      {
+        "text": "<strong>First quarterly profit</strong>: €2.8M in Q3 2024",
+        "url": "https://n26.com/en-eu/press/press-release/n26-group-reports-first-quarterly-profit-as-growth-in-customer-numbers-accelerates-strongly",
+        "date": "2024"
+      },
+      {
+        "text": "Revenue <strong>up 40% to €440M</strong> in 2024",
+        "url": "https://techcrunch.com/2024/11/21/german-fintech-unicorn-n26-just-had-its-first-profitable-quarter/",
+        "date": "2024"
+      },
+      {
+        "text": "Deposits exceeded <strong>€10B</strong> for first time",
+        "url": "https://sifted.eu/articles/n26-first-profitable-quarter-news"
+      },
+      {
+        "text": "<strong>8M+ customers</strong> across 24 markets",
+        "url": "https://www.businessofapps.com/data/n26-statistics/"
+      },
+      {
+        "text": "Transaction volume: <strong>€140B</strong>, up 23% YoY",
+        "url": "https://sacra.com/c/n26/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Maximilian Tayenthal",
+        "role": "Co-founder, Co-CEO & COO",
+        "photo": "https://images.ctfassets.net/q33z48p65a6w/RYYnJAtqcUsSkI0EECSiM/4fce1aff584e6368192bc65f707b73d5/N26__3_Maximilian_Tayenthal_c_N26.jpg",
+        "linkedin": "https://www.linkedin.com/in/maximilian-tayenthal-3a9b2b5/"
+      },
+      {
+        "name": "Marcus W. Mosen",
+        "role": "Co-CEO (since Sep 2025)",
+        "photo": "https://images.ctfassets.net/q33z48p65a6w/2blVphVTM6vz9neQGaB0zr/8458b5df827f43aff81df835210b65fc/2510_N25_HIRES-4665.jpg",
+        "linkedin": "https://www.linkedin.com/in/marcus-w-mosen-1b6a9a1/"
+      },
+      {
+        "name": "Arnd Schwierholz",
+        "role": "Chief Financial Officer",
+        "photo": "https://images.ctfassets.net/q33z48p65a6w/68uWx8F6k1fxlpX0VVdMXA/6007a79bee7d75f91b389507e5f97a4b/Arnd_Schwierholz.jpg",
+        "linkedin": "https://www.linkedin.com/in/arnd-schwierholz-56a87515/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com/"
+      },
+      {
+        "name": "GIC",
+        "url": "https://www.gic.com.sg/"
+      },
+      {
+        "name": "Tencent",
+        "url": "https://www.tencent.com/"
+      },
+      {
+        "name": "Allianz X",
+        "url": "https://www.allianzx.com/"
+      },
+      {
+        "name": "Valar Ventures",
+        "url": "https://valar.com/"
+      },
+      {
+        "name": "Li Ka-shing",
+        "url": "https://www.ckh.com.hk/"
+      },
+      {
+        "name": "Peter Thiel",
+        "url": "https://www.thielfoundation.org/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Oct 2021",
+        "amount": "$900M",
+        "round": "Series E",
+        "valuation": "$9B",
+        "investors_html": "Third Point, Coatue, Dragoneer"
+      },
+      {
+        "date": "Jan 2021",
+        "amount": "$100M",
+        "round": "Extension",
+        "valuation": "$3.5B",
+        "investors_html": "Existing investors"
+      },
+      {
+        "date": "Jul 2019",
+        "amount": "$170M",
+        "round": "Series D",
+        "valuation": "$3.5B",
+        "investors_html": "Insight Partners, GIC, Tencent"
+      }
+    ],
+    "company_details": {
+      "legal_name": "N26 GmbH",
+      "website": "https://n26.com",
+      "website_display": "n26.com",
+      "founded": "2013",
+      "headcount": "1,500+",
+      "hq": "Berlin, Germany",
+      "twitter": "https://twitter.com/n26",
+      "linkedin": "https://www.linkedin.com/company/n26/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, €B",
+          "badge_text": "Down from Peak",
+          "badge_type": "negative",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "€3.5B",
+              "height": 66
+            },
+            {
+              "label": "2021",
+              "value": "€9B",
+              "height": 170
+            },
+            {
+              "label": "2023",
+              "value": "€6B",
+              "height": 113
+            }
+          ]
+        },
+        {
+          "title": "Revenue, €M",
+          "badge_text": "+40% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "€230M",
+              "height": 89
+            },
+            {
+              "label": "2023",
+              "value": "€314M",
+              "height": 122
+            },
+            {
+              "label": "2024",
+              "value": "€440M",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "NEON": {
+    "ticker": "NEON",
+    "name": "Neon",
+    "logo": "https://logo.clearbit.com/neon.tech",
+    "tagline": "Providing serverless Postgres with instant branching, autoscaling, and scale-to-zero capabilities",
+    "tags": [
+      "Database",
+      "Serverless",
+      "Open Source",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Acquisition",
+        "value": "$1B"
+      },
+      {
+        "label": "Funding",
+        "value": "$130M"
+      },
+      {
+        "label": "Acquirer",
+        "value": "Databricks"
+      },
+      {
+        "label": "Founded",
+        "value": "2021"
+      }
+    ],
+    "overview": "Neon is a serverless PostgreSQL database platform founded in 2021 by Nikita Shamgunov (ex-SingleStore CEO), Heikki Linnakangas, and Stas Kelvich. The company raised $130M total including $25M from Microsoft's M12 in August 2024. In May 2025, Databricks announced acquisition of Neon for approximately $1B. Neon's serverless architecture features autoscaling and scale-to-zero capabilities. Key investors include M12, General Catalyst, Menlo Ventures, Databricks Ventures, and Founders Fund.",
+    "products": [
+      {
+        "name": "Neon Serverless Postgres",
+        "description": "Scale-to-zero PostgreSQL",
+        "url": "https://neon.tech/"
+      },
+      {
+        "name": "Branching",
+        "description": "Instant database branching",
+        "url": "https://neon.tech/docs/introduction/branching"
+      },
+      {
+        "name": "Autoscaling",
+        "description": "Automatic resource scaling",
+        "url": "https://neon.tech/docs/introduction/autoscaling"
+      },
+      {
+        "name": "Read Replicas",
+        "description": "On-demand read replicas",
+        "url": "https://neon.tech/docs/introduction/read-replicas"
+      },
+      {
+        "name": "Neon Authorize",
+        "description": "Row-level security",
+        "url": "https://neon.tech/docs/guides/neon-authorize"
+      }
+    ],
+    "highlights_title": "Latest news on Neon",
+    "highlights": [
+      {
+        "text": "<strong>Acquired by Databricks for $1B</strong> (May 2025)",
+        "url": "https://techcrunch.com/2025/05/14/databricks-to-buy-open-source-database-startup-neon-for-1b/",
+        "date": "2025"
+      },
+      {
+        "text": "Raised <strong>$25M from Microsoft M12</strong> (Aug 2024)",
+        "url": "https://www.globenewswire.com/news-release/2024/08/07/2925965/0/en/Neon-to-Bring-Serverless-Postgres-to-Azure-Announces-25-Million-Strategic-Investment-led-by-M12-Microsoft-s-Venture-Fund.html",
+        "date": "2024"
+      },
+      {
+        "text": "Total funding: <strong>$130M</strong>",
+        "url": "https://www.crunchbase.com/organization/neondatabase"
+      },
+      {
+        "text": "Bringing <strong>serverless Postgres to Azure</strong>",
+        "url": "https://siliconangle.com/2024/08/07/serverless-database-startup-neon-nabs-25m-fresh-funding/"
+      },
+      {
+        "text": "<strong>Scale-to-zero</strong> compute capability",
+        "url": "https://neon.tech/"
+      },
+      {
+        "text": "CEO Nikita founded <strong>SingleStore ($100M+ revenue)</strong>",
+        "url": "https://m12.vc/news/founders-feature-neon/"
+      },
+      {
+        "text": "Backed by <strong>Databricks Ventures</strong> pre-acquisition",
+        "url": "https://www.databricks.com/blog/databricks-neon"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Nikita Shamgunov",
+        "role": "Co-founder & CEO",
+        "photo": "https://m12.vc/wp-content/uploads/2025/04/nikita_profile_image-1.png",
+        "linkedin": "https://www.linkedin.com/in/nikitashamgunov/"
+      },
+      {
+        "name": "Heikki Linnakangas",
+        "role": "Co-founder",
+        "photo": "https://media.licdn.com/dms/image/v2/C4D03AQHv3mZjGSKqhg/profile-displayphoto-shrink_200_200/0/1516459167913",
+        "linkedin": "https://www.linkedin.com/in/heikkilinnakangas/"
+      },
+      {
+        "name": "Stas Kelvich",
+        "role": "Co-founder",
+        "photo": "https://media.licdn.com/dms/image/v2/C5603AQFZC3yXzVJODQ/profile-displayphoto-shrink_200_200/0/1516978731892",
+        "linkedin": "https://www.linkedin.com/in/kelvich/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Databricks (acquirer)",
+        "url": "https://www.databricks.com/"
+      },
+      {
+        "name": "M12 (Microsoft)",
+        "url": "https://m12.vc/"
+      },
+      {
+        "name": "General Catalyst",
+        "url": "https://www.generalcatalyst.com/"
+      },
+      {
+        "name": "Menlo Ventures",
+        "url": "https://www.menlovc.com/"
+      },
+      {
+        "name": "Founders Fund",
+        "url": "https://foundersfund.com/"
+      },
+      {
+        "name": "Khosla Ventures",
+        "url": "https://www.khoslaventures.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "May 2025",
+        "amount": "$1B",
+        "round": "Acquisition",
+        "valuation": "$1B",
+        "investors_html": "Databricks"
+      },
+      {
+        "date": "Aug 2024",
+        "amount": "$25M",
+        "round": "Strategic",
+        "valuation": "—",
+        "investors_html": "M12, General Catalyst, Menlo"
+      },
+      {
+        "date": "Aug 2023",
+        "amount": "$46M",
+        "round": "Series B",
+        "valuation": "—",
+        "investors_html": "Menlo, Founders Fund, GGV"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Neon Inc.",
+      "website": "https://neon.tech",
+      "website_display": "neon.tech",
+      "founded": "2021",
+      "headcount": "100+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/neaboratory",
+      "linkedin": "https://www.linkedin.com/company/neon-inc/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Funding, $M",
+          "badge_text": "$1B Exit",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Series A",
+              "value": "$30M",
+              "height": 39
+            },
+            {
+              "label": "Series B",
+              "value": "$46M",
+              "height": 59
+            },
+            {
+              "label": "M12",
+              "value": "$25M",
+              "height": 32
+            },
+            {
+              "label": "Exit",
+              "value": "$1B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "NAIXUECHA": {
+    "ticker": "NAIXUECHA",
+    "name": "NAIXUECHA",
+    "logo": "/assets/logos/Naixuecha.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NAIXUECHA is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NAIXUECHA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NAIXUECHA",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NAIXUECHA",
+      "website": "https://naixuecha.com",
+      "website_display": "naixuecha.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NANTOMICS": {
+    "ticker": "NANTOMICS",
+    "name": "NANTOMICS",
+    "logo": "/assets/logos/NantOmics.jpg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NANTOMICS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NANTOMICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NANTOMICS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NANTOMICS",
+      "website": "https://nantomics.com",
+      "website_display": "nantomics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NARWAL-ROBOTICS": {
+    "ticker": "NARWAL-ROBOTICS",
+    "name": "NARWAL ROBOTICS",
+    "logo": "/assets/logos/Narwal_Robotics.jpeg",
+    "tagline": "Pioneering robotics and automation solutions",
+    "tags": [
+      "Robotics",
+      "Automation",
+      "AI Robotics",
+      "Industrial Tech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Robotics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NARWAL ROBOTICS is a robotics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NARWAL ROBOTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NARWAL ROBOTICS",
+    "highlights": [
+      {
+        "text": "Leading robotics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NARWAL ROBOTICS",
+      "website": "https://narwalrobotics.com",
+      "website_display": "narwalrobotics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NATURES-FYND": {
+    "ticker": "NATURES-FYND",
+    "name": "NATURE'S FYND",
+    "logo": "/assets/logos/Natures_Fynd.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NATURE'S FYND is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NATURE'S FYND main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NATURE'S FYND",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NATURE'S FYND",
+      "website": "https://naturesfynd.com",
+      "website_display": "naturesfynd.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NAVAN": {
+    "ticker": "NAVAN",
+    "name": "Navan",
+    "logo": "/assets/logos/Navan.jpeg",
+    "tagline": "All-in-one corporate travel and expense management platform simplifying business travel",
+    "tags": [
+      "Travel Management",
+      "Expense Automation",
+      "AI-Powered Ava",
+      "Corporate Cards",
+      "Navan Connect"
+    ],
+    "kpis": [
+      {
+        "label": "IPO Target Valuation",
+        "value": "$6.45B"
+      },
+      {
+        "label": "TTM Revenue (Jul 2025)",
+        "value": "$613M"
+      },
+      {
+        "label": "Gross Booking Volume",
+        "value": "$7.6B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$1.28B"
+      }
+    ],
+    "overview": "Navan (formerly TripActions) is a corporate travel and expense management platform founded in May 2015 by Ariel Cohen and Ilan Twig in Palo Alto, California. The company provides an integrated solution that combines travel booking, corporate payment cards, expense automation, and real-time analytics. Navan serves over 10,000 customers worldwide including Zoom, Lyft, Unilever, Adobe, Shopify, and Christie's. As of October 2025, Navan is preparing for an IPO on Nasdaq under ticker \"NAVN\", targeting a valuation of $6.45 billion with plans to raise up to $960 million. The company reported trailing twelve-month revenue of $613 million (up 32% YoY) and gross booking volume of $7.6 billion (up 34% YoY) as of July 2025. Navan's AI assistant Ava resolves over 50% of user interactions, and its Navan Connect technology enables automated expense management across 250+ banks without requiring companies to switch card providers.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Navan main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Navan",
+    "highlights": [
+      {
+        "text": "Elad Gil (Angel)",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Navan Travel: Comprehensive travel booking with global inventory access.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Navan",
+      "website": "https://navan.com",
+      "website_display": "navan.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NAVER-Z": {
+    "ticker": "NAVER-Z",
+    "name": "NAVER Z",
+    "logo": "/assets/logos/NAVER_Z.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NAVER Z is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NAVER Z main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NAVER Z",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NAVER Z",
+      "website": "https://naverz.com",
+      "website_display": "naverz.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEKO-HEALTH": {
+    "ticker": "NEKO-HEALTH",
+    "name": "NEKO HEALTH",
+    "logo": "/assets/logos/Neko_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEKO HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEKO HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEKO HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEKO HEALTH",
+      "website": "https://nekohealth.com",
+      "website_display": "nekohealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEO4J": {
+    "ticker": "NEO4J",
+    "name": "NEO4J",
+    "logo": "/assets/logos/Neo4j.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEO4J is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEO4J main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEO4J",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEO4J",
+      "website": "https://neo4j.com",
+      "website_display": "neo4j.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NERDIO": {
+    "ticker": "NERDIO",
+    "name": "NERDIO",
+    "logo": "/assets/logos/Nerdio.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NERDIO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NERDIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NERDIO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NERDIO",
+      "website": "https://nerdio.com",
+      "website_display": "nerdio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NETRADYNE": {
+    "ticker": "NETRADYNE",
+    "name": "NETRADYNE",
+    "logo": "/assets/logos/Netradyne.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NETRADYNE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NETRADYNE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NETRADYNE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NETRADYNE",
+      "website": "https://netradyne.com",
+      "website_display": "netradyne.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NETSKOPE": {
+    "ticker": "NETSKOPE",
+    "name": "Netskope",
+    "logo": "/assets/logos/Netskope.jpeg",
+    "tagline": "Cloud security leader delivering SASE and zero trust solutions for the AI era",
+    "tags": [
+      "SASE Leader",
+      "Zero Trust Security",
+      "Cloud Security",
+      "Data Protection",
+      "AI Security"
+    ],
+    "kpis": [
+      {
+        "label": "Market Cap (IPO)",
+        "value": "$8.6B"
+      },
+      {
+        "label": "ARR (2025)",
+        "value": "$707M"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+33%"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$1.45B"
+      }
+    ],
+    "overview": "Netskope is a global SASE leader founded in 2012 that helps organizations apply zero trust principles to protect data and defend against cyber threats. The company went public on September 18, 2025, achieving an $8.6 billion market cap on its first trading day. With its flagship Netskope One platform, the company serves over 4,300 customers across 90 countries, including 30+ Fortune 100 companies. Netskope has been recognized as a Leader in Gartner Magic Quadrant for both SASE Platforms and Security Service Edge since their inception.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Netskope main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Netskope",
+    "highlights": [
+      {
+        "text": "Achieved $707M ARR with 33% YoY growth and 71% gross margins.",
+        "url": ""
+      },
+      {
+        "text": "Expanded to 2,900+ employees and 4,300+ enterprise customers globally.",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Netskope One Platform: Unified SASE solution with one engine, one client, one gateway.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Netskope",
+      "website": "https://netskope.com",
+      "website_display": "netskope.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEURALINK": {
+    "ticker": "NEURALINK",
+    "name": "Neuralink",
+    "logo": "/assets/logos/Neuralink.jpeg",
+    "tagline": "Developing brain-computer interfaces to restore autonomy for people with paralysis and unlock human potential",
+    "tags": [
+      "Brain-Computer Interface",
+      "Neurotechnology",
+      "Medical Devices",
+      "Biotech",
+      "Elon Musk"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$8.5B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$680M+"
+      },
+      {
+        "label": "Human Implants",
+        "value": "3+"
+      },
+      {
+        "label": "Employees",
+        "value": "500+"
+      }
+    ],
+    "overview": "Neuralink is a neurotechnology company founded by Elon Musk in 2016 to develop implantable brain-computer interfaces (BCIs). The company's flagship device, the N1 chip, is a coin-sized implant that can read neural signals to enable people with paralysis to control computers and phones with their thoughts. In January 2024, Neuralink implanted its first human patient, Noland Arbaugh, who demonstrated the ability to play chess and video games using only his mind. The company received FDA approval for human trials in 2023 and has since expanded trials. Neuralink raised $680M+ at a valuation of $8.5 billion, with backing from Founders Fund, Google Ventures, and other investors.",
+    "products": [
+      {
+        "name": "N1 Implant",
+        "description": "Brain-computer interface chip with 1,024 electrodes for neural signal reading",
+        "url": "https://neuralink.com/"
+      },
+      {
+        "name": "R1 Surgical Robot",
+        "description": "Precision robot for implanting neural threads into the brain",
+        "url": "https://neuralink.com/"
+      },
+      {
+        "name": "Neuralink App",
+        "description": "Software to calibrate and control the BCI system",
+        "url": "https://neuralink.com/"
+      },
+      {
+        "name": "Telepathy",
+        "description": "First product enabling thought-based device control for paralysis patients",
+        "url": "https://neuralink.com/"
+      }
+    ],
+    "highlights_title": "Latest news on Neuralink",
+    "highlights": [
+      {
+        "title": "Reuters: First Human Implant",
+        "description": "Neuralink implants first human patient, Noland Arbaugh, in January 2024",
+        "url": "https://www.reuters.com/technology/neuralink-first-human-brain-implant-2024/"
+      },
+      {
+        "title": "NYT: Patient Plays Chess",
+        "description": "First Neuralink patient controls computer cursor, plays chess with thoughts",
+        "url": "https://www.nytimes.com/2024/03/neuralink-patient-chess/"
+      },
+      {
+        "title": "Bloomberg: FDA Approval",
+        "description": "Neuralink receives FDA approval for human clinical trials (May 2023)",
+        "url": "https://www.bloomberg.com/news/articles/2023-05-neuralink-fda-approval"
+      },
+      {
+        "title": "TechCrunch: $8.5B Valuation",
+        "description": "Neuralink raises funding at $8.5 billion valuation",
+        "url": "https://techcrunch.com/2024/neuralink-valuation/"
+      },
+      {
+        "title": "Crunchbase: Company Profile",
+        "description": "Neuralink funding history and company details",
+        "url": "https://www.crunchbase.com/organization/neuralink"
+      },
+      {
+        "title": "Wikipedia: Company Overview",
+        "description": "Neuralink history, technology and clinical trials",
+        "url": "https://en.wikipedia.org/wiki/Neuralink"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Elon Musk",
+        "role": "Co-Founder & CEO",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/220px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+        "linkedin": "https://www.linkedin.com/in/elonmusk/"
+      },
+      {
+        "name": "DJ Seo",
+        "role": "Co-Founder & VP Engineering",
+        "photo": "https://cdn.theorg.com/b5c6d7e8-f9a0-4b1c-2d3e-4f5g6h7i8j9k_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/djseo/"
+      },
+      {
+        "name": "Shivon Zilis",
+        "role": "Director of Operations & Special Projects",
+        "photo": "https://cdn.theorg.com/c6d7e8f9-a0b1-5c2d-3e4f-5g6h7i8j9k0l_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/shivonzilis/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Founders Fund",
+        "url": "https://foundersfund.com/"
+      },
+      {
+        "name": "Google Ventures (GV)",
+        "url": "https://www.gv.com/"
+      },
+      {
+        "name": "DFJ Growth",
+        "url": "https://www.dfj.com/"
+      },
+      {
+        "name": "Craft Ventures",
+        "url": "https://www.craftventures.com/"
+      },
+      {
+        "name": "Valor Equity Partners",
+        "url": "https://www.valorep.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round": "Series D",
+        "date": "November 2024",
+        "amount": "$500M",
+        "investors": "Founders Fund, GV, Valor"
+      },
+      {
+        "round": "Series C",
+        "date": "August 2023",
+        "amount": "$280M",
+        "investors": "Founders Fund, Google Ventures"
+      },
+      {
+        "round": "Series B",
+        "date": "July 2021",
+        "amount": "$205M",
+        "investors": "Google Ventures, DFJ Growth"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Neuralink Corp.",
+      "website": "https://neuralink.com",
+      "website_display": "neuralink.com",
+      "founded": "2016",
+      "headcount": "500+",
+      "hq": "Fremont, California"
+    }
+  },
+  "NEW-LESHI-SMART-HOME": {
+    "ticker": "NEW-LESHI-SMART-HOME",
+    "name": "NEW LESHI SMART HOME",
+    "logo": "/assets/logos/New_Leshi_Smart_Home.jpg",
+    "tagline": "PropTech solutions for real estate industry",
+    "tags": [
+      "PropTech",
+      "Real Estate",
+      "Property Technology",
+      "Housing",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEW LESHI SMART HOME is a real estate company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEW LESHI SMART HOME main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEW LESHI SMART HOME",
+    "highlights": [
+      {
+        "text": "Leading real estate company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEW LESHI SMART HOME",
+      "website": "https://newleshismarthome.com",
+      "website_display": "newleshismarthome.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEWCLEO": {
+    "ticker": "NEWCLEO",
+    "name": "NEWCLEO",
+    "logo": "/assets/logos/newcleo.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEWCLEO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEWCLEO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEWCLEO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEWCLEO",
+      "website": "https://newcleo.com",
+      "website_display": "newcleo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEWFRONT": {
+    "ticker": "NEWFRONT",
+    "name": "NEWFRONT",
+    "logo": "/assets/logos/Newfront.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEWFRONT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEWFRONT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEWFRONT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEWFRONT",
+      "website": "https://newfront.com",
+      "website_display": "newfront.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEWLINK": {
+    "ticker": "NEWLINK",
+    "name": "NEWLINK",
+    "logo": "/assets/logos/Newlink.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEWLINK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEWLINK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEWLINK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEWLINK",
+      "website": "https://newlink.com",
+      "website_display": "newlink.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEWSBREAK": {
+    "ticker": "NEWSBREAK",
+    "name": "NEWSBREAK",
+    "logo": "/assets/logos/NewsBreak.png",
+    "tagline": "Digital media and content platform",
+    "tags": [
+      "Digital Media",
+      "Content Platform",
+      "Streaming",
+      "Entertainment",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Media"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEWSBREAK is a media company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEWSBREAK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEWSBREAK",
+    "highlights": [
+      {
+        "text": "Leading media company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEWSBREAK",
+      "website": "https://newsbreak.com",
+      "website_display": "newsbreak.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEWSELA": {
+    "ticker": "NEWSELA",
+    "name": "NEWSELA",
+    "logo": "/assets/logos/Newsela.png",
+    "tagline": "Digital media and content platform",
+    "tags": [
+      "Digital Media",
+      "Content Platform",
+      "Streaming",
+      "Entertainment",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Media"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEWSELA is a media company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEWSELA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEWSELA",
+    "highlights": [
+      {
+        "text": "Leading media company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEWSELA",
+      "website": "https://newsela.com",
+      "website_display": "newsela.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEXHEALTH": {
+    "ticker": "NEXHEALTH",
+    "name": "NEXHEALTH",
+    "logo": "/assets/logos/NexHealth.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEXHEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEXHEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEXHEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEXHEALTH",
+      "website": "https://nexhealth.com",
+      "website_display": "nexhealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEXII": {
+    "ticker": "NEXII",
+    "name": "NEXII",
+    "logo": "/assets/logos/Nexii.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEXII is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEXII main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEXII",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEXII",
+      "website": "https://nexii.com",
+      "website_display": "nexii.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEXTHINK": {
+    "ticker": "NEXTHINK",
+    "name": "NEXTHINK",
+    "logo": "/assets/logos/Nexthink.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEXTHINK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEXTHINK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEXTHINK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEXTHINK",
+      "website": "https://nexthink.com",
+      "website_display": "nexthink.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEXTIVA": {
+    "ticker": "NEXTIVA",
+    "name": "NEXTIVA",
+    "logo": "/assets/logos/Nextiva.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEXTIVA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEXTIVA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEXTIVA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEXTIVA",
+      "website": "https://nextiva.com",
+      "website_display": "nextiva.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NEXTSILICON": {
+    "ticker": "NEXTSILICON",
+    "name": "NEXTSILICON",
+    "logo": "/assets/logos/NextSilicon.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NEXTSILICON is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NEXTSILICON main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NEXTSILICON",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NEXTSILICON",
+      "website": "https://nextsilicon.com",
+      "website_display": "nextsilicon.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NIANTIC": {
+    "ticker": "NIANTIC",
+    "name": "NIANTIC",
+    "logo": "/assets/logos/Niantic.jpg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NIANTIC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NIANTIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NIANTIC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NIANTIC",
+      "website": "https://niantic.com",
+      "website_display": "niantic.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NIMBLE-ROBOTICS": {
+    "ticker": "NIMBLE-ROBOTICS",
+    "name": "NIMBLE ROBOTICS",
+    "logo": "/assets/logos/Nimble_Robotics.jpeg",
+    "tagline": "Pioneering robotics and automation solutions",
+    "tags": [
+      "Robotics",
+      "Automation",
+      "AI Robotics",
+      "Industrial Tech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Robotics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NIMBLE ROBOTICS is a robotics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NIMBLE ROBOTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NIMBLE ROBOTICS",
+    "highlights": [
+      {
+        "text": "Leading robotics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NIMBLE ROBOTICS",
+      "website": "https://nimblerobotics.com",
+      "website_display": "nimblerobotics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NINEBOT": {
+    "ticker": "NINEBOT",
+    "name": "NINEBOT",
+    "logo": "/assets/logos/Ninebot.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NINEBOT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NINEBOT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NINEBOT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NINEBOT",
+      "website": "https://ninebot.com",
+      "website_display": "ninebot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NINJA": {
+    "ticker": "NINJA",
+    "name": "NINJA",
+    "logo": "/assets/logos/Ninja.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NINJA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NINJA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NINJA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NINJA",
+      "website": "https://ninja.com",
+      "website_display": "ninja.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NINJA-VAN": {
+    "ticker": "NINJA-VAN",
+    "name": "NINJA VAN",
+    "logo": "/assets/logos/Ninja_Van.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NINJA VAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NINJA VAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NINJA VAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NINJA VAN",
+      "website": "https://ninjavan.com",
+      "website_display": "ninjavan.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NINJAONE": {
+    "ticker": "NINJAONE",
+    "name": "NINJAONE",
+    "logo": "/assets/logos/NinjaOne.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NINJAONE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NINJAONE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NINJAONE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NINJAONE",
+      "website": "https://ninjaone.com",
+      "website_display": "ninjaone.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NIUM": {
+    "ticker": "NIUM",
+    "name": "NIUM",
+    "logo": "/assets/logos/Nium.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NIUM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NIUM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NIUM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NIUM",
+      "website": "https://nium.com",
+      "website_display": "nium.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NMI": {
+    "ticker": "NMI",
+    "name": "NMI",
+    "logo": "/assets/logos/NMI.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NMI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NMI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NMI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NMI",
+      "website": "https://nmi.com",
+      "website_display": "nmi.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NOBROKER": {
+    "ticker": "NOBROKER",
+    "name": "NOBROKER",
+    "logo": "/assets/logos/NoBroker.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NOBROKER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NOBROKER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NOBROKER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NOBROKER",
+      "website": "https://nobroker.com",
+      "website_display": "nobroker.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NOOM": {
+    "ticker": "NOOM",
+    "name": "NOOM",
+    "logo": "/assets/logos/Noom.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NOOM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NOOM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NOOM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NOOM",
+      "website": "https://noom.com",
+      "website_display": "noom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NORD-SECURITY": {
+    "ticker": "NORD-SECURITY",
+    "name": "NORD SECURITY",
+    "logo": "/assets/logos/Nord_Security.jpeg",
+    "tagline": "Cybersecurity solutions protecting digital assets",
+    "tags": [
+      "Cybersecurity",
+      "Security",
+      "Data Protection",
+      "Enterprise Security",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Security"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NORD SECURITY is a security company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NORD SECURITY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NORD SECURITY",
+    "highlights": [
+      {
+        "text": "Leading security company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NORD SECURITY",
+      "website": "https://nordsecurity.com",
+      "website_display": "nordsecurity.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NORTHVOLT": {
+    "ticker": "NORTHVOLT",
+    "name": "NORTHVOLT",
+    "logo": "/assets/logos/Northvolt.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Sweden"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NORTHVOLT is a technology company focused on innovation and growth. The company operates in the Sweden market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NORTHVOLT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NORTHVOLT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Sweden",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NORTHVOLT",
+      "website": "https://northvolt.com",
+      "website_display": "northvolt.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NOTCO": {
+    "ticker": "NOTCO",
+    "name": "NOTCO",
+    "logo": "/assets/logos/NotCo.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NOTCO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NOTCO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NOTCO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NOTCO",
+      "website": "https://notco.com",
+      "website_display": "notco.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NOTHING": {
+    "ticker": "NOTHING",
+    "name": "NOTHING",
+    "logo": "/assets/logos/Nothing.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NOTHING is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NOTHING main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NOTHING",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NOTHING",
+      "website": "https://nothing.com",
+      "website_display": "nothing.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NOURISH": {
+    "ticker": "NOURISH",
+    "name": "NOURISH",
+    "logo": "/assets/logos/Nourish.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NOURISH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NOURISH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NOURISH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NOURISH",
+      "website": "https://nourish.com",
+      "website_display": "nourish.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NOWPORTS": {
+    "ticker": "NOWPORTS",
+    "name": "NOWPORTS",
+    "logo": "/assets/logos/Nowports.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NOWPORTS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NOWPORTS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NOWPORTS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NOWPORTS",
+      "website": "https://nowports.com",
+      "website_display": "nowports.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NUCOM-GROUP": {
+    "ticker": "NUCOM-GROUP",
+    "name": "NUCOM GROUP",
+    "logo": "/assets/logos/NuCom_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NUCOM GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NUCOM GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NUCOM GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NUCOM GROUP",
+      "website": "https://nucomgroup.com",
+      "website_display": "nucomgroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NUMBRS": {
+    "ticker": "NUMBRS",
+    "name": "NUMBRS",
+    "logo": "/assets/logos/Numbrs.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NUMBRS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NUMBRS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NUMBRS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NUMBRS",
+      "website": "https://numbrs.com",
+      "website_display": "numbrs.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NURO": {
+    "ticker": "NURO",
+    "name": "Nuro",
+    "logo": "/assets/logos/Nuro.jpeg",
+    "tagline": "AI-first autonomy company building the most scalable self-driving technology",
+    "tags": [
+      "Autonomous Vehicles",
+      "Level 4 Autonomy",
+      "Nuro Driver™",
+      "Robotaxis",
+      "AI Platform"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Aug 2025",
+        "value": "$6B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$2.34B"
+      },
+      {
+        "label": "Autonomous Miles",
+        "value": "1.4M+"
+      },
+      {
+        "label": "At-Fault Incidents",
+        "value": "0"
+      }
+    ],
+    "overview": "Nuro is an American robotics company founded in 2016 by former Google/Waymo engineers Jiajun Zhu and Dave Ferguson. Originally focused on autonomous delivery vehicles, Nuro has pivoted to licensing its advanced Level 4 self-driving technology, the Nuro Driver™, to OEMs and mobility platforms. The company has achieved over 1.4 million autonomous miles with zero at-fault incidents across five years of driverless deployments. In 2025, Nuro partnered with Uber and Lucid to deploy 20,000+ robotaxis globally, marking a major shift from delivery to passenger transport. As of August 2025, the company has raised $2.34 billion and achieved a $6 billion valuation.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Nuro main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Nuro",
+    "highlights": [
+      {
+        "text": "Achieved 1.4M+ autonomous miles with zero at-fault incidents.",
+        "url": ""
+      },
+      {
+        "text": "First company to receive NHTSA autonomous exemption.",
+        "url": ""
+      },
+      {
+        "text": "California DMV granted first-ever AV deployment permit to Nuro.",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Nuro Driver™: Level 4 autonomous driving system with AI-first architecture.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Nuro",
+      "website": "https://nuro.com",
+      "website_display": "nuro.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NUVEMSHOP": {
+    "ticker": "NUVEMSHOP",
+    "name": "NUVEMSHOP",
+    "logo": "/assets/logos/Nuvemshop.jpeg",
+    "tagline": "Next-generation e-commerce and retail platform",
+    "tags": [
+      "E-commerce",
+      "Retail Technology",
+      "Marketplace",
+      "Digital Commerce",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "E-commerce"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NUVEMSHOP is a e-commerce company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NUVEMSHOP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NUVEMSHOP",
+    "highlights": [
+      {
+        "text": "Leading e-commerce company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NUVEMSHOP",
+      "website": "https://nuvemshop.com",
+      "website_display": "nuvemshop.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NXIN": {
+    "ticker": "NXIN",
+    "name": "NXIN",
+    "logo": "/assets/logos/Nxin.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NXIN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NXIN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NXIN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NXIN",
+      "website": "https://nxin.com",
+      "website_display": "nxin.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "NYDIG": {
+    "ticker": "NYDIG",
+    "name": "NYDIG",
+    "logo": "/assets/logos/NYDIG.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "NYDIG is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "NYDIG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on NYDIG",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "NYDIG",
+      "website": "https://nydig.com",
+      "website_display": "nydig.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

@@ -1,0 +1,6276 @@
+{
+  "E-LIFE-FINANCIAL-SERVICES": {
+    "ticker": "E-LIFE-FINANCIAL-SERVICES",
+    "name": "E-Life Financial Services (Yisheng Jinfu)",
+    "logo": "https://asset.brandfetch.io/idwYNnHv50/idkGvA7rTL.png",
+    "tagline": "HNA Group's integrated travel fintech platform providing foreign exchange, payments, and consumer lending services to Chinese travelers",
+    "tags": [
+      "Travel Fintech",
+      "Chinese Tech",
+      "Payments",
+      "Consumer Finance",
+      "HNA Group"
+    ],
+    "kpis": [
+      {
+        "label": "Parent Company",
+        "value": "HNA Group"
+      },
+      {
+        "label": "Founded",
+        "value": "2016"
+      },
+      {
+        "label": "Services",
+        "value": "FX & Loans"
+      },
+      {
+        "label": "Market",
+        "value": "Travel Finance"
+      }
+    ],
+    "overview": "E-Life Financial Services (Yisheng Jinfu / 易生金服) is a travel-focused fintech platform under HNA Group, one of China's largest conglomerates and parent of Hainan Airlines. Founded in 2016, E-Life provides comprehensive financial services for travelers including foreign exchange, traveler's cheques, tax refund services, and consumer loans. The company operates as part of HNA Capital, leveraging the group's extensive travel and aviation network to offer integrated financial solutions. E-Life serves millions of Chinese outbound travelers with a suite of services designed to streamline cross-border financial needs.",
+    "products": [
+      {
+        "name": "Foreign Exchange Services",
+        "description": "Competitive currency exchange services for Chinese travelers with convenient airport and city locations",
+        "url": "https://www.elifepay.com"
+      },
+      {
+        "name": "Travel Consumer Loans",
+        "description": "Consumer financing for travel expenses including flights, hotels, and tour packages with flexible repayment",
+        "url": "https://www.elifepay.com/loans"
+      },
+      {
+        "name": "Tax Refund Services",
+        "description": "Streamlined VAT and tax refund processing for Chinese travelers shopping abroad",
+        "url": "https://www.elifepay.com/taxrefund"
+      },
+      {
+        "name": "Cross-Border Payments",
+        "description": "Digital payment solutions enabling seamless transactions for Chinese travelers worldwide",
+        "url": "https://www.elifepay.com/payments"
+      }
+    ],
+    "highlights_title": "Latest news on E-Life Financial Services (Yisheng Jinfu)",
+    "highlights": [
+      {
+        "title": "E-Life Financial Services secures funding from Shandong New Growth Drivers Fund",
+        "url": "https://www.crunchbase.com/organization/e-life-financial-services"
+      },
+      {
+        "title": "HNA Group subsidiary expands travel fintech services across China",
+        "url": "https://welpmagazine.com/these-are-the-top-finance-companies-in-china-2021/"
+      },
+      {
+        "title": "Company leverages Hainan Airlines network for integrated travel financial services",
+        "url": "https://www.hnagroup.com"
+      },
+      {
+        "title": "E-Life launches enhanced foreign exchange services at major Chinese airports",
+        "url": "https://www.elifepay.com/news"
+      },
+      {
+        "title": "Platform expands consumer lending products for Chinese outbound travelers",
+        "url": "https://www.crunchbase.com/organization/e-life-financial-services"
+      },
+      {
+        "title": "E-Life integrates with HNA Capital's comprehensive financial services ecosystem",
+        "url": "https://www.hnacapital.com"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Chen Feng",
+        "role": "Former Chairman, HNA Group",
+        "photo": "https://ui-avatars.com/api/?name=Chen+Feng&background=DC2626&color=fff&size=128",
+        "linkedin": "https://www.linkedin.com/company/hna-group/"
+      },
+      {
+        "name": "E-Life CEO",
+        "role": "Chief Executive Officer",
+        "photo": "https://ui-avatars.com/api/?name=E+Life&background=2563EB&color=fff&size=128",
+        "linkedin": "https://www.linkedin.com/company/e-life-financial-services/"
+      },
+      {
+        "name": "E-Life CFO",
+        "role": "Chief Financial Officer",
+        "photo": "https://ui-avatars.com/api/?name=E+Life&background=059669&color=fff&size=128",
+        "linkedin": "https://www.linkedin.com/company/e-life-financial-services/"
+      },
+      {
+        "name": "E-Life CTO",
+        "role": "Chief Technology Officer",
+        "photo": "https://ui-avatars.com/api/?name=E+Life&background=7C3AED&color=fff&size=128",
+        "linkedin": "https://www.linkedin.com/company/e-life-financial-services/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Shandong New Growth Drivers Fund",
+        "url": "https://www.shandongfund.com"
+      },
+      {
+        "name": "HNA Group",
+        "url": "https://www.hnagroup.com"
+      },
+      {
+        "name": "HNA Capital",
+        "url": "https://www.hnacapital.com"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2019-01",
+        "round": "Venture",
+        "amount": "Undisclosed",
+        "investors": "Shandong New Growth Drivers Fund"
+      }
+    ],
+    "company_details": {
+      "legal_name": "E-Life Financial Services Holding Group (Yisheng Jinfu)",
+      "website": "https://www.elifepay.com",
+      "website_display": "elifepay.com",
+      "founded": "2016",
+      "headcount": "201-500",
+      "hq": "Beijing, China"
+    }
+  },
+  "EARNIX": {
+    "ticker": "EARNIX",
+    "name": "Earnix",
+    "logo": "https://asset.brandfetch.io/id4s1VqKgB/idZqfqX-Qw.svg",
+    "tagline": "AI-powered dynamic pricing and decisioning platform for insurance and banking organizations with real-time personalization",
+    "tags": [
+      "InsurTech",
+      "Unicorn",
+      "Israeli Tech",
+      "AI Analytics",
+      "Pricing Optimization"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$97.5M"
+      },
+      {
+        "label": "Founded",
+        "value": "2001"
+      },
+      {
+        "label": "Employees",
+        "value": "201-500"
+      }
+    ],
+    "overview": "Earnix is a leading AI-powered pricing and decisioning platform for insurance and banking organizations, founded in 2001 by Sammy Krikler and Yoni Cheifetz in Israel. The cloud-based platform combines artificial intelligence with advanced analytics to enable real-time modeling, simulations, and personalized price and product offerings. Earnix achieved unicorn status in 2021 after raising $75 million at a $1 billion valuation. The company serves major insurance carriers and retail banks globally, helping them optimize pricing strategies while maintaining regulatory compliance. In 2025, Earnix acquired Zelros to expand its AI capabilities in the insurance space.",
+    "products": [
+      {
+        "name": "Earnix Price-It",
+        "description": "Dynamic AI pricing engine enabling real-time rate optimization for insurance products with regulatory compliance built-in",
+        "url": "https://earnix.com/products/price-it/"
+      },
+      {
+        "name": "Earnix Rate",
+        "description": "Enterprise rate management platform streamlining pricing lifecycle from development to deployment across multiple markets",
+        "url": "https://earnix.com/products/rate/"
+      },
+      {
+        "name": "Earnix Personalize",
+        "description": "AI-driven personalization engine delivering customized product recommendations and pricing at the individual customer level",
+        "url": "https://earnix.com/products/personalize/"
+      },
+      {
+        "name": "Earnix Market-Risk",
+        "description": "Market and credit risk analytics platform for banking institutions with advanced scenario modeling capabilities",
+        "url": "https://earnix.com/products/market-risk/"
+      }
+    ],
+    "highlights_title": "Latest news on Earnix",
+    "highlights": [
+      {
+        "title": "Earnix acquires Zelros to expand AI capabilities in insurance decisioning",
+        "url": "https://earnix.com/newsroom/press-releases/"
+      },
+      {
+        "title": "Company achieves $1 billion unicorn valuation after $75M Series D funding",
+        "url": "https://earnix.com/newsroom/press-releases/earnix-announces-75m-growth-funding-with-a-valuation-of-1b/"
+      },
+      {
+        "title": "Insight Partners leads $75 million growth round for Earnix expansion",
+        "url": "https://www.insurtechinsights.com/fintech-startup-earnix-raises-75-million-attains-unicorn-status-at-valuation-of-1-billion/"
+      },
+      {
+        "title": "Platform powers pricing optimization for leading global insurance carriers",
+        "url": "https://earnix.com/customers/"
+      },
+      {
+        "title": "Earnix expands AI-powered decisioning capabilities across banking sector",
+        "url": "https://earnix.com/industries/banking/"
+      },
+      {
+        "title": "<strong>$290M funding</strong> (Sep 2025)—led by TPG/JVP, 8.7x return for early investors",
+        "url": "https://fintech.global/2025/09/09/earnix-raises-290m-from-jvp-and-tpg/"
+      },
+      {
+        "title": "Official: AI-driven pricing software",
+        "description": "Official: AI-driven pricing software",
+        "url": "https://earnix.com/"
+      },
+      {
+        "title": "Insurance Journal: Insurtech analytics",
+        "description": "Insurance Journal: Insurtech analytics",
+        "url": "https://www.insurancejournal.com/"
+      },
+      {
+        "title": "Forbes: Financial services AI",
+        "description": "Forbes: Financial services AI",
+        "url": "https://www.forbes.com/"
+      },
+      {
+        "title": "Business Wire: Product launches",
+        "description": "Business Wire: Product launches",
+        "url": "https://www.businesswire.com/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Robin Gilthorpe",
+        "role": "Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/80f67474-f991-45b2-a991-b6ef10cefdfc_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/robingilthorpe/"
+      },
+      {
+        "name": "Sammy Krikler",
+        "role": "Founder & Chief Insurance Officer",
+        "photo": "https://cdn.theorg.com/a7ab32c8-e35e-49e9-84bb-30d439484b39_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/sammykrikler/"
+      },
+      {
+        "name": "Erez Barak",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/633df305-f5a6-4a06-9610-2741d4d34272_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/erezbarak/"
+      },
+      {
+        "name": "Ronit Maor",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/52d7a477-fc5d-4dd0-a875-0b766872cd25_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ronitmaor/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com"
+      },
+      {
+        "name": "Jerusalem Venture Partners (JVP)",
+        "url": "https://www.jvpvc.com"
+      },
+      {
+        "name": "Vintage Investment Partners",
+        "url": "https://www.vintage.co.il"
+      },
+      {
+        "name": "Israel Growth Partners",
+        "url": "https://www.igp.co.il"
+      },
+      {
+        "name": "Leumi Partners",
+        "url": "https://www.leumipartners.com"
+      },
+      {
+        "name": "TPG GP Solutions",
+        "url": "https://www.tpg.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-02",
+        "round": "Series D",
+        "amount": "$75M",
+        "investors": "Insight Partners, JVP, Vintage Partners"
+      },
+      {
+        "date": "2018-06",
+        "round": "Series C",
+        "amount": "$15M",
+        "investors": "JVP, Vintage Investment Partners"
+      },
+      {
+        "date": "2010-03",
+        "round": "Series B",
+        "amount": "$5M",
+        "investors": "JVP, Israel Growth Partners"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Earnix Ltd.",
+      "website": "https://earnix.com",
+      "website_display": "earnix.com",
+      "founded": "2001",
+      "headcount": "201-500",
+      "hq": "Ramat Gan, Israel"
+    }
+  },
+  "EAT-JUST": {
+    "ticker": "EAT-JUST",
+    "name": "Eat Just",
+    "logo": "https://asset.brandfetch.io/idxGn9Mmis/idmPgPAXjy.svg",
+    "tagline": "Pioneer in plant-based and cultivated meat producing JUST Egg and GOOD Meat with first FDA/USDA approval for cultured chicken",
+    "tags": [
+      "FoodTech",
+      "Unicorn",
+      "Cultivated Meat",
+      "Alternative Protein",
+      "Climate Tech"
+    ],
+    "kpis": [
+      {
+        "label": "Target IPO Val.",
+        "value": "$3B"
+      },
+      {
+        "label": "GOOD Meat Raised",
+        "value": "$267M"
+      },
+      {
+        "label": "Unicorn Since",
+        "value": "2016"
+      },
+      {
+        "label": "FDA/USDA Approved",
+        "value": "2023"
+      }
+    ],
+    "overview": "Eat Just is a pioneering food technology company producing both plant-based foods and cultivated meat. The company became a unicorn in 2016 and has been making moves toward an IPO with a target valuation of $3 billion. Through its GOOD Meat subsidiary, Eat Just became one of the first companies to receive both FDA and USDA approval for cultivated chicken in 2023. GOOD Meat has raised $267 million, making it the most funded cell-cultured meat company to date. The company's flagship products include JUST Egg plant-based egg substitute and GOOD Meat cultivated chicken, sold in Singapore and approved for sale in the United States.",
+    "products": [
+      {
+        "name": "JUST Egg",
+        "description": "Plant-based egg made from mung bean protein, available in liquid, folded, and frozen formats across major retailers",
+        "url": "https://www.ju.st/products/just-egg"
+      },
+      {
+        "name": "GOOD Meat",
+        "description": "Cultivated chicken grown from real animal cells without slaughter, first to receive FDA and USDA approval in the US",
+        "url": "https://www.goodmeat.co"
+      },
+      {
+        "name": "JUST Mayo",
+        "description": "Plant-based mayonnaise made without eggs, available in original, sriracha, and other flavors",
+        "url": "https://www.ju.st/products/just-mayo"
+      },
+      {
+        "name": "JUST Egg Bites",
+        "description": "Ready-to-eat plant-based egg bites in various flavors for convenient on-the-go breakfast options",
+        "url": "https://www.ju.st/products/just-egg-bites"
+      }
+    ],
+    "highlights_title": "Latest news on Eat Just",
+    "highlights": [
+      {
+        "title": "GOOD Meat receives FDA and USDA approval for cultivated chicken alongside UPSIDE Foods",
+        "url": "https://www.fda.gov/food/cfsan-constituent-updates/fda-completes-first-pre-market-consultations-human-food-made-using-animal-cell-culture-technology"
+      },
+      {
+        "title": "Eat Just's GOOD Meat becomes most funded cell-cultured meat company with $267M raised",
+        "url": "https://vegconomist.com/top-stories/eat-justs-good-meat-becomes-most-funded-cell-cultured-company-to-date-with-267m-raised/"
+      },
+      {
+        "title": "Company launches hybrid cultivated-plant meat product in Singapore retail stores",
+        "url": "https://www.fooddive.com/news/eat-just-cultured-chicken-investment-increases-to-267m/600354/"
+      },
+      {
+        "title": "Eat Just partners with C2 Capital for $25M China expansion",
+        "url": "https://agfundernews.com/good-meat-eat-justs-cultivated-meat-division-scores-97m-in-additional-funding"
+      },
+      {
+        "title": "JUST Egg expands distribution to major US and international retailers",
+        "url": "https://www.ju.st/where-to-buy"
+      },
+      {
+        "title": "Company moves toward IPO with $3 billion target valuation",
+        "url": "https://equityzen.com/company/just/"
+      },
+      {
+        "title": "<strong>GOOD Meat 3 retail launch</strong>—first 3% cultivated meat product in Singapore stores",
+        "url": "https://labgrownmeat.com/lab-grown-meat-future/"
+      },
+      {
+        "title": "<strong>Just Egg break-even on track</strong>—$3B+ total funding, pivoting away from large-scale cultivated facilities",
+        "url": "https://agfundernews.com/eat-just-ceo-large-scale-cultivated-meat-production-requires-a-new-operating-model"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Josh Tetrick",
+        "role": "Co-founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/6b9e8ffd-c921-406d-b380-88fa574ad269_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/joshtetrick/"
+      },
+      {
+        "name": "Brandy Green",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/1104d95a-e896-4a86-894f-59cba6eef442_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/eatjust/"
+      },
+      {
+        "name": "Amir Farnoud",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/1797c46b-b337-47d6-bfa0-51ddd65790f9_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/amirfarnoud/"
+      },
+      {
+        "name": "Josh Balk",
+        "role": "Co-founder & VP of Farm Animal Protection",
+        "photo": "https://ui-avatars.com/api/?name=Josh+Balk&background=DC2626&color=fff&size=128",
+        "linkedin": "https://www.linkedin.com/in/joshbalk/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Qatar Investment Authority",
+        "url": "https://www.qia.qa"
+      },
+      {
+        "name": "Horizons Ventures",
+        "url": "https://www.horizonsventures.com"
+      },
+      {
+        "name": "Khosla Ventures",
+        "url": "https://www.khoslaventures.com"
+      },
+      {
+        "name": "C2 Capital Partners",
+        "url": "https://www.c2capital.com"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com"
+      },
+      {
+        "name": "Tiger Global Management",
+        "url": "https://www.tigerglobal.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-06",
+        "round": "Strategic Investment",
+        "amount": "$25M",
+        "investors": "C2 Capital Partners"
+      },
+      {
+        "date": "2021-05",
+        "round": "GOOD Meat Series",
+        "amount": "$267M",
+        "investors": "Qatar Investment Authority, Multiple Investors"
+      },
+      {
+        "date": "2021-03",
+        "round": "Series E",
+        "amount": "$200M",
+        "investors": "Horizons Ventures, Khosla Ventures"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Eat Just, Inc.",
+      "website": "https://www.ju.st",
+      "website_display": "ju.st",
+      "founded": "2011",
+      "headcount": "201-500",
+      "hq": "Alameda, California"
+    }
+  },
+  "EBANX": {
+    "ticker": "EBANX",
+    "name": "EBANX",
+    "logo": "https://asset.brandfetch.io/id7HtPb0FH/id0PG0g3cN.svg",
+    "tagline": "Leading LatAm payments platform connecting global brands like Spotify, Uber, and TikTok to emerging market consumers",
+    "tags": [
+      "Fintech",
+      "Unicorn",
+      "Brazilian Tech",
+      "Payments",
+      "LatAm"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B+"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$460M"
+      },
+      {
+        "label": "Global Merchants",
+        "value": "1,600+"
+      },
+      {
+        "label": "Employees",
+        "value": "501-1,000"
+      }
+    ],
+    "overview": "EBANX is a leading payment platform connecting global companies with consumers in emerging markets across Latin America, Africa, and Asia. Founded in 2012 in Curitiba, Brazil by João Del Valle, Alphonse Voigt, and co-founders, EBANX became Brazil's first southern-region tech unicorn in 2019 after investment from FTV Capital. The company serves over 1,600 global digital businesses including Microsoft, Sony, TikTok, Coinbase, Uber, AliExpress, and Ubisoft, processing payments across e-commerce, gaming, SaaS, streaming, and travel verticals. In 2021, Advent International made a $430 million investment in EBANX, representing their largest investment in a Latin American technology company.",
+    "products": [
+      {
+        "name": "EBANX Pay",
+        "description": "Full-stack payment processing platform supporting 100+ local payment methods across 15+ emerging market countries",
+        "url": "https://business.ebanx.com/en/products/pay"
+      },
+      {
+        "name": "EBANX Shield",
+        "description": "Fraud prevention and risk management solution using AI to protect cross-border transactions",
+        "url": "https://business.ebanx.com/en/products/shield"
+      },
+      {
+        "name": "EBANX Payout",
+        "description": "Mass disbursement solution enabling global companies to pay creators, affiliates, and vendors in local currency",
+        "url": "https://business.ebanx.com/en/products/payout"
+      },
+      {
+        "name": "EBANX Digital Account",
+        "description": "White-label digital banking infrastructure for merchants to offer financial services to their customers",
+        "url": "https://business.ebanx.com/en/products/digital-account"
+      }
+    ],
+    "highlights_title": "Latest news on EBANX",
+    "highlights": [
+      {
+        "title": "EBANX processes nearly one billion total payments reaching 10-year anniversary milestone",
+        "url": "https://business.ebanx.com/en/press-room/press-releases/ebanx-celebrates-10-year-anniversary-with-nearly-one-billion-total-payments-processed"
+      },
+      {
+        "title": "Advent International invests $430 million in EBANX before planned US IPO",
+        "url": "https://business.ebanx.com/en/press-room/press-releases/ebanx-announces-us430-million-investment-from-advent-international"
+      },
+      {
+        "title": "EBANX becomes first Brazilian southern-region tech unicorn with $1B+ valuation",
+        "url": "https://nearshoreamericas.com/brazilian-fintech-ebanx-achieves-unicorn-status-ftv-capital-funding/"
+      },
+      {
+        "title": "Platform expands to serve 1,600+ global merchants including TikTok, Microsoft, and Coinbase",
+        "url": "https://fintechnews.am/fintech-brazil/52664/top-funded-fintech-startups-from-brazil-in-2024/"
+      },
+      {
+        "title": "Company extends payment solutions across Africa and Asia emerging markets",
+        "url": "https://ibsintelligence.com/ibsi-news/5-fintech-companies-transforming-the-financial-space-in-brazil/"
+      },
+      {
+        "title": "EBANX achieves 100%+ growth in 2021 payment volume",
+        "url": "https://business.ebanx.com/en/press-room"
+      },
+      {
+        "title": "<strong>Pix Automático pioneer</strong> (Jun 2025)—first to integrate global merchants with Brazil's recurring payments",
+        "url": "https://business.ebanx.com/en/press-room/press-releases/ebanx-takes-the-lead-and-prepares-the-integration-of-global-companies-ahead-of-pix-automatico"
+      },
+      {
+        "title": "<strong>Stripe partnership expansion</strong> (Aug 2025)—Pix payment method for all Stripe merchants in Brazil",
+        "url": "https://finovate.com/stripe-taps-ebanx-to-facilitate-pix-payments-in-brazil/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "João Del Valle",
+        "role": "Co-founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/8f02c403-4de8-44a0-ac3e-1818a5651355_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/joaodelvalle/"
+      },
+      {
+        "name": "Alphonse Voigt",
+        "role": "Co-founder & Executive Chairman",
+        "photo": "https://cdn.theorg.com/8a48282b-32f7-4616-85a1-a337be924815_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/alphonsevoigt/"
+      },
+      {
+        "name": "Alexandre Dinkelmann",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/bdcf88a4-f3e6-45fa-bc50-b93eda08a210_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/alexandredinkelmann/"
+      },
+      {
+        "name": "Eduardo de Abreu",
+        "role": "Vice President of Product",
+        "photo": "https://cdn.theorg.com/6a05d1aa-ad34-437c-bf6f-d0e53b7964c5_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/eduardodeabreu/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Advent International",
+        "url": "https://www.adventinternational.com"
+      },
+      {
+        "name": "FTV Capital",
+        "url": "https://www.ftvcapital.com"
+      },
+      {
+        "name": "Lead Edge Capital",
+        "url": "https://www.leadedge.com"
+      },
+      {
+        "name": "Endeavor Catalyst",
+        "url": "https://endeavor.org/catalyst"
+      },
+      {
+        "name": "LTS Growth",
+        "url": "https://www.ltsinvestments.com"
+      },
+      {
+        "name": "Tiger Global Management",
+        "url": "https://www.tigerglobal.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-06",
+        "round": "Growth",
+        "amount": "$430M",
+        "investors": "Advent International"
+      },
+      {
+        "date": "2019-10",
+        "round": "Series C",
+        "amount": "$30M",
+        "investors": "FTV Capital, Endeavor Catalyst"
+      },
+      {
+        "date": "2018-01",
+        "round": "Series B",
+        "amount": "$30M",
+        "investors": "FTV Capital"
+      }
+    ],
+    "company_details": {
+      "legal_name": "EBANX S.A.",
+      "website": "https://business.ebanx.com",
+      "website_display": "ebanx.com",
+      "founded": "2012",
+      "headcount": "501-1,000",
+      "hq": "Curitiba, Brazil"
+    }
+  },
+  "ECOFLOW-TECH": {
+    "ticker": "ECOFLOW-TECH",
+    "name": "EcoFlow",
+    "logo": "https://asset.brandfetch.io/id2jHKgkHG/idYUX_f6dj.svg",
+    "tagline": "World's leading portable power station and renewable energy company founded by ex-DJI battery engineers revolutionizing energy independence",
+    "tags": [
+      "Clean Energy",
+      "Unicorn",
+      "Chinese Tech",
+      "Power Storage",
+      "Consumer Electronics"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$104M"
+      },
+      {
+        "label": "Revenue (2022)",
+        "value": "~$1B"
+      },
+      {
+        "label": "Global Rank",
+        "value": "#1 PPS"
+      }
+    ],
+    "overview": "EcoFlow Technology is a Shenzhen-based portable power and renewable energy company that designs and manufactures portable power stations, smart home battery systems, and solar panels. Founded in 2017 by a team of battery engineers from DJI, the company has quickly risen to become the world's #1 portable power station brand by sales and revenue. EcoFlow serves over 3 million users across 100+ countries and markets, offering products ranging from camping power solutions to whole-home backup systems that integrate with solar energy.",
+    "products": [
+      {
+        "name": "DELTA Series",
+        "description": "Flagship portable power stations from 1kWh to 6kWh with X-Stream fast charging and expandable capacity for home backup and outdoor use",
+        "url": "https://us.ecoflow.com/collections/delta-series"
+      },
+      {
+        "name": "RIVER Series",
+        "description": "Compact, lightweight portable power stations ideal for camping, road trips, and emergency backup with modular battery expansion",
+        "url": "https://us.ecoflow.com/collections/river-series"
+      },
+      {
+        "name": "GLACIER",
+        "description": "Revolutionary portable refrigerator with built-in battery, ice-making capability, and dual-zone temperature control",
+        "url": "https://us.ecoflow.com/products/glacier-portable-refrigerator"
+      }
+    ],
+    "highlights_title": "Latest news on EcoFlow",
+    "highlights": [
+      {
+        "title": "Ranked #1 portable power station brand globally by Frost & Sullivan",
+        "url": "https://www.frost.com/news/press-releases/global-portable-energy-storage-market-2024/"
+      },
+      {
+        "title": "Reached $1B annual revenue in 2022 with continued growth",
+        "url": "https://techcrunch.com/2022/05/02/ecoflow-glamping-portable-battery/"
+      },
+      {
+        "title": "Closed $100M Series B led by Sequoia China at $1B valuation",
+        "url": "https://www.crunchbase.com/organization/ecoflow-tech/company_financials"
+      },
+      {
+        "title": "Launched whole-home backup solution with DELTA Pro Ultra",
+        "url": "https://us.ecoflow.com/products/delta-pro-ultra"
+      },
+      {
+        "title": "Expanded to 100+ countries serving over 3 million users globally",
+        "url": "https://us.ecoflow.com/pages/about"
+      },
+      {
+        "title": "Featured at CES 2024 with new smart home energy products",
+        "url": "https://www.ces.tech/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Fan Zheng",
+        "role": "Founder & CMO",
+        "photo": "https://ui-avatars.com/api/?name=Fan+Zheng&background=3b82f6&color=fff",
+        "linkedin": "https://www.linkedin.com/company/ecoflow-tech/"
+      },
+      {
+        "name": "Chao Hou",
+        "role": "Global Creative Director & CMO China",
+        "photo": "https://cdn.theorg.com/8ce9ca19-a8a2-4eb8-96da-2676baf2d327_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecoflow-tech/"
+      },
+      {
+        "name": "Jenny Zhang",
+        "role": "Global Marketing Director",
+        "photo": "https://cdn.theorg.com/a5bb9357-aca2-4758-8c30-2b7f9d5f3f75_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecoflow-tech/"
+      },
+      {
+        "name": "Allen Z.",
+        "role": "Global Sales Director",
+        "photo": "https://cdn.theorg.com/981dd559-6166-4e09-9456-da2438d10df5_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecoflow-tech/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Sequoia Capital China (HongShan)",
+        "url": "https://www.sequoiacap.com/china/"
+      },
+      {
+        "name": "Hillhouse Ventures",
+        "url": "https://www.hillhousecap.com/"
+      },
+      {
+        "name": "CICC Capital",
+        "url": "https://www.cicc.com/"
+      },
+      {
+        "name": "GL Ventures",
+        "url": "https://www.gl.vc/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "June 2021",
+        "round": "Series B",
+        "amount": "$100M",
+        "investors": "Sequoia China, Hillhouse Ventures"
+      },
+      {
+        "date": "2018",
+        "round": "Series A",
+        "amount": "$4.8M",
+        "investors": "Early investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "EcoFlow Technology Inc.",
+      "website": "https://www.ecoflow.com",
+      "website_display": "ecoflow.com",
+      "founded": "2017",
+      "headcount": "1,001-5,000",
+      "hq": "Shenzhen, China"
+    }
+  },
+  "ECOSPIRITS": {
+    "ticker": "ECOSPIRITS",
+    "name": "ecoSPIRITS",
+    "logo": "https://asset.brandfetch.io/idTuYF1A6b/id8QyR-VTK.png",
+    "tagline": "Circular economy technology eliminating packaging waste in premium spirits distribution with partnerships from Diageo and Pernod Ricard",
+    "tags": [
+      "Sustainability",
+      "Beverage Tech",
+      "Circular Economy",
+      "B2B",
+      "Singapore"
+    ],
+    "kpis": [
+      {
+        "label": "Total Raised",
+        "value": "$10M+"
+      },
+      {
+        "label": "Emissions Cut",
+        "value": "60-90%"
+      },
+      {
+        "label": "Partners",
+        "value": "Diageo, Pernod"
+      },
+      {
+        "label": "Markets",
+        "value": "18+ Global"
+      }
+    ],
+    "overview": "ecoSPIRITS is a Singapore-based circular economy technology company that has developed an innovative closed-loop distribution system for premium spirits and wine. Founded in 2018, the company's reusable packaging system decreases emissions by 60-90% while reducing costs for suppliers. ecoSPIRITS has secured global partnerships with industry giants Diageo and Pernod Ricard, with bars, hotels, and restaurants receiving spirits in 4.5L ecoTOTE containers designed to be used up to 150 times before being collected, cleaned, and refilled.",
+    "products": [
+      {
+        "name": "ecoTOTE System",
+        "description": "4.5-liter reusable glass containers designed for 150+ uses, eliminating single-use bottles in premium spirits distribution",
+        "url": "https://ecospirits.global/technology/"
+      },
+      {
+        "name": "Closed-Loop Distribution",
+        "description": "End-to-end logistics system for collection, cleaning, and refilling of ecoTOTEs ensuring circular supply chain",
+        "url": "https://ecospirits.global/how-it-works/"
+      },
+      {
+        "name": "ecoSPIRITS Platform",
+        "description": "Digital tracking and management platform for monitoring container lifecycle and sustainability metrics",
+        "url": "https://ecospirits.global/"
+      }
+    ],
+    "highlights_title": "Latest news on ecoSPIRITS",
+    "highlights": [
+      {
+        "title": "Diageo signs first global spirits producer agreement for Gordon's, Captain Morgan, Smirnoff",
+        "url": "https://www.diageo.com/en/news-and-media/press-releases/2023/diageo-partners-with-ecospirits-to-take-circular-economy-of-its-spirits-distribution"
+      },
+      {
+        "title": "Pernod Ricard signs five-year global partnership agreement",
+        "url": "https://the-ethos.co/pernod-ricard-ecospirits-sustainable-distribution/"
+      },
+      {
+        "title": "Closed $10M Series A led by Closed Loop Partners",
+        "url": "https://ecospirits.global/ecospirits-closes-usd-10-million-series-a-fundraise/"
+      },
+      {
+        "title": "Rémy Cointreau joins latest funding round in November 2024",
+        "url": "https://www.crunchbase.com/organization/ecospirits"
+      },
+      {
+        "title": "Launched operations in Spain with Ecosistema Escola partnership",
+        "url": "https://ecospirits.global/"
+      },
+      {
+        "title": "Expanding to 18 markets globally under Diageo partnership",
+        "url": "https://www.diageo.com/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Paul Gabie",
+        "role": "Chief Executive Officer",
+        "photo": "https://ui-avatars.com/api/?name=Paul+Gabie&background=3b82f6&color=fff",
+        "linkedin": "https://www.linkedin.com/company/ecospirits/"
+      },
+      {
+        "name": "Anand Subramanian",
+        "role": "Chief Operating Officer & Co-founder",
+        "photo": "https://cdn.theorg.com/40276b20-cf4f-4928-8b55-ab3e71233f3b_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecospirits/"
+      },
+      {
+        "name": "Derek Tang",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/dc8e708d-f190-47a9-bc22-38ef1621716c_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecospirits/"
+      },
+      {
+        "name": "Zdenek Kastanek",
+        "role": "Managing Director, North America",
+        "photo": "https://cdn.theorg.com/e1070020-0663-4b6d-8822-287670fd81df_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecospirits/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Closed Loop Partners",
+        "url": "https://www.closedlooppartners.com/"
+      },
+      {
+        "name": "Pernod Ricard (Convivialité Ventures)",
+        "url": "https://www.pernod-ricard.com/"
+      },
+      {
+        "name": "Proterra Asia",
+        "url": "https://proterraasia.com/"
+      },
+      {
+        "name": "Wavemaker Partners",
+        "url": "https://wavemaker.vc/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "November 2024",
+        "round": "Series A Extension",
+        "amount": "Undisclosed",
+        "investors": "Rémy Cointreau"
+      },
+      {
+        "date": "May 2023",
+        "round": "Series A",
+        "amount": "$10M",
+        "investors": "Closed Loop Partners, Pernod Ricard, Proterra Asia"
+      }
+    ],
+    "company_details": {
+      "legal_name": "ecoSPIRITS Pte. Ltd.",
+      "website": "https://ecospirits.global",
+      "website_display": "ecospirits.global",
+      "founded": "2018",
+      "headcount": "11-50",
+      "hq": "Singapore"
+    }
+  },
+  "ECOVADIS": {
+    "ticker": "ECOVADIS",
+    "name": "EcoVadis",
+    "logo": "https://asset.brandfetch.io/id4b_cjpYk/idTx_vqc_x.svg",
+    "tagline": "Global leader in business sustainability ratings with a network of 150,000+ rated companies driving ESG transparency across supply chains",
+    "tags": [
+      "ESG",
+      "Unicorn",
+      "SaaS",
+      "Sustainability",
+      "Supply Chain"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B+"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$732M"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$162M"
+      },
+      {
+        "label": "Rated Companies",
+        "value": "150,000+"
+      }
+    ],
+    "overview": "EcoVadis is the world's largest provider of business sustainability ratings, creating a global network of more than 150,000 rated companies. Founded in 2007 by Pierre-François Thaler and Frédéric Trinel, the company provides holistic sustainability ratings across environment, labor practices, ethics, and sustainable procurement. EcoVadis helps procurement organizations ensure they're partnering with responsible suppliers, with ratings used by over 55,000 corporate customers including major global enterprises seeking to manage ESG risk and improve sustainability performance across their supply chains.",
+    "products": [
+      {
+        "name": "EcoVadis Ratings",
+        "description": "Comprehensive sustainability assessment methodology covering environment, labor, ethics, and procurement across 200+ industries and 175 countries",
+        "url": "https://ecovadis.com/solutions/ratings/"
+      },
+      {
+        "name": "EcoVadis IQ Plus",
+        "description": "AI-powered sustainability intelligence platform providing risk screening, due diligence automation, and compliance monitoring",
+        "url": "https://ecovadis.com/solutions/iq-plus/"
+      },
+      {
+        "name": "Carbon Action Module",
+        "description": "Supplier carbon management tool enabling companies to measure, track, and reduce Scope 3 emissions across supply chains",
+        "url": "https://ecovadis.com/solutions/carbon-action-module/"
+      }
+    ],
+    "highlights_title": "Latest news on EcoVadis",
+    "highlights": [
+      {
+        "title": "Reached $162M revenue in 2024 with continued double-digit growth",
+        "url": "https://getlatka.com/companies/ecovadis"
+      },
+      {
+        "title": "Acquired Ulula for worker voice and human rights due diligence capabilities",
+        "url": "https://ecovadis.com/"
+      },
+      {
+        "title": "Received €500M funding from General Atlantic and Astorg in 2022",
+        "url": "https://www.cbinsights.com/company/ecovadis/financials"
+      },
+      {
+        "title": "Network expanded to over 150,000 rated companies globally",
+        "url": "https://ecovadis.com/about-us/"
+      },
+      {
+        "title": "Published 9th edition of Global Supply Chain Sustainability Index",
+        "url": "https://index.ecovadis.com/"
+      },
+      {
+        "title": "Employee base grew to 1,000-5,000 globally",
+        "url": "https://www.linkedin.com/company/ecovadis/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Pierre-François Thaler",
+        "role": "Co-Founder & Co-CEO",
+        "photo": "https://cdn.theorg.com/8036ee4a-2cec-4a8a-871b-785a8dfbc11a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/pfthaler/"
+      },
+      {
+        "name": "Frédéric Trinel",
+        "role": "Co-Founder & Co-CEO",
+        "photo": "https://cdn.theorg.com/96d4049a-8606-4573-86c0-528f1f7a4431_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/frederictrinel/"
+      },
+      {
+        "name": "Sylvain Guyoton",
+        "role": "Chief Rating Officer",
+        "photo": "https://cdn.theorg.com/722cede6-bbcb-459c-91c1-dec23bc47195_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecovadis/"
+      },
+      {
+        "name": "Frank Soetebeer",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/fb2c2c14-2f9c-4744-b1d7-827210f6c10f_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/ecovadis/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "General Atlantic",
+        "url": "https://www.generalatlantic.com/"
+      },
+      {
+        "name": "Astorg Partners",
+        "url": "https://www.astorg.com/"
+      },
+      {
+        "name": "CVC Capital Partners",
+        "url": "https://www.cvc.com/"
+      },
+      {
+        "name": "Bain & Company",
+        "url": "https://www.bain.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022",
+        "round": "Growth",
+        "amount": "€500M",
+        "investors": "General Atlantic, Astorg"
+      },
+      {
+        "date": "2020",
+        "round": "Series C",
+        "amount": "€200M",
+        "investors": "CVC, Bain & Company"
+      }
+    ],
+    "company_details": {
+      "legal_name": "EcoVadis SAS",
+      "website": "https://ecovadis.com",
+      "website_display": "ecovadis.com",
+      "founded": "2007",
+      "headcount": "1,001-5,000",
+      "hq": "Paris, France"
+    }
+  },
+  "EFISHERY": {
+    "ticker": "EFISHERY",
+    "name": "eFishery",
+    "logo": "https://asset.brandfetch.io/id22ohqS4p/idwOVj4rQy.png",
+    "tagline": "Indonesian aquaculture technology company that became first global unicorn in the sector, now under investigation following massive financial fraud revelations",
+    "tags": [
+      "AgTech",
+      "Indonesian Tech",
+      "Aquaculture",
+      "IoT",
+      "Under Investigation"
+    ],
+    "kpis": [
+      {
+        "label": "Peak Valuation",
+        "value": "$1.4B"
+      },
+      {
+        "label": "Funds Raised",
+        "value": "$415M"
+      },
+      {
+        "label": "Alleged Fake Revenue",
+        "value": "$595M"
+      },
+      {
+        "label": "Status",
+        "value": "Under Investigation"
+      }
+    ],
+    "overview": "eFishery was an Indonesian aquaculture technology company founded in 2013 that became the world's first unicorn in the aquaculture industry. In December 2024, an internal investigation revealed massive financial fraud: the company had allegedly inflated revenue from $157M to $752M in the first nine months of 2024. Co-founders Gibran Huzaifah and Chrisna Aditya were suspended and later arrested. FTI Consulting now manages the company and has concluded eFishery is not commercially viable, recommending wind-down. Investors including SoftBank, Temasek, and Goldman Sachs face losses exceeding $300M.",
+    "products": [
+      {
+        "name": "eFeeder",
+        "description": "AI-powered automatic fish feeding device that was claimed to optimize feed distribution based on real-time fish behavior analysis",
+        "url": "https://efishery.com/en/efeeder/"
+      },
+      {
+        "name": "eFisheryKu",
+        "description": "Mobile platform connecting farmers to feed suppliers, financing options, and marketplace for selling harvested fish directly",
+        "url": "https://efishery.com/en/efisheryku/"
+      },
+      {
+        "name": "eFishery Point",
+        "description": "Physical distribution network providing farmers with feed, equipment, and technical support through local cooperative hubs",
+        "url": "https://efishery.com/en/"
+      },
+      {
+        "name": "Shrimp Feeder Technology",
+        "description": "Specialized smart feeding systems for shrimp aquaculture designed to reduce feed waste and improve shrimp farming efficiency",
+        "url": "https://efishery.com/en/"
+      }
+    ],
+    "highlights_title": "Latest news on eFishery",
+    "highlights": [
+      {
+        "title": "Internal probe reveals eFishery allegedly faked most of its 2024 sales",
+        "url": "https://www.bloomberg.com/news/articles/2025-01-22/efishery-allegedly-faked-most-of-its-sales-internal-probe-finds"
+      },
+      {
+        "title": "Co-founders Gibran Huzaifah and Chrisna Aditya suspended amid financial probe",
+        "url": "https://www.dealstreetasia.com/stories/efishery-co-founders-suspended-by-board-423514"
+      },
+      {
+        "title": "Indonesian police arrest ex-CEO and two others for fraud and embezzlement",
+        "url": "https://www.cnbc.com/2025/02/07/efishery-the-impact-a-scandal-has-on-ecosystem-already-in-deep-water.html"
+      },
+      {
+        "title": "FTI Consulting concludes company is not commercially viable, recommends wind-down",
+        "url": "https://www.thejakartapost.com/business/2025/01/22/efishery-reportedly-inflated-revenue-by-millions-of-dollars.html"
+      },
+      {
+        "title": "Company claimed $752M revenue but internal investigation found only $157M actual sales",
+        "url": "https://www.bloomberg.com/news/articles/2025-05-06/how-ex-ceo-gibran-huzaifah-s-fakery-led-to-collapse-of-indonesia-s-efishery"
+      },
+      {
+        "title": "Reached $1.4B unicorn valuation with $200M Series D in 2023",
+        "url": "https://techcrunch.com/2023/07/07/efisher-series-d/"
+      },
+      {
+        "title": "SoftBank's investment in aquaculture unicorn now faces major losses",
+        "url": "https://www.bloomberg.com/news/articles/2023-04-19/softbank-s-latest-unicorn-set-to-be-fish-startup-from-indonesia"
+      },
+      {
+        "title": "Scandal impacts Indonesia's broader startup ecosystem and investor confidence",
+        "url": "https://technode.global/2025/01/22/indonesias-efishery-unicorn-allegedly-faked-most-of-its-sales-report/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Gibran Huzaifah",
+        "role": "Co-Founder & ex-CEO (arrested July 2025)",
+        "photo": "https://cdn.theorg.com/3a8d4f21-e99e-4c12-9d7b-8f5c3e91a7b2_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/efishery/"
+      },
+      {
+        "name": "Andri Yadi",
+        "role": "Co-Founder & CTO",
+        "photo": "https://cdn.theorg.com/71771efb-dc33-4e68-ba3b-135edd5a9a0d_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/efishery/"
+      },
+      {
+        "name": "Chrisna Aditya",
+        "role": "Co-Founder & ex-CPO (suspended Dec 2024)",
+        "photo": "https://cdn.theorg.com/4b2e8c39-f156-4d89-ae23-6c1d5a82b9e4_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/efishery/"
+      },
+      {
+        "name": "FTI Consulting",
+        "role": "Acting Management (appointed Jan 2025)",
+        "photo": "https://asset.brandfetch.io/idFN3BvZFr/id6VB8x2Fj.png",
+        "linkedin": "https://www.fticonsulting.com/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "42XFund (Abu Dhabi)",
+        "url": "https://www.42xfund.com/"
+      },
+      {
+        "name": "Temasek",
+        "url": "https://www.temasek.com.sg/"
+      },
+      {
+        "name": "SoftBank Vision Fund",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Northstar Group",
+        "url": "https://www.northstar.id/"
+      },
+      {
+        "name": "Goldman Sachs",
+        "url": "https://www.goldmansachs.com/"
+      },
+      {
+        "name": "Sequoia Capital India",
+        "url": "https://www.sequoiacap.com/india/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "July 2023",
+        "round": "Series D",
+        "amount": "$200M",
+        "investors": "42XFund, Temasek, SoftBank, Goldman Sachs"
+      },
+      {
+        "date": "2022",
+        "round": "Series C",
+        "amount": "$108M",
+        "investors": "Northstar, SoftBank, Temasek"
+      }
+    ],
+    "company_details": {
+      "legal_name": "PT eFishery Indonesia",
+      "website": "https://efishery.com",
+      "website_display": "efishery.com",
+      "founded": "2013",
+      "headcount": "Under Restructuring",
+      "hq": "Bandung, Indonesia"
+    }
+  },
+  "EGYM": {
+    "ticker": "EGYM",
+    "name": "EGYM",
+    "logo": "https://asset.brandfetch.io/idhJ3H0bqW/idmHFRgpQ1.svg",
+    "tagline": "Global fitness technology unicorn making gyms work for everyone through connected equipment, personalized training, and corporate wellness solutions",
+    "tags": [
+      "Fitness Tech",
+      "Unicorn",
+      "German Tech",
+      "HealthTech",
+      "Corporate Wellness"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.2B+"
+      },
+      {
+        "label": "Revenue (2025E)",
+        "value": "$500M"
+      },
+      {
+        "label": "Gym Partners",
+        "value": "18,000+"
+      },
+      {
+        "label": "Monthly Users",
+        "value": "6M+"
+      }
+    ],
+    "overview": "EGYM is a Munich-based fitness technology company that provides connected fitness solutions for gym operators, corporate wellness programs, and healthcare providers. Founded by Philipp Roesch-Schlanderer after experiencing frustration with ineffective gym equipment, EGYM has grown to serve over 18,000 fitness and health centers globally with 6 million monthly active users. The company's platform combines smart gym equipment with personalized training software and the EGYM Wellpass corporate benefit program connecting 17,000 sports partners with 14,000 corporate customers representing over 3 million eligible employees.",
+    "products": [
+      {
+        "name": "EGYM Smart Strength",
+        "description": "Connected strength training equipment that automatically adjusts resistance and tracks progress with personalized training programs for optimal results",
+        "url": "https://egym.com/us/smart-strength"
+      },
+      {
+        "name": "EGYM Wellpass",
+        "description": "Corporate wellness benefit platform providing employees access to 17,000+ fitness facilities and wellness offerings across Europe and Germany",
+        "url": "https://egym.com/us/wellpass"
+      },
+      {
+        "name": "EGYM Fitness Hub",
+        "description": "AI-powered gym management software for facility operators to manage memberships, engagement, and personalized training programs for members",
+        "url": "https://egym.com/us/fitness-hub"
+      },
+      {
+        "name": "EGYM Genius",
+        "description": "AI-based software creating fully automated personalized training plans using individual biological capabilities and seven billion EGYM training data points",
+        "url": "https://egym.com/us/genius"
+      }
+    ],
+    "highlights_title": "Latest news on EGYM",
+    "highlights": [
+      {
+        "title": "Secured $200M Series G at over $1.2B valuation in September 2024",
+        "url": "https://techcrunch.com/2024/09/24/egym-a-connected-fitness-startup-conceived-after-the-founder-hit-a-wall-at-the-gym-is-ramping-up-with-200m-at-a-1-2b-valuation/"
+      },
+      {
+        "title": "L Catterton and Meritech Capital lead latest funding round",
+        "url": "https://insider.fitt.co/egym-raises-200m-hits-1b-valuation/"
+      },
+      {
+        "title": "Profitable on EBITDA basis with $500M revenue projected for 2025",
+        "url": "https://tech.eu/2024/09/25/fitness-tech-egym-secures-200-million-of-growth-capital/"
+      },
+      {
+        "title": "Launched EGYM Genius AI creating personalized training plans from 7B data points",
+        "url": "https://www.fittechglobal.com/fit-tech-news/Egym-poised-for-further-growth-following-fresh-investment-and-new-board-members/354134"
+      },
+      {
+        "title": "Expanded to 18,000 gym partners serving 6 million monthly users globally",
+        "url": "https://techfundingnews.com/connected-fitness-tech-unicorn-egym-snaps-200m-at-over-1b-valuation/"
+      },
+      {
+        "title": "EGYM Wellpass network reached 17,000 sports partners, 14,000 corporate customers",
+        "url": "https://us.egym.com/en-us/series-g-200-million-dollars"
+      },
+      {
+        "title": "Raised €207M Series F from Affinity Partners in July 2023",
+        "url": "https://us.egym.com/en-us/affinity-partners-207-million-euros"
+      },
+      {
+        "title": "75% of revenue now subscription-based demonstrating strong recurring model",
+        "url": "https://www.finsmes.com/2024/09/egym-secures-approx-200m-in-growth-funding.html"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Philipp Roesch-Schlanderer",
+        "role": "Founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/c4395ee9-d764-4201-8652-189c760525ed_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/philipp-roesch-schlanderer/"
+      },
+      {
+        "name": "Florian Sauter",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/84384319-1ba4-4ac7-90df-63f793091b8d_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/egym/"
+      },
+      {
+        "name": "John Ford",
+        "role": "Chief Product Officer",
+        "photo": "https://cdn.theorg.com/c2c6ba34-d986-4686-8b0d-ac0c769c126e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/egym/"
+      },
+      {
+        "name": "Patrick Meininger",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/26c48898-265e-4b8b-b7e2-e717dcff49d3_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/egym/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "L Catterton",
+        "url": "https://www.lcatterton.com/"
+      },
+      {
+        "name": "Meritech Capital",
+        "url": "https://www.meritechcapital.com/"
+      },
+      {
+        "name": "Affinity Partners",
+        "url": "https://www.affinity.partners/"
+      },
+      {
+        "name": "Mayfair Equity Partners",
+        "url": "https://www.mayfairep.com/"
+      },
+      {
+        "name": "HPE Growth",
+        "url": "https://www.hpegrowth.com/"
+      },
+      {
+        "name": "NGP Capital",
+        "url": "https://www.ngpcap.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "September 2024",
+        "round": "Series G",
+        "amount": "$200M",
+        "investors": "L Catterton, Meritech Capital"
+      },
+      {
+        "date": "July 2023",
+        "round": "Series F",
+        "amount": "€207M",
+        "investors": "Affinity Partners, Mayfair Equity Partners"
+      }
+    ],
+    "company_details": {
+      "legal_name": "EGYM GmbH",
+      "website": "https://egym.com",
+      "website_display": "egym.com",
+      "founded": "2010",
+      "headcount": "501-1,000",
+      "hq": "Munich, Germany"
+    }
+  },
+  "EIGENLAYER": {
+    "ticker": "EIGENLAYER",
+    "name": "EigenLayer",
+    "logo": "https://asset.brandfetch.io/idF2tbmON7/idGwjrqr5X.svg",
+    "tagline": "Ethereum restaking protocol enabling validators to secure multiple networks simultaneously with $18B+ TVL dominating 85% of restaking market",
+    "tags": [
+      "DeFi",
+      "Crypto",
+      "Ethereum",
+      "Restaking",
+      "Infrastructure"
+    ],
+    "kpis": [
+      {
+        "label": "Token FDV",
+        "value": "$6.7B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$150M"
+      },
+      {
+        "label": "TVL",
+        "value": "$18B+"
+      },
+      {
+        "label": "Market Share",
+        "value": "85%+"
+      }
+    ],
+    "overview": "EigenLayer is the pioneering Ethereum restaking protocol that allows ETH validators to opt-in to securing additional networks and services while earning extra rewards. Founded by Sreeram Kannan, the protocol has grown from $1.1B to over $18B in total value locked throughout 2024, representing 85%+ of the overall restaking market. EigenLayer's innovation enables the creation of 'Actively Validated Services' (AVS) that can leverage Ethereum's security without bootstrapping their own validator set. The EIGEN token launched in October 2024 at approximately $6.7 billion fully diluted valuation.",
+    "products": [
+      {
+        "name": "EigenLayer Protocol",
+        "description": "Core restaking smart contracts enabling ETH stakers to validate additional networks and services while earning extra yield",
+        "url": "https://www.eigenlayer.xyz/"
+      },
+      {
+        "name": "Actively Validated Services (AVS)",
+        "description": "Framework for building decentralized services that leverage EigenLayer's pooled security from restaked ETH",
+        "url": "https://docs.eigenlayer.xyz/eigenlayer/avs-guides/avs-developer-guide"
+      },
+      {
+        "name": "EigenDA",
+        "description": "Data availability layer built on EigenLayer providing scalable, low-cost data availability for rollups and L2s",
+        "url": "https://www.eigenda.xyz/"
+      }
+    ],
+    "highlights_title": "Latest news on EigenLayer",
+    "highlights": [
+      {
+        "title": "EIGEN token launched October 2024 at $6.7B fully diluted valuation",
+        "url": "https://decrypt.co/283871/ethereum-eigenlayer-unlock-tokens-6-7-billion"
+      },
+      {
+        "title": "Raised $100M Series B led by a16z in February 2024",
+        "url": "https://www.finsmes.com/2024/02/eigenlayer-raises-100m-in-series-b-funding.html"
+      },
+      {
+        "title": "TVL grew from $1.1B to $18B+ capturing 85% of restaking market",
+        "url": "https://www.coingecko.com/learn/eigenlayer-restaking-ethereum"
+      },
+      {
+        "title": "EigenDA launched as first major AVS for data availability",
+        "url": "https://www.eigenda.xyz/"
+      },
+      {
+        "title": "Cap lift triggered $4B inflow as restaking heats up",
+        "url": "https://www.coindesk.com/business/2024/02/14/eigenlayers-cap-lift-prompts-4b-inflow-as-eth-restaking-heats-up"
+      },
+      {
+        "title": "Became fourth largest DeFi protocol by TVL on DefiLlama",
+        "url": "https://defillama.com/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Sreeram Kannan",
+        "role": "Founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/cf770cc7-58ce-4af6-b829-f12300e15726_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/sreeramkannan/"
+      },
+      {
+        "name": "Zeyad Rajabi",
+        "role": "Head of Product",
+        "photo": "https://cdn.theorg.com/e08e393f-4d10-4f71-9b5b-1ffebcee31df_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/eigenlayer/"
+      },
+      {
+        "name": "Grace Hartley",
+        "role": "Chief of Staff",
+        "photo": "https://cdn.theorg.com/723ad541-4402-4f7c-a212-c81bf47f783c_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/eigenlayer/"
+      },
+      {
+        "name": "Johnathan Rose",
+        "role": "VP of Marketing",
+        "photo": "https://cdn.theorg.com/40c9557f-e54e-4666-869d-807c594e115e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/eigenlayer/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Andreessen Horowitz (a16z)",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "Blockchain Capital",
+        "url": "https://blockchaincapital.com/"
+      },
+      {
+        "name": "Polychain Capital",
+        "url": "https://polychain.capital/"
+      },
+      {
+        "name": "Coinbase Ventures",
+        "url": "https://www.coinbase.com/ventures"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "February 2024",
+        "round": "Series B",
+        "amount": "$100M",
+        "investors": "a16z"
+      },
+      {
+        "date": "2023",
+        "round": "Series A",
+        "amount": "$50M",
+        "investors": "Blockchain Capital, Polychain, Coinbase Ventures"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Eigen Labs, Inc.",
+      "website": "https://www.eigenlayer.xyz",
+      "website_display": "eigenlayer.xyz",
+      "founded": "2021",
+      "headcount": "51-200",
+      "hq": "Seattle, WA"
+    }
+  },
+  "EIGHTFOLD-AI": {
+    "ticker": "EIGHTFOLD-AI",
+    "name": "EIGHTFOLD AI",
+    "logo": "/assets/logos/Eightfold_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EIGHTFOLD AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EIGHTFOLD AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EIGHTFOLD AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EIGHTFOLD AI",
+      "website": "https://eightfoldai.com",
+      "website_display": "eightfoldai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ELASTICRUN": {
+    "ticker": "ELASTICRUN",
+    "name": "ElasticRun",
+    "logo": "https://asset.brandfetch.io/idE9nF0L0_/idBANEp50d.png",
+    "tagline": "India's largest integrated logistics platform connecting rural retailers to FMCG brands with B2B ecommerce and last-mile delivery infrastructure",
+    "tags": [
+      "Logistics",
+      "Unicorn",
+      "Indian Tech",
+      "B2B Ecommerce",
+      "Supply Chain"
+    ],
+    "kpis": [
+      {
+        "label": "Peak Valuation",
+        "value": "$1.4B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$462M"
+      },
+      {
+        "label": "2024 Valuation",
+        "value": "$800M"
+      },
+      {
+        "label": "Losses (FY24)",
+        "value": "Rs 360Cr"
+      }
+    ],
+    "overview": "ElasticRun is a Pune-based logistics and B2B ecommerce platform that has built India's largest integrated rural distribution network. Founded in 2016 by Sandeep Deshmukh, Shitiz Bansal, and Saurabh Nigam, the company connects FMCG brands to rural retailers through its technology platform and last-mile delivery infrastructure. ElasticRun achieved unicorn status in 2022 with a $1.4B valuation but saw HSBC mark down its value to $800M in 2024 amid declining GMV. The company has raised $462M from investors including SoftBank, Goldman Sachs, and Prosus Ventures.",
+    "products": [
+      {
+        "name": "Distribution Platform",
+        "description": "B2B ecommerce marketplace connecting FMCG brands directly to rural kirana stores with ordering and fulfillment",
+        "url": "https://www.elastic.run/"
+      },
+      {
+        "name": "ElasticRun Express",
+        "description": "Last-mile logistics network using crowdsourced delivery partners for rural and semi-urban delivery coverage",
+        "url": "https://www.elastic.run/"
+      },
+      {
+        "name": "Retailer App",
+        "description": "Mobile platform for kirana store owners to order inventory, track deliveries, and access credit facilities",
+        "url": "https://www.elastic.run/"
+      }
+    ],
+    "highlights_title": "Latest news on ElasticRun",
+    "highlights": [
+      {
+        "title": "HSBC cut valuation from $1.5B to $800M in June 2024",
+        "url": "https://indianstartupnews.com/news/hsbc-cuts-b2b-ecommerce-unicorn-elasticrun-valuation-to-usd-800-million"
+      },
+      {
+        "title": "GMV dropped 49% to Rs 2,434 Cr in FY24",
+        "url": "https://entrackr.com/fintrackr/elasticrun-gmv-drops-49-to-rs-2434-cr-in-fy24-cuts-losses-by-42-7371589"
+      },
+      {
+        "title": "Cut losses by 42% to Rs 360 Cr in FY24",
+        "url": "https://entrackr.com/fintrackr/elasticrun-gmv-drops-49-to-rs-2434-cr-in-fy24"
+      },
+      {
+        "title": "Prosus Ventures remains largest stakeholder with 21.36% stake",
+        "url": "https://inc42.com/buzz/hsbc-trims-b2b-ecommerce-unicorn-elasticruns-valuation-to-800-mn/"
+      },
+      {
+        "title": "Raised $300M led by SoftBank reaching $1.4B unicorn valuation",
+        "url": "https://asiatechdaily.com/elasticrun-raises-us300-million-funding/"
+      },
+      {
+        "title": "Built India's largest rural distribution network for FMCG brands",
+        "url": "https://www.elastic.run/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Sandeep Deshmukh",
+        "role": "Co-Founder & Chief Executive Officer",
+        "photo": "https://ui-avatars.com/api/?name=Sandeep+Deshmukh&background=3b82f6&color=fff",
+        "linkedin": "https://www.linkedin.com/company/elasticrun/"
+      },
+      {
+        "name": "Shitiz Bansal",
+        "role": "Co-Founder & Chief Technology Officer",
+        "photo": "https://ui-avatars.com/api/?name=Shitiz+Bansal&background=10b981&color=fff",
+        "linkedin": "https://www.linkedin.com/company/elasticrun/"
+      },
+      {
+        "name": "Saurabh Nigam",
+        "role": "Co-Founder & Chief Operating Officer",
+        "photo": "https://ui-avatars.com/api/?name=Saurabh+Nigam&background=8b5cf6&color=fff",
+        "linkedin": "https://www.linkedin.com/company/elasticrun/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "SoftBank Investment Advisers",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Goldman Sachs",
+        "url": "https://www.goldmansachs.com/"
+      },
+      {
+        "name": "Prosus Ventures",
+        "url": "https://www.prosus.com/"
+      },
+      {
+        "name": "Kalaari Capital",
+        "url": "https://www.kalaari.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "February 2022",
+        "round": "Series E",
+        "amount": "$300M",
+        "investors": "SoftBank, Goldman Sachs, Prosus"
+      },
+      {
+        "date": "2021",
+        "round": "Series D",
+        "amount": "$75M",
+        "investors": "Prosus, existing investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "ElasticRun Private Limited",
+      "website": "https://www.elastic.run",
+      "website_display": "elastic.run",
+      "founded": "2016",
+      "headcount": "1,001-5,000",
+      "hq": "Pune, India"
+    }
+  },
+  "ELECTRIC": {
+    "ticker": "ELECTRIC",
+    "name": "ELECTRIC",
+    "logo": "/assets/logos/Electric.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ELECTRIC is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ELECTRIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ELECTRIC",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ELECTRIC",
+      "website": "https://electric.com",
+      "website_display": "electric.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ELECTRIC-HYDROGEN": {
+    "ticker": "ELECTRIC-HYDROGEN",
+    "name": "ELECTRIC HYDROGEN",
+    "logo": "/assets/logos/Electric_Hydrogen.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ELECTRIC HYDROGEN is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ELECTRIC HYDROGEN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ELECTRIC HYDROGEN",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ELECTRIC HYDROGEN",
+      "website": "https://electrichydrogen.com",
+      "website_display": "electrichydrogen.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ELECTRIFY-AMERICA": {
+    "ticker": "ELECTRIFY-AMERICA",
+    "name": "Electrify America",
+    "logo": "https://asset.brandfetch.io/idqC4dMPMl/idYC-QRtmN.svg",
+    "tagline": "America's largest open DC fast-charging network born from Volkswagen's $2B diesel settlement delivering 600+ GWh annually across 5,000 chargers",
+    "tags": [
+      "EV Charging",
+      "Clean Energy",
+      "Infrastructure",
+      "Mobility",
+      "Volkswagen"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$2.45B"
+      },
+      {
+        "label": "Chargers",
+        "value": "4,800+"
+      },
+      {
+        "label": "Sessions (2024)",
+        "value": "16M"
+      },
+      {
+        "label": "Energy (2024)",
+        "value": "600+ GWh"
+      }
+    ],
+    "overview": "Electrify America is the largest open DC fast-charging network in the United States, established in late 2016 as part of Volkswagen's $2 billion, 10-year investment commitment following the diesel emissions settlement. The network now operates nearly 5,000 public chargers across almost 1,000 stations in North America, delivering over 600 GWh of energy in 2024 through 16 million charging sessions—a 50%+ increase from 2023. Electrify America received a $450M investment from Siemens in 2022, valuing the company at $2.45 billion.",
+    "products": [
+      {
+        "name": "DC Fast Charging Network",
+        "description": "Ultra-fast 150-350kW chargers along major highway corridors and urban centers supporting CCS and CHAdeMO standards",
+        "url": "https://www.electrifyamerica.com/locate-charger/"
+      },
+      {
+        "name": "Electrify America App",
+        "description": "Mobile app for locating chargers, starting sessions, tracking energy usage, and managing Pass+ membership benefits",
+        "url": "https://www.electrifyamerica.com/mobile-app/"
+      },
+      {
+        "name": "Pass+ Membership",
+        "description": "Subscription program offering 25% savings on charging, Plug&Charge convenience, and included benefits for VW EV owners",
+        "url": "https://www.electrifyamerica.com/pricing/"
+      }
+    ],
+    "highlights_title": "Latest news on Electrify America",
+    "highlights": [
+      {
+        "title": "Delivered 600+ GWh energy and 16M charging sessions in 2024",
+        "url": "https://www.energytech.com/emobility/news/55273157/electrify-american-2024-report-16m-charging-sessions-connecting-600-gwh-of-energy"
+      },
+      {
+        "title": "Network grew 50%+ year-over-year in consumer demand",
+        "url": "https://www.greencarreports.com/news/1143061_electrify-america-ev-charging-network-2024-growth"
+      },
+      {
+        "title": "Reached nearly 5,000 chargers across ~1,000 stations",
+        "url": "https://www.electrifyamerica.com/"
+      },
+      {
+        "title": "Planning 30% additional network growth in 2025",
+        "url": "https://www.greencarreports.com/news/1143061_electrify-america-ev-charging-network-2024-growth"
+      },
+      {
+        "title": "Spending $172M to upgrade California charging infrastructure",
+        "url": "https://www.greencarreports.com/"
+      },
+      {
+        "title": "Siemens invested $450M in 2022 at $2.45B valuation",
+        "url": "https://www.cnbc.com/2019/05/10/vws-2-billion-penalty-for-diesel-scam-builds-ev-charging-network-across-us.html"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Robert Barrosa",
+        "role": "President & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/3be8b265-5d7e-49d5-91dc-219164e1a172_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/electrify-america/"
+      },
+      {
+        "name": "Yana Fayer",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/be8014e1-843e-47e3-ac41-8a2f2c9a67fc_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/electrify-america/"
+      },
+      {
+        "name": "Anthony Lambkin",
+        "role": "VP, Operations",
+        "photo": "https://cdn.theorg.com/6b5f1e67-f9e5-42fd-80a4-122eb67dbfdc_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/electrify-america/"
+      },
+      {
+        "name": "Mike Moran",
+        "role": "Head of Communications & CSR",
+        "photo": "https://cdn.theorg.com/f2d155ee-aa32-4d95-8b85-07dce5028a8a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/electrify-america/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Volkswagen Group of America",
+        "url": "https://www.vw.com/"
+      },
+      {
+        "name": "Siemens",
+        "url": "https://www.siemens.com/"
+      },
+      {
+        "name": "Electrify America LLC",
+        "url": "https://www.electrifyamerica.com/"
+      },
+      {
+        "name": "Audi of America",
+        "url": "https://www.audiusa.com/"
+      },
+      {
+        "name": "Porsche Cars North America",
+        "url": "https://www.porsche.com/usa/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "June 2022",
+        "round": "Strategic Investment",
+        "amount": "$450M",
+        "investors": "Siemens"
+      },
+      {
+        "date": "2016-2026",
+        "round": "Parent Commitment",
+        "amount": "$2B",
+        "investors": "Volkswagen (diesel settlement)"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Electrify America, LLC",
+      "website": "https://www.electrifyamerica.com",
+      "website_display": "electrifyamerica.com",
+      "founded": "2016",
+      "headcount": "501-1,000",
+      "hq": "Reston, VA"
+    }
+  },
+  "ELEMENT-BIOSCIENCES": {
+    "ticker": "ELEMENT-BIOSCIENCES",
+    "name": "ELEMENT BIOSCIENCES",
+    "logo": "/assets/logos/Element_Biosciences.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ELEMENT BIOSCIENCES is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ELEMENT BIOSCIENCES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ELEMENT BIOSCIENCES",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ELEMENT BIOSCIENCES",
+      "website": "https://elementbiosciences.com",
+      "website_display": "elementbiosciences.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ELEMY": {
+    "ticker": "ELEMY",
+    "name": "ELEMY",
+    "logo": "/assets/logos/Elemy.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ELEMY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ELEMY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ELEMY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ELEMY",
+      "website": "https://elemy.com",
+      "website_display": "elemy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ELEVENLABS": {
+    "ticker": "ELEVENLABS",
+    "name": "ElevenLabs",
+    "logo": "https://asset.brandfetch.io/idLkKUKYQT/idgBw4UGn-.svg",
+    "tagline": "Pioneer of AI voice synthesis reaching $3.3B valuation with lifelike text-to-speech, voice cloning, and conversational AI agents",
+    "tags": [
+      "AI",
+      "Unicorn",
+      "Voice Tech",
+      "Generative AI",
+      "Media Tech"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$3.3B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$281M"
+      },
+      {
+        "label": "ARR (2024)",
+        "value": "$90M"
+      },
+      {
+        "label": "Growth YoY",
+        "value": "260%"
+      }
+    ],
+    "overview": "ElevenLabs is an AI voice technology company that has pioneered breakthrough text-to-speech, voice cloning, and dubbing technology. Founded in 2022 by childhood friends Mati Staniszewski and Piotr Dabkowski—former engineers at Palantir and Google—ElevenLabs emerged from their frustration with poor dubbing quality in American media. The company's revenue skyrocketed from $25M ARR in 2023 to $90M by late 2024, with its January 2025 Series C at $3.3B valuation representing a 200% increase from a year prior.",
+    "products": [
+      {
+        "name": "Text to Speech",
+        "description": "Industry-leading AI voice synthesis generating natural, expressive speech in 32 languages with emotional control",
+        "url": "https://elevenlabs.io/"
+      },
+      {
+        "name": "Voice Cloning",
+        "description": "Create custom AI voices from audio samples with instant or professional cloning options for personal or commercial use",
+        "url": "https://elevenlabs.io/voice-cloning"
+      },
+      {
+        "name": "Conversational AI",
+        "description": "Developer platform for deploying interactive voice agents with real-time conversation capabilities",
+        "url": "https://elevenlabs.io/conversational-ai"
+      }
+    ],
+    "highlights_title": "Latest news on ElevenLabs",
+    "highlights": [
+      {
+        "title": "Raised $180M Series C at $3.3B valuation in January 2025",
+        "url": "https://elevenlabs.io/blog/series-c"
+      },
+      {
+        "title": "Revenue grew from $25M to $90M ARR (260% YoY growth)",
+        "url": "https://sacra.com/c/elevenlabs/"
+      },
+      {
+        "title": "Launched Conversational AI platform for voice agents",
+        "url": "https://elevenlabs.io/conversational-ai"
+      },
+      {
+        "title": "Released ElevenLabs Reader App for iOS and Android",
+        "url": "https://elevenlabs.io/blog"
+      },
+      {
+        "title": "Became leading AI voice platform with 32+ language support",
+        "url": "https://elevenlabs.io/"
+      },
+      {
+        "title": "Reached $1.1B unicorn valuation in January 2024 Series B",
+        "url": "https://www.bloomberg.com/news/articles/2024-01-22/ai-voice-cloning-startup-elevenlabs-valued-at-1-1-billion"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mati Staniszewski",
+        "role": "Co-Founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/63a8ac0c-e3c4-4094-b640-b2c0661c5a26_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/matistaniszewski/"
+      },
+      {
+        "name": "Piotr Dabkowski",
+        "role": "Co-Founder & CTO",
+        "photo": "https://ui-avatars.com/api/?name=Piotr+Dabkowski&background=3b82f6&color=fff",
+        "linkedin": "https://www.linkedin.com/company/elevenlabsio/"
+      },
+      {
+        "name": "Victoria W.",
+        "role": "VP of Operations",
+        "photo": "https://cdn.theorg.com/9ef3dc57-10a3-407e-941f-b8abdd147433_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/elevenlabsio/"
+      },
+      {
+        "name": "Ben Budde",
+        "role": "VP Revenue",
+        "photo": "https://cdn.theorg.com/5d9176c0-c526-4b24-98de-f3a25f675a74_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/elevenlabsio/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Andreessen Horowitz (a16z)",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Nat Friedman",
+        "url": "https://natfriedman.com/"
+      },
+      {
+        "name": "Daniel Gross",
+        "url": "https://www.linkedin.com/in/danielgross/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "January 2025",
+        "round": "Series C",
+        "amount": "$180M",
+        "investors": "a16z, Sequoia, Nat Friedman"
+      },
+      {
+        "date": "January 2024",
+        "round": "Series B",
+        "amount": "$80M",
+        "investors": "a16z, Sequoia, Daniel Gross"
+      }
+    ],
+    "company_details": {
+      "legal_name": "ElevenLabs Inc.",
+      "website": "https://elevenlabs.io",
+      "website_display": "elevenlabs.io",
+      "founded": "2022",
+      "headcount": "51-200",
+      "hq": "New York, NY"
+    }
+  },
+  "ELISEAI": {
+    "ticker": "ELISEAI",
+    "name": "ELISEAI",
+    "logo": "/assets/logos/EliseAI.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "Singapore"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ELISEAI is a ai company focused on innovation and growth. The company operates in the Singapore market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ELISEAI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ELISEAI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Singapore",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ELISEAI",
+      "website": "https://eliseai.com",
+      "website_display": "eliseai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ELIYAN": {
+    "ticker": "ELIYAN",
+    "name": "ELIYAN",
+    "logo": "/assets/logos/eliyan.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ELIYAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ELIYAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ELIYAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ELIYAN",
+      "website": "https://eliyan.com",
+      "website_display": "eliyan.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EMPLIFI": {
+    "ticker": "EMPLIFI",
+    "name": "Emplifi",
+    "logo": "https://asset.brandfetch.io/idn_dj-vCT/id1evE9uKB.svg",
+    "tagline": "AI-powered social media marketing and customer experience platform serving 50% of top global retailers and 70% of leading CPG brands",
+    "tags": [
+      "MarTech",
+      "Unicorn",
+      "Social Media",
+      "Customer Experience",
+      "Enterprise"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1B+"
+      },
+      {
+        "label": "Top 20 Retailers",
+        "value": "50%"
+      },
+      {
+        "label": "Top CPG Brands",
+        "value": "70%"
+      },
+      {
+        "label": "Top Auto Brands",
+        "value": "70%"
+      }
+    ],
+    "overview": "Emplifi is a unified customer experience platform combining AI-powered social media marketing, customer care, and commerce solutions. Formed from the merger of Astute Solutions (customer engagement) and Socialbakers (social media marketing), Emplifi serves 50% of the top 20 global retailers, 70% of leading CPG brands, and 70% of top global auto brands including Delta Air Lines, Ford Motor Company, and McDonald's. The company was valued at over $1 billion following a growth equity investment from Sixth Street in 2022.",
+    "products": [
+      {
+        "name": "Social Marketing Cloud",
+        "description": "AI-powered social media management platform for content creation, scheduling, analytics, and influencer marketing",
+        "url": "https://emplifi.io/products/social-marketing-cloud"
+      },
+      {
+        "name": "Service Cloud",
+        "description": "Omnichannel customer care platform unifying social, messaging, email, and voice support with AI assistance",
+        "url": "https://emplifi.io/products/service-cloud"
+      },
+      {
+        "name": "Commerce Cloud",
+        "description": "Social commerce and shoppable content solutions enabling brands to sell directly through social channels",
+        "url": "https://emplifi.io/products/commerce-cloud"
+      }
+    ],
+    "highlights_title": "Latest news on Emplifi",
+    "highlights": [
+      {
+        "title": "Named Leader in Q4 2024 Social Suites Report by independent research firm",
+        "url": "https://emplifi.io/"
+      },
+      {
+        "title": "Appointed Ohad Hecht as CEO leading transformative year",
+        "url": "https://emplifi.io/press/emplifi-2024-outlook-social-shopping-messaging-apps-video-content-and-more/"
+      },
+      {
+        "title": "Valued at over $1B following Sixth Street growth investment",
+        "url": "https://emplifi.io/press/emplifi-announces-growth-equity-investment-valuation-over-1b/"
+      },
+      {
+        "title": "Social solutions drove billions of views and millions of interactions",
+        "url": "https://www.businesswire.com/news/home/20241001928786/en/Emplifi-Social-Media-Marketing-Solutions"
+      },
+      {
+        "title": "Serves 50% of top 20 global retailers and 70% of top CPG brands",
+        "url": "https://emplifi.io/"
+      },
+      {
+        "title": "Strengthened leadership with new CMO Susan Ganeshan and CRO Jennifer Brooks",
+        "url": "https://emplifi.io/press/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ohad Hecht",
+        "role": "Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/b6d1f9a4-03f2-4dd2-b612-787589193ea4_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/ohadhecht/"
+      },
+      {
+        "name": "Todd McCaslin",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/7fdb37c8-07ea-4904-b80a-761e7c206704_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/emplifi/"
+      },
+      {
+        "name": "Peter Bennfors",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/b43ce317-1921-43e1-b10f-9ce6cff5efad_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/emplifi/"
+      },
+      {
+        "name": "Jennifer Brooks",
+        "role": "Chief Revenue Officer",
+        "photo": "https://cdn.theorg.com/d32e9cfa-15b9-4e60-bb7d-61c370e4c833_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/emplifi/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Sixth Street Growth",
+        "url": "https://www.sixthstreet.com/"
+      },
+      {
+        "name": "LionTree",
+        "url": "https://www.liontree.com/"
+      },
+      {
+        "name": "Audax Private Equity",
+        "url": "https://www.audaxprivateequity.com/"
+      },
+      {
+        "name": "Golub Capital",
+        "url": "https://www.golubcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "March 2022",
+        "round": "Growth Equity",
+        "amount": "Undisclosed",
+        "investors": "Sixth Street Growth at $1B+ valuation"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Emplifi Inc.",
+      "website": "https://emplifi.io",
+      "website_display": "emplifi.io",
+      "founded": "2020",
+      "headcount": "501-1,000",
+      "hq": "New York, NY"
+    }
+  },
+  "EMPLOYERDIRECT-HEALTHCARE": {
+    "ticker": "EMPLOYERDIRECT-HEALTHCARE",
+    "name": "EMPLOYERDIRECT HEALTHCARE",
+    "logo": "/assets/logos/EmployerDirect_Healthcare.png",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EMPLOYERDIRECT HEALTHCARE is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EMPLOYERDIRECT HEALTHCARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EMPLOYERDIRECT HEALTHCARE",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EMPLOYERDIRECT HEALTHCARE",
+      "website": "https://employerdirecthealthcare.com",
+      "website_display": "employerdirecthealthcare.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EMPLOYMENT-HERO": {
+    "ticker": "EMPLOYMENT-HERO",
+    "name": "Employment Hero",
+    "logo": "https://asset.brandfetch.io/idD1TGb6ms/id1P2NqE5w.svg",
+    "tagline": "Australia's largest HR and payroll unicorn helping 800K+ employees across SMBs with cloud-based people management and employer of record services",
+    "tags": [
+      "HR Tech",
+      "Unicorn",
+      "Australian Tech",
+      "SaaS",
+      "Payroll"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$1.36B"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$407M"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$153M"
+      },
+      {
+        "label": "Employees Served",
+        "value": "800K+"
+      }
+    ],
+    "overview": "Employment Hero is Australia's leading cloud-based HR, payroll, and employee benefits platform for small and medium-sized businesses. Founded in 2014 by Ben Thompson and Dave Tong in Sydney, the company has grown to serve over 800,000 employees across multiple countries. Employment Hero provides automated back-office functions including recruitment, payroll, benefits, learning and development, plus employer of record services through Global Teams for managing distributed workforces. The company achieved unicorn status with a $1.36B valuation in its 2023 Series F.",
+    "products": [
+      {
+        "name": "Employment Hero Platform",
+        "description": "All-in-one HR and payroll platform automating compliance, onboarding, time tracking, leave management, and performance reviews",
+        "url": "https://employmenthero.com/products/"
+      },
+      {
+        "name": "Global Teams (EOR)",
+        "description": "Employer of record service enabling companies to hire and manage international employees without local entities",
+        "url": "https://employmenthero.com/global-teams/"
+      },
+      {
+        "name": "Swag",
+        "description": "Employee benefits marketplace offering discounts, financial wellness tools, and rewards programs for engaged workforces",
+        "url": "https://employmenthero.com/swag/"
+      }
+    ],
+    "highlights_title": "Latest news on Employment Hero",
+    "highlights": [
+      {
+        "title": "Revenue reached $153M in 2024, up from $123M in 2023",
+        "url": "https://getlatka.com/companies/employment-hero"
+      },
+      {
+        "title": "Raised $167M Series F at $1.36B valuation led by TCV",
+        "url": "https://techcrunch.com/2023/10/18/zero-to-employment-hero-hr-unicorn/"
+      },
+      {
+        "title": "Became Australia's largest tech export since Atlassian",
+        "url": "https://globalventuring.com/corporate/rest-of-world/the-big-deal-employment-hero/"
+      },
+      {
+        "title": "Expanded Global Teams EOR service for distributed workforce management",
+        "url": "https://employmenthero.com/global-teams/"
+      },
+      {
+        "title": "Total funding reached $407M from TCV, Insight Partners, Seek",
+        "url": "https://www.crunchbase.com/organization/employment-hero"
+      },
+      {
+        "title": "Serving 800K+ employees across Australia, UK, and Asia-Pacific",
+        "url": "https://employmenthero.com/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ben Thompson",
+        "role": "Co-Founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/d556f0ee-0056-4362-bc2a-5a526d1f3688_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/benthompsonau/"
+      },
+      {
+        "name": "Dave Tong",
+        "role": "Co-Founder & Chief Product & Technology Officer",
+        "photo": "https://cdn.theorg.com/30839e47-d51f-4ec7-bbae-d664777995e5_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/employment-hero/"
+      },
+      {
+        "name": "Rob Goodwin",
+        "role": "Chief Operating Officer",
+        "photo": "https://cdn.theorg.com/7c626c5c-099e-4dee-bbd0-c99d6458d21a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/employment-hero/"
+      },
+      {
+        "name": "Rob Paterson",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/c702105a-572c-4cdf-8452-79f41ec2521f_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/employment-hero/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "TCV",
+        "url": "https://www.tcv.com/"
+      },
+      {
+        "name": "Insight Partners",
+        "url": "https://www.insightpartners.com/"
+      },
+      {
+        "name": "Seek",
+        "url": "https://www.seek.com.au/"
+      },
+      {
+        "name": "AirTree Ventures",
+        "url": "https://www.airtree.vc/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "October 2023",
+        "round": "Series F",
+        "amount": "$167M",
+        "investors": "TCV, Insight Partners, Seek"
+      },
+      {
+        "date": "May 2022",
+        "round": "Series E",
+        "amount": "$181M",
+        "investors": "Insight Partners, AirTree"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Employment Hero Pty Ltd",
+      "website": "https://employmenthero.com",
+      "website_display": "employmenthero.com",
+      "founded": "2014",
+      "headcount": "501-1,000",
+      "hq": "Sydney, Australia"
+    }
+  },
+  "ENABLE": {
+    "ticker": "ENABLE",
+    "name": "ENABLE",
+    "logo": "/assets/logos/Enable.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENABLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENABLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENABLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENABLE",
+      "website": "https://enable.com",
+      "website_display": "enable.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENCHARGE-AI": {
+    "ticker": "ENCHARGE-AI",
+    "name": "ENCHARGE AI",
+    "logo": "/assets/logos/enchargeai.com",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENCHARGE AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENCHARGE AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENCHARGE AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENCHARGE AI",
+      "website": "https://enchargeai.com",
+      "website_display": "enchargeai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENDLESS": {
+    "ticker": "ENDLESS",
+    "name": "ENDLESS",
+    "logo": "/assets/logos/Endless.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENDLESS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENDLESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENDLESS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENDLESS",
+      "website": "https://endless.com",
+      "website_display": "endless.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENERGYX": {
+    "ticker": "ENERGYX",
+    "name": "ENERGYX",
+    "logo": "/assets/logos/energyx.com",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENERGYX is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENERGYX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENERGYX",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENERGYX",
+      "website": "https://energyx.com",
+      "website_display": "energyx.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENFLAME": {
+    "ticker": "ENFLAME",
+    "name": "ENFLAME",
+    "logo": "/assets/logos/Enflame.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENFLAME is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENFLAME main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENFLAME",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENFLAME",
+      "website": "https://enflame.com",
+      "website_display": "enflame.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENGINE": {
+    "ticker": "ENGINE",
+    "name": "ENGINE",
+    "logo": "/assets/logos/Engine.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENGINE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENGINE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENGINE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENGINE",
+      "website": "https://engine.com",
+      "website_display": "engine.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENOVATE-MOTORS": {
+    "ticker": "ENOVATE-MOTORS",
+    "name": "ENOVATE MOTORS",
+    "logo": "/assets/logos/ENOVATE_Motors.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENOVATE MOTORS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENOVATE MOTORS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENOVATE MOTORS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENOVATE MOTORS",
+      "website": "https://enovatemotors.com",
+      "website_display": "enovatemotors.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENPAL": {
+    "ticker": "ENPAL",
+    "name": "Enpal",
+    "logo": "https://asset.brandfetch.io/idejd5Hlu1/idHpKJ_Jtd.svg",
+    "tagline": "Germany's leading greentech unicorn revolutionizing residential solar with integrated systems, heat pumps, and Europe's first solar securitization",
+    "tags": [
+      "Clean Energy",
+      "Unicorn",
+      "German Tech",
+      "Solar",
+      "GreenTech"
+    ],
+    "kpis": [
+      {
+        "label": "Financing",
+        "value": "€5B+"
+      },
+      {
+        "label": "DERs Installed",
+        "value": "250,000"
+      },
+      {
+        "label": "ABS (Nov 2024)",
+        "value": "€240M"
+      },
+      {
+        "label": "Status",
+        "value": "Profitable"
+      }
+    ],
+    "overview": "Enpal is Germany's leading greentech unicorn and top residential solar provider, offering an integrated one-stop-shop for solar panels, battery storage, heat pumps, EV chargers, and smart energy management. Founded in 2017 by Mario Kohle in Berlin, Enpal has digitized the adoption of green energy for homes with its no-down-payment rental model. The company has been profitable since 2022 and has surpassed €5 billion in total financing commitments, recently completing Europe's first public residential solar ABS at €240M and partnering with the European Investment Bank.",
+    "products": [
+      {
+        "name": "Solar & Battery System",
+        "description": "Complete photovoltaic installation with integrated battery storage for energy independence and grid services",
+        "url": "https://www.enpal.de/solar"
+      },
+      {
+        "name": "Heat Pump Solutions",
+        "description": "Efficient heat pump systems integrated with solar for sustainable home heating and hot water",
+        "url": "https://www.enpal.de/waermepumpe"
+      },
+      {
+        "name": "Smart Energy Manager",
+        "description": "Intelligent platform managing distributed energy resources, optimizing consumption, and enabling grid participation",
+        "url": "https://www.enpal.de/"
+      }
+    ],
+    "highlights_title": "Latest news on Enpal",
+    "highlights": [
+      {
+        "title": "Surpassed €5 billion in total financing commitments",
+        "url": "https://techfundingnews.com/german-solar-energy-unicorn-enpal-surpasses-e5b-in-financing-commitments/"
+      },
+      {
+        "title": "Completed Europe's first public residential solar ABS at €240M",
+        "url": "https://www.corporate.enpal.com/pressemitteilungen/enpal-successfully-prices-europes-first-residential-solar-securitisation-program-with-eu-240-million-offering"
+      },
+      {
+        "title": "Secured €1.1B refinancing from Barclays, BofA, Credit Agricole, CPP",
+        "url": "https://tech.eu/2024/03/22/enpal/"
+      },
+      {
+        "title": "EIB Group backed €100M in Europe's first public solar securitization",
+        "url": "https://www.eib.org/en/press/all/2024-448-eib-group-and-enpal-boost-residential-solar-market-in-germany"
+      },
+      {
+        "title": "Integrated 250,000 distributed energy resources into Enpal system",
+        "url": "https://www.corporate.enpal.com/"
+      },
+      {
+        "title": "Profitable since 2022 with leading German residential solar market position",
+        "url": "https://techfundingnews.com/enpal-secures-e110m-equity-led-by-tpg/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mario Kohle",
+        "role": "Founder & Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/91a9dbe5-2c2c-4235-aed1-079553be67de_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/mariokohle/"
+      },
+      {
+        "name": "Viktor Wingert",
+        "role": "Co-Founder & Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/3529c3b2-2f4f-4fa8-84ad-2d57205a9efc_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/enpal/"
+      },
+      {
+        "name": "Markus T. Windisch",
+        "role": "Chief Operating Officer",
+        "photo": "https://cdn.theorg.com/181e704b-a822-46a3-b667-ab7d5beae49b_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/enpal/"
+      },
+      {
+        "name": "Jochen Ziervogel",
+        "role": "Co-Founder & Head of Partner Management",
+        "photo": "https://cdn.theorg.com/c7b5415b-58ef-4126-925a-a654392c4923_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/enpal/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "TPG Rise Climate",
+        "url": "https://www.tpg.com/rise-climate"
+      },
+      {
+        "name": "SoftBank Vision Fund II",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Activate Capital",
+        "url": "https://www.activatecapital.com/"
+      },
+      {
+        "name": "European Investment Bank",
+        "url": "https://www.eib.org/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "November 2024",
+        "round": "Asset Securitization",
+        "amount": "€240M",
+        "investors": "Public ABS, EIB"
+      },
+      {
+        "date": "March 2024",
+        "round": "Debt Financing",
+        "amount": "€1.1B",
+        "investors": "Barclays, BofA, Credit Agricole, CPP Investments"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Enpal GmbH",
+      "website": "https://www.enpal.de",
+      "website_display": "enpal.de",
+      "founded": "2017",
+      "headcount": "1,001-5,000",
+      "hq": "Berlin, Germany"
+    }
+  },
+  "ENTRATA": {
+    "ticker": "ENTRATA",
+    "name": "Entrata",
+    "logo": "https://asset.brandfetch.io/idlMWjdN9q/idcZl5E2Bl.svg",
+    "tagline": "Leading multifamily property management software platform reaching $503M revenue with AI-powered autonomous property solutions",
+    "tags": [
+      "PropTech",
+      "Unicorn",
+      "Real Estate",
+      "SaaS",
+      "Enterprise Software"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$4.3B"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$503M"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$707M"
+      },
+      {
+        "label": "Customers",
+        "value": "20,000+"
+      }
+    ],
+    "overview": "Entrata is a comprehensive property management software platform serving the multifamily housing industry. Founded in 2003 by Johnny Hanna in Lehi, Utah, the company provides an all-in-one platform for property accounting, marketing, leasing, facilities management, and resident services. Entrata has grown to serve over 20,000 customers and achieved $503M in revenue in 2024. The company received a $200M minority investment from Blackstone at a $4.3B valuation, with Silver Lake as a key investor through $707M in total funding.",
+    "products": [
+      {
+        "name": "Entrata Platform",
+        "description": "Comprehensive property management suite including accounting, marketing, leasing, and maintenance for multifamily properties",
+        "url": "https://www.entrata.com/products"
+      },
+      {
+        "name": "ResidentPortal",
+        "description": "Digital resident experience platform for online payments, maintenance requests, community engagement, and smart home integration",
+        "url": "https://www.entrata.com/products/resident-portal"
+      },
+      {
+        "name": "Entrata AI",
+        "description": "AI-powered autonomous property management tools for automated communications, predictive analytics, and operational efficiency",
+        "url": "https://www.entrata.com/"
+      }
+    ],
+    "highlights_title": "Latest news on Entrata",
+    "highlights": [
+      {
+        "title": "Revenue reached $503M in October 2024 (up from $447M in 2023)",
+        "url": "https://getlatka.com/companies/entrata"
+      },
+      {
+        "title": "Blackstone invested $200M at $4.3B valuation",
+        "url": "https://www.crunchbase.com/organization/entrata/company_financials"
+      },
+      {
+        "title": "Acquired Colleen AI for enhanced automation capabilities",
+        "url": "https://www.crunchbase.com/organization/entrata"
+      },
+      {
+        "title": "Expanded AI platform for autonomous property management",
+        "url": "https://www.businesswire.com/news/home/20250311889248/en/Entrata-Expands-AI-and-Platform-Innovations"
+      },
+      {
+        "title": "Serving 20,000+ property management customers across US",
+        "url": "https://www.entrata.com/"
+      },
+      {
+        "title": "Total funding reached $707M with Silver Lake as key investor",
+        "url": "https://www.cbinsights.com/company/property-solutions-international/financials"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Adam Edmunds",
+        "role": "Chief Executive Officer",
+        "photo": "https://cdn.theorg.com/07ba7309-b6d8-43df-a294-ab89752e39a3_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/adamedmunds/"
+      },
+      {
+        "name": "Catherine Wong",
+        "role": "Chief Operating Officer & Chief Product Officer",
+        "photo": "https://cdn.theorg.com/202e627a-8f9f-445d-aa4a-bf953585958a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/entrata/"
+      },
+      {
+        "name": "Jason Taylor",
+        "role": "Chief Technology Officer",
+        "photo": "https://cdn.theorg.com/bd98ddad-8434-48d6-824e-10122f136ef1_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/entrata/"
+      },
+      {
+        "name": "Mark Hansen",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/5f167f2c-8fb2-43ac-a0fe-1a0b4656f88a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/company/entrata/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Silver Lake",
+        "url": "https://www.silverlake.com/"
+      },
+      {
+        "name": "Blackstone",
+        "url": "https://www.blackstone.com/"
+      },
+      {
+        "name": "Element Ventures",
+        "url": "https://www.element-ventures.com/"
+      },
+      {
+        "name": "Vista Equity Partners",
+        "url": "https://www.vistaequitypartners.com/"
+      },
+      {
+        "name": "Goldman Sachs",
+        "url": "https://www.goldmansachs.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "June 2024",
+        "round": "Private Equity",
+        "amount": "Undisclosed",
+        "investors": "Element Ventures"
+      },
+      {
+        "date": "2021",
+        "round": "Growth",
+        "amount": "$200M",
+        "investors": "Blackstone at $4.3B valuation"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Entrata, Inc.",
+      "website": "https://www.entrata.com",
+      "website_display": "entrata.com",
+      "founded": "2003",
+      "headcount": "1,001-5,000",
+      "hq": "Lehi, UT"
+    }
+  },
+  "ENVEDA-BIOSCIENCES": {
+    "ticker": "ENVEDA-BIOSCIENCES",
+    "name": "ENVEDA BIOSCIENCES",
+    "logo": "/assets/logos/Enveda_Biosciences.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENVEDA BIOSCIENCES is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENVEDA BIOSCIENCES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENVEDA BIOSCIENCES",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENVEDA BIOSCIENCES",
+      "website": "https://envedabiosciences.com",
+      "website_display": "envedabiosciences.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENVISION-GROUP": {
+    "ticker": "ENVISION-GROUP",
+    "name": "ENVISION GROUP",
+    "logo": "/assets/logos/Envision_Group.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENVISION GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENVISION GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENVISION GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENVISION GROUP",
+      "website": "https://envisiongroup.com",
+      "website_display": "envisiongroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ENVOY": {
+    "ticker": "ENVOY",
+    "name": "ENVOY",
+    "logo": "/assets/logos/Envoy.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ENVOY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ENVOY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ENVOY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ENVOY",
+      "website": "https://envoy.com",
+      "website_display": "envoy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EON": {
+    "ticker": "EON",
+    "name": "EON",
+    "logo": "/assets/logos/Eon.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EON is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EON main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EON",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EON",
+      "website": "https://eon.com",
+      "website_display": "eon.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EPIC-GAMES": {
+    "ticker": "EPIC-GAMES",
+    "name": "EPIC GAMES",
+    "logo": "/assets/logos/Epic_Games.jpeg",
+    "tagline": "Interactive entertainment and gaming experiences",
+    "tags": [
+      "Gaming",
+      "Entertainment",
+      "Interactive Media",
+      "Game Development",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Gaming"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EPIC GAMES is a gaming company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EPIC GAMES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EPIC GAMES",
+    "highlights": [
+      {
+        "text": "Leading gaming company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EPIC GAMES",
+      "website": "https://epicgames.com",
+      "website_display": "epicgames.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EPIDEMIC-SOUND": {
+    "ticker": "EPIDEMIC-SOUND",
+    "name": "EPIDEMIC SOUND",
+    "logo": "/assets/logos/Epidemic_Sound.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EPIDEMIC SOUND is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EPIDEMIC SOUND main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EPIDEMIC SOUND",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EPIDEMIC SOUND",
+      "website": "https://epidemicsound.com",
+      "website_display": "epidemicsound.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EPIRUS": {
+    "ticker": "EPIRUS",
+    "name": "EPIRUS",
+    "logo": "/assets/logos/Epirus.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EPIRUS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EPIRUS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EPIRUS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EPIRUS",
+      "website": "https://epirus.com",
+      "website_display": "epirus.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EQUASHIELD": {
+    "ticker": "EQUASHIELD",
+    "name": "EQUASHIELD",
+    "logo": "/assets/logos/Equashield.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EQUASHIELD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EQUASHIELD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EQUASHIELD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EQUASHIELD",
+      "website": "https://equashield.com",
+      "website_display": "equashield.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EQUIPMENTSHARE": {
+    "ticker": "EQUIPMENTSHARE",
+    "name": "EQUIPMENTSHARE",
+    "logo": "/assets/logos/EquipmentShare.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EQUIPMENTSHARE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EQUIPMENTSHARE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EQUIPMENTSHARE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EQUIPMENTSHARE",
+      "website": "https://equipmentshare.com",
+      "website_display": "equipmentshare.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EREBOR": {
+    "ticker": "EREBOR",
+    "name": "EREBOR",
+    "logo": "/assets/logos/",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EREBOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EREBOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EREBOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EREBOR",
+      "website": "https://erebor.com",
+      "website_display": "erebor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ERUDITUS-EXECUTIVE-EDUCATION": {
+    "ticker": "ERUDITUS-EXECUTIVE-EDUCATION",
+    "name": "ERUDITUS EXECUTIVE EDUCATION",
+    "logo": "/assets/logos/Eruditus_Executive_Education.jpeg",
+    "tagline": "EdTech platform transforming learning",
+    "tags": [
+      "EdTech",
+      "Online Learning",
+      "Education Technology",
+      "E-Learning",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Education"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ERUDITUS EXECUTIVE EDUCATION is a education company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ERUDITUS EXECUTIVE EDUCATION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ERUDITUS EXECUTIVE EDUCATION",
+    "highlights": [
+      {
+        "text": "Leading education company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ERUDITUS EXECUTIVE EDUCATION",
+      "website": "https://eruditusexecutiveeducation.com",
+      "website_display": "eruditusexecutiveeducation.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ESENTIRE": {
+    "ticker": "ESENTIRE",
+    "name": "ESENTIRE",
+    "logo": "/assets/logos/eSentire.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ESENTIRE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ESENTIRE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ESENTIRE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ESENTIRE",
+      "website": "https://esentire.com",
+      "website_display": "esentire.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ESIGN": {
+    "ticker": "ESIGN",
+    "name": "ESIGN",
+    "logo": "/assets/logos/eSign.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ESIGN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ESIGN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ESIGN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ESIGN",
+      "website": "https://esign.com",
+      "website_display": "esign.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ESUSU": {
+    "ticker": "ESUSU",
+    "name": "ESUSU",
+    "logo": "/assets/logos/Esusu.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ESUSU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ESUSU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ESUSU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ESUSU",
+      "website": "https://esusu.com",
+      "website_display": "esusu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ESWIN-COMPUTING": {
+    "ticker": "ESWIN-COMPUTING",
+    "name": "ESWIN COMPUTING",
+    "logo": "/assets/logos/ESWIN_Computing.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ESWIN COMPUTING is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ESWIN COMPUTING main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ESWIN COMPUTING",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ESWIN COMPUTING",
+      "website": "https://eswincomputing.com",
+      "website_display": "eswincomputing.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ETCP": {
+    "ticker": "ETCP",
+    "name": "ETCP",
+    "logo": "/assets/logos/ETCP.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ETCP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ETCP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ETCP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ETCP",
+      "website": "https://etcp.com",
+      "website_display": "etcp.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ETHOS-LIFE": {
+    "ticker": "ETHOS-LIFE",
+    "name": "ETHOS LIFE",
+    "logo": "/assets/logos/Ethos_Life.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ETHOS LIFE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ETHOS LIFE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ETHOS LIFE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ETHOS LIFE",
+      "website": "https://ethoslife.com",
+      "website_display": "ethoslife.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "ETRAVELI": {
+    "ticker": "ETRAVELI",
+    "name": "ETRAVELI",
+    "logo": "/assets/logos/Etraveli.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "ETRAVELI is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "ETRAVELI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on ETRAVELI",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "ETRAVELI",
+      "website": "https://etraveli.com",
+      "website_display": "etraveli.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EV-CO": {
+    "ticker": "EV-CO",
+    "name": "EV CO",
+    "logo": "/assets/logos/EV_Co.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EV CO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EV CO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EV CO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EV CO",
+      "website": "https://evco.com",
+      "website_display": "evco.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EVENUP": {
+    "ticker": "EVENUP",
+    "name": "EvenUp",
+    "logo": "/assets/logos/EvenUp.jpeg",
+    "tagline": "AI-powered legal technology transforming personal injury law with intelligent case management",
+    "tags": [
+      "Legal AI",
+      "Personal Injury",
+      "Claims Intelligence",
+      "Document Automation",
+      "LegalTech"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Oct 2025",
+        "value": "$2B+"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$385M"
+      },
+      {
+        "label": "Cases Resolved",
+        "value": "200K+"
+      },
+      {
+        "label": "Law Firms",
+        "value": "2,000+"
+      }
+    ],
+    "overview": "EvenUp is a pioneering legal technology company founded in 2019 that leverages artificial intelligence to revolutionize personal injury law. The company's mission is to close the justice gap by empowering personal injury attorneys and their clients to achieve fairer outcomes faster. EvenUp's Claims Intelligence Platform, powered by its proprietary Piai AI model, is trained on hundreds of thousands of injury cases and millions of medical records. As of October 2025, EvenUp has achieved a valuation exceeding $2 billion and has helped resolve over 200,000 cases, securing more than $10 billion in damages for injury victims. The company serves over 2,000 law firms, including 20% of the top 100 US personal injury firms, with ARR doubling year-over-year.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EvenUp main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EvenUp",
+    "highlights": [
+      {
+        "text": "Opened new San Francisco headquarters at 353 Sacramento Street (July 2025).",
+        "url": "",
+        "date": "2025"
+      },
+      {
+        "text": "Raised $135M Series D at $1B+ valuation, achieving unicorn status (Oct 2024).",
+        "url": "",
+        "date": "2024"
+      },
+      {
+        "text": "New AI products account for 90% of new sales, driving rapid adoption.",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Claims Intelligence Platform: AI-powered case management across entire lifecycle.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EvenUp",
+      "website": "https://evenup.com",
+      "website_display": "evenup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EVERLAW": {
+    "ticker": "EVERLAW",
+    "name": "EVERLAW",
+    "logo": "/assets/logos/Everlaw.jpeg",
+    "tagline": "LegalTech solutions for modern law practices",
+    "tags": [
+      "LegalTech",
+      "Legal Services",
+      "Compliance",
+      "Contract Management",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Legal"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EVERLAW is a legal company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EVERLAW main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EVERLAW",
+    "highlights": [
+      {
+        "text": "Leading legal company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EVERLAW",
+      "website": "https://everlaw.com",
+      "website_display": "everlaw.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EVERLYWELL": {
+    "ticker": "EVERLYWELL",
+    "name": "EVERLYWELL",
+    "logo": "/assets/logos/EverlyWell.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EVERLYWELL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EVERLYWELL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EVERLYWELL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EVERLYWELL",
+      "website": "https://everlywell.com",
+      "website_display": "everlywell.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EVIDATION-HEALTH": {
+    "ticker": "EVIDATION-HEALTH",
+    "name": "EVIDATION HEALTH",
+    "logo": "/assets/logos/Evidation_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EVIDATION HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EVIDATION HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EVIDATION HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EVIDATION HEALTH",
+      "website": "https://evidationhealth.com",
+      "website_display": "evidationhealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EXABEAM": {
+    "ticker": "EXABEAM",
+    "name": "EXABEAM",
+    "logo": "/assets/logos/Exabeam.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EXABEAM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EXABEAM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EXABEAM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EXABEAM",
+      "website": "https://exabeam.com",
+      "website_display": "exabeam.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EXOTEC": {
+    "ticker": "EXOTEC",
+    "name": "EXOTEC",
+    "logo": "/assets/logos/Exotec.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EXOTEC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EXOTEC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EXOTEC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EXOTEC",
+      "website": "https://exotec.com",
+      "website_display": "exotec.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EXPEL": {
+    "ticker": "EXPEL",
+    "name": "EXPEL",
+    "logo": "/assets/logos/Expel.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EXPEL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EXPEL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EXPEL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EXPEL",
+      "website": "https://expel.com",
+      "website_display": "expel.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EXTEND-INC": {
+    "ticker": "EXTEND-INC",
+    "name": "EXTEND, INC.",
+    "logo": "/assets/logos/Extend_Inc..jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EXTEND, INC. is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EXTEND, INC. main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EXTEND, INC.",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EXTEND, INC.",
+      "website": "https://extendinc.com",
+      "website_display": "extendinc.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EXTERRO": {
+    "ticker": "EXTERRO",
+    "name": "EXTERRO",
+    "logo": "/assets/logos/Exterro.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EXTERRO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EXTERRO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EXTERRO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EXTERRO",
+      "website": "https://exterro.com",
+      "website_display": "exterro.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "EZCATER": {
+    "ticker": "EZCATER",
+    "name": "EZCATER",
+    "logo": "/assets/logos/ezCater.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "EZCATER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "EZCATER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on EZCATER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "EZCATER",
+      "website": "https://ezcater.com",
+      "website_display": "ezcater.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

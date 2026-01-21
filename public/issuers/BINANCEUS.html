@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance.US - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="binanceus-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idcEmZ8dkj/id4-k1DCGD.png" alt="Binance.US" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Binance.US</h1>
+                    <p class="company-tagline">The regulated American cryptocurrency exchange enabling compliant digital asset trading for U.S. customers</p>
+                    <div class="company-tags"><span class="tag">Cryptocurrency Exchange</span><span class="tag">Digital Assets</span><span class="tag">Fintech</span><span class="tag">Blockchain</span><span class="tag">Regulated</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Binance.US is the American cryptocurrency exchange affiliated with global crypto giant Binance, built specifically for U.S. regulatory compliance. Founded in 2019, the platform offers trading across 160+ cryptocurrencies with low fees and staking for over 20 assets. After facing an SEC lawsuit and loss of banking access in June 2023, the exchange operated crypto-only until February 2025 when USD services were restored under interim CEO Norman Reed, a former SEC enforcement attorney. In May 2025, the SEC formally dismissed its lawsuit with prejudice, marking a major victory for the platform. Binance.US maintains a 73-person team in Palo Alto and continues rebuilding banking relationships while expanding its product suite.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2019</td>
+                <td>Seed</td>
+                <td>$200M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Binance.US Exchange</div>
+            <div class="product-desc">Cryptocurrency trading platform offering spot trading, instant buy, and advanced trading features for U.S. customers</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Binance.US Staking</div>
+            <div class="product-desc">Earn rewards on cryptocurrency holdings with staking options for over 20 digital assets</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Binance.US Mobile App</div>
+            <div class="product-desc">iOS and Android app for mobile cryptocurrency trading with real-time price alerts and portfolio tracking</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Binance.US</h2>
+                        <div class="highlights-list"><a href="https://www.cnbc.com/2025/05/29/sec-drops-binance-lawsuit-ending-one-of-last-remaining-crypto-actions.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">SEC formally drops Binance lawsuit with prejudice ending one of last remaining crypto enforcement actions</span>
+        </a><a href="https://fortune.com/crypto/2025/02/19/binance-us-fiat-currency-america-comeback/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Binance.US restores USD trading on platform as SEC lawsuit winds down</span>
+        </a><a href="https://cointelegraph.com/news/binance-us-restore-usd-services-early-2025-interim-ceo" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Binance.US plans to restore USD services in early 2025 after surviving 17 months of SEC scrutiny</span>
+        </a><a href="https://decrypt.co/297733/binance-us-charts-2025-comeback-ceo-norman-reed-reflects-on-challenges-and-plans-for-growth" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Binance.US CEO Norman Reed charts 2025 comeback reflecting on challenges and growth plans</span>
+        </a><a href="https://www.crowdfundinsider.com/2024/12/234595-binance-us-ceo-predicts-2025-will-be-breakout-year-for-digital-assets-exchange/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Binance.US CEO predicts crypto boom in 2025 as digital assets go mainstream</span>
+        </a><a href="https://www.financemagnates.com/cryptocurrency/binanceus-promises-to-restore-us-dollar-services-in-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Binance.US promises to restore USD services with expanded staking and low-fee trading</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/3f010b80-82ce-4583-a4b6-449d978fbddb_medium.jpg" alt="Norman Reed" class="leader-photo">
+            <div><div class="leader-name">Norman Reed</div>
+            <div class="leader-role">Interim Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/norman-r-0200baa8/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/74307a9a-9d22-404a-9594-61a182cfb67d_medium.jpg" alt="Dan Wong" class="leader-photo">
+            <div><div class="leader-name">Dan Wong</div>
+            <div class="leader-role">General Counsel &amp; Corporate Secretary</div></div>
+            <a href="https://www.linkedin.com/in/danwong/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/0f27c560-e8e1-45b7-8b0b-d05a88ef8984_medium.jpg" alt="Gustavo Castillo" class="leader-photo">
+            <div><div class="leader-name">Gustavo Castillo</div>
+            <div class="leader-role">Head of Engineering</div></div>
+            <a href="https://www.linkedin.com/in/gustavocastillo/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=John+Simmons&amp;background=3b82f6&amp;color=fff" alt="John Simmons" class="leader-photo">
+            <div><div class="leader-name">John Simmons</div>
+            <div class="leader-role">Vice President of Marketing &amp; Business Development</div></div>
+            <a href="https://www.linkedin.com/in/johnsimmons/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.binance.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Binance Holdings</span>
+        </a><a href="https://www.vaneck.com/" target="_blank" class="investor-card">
+            <span class="investor-name">VanEck</span>
+        </a><a href="https://www.circle.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Circle</span>
+        </a><a href="https://www.rre.com/" target="_blank" class="investor-card">
+            <span class="investor-name">RRE Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">BAM Trading Services Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.binance.us/" target="_blank" class="detail-value">www.binance.us/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2019</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">73</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Palo Alto, California</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

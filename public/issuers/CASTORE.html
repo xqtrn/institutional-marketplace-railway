@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castore - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="castore-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idyMj1w0_I/idZKqPbnM_.svg" alt="Castore" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Castore</h1>
+                    <p class="company-tagline">Better Never Stops - premium sportswear engineered for elite performance</p>
+                    <div class="company-tags"><span class="tag">Sportswear</span><span class="tag">Athletic Apparel</span><span class="tag">Consumer Brands</span><span class="tag">Sports Tech</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Castore is a British premium sportswear brand founded in 2015 by brothers Tom and Phil Beahon. The company develops high-performance athletic apparel using patented fabrics and advanced technical engineering, with partnerships including McLaren F1, Newcastle United, Rangers FC, Everton FC, and England Cricket. Tennis champion Andy Murray is both a shareholder and brand ambassador through the AMC collaboration. Castore reached a £950 million valuation in 2023 after raising £145 million from investors including Raine Group, Felix Capital, and Hanco Ventures. Headquartered in Manchester, the company has expanded globally with retail stores and secured the exclusive European licensing rights for Umbro in 2024.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>November 2023</td>
+                <td>Growth Equity</td>
+                <td>£145M</td>
+                <td>£950M</td>
+            </tr><tr>
+                <td>September 2022</td>
+                <td>Series B</td>
+                <td>£50M</td>
+                <td>£750M</td>
+            </tr><tr>
+                <td>February 2020</td>
+                <td>Growth</td>
+                <td>£7.5M</td>
+                <td>Undisclosed</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Castore Performance Apparel</div>
+            <div class="product-desc">Premium sportswear using patented Airstream and Airweave fabrics for elite athletic performance</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">AMC (Andy Murray Collection)</div>
+            <div class="product-desc">Tennis-focused performance wear co-developed with Andy Murray featuring technical fabrics</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Team &amp; Licensed Products</div>
+            <div class="product-desc">Official kit manufacturer for McLaren F1, Newcastle United, Everton FC, Rangers FC and more</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Umbro Professional Team Sports</div>
+            <div class="product-desc">Exclusive European licensee for Umbro brand distribution in professional team sports</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Castore</h2>
+                        <div class="highlights-list"><a href="https://www.welltodoglobal.com/post/sportswear-brand-castore-raises-145m-hits-950m-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Castore raises £145M, reaches near-billion pound valuation</span>
+        </a><a href="https://www.cityam.com/british-sportswear-firm-castore-set-for-near-1bn-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">CityAM: British sportswear firm Castore set for near £1bn valuation</span>
+        </a><a href="https://www.sportbusiness.com/news/castore-beefs-up-english-football-presence-with-umbro-sub-licensing/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Castore signs multi-year Everton FC kit and stadium deal</span>
+        </a><a href="https://www.sportbusiness.com/news/castore-beefs-up-english-football-presence-with-umbro-sub-licensing/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Castore secures exclusive Umbro European licensing deal</span>
+        </a><a href="https://frontofficesports.com/british-sportswear-company-valued-at-864m/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Front Office Sports: British sportswear company valued at $864M</span>
+        </a><a href="https://privatebank.barclays.com/insights/entrepreneur-interview-castore-02-2024/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Barclays: Entrepreneur interview with Castore founders</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Tom+Beahon&amp;background=1a365d&amp;color=fff&amp;size=200" alt="Tom Beahon" class="leader-photo">
+            <div><div class="leader-name">Tom Beahon</div>
+            <div class="leader-role">Co-Founder &amp; Co-CEO</div></div>
+            <a href="https://www.linkedin.com/in/tom-beahon/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Phil+Beahon&amp;background=2c5282&amp;color=fff&amp;size=200" alt="Phil Beahon" class="leader-photo">
+            <div><div class="leader-name">Phil Beahon</div>
+            <div class="leader-role">Co-Founder &amp; Co-CEO</div></div>
+            <a href="https://www.linkedin.com/in/philip-beahon/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Andy+Murray&amp;background=4a5568&amp;color=fff&amp;size=200" alt="Andy Murray" class="leader-photo">
+            <div><div class="leader-name">Andy Murray</div>
+            <div class="leader-role">Shareholder &amp; Brand Ambassador</div></div>
+            <a href="https://www.linkedin.com/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.rainegroup.com" target="_blank" class="investor-card">
+            <span class="investor-name">Raine Group</span>
+        </a><a href="https://www.felixcap.com" target="_blank" class="investor-card">
+            <span class="investor-name">Felix Capital</span>
+        </a><a href="https://www.hancoventures.com" target="_blank" class="investor-card">
+            <span class="investor-name">Hanco Ventures</span>
+        </a><a href="https://www.linkedin.com/in/tom-singh/" target="_blank" class="investor-card">
+            <span class="investor-name">Tom Singh (New Look Founder)</span>
+        </a><a href="https://andymurray.com" target="_blank" class="investor-card">
+            <span class="investor-name">Andy Murray</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">J. Carter Sporting Club Limited</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://castore.com" target="_blank" class="detail-value">castore.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Manchester, UK</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

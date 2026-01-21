@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="current-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idU5pclGrT/id8cMkBZcP.svg" alt="Current" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Current</h1>
+                    <p class="company-tagline">Modern banking platform transforming financial access for everyday Americans with fee-free accounts and credit-building tools</p>
+                    <div class="company-tags"><span class="tag">Fintech</span><span class="tag">Neobank</span><span class="tag">Mobile Banking</span><span class="tag">NYC Unicorn</span><span class="tag">Credit Building</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Current is a consumer fintech company providing mobile banking services to underserved Americans through its partner banks, Choice Financial Group and Cross River Bank. Founded in 2015 by Stuart Sopp and Trevor Marshall, the company offers fee-free spending accounts, early paycheck access, overdraft protection, the Build Card for credit building, savings pods with up to 4% interest, and fee-free ATM access. With over 4 million accounts and no physical branches, Current delivers banking entirely through its mobile app, targeting Americans struggling with access to affordable liquidity and credit.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2024-12</td>
+                <td>Series D Extension</td>
+                <td>$200M</td>
+                <td>$2.2B</td>
+            </tr><tr>
+                <td>2021-04</td>
+                <td>Series D</td>
+                <td>$220M</td>
+                <td>$2.2B</td>
+            </tr><tr>
+                <td>2020-07</td>
+                <td>Series C</td>
+                <td>$131M</td>
+                <td>$750M</td>
+            </tr><tr>
+                <td>2019-10</td>
+                <td>Series B</td>
+                <td>$20M</td>
+                <td>$250M</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Current Account</div>
+            <div class="product-desc">Fee-free mobile banking account with no minimum balance, early paycheck access, and fee-free overdraft protection</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Build Card</div>
+            <div class="product-desc">Secured credit-building card that reports to all three credit bureaus, helping users establish credit with no debt risk</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Pay Me</div>
+            <div class="product-desc">Earned wage access feature providing paycheck advances to bridge gaps between pay periods</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Savings Pods</div>
+            <div class="product-desc">Automated savings tools with up to 4% interest boost and goal-based savings features</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Current</h2>
+                        <div class="highlights-list"><a href="https://www.prnewswire.com/news-releases/current-announces-record-breaking-growth-in-2024-secures-additional-capital-to-accelerate-scale-product-innovation-302331300.html" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Current raises $200M in fresh funding to accelerate growth</span>
+        </a><a href="https://fintech.global/2024/12/16/fintech-platform-current-raises-200m-amidst-strong-growth/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Current achieves 90%+ revenue growth in record-breaking 2024</span>
+        </a><a href="https://www.axios.com/pro/fintech-deals/2024/12/12/current-new-funding-equity-debt" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">General Catalyst and Cross River join funding round</span>
+        </a><a href="https://tearsheet.co/podcasts/how-current-beat-the-fintech-winter-and-achieved-100-growth-with-currents-stuart-sopp/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Current targets profitability in 2025 and IPO readiness by 2026</span>
+        </a><a href="https://www.fintechfutures.com/venture-capital-funding/us-fintech-current-bags-200m-in-fresh-funding" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Cross River deepens partnership with warehouse funding</span>
+        </a><a href="https://thefinancialbrand.com/news/fintech-banking/fintech-current-rolls-out-build-card-and-eyes-profitability-167928" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Current launches credit-building Build Card for underserved Americans</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Stuart+Sopp&amp;background=0D8ABC&amp;color=fff&amp;size=128" alt="Stuart Sopp" class="leader-photo">
+            <div><div class="leader-name">Stuart Sopp</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/stuartsopp/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Trevor+Marshall&amp;background=2E7D32&amp;color=fff&amp;size=128" alt="Trevor Marshall" class="leader-photo">
+            <div><div class="leader-name">Trevor Marshall</div>
+            <div class="leader-role">Co-Founder &amp; CTO</div></div>
+            <a href="https://www.linkedin.com/in/trevormarshall/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Adam+Hadi&amp;background=6A1B9A&amp;color=fff&amp;size=128" alt="Adam Hadi" class="leader-photo">
+            <div><div class="leader-name">Adam Hadi</div>
+            <div class="leader-role">VP of Marketing</div></div>
+            <a href="https://www.linkedin.com/in/adamhadi/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://a16z.com" target="_blank" class="investor-card">
+            <span class="investor-name">Andreessen Horowitz</span>
+        </a><a href="https://www.tigerglobal.com" target="_blank" class="investor-card">
+            <span class="investor-name">Tiger Global Management</span>
+        </a><a href="https://www.qedinvestors.com" target="_blank" class="investor-card">
+            <span class="investor-name">QED Investors</span>
+        </a><a href="https://www.generalcatalyst.com" target="_blank" class="investor-card">
+            <span class="investor-name">General Catalyst</span>
+        </a><a href="https://www.wellington.com" target="_blank" class="investor-card">
+            <span class="investor-name">Wellington Management</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Finco Services, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://current.com" target="_blank" class="detail-value">current.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">500+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">New York, NY</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

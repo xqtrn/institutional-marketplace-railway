@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China UnionPay Merchant Services - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="china-unionpay-merchant-services-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idz_lVK-Cp/idOVL01VSm.png" alt="China UnionPay Merchant Services" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">China UnionPay Merchant Services</h1>
+                    <p class="company-tagline">China&#x27;s leading merchant payment services provider enabling nationwide UnionPay card acceptance and financial solutions</p>
+                    <div class="company-tags"><span class="tag">Payments</span><span class="tag">Fintech</span><span class="tag">Merchant Services</span><span class="tag">China Tech</span><span class="tag">Mega-Decacorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">China UnionPay Merchant Services (UMS) is a subsidiary of China UnionPay, China&#x27;s national card network, providing comprehensive merchant payment services nationwide. Incorporated in 2002 with headquarters in Shanghai, UMS enables merchants to accept UnionPay-labeled cards and provides a broad spectrum of financial services to cardholders and businesses. The company has grown into one of China&#x27;s largest payment processors, serving millions of merchants across the country with POS terminals, mobile payments, and integrated financial solutions as part of the UnionPay ecosystem that rivals Visa and Mastercard globally.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2018-05</td>
+                <td>Corporate Minority</td>
+                <td>$283M</td>
+                <td>$30.4B</td>
+            </tr><tr>
+                <td>2016-10</td>
+                <td>Series C</td>
+                <td>$297M</td>
+                <td></td>
+            </tr><tr>
+                <td>2010-03</td>
+                <td>Series A</td>
+                <td>Undisclosed</td>
+                <td></td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">UMS POS Solutions</div>
+            <div class="product-desc">Comprehensive point-of-sale terminals and payment acceptance solutions for merchants nationwide</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Mobile Payment Services</div>
+            <div class="product-desc">QR code and mobile payment processing integrated with UnionPay QuickPass</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Merchant Financial Services</div>
+            <div class="product-desc">Working capital loans, settlement services, and financial products for merchant partners</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on China UnionPay Merchant Services</h2>
+                        <div class="highlights-list"><a href="https://www.bloomberg.com/profile/company/0570868D:CH" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">China UMS valued at approximately $30.4B in latest 2018 valuation round</span>
+        </a><a href="https://pitchbook.com/profiles/company/231362-65" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raised total of $968M from institutional investors including IDG Capital and SAIF Partners</span>
+        </a><a href="https://www.linkedin.com/company/china-unionpay-merchant-services" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">China Everbright and Huizhi Capital among key strategic investors</span>
+        </a><a href="https://en.wikipedia.org/wiki/UnionPay" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Parent company UnionPay network processes more transactions globally than Visa</span>
+        </a><a href="https://en.chinaums.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Serves millions of merchants across China with integrated payment solutions</span>
+        </a><a href="https://www.crunchbase.com/organization/shanghai-unionpay-merchant-services-co-ltd" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Strategic position as subsidiary of China's national card network</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Zheng+Xiuli&amp;background=dc2626&amp;color=fff&amp;size=200" alt="Zheng Xiuli" class="leader-photo">
+            <div><div class="leader-name">Zheng Xiuli</div>
+            <div class="leader-role">Chairman</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Zhang+Yong&amp;background=059669&amp;color=fff&amp;size=200" alt="Zhang Yong" class="leader-photo">
+            <div><div class="leader-name">Zhang Yong</div>
+            <div class="leader-role">President</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Liu+Wei&amp;background=2563eb&amp;color=fff&amp;size=200" alt="Liu Wei" class="leader-photo">
+            <div><div class="leader-name">Liu Wei</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="#" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.unionpayintl.com/" target="_blank" class="investor-card">
+            <span class="investor-name">China UnionPay</span>
+        </a><a href="https://www.idgcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">IDG Capital</span>
+        </a><a href="https://www.everbright.com/" target="_blank" class="investor-card">
+            <span class="investor-name">China Everbright</span>
+        </a><a href="https://www.saifpartners.com/" target="_blank" class="investor-card">
+            <span class="investor-name">SAIF Partners</span>
+        </a><a href="https://www.forebright.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Forebright Capital</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">China UnionPay Merchant Services Co., Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://en.chinaums.com/" target="_blank" class="detail-value">en.chinaums.com/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2002</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">5,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Shanghai, China</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

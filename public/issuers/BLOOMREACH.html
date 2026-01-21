@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloomreach - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="bloomreach-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idVLj6hWLt/idxwM9KrId.svg" alt="Bloomreach" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Bloomreach</h1>
+                    <p class="company-tagline">AI-powered commerce experience platform enabling personalized discovery for 1,400+ global brands</p>
+                    <div class="company-tags"><span class="tag">E-commerce</span><span class="tag">AI</span><span class="tag">Personalization</span><span class="tag">Search</span><span class="tag">MarTech</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">E-commerce Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Bloomreach is the leading AI-powered commerce experience platform serving over 1,400 global brands including Williams-Sonoma, Bosch, Puma, and Marks &amp; Spencer. The company offers a suite of products including Discovery (AI-powered search and merchandising), Engagement (marketing automation), Content (headless CMS), and Clarity (conversational shopping). Having raised $422 million in total funding including a $175 million round led by Goldman Sachs, Bloomreach is positioned as a Gartner Magic Quadrant Leader for Commerce Search. In 2024, the company launched Loomi AI with seven premium features for personalization automation, partnered with Google Cloud and NVIDIA to enhance AI search capabilities, and announced its 2025 focus on making AI-powered personalization a revenue-driving reality for e-commerce.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>2022-10</td>
+                <td>Debt</td>
+                <td>$30M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2021-01</td>
+                <td>Series F</td>
+                <td>$175M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bloomreach Discovery</div>
+            <div class="product-desc">AI-powered search and merchandising platform with Loomi AI, ranked Leader in Gartner Magic Quadrant</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bloomreach Engagement</div>
+            <div class="product-desc">Marketing automation platform for personalized customer journeys and campaigns</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bloomreach Content</div>
+            <div class="product-desc">Headless CMS enabling personalized content delivery across channels</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bloomreach Clarity</div>
+            <div class="product-desc">AI-powered conversational shopping assistant for enhanced customer experience</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Bloomreach</h2>
+                        <div class="highlights-list"><a href="https://www.businesswire.com/news/home/20240626064321/en/Bloomreach-Unveils-Premium-Loomi-AI-Features-for-Ecommerce-Teams-Including-Groundbreaking-New-Ways-to-Automate-and-Optimize-Personalization" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bloomreach unveils Loomi AI Premium Features for e-commerce personalization automation</span>
+        </a><a href="https://www.bloomreach.com/en/news/2024/bloomreach-placed-in-2024-magic-quadrant-for-commerce-search/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Gartner positions Bloomreach as Leader in 2024 Magic Quadrant for Commerce Search</span>
+        </a><a href="https://www.bloomreach.com/en/news/2024/bloomreach-amplifies-the-power-of-its-e-commerce-search-and-merchandising-with-google-cloud-ai/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bloomreach partners with Google Cloud to enhance AI search with Gemini models</span>
+        </a><a href="https://www.bloomreach.com/en/blog/a-year-of-consequential-innovation" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company announces NVIDIA partnership for hybrid AI search engine</span>
+        </a><a href="https://www.bloomreach.com/en/news/2024/bloomreach-introduces-new-levels-of-personalization-for-ecommerce-product-recommendations/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bloomreach introduces new personalization levels for product recommendations</span>
+        </a><a href="https://www.bloomreach.com/en/news" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">2025 strategic focus on AI-powered personalization as revenue driver</span>
+        </a><a href="https://www.bloomreach.com/en/blog/with-usd175-million-in-funding-bloomreach-is-authoring-the-next-chapter-of-e-commerce" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">$422M total funding raised with Goldman Sachs-led $175M round</span>
+        </a><a href="https://tracxn.com/d/companies/bloomreach/__LHBw05jfqQlnvoTT_Dpsd4lKmDkI-BG7_kYr_PXV3Jk" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Serving 1,400+ global brands including Williams-Sonoma, Bosch, Puma</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d_medium.jpg" alt="Raj De Datta" class="leader-photo">
+            <div><div class="leader-name">Raj De Datta</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/rajdedatta/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e_medium.jpg" alt="Ashutosh Garg" class="leader-photo">
+            <div><div class="leader-name">Ashutosh Garg</div>
+            <div class="leader-role">Co-Founder &amp; CTO</div></div>
+            <a href="https://www.linkedin.com/in/ashutoshgarg/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f_medium.jpg" alt="Brian Walker" class="leader-photo">
+            <div><div class="leader-name">Brian Walker</div>
+            <div class="leader-role">Chief Strategy Officer</div></div>
+            <a href="https://www.linkedin.com/in/brianwalkersf/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a_medium.jpg" alt="Amanda Astey" class="leader-photo">
+            <div><div class="leader-name">Amanda Astey</div>
+            <div class="leader-role">Chief Marketing Officer</div></div>
+            <a href="https://www.linkedin.com/in/amandaastey/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.goldmansachs.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Goldman Sachs</span>
+        </a><a href="https://www.sixthstreet.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sixth Street Partners</span>
+        </a><a href="https://lsvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Lightspeed Venture Partners</span>
+        </a><a href="https://www.nea.com/" target="_blank" class="investor-card">
+            <span class="investor-name">New Enterprise Associates</span>
+        </a><a href="https://www.baincapitalventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Bain Capital Ventures</span>
+        </a><a href="https://www.salesforce.com/ventures/" target="_blank" class="investor-card">
+            <span class="investor-name">Salesforce Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

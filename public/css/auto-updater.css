@@ -1,0 +1,594 @@
+/* Auto-Updater Styles */
+
+.auto-updater-container {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    background: #f8f9fb;
+}
+
+/* Header */
+.au-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.au-header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.au-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.au-status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #e5e7eb;
+    color: #6b7280;
+}
+
+.au-status-badge.running {
+    background: #dcfce7;
+    color: #15803d;
+    animation: pulse 2s infinite;
+}
+
+.au-status-badge.paused {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.au-status-badge.error {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+/* Grid Layout */
+.au-grid {
+    display: grid;
+    grid-template-columns: 320px 1fr 360px;
+    gap: 20px;
+    min-height: calc(100vh - 160px);
+}
+
+/* Panels */
+.au-panel {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.au-panel h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 16px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.au-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.au-panel-header h2 {
+    margin: 0;
+}
+
+/* Form Groups */
+.au-form-group {
+    margin-bottom: 20px;
+}
+
+.au-form-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Radio Group */
+.au-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.au-radio {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.au-radio:hover {
+    border-color: #0a64bc;
+    background: #f0f7ff;
+}
+
+.au-radio input {
+    display: none;
+}
+
+.au-radio input:checked + span {
+    color: #0a64bc;
+    font-weight: 600;
+}
+
+.au-radio input:checked ~ small {
+    color: #0a64bc;
+}
+
+.au-radio span {
+    font-size: 14px;
+    color: #1a1a2e;
+}
+
+.au-radio small {
+    font-size: 11px;
+    color: #9ca3af;
+    margin-top: 4px;
+}
+
+/* Select Group */
+.au-select-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.au-select-group select,
+.au-select-group input {
+    padding: 10px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    background: white;
+    color: #1a1a2e;
+}
+
+.au-select-group select:focus,
+.au-select-group input:focus {
+    outline: none;
+    border-color: #0a64bc;
+    box-shadow: 0 0 0 3px rgba(10, 100, 188, 0.1);
+}
+
+/* Buttons */
+.au-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+}
+
+.au-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.au-btn-primary {
+    background: #0a64bc;
+    color: white;
+}
+
+.au-btn-primary:hover:not(:disabled) {
+    background: #083d89;
+}
+
+.au-btn-secondary {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.au-btn-secondary:hover:not(:disabled) {
+    background: #e5e7eb;
+}
+
+.au-btn-success {
+    background: #10b981;
+    color: white;
+}
+
+.au-btn-success:hover:not(:disabled) {
+    background: #059669;
+}
+
+.au-btn-warning {
+    background: #f59e0b;
+    color: white;
+}
+
+.au-btn-warning:hover:not(:disabled) {
+    background: #d97706;
+}
+
+.au-btn-danger {
+    background: #ef4444;
+    color: white;
+}
+
+.au-btn-danger:hover:not(:disabled) {
+    background: #dc2626;
+}
+
+.au-btn-small {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+/* Actions */
+.au-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+/* Stats */
+.au-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.au-stat {
+    text-align: center;
+    padding: 12px 8px;
+    background: #f8f9fb;
+    border-radius: 8px;
+}
+
+.au-stat-value {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
+.au-stat-value.au-stat-success {
+    color: #10b981;
+}
+
+.au-stat-value.au-stat-error {
+    color: #ef4444;
+}
+
+.au-stat-label {
+    font-size: 10px;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Progress Bar */
+.au-progress-container {
+    margin-bottom: 20px;
+}
+
+.au-progress-bar {
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.au-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #0a64bc, #10b981);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.au-progress-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #6b7280;
+}
+
+/* Current Processing */
+.au-current {
+    padding: 16px;
+    background: #f0f7ff;
+    border-radius: 8px;
+    border: 1px solid #0a64bc20;
+}
+
+.au-current-label {
+    font-size: 11px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.au-current-ticker {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0a64bc;
+    margin: 4px 0;
+}
+
+.au-current-status {
+    font-size: 12px;
+    color: #4b5563;
+}
+
+/* Log Container */
+.au-log-container {
+    flex: 1;
+    overflow-y: auto;
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 12px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    padding: 12px;
+    color: #e5e7eb;
+}
+
+.au-log-empty {
+    color: #6b7280;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.au-log-entry {
+    padding: 4px 0;
+    border-bottom: 1px solid #2d2d44;
+    display: flex;
+    gap: 8px;
+}
+
+.au-log-entry:last-child {
+    border-bottom: none;
+}
+
+.au-log-time {
+    color: #6b7280;
+    flex-shrink: 0;
+}
+
+.au-log-level {
+    flex-shrink: 0;
+    width: 60px;
+}
+
+.au-log-level.info { color: #60a5fa; }
+.au-log-level.success { color: #34d399; }
+.au-log-level.warning { color: #fbbf24; }
+.au-log-level.error { color: #f87171; }
+
+.au-log-message {
+    color: #e5e7eb;
+    word-break: break-word;
+}
+
+.au-log-ticker {
+    color: #a78bfa;
+    font-weight: 500;
+}
+
+/* Results Container */
+.au-results-container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.au-results-empty {
+    color: #9ca3af;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.au-result-card {
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.au-result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.au-result-ticker {
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.au-result-score {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.au-result-score.passed {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.au-result-score.failed {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.au-result-checks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.au-check-badge {
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+.au-check-badge.passed {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.au-check-badge.failed {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+/* Settings Panel */
+.au-settings-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background: white;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.au-settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.au-settings-header h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.au-settings-content {
+    padding: 20px;
+}
+
+.au-settings-section {
+    margin-bottom: 24px;
+}
+
+.au-settings-section h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.au-setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.au-setting-row label {
+    font-size: 13px;
+    color: #4b5563;
+}
+
+.au-setting-row input[type="number"] {
+    width: 80px;
+    padding: 6px 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.au-setting-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.au-settings-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.au-settings-actions .au-btn {
+    flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .au-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .au-results {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .au-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .au-results {
+        grid-column: span 1;
+    }
+
+    .au-settings-panel {
+        width: 100%;
+    }
+}

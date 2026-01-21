@@ -1,0 +1,1604 @@
+{
+  "XAI": {
+    "ticker": "XAI",
+    "name": "xAI",
+    "logo": "/assets/logos/xAI.jpeg",
+    "tagline": "Advanced artificial intelligence company developing truth-seeking AI systems to understand the universe",
+    "tags": [
+      "Grok AI",
+      "Colossus Supercomputer",
+      "Truth-Seeking AI",
+      "AGI Research",
+      "Grok 4.1"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Dec 2025",
+        "value": "$230B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$42B+"
+      },
+      {
+        "label": "2025 Revenue (Proj)",
+        "value": "$500M"
+      },
+      {
+        "label": "Grok MAU",
+        "value": "64M"
+      }
+    ],
+    "overview": "xAI is an artificial intelligence company founded by Elon Musk in March 2023 with the mission to understand the true nature of the universe through advanced AI systems. The company develops maximally truth-seeking AI that aims to benefit all of humanity. xAI's flagship product is Grok, an AI chatbot with a rebellious streak that has access to real-time information from the X platform. In March 2025, xAI acquired X (formerly Twitter) in an all-stock transaction that valued X at $33 billion and xAI at $80 billion, combining the two companies into X.AI Holdings Corp. The company operates the world's largest AI supercomputer, Colossus, in Memphis, Tennessee, which was built in just 122 days and now runs on over 200,000 Nvidia GPUs. As of September 2025, xAI has achieved a valuation of $200 billion following a $10 billion funding round, making it one of the most valuable AI startups in the world.",
+    "products": [
+      {
+        "name": "Grok",
+        "description": "Truth-seeking AI chatbot with real-time access to X platform data",
+        "url": "https://x.ai/grok"
+      },
+      {
+        "name": "Grok 4.1",
+        "description": "State-of-the-art reasoning model with lower hallucination rates",
+        "url": "https://x.ai/"
+      },
+      {
+        "name": "Grok API",
+        "description": "Developer access to Grok models for building applications",
+        "url": "https://x.ai/api"
+      },
+      {
+        "name": "Colossus",
+        "description": "World's largest AI supercomputer with 200K+ NVIDIA GPUs",
+        "url": "https://x.ai/"
+      }
+    ],
+    "highlights_title": "Latest news on xAI",
+    "highlights": [
+      {
+        "title": "Bloomberg: $230B Valuation",
+        "description": "xAI reaches $230B valuation in December 2025 funding round",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-xai-valuation"
+      },
+      {
+        "title": "WSJ: X Acquisition",
+        "description": "xAI acquires X (Twitter) for $33B in all-stock transaction (March 2025)",
+        "url": "https://www.wsj.com/tech/elon-musk-xai-twitter-x-acquisition/"
+      },
+      {
+        "title": "Reuters: Grok 64M Users",
+        "description": "Grok reaches 64M monthly users, 200% growth from April 2025",
+        "url": "https://www.reuters.com/technology/xai-grok-monthly-users/"
+      },
+      {
+        "title": "TechCrunch: Colossus Supercomputer",
+        "description": "xAI builds world's largest AI cluster with 200K GPUs in 122 days",
+        "url": "https://techcrunch.com/2024/xai-colossus-supercomputer/"
+      },
+      {
+        "title": "Crunchbase: Company Profile",
+        "description": "xAI funding history and company details",
+        "url": "https://www.crunchbase.com/organization/xai"
+      },
+      {
+        "title": "Wikipedia: Company Overview",
+        "description": "xAI history, products and Elon Musk leadership",
+        "url": "https://en.wikipedia.org/wiki/XAI_(company)"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Elon Musk",
+        "role": "Founder & CEO",
+        "photo": "https://cdn.theorg.com/2661b14c-5eb2-4c0b-b9ee-07675cac3d8c_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/elonmusk/"
+      },
+      {
+        "name": "Anthony Armstrong",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/f39fd3b5-db27-4b9c-ba87-84e69090b807_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/anthonyarmstrongcfo/"
+      },
+      {
+        "name": "Igor Babuschkin",
+        "role": "Co-Founder & Principal Engineer",
+        "photo": "https://cdn.theorg.com/a1b2c3d4-e5f6-7890-abcd-ef1234567890_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/igorbabuschkin/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Valor Equity Partners",
+        "url": "https://www.valorep.com/"
+      },
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/"
+      },
+      {
+        "name": "Kingdom Holdings (Saudi Arabia)",
+        "url": "https://www.kingdom.com.sa/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round": "Series C",
+        "date": "December 2025",
+        "amount": "$12B",
+        "investors": "Valor Equity, Sequoia, a16z"
+      },
+      {
+        "round": "Series B",
+        "date": "September 2025",
+        "amount": "$10B",
+        "investors": "Sequoia, a16z, NVIDIA"
+      },
+      {
+        "round": "Series A",
+        "date": "May 2024",
+        "amount": "$6B",
+        "investors": "Valor Equity, Sequoia, Kingdom Holdings"
+      }
+    ],
+    "company_details": {
+      "legal_name": "X.AI Holdings Corp.",
+      "website": "https://x.ai",
+      "website_display": "x.ai",
+      "founded": "March 2023",
+      "headcount": "500+",
+      "hq": "Austin, Texas"
+    }
+  },
+  "XAIRA-THERAPEUTICS": {
+    "ticker": "XAIRA-THERAPEUTICS",
+    "name": "XAIRA THERAPEUTICS",
+    "logo": "/assets/logos/Xaira_Therapeutics.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XAIRA THERAPEUTICS is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XAIRA THERAPEUTICS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XAIRA THERAPEUTICS",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XAIRA THERAPEUTICS",
+      "website": "https://xairatherapeutics.com",
+      "website_display": "xairatherapeutics.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XANADU": {
+    "ticker": "XANADU",
+    "name": "XANADU",
+    "logo": "/assets/logos/Xanadu.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XANADU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XANADU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XANADU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XANADU",
+      "website": "https://xanadu.com",
+      "website_display": "xanadu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XENDIT": {
+    "ticker": "XENDIT",
+    "name": "XENDIT",
+    "logo": "/assets/logos/Xendit.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XENDIT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XENDIT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XENDIT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XENDIT",
+      "website": "https://xendit.com",
+      "website_display": "xendit.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XFORCEPLUS": {
+    "ticker": "XFORCEPLUS",
+    "name": "XFORCEPLUS",
+    "logo": "/assets/logos/Xforceplus.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XFORCEPLUS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XFORCEPLUS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XFORCEPLUS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XFORCEPLUS",
+      "website": "https://xforceplus.com",
+      "website_display": "xforceplus.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XIAODU": {
+    "ticker": "XIAODU",
+    "name": "XIAODU",
+    "logo": "/assets/logos/Xiaodu.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XIAODU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XIAODU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XIAODU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XIAODU",
+      "website": "https://xiaodu.com",
+      "website_display": "xiaodu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XIAOHONGSHU": {
+    "ticker": "XIAOHONGSHU",
+    "name": "XIAOHONGSHU",
+    "logo": "/assets/logos/Xiaohongshu.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XIAOHONGSHU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XIAOHONGSHU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XIAOHONGSHU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XIAOHONGSHU",
+      "website": "https://xiaohongshu.com",
+      "website_display": "xiaohongshu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XIAOICE": {
+    "ticker": "XIAOICE",
+    "name": "XIAOICE",
+    "logo": "/assets/logos/Xiaoice.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XIAOICE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XIAOICE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XIAOICE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XIAOICE",
+      "website": "https://xiaoice.com",
+      "website_display": "xiaoice.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XIAOZHUCOM": {
+    "ticker": "XIAOZHUCOM",
+    "name": "XIAOZHU.COM",
+    "logo": "/assets/logos/Xiaozhu.com.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XIAOZHU.COM is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XIAOZHU.COM main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XIAOZHU.COM",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XIAOZHU.COM",
+      "website": "https://xiaozhucom.com",
+      "website_display": "xiaozhucom.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XINGJI-MEIZU": {
+    "ticker": "XINGJI-MEIZU",
+    "name": "XINGJI MEIZU",
+    "logo": "/assets/logos/Xingji_Meizu.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XINGJI MEIZU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XINGJI MEIZU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XINGJI MEIZU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XINGJI MEIZU",
+      "website": "https://xingjimeizu.com",
+      "website_display": "xingjimeizu.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XINGSHENG-YOUXUAN": {
+    "ticker": "XINGSHENG-YOUXUAN",
+    "name": "XINGSHENG YOUXUAN",
+    "logo": "/assets/logos/Xingsheng_Youxuan.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XINGSHENG YOUXUAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XINGSHENG YOUXUAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XINGSHENG YOUXUAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XINGSHENG YOUXUAN",
+      "website": "https://xingshengyouxuan.com",
+      "website_display": "xingshengyouxuan.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XINGYUN-GROUP": {
+    "ticker": "XINGYUN-GROUP",
+    "name": "XINGYUN GROUP",
+    "logo": "/assets/logos/XINGYUN_GROUP.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XINGYUN GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XINGYUN GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XINGYUN GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XINGYUN GROUP",
+      "website": "https://xingyungroup.com",
+      "website_display": "xingyungroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XLMEC": {
+    "ticker": "XLMEC",
+    "name": "XLMEC",
+    "logo": "/assets/logos/XLMEC.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XLMEC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XLMEC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XLMEC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XLMEC",
+      "website": "https://xlmec.com",
+      "website_display": "xlmec.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XPANCEO": {
+    "ticker": "XPANCEO",
+    "name": "XPANCEO",
+    "logo": "/assets/logos/XPANCEO.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XPANCEO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XPANCEO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XPANCEO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XPANCEO",
+      "website": "https://xpanceo.com",
+      "website_display": "xpanceo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XPANSIV": {
+    "ticker": "XPANSIV",
+    "name": "XPANSIV",
+    "logo": "/assets/logos/Xpansiv.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XPANSIV is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XPANSIV main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XPANSIV",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XPANSIV",
+      "website": "https://xpansiv.com",
+      "website_display": "xpansiv.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XPRESSBEES": {
+    "ticker": "XPRESSBEES",
+    "name": "XPRESSBEES",
+    "logo": "/assets/logos/Xpressbees.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XPRESSBEES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XPRESSBEES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XPRESSBEES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XPRESSBEES",
+      "website": "https://xpressbees.com",
+      "website_display": "xpressbees.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XREAL": {
+    "ticker": "XREAL",
+    "name": "XREAL",
+    "logo": "/assets/logos/Xreal.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XREAL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XREAL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XREAL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XREAL",
+      "website": "https://xreal.com",
+      "website_display": "xreal.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "XTRANSFER": {
+    "ticker": "XTRANSFER",
+    "name": "XTRANSFER",
+    "logo": "/assets/logos/XTransfer.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "XTRANSFER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "XTRANSFER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on XTRANSFER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "XTRANSFER",
+      "website": "https://xtransfer.com",
+      "website_display": "xtransfer.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

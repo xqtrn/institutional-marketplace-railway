@@ -1,0 +1,3818 @@
+{
+  "WAYMO": {
+    "ticker": "WAYMO",
+    "name": "Waymo",
+    "logo": "https://logo.clearbit.com/waymo.com",
+    "tagline": "The world's most experienced driver — autonomous driving technology subsidiary of Alphabet Inc.",
+    "tags": [
+      "Autonomous Vehicles",
+      "AI",
+      "Transportation",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$45B+"
+      },
+      {
+        "label": "Weekly Rides",
+        "value": "250K+"
+      },
+      {
+        "label": "Fleet Size",
+        "value": "2,500+"
+      },
+      {
+        "label": "Cities",
+        "value": "5"
+      }
+    ],
+    "overview": "Waymo LLC is an autonomous driving technology company and subsidiary of Alphabet Inc. Originally started as Google's Self-Driving Car Project in 2009, Waymo became a standalone company in 2016. The company operates Waymo One, the world's first commercial autonomous ride-hailing service, across 5 US cities: Phoenix, San Francisco, Los Angeles, Austin, and Atlanta. As of April 2025, Waymo provides 250,000+ paid rides per week (over 1 million miles monthly) with a fleet of 2,500 robotaxis. In November 2025, Waymo became the first US company to offer fully autonomous freeway rides at up to 65 mph. In October 2024, Waymo raised $5.6 billion at a $45 billion valuation, with backing from Alphabet, Andreessen Horowitz, Fidelity, Tiger Global, and Silver Lake. Expansion to Miami, San Diego, Washington D.C., Tokyo, and London planned for 2026.",
+    "products": [
+      {
+        "name": "Waymo One",
+        "description": "Commercial robotaxi service in Phoenix, SF, LA, Austin, Atlanta — 250K+ paid rides per week, fully driverless",
+        "url": "https://waymo.com/waymo-one/"
+      },
+      {
+        "name": "Waymo Driver",
+        "description": "6th generation autonomous driving system with advanced LiDAR, cameras, radar, and AI processing",
+        "url": "https://waymo.com/waymo-driver/"
+      },
+      {
+        "name": "Waymo Research",
+        "description": "Advanced AI/ML research in perception, prediction, planning, and simulation (WAYMAX)",
+        "url": "https://waymo.com/research/"
+      },
+      {
+        "name": "Waymo Open Dataset",
+        "description": "Industry-leading research dataset for autonomous driving with 1,000+ driving segments",
+        "url": "https://waymo.com/open/"
+      },
+      {
+        "name": "Freeway Driving",
+        "description": "First US company to offer fully autonomous freeway rides at 65 mph (Nov 2025)",
+        "url": "https://www.cnbc.com/2025/11/12/waymo-robotaxi-starts-freeway-highway-rides.html"
+      },
+      {
+        "name": "Fleet Vehicles",
+        "description": "Jaguar I-PACE and Zeekr vehicles purpose-built for autonomous ride-hailing at scale",
+        "url": "https://waymo.com/waymo-one/fleet/"
+      }
+    ],
+    "highlights_title": "Latest news on Waymo",
+    "highlights": [
+      {
+        "text": "Announced expansion to <strong>Minneapolis, New Orleans, Tampa</strong>, with Miami, DC, Tokyo, London in 2026",
+        "url": "https://electrek.co/2025/11/20/waymo-expands-three-us-cities-with-test-vehicles/",
+        "date": "2026"
+      },
+      {
+        "text": "First US company to offer <strong>fully autonomous freeway rides at 65 mph</strong> in LA, SF, Phoenix (Nov 2025)",
+        "url": "https://www.cnbc.com/2025/11/12/waymo-robotaxi-starts-freeway-highway-rides.html",
+        "date": "2025"
+      },
+      {
+        "text": "Named to <strong>TIME100 Most Influential Companies 2025</strong>",
+        "url": "https://time.com/collections/time100-companies-2025/7289599/waymo/",
+        "date": "2025"
+      },
+      {
+        "text": "Raised <strong>$5.6B Series C at $45B+ valuation</strong> led by Alphabet (Oct 2024)",
+        "url": "https://techcrunch.com/2024/11/05/waymos-latest-funding-round-boosts-it-to-45b-valuation/",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>250,000+ paid rides per week</strong> across 5 cities, up from 10K in May 2023 (Apr 2025)",
+        "url": "https://www.thedriverlessdigest.com/p/waymo-stats-2025-funding-growth-coverage",
+        "date": "2023"
+      },
+      {
+        "text": "<strong>Fleet expanded to 2,500 robotaxis</strong> across the US",
+        "url": "https://carboncredits.com/waymo-hits-2500-robotaxi-in-u-s-the-future-of-driverless-rides/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Tekedra Mawakana",
+        "role": "Co-CEO",
+        "photo": "/assets/leadership/waymo-tekedra-mawakana.jpg",
+        "linkedin": "https://www.linkedin.com/in/tnmawakana/"
+      },
+      {
+        "name": "Dmitri Dolgov",
+        "role": "Co-CEO",
+        "photo": "/assets/leadership/waymo-dmitri-dolgov.jpg",
+        "linkedin": "https://www.linkedin.com/in/dmitri-dolgov/"
+      },
+      {
+        "name": "Steve Fieler",
+        "role": "CFO",
+        "photo": "/assets/leadership/waymo-steve-fieler.jpg",
+        "linkedin": "https://www.linkedin.com/in/stevefieler/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Alphabet Inc.",
+        "url": "https://abc.xyz/"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "Tiger Global",
+        "url": "https://www.tigerglobal.com/"
+      },
+      {
+        "name": "Fidelity",
+        "url": "https://www.fidelity.com/"
+      },
+      {
+        "name": "Silver Lake",
+        "url": "https://www.silverlake.com/"
+      },
+      {
+        "name": "Mubadala",
+        "url": "https://www.mubadala.com/"
+      },
+      {
+        "name": "Magna International",
+        "url": "https://www.magna.com/"
+      },
+      {
+        "name": "T. Rowe Price",
+        "url": "https://www.troweprice.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Oct 2024",
+        "amount": "$5.6B",
+        "round": "Series C",
+        "valuation": "$45B+",
+        "investors_html": "<a href=\"https://abc.xyz/\" target=\"_blank\" rel=\"noopener\">Alphabet</a>, <a href=\"https://a16z.com/\" target=\"_blank\" rel=\"noopener\">Andreessen Horowitz</a>, <a href=\"https://www.tigerglobal.com/\" target=\"_blank\" rel=\"noopener\">Tiger Global</a>, <a href=\"https://www.fidelity.com/\" target=\"_blank\" rel=\"noopener\">Fidelity</a>"
+      },
+      {
+        "date": "Jun 2021",
+        "amount": "$2.5B",
+        "round": "Series B",
+        "valuation": "$30B",
+        "investors_html": "<a href=\"https://abc.xyz/\" target=\"_blank\" rel=\"noopener\">Alphabet</a>, <a href=\"https://a16z.com/\" target=\"_blank\" rel=\"noopener\">a16z</a>, <a href=\"https://www.tigerglobal.com/\" target=\"_blank\" rel=\"noopener\">Tiger Global</a>"
+      },
+      {
+        "date": "Mar 2020",
+        "amount": "$2.25B",
+        "round": "Series A",
+        "valuation": "$30B",
+        "investors_html": "<a href=\"https://www.silverlake.com/\" target=\"_blank\" rel=\"noopener\">Silver Lake</a>, <a href=\"https://www.mubadala.com/\" target=\"_blank\" rel=\"noopener\">Mubadala</a>, <a href=\"https://www.magna.com/\" target=\"_blank\" rel=\"noopener\">Magna</a>, <a href=\"https://cpppib.com/\" target=\"_blank\" rel=\"noopener\">CPP Investments</a>"
+      },
+      {
+        "date": "2009-2016",
+        "amount": "—",
+        "round": "Google Project",
+        "valuation": "—",
+        "investors_html": "Alphabet Inc. (internal)"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Waymo LLC",
+      "website": "https://waymo.com",
+      "website_display": "waymo.com",
+      "founded": "2009 (Google), 2016 (Waymo)",
+      "headcount": "2,500+",
+      "hq": "Mountain View, CA",
+      "twitter": "https://twitter.com/waymo",
+      "linkedin": "https://www.linkedin.com/company/waymo"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "+50% from 2020",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2020",
+              "value": "$30B",
+              "height": 113
+            },
+            {
+              "label": "2021",
+              "value": "$30B",
+              "height": 113
+            },
+            {
+              "label": "Oct 24",
+              "value": "$45B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Weekly Rides, K",
+          "badge_text": "+2400% Growth",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "May 23",
+              "value": "10K",
+              "height": 7
+            },
+            {
+              "label": "Aug 24",
+              "value": "100K",
+              "height": 68
+            },
+            {
+              "label": "Nov 24",
+              "value": "175K",
+              "height": 119
+            },
+            {
+              "label": "Apr 25",
+              "value": "250K+",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "WEBFLOW": {
+    "ticker": "WEBFLOW",
+    "name": "Webflow",
+    "logo": "https://logo.clearbit.com/webflow.com",
+    "tagline": "Empowering designers and developers to build professional websites visually without writing code",
+    "tags": [
+      "No-Code",
+      "Web Development",
+      "SaaS",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$4B"
+      },
+      {
+        "label": "Revenue 2024",
+        "value": "$213M"
+      },
+      {
+        "label": "Total Raised",
+        "value": "$335M"
+      },
+      {
+        "label": "Founded",
+        "value": "2013"
+      }
+    ],
+    "overview": "Webflow is a no-code website builder that enables designers and developers to create professional websites visually. Founded in 2013 by Vlad Magdalin, the company raised $335M at $4B valuation in March 2022. Revenue reached $213M in 2024, up from $128M in 2023. Webflow powers millions of websites and has become a leader in the no-code movement. The company has stated they have no plans for an IPO, focusing instead on long-term product development. Analysts project potential $7-10B valuation if growth continues.",
+    "products": [
+      {
+        "name": "Webflow Designer",
+        "description": "Visual web design tool with full CSS control",
+        "url": "https://webflow.com/designer"
+      },
+      {
+        "name": "Webflow CMS",
+        "description": "Content management system for dynamic websites",
+        "url": "https://webflow.com/cms"
+      },
+      {
+        "name": "Webflow Ecommerce",
+        "description": "No-code ecommerce platform for online stores",
+        "url": "https://webflow.com/ecommerce"
+      },
+      {
+        "name": "Webflow Interactions",
+        "description": "Complex animations without code",
+        "url": "https://webflow.com/interactions-animations"
+      },
+      {
+        "name": "Webflow Hosting",
+        "description": "Fast, secure hosting with global CDN",
+        "url": "https://webflow.com/hosting"
+      }
+    ],
+    "highlights_title": "Latest news on Webflow",
+    "highlights": [
+      {
+        "text": "<strong>$213M revenue</strong> in 2024, up from $128M in 2023 (+66%)",
+        "url": "https://taptwicedigital.com/stats/webflow",
+        "date": "2024"
+      },
+      {
+        "text": "<strong>$4B valuation</strong> after $120M Series C (Mar 2022)",
+        "url": "https://www.growthnavigate.com/webflow-valuation",
+        "date": "2022"
+      },
+      {
+        "text": "<strong>$335M total raised</strong> from YC, Accel, CapitalG, Khosla",
+        "url": "https://tracxn.com/d/companies/webflow/__4ydLbavRvsWn4Llop1QC4CHeauSFwj7rhDh41SueLuE"
+      },
+      {
+        "text": "<strong>No IPO plans</strong>—focused on long-term product development",
+        "url": "https://taptwicedigital.com/stats/webflow"
+      },
+      {
+        "title": "Startup Booted: Valuation Analysis",
+        "description": "Analysts project Webflow's potential valuation between $7-10B in future rounds",
+        "url": "https://www.startupbooted.com/webflow-valuation"
+      },
+      {
+        "title": "Contrary Research: Business Breakdown",
+        "description": "Deep dive into Webflow's no-code platform and visual development market opportunity",
+        "url": "https://research.contrary.com/company/webflow"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Linda Tong",
+        "role": "CEO",
+        "photo": "https://cdn.theorg.com/da701bc3-791e-4a23-ba3a-0eb629dc013b_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/lindattong/"
+      },
+      {
+        "name": "Vlad Magdalin",
+        "role": "Co-Founder & Chief Innovation Officer",
+        "photo": "https://cdn.theorg.com/e335654a-8b25-4b7f-b1f5-ed616cdf18cc_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/callmevlad/"
+      },
+      {
+        "name": "Craig Mestel",
+        "role": "CFO",
+        "photo": "https://cdn.theorg.com/6a6b9ef9-cac4-4d13-ac48-24ab799887f6_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/craigmestel/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Y Combinator",
+        "url": "https://www.ycombinator.com/"
+      },
+      {
+        "name": "Accel",
+        "url": "https://www.accel.com/"
+      },
+      {
+        "name": "CapitalG",
+        "url": "https://capitalg.com/"
+      },
+      {
+        "name": "Khosla Ventures",
+        "url": "https://www.khoslaventures.com/"
+      },
+      {
+        "name": "Silversmith Capital",
+        "url": "https://www.silversmith.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Mar 2022",
+        "amount": "$120M",
+        "round": "Series C",
+        "valuation": "$4B",
+        "investors_html": "Y Combinator Continuity"
+      },
+      {
+        "date": "Jan 2021",
+        "amount": "$140M",
+        "round": "Series B",
+        "valuation": "$2.1B",
+        "investors_html": "Accel (lead)"
+      },
+      {
+        "date": "Sep 2019",
+        "amount": "$72M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "CapitalG (lead)"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Webflow, Inc.",
+      "website": "https://webflow.com",
+      "website_display": "webflow.com",
+      "founded": "2013",
+      "headcount": "650+",
+      "hq": "San Francisco, CA",
+      "twitter": "https://twitter.com/webflow",
+      "linkedin": "https://www.linkedin.com/company/webflow-inc-/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+66% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$100M",
+              "height": 80
+            },
+            {
+              "label": "2023",
+              "value": "$128M",
+              "height": 102
+            },
+            {
+              "label": "2024",
+              "value": "$213M",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Valuation, $B",
+          "badge_text": "$4B",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$0.3B",
+              "height": 13
+            },
+            {
+              "label": "2021",
+              "value": "$2.1B",
+              "height": 89
+            },
+            {
+              "label": "2022",
+              "value": "$4B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "WEALTHSIMPLE": {
+    "ticker": "WEALTHSIMPLE",
+    "name": "Wealthsimple",
+    "logo": "https://logo.clearbit.com/wealthsimple.com",
+    "tagline": "Making financial independence achievable for everyone through accessible investing and savings tools",
+    "tags": [
+      "FinTech",
+      "Wealth Management",
+      "Canada",
+      "Neobank"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "CAD $10B"
+      },
+      {
+        "label": "AUM",
+        "value": "CAD $100B"
+      },
+      {
+        "label": "Customers",
+        "value": "3M"
+      },
+      {
+        "label": "Funding (2025)",
+        "value": "CAD $750M"
+      }
+    ],
+    "overview": "Wealthsimple is Canada's largest independent investment management firm, founded in 2014 by Michael Katchen. The company offers investing, trading, crypto, tax filing, and savings products. In October 2025, Wealthsimple raised CAD $750M at $10B valuation—doubling from a year prior. The company reached CAD $100B in assets under administration (up from $50B in 2024) and serves 3M Canadians. Wealthsimple was profitable in 2024 and continues to be in 2025, with plans to launch its first credit card and expand into more financial services.",
+    "products": [
+      {
+        "name": "Wealthsimple Invest",
+        "description": "Automated investing with diversified portfolios",
+        "url": "https://www.wealthsimple.com/en-ca/invest"
+      },
+      {
+        "name": "Wealthsimple Trade",
+        "description": "Commission-free stock and ETF trading",
+        "url": "https://www.wealthsimple.com/en-ca/trade"
+      },
+      {
+        "name": "Wealthsimple Crypto",
+        "description": "Regulated crypto trading platform",
+        "url": "https://www.wealthsimple.com/en-ca/crypto"
+      },
+      {
+        "name": "Wealthsimple Cash",
+        "description": "Spending and saving account",
+        "url": "https://www.wealthsimple.com/en-ca/cash"
+      },
+      {
+        "name": "Wealthsimple Tax",
+        "description": "Free tax filing software",
+        "url": "https://www.wealthsimple.com/en-ca/tax"
+      },
+      {
+        "name": "Wealthsimple Work",
+        "description": "Employer retirement and benefits",
+        "url": "https://www.wealthsimple.com/en-ca/work"
+      },
+      {
+        "name": "Wealthsimple Credit Card",
+        "description": "Upcoming credit card (300K+ waitlist)",
+        "url": "https://www.wealthsimple.com/en-ca/"
+      }
+    ],
+    "highlights_title": "Latest news on Wealthsimple",
+    "highlights": [
+      {
+        "title": "BetaKit: CAD $750M at $10B",
+        "description": "Wealthsimple raises CAD $750M at $10B valuation (Oct 2025)",
+        "url": "https://betakit.com/wealthsimple-raises-750-million-at-10-billion-valuation/"
+      },
+      {
+        "title": "Globe & Mail: AUM Doubles",
+        "description": "Wealthsimple AUM doubles to CAD $100B in one year",
+        "url": "https://www.theglobeandmail.com/business/article-wealthsimple/"
+      },
+      {
+        "title": "Financial Post: Profitability",
+        "description": "Wealthsimple profitable in 2024 and continuing in 2025",
+        "url": "https://financialpost.com/technology/wealthsimple-profitability"
+      },
+      {
+        "title": "Crunchbase: Company Profile",
+        "description": "Wealthsimple funding history and 3M customer base",
+        "url": "https://www.crunchbase.com/organization/wealthsimple"
+      },
+      {
+        "title": "PitchBook: Company Profile",
+        "description": "Wealthsimple valuation, investors and funding history",
+        "url": "https://pitchbook.com/profiles/company/99419-26"
+      },
+      {
+        "title": "Wikipedia: Company Overview",
+        "description": "Wealthsimple history and product offerings",
+        "url": "https://en.wikipedia.org/wiki/Wealthsimple"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Michael Katchen",
+        "role": "Co-founder & CEO",
+        "photo": "https://images.ctfassets.net/v44fuld738we/58mTBuZcdzsDgl4C2N373O/58c24d98a02a1db35634203d22d2379b/Michael_Katchen.png",
+        "linkedin": "https://www.linkedin.com/in/mkatchen/"
+      },
+      {
+        "name": "Radhika Kakkar",
+        "role": "Chief Operating Officer",
+        "photo": "https://images.ctfassets.net/v44fuld738we/6bKOM4hxiLfVCD2rndbiFm/896eb3afa2a420a2c8b73e46a155e126/Radhika_Kakkar.png",
+        "linkedin": "https://www.linkedin.com/in/radhikakakkar/"
+      },
+      {
+        "name": "Jeff Gowen",
+        "role": "Chief Financial Officer",
+        "photo": "https://images.ctfassets.net/v44fuld738we/32SdENdM0vYmc7rXtZMNPo/43be4ae5f8400efa7094e8a45e428d60/Card_Jeff-Gowan-2560–3494.png",
+        "linkedin": "https://www.linkedin.com/in/jeffgowen/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Dragoneer Investment Group",
+        "url": "https://www.dragoneer.com/"
+      },
+      {
+        "name": "GIC",
+        "url": "https://www.gic.com.sg/"
+      },
+      {
+        "name": "CPP Investments",
+        "url": "https://www.cppinvestments.com/"
+      },
+      {
+        "name": "Power Corporation",
+        "url": "https://www.powercorporation.com/"
+      },
+      {
+        "name": "IGM Financial",
+        "url": "https://www.igmfinancial.com/"
+      },
+      {
+        "name": "Greylock",
+        "url": "https://greylock.com/"
+      },
+      {
+        "name": "Meritech Capital",
+        "url": "https://www.meritechcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Oct 2025",
+        "amount": "CAD $750M",
+        "round": "Series E",
+        "valuation": "CAD $10B",
+        "investors_html": "Dragoneer, GIC, CPP Investments"
+      },
+      {
+        "date": "Oct 2024",
+        "amount": "Secondary",
+        "round": "Secondary",
+        "valuation": "CAD $5B",
+        "investors_html": "Employee stock sale"
+      },
+      {
+        "date": "May 2021",
+        "amount": "CAD $750M",
+        "round": "Series D",
+        "valuation": "CAD $5B",
+        "investors_html": "Meritech, Greylock, ICONIQ"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Wealthsimple Inc.",
+      "website": "https://www.wealthsimple.com",
+      "website_display": "wealthsimple.com",
+      "founded": "2014",
+      "headcount": "1,000+",
+      "hq": "Toronto, Canada",
+      "twitter": "https://twitter.com/wealthsimple",
+      "linkedin": "https://www.linkedin.com/company/wealthsimple"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, CAD $B",
+          "badge_text": "2x in 1 Year",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$5B",
+              "height": 85
+            },
+            {
+              "label": "2024",
+              "value": "$5B",
+              "height": 85
+            },
+            {
+              "label": "2025",
+              "value": "$10B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "AUM, CAD $B",
+          "badge_text": "2x in 1 Year",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2023",
+              "value": "$30B",
+              "height": 51
+            },
+            {
+              "label": "2024",
+              "value": "$50B",
+              "height": 85
+            },
+            {
+              "label": "2025",
+              "value": "$100B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "WAND-AI": {
+    "ticker": "WAND-AI",
+    "name": "WAND AI",
+    "logo": "/assets/logos/xWY8d9I3_400x400.jpg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WAND AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WAND AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WAND AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WAND AI",
+      "website": "https://wandai.com",
+      "website_display": "wandai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WANDA-E-COMMERCE": {
+    "ticker": "WANDA-E-COMMERCE",
+    "name": "WANDA E-COMMERCE",
+    "logo": "/assets/logos/Wanda_E-Commerce.jpg",
+    "tagline": "Next-generation e-commerce and retail platform",
+    "tags": [
+      "E-commerce",
+      "Retail Technology",
+      "Marketplace",
+      "Digital Commerce",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "E-commerce"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WANDA E-COMMERCE is a e-commerce company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WANDA E-COMMERCE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WANDA E-COMMERCE",
+    "highlights": [
+      {
+        "text": "Leading e-commerce company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WANDA E-COMMERCE",
+      "website": "https://wandaecommerce.com",
+      "website_display": "wandaecommerce.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WARPDEV": {
+    "ticker": "WARPDEV",
+    "name": "WARP.DEV",
+    "logo": "/assets/logos/warpdev.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WARP.DEV is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WARP.DEV main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WARP.DEV",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WARP.DEV",
+      "website": "https://warpdev.com",
+      "website_display": "warpdev.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WASABI-TECHNOLOGIES": {
+    "ticker": "WASABI-TECHNOLOGIES",
+    "name": "WASABI TECHNOLOGIES",
+    "logo": "/assets/logos/Wasabi_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WASABI TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WASABI TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WASABI TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WASABI TECHNOLOGIES",
+      "website": "https://wasabitechnologies.com",
+      "website_display": "wasabitechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WATERSHED": {
+    "ticker": "WATERSHED",
+    "name": "WATERSHED",
+    "logo": "/assets/logos/Watershed.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WATERSHED is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WATERSHED main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WATERSHED",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WATERSHED",
+      "website": "https://watershed.com",
+      "website_display": "watershed.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WAVE-MOBILE-MONEY": {
+    "ticker": "WAVE-MOBILE-MONEY",
+    "name": "WAVE MOBILE MONEY",
+    "logo": "/assets/logos/Wave_Mobile_Money.png",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WAVE MOBILE MONEY is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WAVE MOBILE MONEY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WAVE MOBILE MONEY",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WAVE MOBILE MONEY",
+      "website": "https://wavemobilemoney.com",
+      "website_display": "wavemobilemoney.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WAYFLYER": {
+    "ticker": "WAYFLYER",
+    "name": "WAYFLYER",
+    "logo": "/assets/logos/Wayflyer.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WAYFLYER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WAYFLYER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WAYFLYER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WAYFLYER",
+      "website": "https://wayflyer.com",
+      "website_display": "wayflyer.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WAYVE": {
+    "ticker": "WAYVE",
+    "name": "Wayve",
+    "logo": "/assets/logos/Wayve.jpeg",
+    "tagline": "Pioneering Embodied AI for autonomous driving with end-to-end deep learning technology",
+    "tags": [
+      "Embodied AI",
+      "AV2.0",
+      "End-to-End Learning",
+      "Mapless Autonomy",
+      "Self-Driving"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation (Talks) 2025",
+        "value": "~$8B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$1.3B+"
+      },
+      {
+        "label": "Founded",
+        "value": "2017"
+      },
+      {
+        "label": "Headcount",
+        "value": "400+"
+      }
+    ],
+    "overview": "Wayve is a British autonomous driving technology company founded in 2017 by Alex Kendall and Amar Shah, two machine learning PhD students from the University of Cambridge. The company pioneers Embodied AI for self-driving vehicles, using end-to-end deep learning that enables vehicles to learn from experience rather than relying on detailed maps or hand-coded rules. Unlike traditional autonomous vehicle systems that depend on expensive LiDAR sensors and high-definition maps, Wayve's approach uses primarily camera data and AI that can adapt to new environments without geofenced limits. The company was the first to deploy end-to-end deep learning autonomous vehicles on public roads. Headquartered in London with offices in California, Vancouver, Germany, and Japan, Wayve has raised over $1.3 billion from investors including SoftBank, Microsoft, Nvidia, and Uber. The company is currently in talks to raise an additional $2 billion at an $8 billion valuation. Wayve's vision is to create a \"general purpose\" driving AI that can power all levels of automation in any vehicle, anywhere in the world.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Wayve main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Wayve",
+    "highlights": [
+      {
+        "text": "In talks to raise $2B from Microsoft and SoftBank at $8B valuation (Oct 2025).",
+        "url": "",
+        "date": "2025"
+      },
+      {
+        "text": "Level 2+ ADAS: Advanced driver assistance systems for consumer vehicles.",
+        "url": ""
+      },
+      {
+        "text": "Level 3 Automation: Hands-free, eyes-off driving capabilities.",
+        "url": ""
+      },
+      {
+        "text": "Level 4 Development: Fully autonomous vehicles for robotaxis and delivery.",
+        "url": ""
+      },
+      {
+        "text": "Fleet Learning Platform: Continuous improvement through real-world data collection.",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Wayve AI Driver: Embodied AI platform for assisted and automated driving.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Wayve",
+      "website": "https://wayve.com",
+      "website_display": "wayve.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEALTHFRONT": {
+    "ticker": "WEALTHFRONT",
+    "name": "WEALTHFRONT",
+    "logo": "/assets/logos/Wealthfront.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEALTHFRONT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEALTHFRONT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEALTHFRONT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEALTHFRONT",
+      "website": "https://wealthfront.com",
+      "website_display": "wealthfront.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEBANK": {
+    "ticker": "WEBANK",
+    "name": "WEBANK",
+    "logo": "/assets/logos/WeBank.jpeg",
+    "tagline": "Innovative financial technology platform",
+    "tags": [
+      "Financial Services",
+      "Digital Payments",
+      "Banking Technology",
+      "Fintech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Fintech"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEBANK is a fintech company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEBANK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEBANK",
+    "highlights": [
+      {
+        "text": "Leading fintech company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEBANK",
+      "website": "https://webank.com",
+      "website_display": "webank.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEBULL": {
+    "ticker": "WEBULL",
+    "name": "WEBULL",
+    "logo": "/assets/logos/Webull.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEBULL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEBULL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEBULL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEBULL",
+      "website": "https://webull.com",
+      "website_display": "webull.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEDOCTOR": {
+    "ticker": "WEDOCTOR",
+    "name": "WEDOCTOR",
+    "logo": "/assets/logos/WeDoctor.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEDOCTOR is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEDOCTOR main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEDOCTOR",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEDOCTOR",
+      "website": "https://wedoctor.com",
+      "website_display": "wedoctor.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEEE": {
+    "ticker": "WEEE",
+    "name": "WEEE!",
+    "logo": "/assets/logos/Weee.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEEE! is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEEE! main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEEE!",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEEE!",
+      "website": "https://weee.com",
+      "website_display": "weee.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEFOX": {
+    "ticker": "WEFOX",
+    "name": "WEFOX",
+    "logo": "/assets/logos/wefox.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Germany"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEFOX is a technology company focused on innovation and growth. The company operates in the Germany market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEFOX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEFOX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Germany",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEFOX",
+      "website": "https://wefox.com",
+      "website_display": "wefox.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEIDIAN-GROUP": {
+    "ticker": "WEIDIAN-GROUP",
+    "name": "WEIDIAN GROUP",
+    "logo": "/assets/logos/Weidian_Group.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEIDIAN GROUP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEIDIAN GROUP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEIDIAN GROUP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEIDIAN GROUP",
+      "website": "https://weidiangroup.com",
+      "website_display": "weidiangroup.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEKA": {
+    "ticker": "WEKA",
+    "name": "WEKA",
+    "logo": "/assets/logos/WEKA.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEKA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEKA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEKA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEKA",
+      "website": "https://weka.com",
+      "website_display": "weka.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WELAB": {
+    "ticker": "WELAB",
+    "name": "WELAB",
+    "logo": "/assets/logos/WeLab.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WELAB is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WELAB main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WELAB",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WELAB",
+      "website": "https://welab.com",
+      "website_display": "welab.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WELLHUB": {
+    "ticker": "WELLHUB",
+    "name": "WELLHUB",
+    "logo": "/assets/logos/Wellhub.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WELLHUB is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WELLHUB main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WELLHUB",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WELLHUB",
+      "website": "https://wellhub.com",
+      "website_display": "wellhub.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WELLONG-ETOWN": {
+    "ticker": "WELLONG-ETOWN",
+    "name": "WELLONG ETOWN",
+    "logo": "/assets/logos/Wellong_Etown.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WELLONG ETOWN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WELLONG ETOWN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WELLONG ETOWN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WELLONG ETOWN",
+      "website": "https://wellongetown.com",
+      "website_display": "wellongetown.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WENHEYOU": {
+    "ticker": "WENHEYOU",
+    "name": "WENHEYOU",
+    "logo": "/assets/logos/Wenheyou.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WENHEYOU is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WENHEYOU main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WENHEYOU",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WENHEYOU",
+      "website": "https://wenheyou.com",
+      "website_display": "wenheyou.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WEWORK-CHINA": {
+    "ticker": "WEWORK-CHINA",
+    "name": "WEWORK CHINA",
+    "logo": "/assets/logos/WeWork_China.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WEWORK CHINA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WEWORK CHINA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WEWORK CHINA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WEWORK CHINA",
+      "website": "https://weworkchina.com",
+      "website_display": "weworkchina.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WHATNOT": {
+    "ticker": "WHATNOT",
+    "name": "Whatnot",
+    "logo": "/assets/logos/Whatnot.jpeg",
+    "tagline": "The largest livestream shopping platform connecting buyers and sellers in real-time across collectibles, fashion, sneakers, and 250+ categories",
+    "tags": [
+      "Live Shopping",
+      "Social Commerce",
+      "Collectibles Marketplace",
+      "Trading Cards",
+      "Fashion & Sneakers"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation Oct 2025",
+        "value": "$11.5B"
+      },
+      {
+        "label": "2025 GMV (YTD)",
+        "value": "$6B+"
+      },
+      {
+        "label": "Weekly Livestream Hours",
+        "value": "175K+"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$968M"
+      }
+    ],
+    "overview": "Whatnot is the largest livestream shopping platform in the United States, United Kingdom, and Europe, founded in 2019 by Grant LaFontaine and Logan Head. The platform revolutionizes e-commerce by combining live video auctions, community engagement, and entertainment to create an interactive shopping experience. Whatnot connects millions of buyers and sellers in real-time across over 250 categories, including collectibles like trading cards, comic books, sports memorabilia, Funko Pops, as well as fashion, sneakers, beauty products, electronics, plants, and vintage items. As of October 2025, Whatnot has achieved a valuation of $11.5 billion following a $225 million Series F funding round, more than doubling its valuation since January 2025. The platform hosts over 175,000 hours of livestreams weekly and has facilitated over $6 billion in gross merchandise value in 2025 alone, more than twice its total for all of 2024.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "Whatnot main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on Whatnot",
+    "highlights": [
+      {
+        "text": "Whatnot continues to grow and expand",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Live Auctions: Real-time bidding on collectibles and products through livestreams.",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "Whatnot",
+      "website": "https://whatnot.com",
+      "website_display": "whatnot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WHOOP": {
+    "ticker": "WHOOP",
+    "name": "WHOOP",
+    "logo": "/assets/logos/WHOOP.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WHOOP is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WHOOP main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WHOOP",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WHOOP",
+      "website": "https://whoop.com",
+      "website_display": "whoop.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WIFI-SKELETON-KEY": {
+    "ticker": "WIFI-SKELETON-KEY",
+    "name": "WIFI SKELETON KEY",
+    "logo": "/assets/logos/Wifi_Skeleton_Key.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WIFI SKELETON KEY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WIFI SKELETON KEY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WIFI SKELETON KEY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WIFI SKELETON KEY",
+      "website": "https://wifiskeletonkey.com",
+      "website_display": "wifiskeletonkey.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WILDLIFE-STUDIOS": {
+    "ticker": "WILDLIFE-STUDIOS",
+    "name": "WILDLIFE STUDIOS",
+    "logo": "/assets/logos/Wildlife_Studios.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WILDLIFE STUDIOS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WILDLIFE STUDIOS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WILDLIFE STUDIOS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WILDLIFE STUDIOS",
+      "website": "https://wildlifestudios.com",
+      "website_display": "wildlifestudios.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WILIOT": {
+    "ticker": "WILIOT",
+    "name": "WILIOT",
+    "logo": "/assets/logos/wiliot.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WILIOT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WILIOT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WILIOT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WILIOT",
+      "website": "https://wiliot.com",
+      "website_display": "wiliot.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WILSON-WOLF-CORPORATION": {
+    "ticker": "WILSON-WOLF-CORPORATION",
+    "name": "WILSON WOLF CORPORATION",
+    "logo": "/assets/logos/Wilson_Wolf_Corporation.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WILSON WOLF CORPORATION is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WILSON WOLF CORPORATION main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WILSON WOLF CORPORATION",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WILSON WOLF CORPORATION",
+      "website": "https://wilsonwolfcorporation.com",
+      "website_display": "wilsonwolfcorporation.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WIRELESS-LOGIC": {
+    "ticker": "WIRELESS-LOGIC",
+    "name": "WIRELESS LOGIC",
+    "logo": "/assets/logos/Wireless_Logic.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WIRELESS LOGIC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WIRELESS LOGIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WIRELESS LOGIC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WIRELESS LOGIC",
+      "website": "https://wirelesslogic.com",
+      "website_display": "wirelesslogic.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WISK-AERO": {
+    "ticker": "WISK-AERO",
+    "name": "WISK AERO",
+    "logo": "/assets/logos/Wisk_Aero.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WISK AERO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WISK AERO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WISK AERO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WISK AERO",
+      "website": "https://wiskaero.com",
+      "website_display": "wiskaero.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WOMAI": {
+    "ticker": "WOMAI",
+    "name": "WOMAI",
+    "logo": "/assets/logos/Womai.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WOMAI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WOMAI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WOMAI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WOMAI",
+      "website": "https://womai.com",
+      "website_display": "womai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WONDER": {
+    "ticker": "WONDER",
+    "name": "WONDER",
+    "logo": "/assets/logos/Wonder.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WONDER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WONDER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WONDER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WONDER",
+      "website": "https://wonder.com",
+      "website_display": "wonder.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WORKATO": {
+    "ticker": "WORKATO",
+    "name": "WORKATO",
+    "logo": "/assets/logos/Workato.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WORKATO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WORKATO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WORKATO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WORKATO",
+      "website": "https://workato.com",
+      "website_display": "workato.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WORKHUMAN": {
+    "ticker": "WORKHUMAN",
+    "name": "WORKHUMAN",
+    "logo": "/assets/logos/Workhuman.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WORKHUMAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WORKHUMAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WORKHUMAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WORKHUMAN",
+      "website": "https://workhuman.com",
+      "website_display": "workhuman.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WORLD": {
+    "ticker": "WORLD",
+    "name": "WORLD",
+    "logo": "/assets/logos/World.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WORLD is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WORLD main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WORLD",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WORLD",
+      "website": "https://world.com",
+      "website_display": "world.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WORLD-LABS": {
+    "ticker": "WORLD-LABS",
+    "name": "WORLD LABS",
+    "logo": "/assets/logos/World_Labs.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WORLD LABS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WORLD LABS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WORLD LABS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WORLD LABS",
+      "website": "https://worldlabs.com",
+      "website_display": "worldlabs.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WORMHOLE": {
+    "ticker": "WORMHOLE",
+    "name": "WORMHOLE",
+    "logo": "/assets/logos/Wormhole.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WORMHOLE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WORMHOLE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WORMHOLE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WORMHOLE",
+      "website": "https://wormhole.com",
+      "website_display": "wormhole.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "WRITER": {
+    "ticker": "WRITER",
+    "name": "WRITER",
+    "logo": "/assets/logos/Writer.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "WRITER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "WRITER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on WRITER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "WRITER",
+      "website": "https://writer.com",
+      "website_display": "writer.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

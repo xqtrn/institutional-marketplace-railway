@@ -1,0 +1,300 @@
+<!-- Auth Script -->
+<script src="./js/auth.js"></script>
+<script>
+    // Check authentication
+    if (!getSession() || !hasPermission('admin')) {
+        window.location.href = '/login.html?redirect=' + encodeURIComponent(window.location.pathname);
+    }
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Updater | Institutional Marketplace</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./css/auto-updater.css">
+</head>
+<body>
+<div id="institutional-overlay-platform" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; overflow: auto;">
+
+<!-- Offcanvas Overlay -->
+<div class="cs-site-overlay" id="siteOverlay" onclick="closeOffcanvas()"></div>
+
+<!-- Offcanvas Menu -->
+<div class="cs-offcanvas" id="offcanvasMenu">
+    <div class="cs-offcanvas__header">
+        <div class="cs-offcanvas__logo">
+            <span style="color: #fff; font-size: 18px; font-weight: 700;">Institutional Marketplace</span>
+        </div>
+        <span class="cs-offcanvas__toggle" role="button" onclick="closeOffcanvas()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </span>
+    </div>
+    <aside class="cs-offcanvas__sidebar">
+        <nav class="cs-offcanvas__nav">
+            <ul class="offcanvas-menu">
+                <li class="menu-item"><a href="/">Marketplace</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                <li class="menu-item"><a href="/admin.html">Admin Marketplace</a></li>
+                <li class="menu-item" id="usersMenuItem" style="display: none;"><a href="/users.html">Users</a></li>
+                <li class="menu-item"><a href="/partners.html">Partners</a></li>
+                <li class="menu-item"><a href="/companies.html">Companies</a></li>
+                <li class="menu-item"><a href="/issuers.html">Issuers</a></li>
+                <li class="menu-item active"><a href="/auto-updater.html">Auto-Updater</a></li>
+            </ul>
+        </nav>
+        <div class="offcanvas-footer" id="offcanvasFooter">
+            <button class="logout-btn" onclick="logout()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                    <polyline points="16 17 21 12 16 7"></polyline>
+                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Logout
+            </button>
+        </div>
+    </aside>
+    <script>
+        // Show Users menu item and logout if user is logged in
+        const session = typeof getSession === 'function' ? getSession() : null;
+        if (session) {
+            document.getElementById('offcanvasFooter').style.display = 'block';
+            if (session.role === 'super_admin') {
+                document.getElementById('usersMenuItem').style.display = 'block';
+            }
+        }
+    </script>
+</div>
+
+<!-- Main Content -->
+<div class="auto-updater-container">
+    <!-- Header -->
+    <div class="au-header">
+        <div class="au-header-left">
+            <button class="platform-menu-button" onclick="openOffcanvas()">
+                <span></span>
+            </button>
+            <h1>Auto-Updater</h1>
+            <span class="au-status-badge" id="statusBadge">Idle</span>
+        </div>
+        <div class="au-header-right">
+            <button class="au-btn au-btn-secondary" id="btnSettings" onclick="toggleSettings()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M12 1v6m0 6v6m-7.071-3.071l4.243-4.243m4.243-4.243l4.243-4.243m-12.728 0l4.243 4.243m4.243 4.243l4.243 4.243"></path>
+                </svg>
+                Settings
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="au-grid">
+        <!-- Left Panel: Controls -->
+        <div class="au-panel au-controls">
+            <h2>Processing Controls</h2>
+
+            <!-- Mode Selection -->
+            <div class="au-form-group">
+                <label>Processing Mode</label>
+                <div class="au-radio-group">
+                    <label class="au-radio">
+                        <input type="radio" name="mode" value="initial" checked>
+                        <span>Initial Processing</span>
+                        <small>Full research, must reach 100% KPI</small>
+                    </label>
+                    <label class="au-radio">
+                        <input type="radio" name="mode" value="daily">
+                        <span>Daily Update</span>
+                        <small>Check for new news/funding only</small>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Company Selection -->
+            <div class="au-form-group">
+                <label>Companies to Process</label>
+                <div class="au-select-group">
+                    <select id="filterType" onchange="updateFilterValue()">
+                        <option value="all">All Companies</option>
+                        <option value="file">Specific File (A-Z)</option>
+                        <option value="ticker">Single Ticker</option>
+                    </select>
+                    <input type="text" id="filterValue" placeholder="Enter file key or ticker" style="display: none;">
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="au-actions">
+                <button class="au-btn au-btn-primary" id="btnBuild" onclick="buildQueue()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 6h18M3 12h18M3 18h18"></path>
+                    </svg>
+                    Build Queue
+                </button>
+                <button class="au-btn au-btn-success" id="btnStart" onclick="startProcessing()" disabled>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    Start
+                </button>
+                <button class="au-btn au-btn-warning" id="btnPause" onclick="pauseProcessing()" style="display: none;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="6" y="4" width="4" height="16"></rect>
+                        <rect x="14" y="4" width="4" height="16"></rect>
+                    </svg>
+                    Pause
+                </button>
+                <button class="au-btn au-btn-danger" id="btnStop" onclick="stopProcessing()" style="display: none;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    </svg>
+                    Stop
+                </button>
+            </div>
+
+            <!-- Progress Stats -->
+            <div class="au-stats" id="statsPanel" style="display: none;">
+                <div class="au-stat">
+                    <span class="au-stat-value" id="statTotal">0</span>
+                    <span class="au-stat-label">Total</span>
+                </div>
+                <div class="au-stat">
+                    <span class="au-stat-value" id="statPending">0</span>
+                    <span class="au-stat-label">Pending</span>
+                </div>
+                <div class="au-stat">
+                    <span class="au-stat-value au-stat-success" id="statCompleted">0</span>
+                    <span class="au-stat-label">Completed</span>
+                </div>
+                <div class="au-stat">
+                    <span class="au-stat-value au-stat-error" id="statFailed">0</span>
+                    <span class="au-stat-label">Failed</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="au-progress-container" id="progressContainer" style="display: none;">
+                <div class="au-progress-bar">
+                    <div class="au-progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+                <div class="au-progress-text">
+                    <span id="progressText">0%</span>
+                    <span id="progressETA"></span>
+                </div>
+            </div>
+
+            <!-- Current Processing -->
+            <div class="au-current" id="currentPanel" style="display: none;">
+                <div class="au-current-label">Currently Processing:</div>
+                <div class="au-current-ticker" id="currentTicker">-</div>
+                <div class="au-current-status" id="currentStatus">-</div>
+            </div>
+        </div>
+
+        <!-- Center Panel: Logs -->
+        <div class="au-panel au-logs">
+            <div class="au-panel-header">
+                <h2>Activity Log</h2>
+                <button class="au-btn au-btn-small" onclick="clearLogs()">Clear</button>
+            </div>
+            <div class="au-log-container" id="logContainer">
+                <div class="au-log-empty">No activity yet. Build a queue to start.</div>
+            </div>
+        </div>
+
+        <!-- Right Panel: KPI Results -->
+        <div class="au-panel au-results">
+            <div class="au-panel-header">
+                <h2>KPI Validation Results</h2>
+                <select id="resultFilter" onchange="filterResults()">
+                    <option value="all">All</option>
+                    <option value="passed">Passed</option>
+                    <option value="failed">Failed</option>
+                </select>
+            </div>
+            <div class="au-results-container" id="resultsContainer">
+                <div class="au-results-empty">No validation results yet.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Panel (Hidden by default) -->
+    <div class="au-settings-panel" id="settingsPanel" style="display: none;">
+        <div class="au-settings-header">
+            <h2>KPI Configuration</h2>
+            <button class="au-btn au-btn-small" onclick="toggleSettings()">Close</button>
+        </div>
+        <div class="au-settings-content">
+            <div class="au-settings-section">
+                <h3>Products</h3>
+                <div class="au-setting-row">
+                    <label>Minimum products</label>
+                    <input type="number" id="kpi_products_min" value="4" min="1" max="10">
+                </div>
+                <div class="au-setting-row">
+                    <label>Min description words</label>
+                    <input type="number" id="kpi_products_words" value="30" min="10" max="100">
+                </div>
+            </div>
+            <div class="au-settings-section">
+                <h3>Highlights</h3>
+                <div class="au-setting-row">
+                    <label>Minimum highlights</label>
+                    <input type="number" id="kpi_highlights_min" value="8" min="4" max="20">
+                </div>
+                <div class="au-setting-row">
+                    <label>Min Tier 1 sources</label>
+                    <input type="number" id="kpi_highlights_tier1" value="4" min="2" max="10">
+                </div>
+                <div class="au-setting-row">
+                    <label>Max company blog</label>
+                    <input type="number" id="kpi_highlights_blog" value="2" min="0" max="5">
+                </div>
+            </div>
+            <div class="au-settings-section">
+                <h3>Leadership</h3>
+                <div class="au-setting-row">
+                    <label>Minimum leaders</label>
+                    <input type="number" id="kpi_leadership_min" value="4" min="2" max="10">
+                </div>
+                <div class="au-setting-row">
+                    <label>Require photos</label>
+                    <input type="checkbox" id="kpi_leadership_photos" checked>
+                </div>
+            </div>
+            <div class="au-settings-section">
+                <h3>Charts</h3>
+                <div class="au-setting-row">
+                    <label>Minimum charts</label>
+                    <input type="number" id="kpi_charts_min" value="3" min="1" max="6">
+                </div>
+            </div>
+            <div class="au-settings-section">
+                <h3>Processing</h3>
+                <div class="au-setting-row">
+                    <label>Max retries</label>
+                    <input type="number" id="setting_retries" value="3" min="1" max="10">
+                </div>
+                <div class="au-setting-row">
+                    <label>Skip on failure</label>
+                    <input type="checkbox" id="setting_skip">
+                </div>
+            </div>
+            <div class="au-settings-actions">
+                <button class="au-btn au-btn-secondary" onclick="resetSettings()">Reset to Default</button>
+                <button class="au-btn au-btn-primary" onclick="saveSettings()">Save Settings</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/auto-updater.js"></script>
+</div>
+</body>
+</html>

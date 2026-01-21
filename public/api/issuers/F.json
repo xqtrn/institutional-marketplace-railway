@@ -1,0 +1,6414 @@
+{
+  "FIGURE": {
+    "ticker": "FIGURE",
+    "name": "Figure AI",
+    "logo": "https://logo.clearbit.com/figure.ai",
+    "tagline": "Building the world's first commercially viable general-purpose humanoid robot to address the global labor shortage",
+    "tags": [
+      "Humanoid Robotics",
+      "AI",
+      "Manufacturing",
+      "USA"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation (Sep 2025)",
+        "value": "$39B"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$1.75B"
+      },
+      {
+        "label": "Production Target",
+        "value": "100K Robots"
+      },
+      {
+        "label": "BotQ Capacity",
+        "value": "12K/year"
+      }
+    ],
+    "overview": "Figure AI is a Sunnyvale, California-based robotics company founded in 2022 by serial entrepreneur Brett Adcock. The company is developing general-purpose humanoid robots designed to address global labor shortages in warehousing, logistics, and manufacturing. Figure assembled its team from robotics experts from Boston Dynamics, Tesla, Google DeepMind, and Apple. In September 2025, Figure exceeded $1 billion in Series C funding at a $39 billion post-money valuation, making it one of the most valuable robotics startups in history. The company partnered with BMW for real-world testing at their Spartanburg plant, where Figure 02 robots demonstrated 400% speed improvements and 7x success rate gains in manufacturing tasks.",
+    "products": [
+      {
+        "name": "Figure 03",
+        "description": "Third-generation humanoid with complete hardware/software redesign, 60% wider field of view, palm cameras, and tactile sensors detecting forces as small as 3 grams (Oct 2025)",
+        "url": "https://www.figure.ai/news/introducing-figure-03"
+      },
+      {
+        "name": "Figure 02 with Helix",
+        "description": "1.68m tall, 60kg, 25kg lift capacity, 6 RGB cameras, 16 DoF hands, 5+ hour battery runtime, 3x computing power with NVIDIA RTX GPUs",
+        "url": "https://www.figure.ai/news/helix"
+      },
+      {
+        "name": "Helix VLA Model",
+        "description": "Vision-language-action neural network: System 2 at 7-9 Hz for high-level planning, System 1 at 200 Hz for real-time control, full upper-body coordination",
+        "url": "https://www.figure.ai/news/helix"
+      },
+      {
+        "name": "BotQ Manufacturing Facility",
+        "description": "California-based factory capable of producing 12,000 humanoids/year, robots building robots, injection molding in 20 seconds vs week on CNC",
+        "url": "https://www.figure.ai/news/botq"
+      },
+      {
+        "name": "Figure 01",
+        "description": "Original prototype for logistics and warehousing, demonstrated at BMW factory in Spartanburg, SC",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0444265EN"
+      },
+      {
+        "name": "Custom AI Partnership",
+        "description": "Collaboration with OpenAI (now ended) for conversational capabilities; developing in-house AI models",
+        "url": "https://techcrunch.com/2025/01/07/figure-will-no-longer-use-openais-llms-for-humanoid-robots/"
+      }
+    ],
+    "highlights_title": "Latest news on Figure AI",
+    "highlights": [
+      {
+        "text": "Raised <strong>$1B+ Series C at $39B valuation</strong> (Sep 2025) led by Parkway Venture Capital",
+        "url": "https://www.figure.ai/news/series-c",
+        "date": "2025"
+      },
+      {
+        "text": "Introduced <strong>Figure 03</strong> third-generation humanoid robot (Oct 2025)",
+        "url": "https://www.figure.ai/news/introducing-figure-03",
+        "date": "2025"
+      },
+      {
+        "text": "Unveiled <strong>BotQ manufacturing facility</strong> targeting 12,000 robots/year production (Mar 2025)",
+        "url": "https://www.figure.ai/news/botq",
+        "date": "2025"
+      },
+      {
+        "text": "Announced <strong>Helix</strong> vision-language-action model for generalist humanoid control (Feb 2025)",
+        "url": "https://www.figure.ai/news/helix",
+        "date": "2025"
+      },
+      {
+        "text": "Ended OpenAI collaboration; LLMs becoming \"smarter yet more commoditized\" (2025)",
+        "url": "https://techcrunch.com/2025/01/07/figure-will-no-longer-use-openais-llms-for-humanoid-robots/",
+        "date": "2025"
+      },
+      {
+        "text": "Raised <strong>$675M Series B</strong> at $2.6B valuation with Microsoft, NVIDIA, Jeff Bezos, OpenAI (Feb 2024)",
+        "url": "https://techcrunch.com/2024/02/29/figure-raises-675m-at-2-6b-valuation/",
+        "date": "2024"
+      },
+      {
+        "text": "Brett Adcock named to <strong>TIME's 100 Most Influential People in AI 2024</strong>",
+        "url": "https://time.com/7012726/brett-adcock/",
+        "date": "2024"
+      },
+      {
+        "text": "BMW tests <strong>Figure 02 at Spartanburg plant</strong> – 400% faster, 7x better success rate",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0444265EN"
+      },
+      {
+        "text": "Plan to ship <strong>100,000 humanoids</strong> over the next four years",
+        "url": "https://www.figure.ai/news/series-c"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Brett Adcock",
+        "role": "Founder & CEO",
+        "photo": "/assets/leadership/figure-brett-adcock.jpg",
+        "linkedin": "https://www.linkedin.com/in/brettadcock/"
+      },
+      {
+        "name": "Dana Berlin",
+        "role": "VP, Commercialization & Capital",
+        "photo": "/assets/leadership/figure-dana-berlin.jpg",
+        "linkedin": "https://www.linkedin.com/in/danaberlin/"
+      },
+      {
+        "name": "Lee Randaccio",
+        "role": "VP, Growth",
+        "photo": "/assets/leadership/figure-lee-randaccio.jpg",
+        "linkedin": "https://www.linkedin.com/in/leerandaccio/"
+      },
+      {
+        "name": "Logan Berkowitz",
+        "role": "VP, Business Operations",
+        "photo": "https://ui-avatars.com/api/?name=Logan+Berkowitz&background=0A64BC&color=fff",
+        "linkedin": "https://www.linkedin.com/in/lzberkow/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com/"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/"
+      },
+      {
+        "name": "OpenAI Startup Fund",
+        "url": "https://openai.com/"
+      },
+      {
+        "name": "Jeff Bezos (Bezos Expeditions)",
+        "url": "https://www.bezosexpeditions.com/"
+      },
+      {
+        "name": "Parkway Venture Capital",
+        "url": "https://parkwayvc.com/"
+      },
+      {
+        "name": "Brookfield Asset Management",
+        "url": "https://www.brookfield.com/"
+      },
+      {
+        "name": "Intel Capital",
+        "url": "https://www.intel.com/capital"
+      },
+      {
+        "name": "ARK Invest",
+        "url": "https://ark-invest.com/"
+      },
+      {
+        "name": "Amazon Industrial Innovation Fund",
+        "url": "https://www.amazon.jobs/en/teams/amazon-industrial-innovation-fund"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Sep 2025",
+        "amount": "$1B+",
+        "round": "Series C",
+        "valuation": "$39B",
+        "investors_html": "<a href=\"https://parkwayvc.com/\" target=\"_blank\" rel=\"noopener\">Parkway Venture Capital</a>, <a href=\"https://www.brookfield.com/\" target=\"_blank\" rel=\"noopener\">Brookfield</a>, <a href=\"https://www.nvidia.com/\" target=\"_blank\" rel=\"noopener\">NVIDIA</a>, <a href=\"https://www.macquarie.com/\" target=\"_blank\" rel=\"noopener\">Macquarie</a>, Intel, LG, Salesforce, T-Mobile, Qualcomm"
+      },
+      {
+        "date": "Feb 2024",
+        "amount": "$675M",
+        "round": "Series B",
+        "valuation": "$2.6B",
+        "investors_html": "<a href=\"https://www.microsoft.com/\" target=\"_blank\" rel=\"noopener\">Microsoft</a>, <a href=\"https://openai.com/\" target=\"_blank\" rel=\"noopener\">OpenAI</a>, <a href=\"https://www.nvidia.com/\" target=\"_blank\" rel=\"noopener\">NVIDIA</a>, <a href=\"https://www.bezosexpeditions.com/\" target=\"_blank\" rel=\"noopener\">Jeff Bezos</a>, Intel Capital, ARK Invest, Amazon Industrial Innovation Fund"
+      },
+      {
+        "date": "2023",
+        "amount": "$70M",
+        "round": "Series A",
+        "valuation": "—",
+        "investors_html": "Early Investors"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Figure AI, Inc.",
+      "website": "https://www.figure.ai",
+      "website_display": "figure.ai",
+      "founded": "2022",
+      "headcount": "40+ robotics experts",
+      "hq": "Sunnyvale, California",
+      "twitter": "https://twitter.com/Figure_robot",
+      "linkedin": "https://www.linkedin.com/company/figure-ai/"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "+1400% in 18 months",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2023",
+              "value": "~$0.4B",
+              "height": 10
+            },
+            {
+              "label": "Feb 24",
+              "value": "$2.6B",
+              "height": 45
+            },
+            {
+              "label": "Mid 24",
+              "value": "~$6B",
+              "height": 75
+            },
+            {
+              "label": "Sep 25",
+              "value": "$39B",
+              "height": 170
+            }
+          ]
+        },
+        {
+          "title": "Total Funding, $M",
+          "badge_text": "$1.75B Total",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "Series A",
+              "value": "$70M",
+              "height": 25
+            },
+            {
+              "label": "Series B",
+              "value": "$675M",
+              "height": 70
+            },
+            {
+              "label": "Series C",
+              "value": "$1B+",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FANATICS": {
+    "ticker": "FANATICS",
+    "name": "Fanatics",
+    "logo": "https://cdn.brandfetch.io/idMJINEdns/theme/dark/logo.svg",
+    "tagline": "Global digital sports platform operating licensed merchandise, trading cards collectibles, sports betting, and live commerce businesses",
+    "tags": [
+      "Sports",
+      "E-Commerce",
+      "Collectibles",
+      "Sports Betting",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$17-31B"
+      },
+      {
+        "label": "2024 Revenue",
+        "value": "$8.1B"
+      },
+      {
+        "label": "Commerce Revenue",
+        "value": "$6.2B"
+      },
+      {
+        "label": "Collectibles Revenue",
+        "value": "$1.6B"
+      }
+    ],
+    "overview": "Fanatics, Inc. is an American sports merchandise and technology company founded by Michael Rubin in 1995. The company has evolved from a licensed apparel retailer into a diversified digital sports platform spanning Commerce (77% of revenue), Collectibles/Trading Cards (20%), and Sports Betting (4%). In 2024, Fanatics generated $8.1 billion in revenue (up 15% YoY) and expects to be EBITDA profitable in 2025. Fanatics Collectibles has shown remarkable growth, with revenue jumping 40% to $1.6 billion after acquiring Topps in 2022. The company's valuation ranges from $17-31 billion on secondary markets, down from its $31 billion peak in 2022.",
+    "products": [
+      {
+        "name": "Fanatics Commerce",
+        "description": "Licensed sports merchandise and apparel representing $6.2B revenue (77% of total)",
+        "url": "https://www.fanatics.com/"
+      },
+      {
+        "name": "Fanatics Collectibles",
+        "description": "Trading cards (Topps, Panini) with $1.6B revenue, 40% growth YoY, 20%+ EBITDA margins",
+        "url": "https://www.topps.com/"
+      },
+      {
+        "name": "Fanatics Sportsbook",
+        "description": "Sports betting available in 20 states, ~5% market share after PointsBet acquisition",
+        "url": "https://sportsbook.fanaticsbetting.com/"
+      },
+      {
+        "name": "Fanatics Live",
+        "description": "Live commerce platform for trading card breaks and limited edition merchandise drops",
+        "url": "https://www.fanaticslive.com/"
+      },
+      {
+        "name": "Fanatics Fest",
+        "description": "Annual fan festival featuring sports celebrities, collectibles, and exclusive merchandise",
+        "url": "https://fanaticsfest.com/"
+      },
+      {
+        "name": "Fanatics Authentic",
+        "description": "Authenticated memorabilia and autographed collectibles",
+        "url": "https://www.fanatics.com/authentic"
+      },
+      {
+        "name": "Mitchell & Ness",
+        "description": "Premium vintage and retro sports apparel brand",
+        "url": "https://www.mitchellandness.com/"
+      }
+    ],
+    "highlights_title": "Latest news on Fanatics",
+    "highlights": [
+      {
+        "text": "<strong>Expects EBITDA profitability in 2025</strong>—CFO Glenn Schiffman",
+        "url": "https://www.sportico.com/business/finance/2025/fanatics-2024-sales-rise-1234824898/",
+        "date": "2025"
+      },
+      {
+        "text": "2024 revenue reached <strong>$8.1B</strong>, up 15% YoY",
+        "url": "https://www.sportico.com/business/finance/2025/fanatics-2024-sales-rise-1234824898/",
+        "date": "2024"
+      },
+      {
+        "text": "Acquired <strong>PointsBet US for $225M</strong> (Apr 2024)—sportsbook now in 20 states",
+        "url": "https://sacra.com/c/fanatics/",
+        "date": "2024"
+      },
+      {
+        "text": "Michael Rubin named <strong>Sports Illustrated 50 Most Influential 2024</strong>",
+        "url": "https://www.fanaticsinc.com/michael-rubin",
+        "date": "2024"
+      },
+      {
+        "text": "Ended 2024 with <strong>$1B cash, only $400M debt</strong>",
+        "url": "https://www.sportico.com/business/finance/2025/fanatics-2024-sales-rise-1234824898/",
+        "date": "2024"
+      },
+      {
+        "text": "Trading card revenue <strong>4x since Topps acquisition</strong>—from $368M (2020) to $1.6B",
+        "url": "https://www.sportico.com/business/finance/2025/fanatics-2024-sales-rise-1234824898/",
+        "date": "2020"
+      },
+      {
+        "text": "Collectibles revenue <strong>jumped 40% to $1.6B</strong> with 20%+ EBITDA margins",
+        "url": "https://www.sportico.com/business/finance/2025/fanatics-2024-sales-rise-1234824898/"
+      },
+      {
+        "text": "Sports betting captured <strong>~5% market share</strong>, targeting 40% of future revenue",
+        "url": "https://www.ingame.com/rubin-fanatics-revenue-sports-betting/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Michael Rubin",
+        "role": "Founder & CEO",
+        "photo": "https://cdn.theorg.com/17e6f69e-6127-4bc9-a27b-742ae4c4025e_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/michael--rubin/"
+      },
+      {
+        "name": "Glenn Schiffman",
+        "role": "EVP & Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/a95656b2-6676-46b6-bd48-e0c1d0146c2a_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/glenn-schiffman/"
+      },
+      {
+        "name": "Andrew Low Ah Kee",
+        "role": "CEO, Fanatics Commerce",
+        "photo": "https://cdn.theorg.com/c3976d12-c871-46cd-a733-7478ebf7307f_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/andrewlowahkee/"
+      },
+      {
+        "name": "Matt King",
+        "role": "CEO, Fanatics Betting & Gaming",
+        "photo": "https://cdn.theorg.com/8636016d-2096-4bae-9b96-3be9484d0f37_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/matthewking/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "SoftBank Vision Fund",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Silver Lake",
+        "url": "https://www.silverlake.com/"
+      },
+      {
+        "name": "Fidelity",
+        "url": "https://www.fidelity.com/"
+      },
+      {
+        "name": "MLB",
+        "url": "https://www.mlb.com/"
+      },
+      {
+        "name": "NFL",
+        "url": "https://www.nfl.com/"
+      },
+      {
+        "name": "NBA",
+        "url": "https://www.nba.com/"
+      },
+      {
+        "name": "NHL",
+        "url": "https://www.nhl.com/"
+      },
+      {
+        "name": "Blackstone",
+        "url": "https://www.blackstone.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "amount": "—",
+        "round": "Secondary",
+        "valuation": "$25B",
+        "investors_html": "Employee share sale"
+      },
+      {
+        "date": "Dec 2022",
+        "amount": "$700M",
+        "round": "Series E",
+        "valuation": "$31B",
+        "investors_html": "<a href=\"https://www.fidelity.com/\" target=\"_blank\" rel=\"noopener\">Fidelity</a>, <a href=\"https://www.silverlake.com/\" target=\"_blank\" rel=\"noopener\">Silver Lake</a>, <a href=\"https://visionfund.com/\" target=\"_blank\" rel=\"noopener\">SoftBank</a>"
+      },
+      {
+        "date": "Aug 2021",
+        "amount": "$325M",
+        "round": "Series D",
+        "valuation": "$18B",
+        "investors_html": "<a href=\"https://www.silverlake.com/\" target=\"_blank\" rel=\"noopener\">Silver Lake</a>, <a href=\"https://www.fidelity.com/\" target=\"_blank\" rel=\"noopener\">Fidelity</a>"
+      },
+      {
+        "date": "Mar 2021",
+        "amount": "$320M",
+        "round": "Series C",
+        "valuation": "$12.8B",
+        "investors_html": "<a href=\"https://visionfund.com/\" target=\"_blank\" rel=\"noopener\">SoftBank</a>"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Fanatics, Inc.",
+      "website": "https://www.fanaticsinc.com",
+      "website_display": "fanaticsinc.com",
+      "founded": "1995",
+      "headcount": "10,000+",
+      "hq": "Jacksonville, Florida",
+      "twitter": "https://twitter.com/Fanatics",
+      "linkedin": "https://www.linkedin.com/company/fanatics-inc"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "-45% from 2022 peak",
+          "badge_type": "negative",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$18B",
+              "height": 99
+            },
+            {
+              "label": "2022",
+              "value": "$31B",
+              "height": 170
+            },
+            {
+              "label": "2024",
+              "value": "$17-25B",
+              "height": 115
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $B",
+          "badge_text": "+131% from 2021",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$3.5B",
+              "height": 74
+            },
+            {
+              "label": "2022",
+              "value": "$6.0B",
+              "height": 126
+            },
+            {
+              "label": "2023",
+              "value": "$7.0B",
+              "height": 147
+            },
+            {
+              "label": "2024",
+              "value": "$8.1B",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FLEXPORT": {
+    "ticker": "FLEXPORT",
+    "name": "Flexport",
+    "logo": "https://logo.clearbit.com/flexport.com",
+    "tagline": "Making global trade easy for everyone through technology-powered freight forwarding",
+    "tags": [
+      "Logistics",
+      "Supply Chain",
+      "Freight",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$3.8B"
+      },
+      {
+        "label": "Revenue (2024)",
+        "value": "$2.1B"
+      },
+      {
+        "label": "Peak Revenue",
+        "value": "$5B (2022)"
+      },
+      {
+        "label": "Total Funding",
+        "value": "$2.5B"
+      }
+    ],
+    "overview": "Flexport is a digital freight forwarding and supply chain platform founded in 2013 by Ryan Petersen. The company provides technology-enabled logistics services including ocean, air, and truck freight. Flexport's valuation fell to $3.8B in 2024 (down from $8B peak in 2022) after freight rates normalized post-COVID. Revenue rebounded 30% to $2.1B in 2024 from a $1.6B low in 2023 (down from $5B peak in 2022). In 2023, Flexport acquired Shopify's logistics operations, making Shopify a 17% stakeholder. The company expects to be 'quite profitable' by end of 2025.",
+    "products": [
+      {
+        "name": "Flexport Platform",
+        "description": "End-to-end supply chain visibility and management",
+        "url": "https://www.flexport.com/"
+      },
+      {
+        "name": "Ocean Freight",
+        "description": "Full container load and less-than-container shipping",
+        "url": "https://www.flexport.com/services/ocean/"
+      },
+      {
+        "name": "Air Freight",
+        "description": "Global air cargo services",
+        "url": "https://www.flexport.com/services/air/"
+      },
+      {
+        "name": "Trucking",
+        "description": "Domestic trucking and drayage",
+        "url": "https://www.flexport.com/services/trucking/"
+      },
+      {
+        "name": "Customs Brokerage",
+        "description": "Import/export compliance and clearance",
+        "url": "https://www.flexport.com/services/customs/"
+      },
+      {
+        "name": "Fulfillment",
+        "description": "E-commerce warehousing and fulfillment (ex-Shopify)",
+        "url": "https://www.flexport.com/services/fulfillment/"
+      }
+    ],
+    "highlights_title": "Latest news on Flexport",
+    "highlights": [
+      {
+        "text": "E-commerce fulfillment revenue <strong>doubled in Q1 2025</strong>",
+        "url": "https://sacra.com/c/flexport/",
+        "date": "2025"
+      },
+      {
+        "text": "Expects to be <strong>'quite profitable' by end 2025</strong>",
+        "url": "https://sacra.com/c/flexport/",
+        "date": "2025"
+      },
+      {
+        "text": "Revenue rebounded <strong>30% to $2.1B</strong> in 2024",
+        "url": "https://sacra.com/c/flexport/",
+        "date": "2024"
+      },
+      {
+        "text": "Ryan Petersen <strong>returned as CEO</strong> (Sep 2023)",
+        "url": "https://en.wikipedia.org/wiki/Flexport",
+        "date": "2023"
+      },
+      {
+        "text": "<strong>$3.8B valuation</strong> based on Shopify stake",
+        "url": "https://sacra.com/c/flexport/"
+      },
+      {
+        "text": "Acquired <strong>Shopify Logistics</strong>—Shopify owns 17%",
+        "url": "https://sacra.com/c/flexport/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ryan Petersen",
+        "role": "Founder & CEO",
+        "photo": "https://cdn.theorg.com/bbd12559-5ffd-4d88-9422-1c6a32447af5_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/typesfast/"
+      },
+      {
+        "name": "Stuart Leung",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/28e9d84d-82cd-4edd-911c-5aaf0591a285_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/stuartleung/"
+      },
+      {
+        "name": "Harish Abbott",
+        "role": "Chief Customer Officer, Omnichannel",
+        "photo": "https://cdn.theorg.com/fd840226-d677-4b12-b1ac-0dd7525c48dc_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/harishabbott/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "SoftBank Vision Fund",
+        "url": "https://visionfund.com/"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "url": "https://a16z.com/"
+      },
+      {
+        "name": "Shopify",
+        "url": "https://www.shopify.com/"
+      },
+      {
+        "name": "Founders Fund",
+        "url": "https://foundersfund.com/"
+      },
+      {
+        "name": "DST Global",
+        "url": "https://www.dstglobal.com/"
+      },
+      {
+        "name": "MSD Capital",
+        "url": "https://www.msdcapital.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "May 2023",
+        "amount": "—",
+        "round": "Shopify Logistics Acquisition",
+        "valuation": "~$4B",
+        "investors_html": "Shopify became 17% owner"
+      },
+      {
+        "date": "Feb 2022",
+        "amount": "$935M",
+        "round": "Series E",
+        "valuation": "$8B",
+        "investors_html": "Andreessen Horowitz, SoftBank, MSD Capital"
+      },
+      {
+        "date": "Sep 2019",
+        "amount": "$1B",
+        "round": "Series D",
+        "valuation": "$3.2B",
+        "investors_html": "SoftBank Vision Fund"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Flexport, Inc.",
+      "website": "https://www.flexport.com",
+      "website_display": "flexport.com",
+      "founded": "2013",
+      "headcount": "3,000+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/flexport",
+      "linkedin": "https://www.linkedin.com/company/flexport"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "-53% from peak",
+          "badge_type": "negative",
+          "bars": [
+            {
+              "label": "2019",
+              "value": "$3.2B",
+              "height": 68
+            },
+            {
+              "label": "2022",
+              "value": "$8B",
+              "height": 170
+            },
+            {
+              "label": "2024",
+              "value": "$3.8B",
+              "height": 81
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $B",
+          "badge_text": "Recovering",
+          "badge_type": "neutral",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$3.3B",
+              "height": 112
+            },
+            {
+              "label": "2022",
+              "value": "$5B",
+              "height": 170
+            },
+            {
+              "label": "2023",
+              "value": "$1.6B",
+              "height": 54
+            },
+            {
+              "label": "2024",
+              "value": "$2.1B",
+              "height": 71
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAIRE": {
+    "ticker": "FAIRE",
+    "name": "Faire",
+    "logo": "https://logo.clearbit.com/faire.com",
+    "tagline": "Connecting independent retailers with unique brands to build thriving local economies",
+    "tags": [
+      "Marketplace",
+      "B2B",
+      "Wholesale",
+      "United States"
+    ],
+    "kpis": [
+      {
+        "label": "Valuation",
+        "value": "$5.2B"
+      },
+      {
+        "label": "Revenue (2025)",
+        "value": "$500M+"
+      },
+      {
+        "label": "Retailers",
+        "value": "800K+"
+      },
+      {
+        "label": "GMV (2025E)",
+        "value": "$3B"
+      }
+    ],
+    "overview": "Faire is a wholesale marketplace founded in 2017 by Max Rhodes, Jeff Hamilton, Daniele Perito, and Marcelo Cortes. The platform connects independent retailers with unique brands, enabling boutiques to discover and purchase wholesale inventory. In November 2025, Faire launched a $5.2B tender offer for employee liquidity—down 59% from its $12.6B peak valuation in 2022. Revenue exceeds $500M annualized with $3B GMV expected in 2025. Faire serves 800K+ retailers and 100K+ brands globally, growing 40% YoY.",
+    "products": [
+      {
+        "name": "Faire Marketplace",
+        "description": "Wholesale discovery and ordering platform",
+        "url": "https://www.faire.com/"
+      },
+      {
+        "name": "Faire Direct",
+        "description": "Brand direct-to-retailer sales tools",
+        "url": "https://www.faire.com/direct"
+      },
+      {
+        "name": "Net 60 Terms",
+        "description": "Buy now, pay later for retailers",
+        "url": "https://www.faire.com/retailers"
+      },
+      {
+        "name": "Faire Fulfillment",
+        "description": "Warehousing and logistics for brands",
+        "url": "https://www.faire.com/brands"
+      },
+      {
+        "name": "Open with Faire",
+        "description": "Retailer startup program",
+        "url": "https://www.faire.com/open-with-faire"
+      },
+      {
+        "name": "Faire UK/EU",
+        "description": "European marketplace expansion",
+        "url": "https://www.faire.com/uk"
+      }
+    ],
+    "highlights_title": "Latest news on Faire",
+    "highlights": [
+      {
+        "text": "<strong>$5.2B tender offer</strong> for employee liquidity (Nov 2025)",
+        "url": "https://www.webpronews.com/faires-5-2b-tender-wholesale-giants-ipo-warm-up-amid-valuation-rebound/",
+        "date": "2025"
+      },
+      {
+        "text": "<strong>$3B GMV expected</strong> in 2025",
+        "url": "https://betakit.com/faire-co-founder-company-has-the-metrics-to-go-public-but-isnt-rushing-to-ipo/",
+        "date": "2025"
+      },
+      {
+        "text": "Revenue <strong>exceeds $500M annualized</strong>",
+        "url": "https://betakit.com/faire-co-founder-company-has-the-metrics-to-go-public-but-isnt-rushing-to-ipo/"
+      },
+      {
+        "text": "<strong>800K+ retailers</strong> on platform",
+        "url": "https://sacra.com/c/faire/"
+      },
+      {
+        "text": "<strong>Growing 40% YoY</strong>",
+        "url": "https://sacra.com/c/faire/"
+      },
+      {
+        "text": "Has <strong>metrics of a public company</strong>—IPO timing TBD",
+        "url": "https://betakit.com/faire-co-founder-company-has-the-metrics-to-go-public-but-isnt-rushing-to-ipo/"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Max Rhodes",
+        "role": "Co-founder & CEO",
+        "photo": "https://cdn.theorg.com/f0ef633e-db1d-4367-85c3-17508f24f2e7_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/maxrhodes/"
+      },
+      {
+        "name": "Marcelo Cortes",
+        "role": "Co-founder & CTO",
+        "photo": "https://cdn.theorg.com/cf03b97f-7de0-461d-ade7-03150d481992_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/marcelocortes/"
+      },
+      {
+        "name": "Lauren Cooks Levitan",
+        "role": "Chief Financial Officer",
+        "photo": "https://cdn.theorg.com/f31ac15e-2646-4092-8356-8f31f842fe42_medium.jpg",
+        "linkedin": "https://www.linkedin.com/in/laurencookslevitan/"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Sequoia Capital",
+        "url": "https://www.sequoiacap.com/"
+      },
+      {
+        "name": "Y Combinator",
+        "url": "https://www.ycombinator.com/"
+      },
+      {
+        "name": "Lightspeed Venture Partners",
+        "url": "https://lsvp.com/"
+      },
+      {
+        "name": "D1 Capital Partners",
+        "url": "https://d1.com/"
+      },
+      {
+        "name": "Founders Fund",
+        "url": "https://foundersfund.com/"
+      },
+      {
+        "name": "DST Global",
+        "url": "https://www.dstglobal.com/"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "Nov 2025",
+        "amount": "—",
+        "round": "Tender Offer",
+        "valuation": "$5.2B",
+        "investors_html": "Employee liquidity"
+      },
+      {
+        "date": "May 2022",
+        "amount": "$416M",
+        "round": "Series G Extension",
+        "valuation": "$12.6B",
+        "investors_html": "Sequoia, DST Global, D1 Capital"
+      },
+      {
+        "date": "Nov 2021",
+        "amount": "$400M",
+        "round": "Series G",
+        "valuation": "$11.25B",
+        "investors_html": "D1 Capital, Sequoia, Lightspeed"
+      }
+    ],
+    "company_details": {
+      "legal_name": "Faire Wholesale, Inc.",
+      "website": "https://www.faire.com",
+      "website_display": "faire.com",
+      "founded": "2017",
+      "headcount": "1,000+",
+      "hq": "San Francisco, California",
+      "twitter": "https://twitter.com/faire_wholesale",
+      "linkedin": "https://www.linkedin.com/company/faire-wholesale"
+    },
+    "charts": {
+      "items": [
+        {
+          "title": "Valuation, $B",
+          "badge_text": "-59% from peak",
+          "badge_type": "negative",
+          "bars": [
+            {
+              "label": "2021",
+              "value": "$11.25B",
+              "height": 152
+            },
+            {
+              "label": "2022",
+              "value": "$12.6B",
+              "height": 170
+            },
+            {
+              "label": "2025",
+              "value": "$5.2B",
+              "height": 70
+            }
+          ]
+        },
+        {
+          "title": "Revenue, $M",
+          "badge_text": "+40% YoY",
+          "badge_type": "positive",
+          "bars": [
+            {
+              "label": "2022",
+              "value": "$200M",
+              "height": 68
+            },
+            {
+              "label": "2023",
+              "value": "$300M",
+              "height": 102
+            },
+            {
+              "label": "2024",
+              "value": "$400M",
+              "height": 136
+            },
+            {
+              "label": "2025",
+              "value": "$500M+",
+              "height": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FABFITFUN": {
+    "ticker": "FABFITFUN",
+    "name": "FABFITFUN",
+    "logo": "/assets/logos/FabFitFun.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FABFITFUN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FABFITFUN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FABFITFUN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FABFITFUN",
+      "website": "https://fabfitfun.com",
+      "website_display": "fabfitfun.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FABRIC": {
+    "ticker": "FABRIC",
+    "name": "FABRIC",
+    "logo": "/assets/logos/Fabric.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FABRIC is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FABRIC main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FABRIC",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FABRIC",
+      "website": "https://fabric.com",
+      "website_display": "fabric.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FACILY": {
+    "ticker": "FACILY",
+    "name": "FACILY",
+    "logo": "/assets/logos/Facily.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FACILY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FACILY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FACILY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FACILY",
+      "website": "https://facily.com",
+      "website_display": "facily.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FACTORIAL": {
+    "ticker": "FACTORIAL",
+    "name": "FACTORIAL",
+    "logo": "/assets/logos/Factorial.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FACTORIAL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FACTORIAL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FACTORIAL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FACTORIAL",
+      "website": "https://factorial.com",
+      "website_display": "factorial.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FAL": {
+    "ticker": "FAL",
+    "name": "FAL",
+    "logo": "/assets/logos/Fal.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FAL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FAL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FAL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FAL",
+      "website": "https://fal.com",
+      "website_display": "fal.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FALCONX": {
+    "ticker": "FALCONX",
+    "name": "FALCONX",
+    "logo": "/assets/logos/FalconX.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FALCONX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FALCONX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FALCONX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FALCONX",
+      "website": "https://falconx.com",
+      "website_display": "falconx.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FARCASTER": {
+    "ticker": "FARCASTER",
+    "name": "FARCASTER",
+    "logo": "/assets/logos/Farcaster.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FARCASTER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FARCASTER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FARCASTER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FARCASTER",
+      "website": "https://farcaster.com",
+      "website_display": "farcaster.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FARFETCH-CHINA": {
+    "ticker": "FARFETCH-CHINA",
+    "name": "FARFETCH CHINA",
+    "logo": "/assets/logos/Farfetch_China.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FARFETCH CHINA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FARFETCH CHINA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FARFETCH CHINA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FARFETCH CHINA",
+      "website": "https://farfetchchina.com",
+      "website_display": "farfetchchina.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FARMERS-BUSINESS-NETWORK": {
+    "ticker": "FARMERS-BUSINESS-NETWORK",
+    "name": "FARMERS BUSINESS NETWORK",
+    "logo": "/assets/logos/Farmers_Business_Network.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FARMERS BUSINESS NETWORK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FARMERS BUSINESS NETWORK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FARMERS BUSINESS NETWORK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FARMERS BUSINESS NETWORK",
+      "website": "https://farmersbusinessnetwork.com",
+      "website_display": "farmersbusinessnetwork.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FEEDZAI": {
+    "ticker": "FEEDZAI",
+    "name": "FEEDZAI",
+    "logo": "/assets/logos/Feedzai.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FEEDZAI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FEEDZAI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FEEDZAI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FEEDZAI",
+      "website": "https://feedzai.com",
+      "website_display": "feedzai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FENBEITONG": {
+    "ticker": "FENBEITONG",
+    "name": "FENBEITONG",
+    "logo": "/assets/logos/Fenbeitong.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FENBEITONG is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FENBEITONG main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FENBEITONG",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FENBEITONG",
+      "website": "https://fenbeitong.com",
+      "website_display": "fenbeitong.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FENERGO": {
+    "ticker": "FENERGO",
+    "name": "FENERGO",
+    "logo": "/assets/logos/Fenergo.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FENERGO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FENERGO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FENERGO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FENERGO",
+      "website": "https://fenergo.com",
+      "website_display": "fenergo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FERVO-ENERGY": {
+    "ticker": "FERVO-ENERGY",
+    "name": "FERVO ENERGY",
+    "logo": "/assets/logos/Fervo_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FERVO ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FERVO ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FERVO ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FERVO ENERGY",
+      "website": "https://fervoenergy.com",
+      "website_display": "fervoenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FETCH": {
+    "ticker": "FETCH",
+    "name": "FETCH",
+    "logo": "/assets/logos/Fetch.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FETCH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FETCH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FETCH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FETCH",
+      "website": "https://fetch.com",
+      "website_display": "fetch.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FEVER": {
+    "ticker": "FEVER",
+    "name": "FEVER",
+    "logo": "/assets/logos/Fever.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FEVER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FEVER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FEVER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FEVER",
+      "website": "https://fever.com",
+      "website_display": "fever.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIELD-AI": {
+    "ticker": "FIELD-AI",
+    "name": "FIELD AI",
+    "logo": "/assets/logos/Field_AI.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIELD AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIELD AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIELD AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIELD AI",
+      "website": "https://fieldai.com",
+      "website_display": "fieldai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIGMENT": {
+    "ticker": "FIGMENT",
+    "name": "FIGMENT",
+    "logo": "/assets/logos/Figment.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIGMENT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIGMENT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIGMENT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIGMENT",
+      "website": "https://figment.com",
+      "website_display": "figment.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FINNOMENA": {
+    "ticker": "FINNOMENA",
+    "name": "FINNOMENA",
+    "logo": "/assets/logos/finnomena.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FINNOMENA is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FINNOMENA main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FINNOMENA",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FINNOMENA",
+      "website": "https://finnomena.com",
+      "website_display": "finnomena.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIREBLOCKS": {
+    "ticker": "FIREBLOCKS",
+    "name": "FIREBLOCKS",
+    "logo": "/assets/logos/Fireblocks.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIREBLOCKS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIREBLOCKS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIREBLOCKS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIREBLOCKS",
+      "website": "https://fireblocks.com",
+      "website_display": "fireblocks.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIREBOLT": {
+    "ticker": "FIREBOLT",
+    "name": "FIREBOLT",
+    "logo": "/assets/logos/Firebolt.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIREBOLT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIREBOLT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIREBOLT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIREBOLT",
+      "website": "https://firebolt.com",
+      "website_display": "firebolt.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIREFLIESAI": {
+    "ticker": "FIREFLIESAI",
+    "name": "FIREFLIES.AI",
+    "logo": "/assets/logos/Fireflies.ai.jpeg",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIREFLIES.AI is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIREFLIES.AI main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIREFLIES.AI",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIREFLIES.AI",
+      "website": "https://firefliesai.com",
+      "website_display": "firefliesai.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIRMUS-TECHNOLOGIES": {
+    "ticker": "FIRMUS-TECHNOLOGIES",
+    "name": "FIRMUS TECHNOLOGIES",
+    "logo": "/assets/logos/Firmus_Technologies.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIRMUS TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIRMUS TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIRMUS TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIRMUS TECHNOLOGIES",
+      "website": "https://firmustechnologies.com",
+      "website_display": "firmustechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIRSTP2P": {
+    "ticker": "FIRSTP2P",
+    "name": "FIRSTP2P",
+    "logo": "/assets/logos/Firstp2p.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIRSTP2P is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIRSTP2P main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIRSTP2P",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIRSTP2P",
+      "website": "https://firstp2p.com",
+      "website_display": "firstp2p.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FITURE": {
+    "ticker": "FITURE",
+    "name": "FITURE",
+    "logo": "/assets/logos/Fiture.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FITURE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FITURE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FITURE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FITURE",
+      "website": "https://fiture.com",
+      "website_display": "fiture.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FIVETRAN": {
+    "ticker": "FIVETRAN",
+    "name": "FIVETRAN",
+    "logo": "/assets/logos/Fivetran.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FIVETRAN is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FIVETRAN main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FIVETRAN",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FIVETRAN",
+      "website": "https://fivetran.com",
+      "website_display": "fivetran.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLASH": {
+    "ticker": "FLASH",
+    "name": "FLASH",
+    "logo": "/assets/logos/FLASH.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLASH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLASH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLASH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLASH",
+      "website": "https://flash.com",
+      "website_display": "flash.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLASH-EXPRESS": {
+    "ticker": "FLASH-EXPRESS",
+    "name": "FLASH EXPRESS",
+    "logo": "/assets/logos/Flash_Express.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLASH EXPRESS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLASH EXPRESS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLASH EXPRESS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLASH EXPRESS",
+      "website": "https://flashexpress.com",
+      "website_display": "flashexpress.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLASHBOTS": {
+    "ticker": "FLASHBOTS",
+    "name": "FLASHBOTS",
+    "logo": "/assets/logos/Flashbots.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLASHBOTS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLASHBOTS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLASHBOTS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLASHBOTS",
+      "website": "https://flashbots.com",
+      "website_display": "flashbots.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLEETIO": {
+    "ticker": "FLEETIO",
+    "name": "FLEETIO",
+    "logo": "/assets/logos/Fleetio.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLEETIO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLEETIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLEETIO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLEETIO",
+      "website": "https://fleetio.com",
+      "website_display": "fleetio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLEXE": {
+    "ticker": "FLEXE",
+    "name": "FLEXE",
+    "logo": "/assets/logos/Flexe.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLEXE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLEXE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLEXE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLEXE",
+      "website": "https://flexe.com",
+      "website_display": "flexe.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLEXIV": {
+    "ticker": "FLEXIV",
+    "name": "FLEXIV",
+    "logo": "/assets/logos/Flexiv.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLEXIV is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLEXIV main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLEXIV",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLEXIV",
+      "website": "https://flexiv.com",
+      "website_display": "flexiv.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLIPDISH": {
+    "ticker": "FLIPDISH",
+    "name": "FLIPDISH",
+    "logo": "/assets/logos/Flipdish.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLIPDISH is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLIPDISH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLIPDISH",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLIPDISH",
+      "website": "https://flipdish.com",
+      "website_display": "flipdish.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLIPKART": {
+    "ticker": "FLIPKART",
+    "name": "FLIPKART",
+    "logo": "/assets/logos/flipkart.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "India"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLIPKART is a technology company focused on innovation and growth. The company operates in the India market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLIPKART main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLIPKART",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in India",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLIPKART",
+      "website": "https://flipkart.com",
+      "website_display": "flipkart.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLIXBUS": {
+    "ticker": "FLIXBUS",
+    "name": "FLIXBUS",
+    "logo": "/assets/logos/FlixBus.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLIXBUS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLIXBUS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLIXBUS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLIXBUS",
+      "website": "https://flixbus.com",
+      "website_display": "flixbus.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLO-HEALTH": {
+    "ticker": "FLO-HEALTH",
+    "name": "FLO HEALTH",
+    "logo": "/assets/logos/Flo_Health.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLO HEALTH is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLO HEALTH main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLO HEALTH",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLO HEALTH",
+      "website": "https://flohealth.com",
+      "website_display": "flohealth.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLOCK-FREIGHT": {
+    "ticker": "FLOCK-FREIGHT",
+    "name": "FLOCK FREIGHT",
+    "logo": "/assets/logos/Flock_Freight.jpeg",
+    "tagline": "Supply chain and logistics optimization",
+    "tags": [
+      "Logistics",
+      "Supply Chain",
+      "Shipping",
+      "Fulfillment",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Logistics"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLOCK FREIGHT is a logistics company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLOCK FREIGHT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLOCK FREIGHT",
+    "highlights": [
+      {
+        "text": "Leading logistics company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLOCK FREIGHT",
+      "website": "https://flockfreight.com",
+      "website_display": "flockfreight.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLOCK-SAFETY": {
+    "ticker": "FLOCK-SAFETY",
+    "name": "FLOCK SAFETY",
+    "logo": "/assets/logos/Flock_Safety.png",
+    "tagline": "Cybersecurity solutions protecting digital assets",
+    "tags": [
+      "Cybersecurity",
+      "Security",
+      "Data Protection",
+      "Enterprise Security",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Security"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLOCK SAFETY is a security company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLOCK SAFETY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLOCK SAFETY",
+    "highlights": [
+      {
+        "text": "Leading security company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLOCK SAFETY",
+      "website": "https://flocksafety.com",
+      "website_display": "flocksafety.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLOQAST": {
+    "ticker": "FLOQAST",
+    "name": "FLOQAST",
+    "logo": "/assets/logos/FloQast.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLOQAST is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLOQAST main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLOQAST",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLOQAST",
+      "website": "https://floqast.com",
+      "website_display": "floqast.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLOW": {
+    "ticker": "FLOW",
+    "name": "FLOW",
+    "logo": "/assets/logos/Flow.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLOW is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLOW main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLOW",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLOW",
+      "website": "https://flow.com",
+      "website_display": "flow.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLUIDSTACK": {
+    "ticker": "FLUIDSTACK",
+    "name": "FLUIDSTACK",
+    "logo": "/assets/logos/fluidstack.com",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLUIDSTACK is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLUIDSTACK main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLUIDSTACK",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLUIDSTACK",
+      "website": "https://fluidstack.com",
+      "website_display": "fluidstack.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FLUTTERWAVE": {
+    "ticker": "FLUTTERWAVE",
+    "name": "FLUTTERWAVE",
+    "logo": "/assets/logos/Flutterwave.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FLUTTERWAVE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FLUTTERWAVE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FLUTTERWAVE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FLUTTERWAVE",
+      "website": "https://flutterwave.com",
+      "website_display": "flutterwave.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FNZ": {
+    "ticker": "FNZ",
+    "name": "FNZ",
+    "logo": "/assets/logos/FNZ.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FNZ is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FNZ main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FNZ",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FNZ",
+      "website": "https://fnz.com",
+      "website_display": "fnz.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FORM-ENERGY": {
+    "ticker": "FORM-ENERGY",
+    "name": "FORM ENERGY",
+    "logo": "/assets/logos/Form_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FORM ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FORM ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FORM ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FORM ENERGY",
+      "website": "https://formenergy.com",
+      "website_display": "formenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FORMATION-BIO": {
+    "ticker": "FORMATION-BIO",
+    "name": "FORMATION BIO",
+    "logo": "/assets/logos/Formation_Bio.jpeg",
+    "tagline": "Healthcare technology company improving patient outcomes",
+    "tags": [
+      "Healthcare",
+      "Medical Technology",
+      "Digital Health",
+      "Patient Care",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Healthcare"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FORMATION BIO is a healthcare company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FORMATION BIO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FORMATION BIO",
+    "highlights": [
+      {
+        "text": "Leading healthcare company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FORMATION BIO",
+      "website": "https://formationbio.com",
+      "website_display": "formationbio.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FORMLABS": {
+    "ticker": "FORMLABS",
+    "name": "FORMLABS",
+    "logo": "/assets/logos/Formlabs.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FORMLABS is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FORMLABS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FORMLABS",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FORMLABS",
+      "website": "https://formlabs.com",
+      "website_display": "formlabs.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FORTE": {
+    "ticker": "FORTE",
+    "name": "FORTE",
+    "logo": "/assets/logos/Forte.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FORTE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FORTE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FORTE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FORTE",
+      "website": "https://forte.com",
+      "website_display": "forte.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FORTER": {
+    "ticker": "FORTER",
+    "name": "FORTER",
+    "logo": "/assets/logos/Forter.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FORTER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FORTER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FORTER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FORTER",
+      "website": "https://forter.com",
+      "website_display": "forter.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FORTO": {
+    "ticker": "FORTO",
+    "name": "FORTO",
+    "logo": "/assets/logos/Forto.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "Germany"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FORTO is a technology company focused on innovation and growth. The company operates in the Germany market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FORTO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FORTO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in Germany",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FORTO",
+      "website": "https://forto.com",
+      "website_display": "forto.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FOURKITES": {
+    "ticker": "FOURKITES",
+    "name": "FOURKITES",
+    "logo": "/assets/logos/FourKites.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FOURKITES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FOURKITES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FOURKITES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FOURKITES",
+      "website": "https://fourkites.com",
+      "website_display": "fourkites.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FPL-TECHNOLOGIES": {
+    "ticker": "FPL-TECHNOLOGIES",
+    "name": "FPL TECHNOLOGIES",
+    "logo": "/assets/logos/FPL_Technologies.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FPL TECHNOLOGIES is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FPL TECHNOLOGIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FPL TECHNOLOGIES",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FPL TECHNOLOGIES",
+      "website": "https://fpltechnologies.com",
+      "website_display": "fpltechnologies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FRACTAL": {
+    "ticker": "FRACTAL",
+    "name": "FRACTAL",
+    "logo": "/assets/logos/Fractal.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FRACTAL is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FRACTAL main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FRACTAL",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FRACTAL",
+      "website": "https://fractal.com",
+      "website_display": "fractal.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FRAMER": {
+    "ticker": "FRAMER",
+    "name": "FRAMER",
+    "logo": "/assets/logos/Framer.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FRAMER is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FRAMER main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FRAMER",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FRAMER",
+      "website": "https://framer.com",
+      "website_display": "framer.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FREENOME": {
+    "ticker": "FREENOME",
+    "name": "FREENOME",
+    "logo": "/assets/logos/Freenome.svg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FREENOME is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FREENOME main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FREENOME",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FREENOME",
+      "website": "https://freenome.com",
+      "website_display": "freenome.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FRESH-LIFE-STYLE-SUPPLY-CHAIN-MANAGEMENT": {
+    "ticker": "FRESH-LIFE-STYLE-SUPPLY-CHAIN-MANAGEMENT",
+    "name": "FRESH LIFE STYLE SUPPLY CHAIN MANAGEMENT",
+    "logo": "/assets/logos/Fresh_Life_Style_Supply_Chain_Management.png",
+    "tagline": "Leading AI and machine learning solutions provider",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Platform",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "AI"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FRESH LIFE STYLE SUPPLY CHAIN MANAGEMENT is a ai company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FRESH LIFE STYLE SUPPLY CHAIN MANAGEMENT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FRESH LIFE STYLE SUPPLY CHAIN MANAGEMENT",
+    "highlights": [
+      {
+        "text": "Leading ai company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FRESH LIFE STYLE SUPPLY CHAIN MANAGEMENT",
+      "website": "https://freshlifestylesupplychainmanagement.com",
+      "website_display": "freshlifestylesupplychainmanagement.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FRESHBOOKS": {
+    "ticker": "FRESHBOOKS",
+    "name": "FRESHBOOKS",
+    "logo": "/assets/logos/FreshBooks.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FRESHBOOKS is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FRESHBOOKS main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FRESHBOOKS",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FRESHBOOKS",
+      "website": "https://freshbooks.com",
+      "website_display": "freshbooks.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FRONT": {
+    "ticker": "FRONT",
+    "name": "FRONT",
+    "logo": "/assets/logos/Front.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FRONT is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FRONT main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FRONT",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FRONT",
+      "website": "https://front.com",
+      "website_display": "front.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FRUITIST": {
+    "ticker": "FRUITIST",
+    "name": "FRUITIST",
+    "logo": "/assets/logos/Fruitist.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FRUITIST is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FRUITIST main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FRUITIST",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FRUITIST",
+      "website": "https://fruitist.com",
+      "website_display": "fruitist.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FUJIAN-DEER-TECHNOLOGY": {
+    "ticker": "FUJIAN-DEER-TECHNOLOGY",
+    "name": "FUJIAN DEER TECHNOLOGY",
+    "logo": "/assets/logos/Fujian_Deer_Technology.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FUJIAN DEER TECHNOLOGY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FUJIAN DEER TECHNOLOGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FUJIAN DEER TECHNOLOGY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FUJIAN DEER TECHNOLOGY",
+      "website": "https://fujiandeertechnology.com",
+      "website_display": "fujiandeertechnology.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FULLCRYO": {
+    "ticker": "FULLCRYO",
+    "name": "FULLCRYO",
+    "logo": "/assets/logos/Fullcryo.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FULLCRYO is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FULLCRYO main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FULLCRYO",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FULLCRYO",
+      "website": "https://fullcryo.com",
+      "website_display": "fullcryo.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FULLSTORY": {
+    "ticker": "FULLSTORY",
+    "name": "FULLSTORY",
+    "logo": "/assets/logos/FullStory.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FULLSTORY is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FULLSTORY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FULLSTORY",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FULLSTORY",
+      "website": "https://fullstory.com",
+      "website_display": "fullstory.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FUNDBOX": {
+    "ticker": "FUNDBOX",
+    "name": "FUNDBOX",
+    "logo": "/assets/logos/Fundbox.jpeg",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FUNDBOX is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FUNDBOX main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FUNDBOX",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FUNDBOX",
+      "website": "https://fundbox.com",
+      "website_display": "fundbox.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FUNDING-TO-CURRENT-UNICORN-COMPANIES": {
+    "ticker": "FUNDING-TO-CURRENT-UNICORN-COMPANIES",
+    "name": "FUNDING TO CURRENT UNICORN COMPANIES",
+    "logo": "/assets/logos/Funding_To_Current_Unicorn_Companies.svg",
+    "tagline": "PropTech solutions for real estate industry",
+    "tags": [
+      "PropTech",
+      "Real Estate",
+      "Property Technology",
+      "Housing",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FUNDING TO CURRENT UNICORN COMPANIES is a real estate company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FUNDING TO CURRENT UNICORN COMPANIES main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FUNDING TO CURRENT UNICORN COMPANIES",
+    "highlights": [
+      {
+        "text": "Leading real estate company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FUNDING TO CURRENT UNICORN COMPANIES",
+      "website": "https://fundingtocurrentunicorncompanies.com",
+      "website_display": "fundingtocurrentunicorncompanies.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FUSE-ENERGY": {
+    "ticker": "FUSE-ENERGY",
+    "name": "FUSE ENERGY",
+    "logo": "/assets/logos/Fuse_Energy.jpeg",
+    "tagline": "Clean energy technology for a sustainable future",
+    "tags": [
+      "Clean Energy",
+      "Sustainability",
+      "Renewable Energy",
+      "GreenTech",
+      "Innovation"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Energy"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FUSE ENERGY is a energy company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FUSE ENERGY main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FUSE ENERGY",
+    "highlights": [
+      {
+        "text": "Leading energy company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FUSE ENERGY",
+      "website": "https://fuseenergy.com",
+      "website_display": "fuseenergy.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  },
+  "FXIAOKE": {
+    "ticker": "FXIAOKE",
+    "name": "FXIAOKE",
+    "logo": "/assets/logos/FXiaoKe.png",
+    "tagline": "Technology solutions for the digital age",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Digital Transformation",
+      "Tech Solutions",
+      "Startup"
+    ],
+    "kpis": [
+      {
+        "label": "Industry",
+        "value": "Technology"
+      },
+      {
+        "label": "Country",
+        "value": "United States"
+      },
+      {
+        "label": "Status",
+        "value": "Private"
+      },
+      {
+        "label": "Stage",
+        "value": "Growth"
+      }
+    ],
+    "overview": "FXIAOKE is a technology company focused on innovation and growth. The company operates in the United States market and beyond, providing cutting-edge solutions to its customers worldwide.",
+    "products": [
+      {
+        "name": "Core Platform",
+        "description": "FXIAOKE main product offering",
+        "url": "#"
+      }
+    ],
+    "highlights_title": "Latest news on FXIAOKE",
+    "highlights": [
+      {
+        "text": "Leading technology company",
+        "url": ""
+      },
+      {
+        "text": "Strong market presence in United States",
+        "url": ""
+      },
+      {
+        "text": "Innovative technology and solutions",
+        "url": ""
+      },
+      {
+        "text": "Growing customer base",
+        "url": ""
+      },
+      {
+        "text": "Experienced leadership team",
+        "url": ""
+      }
+    ],
+    "leadership": [
+      {
+        "name": "CEO",
+        "role": "Chief Executive Officer",
+        "photo": "",
+        "linkedin": "#"
+      }
+    ],
+    "investors": [
+      {
+        "name": "Undisclosed Investors",
+        "url": "#"
+      }
+    ],
+    "funding_rounds": [],
+    "company_details": {
+      "legal_name": "FXIAOKE",
+      "website": "https://fxiaoke.com",
+      "website_display": "fxiaoke.com",
+      "founded": "",
+      "headcount": "",
+      "hq": ""
+    }
+  }
+}

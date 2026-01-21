@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARS24 - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="cars24-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idJZU2VJTS/idvdZzNHBk.png" alt="CARS24" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">CARS24</h1>
+                    <p class="company-tagline">India&#x27;s leading used car marketplace with international presence across UAE, Thailand, and Australia</p>
+                    <div class="company-tags"><span class="tag">AutoTech</span><span class="tag">Marketplace</span><span class="tag">India</span><span class="tag">Used Cars</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">CARS24 is one of India&#x27;s largest used car marketplaces and one of the four major organized players in India&#x27;s used car segment. Founded in 2015 in Gurgaon by IIT Bombay alumni Vikram Chopra (CEO), Mehul Agrawal, Gajendra Jangid, and Ruchit Agarwal, the platform enables consumers to buy and sell pre-owned vehicles. CARS24 has raised over $1.3 billion from investors including SoftBank, Alpha Wave Global, and DST Global, achieving a $3.2B valuation. The company expanded internationally to UAE, Thailand, and Australia in 2021. Recent restructuring efforts focus on core business profitability.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>December 2022</td>
+                <td>Series G</td>
+                <td>$400M</td>
+                <td>$3.2B</td>
+            </tr><tr>
+                <td>2021</td>
+                <td>Series F</td>
+                <td>$450M</td>
+                <td>$1.84B</td>
+            </tr><tr>
+                <td>2020</td>
+                <td>Series E</td>
+                <td>$200M</td>
+                <td>$1B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">CARS24 Buy</div>
+            <div class="product-desc">Platform for purchasing certified pre-owned vehicles with warranty, refurbishment, and financing</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">CARS24 Sell</div>
+            <div class="product-desc">Quick and transparent platform for selling used cars with instant price quotes and same-day payment</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">CARS24 Finance</div>
+            <div class="product-desc">In-house auto financing with competitive rates and quick approvals for car purchases</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on CARS24</h2>
+                        <div class="highlights-list"><a href="https://www.cars24.com/blog/cars24-raisesi-450-million-nearly-doubles-its-valuation-to-1-84-billion/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Raised $450M at $1.84B valuation in Series F round</span>
+        </a><a href="https://inc42.com/buzz/cars24-to-fire-120-more-employees-in-restructuring-exercise/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Inc42: CARS24 restructures, shuts non-core verticals for profitability</span>
+        </a><a href="https://nextunicorn.ventures/india-cars24-a-used-car-marketplace-raises-450m-at-1-84b-valuation/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Next Unicorn: Cars24 raises $450M at $1.84B valuation</span>
+        </a><a href="https://www.india.com/business/cars24-massive-layoffs-cars24-hiring-announces-job-openings-of-over-500-employees-5871884/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">India.com: CARS24 announces 500+ new job openings after restructuring</span>
+        </a><a href="https://www.team-bhp.com" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Acquired automotive forum Team-BHP to expand enthusiast community</span>
+        </a><a href="https://startuptalky.com/cars24-success-story/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Parent entity infuses INR 250Cr to support growth in core business</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/8e9f9e6c-99e2-4e1f-b8ee-ab1c15588640_medium.jpg" alt="Vikram Chopra" class="leader-photo">
+            <div><div class="leader-name">Vikram Chopra</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/vikramchopra/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/730f23b6-f9e9-4ffa-a6f4-2fb6937ef906_medium.jpg" alt="Mehul Agrawal" class="leader-photo">
+            <div><div class="leader-name">Mehul Agrawal</div>
+            <div class="leader-role">Co-Founder &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/mehulagrawal/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/ab340cd9-cab9-4e68-ab7c-5df540aa26b7_medium.jpg" alt="Ruchit Agarwal" class="leader-photo">
+            <div><div class="leader-name">Ruchit Agarwal</div>
+            <div class="leader-role">Co-Founder &amp; CFO</div></div>
+            <a href="https://www.linkedin.com/in/ruchitagarwal/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/530aa22f-5875-458d-9946-54b0fc1d5ca0_medium.jpg" alt="Gajendra Jangid" class="leader-photo">
+            <div><div class="leader-name">Gajendra Jangid</div>
+            <div class="leader-role">Co-Founder &amp; CMO</div></div>
+            <a href="https://www.linkedin.com/in/gajendrajangid/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://visionfund.com" target="_blank" class="investor-card">
+            <span class="investor-name">SoftBank Vision Fund</span>
+        </a><a href="https://www.alphawaveglobal.com" target="_blank" class="investor-card">
+            <span class="investor-name">Alpha Wave Global</span>
+        </a><a href="https://www.dstglobal.com" target="_blank" class="investor-card">
+            <span class="investor-name">DST Global</span>
+        </a><a href="https://www.tencent.com" target="_blank" class="investor-card">
+            <span class="investor-name">Tencent</span>
+        </a><a href="https://www.moorestrategic.com" target="_blank" class="investor-card">
+            <span class="investor-name">Moore Strategic Ventures</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">CARS24 Services Private Limited</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.cars24.com" target="_blank" class="detail-value">www.cars24.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">5,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Gurgaon, Haryana, India</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Druva - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="druva-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idnWFBpVCm/idPT-fMn98.svg" alt="Druva" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Druva</h1>
+                    <p class="company-tagline">The leading SaaS platform for cloud data protection delivering backup, disaster recovery, and data governance across endpoints and cloud workloads</p>
+                    <div class="company-tags"><span class="tag">Data Protection</span><span class="tag">Unicorn</span><span class="tag">Cloud Backup</span><span class="tag">SaaS</span><span class="tag">Series H</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Druva is the leading SaaS platform for cloud data protection, enabling organizations to backup, recover, and govern their data across endpoints, cloud applications, and data center workloads. Founded in 2008 by Jaspreet Singh, Milind Borate, and Ramani Kothandaraman, Druva has grown to serve over 6,000 customers worldwide with $304M in annual revenue. The platform leverages AI and machine learning to provide real-time insights, security threat detection, and compliance monitoring. As a 100% SaaS solution, Druva eliminates the need for hardware infrastructure while delivering industry-leading RPO and RTO guarantees. The company achieved unicorn status in 2019 and continues to lead the cloud data protection market.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>June 2019</td>
+                <td>Series H</td>
+                <td>$130M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>August 2017</td>
+                <td>Series G</td>
+                <td>$80M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>June 2015</td>
+                <td>Series E</td>
+                <td>$51M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Druva Data Resiliency Cloud</div>
+            <div class="product-desc">Unified SaaS platform for backup, disaster recovery, and cyber resilience across data center, cloud, and endpoint environments</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Druva for Microsoft 365</div>
+            <div class="product-desc">Comprehensive backup and recovery solution for Microsoft 365 including Exchange, SharePoint, OneDrive, and Teams</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Druva for AWS</div>
+            <div class="product-desc">Native AWS backup and disaster recovery with air-gapped protection and instant recovery capabilities</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Druva</h2>
+                        <div class="highlights-list"><a href="https://getlatka.com/companies/druva" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Druva achieves $304 million revenue with strong growth trajectory</span>
+        </a><a href="https://sacra.com/c/druva/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company reaches 6,000+ enterprise customers worldwide</span>
+        </a><a href="https://www.druva.com/press-releases" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Platform expands AI-powered ransomware detection and cyber resilience capabilities</span>
+        </a><a href="https://www.druva.com/resources/gartner-magic-quadrant" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Druva named Leader in Gartner Magic Quadrant for Enterprise Backup</span>
+        </a><a href="https://en.wikipedia.org/wiki/Druva" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Strategic partnerships with AWS, Microsoft, and Salesforce for cloud data protection</span>
+        </a><a href="https://www.cantechletter.com/2024/01/druva-ipo-an-overview/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Company prepares for potential IPO with $2 billion valuation</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/288b4ee5-a577-446c-b40b-221196542f96_medium.jpg" alt="Jaspreet Singh" class="leader-photo">
+            <div><div class="leader-name">Jaspreet Singh</div>
+            <div class="leader-role">Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/jaspreetsingh/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/b4c26f88-0f2b-467b-935b-28807721dfb0_medium.jpg" alt="Milind Borate" class="leader-photo">
+            <div><div class="leader-name">Milind Borate</div>
+            <div class="leader-role">Co-Founder &amp; Chief Development Officer</div></div>
+            <a href="https://www.linkedin.com/in/milindborate/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/3b5328e8-9850-4bf6-ae84-cbb01d3597a0_medium.jpg" alt="Stephen Manley" class="leader-photo">
+            <div><div class="leader-name">Stephen Manley</div>
+            <div class="leader-role">Chief Technology Officer</div></div>
+            <a href="https://www.linkedin.com/in/stephenmanley/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/09c5b7ba-c57a-467c-aa5d-b41d2b652d86_medium.jpg" alt="Jagroop Bal" class="leader-photo">
+            <div><div class="leader-name">Jagroop Bal</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/jagroopbal/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.vikingglobal.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Viking Global Investors</span>
+        </a><a href="https://www.cdpq.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CDPQ</span>
+        </a><a href="https://www.nb.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Neuberger Berman</span>
+        </a><a href="https://riverwoodcapital.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Riverwood Capital</span>
+        </a><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a><a href="https://nexusvp.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Nexus Venture Partners</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Druva Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://druva.com" target="_blank" class="detail-value">druva.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2008</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">1,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Santa Clara, California, USA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

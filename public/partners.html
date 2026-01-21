@@ -1,0 +1,539 @@
+<!-- Auth Script - must be first -->
+<script src="/js/auth.js"></script>
+<script>
+    // Check authentication immediately
+    if (!getSession() || !hasPermission('admin')) {
+        window.location.href = '/login.html?redirect=' + encodeURIComponent(window.location.pathname);
+    }
+</script>
+
+<!-- Partners CRM Platform -->
+<div id="partners-overlay-platform" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; overflow: auto;">
+<link rel="stylesheet" href="/css/partners.css">
+
+<!-- Offcanvas Overlay -->
+<div class="cs-site-overlay" id="siteOverlay" onclick="closeOffcanvas()"></div>
+
+<!-- Offcanvas Menu -->
+<div class="cs-offcanvas" id="offcanvasMenu">
+    <div class="cs-offcanvas__header">
+        <div class="cs-offcanvas__logo">
+            <span style="color: #fff; font-size: 18px; font-weight: 700;">Institutional Marketplace</span>
+        </div>
+        <span class="cs-offcanvas__toggle" role="button" onclick="closeOffcanvas()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </span>
+    </div>
+    <aside class="cs-offcanvas__sidebar">
+        <nav class="cs-offcanvas__nav">
+            <ul class="offcanvas-menu">
+                <li class="menu-item"><a href="/">Marketplace</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                <li class="menu-item"><a href="/admin.html">Admin Marketplace</a></li>
+                <li class="menu-item" id="usersMenuItem" style="display: none;"><a href="/users.html">Users</a></li>
+                <li class="menu-item active"><a href="/partners.html">Partners</a></li>
+                <li class="menu-item"><a href="/companies.html">Companies</a></li>
+                <li class="menu-item"><a href="/issuers.html">Issuers</a></li>
+                <li class="menu-item"><a href="/auto-updater.html">Auto-Updater</a></li>
+                <li class="menu-item"><a href="/settings.html">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="offcanvas-footer">
+            <button class="logout-btn" onclick="logout()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                    <polyline points="16 17 21 12 16 7"></polyline>
+                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Logout
+            </button>
+        </div>
+    </aside>
+    <script>
+        // Show Users menu item if user is super_admin
+        const session = getSession();
+        if (session && session.role === 'super_admin') {
+            document.getElementById('usersMenuItem').style.display = 'block';
+        }
+    </script>
+</div>
+
+<!-- DESKTOP VERSION -->
+<div class="desktop-version">
+    <div class="scale-wrapper">
+        <div class="platform-container">
+            <!-- Sticky Header with Controls and Table Header -->
+            <div class="sticky-header">
+                <!-- Controls Bar -->
+                <div class="controls-bar">
+                    <div class="controls-wrapper">
+                        <!-- Platform Header with Title -->
+                        <div class="platform-header">
+                            <button class="platform-menu-button" onclick="openOffcanvas()">
+                                <span></span>
+                            </button>
+                            <div class="platform-title" onclick="resetAllFilters()">Partners CRM</div>
+                        </div>
+
+                        <!-- Partner Search Bar -->
+                        <div class="company-search-bar">
+                            <input type="text" class="search-input" placeholder="Search Partners..." id="searchInput">
+                            <span class="search-clear" onclick="clearSearch()">×</span>
+                            <span class="search-icon"></span>
+                            <div class="search-dropdown" id="searchDropdown"></div>
+                        </div>
+
+                        <!-- Filter Toggle (Active/All) -->
+                        <div class="filter-toggle">
+                            <span class="toggle-label">Active</span>
+                            <div class="toggle-switch active" id="filterToggle" onclick="toggleActiveFilter()">
+                                <div class="toggle-slider"></div>
+                            </div>
+                            <span class="toggle-label">All</span>
+                        </div>
+
+                        <!-- New Partner Button -->
+                        <button class="btn-new-order" onclick="openPartnerModal()">
+                            <span style="font-size: 16px;">+</span> New Partner
+                        </button>
+
+                        <!-- Save Button (hidden by default) -->
+                        <button class="btn-save" id="btnSave" onclick="saveAllChanges()" style="display: none;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                                <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                                <polyline points="7 3 7 8 15 8"></polyline>
+                            </svg>
+                            Save Changes
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Table Header -->
+                <div class="table-header">
+                    <div class="header-row">
+                        <div class="header-cell col-name sortable" data-sort="lastName">Name</div>
+                        <div class="header-cell col-company sortable" data-sort="companyId">Company</div>
+                        <div class="header-cell col-type has-filter" id="typeHeader">
+                            <div class="filter-wrapper">
+                                <div class="filter-header" onclick="toggleTypeFilter(event)">
+                                    <span>Type</span>
+                                    <span class="filter-icon">▼</span>
+                                    <span class="filter-active-indicator" id="typeActiveIndicator" style="display: none;"></span>
+                                </div>
+                                <div class="filter-dropdown" id="typeFilterDropdown">
+                                    <div class="filter-list">
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="investor" checked> Investor
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="broker" checked> Broker
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="advisor" checked> Advisor
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="other" checked> Other
+                                        </label>
+                                    </div>
+                                    <div class="filter-actions">
+                                        <button class="filter-btn" onclick="resetTypeFilter()">Clear</button>
+                                        <button class="filter-btn apply" onclick="applyTypeFilter()">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-cell col-email">Email</div>
+                        <div class="header-cell col-phone">Phone</div>
+                        <div class="header-cell col-frequency has-filter" id="frequencyHeader">
+                            <div class="filter-wrapper">
+                                <div class="filter-header" onclick="toggleFrequencyFilter(event)">
+                                    <span>Frequency</span>
+                                    <span class="filter-icon">▼</span>
+                                    <span class="filter-active-indicator" id="frequencyActiveIndicator" style="display: none;"></span>
+                                </div>
+                                <div class="filter-dropdown" id="frequencyFilterDropdown">
+                                    <div class="filter-list">
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="daily" checked> Daily
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="weekly" checked> Weekly
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="biweekly" checked> Bi-weekly
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="monthly" checked> Monthly
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="quarterly" checked> Quarterly
+                                        </label>
+                                        <label class="filter-item">
+                                            <input type="checkbox" value="never" checked> Never
+                                        </label>
+                                    </div>
+                                    <div class="filter-actions">
+                                        <button class="filter-btn" onclick="resetFrequencyFilter()">Clear</button>
+                                        <button class="filter-btn apply" onclick="applyFrequencyFilter()">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-cell col-lastcall sortable" data-sort="lastCall">Last Call</div>
+                        <div class="header-cell col-action">Action</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Row Container (for adding new partners quickly) -->
+            <div class="input-row-container" id="inputRowContainer">
+                <div class="data-table">
+                    <div class="data-row input-row" id="newPartnerInputRow">
+                        <div class="data-cell col-name">
+                            <div class="input-cell-wrapper name-inputs">
+                                <input type="text" class="input-cell input-first-name" id="inputFirstName" placeholder="First...">
+                                <input type="text" class="input-cell input-last-name" id="inputLastName" placeholder="Last...">
+                            </div>
+                        </div>
+                        <div class="data-cell col-company">
+                            <div class="input-cell-wrapper input-company-search">
+                                <input type="text" class="input-cell search-input" id="inputCompany" placeholder="Company...">
+                                <input type="hidden" id="inputCompanyId">
+                                <div class="search-dropdown" id="inputCompanyDropdown"></div>
+                            </div>
+                        </div>
+                        <div class="data-cell col-type">
+                            <div class="input-cell-wrapper">
+                                <div class="structure-input" id="inputTypeSelector" onclick="toggleInputTypeDropdown()">
+                                    <span class="structure-placeholder">Type...</span>
+                                    <span class="filter-icon">▼</span>
+                                </div>
+                                <input type="hidden" id="inputType">
+                                <div class="structure-dropdown" id="inputTypeDropdown">
+                                    <div class="filter-list">
+                                        <label class="filter-item" onclick="selectInputType('investor')">
+                                            <input type="radio" name="inputTypeRadio" value="investor"> Investor
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputType('broker')">
+                                            <input type="radio" name="inputTypeRadio" value="broker"> Broker
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputType('advisor')">
+                                            <input type="radio" name="inputTypeRadio" value="advisor"> Advisor
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputType('other')">
+                                            <input type="radio" name="inputTypeRadio" value="other"> Other
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-cell col-email">
+                            <div class="input-cell-wrapper">
+                                <input type="email" class="input-cell" id="inputEmail" placeholder="Email...">
+                            </div>
+                        </div>
+                        <div class="data-cell col-phone">
+                            <div class="input-cell-wrapper">
+                                <input type="tel" class="input-cell" id="inputPhone" placeholder="Phone...">
+                            </div>
+                        </div>
+                        <div class="data-cell col-frequency">
+                            <div class="input-cell-wrapper">
+                                <div class="structure-input" id="inputFrequencySelector" onclick="toggleInputFrequencyDropdown()">
+                                    <span class="structure-placeholder">Freq...</span>
+                                    <span class="filter-icon">▼</span>
+                                </div>
+                                <input type="hidden" id="inputFrequency">
+                                <div class="structure-dropdown" id="inputFrequencyDropdown">
+                                    <div class="filter-list">
+                                        <label class="filter-item" onclick="selectInputFrequency('daily')">
+                                            <input type="radio" name="inputFreqRadio" value="daily"> Daily
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputFrequency('weekly')">
+                                            <input type="radio" name="inputFreqRadio" value="weekly"> Weekly
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputFrequency('biweekly')">
+                                            <input type="radio" name="inputFreqRadio" value="biweekly"> Bi-weekly
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputFrequency('monthly')">
+                                            <input type="radio" name="inputFreqRadio" value="monthly"> Monthly
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputFrequency('quarterly')">
+                                            <input type="radio" name="inputFreqRadio" value="quarterly"> Quarterly
+                                        </label>
+                                        <label class="filter-item" onclick="selectInputFrequency('never')">
+                                            <input type="radio" name="inputFreqRadio" value="never"> Never
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-cell col-lastcall">
+                            <div class="input-cell-wrapper date-wrapper">
+                                <input type="date" class="input-cell date-input" id="inputLastCall">
+                            </div>
+                        </div>
+                        <div class="data-cell col-action">
+                            <button class="btn-apply" onclick="addPartnerFromInputRow()">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Container -->
+            <div class="data-container">
+                <div id="dataContent">
+                    <!-- Loading State -->
+                    <div class="loading-container">
+                        <div class="spinner"></div>
+                        <p style="margin-top: 16px; color: var(--platform-muted);">Loading partners...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MOBILE VERSION -->
+<div class="mobile-version">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <div class="mobile-header-top">
+            <button class="platform-menu-button" onclick="openOffcanvas()">
+                <span></span>
+            </button>
+            <div class="mobile-title" onclick="resetAllFilters()">Partners CRM</div>
+            <div style="width: 32px;"></div>
+        </div>
+        <div class="mobile-controls">
+            <div class="mobile-search-wrapper">
+                <input type="text" class="mobile-search" placeholder="Search partners..." id="mobile-searchInput">
+                <span class="mobile-search-clear" onclick="clearMobileSearch()">×</span>
+                <div class="mobile-search-dropdown" id="mobile-searchDropdown"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Content -->
+    <div class="mobile-content" id="mobile-dataContent">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p style="margin-top: 12px; color: var(--platform-muted); font-size: 11px;">Loading partners...</p>
+        </div>
+    </div>
+
+    <!-- Mobile FAB -->
+    <button class="mobile-fab" onclick="openPartnerModal()">+</button>
+</div>
+
+<!-- New/Edit Partner Modal -->
+<div class="modal-overlay" id="partnerModal">
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2 class="modal-title" id="modalTitle">New Partner</h2>
+            <button class="modal-close" onclick="closePartnerModal()">&times;</button>
+        </div>
+
+        <!-- Form -->
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">First Name *</label>
+                <input type="text" class="form-input" id="modalFirstName" placeholder="First name...">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Last Name *</label>
+                <input type="text" class="form-input" id="modalLastName" placeholder="Last name...">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Emails</label>
+            <div class="tags-input-container" id="emailsContainer">
+                <div class="tags-list" id="emailsTags"></div>
+                <input type="email" class="tags-input" id="emailsInput" placeholder="Add email and press Enter">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Phones</label>
+            <div class="tags-input-container" id="phonesContainer">
+                <div class="tags-list" id="phonesTags"></div>
+                <input type="tel" class="tags-input" id="phonesInput" placeholder="Add phone and press Enter">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">Partner Type</label>
+                <select class="form-select" id="modalPartnerType">
+                    <option value="">Select type...</option>
+                    <option value="investor">Investor</option>
+                    <option value="broker">Broker</option>
+                    <option value="advisor">Advisor</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Company</label>
+                <div class="company-search-bar modal-company-search">
+                    <input type="text" class="search-input" placeholder="Search company..." id="modalCompanySearch">
+                    <input type="hidden" id="modalCompanyId">
+                    <div class="search-dropdown" id="modalCompanyDropdown"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">Pushing Frequency</label>
+                <select class="form-select" id="modalFrequency">
+                    <option value="">Select frequency...</option>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="biweekly">Bi-weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="quarterly">Quarterly</option>
+                    <option value="never">Never</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Country</label>
+                <input type="text" class="form-input" id="modalCountry" placeholder="Country...">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">LinkedIn URL</label>
+            <input type="url" class="form-input" id="modalLinkedin" placeholder="https://linkedin.com/in/...">
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Funding Stage Preferences</label>
+            <div class="checkbox-group" id="fundingStageGroup">
+                <label class="checkbox-option">
+                    <input type="checkbox" value="seed"> <span>Seed</span>
+                </label>
+                <label class="checkbox-option">
+                    <input type="checkbox" value="series-a"> <span>Series A</span>
+                </label>
+                <label class="checkbox-option">
+                    <input type="checkbox" value="series-b"> <span>Series B</span>
+                </label>
+                <label class="checkbox-option">
+                    <input type="checkbox" value="series-c"> <span>Series C+</span>
+                </label>
+                <label class="checkbox-option">
+                    <input type="checkbox" value="pre-ipo"> <span>Pre-IPO</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Investment Sectors</label>
+            <div class="multiselect-container" id="sectorsContainer">
+                <div class="multiselect-input-wrapper" onclick="toggleSectorsDropdown()">
+                    <div class="selected-chips" id="sectorsChips"></div>
+                    <input type="text" class="multiselect-input" id="sectorsInput" placeholder="Add sectors...">
+                </div>
+                <div class="multiselect-dropdown" id="sectorsDropdown"></div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Excluded Sectors</label>
+            <div class="multiselect-container" id="excludedSectorsContainer">
+                <div class="multiselect-input-wrapper" onclick="toggleExcludedSectorsDropdown()">
+                    <div class="selected-chips" id="excludedSectorsChips"></div>
+                    <input type="text" class="multiselect-input" id="excludedSectorsInput" placeholder="Add excluded sectors...">
+                </div>
+                <div class="multiselect-dropdown" id="excludedSectorsDropdown"></div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">Introduced By</label>
+                <div class="company-search-bar modal-company-search">
+                    <input type="text" class="search-input" placeholder="Search partner..." id="modalIntroducedBySearch">
+                    <input type="hidden" id="modalIntroducedBy">
+                    <div class="search-dropdown" id="modalIntroducedByDropdown"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Marketing Source</label>
+                <select class="form-select" id="modalMarketingSource">
+                    <option value="">Select source...</option>
+                    <option value="linkedin">LinkedIn Outreach</option>
+                    <option value="referral">Referral</option>
+                    <option value="conference">Conference</option>
+                    <option value="cold-email">Cold Email</option>
+                    <option value="inbound">Inbound</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row triple">
+            <div class="form-group">
+                <label class="form-label">First Touch</label>
+                <input type="date" class="form-input" id="modalFirstTouch">
+            </div>
+            <div class="form-group">
+                <label class="form-label">First Call</label>
+                <input type="date" class="form-input" id="modalFirstCall">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Last Call</label>
+                <input type="date" class="form-input" id="modalLastCall">
+            </div>
+        </div>
+
+        <!-- Form Actions -->
+        <div class="form-actions">
+            <button class="btn-cancel" onclick="closePartnerModal()">Cancel</button>
+            <button class="btn-submit" onclick="submitPartner()">Submit Partner</button>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal-overlay" id="deleteModal">
+    <div class="modal-content modal-small">
+        <div class="modal-header">
+            <h2 class="modal-title">Confirm Delete</h2>
+            <button class="modal-close" onclick="closeDeleteModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>Are you sure you want to delete <strong id="deletePartnerName"></strong>?</p>
+            <p class="warning-text">This action cannot be undone.</p>
+        </div>
+        <div class="form-actions">
+            <button class="btn-cancel" onclick="closeDeleteModal()">Cancel</button>
+            <button class="btn-danger" onclick="confirmDelete()">Delete</button>
+        </div>
+    </div>
+</div>
+
+<!-- Partner Detail Modal -->
+<div class="modal-overlay" id="detailModal">
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2 class="modal-title" id="detailModalTitle">Partner Details</h2>
+            <button class="modal-close" onclick="closeDetailModal()">&times;</button>
+        </div>
+        <div class="modal-body" id="detailModalContent">
+            <!-- Content will be populated dynamically -->
+        </div>
+        <div class="form-actions">
+            <button class="btn-cancel" onclick="closeDetailModal()">Close</button>
+            <button class="btn-submit" onclick="editFromDetail()">Edit Partner</button>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="/js/partners.js"></script>
+</div>

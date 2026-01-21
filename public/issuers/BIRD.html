@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Global - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="bird-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idjT2Iv_-u/idesXPpfUO.png" alt="Bird Global" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Bird Global</h1>
+                    <p class="company-tagline">Pioneering shared electric scooter micromobility to reduce car usage in cities (Chapter 11 bankruptcy)</p>
+                    <div class="company-tags"><span class="tag">Micromobility</span><span class="tag">E-Scooters</span><span class="tag">Urban Transport</span><span class="tag">Bankruptcy</span><span class="tag">Former Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Bird Global was a pioneering electric scooter sharing company founded in 2017 by former Lyft and Uber executive Travis VanderZanden. The company was a leader in the micromobility revolution, deploying shared e-scooters in cities worldwide. Bird went public via SPAC merger in late 2021 at a valuation exceeding $2 billion, but faced mounting losses and declining ridership. The company&#x27;s market cap dropped from $2B to $70M within 12 months of its NYSE debut. After exiting unprofitable markets, laying off 23% of staff, and multiple CEO changes, Bird filed for Chapter 11 bankruptcy in December 2023. The company secured $25M in DIP financing from MidCap Financial and sought to sell its assets through a bankruptcy auction process.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>December 2023</td>
+                <td>Chapter 11 DIP</td>
+                <td>$25M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>November 2021</td>
+                <td>SPAC IPO</td>
+                <td>$428M</td>
+                <td>—</td>
+            </tr><tr>
+                <td>2019</td>
+                <td>Series D</td>
+                <td>$275M</td>
+                <td>—</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bird Scooter Sharing</div>
+            <div class="product-desc">On-demand electric scooter rental service using smartphone app for short urban trips</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bird Zero/Two/Three</div>
+            <div class="product-desc">Purpose-built shared electric scooters designed for commercial fleet durability and reliability</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Bird Platform</div>
+            <div class="product-desc">SaaS platform for cities and operators to manage micromobility fleets and regulatory compliance</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Bird Global</h2>
+                        <div class="highlights-list"><a href="https://techcrunch.com/2023/12/20/bird-bankruptcy/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Electric scooter company Bird files for Chapter 11 bankruptcy in December 2023</span>
+        </a><a href="https://www.cbsnews.com/news/bird-bankruptcy-electric-scooter/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bird was once valued at $2.5 billion before steep decline led to bankruptcy filing</span>
+        </a><a href="https://gizmodo.com/flightless-bird-e-scooter-company-bird-declares-bankru-1851114346" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bird secures $25 million DIP financing from MidCap Financial for bankruptcy proceedings</span>
+        </a><a href="https://www.cfodive.com/news/bird-global-appoints-new-cfo-csuite-shakeup-bankruptcy/693286/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Shane Torchiana terminated as CEO with Michael Washinushi appointed interim CEO</span>
+        </a><a href="https://www.foxbusiness.com/markets/electric-scooter-rental-company-bird-files-bankruptcy" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Bird plans to sell assets through stalking horse bankruptcy auction process</span>
+        </a><a href="https://dailybruin.com/2024/02/21/zooming-in-on-the-future-of-micromobility-after-birds-bankruptcy-announcement" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">UCLA Daily Bruin examines future of micromobility after Bird bankruptcy announcement</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Michael+Washinushi&amp;background=3b82f6&amp;color=fff" alt="Michael Washinushi" class="leader-photo">
+            <div><div class="leader-name">Michael Washinushi</div>
+            <div class="leader-role">Interim Chief Executive Officer</div></div>
+            <a href="https://www.linkedin.com/in/michaelwashinushi/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Travis+VanderZanden&amp;background=3b82f6&amp;color=fff" alt="Travis VanderZanden" class="leader-photo">
+            <div><div class="leader-name">Travis VanderZanden</div>
+            <div class="leader-role">Founder (Former CEO)</div></div>
+            <a href="https://www.linkedin.com/in/travanderzanden/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://ui-avatars.com/api/?name=Shane+Torchiana&amp;background=3b82f6&amp;color=fff" alt="Shane Torchiana" class="leader-photo">
+            <div><div class="leader-name">Shane Torchiana</div>
+            <div class="leader-role">Former CEO (Terminated 2023)</div></div>
+            <a href="https://www.linkedin.com/in/shanetorchiana/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://www.sequoiacap.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Sequoia Capital</span>
+        </a><a href="https://www.indexventures.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Index Ventures</span>
+        </a><a href="https://www.cdpq.com/" target="_blank" class="investor-card">
+            <span class="investor-name">CDPQ</span>
+        </a><a href="https://www.fidelity.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Fidelity</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Bird Global, Inc.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.bird.co/" target="_blank" class="detail-value">www.bird.co/</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2017</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">500 (peak)</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Miami, Florida</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cato Networks - Institutional Marketplace</title>
+    <style>
+        :root { --primary: #0a64bc; --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 2rem; text-decoration: none; color: var(--text); }
+        .profile-container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .profile-hero { display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; }
+        .company-logo { width: 120px; height: 120px; border-radius: 16px; object-fit: contain; background: var(--card); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .company-name { font-size: 2.5rem; font-weight: 700; }
+        .company-tagline { color: var(--muted); font-size: 1.1rem; margin: 0.5rem 0; }
+        .company-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .kpi { background: var(--card); padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .kpi-value { display: block; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi-label { color: var(--muted); font-size: 0.875rem; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; }
+        .overview-text { color: var(--text); line-height: 1.8; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .product-card { background: var(--bg); padding: 1rem; border-radius: 8px; }
+        .product-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .product-title { font-weight: 600; margin-bottom: 0.5rem; }
+        .product-desc { color: var(--muted); font-size: 0.875rem; }
+        .highlights-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .highlight-item { display: flex; flex-direction: column; padding: 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.2s; border-left: 3px solid var(--primary); }
+        .highlight-item:hover { background: #e0e7ff; transform: translateX(4px); }
+        .highlight-date { font-size: 0.75rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
+        .highlight-title { font-size: 0.95rem; }
+        .leadership-grid { display: grid; gap: 1rem; }
+        .leader-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 8px; }
+        .leader-photo { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+        .leader-name { font-weight: 600; }
+        .leader-role { color: var(--muted); font-size: 0.875rem; }
+        .linkedin-link { color: var(--primary); font-size: 0.875rem; text-decoration: none; margin-left: auto; }
+        .investors-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .investor-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--bg); border-radius: 8px; text-decoration: none; color: var(--text); }
+        .details-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .detail-row { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+        .detail-label { color: var(--muted); }
+        .detail-value { font-weight: 500; }
+        .detail-value a { color: var(--primary); text-decoration: none; }
+        .no-data { color: var(--muted); font-style: italic; }
+        .funding-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .funding-table th { background: var(--bg); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+        .funding-table td { padding: 0.75rem; border-bottom: 1px solid var(--border); }
+        .funding-table tr:hover { background: var(--bg); }
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } .kpi-grid { grid-template-columns: repeat(2, 1fr); } .profile-hero { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo">Institutional Marketplace</a>
+        <div class="nav-links">
+            <a href="/">Deals</a>
+            <a href="/issuers/">Issuers</a>
+        </div>
+    </nav>
+
+    <main class="profile-container">
+        <section id="cato-networks-profile" class="profile-section">
+            <div class="profile-hero">
+                <img src="https://asset.brandfetch.io/idBa2RH7aO/id3EV6nxFi.svg" alt="Cato Networks" class="company-logo">
+                <div class="hero-content">
+                    <h1 class="company-name">Cato Networks</h1>
+                    <p class="company-tagline">Pioneering SASE to deliver secure, cloud-native networking to every enterprise</p>
+                    <div class="company-tags"><span class="tag">Cybersecurity</span><span class="tag">SASE</span><span class="tag">Cloud Security</span><span class="tag">Networking</span><span class="tag">Unicorn</span></div>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi"><span class="kpi-value">Technology</span><span class="kpi-label">Industry</span></div>
+                <div class="kpi"><span class="kpi-value">United States</span><span class="kpi-label">Country</span></div>
+                <div class="kpi"><span class="kpi-value">Private</span><span class="kpi-label">Status</span></div>
+                <div class="kpi"><span class="kpi-value">Growth</span><span class="kpi-label">Stage</span></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="card">
+                        <h2>Overview</h2>
+                        <p class="overview-text">Cato Networks is the pioneer of SASE (Secure Access Service Edge), delivering a single cloud-native platform that converges SD-WAN, a global private backbone, and complete network security. Founded in 2015 by cybersecurity legends Shlomo Kramer (co-founder of Check Point and Imperva) and Gur Shatz, Cato enables enterprises to securely connect any user, site, cloud, or application anywhere in the world. With 46% ARR growth in 2024 and over 3,500 enterprise customers, Cato raised $359 million in Series G funding in June 2025 at a $4.8 billion valuation, bringing total funding to over $1 billion. The company is considered a leading IPO candidate in cybersecurity.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Funding History</h2>
+                        <div class="funding-content"><table class="funding-table">
+            <thead><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th></tr></thead>
+            <tbody><tr>
+                <td>June 2025</td>
+                <td>Series G</td>
+                <td>$359M</td>
+                <td>$4.8B</td>
+            </tr><tr>
+                <td>September 2023</td>
+                <td>Series F</td>
+                <td>$238M</td>
+                <td>$3B</td>
+            </tr><tr>
+                <td>October 2021</td>
+                <td>Series E</td>
+                <td>$200M</td>
+                <td>$2.5B</td>
+            </tr></tbody></table></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Products & Technology</h2>
+                        <div class="products-grid"><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cato SASE Cloud</div>
+            <div class="product-desc">Converged cloud-native platform delivering SD-WAN, network security, and zero trust access in a single service</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cato SD-WAN</div>
+            <div class="product-desc">Software-defined WAN connecting physical locations, cloud resources, and mobile users via global backbone</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cato SSE 360</div>
+            <div class="product-desc">Security Service Edge with CASB, SWG, ZTNA, FWaaS, and advanced threat prevention</div>
+        </div><div class="product-card">
+            <div class="product-icon">📦</div>
+            <div class="product-title">Cato XDR</div>
+            <div class="product-desc">Extended detection and response leveraging Cato&#x27;s global network visibility for threat intelligence</div>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Latest news on Cato Networks</h2>
+                        <div class="highlights-list"><a href="https://www.catonetworks.com/news/cato-raises-359-million/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Cato Networks raises $359M at $4.8B valuation</span>
+        </a><a href="https://www.fastcompany.com/91360762/cato-networks-secures-new-funding-round" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Fast Company: Cato Networks secures $359 million in new funding round</span>
+        </a><a href="https://www.calcalistech.com/ctechnews/article/pmald8ywg" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Calcalist: Cato Networks raises $359M, keeps IPO on ice</span>
+        </a><a href="https://www.techzine.eu/news/security/117913/cato-networks-prepares-for-ipo-in-2025/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Techzine: Cato Networks prepares for IPO in 2025</span>
+        </a><a href="https://techstartups.com/2025/06/30/cato-networks-raises-359m-in-funding-at-4-8b-valuation-ahead-of-potential-2025-ipo/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Tech Startups: Cato Networks raises $359M ahead of potential 2025 IPO</span>
+        </a><a href="https://siliconangle.com/2025/06/30/cato-networks-raises-359m-funding-sase-platform/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title"><strong>$359M Series G at $4.8B</strong> (Jun 2025)—led by Vitruvian, total funding exceeds $1B</span>
+        </a><a href="https://www.catonetworks.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Official: SASE cloud security platform</span>
+        </a><a href="https://www.gartner.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Gartner: Magic Quadrant recognition</span>
+        </a><a href="https://www.scmagazine.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">SC Media: Cybersecurity innovation</span>
+        </a><a href="https://www.forbes.com/" target="_blank" class="highlight-item">
+            <span class="highlight-date"></span>
+            <span class="highlight-title">Forbes: Enterprise security leader</span>
+        </a></div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h2>Leadership</h2>
+                        <div class="leadership-grid"><div class="leader-card">
+            <img src="https://cdn.theorg.com/5218c79d-e9d6-4d4c-969c-d6e0d6d84e65_medium.jpg" alt="Shlomo Kramer" class="leader-photo">
+            <div><div class="leader-name">Shlomo Kramer</div>
+            <div class="leader-role">Co-Founder &amp; CEO</div></div>
+            <a href="https://www.linkedin.com/in/shlomokramer/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/ffee66f4-8ddd-4e38-968d-e19baf5f304c_medium.jpg" alt="Gur Shatz" class="leader-photo">
+            <div><div class="leader-name">Gur Shatz</div>
+            <div class="leader-role">Co-Founder, President &amp; COO</div></div>
+            <a href="https://www.linkedin.com/in/gurshatz/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/22b19a7c-c94f-4fe5-bc0a-f40e47c3a97d_medium.jpg" alt="Tomer Wald" class="leader-photo">
+            <div><div class="leader-name">Tomer Wald</div>
+            <div class="leader-role">Chief Financial Officer</div></div>
+            <a href="https://www.linkedin.com/in/tomerwald/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div><div class="leader-card">
+            <img src="https://cdn.theorg.com/bad072bf-a5ca-461e-9ce6-8f04ee2acb74_medium.jpg" alt="Yishay Yovel" class="leader-photo">
+            <div><div class="leader-name">Yishay Yovel</div>
+            <div class="leader-role">Chief Strategy Officer</div></div>
+            <a href="https://www.linkedin.com/in/yishayyovel/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Key Investors</h2>
+                        <div class="investors-grid"><a href="https://lsvp.com" target="_blank" class="investor-card">
+            <span class="investor-name">Lightspeed Venture Partners</span>
+        </a><a href="https://www.vitruvianpartners.com" target="_blank" class="investor-card">
+            <span class="investor-name">Vitruvian Partners</span>
+        </a><a href="https://www.iongroup.com" target="_blank" class="investor-card">
+            <span class="investor-name">ION Crossover Partners</span>
+        </a><a href="https://www.acrewcapital.com" target="_blank" class="investor-card">
+            <span class="investor-name">Acrew Capital</span>
+        </a><a href="https://www.adamsstreetpartners.com" target="_blank" class="investor-card">
+            <span class="investor-name">Adams Street Partners</span>
+        </a><a href="https://greylock.com/" target="_blank" class="investor-card">
+            <span class="investor-name">Greylock Partners</span>
+        </a></div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Company Details</h2>
+                        <div class="details-list"><div class="detail-row"><span class="detail-label">Legal Name</span><span class="detail-value">Cato Networks Ltd.</span></div><div class="detail-row"><span class="detail-label">Website</span><a href="https://www.catonetworks.com" target="_blank" class="detail-value">www.catonetworks.com</a></div><div class="detail-row"><span class="detail-label">Founded</span><span class="detail-value">2015</span></div><div class="detail-row"><span class="detail-label">Employees</span><span class="detail-value">1,000+</span></div><div class="detail-row"><span class="detail-label">Headquarters</span><span class="detail-value">Tel Aviv, Israel</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
