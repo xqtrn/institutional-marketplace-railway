@@ -320,6 +320,12 @@
   color: #be185d;
 }
 
+.deal-type-badge.match {
+  background: #d1fae5;
+  color: #059669;
+  font-weight: 700;
+}
+
 /* Deal Details */
 .deal-details {
   display: flex;

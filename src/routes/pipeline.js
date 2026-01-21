@@ -253,73 +253,116 @@ router.patch('/:id', optionalApiKey, async (req, res) => {
   }
 });
 
-// POST /sync - Sync deals from marketplace to pipeline
+// POST /sync - Sync MATCHED deals (both buy and sell exist for same company)
 router.post('/sync', optionalApiKey, async (req, res) => {
   try {
-    const { dealType } = req.body; // 'buy', 'sell', or both
-    const types = dealType ? [dealType] : ['buy', 'sell'];
+    // Find companies that have BOTH buy and sell offers (matched deals)
+    const matchedCompaniesResult = await pool.query(`
+      SELECT DISTINCT LOWER(b.company) as company_lower, b.company
+      FROM deals b
+      INNER JOIN deals s ON LOWER(b.company) = LOWER(s.company)
+      WHERE b.deal_type = 'buy' AND s.deal_type = 'sell'
+    `);
 
     let synced = 0;
     let skipped = 0;
 
-    for (const type of types) {
-      // Get all deals of this type
-      const dealsResult = await pool.query(
-        'SELECT * FROM deals WHERE deal_type = $1',
-        [type]
+    for (const match of matchedCompaniesResult.rows) {
+      const companyName = match.company;
+
+      // Check if already in pipeline
+      const existingResult = await pool.query(
+        `SELECT id FROM pipeline WHERE LOWER(company) = LOWER($1)`,
+        [companyName]
       );
 
-      for (const deal of dealsResult.rows) {
-        // Check if already in pipeline
-        const existingResult = await pool.query(
-          `SELECT id FROM pipeline WHERE LOWER(company) = LOWER($1) AND LOWER(COALESCE(partner, '')) = LOWER($2)`,
-          [deal.company, deal.partner || '']
-        );
-
-        if (existingResult.rows.length === 0) {
-          // Add to pipeline
-          const pipelineResult = await pool.query(
-            `INSERT INTO pipeline (company, deal_type, stage, price, volume, valuation, structure, share_class, partner, probability, source, source_id)
-             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
-             RETURNING id`,
-            [
-              deal.company,
-              type,
-              'new_lead',
-              deal.price,
-              deal.volume,
-              deal.valuation,
-              deal.structure,
-              deal.share_class,
-              deal.partner,
-              20,
-              deal.source || 'manual',
-              deal.id
-            ]
-          );
-
-          // Log creation
-          await pool.query(
-            'INSERT INTO pipeline_history (deal_id, action, to_stage, trigger) VALUES ($1, $2, $3, $4)',
-            [pipelineResult.rows[0].id, 'created', 'new_lead', 'sync']
-          );
-
-          synced++;
-        } else {
-          skipped++;
-        }
+      if (existingResult.rows.length > 0) {
+        skipped++;
+        continue;
       }
+
+      // Get best buy offer (highest volume or most recent)
+      const buyResult = await pool.query(
+        `SELECT * FROM deals WHERE LOWER(company) = LOWER($1) AND deal_type = 'buy' ORDER BY volume DESC NULLS LAST, id DESC LIMIT 1`,
+        [companyName]
+      );
+
+      // Get best sell offer
+      const sellResult = await pool.query(
+        `SELECT * FROM deals WHERE LOWER(company) = LOWER($1) AND deal_type = 'sell' ORDER BY volume DESC NULLS LAST, id DESC LIMIT 1`,
+        [companyName]
+      );
+
+      if (buyResult.rows.length === 0 || sellResult.rows.length === 0) {
+        continue;
+      }
+
+      const buyDeal = buyResult.rows[0];
+      const sellDeal = sellResult.rows[0];
+
+      // Calculate combined volume (use smaller of the two as potential deal size)
+      const buyVolume = parseFloat(buyDeal.volume) || 0;
+      const sellVolume = parseFloat(sellDeal.volume) || 0;
+      const dealVolume = Math.min(buyVolume, sellVolume) || buyVolume || sellVolume;
+
+      // Create matched deal in pipeline
+      const pipelineResult = await pool.query(
+        `INSERT INTO pipeline (company, deal_type, stage, price, volume, valuation, structure, share_class, partner, partner_email, probability, notes, source, source_id)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
+         RETURNING id`,
+        [
+          companyName,
+          'match', // New type for matched deals
+          'new_lead',
+          buyDeal.price || sellDeal.price,
+          dealVolume,
+          buyDeal.valuation || sellDeal.valuation,
+          buyDeal.structure || sellDeal.structure || 'Direct Trade',
+          buyDeal.share_class || sellDeal.share_class || 'Common',
+          `Buyer: ${buyDeal.partner || 'Unknown'} | Seller: ${sellDeal.partner || 'Unknown'}`,
+          '',
+          30, // Higher probability for matched deals
+          `Buy side: ${buyDeal.partner || 'Unknown'} (${buyVolume ? '$' + (buyVolume/1e6).toFixed(1) + 'M' : 'Request'})\nSell side: ${sellDeal.partner || 'Unknown'} (${sellVolume ? '$' + (sellVolume/1e6).toFixed(1) + 'M' : 'Request'})`,
+          'matched',
+          buyDeal.id
+        ]
+      );
+
+      // Log creation
+      await pool.query(
+        'INSERT INTO pipeline_history (deal_id, action, to_stage, trigger) VALUES ($1, $2, $3, $4)',
+        [pipelineResult.rows[0].id, 'created', 'new_lead', 'auto_match']
+      );
+
+      synced++;
     }
 
     res.json({
       success: true,
       synced,
       skipped,
-      message: `Synced ${synced} deals to pipeline (${skipped} already existed)`
+      message: `Found ${synced} matched deals (${skipped} already in pipeline)`
     });
   } catch (error) {
     console.error('Pipeline sync error:', error);
     res.status(500).json({ error: 'Failed to sync deals' });
+  }
+});
+
+// POST /clear - Clear all pipeline deals
+router.post('/clear', optionalApiKey, async (req, res) => {
+  try {
+    await pool.query('DELETE FROM pipeline_history');
+    const result = await pool.query('DELETE FROM pipeline');
+
+    res.json({
+      success: true,
+      deleted: result.rowCount,
+      message: `Cleared ${result.rowCount} deals from pipeline`
+    });
+  } catch (error) {
+    console.error('Pipeline clear error:', error);
+    res.status(500).json({ error: 'Failed to clear pipeline' });
   }
 });
 
