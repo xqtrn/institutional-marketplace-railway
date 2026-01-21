@@ -253,6 +253,129 @@ router.patch('/:id', optionalApiKey, async (req, res) => {
   }
 });
 
+// POST /sync - Sync deals from marketplace to pipeline
+router.post('/sync', optionalApiKey, async (req, res) => {
+  try {
+    const { dealType } = req.body; // 'buy', 'sell', or both
+    const types = dealType ? [dealType] : ['buy', 'sell'];
+
+    let synced = 0;
+    let skipped = 0;
+
+    for (const type of types) {
+      // Get all deals of this type
+      const dealsResult = await pool.query(
+        'SELECT * FROM deals WHERE deal_type = $1',
+        [type]
+      );
+
+      for (const deal of dealsResult.rows) {
+        // Check if already in pipeline
+        const existingResult = await pool.query(
+          `SELECT id FROM pipeline WHERE LOWER(company) = LOWER($1) AND LOWER(COALESCE(partner, '')) = LOWER($2)`,
+          [deal.company, deal.partner || '']
+        );
+
+        if (existingResult.rows.length === 0) {
+          // Add to pipeline
+          const pipelineResult = await pool.query(
+            `INSERT INTO pipeline (company, deal_type, stage, price, volume, valuation, structure, share_class, partner, probability, source, source_id)
+             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+             RETURNING id`,
+            [
+              deal.company,
+              type,
+              'new_lead',
+              deal.price,
+              deal.volume,
+              deal.valuation,
+              deal.structure,
+              deal.share_class,
+              deal.partner,
+              20,
+              deal.source || 'manual',
+              deal.id
+            ]
+          );
+
+          // Log creation
+          await pool.query(
+            'INSERT INTO pipeline_history (deal_id, action, to_stage, trigger) VALUES ($1, $2, $3, $4)',
+            [pipelineResult.rows[0].id, 'created', 'new_lead', 'sync']
+          );
+
+          synced++;
+        } else {
+          skipped++;
+        }
+      }
+    }
+
+    res.json({
+      success: true,
+      synced,
+      skipped,
+      message: `Synced ${synced} deals to pipeline (${skipped} already existed)`
+    });
+  } catch (error) {
+    console.error('Pipeline sync error:', error);
+    res.status(500).json({ error: 'Failed to sync deals' });
+  }
+});
+
+// POST /update-stage - Update deal stage (for MailAI auto-updates)
+router.post('/update-stage', optionalApiKey, async (req, res) => {
+  try {
+    const { company, partner, newStage, trigger, notes } = req.body;
+
+    if (!company || !newStage) {
+      return res.status(400).json({ error: 'company and newStage required' });
+    }
+
+    // Find the deal
+    const dealResult = await pool.query(
+      `SELECT * FROM pipeline WHERE LOWER(company) = LOWER($1) AND LOWER(COALESCE(partner, '')) = LOWER($2)`,
+      [company, partner || '']
+    );
+
+    if (dealResult.rows.length === 0) {
+      return res.status(404).json({ error: 'Deal not found in pipeline' });
+    }
+
+    const deal = dealResult.rows[0];
+    const oldStage = deal.stage;
+
+    if (oldStage === newStage) {
+      return res.json({ success: true, message: 'Stage unchanged' });
+    }
+
+    // Update stage
+    await pool.query(
+      'UPDATE pipeline SET stage = $1, notes = COALESCE($2, notes), updated_at = NOW() WHERE id = $3',
+      [newStage, notes, deal.id]
+    );
+
+    // Log stage change
+    await pool.query(
+      'INSERT INTO pipeline_history (deal_id, action, from_stage, to_stage, trigger) VALUES ($1, $2, $3, $4, $5)',
+      [deal.id, 'stage_change', oldStage, newStage, trigger || 'auto']
+    );
+
+    res.json({
+      success: true,
+      deal: {
+        id: deal.id.toString(),
+        company: deal.company,
+        oldStage,
+        newStage
+      }
+    });
+  } catch (error) {
+    console.error('Pipeline update-stage error:', error);
+    res.status(500).json({ error: 'Failed to update stage' });
+  }
+});
+
 // DELETE - Remove deal
 router.delete('/:id', optionalApiKey, async (req, res) => {
   try {
