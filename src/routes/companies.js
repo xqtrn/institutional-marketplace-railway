@@ -5,13 +5,14 @@ const { validateApiKey } = require('../middleware/auth');
 
 router.get('/', async (req, res) => {
   try {
-    const result = await pool.query('SELECT * FROM companies ORDER BY name');
+    const result = await pool.query('SELECT * FROM companies ORDER BY id');
     const companies = result.rows.map(row => ({
       id: row.id,
       name: row.name,
       ...row.data
     }));
-    res.json(companies);
+    // Match Cloudflare response format
+    res.json({ success: true, count: companies.length, companies });
   } catch (error) {
     console.error('Companies GET error:', error);
     res.status(500).json({ error: 'Failed to fetch companies' });

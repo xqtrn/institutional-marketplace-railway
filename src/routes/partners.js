@@ -5,13 +5,14 @@ const { validateApiKey } = require('../middleware/auth');
 
 router.get('/', async (req, res) => {
   try {
-    const result = await pool.query('SELECT * FROM partners ORDER BY name');
+    const result = await pool.query('SELECT * FROM partners ORDER BY id');
     const partners = result.rows.map(row => ({
       id: row.id,
       name: row.name,
       ...row.data
     }));
-    res.json(partners);
+    // Match Cloudflare response format
+    res.json({ success: true, count: partners.length, partners });
   } catch (error) {
     console.error('Partners GET error:', error);
     res.status(500).json({ error: 'Failed to fetch partners' });
