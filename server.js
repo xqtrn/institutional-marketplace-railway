@@ -10,6 +10,11 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
+// Health check endpoint (no DB required)
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
 // API Routes
 app.use('/api/auth', require('./src/routes/auth'));
 app.use('/api/buy', require('./src/routes/buy'));
