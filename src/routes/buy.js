@@ -23,8 +23,8 @@ router.get('/', async (req, res) => {
     const deals = result.rows.map((row, index) => ({
       id: index + 1,  // Sequential IDs starting from 1
       company: row.company,
-      managementFee: row.management_fee === 0 || row.management_fee === null ? '' : row.management_fee,
-      carry: row.carry === 0 || row.carry === null ? '' : row.carry,
+      managementFee: !row.management_fee || parseFloat(row.management_fee) === 0 ? '' : row.management_fee,
+      carry: !row.carry || parseFloat(row.carry) === 0 ? '' : row.carry,
       lastUpdate: formatDate(row.last_update),
       volume: row.volume || 'Request',
       price: row.price || 'Request',
