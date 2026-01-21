@@ -3,6 +3,23 @@ const router = express.Router();
 const { pool } = require('../db');
 const { validateApiKey } = require('../middleware/auth');
 
+// Parse date string like "November 17, 2025" to Date object
+function parseDate(dateStr) {
+  if (!dateStr) return new Date();
+  // If already a valid ISO date
+  const isoDate = new Date(dateStr);
+  if (!isNaN(isoDate.getTime())) return isoDate;
+  // Parse "Month Day, Year" format
+  const months = { January: 0, February: 1, March: 2, April: 3, May: 4, June: 5,
+                   July: 6, August: 7, September: 8, October: 9, November: 10, December: 11 };
+  const match = dateStr.match(/(\w+)\s+(\d+),?\s+(\d{4})/);
+  if (match) {
+    const [, month, day, year] = match;
+    return new Date(parseInt(year), months[month] || 0, parseInt(day));
+  }
+  return new Date();
+}
+
 router.post('/', validateApiKey, async (req, res) => {
   try {
     const body = req.body;
@@ -178,7 +195,7 @@ router.post('/', validateApiKey, async (req, res) => {
           deal.partnerId || '',
           deal.source || 'manual',
           deal.status || 'active',
-          deal.lastUpdate || new Date().toISOString()
+          parseDate(deal.lastUpdate)
         ]
       );
     }
