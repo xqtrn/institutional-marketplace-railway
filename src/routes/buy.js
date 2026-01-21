@@ -12,43 +12,25 @@ function formatDate(date) {
   return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
-// Parse value to match Cloudflare format: numbers as numbers, null for missing
-function parseValue(val) {
-  if (!val || val === '' || val === 'Request' || val === 'null') return null;
-  // If it's a formatted string like "$5M", keep as string
-  if (typeof val === 'string' && (val.includes('$') || val.includes('M') || val.includes('B') || val.includes('K'))) {
-    return val;
-  }
-  // Try to parse as number
-  const num = parseFloat(val);
-  if (!isNaN(num)) return num;
-  return val;
-}
-
 router.get('/', async (req, res) => {
   try {
     const result = await pool.query(
-      'SELECT * FROM deals WHERE deal_type = $1 ORDER BY last_update DESC',
+      'SELECT * FROM deals WHERE deal_type = $1 ORDER BY id ASC',
       ['buy']
     );
 
-    // Transform to match Cloudflare format exactly
-    const deals = result.rows.map(row => ({
-      id: row.id.toString(),
+    // Transform to match Cloudflare format exactly - keep original values
+    const deals = result.rows.map((row, index) => ({
+      id: index + 1,  // Sequential IDs starting from 1
       company: row.company,
-      price: parseValue(row.price),
-      volume: parseValue(row.volume),
-      valuation: parseValue(row.valuation),
-      structure: row.structure || 'Direct Trade',
-      shareClass: row.share_class || 'Common',
-      series: row.series || '',
-      managementFee: parseFloat(row.management_fee) || 0,
-      carry: parseFloat(row.carry) || 0,
-      partner: row.partner || '',
-      partnerId: row.partner_id || '',
+      managementFee: row.management_fee === 0 || row.management_fee === null ? '' : row.management_fee,
+      carry: row.carry === 0 || row.carry === null ? '' : row.carry,
       lastUpdate: formatDate(row.last_update),
-      source: row.source,
-      status: row.status
+      volume: row.volume || 'Request',
+      price: row.price || 'Request',
+      valuation: row.valuation || 'Request',
+      structure: row.structure || 'Direct Trade',
+      shareClass: row.share_class || 'Common'
     }));
 
     res.json(deals);
