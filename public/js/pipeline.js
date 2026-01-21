@@ -248,16 +248,14 @@
 
         // Update via API
         try {
-            const response = await fetch(API_URL, {
+            const response = await fetch(`${API_URL}/${dealId}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',
                     'X-API-Key': API_KEY
                 },
                 body: JSON.stringify({
-                    id: dealId,
-                    stage: newStage,
-                    trigger: 'manual'
+                    stage: newStage
                 })
             });
 
@@ -400,7 +398,7 @@
 
         // Fetch deal with history
         try {
-            const response = await fetch(`${API_URL}?id=${dealId}`);
+            const response = await fetch(`${API_URL}/${dealId}`);
             const data = await response.json();
 
             renderDealPanel(data.deal, data.history || []);

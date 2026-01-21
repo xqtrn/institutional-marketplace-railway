@@ -155,7 +155,22 @@ router.post('/', optionalApiKey, async (req, res) => {
       deal: {
         id: newDeal.id.toString(),
         company: newDeal.company,
-        stage: newDeal.stage
+        dealType: newDeal.deal_type,
+        stage: newDeal.stage,
+        price: newDeal.price,
+        volume: newDeal.volume,
+        valuation: newDeal.valuation,
+        structure: newDeal.structure,
+        shareClass: newDeal.share_class,
+        partner: newDeal.partner,
+        partnerEmail: newDeal.partner_email,
+        probability: newDeal.probability,
+        notes: newDeal.notes,
+        source: newDeal.source,
+        sourceId: newDeal.source_id?.toString(),
+        emailThreads: newDeal.email_threads || [],
+        createdAt: newDeal.created_at?.toISOString(),
+        updatedAt: newDeal.updated_at?.toISOString()
       }
     });
   } catch (error) {
