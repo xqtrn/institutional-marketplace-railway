@@ -143,11 +143,24 @@ app.post('/api/migrate', async (req, res) => {
       const SALT = 'im_salt_2024';
       for (const user of data) {
         const passwordHash = CryptoJS.SHA256(user.password + SALT).toString();
+        const createdAt = user.createdAt ? new Date(user.createdAt) : new Date();
         await pool.query(
-          `INSERT INTO users (email, password_hash, role, permissions) VALUES ($1, $2, $3, $4) ON CONFLICT (email) DO UPDATE SET password_hash = $2, role = $3, permissions = $4`,
-          [user.email.toLowerCase(), passwordHash, user.role || 'user', JSON.stringify(user.permissions || [])]
+          `INSERT INTO users (email, password_hash, role, permissions, created_at) VALUES ($1, $2, $3, $4, $5) ON CONFLICT (email) DO UPDATE SET password_hash = $2, role = $3, permissions = $4, created_at = $5`,
+          [user.email.toLowerCase(), passwordHash, user.role || 'user', JSON.stringify(user.permissions || []), createdAt]
         );
         imported++;
+      }
+    } else if (table === 'users_update') {
+      // Update user dates without changing password
+      for (const user of data) {
+        const createdAt = user.createdAt ? new Date(user.createdAt) : null;
+        if (createdAt) {
+          await pool.query(
+            `UPDATE users SET created_at = $1 WHERE email = $2`,
+            [createdAt, user.email.toLowerCase()]
+          );
+          imported++;
+        }
       }
     }
 
