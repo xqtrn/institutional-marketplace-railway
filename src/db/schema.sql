@@ -1,12 +1,8 @@
 -- Users
 CREATE TABLE IF NOT EXISTS users (
   id SERIAL PRIMARY KEY,
-  email VARCHAR(255) UNIQUE,
-  password_hash VARCHAR(255),
-  telegram_id BIGINT UNIQUE,
-  telegram_username VARCHAR(255),
-  telegram_first_name VARCHAR(255),
-  telegram_photo_url TEXT,
+  email VARCHAR(255) UNIQUE NOT NULL,
+  password_hash VARCHAR(255) NOT NULL,
   role VARCHAR(50) DEFAULT 'user',
   permissions JSONB DEFAULT '[]',
   created_at TIMESTAMP DEFAULT NOW()

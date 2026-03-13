@@ -171,25 +171,6 @@ app.post('/api/migrate', async (req, res) => {
   }
 });
 
-// Run Telegram migration on startup
-(async () => {
-  try {
-    const { pool } = require('./src/db');
-    const fs = require('fs');
-    const migrationPath = path.join(__dirname, 'src/db/migrate-telegram.sql');
-    if (fs.existsSync(migrationPath)) {
-      const migration = fs.readFileSync(migrationPath, 'utf8');
-      await pool.query(migration);
-      console.log('Telegram migration applied');
-    }
-  } catch (error) {
-    // Ignore if already applied
-    if (!error.message.includes('already exists')) {
-      console.error('Telegram migration error:', error.message);
-    }
-  }
-})();
-
 // API Routes
 app.use('/api/auth', require('./src/routes/auth'));
 app.use('/api/buy', require('./src/routes/buy'));

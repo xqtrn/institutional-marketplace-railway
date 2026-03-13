@@ -27,14 +27,14 @@
             <nav class="cs-offcanvas__nav">
                 <ul class="offcanvas-menu">
                     <li class="menu-item"><a href="/">Marketplace</a></li>
-                    <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
                     <li class="menu-item"><a href="/admin.html">Admin Marketplace</a></li>
                     <li class="menu-item active"><a href="/users.html">Users</a></li>
                     <li class="menu-item"><a href="/partners.html">Partners</a></li>
                     <li class="menu-item"><a href="/companies.html">Companies</a></li>
                     <li class="menu-item"><a href="/issuers.html">Issuers</a></li>
                     <li class="menu-item"><a href="/auto-updater.html">Auto-Updater</a></li>
-                    <li class="menu-item"><a href="/settings.html">Settings</a></li>
+                <li class="menu-item"><a href="/settings.html">Settings</a></li>
                 </ul>
             </nav>
             <div class="offcanvas-footer">
@@ -61,17 +61,19 @@
             </div>
             <div class="header-right">
                 <span class="user-email" id="currentUserEmail"></span>
+                <button class="btn-add-user" onclick="openUserModal()">
+                    <span>+</span> Add User
+                </button>
             </div>
         </header>
 
         <!-- Users Table -->
         <div class="users-content">
-            <p style="color: #666; font-size: 13px; margin-bottom: 16px;">Users are created automatically when they sign in via Telegram. You can change their role and permissions here.</p>
             <div class="users-table-container">
                 <table class="users-table">
                     <thead>
                         <tr>
-                            <th>Telegram</th>
+                            <th>Email</th>
                             <th>Role</th>
                             <th>Permissions</th>
                             <th>Created</th>
@@ -88,26 +90,28 @@
         </div>
     </div>
 
-    <!-- Edit User Modal -->
+    <!-- User Modal -->
     <div class="modal-overlay" id="userModal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 id="modalTitle">Edit User</h2>
+                <h2 id="modalTitle">Add User</h2>
                 <button class="modal-close" onclick="closeUserModal()">&times;</button>
             </div>
             <form id="userForm" onsubmit="return handleSaveUser(event)">
                 <div class="form-group">
-                    <label>Telegram</label>
-                    <input type="text" id="userTelegram" readonly style="background: #f5f5f5; cursor: default;">
+                    <label for="userEmail">Email</label>
+                    <input type="email" id="userEmail" required placeholder="user@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="userPassword">Password</label>
+                    <input type="password" id="userPassword" placeholder="Leave empty to keep current">
+                    <small>Minimum 6 characters. Leave empty when editing to keep current password.</small>
                 </div>
 
                 <div class="form-group">
                     <label>Role</label>
                     <div class="radio-group">
-                        <label class="radio-option">
-                            <input type="radio" name="userRole" value="user">
-                            <span>User</span>
-                        </label>
                         <label class="radio-option">
                             <input type="radio" name="userRole" value="admin" checked>
                             <span>Admin</span>
@@ -144,7 +148,7 @@
 
                 <div class="form-actions">
                     <button type="button" class="btn-cancel" onclick="closeUserModal()">Cancel</button>
-                    <button type="submit" class="btn-save">Save</button>
+                    <button type="submit" class="btn-save">Save User</button>
                 </div>
             </form>
         </div>
@@ -158,7 +162,7 @@
                 <button class="modal-close" onclick="closeDeleteModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <p>Are you sure you want to delete <strong id="deleteUserName"></strong>?</p>
+                <p>Are you sure you want to delete <strong id="deleteUserEmail"></strong>?</p>
                 <p class="warning-text">This action cannot be undone.</p>
             </div>
             <div class="form-actions">
@@ -196,18 +200,22 @@
         // ========================================
         // USER MANAGEMENT
         // ========================================
-        let allUsers = [];
-        let editingUserId = null;
-        let deletingUserId = null;
+        let editingUser = null;
+        let deletingUserEmail = null;
 
+        // Load users on page load
         document.addEventListener('DOMContentLoaded', async function() {
+            // Check authentication
             if (!requireAuth('users')) return;
 
+            // Show current user
             const session = getSession();
-            document.getElementById('currentUserEmail').textContent = '@' + (session.username || session.first_name || 'admin');
+            document.getElementById('currentUserEmail').textContent = session.email;
 
+            // Load users
             await loadUsers();
 
+            // Handle role change to show/hide permissions
             document.querySelectorAll('input[name="userRole"]').forEach(radio => {
                 radio.addEventListener('change', function() {
                     const permGroup = document.getElementById('permissionsGroup');
@@ -227,24 +235,19 @@
 
             try {
                 const data = await getUsers();
-                allUsers = data.users || [];
+                const users = data.users || [];
 
-                if (allUsers.length === 0) {
+                if (users.length === 0) {
                     tbody.innerHTML = '<tr><td colspan="5" class="empty-cell">No users found</td></tr>';
                     return;
                 }
 
-                tbody.innerHTML = allUsers.map(user => {
-                    const displayName = user.username ? '@' + escapeHtml(user.username) : escapeHtml(user.first_name || user.email || 'Unknown');
-                    return `
+                tbody.innerHTML = users.map(user => `
                     <tr>
-                        <td class="email-cell">
-                            ${user.photo_url ? `<img src="${escapeHtml(user.photo_url)}" style="width:24px;height:24px;border-radius:50%;vertical-align:middle;margin-right:8px;">` : ''}
-                            ${displayName}
-                        </td>
+                        <td class="email-cell">${escapeHtml(user.email)}</td>
                         <td>
-                            <span class="role-badge ${user.role === 'super_admin' ? 'super-admin' : user.role === 'admin' ? 'admin' : 'user'}">
-                                ${user.role === 'super_admin' ? 'Super Admin' : user.role === 'admin' ? 'Admin' : 'User'}
+                            <span class="role-badge ${user.role === 'super_admin' ? 'super-admin' : 'admin'}">
+                                ${user.role === 'super_admin' ? 'Super Admin' : 'Admin'}
                             </span>
                         </td>
                         <td class="permissions-cell">
@@ -255,44 +258,60 @@
                         </td>
                         <td class="date-cell">${formatDate(user.createdAt)}</td>
                         <td class="actions-cell">
-                            <button class="btn-edit" onclick="editUser(${user.id})">Edit</button>
-                            <button class="btn-delete-small" onclick="openDeleteModal(${user.id}, '${displayName}')">Delete</button>
+                            <button class="btn-edit" onclick="editUser('${escapeHtml(user.email)}')">Edit</button>
+                            ${user.role !== 'super_admin' || users.filter(u => u.role === 'super_admin').length > 1
+                                ? `<button class="btn-delete-small" onclick="openDeleteModal('${escapeHtml(user.email)}')">Delete</button>`
+                                : ''
+                            }
                         </td>
                     </tr>
-                    `;
-                }).join('');
+                `).join('');
 
             } catch (error) {
                 tbody.innerHTML = `<tr><td colspan="5" class="error-cell">Error: ${escapeHtml(error.message)}</td></tr>`;
             }
         }
 
-        function editUser(id) {
-            const user = allUsers.find(u => u.id === id);
-            if (!user) return;
-
-            editingUserId = id;
+        function openUserModal(user = null) {
+            editingUser = user;
             const modal = document.getElementById('userModal');
             const form = document.getElementById('userForm');
+            const title = document.getElementById('modalTitle');
+            const emailInput = document.getElementById('userEmail');
+            const passwordInput = document.getElementById('userPassword');
 
             form.reset();
 
-            const displayName = user.username ? '@' + user.username : user.first_name || 'Unknown';
-            document.getElementById('userTelegram').value = displayName;
-            document.querySelector(`input[name="userRole"][value="${user.role || 'user'}"]`).checked = true;
+            if (user) {
+                title.textContent = 'Edit User';
+                emailInput.value = user.email;
+                emailInput.readOnly = true;
+                passwordInput.placeholder = 'Leave empty to keep current';
 
-            if (user.permissions) {
-                user.permissions.forEach(perm => {
-                    const cb = document.querySelector(`input[name="permissions"][value="${perm}"]`);
-                    if (cb) cb.checked = true;
-                });
-            }
+                // Set role
+                document.querySelector(`input[name="userRole"][value="${user.role}"]`).checked = true;
 
-            const permGroup = document.getElementById('permissionsGroup');
-            if (user.role === 'super_admin') {
-                permGroup.style.opacity = '0.5';
-                permGroup.querySelectorAll('input').forEach(cb => cb.disabled = true);
+                // Set permissions
+                if (user.permissions) {
+                    user.permissions.forEach(perm => {
+                        const cb = document.querySelector(`input[name="permissions"][value="${perm}"]`);
+                        if (cb) cb.checked = true;
+                    });
+                }
+
+                // Handle super_admin permissions display
+                const permGroup = document.getElementById('permissionsGroup');
+                if (user.role === 'super_admin') {
+                    permGroup.style.opacity = '0.5';
+                    permGroup.querySelectorAll('input').forEach(cb => cb.disabled = true);
+                }
             } else {
+                title.textContent = 'Add User';
+                emailInput.readOnly = false;
+                passwordInput.placeholder = 'Enter password';
+                passwordInput.required = true;
+
+                const permGroup = document.getElementById('permissionsGroup');
                 permGroup.style.opacity = '1';
                 permGroup.querySelectorAll('input').forEach(cb => cb.disabled = false);
             }
@@ -302,22 +321,52 @@
 
         function closeUserModal() {
             document.getElementById('userModal').classList.remove('active');
-            editingUserId = null;
+            editingUser = null;
+        }
+
+        async function editUser(email) {
+            try {
+                const data = await getUsers();
+                const user = data.users.find(u => u.email === email);
+                if (user) {
+                    openUserModal(user);
+                }
+            } catch (error) {
+                alert('Error loading user: ' + error.message);
+            }
         }
 
         async function handleSaveUser(event) {
             event.preventDefault();
-            if (!editingUserId) return false;
 
+            const email = document.getElementById('userEmail').value.trim();
+            const password = document.getElementById('userPassword').value;
             const role = document.querySelector('input[name="userRole"]:checked').value;
             const permissions = Array.from(document.querySelectorAll('input[name="permissions"]:checked')).map(cb => cb.value);
 
+            // Validate
+            if (!editingUser && password.length < 6) {
+                alert('Password must be at least 6 characters');
+                return false;
+            }
+
+            if (editingUser && password && password.length < 6) {
+                alert('Password must be at least 6 characters');
+                return false;
+            }
+
+            const userData = {
+                email,
+                role,
+                permissions: role === 'super_admin' ? [] : permissions
+            };
+
+            if (password) {
+                userData.password = password;
+            }
+
             try {
-                await saveUser({
-                    id: editingUserId,
-                    role,
-                    permissions: role === 'super_admin' ? [] : permissions
-                });
+                await saveUser(userData);
                 closeUserModal();
                 await loadUsers();
             } catch (error) {
@@ -327,22 +376,22 @@
             return false;
         }
 
-        function openDeleteModal(id, name) {
-            deletingUserId = id;
-            document.getElementById('deleteUserName').textContent = name;
+        function openDeleteModal(email) {
+            deletingUserEmail = email;
+            document.getElementById('deleteUserEmail').textContent = email;
             document.getElementById('deleteModal').classList.add('active');
         }
 
         function closeDeleteModal() {
             document.getElementById('deleteModal').classList.remove('active');
-            deletingUserId = null;
+            deletingUserEmail = null;
         }
 
         async function confirmDeleteUser() {
-            if (!deletingUserId) return;
+            if (!deletingUserEmail) return;
 
             try {
-                await deleteUser(deletingUserId);
+                await deleteUser(deletingUserEmail);
                 closeDeleteModal();
                 await loadUsers();
             } catch (error) {
@@ -350,15 +399,20 @@
             }
         }
 
+        // Helpers
         function escapeHtml(text) {
-            if (!text) return '';
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
         }
 
         function formatPermission(perm) {
-            const names = { 'admin': 'Admin', 'users': 'Users', 'partners': 'Partners', 'companies': 'Companies' };
+            const names = {
+                'admin': 'Admin',
+                'users': 'Users',
+                'partners': 'Partners',
+                'companies': 'Companies'
+            };
             return names[perm] || perm;
         }
 

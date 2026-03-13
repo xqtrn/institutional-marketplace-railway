@@ -1,8 +1,9 @@
 // ========================================
-// AUTHENTICATION SYSTEM (Telegram Login)
+// AUTHENTICATION SYSTEM
 // ========================================
 
 const AUTH_STORAGE_KEY = 'im_auth_session';
+const USERS_API_URL = '/api/users';
 
 // Get current session
 function getSession() {
@@ -24,13 +25,10 @@ function getSession() {
     }
 }
 
-// Set session from Telegram auth data
+// Set session
 function setSession(user) {
     const session = {
-        telegram_id: user.telegram_id,
-        username: user.username,
-        first_name: user.first_name,
-        photo_url: user.photo_url,
+        email: user.email,
         role: user.role,
         permissions: user.permissions || [],
         expires: Date.now() + (24 * 60 * 60 * 1000) // 24 hours
@@ -60,11 +58,13 @@ function requireAuth(requiredPage) {
     const session = getSession();
 
     if (!session) {
+        // Not logged in - redirect to login
         window.location.href = '/login.html?redirect=' + encodeURIComponent(window.location.pathname);
         return false;
     }
 
     if (requiredPage && !hasPermission(requiredPage)) {
+        // No permission - redirect to main page
         alert('You do not have permission to access this page.');
         window.location.href = '/';
         return false;
@@ -73,19 +73,33 @@ function requireAuth(requiredPage) {
     return true;
 }
 
-// Telegram Login callback (called by the widget)
-async function onTelegramAuth(telegramUser) {
-    const statusEl = document.getElementById('loginStatus');
-    if (statusEl) {
-        statusEl.textContent = 'Signing in...';
-        statusEl.className = 'login-status loading';
-    }
+// Handle login form submission
+async function handleLogin(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value;
+    const errorMessage = document.getElementById('errorMessage');
+    const loginBtn = document.getElementById('loginBtn');
+    const btnText = loginBtn.querySelector('.btn-text');
+    const btnLoading = loginBtn.querySelector('.btn-loading');
+
+    // Reset error
+    errorMessage.classList.remove('show');
+    errorMessage.textContent = '';
+
+    // Disable button
+    loginBtn.disabled = true;
+    btnText.style.display = 'none';
+    btnLoading.style.display = 'inline';
 
     try {
-        const response = await fetch('/api/auth/telegram', {
+        const response = await fetch('/api/auth', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(telegramUser)
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email, password })
         });
 
         const data = await response.json();
@@ -94,16 +108,24 @@ async function onTelegramAuth(telegramUser) {
             throw new Error(data.error || 'Login failed');
         }
 
+        // Save session
         setSession(data.user);
 
+        // Redirect
         const redirect = new URLSearchParams(window.location.search).get('redirect') || '/admin.html';
         window.location.href = redirect;
+
     } catch (error) {
-        if (statusEl) {
-            statusEl.textContent = error.message;
-            statusEl.className = 'login-status error';
-        }
+        errorMessage.textContent = error.message;
+        errorMessage.classList.add('show');
+
+        // Re-enable button
+        loginBtn.disabled = false;
+        btnText.style.display = 'inline';
+        btnLoading.style.display = 'none';
     }
+
+    return false;
 }
 
 // Logout
@@ -119,9 +141,9 @@ async function getUsers() {
         throw new Error('Unauthorized');
     }
 
-    const response = await fetch('/api/users', {
+    const response = await fetch(USERS_API_URL, {
         headers: {
-            'Authorization': 'Bearer ' + session.telegram_id
+            'Authorization': 'Bearer ' + session.email
         }
     });
 
@@ -143,7 +165,7 @@ async function saveUser(user) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + session.telegram_id
+            'Authorization': 'Bearer ' + session.email
         },
         body: JSON.stringify(user)
     });
@@ -157,7 +179,7 @@ async function saveUser(user) {
 }
 
 // Delete user
-async function deleteUser(id) {
+async function deleteUser(email) {
     const session = getSession();
     if (!session || session.role !== 'super_admin') {
         throw new Error('Unauthorized');
@@ -167,9 +189,9 @@ async function deleteUser(id) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + session.telegram_id
+            'Authorization': 'Bearer ' + session.email
         },
-        body: JSON.stringify({ id })
+        body: JSON.stringify({ email })
     });
 
     if (!response.ok) {
@@ -186,7 +208,7 @@ window.setSession = setSession;
 window.clearSession = clearSession;
 window.hasPermission = hasPermission;
 window.requireAuth = requireAuth;
-window.onTelegramAuth = onTelegramAuth;
+window.handleLogin = handleLogin;
 window.logout = logout;
 window.getUsers = getUsers;
 window.saveUser = saveUser;
