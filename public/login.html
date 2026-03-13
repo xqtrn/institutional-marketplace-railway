@@ -11,27 +11,14 @@
         <div class="login-box">
             <div class="login-header">
                 <h1>Institutional Marketplace</h1>
-                <p>Sign in to access admin features</p>
+                <p>Sign in with Telegram to access admin features</p>
             </div>
 
-            <form id="loginForm" onsubmit="return handleLogin(event)">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your email">
-                </div>
+            <div class="telegram-login-wrapper" id="telegramLoginWrapper">
+                <div class="login-loading">Loading...</div>
+            </div>
 
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required placeholder="Enter your password">
-                </div>
-
-                <div class="error-message" id="errorMessage"></div>
-
-                <button type="submit" class="login-btn" id="loginBtn">
-                    <span class="btn-text">Sign In</span>
-                    <span class="btn-loading" style="display: none;">Signing in...</span>
-                </button>
-            </form>
+            <div id="loginStatus" class="login-status"></div>
 
             <div class="login-footer">
                 <a href="/">Back to Marketplace</a>
@@ -41,13 +28,39 @@
 
     <script src="/js/auth.js"></script>
     <script>
-        // Check if already logged in
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', async function() {
+            // Check if already logged in
             const session = getSession();
             if (session) {
-                // Redirect to intended page or admin
                 const redirect = new URLSearchParams(window.location.search).get('redirect') || '/admin.html';
                 window.location.href = redirect;
+                return;
+            }
+
+            // Fetch bot username and render widget
+            try {
+                const resp = await fetch('/api/auth/config');
+                const config = await resp.json();
+
+                if (!config.botUsername) {
+                    throw new Error('Bot not configured');
+                }
+
+                const wrapper = document.getElementById('telegramLoginWrapper');
+                wrapper.innerHTML = '';
+
+                const script = document.createElement('script');
+                script.async = true;
+                script.src = 'https://telegram.org/js/telegram-widget.js?22';
+                script.setAttribute('data-telegram-login', config.botUsername);
+                script.setAttribute('data-size', 'large');
+                script.setAttribute('data-radius', '8');
+                script.setAttribute('data-onauth', 'onTelegramAuth(user)');
+                script.setAttribute('data-request-access', 'write');
+                wrapper.appendChild(script);
+            } catch (e) {
+                const wrapper = document.getElementById('telegramLoginWrapper');
+                wrapper.innerHTML = '<div class="login-status error">Failed to load Telegram login</div>';
             }
         });
     </script>

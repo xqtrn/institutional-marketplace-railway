@@ -29,7 +29,10 @@ function validateBearerToken(req, res, next) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
-  req.userEmail = authHeader.replace('Bearer ', '');
+  // Bearer token is now telegram_id
+  req.telegramId = authHeader.replace('Bearer ', '');
+  // Keep backward compat for routes that use req.userEmail
+  req.userEmail = req.telegramId;
   next();
 }
 

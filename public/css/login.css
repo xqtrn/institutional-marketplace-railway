@@ -145,6 +145,40 @@ body {
     text-decoration: underline;
 }
 
+.telegram-login-wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-loading {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.login-status {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    display: none;
+}
+
+.login-status.loading {
+    display: block;
+    color: #3b82f6;
+    background: #eff6ff;
+}
+
+.login-status.error {
+    display: block;
+    color: #ef4444;
+    background: #fef2f2;
+}
+
 @media (max-width: 480px) {
     .login-box {
         padding: 30px 24px;
