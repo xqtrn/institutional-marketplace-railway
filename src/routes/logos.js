@@ -55,4 +55,34 @@ router.post('/', validateApiKey, async (req, res) => {
   }
 });
 
+// Upload a single logo file and register it in DB
+const multer = require('multer');
+const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 1024 * 1024 } });
+
+router.post('/upload', validateApiKey, upload.single('file'), async (req, res) => {
+  try {
+    if (!req.file) return res.status(400).json({ error: 'No file uploaded' });
+    const company = req.body.company;
+    const filename = req.body.filename; // e.g. "assets/logos/SpaceX.png"
+    if (!company || !filename) return res.status(400).json({ error: 'company and filename required' });
+
+    // Save file to public directory
+    const filePath = path.join(__dirname, '../../public', filename);
+    const dir = path.dirname(filePath);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(filePath, req.file.buffer);
+
+    // Upsert in DB
+    await pool.query(
+      'INSERT INTO logos (company, url) VALUES ($1, $2) ON CONFLICT (company) DO UPDATE SET url = $2',
+      [company, filename]
+    );
+
+    res.json({ success: true, company, filename });
+  } catch (error) {
+    console.error('Logo upload error:', error);
+    res.status(500).json({ error: 'Failed to upload logo' });
+  }
+});
+
 module.exports = router;
