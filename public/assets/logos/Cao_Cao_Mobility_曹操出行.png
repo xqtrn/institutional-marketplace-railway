@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-cmn-Hans"><head><meta charset="utf-8"><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><title>曹操出行-用心服务国民出行</title><meta name="description" content="曹操出行是吉利控股集团布局“新能源汽车共享生态”的战略性投资业务，舒适静谧，认证司机提供更加专业、安全、优质服务，公司设有专车、公务用车等多种业务"><meta name="keyword" content="曹操出行,曹操汽车,曹操60,曹操专车,曹操专车官网,曹操专车官方网站,广州用车,深圳用车,杭州用车,专车APP,用车APP,打车APP,叫车APP,网约车,曹操打车,曹操官网,曹操出行官网"><!--[if IE 8]><![endif]--><!--[if !IE]><!--><link rel="stylesheet" href="https://static.caocaokeji.cn/css/swiper4.x.min.css"><script src="https://static.caocaokeji.cn/js/swiper4.x.min.js"></script><script>var userAgent = navigator.userAgent;
+        if(userAgent.indexOf("Trident") > -1 || userAgent.indexOf("Edge") > -1 || (userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1)){
+          window.ISIE = true;
+        }
+        console.log(navigator.userAgent)
+        console.log(window.ISIE)</script><!--<![endif]--><script src="https://jic.talkingdata.com/app/h5/v1?appid=EAC84546ADE3410CB856A66C298C2FFC&vn=website&vc=1.0"></script><link href="/common.c2398cdb.css" rel="stylesheet"><link href="/main.9ac8aa87.css" rel="stylesheet"></head><body><div class="tip-div" id="tip-div"></div><div id="root"></div><!--[if lte IE 9]>
+      <script>
+      var $tip = document.getElementById('tip-div');
+      $tip.innerHTML=[
+     ' <div class="tip-div" style="position:fixed;height:100%;width:100%;background:#f8f8f8;z-index:1000;">',
+        '<div class="tip-cont">',
+          '<div style="margin-top:200px;text-align:center;width:600px;margin:200px auto;">',
+            '<h2 style="font-size:20px;line-height:35px">浏览器版本过低为了更好的体验<BR>请将您的浏览器升级至IE10及以上版本,或使用谷歌等现代浏览器</h2>',
+          '</div>',
+        '</div>',
+        '<p class="copy" style="position:absolute;bottom:20px;width:100%;text-align:center;">©2014-'+new Date().getFullYear()+' 杭州优行科技有限公司 浙公网安备 33010802005577号</p>',
+      '</div>',
+      ].join("");
+      document.body.removeChild(document.querySelector('#root'));
+    </script>
+    <![endif]--><script src="/vendor.0c5f38be.js"></script><script src="/common.e99f9b01.js"></script><script src="/main.13f5285c.js"></script></body></html>

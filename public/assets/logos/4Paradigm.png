@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <xhr:template file="public/inc_key.html" />
+</head>
+
+<body>
+
+    <xhr:template file="public/inc_header.html" />
+    <section class="main">
+        <div class="main-box">
+            <div class="error404">
+                <img src="./404img/404.jpeg" class="pc-error" />
+                <img class="wap-error" src="./404img/wap-404.jpeg" />
+            </div>
+        </div>
+    </section>
+    <xhr:template file="public/inc_footer.html" />
+    <div class="sitemap" style="display:none;">[XHR:当前位置]</div>
+    <script>
+        //注册成功倒计时
+        var liveTimeNum = 5;
+
+        function Livetime() {
+
+            if (liveTimeNum == 0) {
+                liveTimeNum = 1;
+                window.location.href = "https://www.4paradigm.com/";
+                return;
+            } else {
+
+                liveTimeNum--;
+
+            }
+            setTimeout(function () {
+                Livetime()
+            }, 1000)
+        }
+        Livetime();
+    </script>
+</body>
+
+</html>

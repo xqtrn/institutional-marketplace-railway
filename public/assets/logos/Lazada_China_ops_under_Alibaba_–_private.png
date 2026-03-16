@@ -1,0 +1,12 @@
+
+
+<a id="a-link" href="https://g.alicdn.com/sd/punish/waf_block.html?wh_ttid=pc&qrcode=dKxFfM5TMo9RtqUQI4nYfg|abdYIA|wpE0hg_0|AAAAZQ&uuid=74ac457cce53328f51b6a5102389d87e&origin=https%3A%2F%2Flazada.com%3A443%2Fen%2Fapple-touch-icon.png"></a>
+<script>
+  document.getElementById("a-link").click();
+
+  window._config_ = {
+    "action": "block",
+    "url": "https://g.alicdn.com/sd/punish/block_h5.html?wh_ttid=pc&qrcode=dKxFfM5TMo9RtqUQI4nYfg|abdYIA|wpE0hg_0|AAAAZQ&uuid=74ac457cce53328f51b6a5102389d87e&origin=https%3A%2F%2Flazada.com%3A443%2Fen%2Fapple-touch-icon.png"
+  };
+</script>
+<!--rgv587_flag:sm-->

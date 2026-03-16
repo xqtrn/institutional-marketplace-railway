@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="In 2012, we created the first Cheese Tea in a small alley called Jiangbianli. With a commitment to delivering an exceptional tea-drinking experience, we hope to bring simple pleasure and a touch of Zen to everyone through a good cup of tea."
+    />
+    <meta
+      property="og:image"
+      content="https://static.heytea.com/web/Fh6VaTq0H8ezAIZ6Re63q3SWdhuJ.png"
+    />
+    <title>HEYTEA - Originator of New Style Tea</title>
+    <link rel="icon" type="image/svg+xml" href="https://static.heytea.com/web/logo/heytea.svg" />
+    <link rel="icon" type="image/x-icon" href="https://static.heytea.com/web/logo/heytea.ico" />
+    <link
+      href="https://intl-go-static.heytea-co.com/heytea_official_website_resource/cdn/website_v2/js/video-js.min.css"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/en/js/index-OXDlkGsA.js"></script>
+    <link rel="modulepreload" crossorigin href="/en/js/react-vendor-Bgv7rQp7.js">
+    <link rel="modulepreload" crossorigin href="/en/js/antd-CMhX1Tsv.js">
+    <link rel="modulepreload" crossorigin href="/en/js/swiper-DhgPZ_0s.js">
+    <link rel="modulepreload" crossorigin href="/en/js/swiper.min-C48Ym_n9.js">
+    <link rel="stylesheet" crossorigin href="/en/css/swiper-84HisKM6.css">
+    <link rel="stylesheet" crossorigin href="/en/css/index-CdOUbZzF.css">
+    <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+  </head>
+  <script>
+    //改变font-size
+    (function (doc, win) {
+      var docEI = doc.documentElement,
+        resizeEvt =
+          "orientationchange" in window ? "orientataionchange" : "resize",
+        recalc = function () {
+          var clientWidth = docEI.clientWidth;
+          if (!clientWidth) return;
+          //100是字体大小，1920是开发时浏览器窗口的宽度，等比计算
+          // if (clientWidth > 1920) {
+          //     docEI.style.fontSize = '100px'
+          //     return
+          // }
+          docEI.style.fontSize = 100 * (clientWidth / 1920) + "px";
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener("DOMContentLoaded", recalc, false);
+    })(document, window);
+  </script>
+  <body>
+    <div id="root"></div>
+    <script src="https://intl-go-static.heytea-co.com/heytea_official_website_resource/cdn/website_v2/js/video.min.js"></script>
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="/en/js/polyfills-legacy-f_Vp7yPr.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/en/js/index-legacy-Du0jFBxL.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  </body>
+</html>

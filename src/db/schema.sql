@@ -136,9 +136,60 @@ CREATE TABLE IF NOT EXISTS auto_update_queue (
   created_at TIMESTAMP DEFAULT NOW()
 );
 
+-- Newsletter Campaigns
+CREATE TABLE IF NOT EXISTS newsletter_campaigns (
+  id SERIAL PRIMARY KEY,
+  subject VARCHAR(500) NOT NULL,
+  preview_text VARCHAR(500),
+  html_content TEXT,
+  from_name VARCHAR(255) DEFAULT 'Silicon Valley Investclub',
+  from_email VARCHAR(255) DEFAULT 'siliconvalleyinvestclub@mail.siliconvalleyinvestclub.com',
+  status VARCHAR(20) DEFAULT 'draft',
+  scheduled_at TIMESTAMP,
+  sent_at TIMESTAMP,
+  total_recipients INTEGER DEFAULT 0,
+  total_sent INTEGER DEFAULT 0,
+  total_failed INTEGER DEFAULT 0,
+  total_opened INTEGER DEFAULT 0,
+  total_clicked INTEGER DEFAULT 0,
+  created_at TIMESTAMP DEFAULT NOW(),
+  updated_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Newsletter Subscribers
+CREATE TABLE IF NOT EXISTS newsletter_subscribers (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(255) UNIQUE NOT NULL,
+  name VARCHAR(255),
+  status VARCHAR(20) DEFAULT 'active',
+  source VARCHAR(50) DEFAULT 'manual',
+  tags JSONB DEFAULT '[]',
+  beehiiv_id VARCHAR(255),
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Newsletter Sends (individual send tracking)
+CREATE TABLE IF NOT EXISTS newsletter_sends (
+  id SERIAL PRIMARY KEY,
+  campaign_id INTEGER REFERENCES newsletter_campaigns(id) ON DELETE CASCADE,
+  subscriber_id INTEGER REFERENCES newsletter_subscribers(id) ON DELETE CASCADE,
+  status VARCHAR(20) DEFAULT 'queued',
+  ses_message_id VARCHAR(255),
+  opened_at TIMESTAMP,
+  clicked_at TIMESTAMP,
+  sent_at TIMESTAMP,
+  error_message TEXT,
+  UNIQUE(campaign_id, subscriber_id)
+);
+
 -- Indexes
 CREATE INDEX IF NOT EXISTS idx_deals_type ON deals(deal_type);
 CREATE INDEX IF NOT EXISTS idx_deals_company ON deals(company);
 CREATE INDEX IF NOT EXISTS idx_pipeline_stage ON pipeline(stage);
 CREATE INDEX IF NOT EXISTS idx_pipeline_company ON pipeline(company);
 CREATE INDEX IF NOT EXISTS idx_changelog_created ON changelog(created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_newsletter_subs_email ON newsletter_subscribers(email);
+CREATE INDEX IF NOT EXISTS idx_newsletter_subs_status ON newsletter_subscribers(status);
+CREATE INDEX IF NOT EXISTS idx_newsletter_sends_campaign ON newsletter_sends(campaign_id);
+CREATE INDEX IF NOT EXISTS idx_newsletter_sends_subscriber ON newsletter_sends(subscriber_id);
+CREATE INDEX IF NOT EXISTS idx_newsletter_campaigns_status ON newsletter_campaigns(status);

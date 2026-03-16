@@ -1,0 +1,799 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>LANDSPACE 蓝箭航天</title>
+    <meta name="keywords" content="蓝箭航天 蓝箭官网"/>
+    <meta name="description" content="蓝箭航天 蓝箭官网 火箭 发动机 航天"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="bookmark" href="/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="/static/web/css/style.css?version=1.0.9" />
+    <link rel="stylesheet" type="text/css" href="/static/web/css/media.css?version=1.0.9" />
+    <link rel="stylesheet" type="text/css" href="/static/web/css/treesixty.css" />
+</head>
+
+<body>
+
+<div class="page page-index" >
+        <!--手机端侧滑导航-->
+    <section class="section-mobile-nav">
+        <div class="content">
+            <div class="item-header">
+                <a href="index.html"><img class="logo" src="/static/web/images/logo.png"></a>
+                <span class="menu-btn"></span>
+            </div>
+            <div class="item-nav">
+                <ul class="main-nav">
+                    <li class="menu">
+                        <a class="handle" href="javascript:;">产品与服务<img class="arrow" src="/static/web/images/arrow.png"></a>
+                        <div class="sub-menu">
+                            <a href="product.html?mao=1">产品设备</a>
+                            <a href="product.html?mao=2">产品服务</a>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="handle" href="javascript:;">蓝箭智慧<img class="arrow" src="/static/web/images/arrow.png"></a>
+                        <div class="sub-menu">
+                            <a href="wisdom.html?mao=1">技术路线</a>
+                            <a href="wisdom.html?ma2=2">基础设施</a>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="handle" href="javascript:;">新闻中心<img class="arrow" src="/static/web/images/arrow.png"></a>
+                        <div class="sub-menu">
+                            <a href="news.html?catid=1&mao=1">最新新闻</a>
+                            <a href="new2.html?catid=2&mao=1">媒体报道</a>
+                            <a href="new3.html?catid=3&mao=1">蓝洞察</a>
+                            <a href="download.html?mao=1">资料下载</a>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="handle" href="javascript:;">关于我们<img class="arrow" src="/static/web/images/arrow.png"></a>
+                        <div class="sub-menu">
+                            <a href="about.html?mao=0">企业介绍</a>
+                            <a href="about.html?mao=2">大事记</a>
+                            <a href="about.html?mao=3">荣誉资质</a>
+                            <a href="about.html?mao=4">联系我们</a>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="handle" href="javascript:;">加入我们<img class="arrow" src="/static/web/images/arrow.png"></a>
+                        <div class="sub-menu">
+                            <a href="https://uq1h428xyc.jobs.feishu.cn/index">社会招聘</a>
+                            <a href="https://uq1h428xyc.jobs.feishu.cn/522146/position/list">校园招聘</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <header class="section-header ">
+        <div class="content w12">
+            <div class="top">
+                <div class="top-left">
+                    <a href="index.html"><img class="logo" src="/static/web/images/logo.png"></a>
+                </div>
+
+            <ul class="navbar">
+                <li class="menu">
+                    <a class="menu-handle" href="product.html">
+                        <span class="text">产品与服务</span>
+                        <img class="arrow" src="/static/web/images/arrow.png">
+                    </a>
+                    <ul class="menu-drop">
+                        <li>
+                            <a class="sub-menu" to="section-product" href="product.html?mao=1">产品设备</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" to="section-product" href="product.html?mao=2">产品服务</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a class="menu-handle" href="wisdom.html">
+                        <span class="text">蓝箭智慧</span>
+                        <img class="arrow" src="/static/web/images/arrow.png">
+                    </a>
+                    <ul class="menu-drop">
+                        <li>
+                            <a class="sub-menu" to="section-product" href="wisdom.html?mao=1">技术路线</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" to="section-product" href="wisdom.html?mao=2">基础设施</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a class="menu-handle" href="news.html?catid=1">
+                        <span class="text">新闻中心</span>
+                        <img class="arrow" src="/static/web/images/arrow.png">
+                    </a>
+                    <ul class="menu-drop">
+                        <li>
+                            <a class="sub-menu" to="section-product" href="news.html?catid=1&mao=1">最新新闻</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" to="section-product" href="new2.html?catid=2&mao=1">媒体报道</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" to="section-product" href="new3.html?catid=3&mao=1">蓝洞察</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" to="section-product" href="download.html">资料下载</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a class="menu-handle" href="about.html">
+                        <span class="text">关于我们</span>
+                        <img class="arrow" src="/static/web/images/arrow.png">
+                    </a>
+                    <ul class="menu-drop">
+                        <li>
+                            <a class="sub-menu" href="about.html?mao=0" to="section-product">企业介绍</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" href="about.html?mao=2" to="section-product">大事记</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" href="about.html?mao=3" to="section-product">荣誉资质</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" href="about.html?mao=4" to="section-product">联系我们</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a class="menu-handle" href="javascript:;">
+                        <span class="text">加入我们</span>
+                        <img class="arrow" src="/static/web/images/arrow.png">
+                    </a>
+                    <ul class="menu-drop">
+                        <li>
+                            <a class="sub-menu" target="_blank" href="https://uq1h428xyc.jobs.feishu.cn/index">社会招聘</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" target="_blank" href="https://uq1h428xyc.jobs.feishu.cn/522146/position/list">校园招聘</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="top-right">
+                    <div class="item1">
+                        <a class="active" href="/index.html">中文</a>
+                        <i class="line"></i>
+                        <a href="/en/index.html">EN</a>
+                    </div>
+                    <div class="item2">
+                        <a href="plan.html">预定发射</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section-banner" id="section-banner" style="background-image: url(https://offical-static.landspace.com/20221019152926a097b4049.jpg);">
+        <img class="img-mobile" src="/static/web/images/banner1-mobile.jpg" alt="banner图">
+        <div class="content w12">
+            <h1 data-scroll-reveal>商业航天<br>运输系统创建者<br></h1>
+            <h6 data-scroll-reveal>创造全球首款液氧甲烷火箭</h6>
+            <div class="content-detail">
+                <ul class="detail">
+                                    <li class="list" data-scroll-reveal>
+                        <a href="news-detail.html?itemid=69">
+                            <div class="text">
+                                <p>蓝箭航天新型大推力发动机完成整...</p>
+                                <span class="no">01</span>
+                            </div>
+                            <img class="img" src="https://offical-static.landspace.com/20260306103712a30d72441.jpg">
+                            <div class="blank"></div>
+                            <div class="more"></div>
+                        </a>
+                    </li>
+                                        <li class="list" data-scroll-reveal>
+                        <a href="news-detail.html?itemid=68">
+                            <div class="text">
+                                <p>蓝箭航天受邀参加联合国外空委科...</p>
+                                <span class="no">02</span>
+                            </div>
+                            <img class="img" src="https://offical-static.landspace.com/202602251051375bdb91115.jpg">
+                            <div class="blank"></div>
+                            <div class="more"></div>
+                        </a>
+                    </li>
+                                    </ul>
+                <a class="list-more" href="javascript:;" to="section-about-us" data-scroll-reveal></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about-us w12" id="section-about-us">
+        <div class="content">
+            <div class="item1">
+                <div class="left">
+                    <dl class="jump">
+                        <dt>
+                            <div class="num">
+                                                        <b>0</b>
+                                                        <b>1</b>
+                                                        <b>4</b>
+                                                        <b>8</b>
+                                                            <i>年<span style="font-size: 16px;vertical-align: 1px;"></span></i>
+                            </div>
+                            <div class="num">
+                                                        <b>1</b>
+                                                        <b>0</b>
+                                                        <b>4</b>
+                                                        <b>3</b>
+                                                        </div>
+                            <div class="num">
+                                                        <b>2</b>
+                                                        <b>0</b>
+                                                        <b>1</b>
+                                                        <b>5</b>
+                                                        </div>
+                        </dt>
+                        <dd data-scroll-reveal>创立公司</dd>
+                    </dl>
+                    <dl class="jump">
+                        <dt>
+                            <div class="num">
+                                                        <b>0</b>
+                                                        <b>5</b>
+                                                        <b>4</b>
+                                                        <b>7</b>
+                                                            <i>+<span style="font-size: 16px;vertical-align: 1px;"></span></i>
+                            </div>
+                            <div class="num">
+                                                        <b>0</b>
+                                                        <b>5</b>
+                                                        <b>8</b>
+                                                        <b>1</b>
+                                                        </div>
+                            <div class="num">
+                                                        <b>1</b>
+                                                        <b>1</b>
+                                                        <b>0</b>
+                                                        <b>0</b>
+                                                        </div>
+                        </dt>
+                        <dd data-scroll-reveal>知识产权申请</dd>
+                    </dl>
+                    <dl class="jump">
+                        <dt>
+                            <div class="num">
+                                                        <b>0</b>
+                                                        <b>2</b>
+                                                        <b>2</b>
+                                                        <b>5</b>
+                                                        <b>0</b>
+                                                        <b>1</b>
+                                                            <i>+<span style="font-size: 16px;vertical-align: 1px;">秒</span></i>
+                            </div>
+                            <div class="num">
+                                                        <b>1</b>
+                                                        <b>0</b>
+                                                        <b>9</b>
+                                                        <b>6</b>
+                                                        <b>8</b>
+                                                        <b>5</b>
+                                                        </div>
+                            <div class="num">
+                                                        <b>1</b>
+                                                        <b>6</b>
+                                                        <b>0</b>
+                                                        <b>0</b>
+                                                        <b>0</b>
+                                                        <b>0</b>
+                                                        </div>
+                        </dt>
+                        <dd data-scroll-reveal>累积试车时长</dd>
+                    </dl>
+                    <dl class="jump">
+                        <dt>
+                            <div class="num">
+                                                        <b>0</b>
+                                                        <b>3</b>
+                                                        <b>8</b>
+                                                        <b>6</b>
+                                                            <i>+<span style="font-size: 16px;vertical-align: 1px;">家</span></i>
+                            </div>
+                            <div class="num">
+                                                        <b>0</b>
+                                                        <b>9</b>
+                                                        <b>8</b>
+                                                        <b>5</b>
+                                                        </div>
+                            <div class="num">
+                                                        <b>1</b>
+                                                        <b>0</b>
+                                                        <b>0</b>
+                                                        <b>0</b>
+                                                        </div>
+                        </dt>
+                        <dd data-scroll-reveal>合作企业</dd>
+                    </dl>
+                </div>
+                <div class="right" data-scroll-reveal>
+                    <p>蓝箭航天空间科技股份有限公司（蓝箭航天）是国内领先的航天运输系统创建及运营企业，成立于2015年，致力于构建以中大型液氧甲烷运载火箭为中心的“研发、制造、试验、发射”全产业链条，打造航天领域的科技综合体，为全球市场提供高性价比、高可靠性的航天运输服务。</p>
+                    <a class="more" href="about.html">Learn more<i class="line"></i></a>
+                </div>
+            </div>
+            <div class="item2" id="circleScale">
+                <img class="map" src="/static/web/images/map.png">
+                <div class="imgbox" data-scroll-reveal>
+                    <img data-scroll-reveal class="img" src="/static/web/images/img2.jpg">
+                    <dl data-scroll-reveal>
+                        <dt>地区</dt>
+                        <dd><a href="/wisdom.html?address=1#mao2">北京研发中心</a></dd>
+                        <dd><a href="/wisdom.html?address=2#mao2">西安研发分中心</a></dd>
+                        <dd><a href="/wisdom.html?address=3#mao2">长三角区域中心</a></dd>
+                    </dl>
+                    <div class="circle">
+                        <i class="dian"></i>
+                        <i class="line"></i>
+                    </div>
+                </div>
+                <div class="imgbox2" data-scroll-reveal>
+                    <dl data-scroll-reveal>
+                        <dt>市场</dt>
+                        <dd><a>业务覆盖</a></dd>
+                    </dl>
+                    <div class="circle">
+                        <i class="dian"></i>
+                        <i class="line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-product" id="section-product">
+        <img class="bg-left" src="/static/web/images/bg1.png">
+
+        <div class="content w12">
+            <h3 class="title" data-scroll-reveal>产品中心</h3>
+            <ul class="tabs" data-scroll-reveal>
+                <li class="tab arrow active"><a href="javascript:;">火箭</a></li>
+                <li class="tab arrow"><a href="javascript:;">发动机</a></li>
+            </ul>
+
+            <div class="content-item active">
+                <div class="content-huojian content-huojian2">
+                    <div class="item-left" data-scroll-reveal>
+                    <h1>朱雀三号（<b>ZQ-3</b>）</h1>
+                        <p>朱雀三号可复用液氧甲烷运载火箭</p>
+<dl>
+	<dd>由蓝箭航天研制的我国首款不锈钢运载火箭</dd>
+	<dd>为构建空天地一体化的卫星互联网提供高效运载服务</dd>
+	<dd>助力中国商业火箭进入大运力、可重复、低成本的质变时代</dd>
+</dl>                        <a class="more" href="product.html">Learn more<i class="line"></i></a>
+                    </div>
+                    <div class="item-huojian">
+                        <div class="huojianBox">
+                            <div class="huojian">
+                                <img class="huojian0" src="/static/web/images/huojian4.png">
+                                <div class="node node1" data-scroll-reveal="move 100px over 1.2s">
+										<span class="circle">
+											<i class="dian"></i>
+											<i class="line"></i>
+										</span>
+                                    <div class="text">
+                                        <span class="r1">全箭总长</span>
+                                        <span class="r2">76.6m</span>
+                                    </div>
+                                </div>
+                                <div class="node node2" data-scroll-reveal="move 100px over 1.2s">
+										<span class="circle">
+											<i class="dian"></i>
+											<i class="line"></i>
+										</span>
+                                    <div class="text">
+                                        <span class="r1">箭体直径</span>
+                                        <span class="r2">4.5m</span>
+                                    </div>
+                                </div>
+                                <div class="node node3" data-scroll-reveal="move 100px over 1.2s">
+										<span class="circle">
+											<i class="dian"></i>
+											<i class="line"></i>
+										</span>
+                                    <div class="text">
+                                        <span class="r1">起飞推力</span>
+                                        <span class="r2">900t</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <div class="content-fadongji">
+                    <div class="item-left" data-scroll-reveal>
+                        <h1>天鹊（<b>TQ-12A</b>）<b>80</b>吨级<br>液氧甲烷发动机</h1>
+                        <p>经过二次起动试车考核验证，已具备可重复使用能力</p>
+<p>在 TQ-12 基础上，推力、比冲均有提升</p>
+<p>采用自身起动方式，具备推力调节和混合比高精度控制等功能</p>                        <a class="more" href="product.html">Learn more<i class="line"></i></a>
+                    </div>
+                    <div class="item-huojian">
+                        <div class="huojianBox">
+                            <div class="huojian">
+                                <img class="huojian0" src="/static/web/images/fadongji.jpg">
+                                <div class="node node1" data-scroll-reveal="move 100px over 1.2s">
+										<span class="circle">
+											<i class="dian"></i>
+											<i class="line"></i>
+										</span>
+                                    <div class="text">
+                                        <span class="r1">海平面推力</span>
+                                        <span class="r2">84.6t</span>
+                                    </div>
+                                </div>
+                                <div class="node node2" data-scroll-reveal="move 100px over 1.2s">
+										<span class="circle">
+											<i class="dian"></i>
+											<i class="line"></i>
+										</span>
+                                    <div class="text">
+                                        <span class="r1">海平面比冲</span>
+                                        <span class="r2">293s</span>
+                                    </div>
+                                </div>
+                                <div class="node node3" data-scroll-reveal="move 100px over 1.2s">
+										<span class="circle">
+											<i class="dian"></i>
+											<i class="line"></i>
+										</span>
+                                    <div class="text">
+                                        <span class="r1">发动机高度</span>
+                                        <span class="r2">2.2m</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-more" data-scroll-reveal>
+                <a class="arrow active" href="javascript:;"></a>
+                <a class="arrow" href="javascript:;"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-news" id="section-news">
+        <div class="header w12">
+            <h3 class="title">新闻中心</h3>
+            <a class="more" href="/news.html">Learn more<i class="line"></i></a>
+            <div class="list-more">
+                <a class="swiper-button-prev swiper-button-prev1" href="javascript:;"></a>
+                <a class="swiper-button-next swiper-button-next1" href="javascript:;"></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="swiper-container" id="swiperNews">
+                <ul class="swiper-wrapper">
+                                        <li class="swiper-slide list  active ">
+                        <a href="news-detail.html?itemid=69" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/20260306103712a30d72441.jpg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>蓝箭航天新型大推力发动机完成整机全系统长程试车</h3></div>
+                            <div class="bottom">
+                                <div class="t1">06</div>
+                                <div class="t2">
+                                    <span class="s1">03月</span>
+                                    <span class="s2">2026</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=68" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/202602251051375bdb91115.jpg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>蓝箭航天受邀参加联合国外空委科技小组委员会第63届会议</h3></div>
+                            <div class="bottom">
+                                <div class="t1">25</div>
+                                <div class="t2">
+                                    <span class="s1">02月</span>
+                                    <span class="s2">2026</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=67" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/20260225102123f76d37720.jpg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>蓝箭航天成功进行多星堆叠及卫星组合体试验</h3></div>
+                            <div class="bottom">
+                                <div class="t1">06</div>
+                                <div class="t2">
+                                    <span class="s1">02月</span>
+                                    <span class="s2">2026</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=66" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/20251203164109905c61346.jpg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>朱雀三号重复使用遥一运载火箭入轨圆满成功</h3></div>
+                            <div class="bottom">
+                                <div class="t1">03</div>
+                                <div class="t2">
+                                    <span class="s1">12月</span>
+                                    <span class="s2">2025</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=65" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/2025102020014922d7f2846.jpg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>朱雀三号遥一运载火箭飞行试验任务完成第一阶段工作</h3></div>
+                            <div class="bottom">
+                                <div class="t1">20</div>
+                                <div class="t2">
+                                    <span class="s1">10月</span>
+                                    <span class="s2">2025</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=64" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/202506201704410a7534993.jpg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>朱雀三号一级动力系统九机并联地面点火试验成功</h3></div>
+                            <div class="bottom">
+                                <div class="t1">20</div>
+                                <div class="t2">
+                                    <span class="s1">06月</span>
+                                    <span class="s2">2025</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=63" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/2025051910574687a8f7117.png">
+                            <div class="blank"></div>
+                            <div class="top"><h3>朱雀二号改进型遥二运载火箭发射成功 6颗卫星顺利送入预定轨道</h3></div>
+                            <div class="bottom">
+                                <div class="t1">17</div>
+                                <div class="t2">
+                                    <span class="s1">05月</span>
+                                    <span class="s2">2025</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li class="swiper-slide list ">
+                        <a href="news-detail.html?itemid=62" class="inner" data-scroll-reveal="wait 0s">
+                            <img class="img" src="https://offical-static.landspace.com/20250417131509211ce0057.jpeg">
+                            <div class="blank"></div>
+                            <div class="top"><h3>蓝箭航天第100台液氧甲烷发动机正式下线</h3></div>
+                            <div class="bottom">
+                                <div class="t1">15</div>
+                                <div class="t2">
+                                    <span class="s1">04月</span>
+                                    <span class="s2">2025</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li class="swiper-slide list list-arrow" title="查看更多">
+                        <a href="/news.html" class="inner" data-scroll-reveal="wait 2.4s">
+                            <img class="arrow" src="/static/web/images/arrow9.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w12 swiper-pagination"></div>
+    </section>
+
+
+    <section class="section-join-us" id="section-join-us">
+        <div class="inner w12">
+            <div class="header ">
+                <h3 class="title" data-scroll-reveal>加入我们</h3>
+                <!-- <div class="list-more" data-scroll-reveal>
+                    <a class="swiper-button-prev swiper-button-prev2" href="javascript:;"></a>
+                    <a class="swiper-button-next swiper-button-next2" href="javascript:;"></a>
+                </div> -->
+            </div>
+            <div class="swiper-container w12" id="swiperJoinUs">
+                <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                        <p data-scroll-reveal>团队规模、从业经验、专业构成、梯队建设等均处行业领先地位；专业设置覆盖火箭设计、生产、试验、测发各环节，能够支持多型号产品持续迭代创新。</p>                        <a class="more" href="https://uq1h428xyc.jobs.feishu.cn/index" data-scroll-reveal target = "_blank">Learn more<i class="line"></i></a>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="item0">
+                <div class="left"></div>
+                <div class="right">
+                    <img class="active" src="/static/web/images/img4.jpg">
+                    <!-- <img src="/static/web/images/img2.jpg">
+                    <img src="/static/web/images/img3.jpg"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+<footer class="section-footer">
+    <div class="content w12">
+        <div class="item1" data-scroll-reveal>
+            <div class="col-1">
+                <img class="logo" src="/static/web/images/logo1.png">
+                <p><a href="mailto:bp@landspace.com">合作联系：bp@landspace.com</a></p>
+                <p><a href="mailto:hr@landspace.com">应聘联系：hr@landspace.com</a></p>
+                <p><a href="mailto:pr@landspace.com">媒体联系：pr@landspace.com</a></p>
+            </div>
+            <div class="col-2">
+                <dl>
+                    <dt><a to="section-product" href="/product.html">产品与服务</a></dt>
+                    <dd>
+                        <a href="product.html?mao=1">产品设备</a>
+                        <a href="product.html?mao=2">产品服务</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a to="section-banner" href="/wisdom.html">蓝箭智慧</a></dt>
+                    <dd>
+                        <a href="wisdom.html?mao=1">技术路线</a>
+                        <a href="wisdom.html?mao=2">基础设施</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a to="section-news" href="/news.html">新闻中心</a></dt>
+                    <dd>
+                        <a href="news.html?catid=1&mao=1">最新新闻</a>
+                        <a href="new2.html?catid=2&mao=1">媒体报道</a>
+                        <a href="new3.html?catid=3&mao=1">蓝洞察</a>
+                        <a href="download.html">图片下载</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a to="section-about-us" href="/about.html">关于我们</a></dt>
+                    <dd>
+                        <a href="about.html?mao=0">企业介绍</a>
+                        <a href="about.html?mao=2">大事记</a>
+                        <a href="about.html?mao=3">荣誉资质</a>
+                        <a href="about.html?mao=4">联系我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a to="section-join-us" href="https://uq1h428xyc.jobs.feishu.cn/index">加入我们</a></dt>
+                    <dd>
+                        <a target="_blank" href="https://uq1h428xyc.jobs.feishu.cn/index">社会招聘</a>
+                        <a target="_blank" href="https://uq1h428xyc.jobs.feishu.cn/522146/position/list">校园招聘</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-3">
+                <div class="row1">
+                    <dl>
+                        <dt>传真 <b>Fax:</b></dt>
+                        <dd><b>(+86）010-56905299</b></dd>
+                    </dl>
+                    <dl>
+                        <dt>电话 <b>Tel:</b></dt>
+                        <dd><b>（+86）010-56905288</b></dd>
+                    </dl>
+                </div>
+                <img class="ewm" src="/static/web/images/ewm.png?version=1.0.9">
+            </div>
+        </div>
+        <div class="item2" data-scroll-reveal>
+            <div class="item-left">
+                <a href="http://beian.miit.gov.cn/" target="_blank">© Copyright 2020. 蓝箭版权所有, 京ICP备15056039号.</a>
+                <a class="link-beian" href="https://beian.mps.gov.cn/#/query/webSearch?code=11011502038229" rel="noreferrer" target="_blank">
+                    <img class="icon" src="/static/web/images/beian.png" alt="">
+                    <span class="text">京公网安备11011502038229</span>
+                </a>
+            </div>
+            <div class="item-right">北京亦庄经济技术开发区荣华南路13号院中航国际广场H1楼</div>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+</body>
+<link rel="stylesheet" type="text/css" href="/static/web/swiper/swiper.min.css" />
+<script type="text/javascript" src="/static/web/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/web/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/static/web/js/scrollReveal.js"></script>
+<script type="text/javascript" src="/static/web/js/skrollr.min.js"></script>
+<script type="text/javascript" src="/static/web/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="/static/web/js/common.js?version=1.0.9"></script>
+<script type="text/javascript" src="/static/web/js/threesixty.min.js"></script>
+
+
+<script>
+    window.onload = function(){
+        var width = $(window).width();
+        if(width>1199){
+            //var sk = skrollr.init();
+        }
+    }
+
+    $(function(){
+        new Swiper ('#swiperNews', {
+            slidesPerView: 'auto',
+            normalizeSlideIndex: false,
+            watchOverflow: true,
+            observer: true,
+            observeSlideChildren: true,
+            navigation: {
+                prevEl: '.swiper-button-prev1',
+                nextEl: '.swiper-button-next1',
+            },
+            resizeObserver: true,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+        });
+
+        new Swiper ('#swiperJoinUs', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            breakpoints: {
+                1170: {  //当屏幕宽度小于等于992
+                    //slidesPerView: 1.5,
+                    //spaceBetween: 10
+                }
+            },
+            normalizeSlideIndex: false,
+            watchOverflow: true,//因为仅有1个slide，swiper无效
+            observer: true,
+            observeSlideChildren: true,
+            navigation: {
+                prevEl: '.swiper-button-prev2',
+                nextEl: '.swiper-button-next2',
+            },
+            on:{
+                // slideChangeTransitionStart: function(){
+                // 	console.log(this);
+                // 	console.log(this.activeIndex);
+                // 	let index = this.activeIndex;
+                // 	$('.section-join-us .item0 .right img').removeClass('active');
+                // 	$('.section-join-us .item0 .right img').eq(index).addClass('active')
+                // },
+            },
+        });
+    });
+</script>
+
+</html>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?337e0d4ab66af15ca824d7057e62dca9";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>

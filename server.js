@@ -185,6 +185,7 @@ app.use('/api/settings', require('./src/routes/settings'));
 app.use('/api/changelog', require('./src/routes/changelog'));
 app.use('/api/logos', require('./src/routes/logos'));
 app.use('/api/auto-update', require('./src/routes/auto-update'));
+app.use('/api/newsletters', require('./src/routes/newsletters'));
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));

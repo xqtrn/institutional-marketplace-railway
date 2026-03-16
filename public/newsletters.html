@@ -1,0 +1,311 @@
+<!-- Auth Script - must be first -->
+<script src="./js/auth.js"></script>
+<script>
+    if (!getSession() || !hasPermission('admin')) {
+        window.location.href = '/login.html?redirect=' + encodeURIComponent(window.location.pathname);
+    }
+</script>
+
+<div id="institutional-overlay-platform" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 999999; overflow: auto;">
+<link rel="stylesheet" href="./css/newsletters.css">
+
+<!-- Offcanvas Overlay -->
+<div class="cs-site-overlay" id="siteOverlay" onclick="closeOffcanvas()"></div>
+
+<!-- Offcanvas Menu -->
+<div class="cs-offcanvas" id="offcanvasMenu">
+    <div class="cs-offcanvas__header">
+        <div class="cs-offcanvas__logo">
+            <span style="color: #fff; font-size: 18px; font-weight: 700;">Institutional Marketplace</span>
+        </div>
+        <span class="cs-offcanvas__toggle" role="button" onclick="closeOffcanvas()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </span>
+    </div>
+    <aside class="cs-offcanvas__sidebar">
+        <nav class="cs-offcanvas__nav">
+            <ul class="offcanvas-menu">
+                <li class="menu-item"><a href="/">Marketplace</a></li>
+                <li class="menu-item"><a href="/pipeline.html">Pipeline</a></li>
+                <li class="menu-item"><a href="/admin.html">Admin Marketplace</a></li>
+                <li class="menu-item" id="usersMenuItem" style="display: none;"><a href="/users.html">Users</a></li>
+                <li class="menu-item"><a href="/partners.html">Partners</a></li>
+                <li class="menu-item"><a href="/companies.html">Companies</a></li>
+                <li class="menu-item"><a href="/issuers.html">Issuers</a></li>
+                <li class="menu-item active"><a href="/newsletters.html">Newsletters</a></li>
+                <li class="menu-item"><a href="/auto-updater.html">Auto-Updater</a></li>
+                <li class="menu-item"><a href="/settings.html">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="offcanvas-footer">
+            <button class="logout-btn" onclick="logout()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                    <polyline points="16 17 21 12 16 7"></polyline>
+                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Logout
+            </button>
+        </div>
+    </aside>
+    <script>
+        const session = getSession();
+        if (session && session.role === 'super_admin') {
+            document.getElementById('usersMenuItem').style.display = 'block';
+        }
+    </script>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="desktop-version">
+    <div class="platform-container">
+        <!-- Sticky Header -->
+        <div class="sticky-header">
+            <div class="controls-bar">
+                <div class="platform-header">
+                    <button class="platform-menu-button" onclick="openOffcanvas()">
+                        <span></span>
+                    </button>
+                    <div class="platform-title">Newsletters</div>
+
+                    <div class="tab-group">
+                        <button class="tab-btn active" data-tab="campaigns" onclick="switchTab('campaigns')">Campaigns</button>
+                        <button class="tab-btn" data-tab="compose" onclick="switchTab('compose')">Compose</button>
+                        <button class="tab-btn" data-tab="subscribers" onclick="switchTab('subscribers')">Subscribers</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAMPAIGNS TAB -->
+        <div class="tab-content active" id="tab-campaigns">
+            <div class="toolbar">
+                <div class="search-box">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" placeholder="Search campaigns..." id="campaignSearch" oninput="filterCampaigns()">
+                </div>
+                <select id="campaignStatusFilter" onchange="loadCampaigns()" style="padding: 8px 12px; border: 1px solid var(--platform-border); border-radius: 8px; font-size: 13px;">
+                    <option value="">All Statuses</option>
+                    <option value="draft">Draft</option>
+                    <option value="sending">Sending</option>
+                    <option value="sent">Sent</option>
+                    <option value="failed">Failed</option>
+                </select>
+                <button class="btn btn-primary" onclick="switchTab('compose'); resetCompose();">
+                    + New Campaign
+                </button>
+            </div>
+
+            <div id="campaignsTableArea">
+                <table class="data-table" id="campaignsTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 40%">Subject</th>
+                            <th>Status</th>
+                            <th>Recipients</th>
+                            <th>Sent</th>
+                            <th>Open Rate</th>
+                            <th>Click Rate</th>
+                            <th>Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="campaignsBody"></tbody>
+                </table>
+                <div class="empty-state" id="campaignsEmpty" style="display:none;">
+                    <h3>No campaigns yet</h3>
+                    <p>Create your first newsletter campaign</p>
+                    <button class="btn btn-primary" onclick="switchTab('compose')">Create Campaign</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- COMPOSE TAB -->
+        <div class="tab-content" id="tab-compose">
+            <div class="toolbar" style="margin-bottom: 16px;">
+                <div style="display: flex; gap: 8px; align-items: center;">
+                    <span id="composeTitle" style="font-size: 16px; font-weight: 600;">New Campaign</span>
+                    <span class="badge badge-draft" id="composeStatus">Draft</span>
+                </div>
+                <div style="margin-left: auto; display: flex; gap: 8px;">
+                    <button class="btn btn-secondary" onclick="saveDraft()">Save Draft</button>
+                    <button class="btn btn-secondary" onclick="sendTestEmail()">Send Test</button>
+                    <button class="btn btn-success" onclick="sendCampaign()">Send Campaign</button>
+                </div>
+            </div>
+
+            <div class="compose-area">
+                <div class="compose-form">
+                    <div class="form-group">
+                        <label>Subject Line</label>
+                        <input type="text" id="composeSubject" placeholder="Enter email subject...">
+                    </div>
+                    <div class="form-group">
+                        <label>Preview Text (optional)</label>
+                        <input type="text" id="composePreview" placeholder="Brief preview text shown in inbox...">
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <div class="form-group">
+                            <label>From Name</label>
+                            <input type="text" id="composeFromName" value="Silicon Valley Investclub">
+                        </div>
+                        <div class="form-group">
+                            <label>From Email</label>
+                            <input type="text" id="composeFromEmail" value="siliconvalleyinvestclub@mail.siliconvalleyinvestclub.com">
+                        </div>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>HTML Content</label>
+                        <textarea id="composeHtml" placeholder="Paste your HTML email content here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="preview-panel">
+                    <div class="preview-header">
+                        <span>Preview</span>
+                        <button class="btn btn-sm btn-secondary" onclick="updatePreview()">Refresh</button>
+                    </div>
+                    <iframe id="previewFrame" class="preview-frame" sandbox="allow-same-origin"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUBSCRIBERS TAB -->
+        <div class="tab-content" id="tab-subscribers">
+            <div class="count-chips" id="subscriberCounts"></div>
+
+            <div class="toolbar">
+                <div class="search-box">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" placeholder="Search subscribers..." id="subscriberSearch" oninput="searchSubscribers()">
+                </div>
+                <select id="subscriberStatusFilter" onchange="loadSubscribers()" style="padding: 8px 12px; border: 1px solid var(--platform-border); border-radius: 8px; font-size: 13px;">
+                    <option value="">All</option>
+                    <option value="active">Active</option>
+                    <option value="unsubscribed">Unsubscribed</option>
+                    <option value="bounced">Bounced</option>
+                </select>
+                <button class="btn btn-secondary" onclick="showAddSubscriberModal()">+ Add</button>
+                <button class="btn btn-secondary" onclick="showImportCSVModal()">Import CSV</button>
+                <button class="btn btn-primary" onclick="importFromBeehiiv()">Import from Beehiiv</button>
+            </div>
+
+            <table class="data-table" id="subscribersTable">
+                <thead>
+                    <tr>
+                        <th style="width: 35%">Email</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Source</th>
+                        <th>Tags</th>
+                        <th>Added</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="subscribersBody"></tbody>
+            </table>
+            <div class="empty-state" id="subscribersEmpty" style="display:none;">
+                <h3>No subscribers</h3>
+                <p>Add subscribers manually, import a CSV, or pull from Beehiiv</p>
+            </div>
+
+            <div class="pagination" id="subscribersPagination"></div>
+        </div>
+
+    </div>
+</div>
+
+<!-- MODALS -->
+
+<!-- Add Subscriber Modal -->
+<div class="modal-overlay" id="addSubscriberModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3>Add Subscriber</h3>
+            <button class="modal-close" onclick="closeModal('addSubscriberModal')">&times;</button>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="newSubEmail" placeholder="email@example.com">
+        </div>
+        <div class="form-group" style="margin-top: 12px;">
+            <label>Name (optional)</label>
+            <input type="text" id="newSubName" placeholder="Full name">
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" onclick="closeModal('addSubscriberModal')">Cancel</button>
+            <button class="btn btn-primary" onclick="addSubscriber()">Add</button>
+        </div>
+    </div>
+</div>
+
+<!-- Import CSV Modal -->
+<div class="modal-overlay" id="importCSVModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3>Import from CSV</h3>
+            <button class="modal-close" onclick="closeModal('importCSVModal')">&times;</button>
+        </div>
+        <div class="form-group">
+            <label>CSV Data (email,name per line)</label>
+            <textarea id="csvData" rows="10" style="font-family: monospace; font-size: 12px;" placeholder="john@example.com,John Doe&#10;jane@example.com,Jane Smith"></textarea>
+        </div>
+        <p style="font-size: 12px; color: var(--platform-muted); margin-top: 8px;">Or upload a CSV file:</p>
+        <input type="file" id="csvFile" accept=".csv" onchange="handleCSVFile(event)" style="margin-top: 8px;">
+        <div class="modal-footer">
+            <button class="btn btn-secondary" onclick="closeModal('importCSVModal')">Cancel</button>
+            <button class="btn btn-primary" onclick="importCSV()">Import</button>
+        </div>
+    </div>
+</div>
+
+<!-- Campaign Stats Modal -->
+<div class="modal-overlay" id="statsModal">
+    <div class="modal" style="max-width: 800px;">
+        <div class="modal-header">
+            <h3 id="statsTitle">Campaign Stats</h3>
+            <button class="modal-close" onclick="closeModal('statsModal')">&times;</button>
+        </div>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="progress-bar" id="statsProgress" style="display:none;">
+            <div class="progress-fill" id="statsProgressFill"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Send Confirm Modal -->
+<div class="modal-overlay" id="sendConfirmModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3>Confirm Send</h3>
+            <button class="modal-close" onclick="closeModal('sendConfirmModal')">&times;</button>
+        </div>
+        <p>Are you sure you want to send this campaign?</p>
+        <div style="margin: 16px 0; padding: 12px; background: var(--platform-card-bg); border-radius: 8px;">
+            <div><strong>Subject:</strong> <span id="confirmSubject"></span></div>
+            <div><strong>From:</strong> <span id="confirmFrom"></span></div>
+            <div><strong>Recipients:</strong> <span id="confirmRecipients"></span> active subscribers</div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" onclick="closeModal('sendConfirmModal')">Cancel</button>
+            <button class="btn btn-success" id="confirmSendBtn" onclick="confirmSend()">Send Now</button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+function openOffcanvas() {
+    document.getElementById('offcanvasMenu').classList.add('active');
+    document.getElementById('siteOverlay').classList.add('active');
+}
+function closeOffcanvas() {
+    document.getElementById('offcanvasMenu').classList.remove('active');
+    document.getElementById('siteOverlay').classList.remove('active');
+}
+</script>
+<script src="./js/newsletters.js"></script>
