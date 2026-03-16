@@ -1,0 +1,2405 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head>
+		<base href="https://us.tineco.com/" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Floor Washers, Carpet Cleaners, Vacuums & More | Tineco</title>
+		<meta name="description" content="Discover Tineco innovative vacuums, floor washers, and carpet cleaners. Enjoy effortless cleaning with smart technology. Trust Tineco for a cleaner, smarter home.">
+		<meta name="keywords" content="Tineco vacuum, cordless vacuum, floor washer, carpet cleaner, pet hair vacuum, powerful vacuum">
+		<meta name="author" content="_nK">
+		<link rel="icon" type="image/png" href="assets/images/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- START: Styles -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+		<!-- swiper -->
+		<link rel="stylesheet" href="js/swipper/swiper-bundle.min.css">
+		<!-- Custom Styles -->
+		<link rel="stylesheet" href="assets/css/custom.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/public_v1.css">
+		<link rel="stylesheet" href="css/iconfont.css">
+		<link rel="stylesheet" href="css/homeV2.css">
+		<!-- END: Styles -->
+		<!-- jQuery --> 
+		<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+		<script src="js/swipper/swiper-bundle.min.js"></script>
+
+<link rel="stylesheet" href="js/layui/css/layui.css">
+<script src="js/layui/layui.js"></script>
+<script src="https://js.adsrvr.org/up_loader.1.1.0.js" type="text/javascript"></script>
+
+		<meta name="google-site-verification" content="szfv04B1V1hRIklW7uGPNcj8ioXMu5XamnMpZ0v41iQ" />
+
+<script>
+  const loginUserInfo = localStorage.getItem('loginUserInfo')
+  const {userId} = JSON.parse(loginUserInfo || '{}')
+ window.dataLayer = window.dataLayer || [];
+ window.dataLayer.push({
+ 'user_id': userId ? userId : null,
+ 'country_code':  'us',
+ 'user_type': userId ? 'logged' : 'log_out',
+ });
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TRXK267');</script>
+	
+	
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5J52TZZ');</script>
+
+		<link rel="stylesheet" href="css/v202208.css">
+
+		<script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/e80d8a51f7a74b00de175bfd0640bbfb.js"></script>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11402936494">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11402936494');
+</script>
+		<script src="https://www.wheelofpopups.com/api/v13303/widget.js" type="text/javascript" defer="defer"></script>
+		<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '173098455540634');
+  fbq('track', 'PageView');
+</script>
+<noscript>< img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=173098455540634&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<link rel="canonical" href="https://us.tineco.com/" /> 
+
+
+<script src="https://static-ussite.tineco.com/ga4.iife.js_d5641a8b-f.js"></script>		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Tineco US",
+				"alternateName": "Tineco Intelligent Technology Co., Ltd.",
+				"url": "https://us.tineco.com/",
+				"logo": "https://us.tineco.com/imgs/logo.png",
+				"sameAs": [
+					"https://www.facebook.com/tinecoglobal/",
+					"https://www.tiktok.com/@tinecoglobal",
+					"https://www.instagram.com/tinecoglobal/",
+					"https://twitter.com/tinecoglobal",
+					"https://www.youtube.com/channel/UCe-XOiQy6sAzI0zoxlyI3DA"
+				]
+			}
+		</script>
+		<style>
+			.live-room-banner-pc {
+				padding-bottom: 60px;
+			}
+
+			.live-room-banner-pc a {
+				text-decoration: none;
+			}
+
+			.live-room-banner-pc .live-room-container {
+				text-decoration: none;
+				display: block;
+				width: 1280px;
+				margin: 0 auto;
+				position: relative;
+				overflow: hidden;
+				cursor: pointer;
+			}
+
+			@media (max-width: 1370px) {
+				.live-room-banner-pc .live-room-container {
+					width: 1080px !important;
+				}
+
+				.live-room-banner-pc .live-room-container .content {
+					padding-top: 40px !important;
+				}
+
+				.live-room-banner-pc .live-room-container .content .title {
+					font-size: 44px !important;
+				}
+			}
+
+			.live-room-banner-pc .live-room-container:hover .banner-img {
+				transform: scale(1.05);
+			}
+
+			.live-room-banner-pc .live-room-container .banner-img {
+				width: 100%;
+				display: block;
+				transition: all ease-in-out 0.4s;
+			}
+
+			.live-room-banner-pc .live-room-container .content {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				z-index: 2;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding-top: 62px;
+			}
+
+			.live-room-banner-pc .live-room-container .content .title {
+				font-size: 52px;
+				line-height: 54px;
+				color: #fff;
+			}
+
+			.live-room-banner-pc .live-room-container .content .desc-text {
+				font-size: 32px;
+				line-height: 34px;
+				color: #fff;
+				margin-top: 108px;
+			}
+
+			.live-room-banner-pc .live-room-container .content .live-room-btn {
+				text-decoration: none;
+				display: block;
+				width: 200px;
+				height: 44px;
+				border-radius: 22px;
+				background-color: #fff;
+				font-size: 26px;
+				line-height: 44px;
+				color: #f33bc9;
+				text-align: center;
+				font-weight: bold;
+				margin-top: 30px;
+			}
+			.swiper-slide_container {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .swiper-slide_container .swiper-slide_container_bg {
+      width: 100%;
+      height: auto;
+    }
+
+    .swiper-slide_container .swiper-slide_container_icon1 {
+      position: absolute;
+      width: 13%;
+      height: auto;
+      left: 4%;
+      top: 10%;
+
+    }
+
+    .swiper-slide_container .swiper-slide_container_icon2 {
+      position: absolute;
+      width: 22%;
+      height: auto;
+      right: 2%;
+      top: 8%;
+
+    }
+    
+       .video-container {
+    pointer-events: none;
+    /* 确保元素正确分层 */
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+		</style>
+	</head>
+
+	<body>
+<style>
+  .gradient {
+    background: linear-gradient(92.69deg, #4AAEFF -2.92%, #2B54C5 99.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+</style>
+<script async src="https://js.adsrvr.org/up_loader.3.0.0.js"></script>
+<script>
+            window.ttdConversionEventsLayer = window.ttdConversionEventsLayer || [];
+            function ttdConversionEvents() {
+                window.ttdConversionEventsLayer.push(arguments);
+            }
+            
+            ttdConversionEvents("init", {
+                advertiserId: "lvdmwci",
+                pixelIds: ["b65uu5y"]
+            });
+
+            ttdConversionEvents("event", {});
+        </script>
+<ibu-pd-counter country="US"></ibu-pd-counter>
+<header>
+  <div class="content" id=''>
+    <div class="swiper-container">
+      <div class="head-left">
+        <img alt="" src="imgs/left.png">
+      </div>
+      <div id="head-content">
+        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                <div class="topTips">
+                    <a href="javascript:;" onclick="receiveJoinCode1()" data-banner_name="Join our mailing list and enjoy 5% off order at Tineco"
+                      data-position="1" ga4-event="ga4-top-banner">Join our mailing list and enjoy 5% off order at Tineco</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="topTips">
+                      <a href="https://store.tineco.com/pages/tineco-rewards?utm_source=officialweb&utm_medium=popup&utm_campaign=tinecorewards" target="_blank" data-banner_name="Join Tineco Rewards now. Share and earn EPIC prizes!" data-position="2"
+                        ga4-event="ga4-top-banner">Join Tineco Rewards now. Share and earn EPIC prizes!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class='head-right'>
+        <img alt="" src="imgs/right.png">
+      </div>
+    </div>
+  </div>
+</header>
+<nav class="" id='tineco-nav'>
+  <div class="nav-container">
+    <div class="nav-content w1280 clearfix ">
+      <div class="nav-logo">
+        <a href="/" target="_blank"><img alt="" src="imgs/logo.png" alt="tineco-site"></a>
+      </div>
+      <div class="nav-nav">
+              <div class="nav-item1 nav-item nav-for-three-box">
+                <a href="javascript:;" navPos="1" class='span' sensorsdata='HomeNavClick'
+                  data-navigation_name="Products" ga4-event="ga4-top-navigation"> Products </a>
+                <div id='menu' class="nav-menu">
+                  <div class="w1280 nav-menu-for-before-box">
+                    <div class="nav-sub-menu-box-forThree">
+                      <div class="nav-sub-list">
+                              <a class="nav-sub-item first-row active" href="products/wet-dry-vacuums.html" navPos="2"
+                                sensorsdata='HomeNavClick' itemId="subProductItem0"
+                                data-navigation_name="Products_FLOOR WASHERS" ga4-event="ga4-second-navigation">
+                                <img alt="" class='cate-icon' src="https://static-ussite.tineco.com/Wet Dry Vacuums1.svg_8f43d5de-e.svg">
+                                <img alt="" class='cate-icon activeIcon' src="https://static-ussite.tineco.com/Wet%20Dry%20Vacuums2.svg_2c0e7bac-7.svg">
+                                <span class="subitem-name">FLOOR WASHERS</span>
+                                <img alt="" class='right-icon' src="imgs/right-icon.png">
+                              </a>
+                                <a class="nav-sub-item first-row" navPos="2" sensorsdata='HomeNavClick'
+                                  href="products/carpet-cleaners.html" itemId="subProductItem1"
+                                  data-navigation_name="Products_CARPET CLEANERS" ga4-event="ga4-second-navigation">
+                                  <img alt="" class='cate-icon' src="https://static-ussite.tineco.com/a2119b5e-9d0c-45da-8e98-51f70978c2c5.svg">
+                                  <img alt="" class='cate-icon activeIcon' src="https://static-ussite.tineco.com/e93d5b21-183d-4181-9590-f7cee1f7d073.svg">
+                                  <span class="subitem-name">CARPET CLEANERS</span>
+                                  <img alt="" class='right-icon' src="imgs/right-icon.png">
+                                </a>
+                                <a class="nav-sub-item first-row" navPos="2" sensorsdata='HomeNavClick'
+                                  href="products/cordless-vacuums.html" itemId="subProductItem2"
+                                  data-navigation_name="Products_VACUUM CLEANERS" ga4-event="ga4-second-navigation">
+                                  <img alt="" class='cate-icon' src="https://static-ussite.tineco.com/Cordless%20Vacuums1.svg_32f62b5d-b.svg">
+                                  <img alt="" class='cate-icon activeIcon' src="https://static-ussite.tineco.com/Cordless%20Vacuums2.svg_8356fdfe-1.svg">
+                                  <span class="subitem-name">VACUUM CLEANERS</span>
+                                  <img alt="" class='right-icon' src="imgs/right-icon.png">
+                                </a>
+                                <a class="nav-sub-item first-row" navPos="2" sensorsdata='HomeNavClick'
+                                  href="products/kitchen/" itemId="subProductItem3"
+                                  data-navigation_name="Products_KITCHEN" ga4-event="ga4-second-navigation">
+                                  <img alt="" class='cate-icon' src="https://static-ussite.tineco.com/e76e9892-9209-4686-b059-5180c5ed5b70.svg">
+                                  <img alt="" class='cate-icon activeIcon' src="https://static-ussite.tineco.com/36d22aaa-e609-4112-aa9a-008779e978e9.svg">
+                                  <span class="subitem-name">KITCHEN</span>
+                                  <img alt="" class='right-icon' src="imgs/right-icon.png">
+                                </a>
+                                <a class="nav-sub-item first-row" navPos="2" sensorsdata='HomeNavClick'
+                                  href="products/beauty/" itemId="subProductItem4"
+                                  data-navigation_name="Products_BEAUTY" ga4-event="ga4-second-navigation">
+                                  <img alt="" class='cate-icon' src="https://static-ussite.tineco.com/Smart%20Hair%20Dryers.svg_a021a38f-7.svg">
+                                  <img alt="" class='cate-icon activeIcon' src="https://static-ussite.tineco.com/Smart%20Hair%20Dryers2.svg_6b7b573a-c.svg">
+                                  <span class="subitem-name">BEAUTY</span>
+                                  <img alt="" class='right-icon' src="imgs/right-icon.png">
+                                </a>
+                                <a class="nav-sub-item first-row" navPos="2" sensorsdata='HomeNavClick'
+                                  href="javascript:;" itemId="subProductItem5"
+                                  data-navigation_name="Products_ACCESSORIES" ga4-event="ga4-second-navigation">
+                                  <img alt="" class='cate-icon' src="https://static-ussite.tineco.com/accessories-cion.svg_84331ea8-4.svg">
+                                  <img alt="" class='cate-icon activeIcon' src="https://static-ussite.tineco.com/accessories-icon-active.svg_666170d9-b.svg">
+                                  <span class="subitem-name">ACCESSORIES</span>
+                                  <img alt="" class='right-icon' src="imgs/right-icon.png">
+                                </a>
+                      </div>
+                      <div class="nav-sub-list">
+                              <div class="second-nav-item-row subProductItem0">
+                                      <a class='nav-sub-item second-row active'
+                                        itemId="1,254" hoverImgUrl="https://static-ussite.tineco.com/产品白底图-加奖项.jpg_d6f51ed3-c.jpg" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floor-one-s9-series.html"
+                                        data-navigation_name="Products_FLOOR WASHERS_FLOOR ONE S9 Series"
+                                        ga4-event="ga4-third-navigation">FLOOR ONE S9 Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="926" hoverImgUrl="https://static-ussite.tineco.com/c59edaa7-11d6-49e1-8c78-7cc22ab7b43b.png" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floor-one-s7-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_FLOOR ONE S7 Series"
+                                        ga4-event="ga4-third-navigation">FLOOR ONE S7 Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="925" hoverImgUrl="https://static-ussite.tineco.com/14cb24c3-3654-4a93-a768-d122914c2829.png" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floor-one-s6-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_FLOOR ONE S6 Series"
+                                        ga4-event="ga4-third-navigation">FLOOR ONE S6 Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="927" hoverImgUrl="https://static-ussite.tineco.com/37e27ae6-7510-49f6-9b1c-06b087e7703e.png" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floor-one-s5-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_FLOOR ONE S5 Series"
+                                        ga4-event="ga4-third-navigation">FLOOR ONE S5 Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="928" hoverImgUrl="https://static-ussite.tineco.com/490c0a80-9c58-4726-a6e6-9f2be661ec08.png" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floor-one-s3-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_FLOOR ONE S3 Series"
+                                        ga4-event="ga4-third-navigation">FLOOR ONE S3 Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="2,128" hoverImgUrl="" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floor-one-i-series.html"
+                                        data-navigation_name="Products_FLOOR WASHERS_FLOOR ONE i Series"
+                                        ga4-event="ga4-third-navigation">FLOOR ONE i Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="930" hoverImgUrl="https://static-ussite.tineco.com/fac1b128-b1a0-4ba4-8176-cd007a64e43c.png" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/ifloor-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_iFloor Series"
+                                        ga4-event="ga4-third-navigation">iFloor Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="1,074" hoverImgUrl="" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/go-h2o-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_GO H2O Series"
+                                        ga4-event="ga4-third-navigation">GO H2O Series</a>
+                                      <a class='nav-sub-item second-row '
+                                        itemId="1,075" hoverImgUrl="" navPos="3"
+                                        sensorsdata='HomeNavClick' href="products/floorwasher-series/"
+                                        data-navigation_name="Products_FLOOR WASHERS_FloorWasher Series"
+                                        ga4-event="ga4-third-navigation">FloorWasher Series</a>
+                              </div>
+                                <div class="second-nav-item-row hide subProductItem1">
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/9483d1bf-f1dc-43bd-b388-138c128f189f.png" itemId="941"
+                                          href="products/carpet-one-series/"
+                                          data-navigation_name="Products_CARPET CLEANERS_CARPET ONE Series"
+                                          ga4-event="ga4-third-navigation">CARPET ONE Series</a>
+                                </div>
+                                <div class="second-nav-item-row hide subProductItem2">
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/38954c0c-5e6f-44f3-abff-b6b59a2e0baf.png" itemId="931"
+                                          href="products/pure-one-station-series/"
+                                          data-navigation_name="Products_VACUUM CLEANERS_PURE ONE Station Series"
+                                          ga4-event="ga4-third-navigation">PURE ONE Station Series</a>
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/cc92880a-47f9-4bb3-9157-1dd427f89d4f.png" itemId="932"
+                                          href="products/pure-one-s15-series/"
+                                          data-navigation_name="Products_VACUUM CLEANERS_PURE ONE S15 Series"
+                                          ga4-event="ga4-third-navigation">PURE ONE S15 Series</a>
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/c1eb5a6b-c83a-461a-827b-7ef3fe857be9.png" itemId="934"
+                                          href="products/pure-one-s11-series/"
+                                          data-navigation_name="Products_VACUUM CLEANERS_PURE ONE S11 Series"
+                                          ga4-event="ga4-third-navigation">PURE ONE S11 Series</a>
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="" itemId="2,123"
+                                          href="products/pure-one-s-series/"
+                                          data-navigation_name="Products_VACUUM CLEANERS_PURE ONE S Series"
+                                          ga4-event="ga4-third-navigation">PURE ONE S Series</a>
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/5ebef409-7d74-4e47-ba3b-7774212bacb2.png" itemId="937"
+                                          href="products/a-series/"
+                                          data-navigation_name="Products_VACUUM CLEANERS_A Series"
+                                          ga4-event="ga4-third-navigation">A Series</a>
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="" itemId="1,073"
+                                          href="products/go-series/"
+                                          data-navigation_name="Products_VACUUM CLEANERS_Go Series"
+                                          ga4-event="ga4-third-navigation">Go Series</a>
+                                </div>
+                                <div class="second-nav-item-row hide subProductItem3">
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/0e566f18-e4b1-45fc-b736-5f3edbcc4833.png" itemId="944"
+                                          href="products/toasty-one-series/"
+                                          data-navigation_name="Products_KITCHEN_TOASTY ONE Series"
+                                          ga4-event="ga4-third-navigation">TOASTY ONE Series</a>
+                                </div>
+                                <div class="second-nav-item-row hide subProductItem4">
+                                        <a class="nav-sub-item second-row " navPos="2" sensorsdata='HomeNavClick'
+                                          hoverImgUrl="https://static-ussite.tineco.com/d3b85a5f-ad49-46a9-8f21-2f047a08de51.png" itemId="945"
+                                          href="products/moda-one-series/"
+                                          data-navigation_name="Products_BEAUTY_MODA ONE Series"
+                                          ga4-event="ga4-third-navigation">MODA ONE Series</a>
+                                </div>
+                                <div class="second-nav-item-row hide subProductItem5">
+                                          <a class="nav-sub-item second-row" itemId="34" navPos="2"
+                                            sensorsdata='HomeNavClick' hoverImgUrl=""
+                                            href="https://store.tineco.com/collections/filter-hepa" target="_blank"
+                                            data-navigation_name="Products_ACCESSORIES_Consumables"
+                                            ga4-event="ga4-third-navigation">Consumables</a>
+                                          <a class="nav-sub-item second-row" itemId="44" navPos="2"
+                                            sensorsdata='HomeNavClick' hoverImgUrl=""
+                                            href="https://store.tineco.com/collections/cleaning-tools" target="_blank"
+                                            data-navigation_name="Products_ACCESSORIES_Cleaning Tools"
+                                            ga4-event="ga4-third-navigation">Cleaning Tools</a>
+                                          <a class="nav-sub-item second-row" itemId="45" navPos="2"
+                                            sensorsdata='HomeNavClick' hoverImgUrl=""
+                                            href="https://store.tineco.com/collections/battery-charing-adapters" target="_blank"
+                                            data-navigation_name="Products_ACCESSORIES_Battery & Charging"
+                                            ga4-event="ga4-third-navigation">Battery & Charging</a>
+                                          <a class="nav-sub-item second-row" itemId="46" navPos="2"
+                                            sensorsdata='HomeNavClick' hoverImgUrl=""
+                                            href="https://store.tineco.com/collections/other-parts-accessories" target="_blank"
+                                            data-navigation_name="Products_ACCESSORIES_Other Parts"
+                                            ga4-event="ga4-third-navigation">Other Parts</a>
+                                </div>
+                      </div>
+                      <div class="nav-sub-list flex3 " id="threeSubNavImgBox" attr="hideNow">
+                                  <img alt="" itemId="1,254" src="https://static-ussite.tineco.com/产品白底图-加奖项.jpg_d6f51ed3-c.jpg"
+                                    class="img-nav-item-for-show">
+                                    <img alt="" itemId="926" src="https://static-ussite.tineco.com/c59edaa7-11d6-49e1-8c78-7cc22ab7b43b.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="925" src="https://static-ussite.tineco.com/14cb24c3-3654-4a93-a768-d122914c2829.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="927" src="https://static-ussite.tineco.com/37e27ae6-7510-49f6-9b1c-06b087e7703e.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="928" src="https://static-ussite.tineco.com/490c0a80-9c58-4726-a6e6-9f2be661ec08.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="2,128" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="930" src="https://static-ussite.tineco.com/fac1b128-b1a0-4ba4-8176-cd007a64e43c.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="1,074" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="1,075" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="941" src="https://static-ussite.tineco.com/9483d1bf-f1dc-43bd-b388-138c128f189f.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="931" src="https://static-ussite.tineco.com/38954c0c-5e6f-44f3-abff-b6b59a2e0baf.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="932" src="https://static-ussite.tineco.com/cc92880a-47f9-4bb3-9157-1dd427f89d4f.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="934" src="https://static-ussite.tineco.com/c1eb5a6b-c83a-461a-827b-7ef3fe857be9.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="2,123" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="937" src="https://static-ussite.tineco.com/5ebef409-7d74-4e47-ba3b-7774212bacb2.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="1,073" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="944" src="https://static-ussite.tineco.com/0e566f18-e4b1-45fc-b736-5f3edbcc4833.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="945" src="https://static-ussite.tineco.com/d3b85a5f-ad49-46a9-8f21-2f047a08de51.png"
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="34" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="44" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="45" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+                                    <img alt="" itemId="46" src=""
+                                      class="img-nav-item-for-show" style="display:none;">
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="nav-item4 nav-item">
+                <a class='span' sensorsdata='HomeNavClick' target="{navBar.targetType??}" href="https://store.tineco.com/"
+                  onclick="goPath('https://store.tineco.com/')" cid="store" data-navigation_name="Store"
+                  ga4-event="ga4-top-navigation"> Store </a>
+              </div>
+
+              <div class="nav-item2 nav-item suportNav">
+                <a class='span' href="about/" sensorsdata='HomeNavClick'
+                  data-navigation_name="Explore" ga4-event="ga4-top-navigation"> Explore</a>
+                <div class="downBox" id='navDownCenter'>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="about/"
+                          data-navigation_name="Explore_About us"
+                          ga4-event="ga4-second-navigation">About us</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="https://us.tineco.com/quiz.html"
+                          data-navigation_name="Explore_Find Your Tineco"
+                          ga4-event="ga4-second-navigation">Find Your Tineco</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="blog/newsroom/"
+                          data-navigation_name="Explore_Newsroom"
+                          ga4-event="ga4-second-navigation">Newsroom</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="blog/blog/"
+                          data-navigation_name="Explore_Blog"
+                          ga4-event="ga4-second-navigation">Blog</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="events/tineco-trade-up/"
+                          data-navigation_name="Explore_Tineco Trade Up"
+                          ga4-event="ga4-second-navigation">Tineco Trade Up</a></div>
+                </div>
+              </div>
+
+
+              <div class="nav-item2 nav-item suportNav">
+                <a class='span' href="support/" sensorsdata='HomeNavClick'
+                  data-navigation_name="Support" ga4-event="ga4-top-navigation"> Support</a>
+                <div class="downBox" id='navDownCenter'>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="support/faqs/"
+                          data-navigation_name="Support_FAQs"
+                          ga4-event="ga4-second-navigation">FAQs</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="support/"
+                          data-navigation_name="Support_Customer Service"
+                          ga4-event="ga4-second-navigation">Customer Service</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="support/instruction-manual/"
+                          data-navigation_name="Support_Instruction Manuals"
+                          ga4-event="ga4-second-navigation">Instruction Manuals</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="support/register-my-product/"
+                          data-navigation_name="Support_Register my product"
+                          ga4-event="ga4-second-navigation">Register my product</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="https://portal.wholescale.net/reviewform/1c1ba7cb-ca5f-479e-bb21-0c7dd121598d?pt=Website"
+                          data-navigation_name="Support_Reviews"
+                          ga4-event="ga4-second-navigation">Reviews</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="support/app-downloads/"
+                          data-navigation_name="Support_App Downloads"
+                          ga4-event="ga4-second-navigation">App Downloads</a></div>
+                </div>
+              </div>
+
+
+
+              <div class="nav-item4 nav-item">
+                <a class='span' sensorsdata='HomeNavClick' target="{navBar.targetType??}" href="https://www.amazon.com/live/channel/a604833e-966b-4963-a4e5-4eb284abb658?maas=maas_adg_61C69B865342DE20B811FCF2368B1265_afap_abs&ref_=aa_maas&tag=maas"
+                  onclick="goPath('https://www.amazon.com/live/channel/a604833e-966b-4963-a4e5-4eb284abb658?maas=maas_adg_61C69B865342DE20B811FCF2368B1265_afap_abs&ref_=aa_maas&tag=maas')" cid="" data-navigation_name="Live Stream"
+                  ga4-event="ga4-top-navigation"> Live Stream </a>
+              </div>
+
+              <div class="nav-item2 nav-item suportNav">
+                <a class='span' href="https://us.tineco.com/club/?utm_source=ow&utm_medium=banner" sensorsdata='HomeNavClick'
+                  data-navigation_name="Tineco Club" ga4-event="ga4-top-navigation"> Tineco Club</a>
+                <div class="downBox" id='navDownCenter'>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="https://us.tineco.com/club/?utm_source=ow&utm_medium=banner"
+                          data-navigation_name="Tineco Club_Join us"
+                          ga4-event="ga4-second-navigation">Join us</a></div>
+                      <div class="box-item"><a sensorsdata='HomeNavClick' href="/login"
+                          data-navigation_name="Tineco Club_Log in"
+                          ga4-event="ga4-second-navigation">Log in</a></div>
+                </div>
+              </div>
+
+      </div>
+      <div class="nav-icons" posItem="nav" sensorsdata='SearchEnter' pname="导航栏">
+        <div class="nav-icon nav-search" id='nav-search' data-button_name="Search" ga4-event="ga4-top-function">
+          <img alt="" src="imgs/search.png">
+        </div>
+        <input id="search-input" oninput='screchInputChange()' placeholder="Search us.tineco.com">
+        </input>
+        <div id="click-search-hide">
+          <img alt="" src="imgs/hide.png">
+        </div>
+        <div class="fly-user-box" style="position: relative;">
+          <div class="nav-icon nav-user" style="display:block;">
+            <img alt="" src="imgs/user.png" alt="" id="userCenterHeadImg" data-button_name="User"
+              ga4-event="ga4-top-function">
+          </div>
+          <div class="downBox" id='navDownBox-userCenter' style="width: 200px;top:70px;left:-60px;">
+            <div class="box-item"><a href="/tineco-club/overview">Overview</a></div>
+            <div class="box-item"><a href="javascript:;" id="userCenterLogOut">Log out</a></div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          const access_token = localStorage.getItem('access_token')
+          const defaultHeadUrl = "https://static-ussite.tineco.com/header.png_2f44ad45-7.png";
+          let isLoginUserCenter = false;
+          const baseURL = window.location.hostname.includes('-test')
+            ? 'https://cloud-api-us-test.tineco.com'
+            : 'https://us-ucenter.tineco.com';
+            
+          const clearTokens = () => {
+            ['access_token', 'refresh_token', 'expires_time', 'refresh_time', 'code', 'token_type']
+              .forEach(key => localStorage.removeItem(key));
+            localStorage.removeItem('userInfo');
+          };
+          
+          function getUserInfo () {
+            $.ajax({
+              headers: {
+                "Authorization": "Bearer " + localStorage.getItem("access_token")
+              },
+              url: baseURL + "/user/v1.0/user/get-me",
+              type: "get",
+              dataType: "json",
+              contentType: "application/json",
+              success: function (res) {
+                if (res.code == 200) {
+                  let userInfo = res.data;
+                  localStorage.setItem('userInfo', JSON.stringify(userInfo));
+                  let avatar = userInfo.avatar || defaultHeadUrl
+                  $("#userCenterHeadImg").attr("src", avatar);
+                  isLoginUserCenter = true;
+                } else {
+                  $("#userCenterHeadImg").attr("src", "imgs/user.png");
+                  clearTokens()
+                }
+              },
+
+              error: function (res) {
+                $("#userCenterHeadImg").attr("src", "imgs/user.png");
+                clearTokens()
+              }
+            })
+          }
+
+          $(function () {
+            if (access_token) {
+              getUserInfo()
+            }
+            $(".fly-user-box").hover(
+              function () {
+                if (isLoginUserCenter) {
+                  clearTimeout($(this).data('hoverTimer'));
+                  $(this).data('hoverTimer', setTimeout(() => {
+                    $('#navDownBox-userCenter').stop().fadeIn(200);
+                  }, 150));
+                }
+              },
+              function () {
+                clearTimeout($(this).data('hoverTimer'));
+                $(this).data('hoverTimer', setTimeout(() => {
+                  $('#navDownBox-userCenter').stop().fadeOut(200);
+                }, 300));
+              }
+            );
+            $(".fly-user-box").click(function () {
+              if (!isLoginUserCenter) {
+                $("#userCenterHeadImg").attr("src", "imgs/user.png");
+                clearTokens()
+                window.location.href = '/login'
+              }
+            });
+            // 下拉框本身悬停处理
+            $('#navDownBox-userCenter').hover(
+              function () {
+                clearTimeout($('.fly-user-box').data('hoverTimer'));
+              },
+              function () {
+                $(this).stop().fadeOut(200);
+              }
+            );
+          });
+
+          var layer = null;
+          layui.use(['layer'], function () {
+            layer = layui.layer;
+            $("#userCenterLogOut").click(function () {
+              layer.confirm('Do you want to logout？', {
+                btn: ['Yes', 'No'],
+                title: "Log Out"
+              }, function (index, layero) {
+                clearTokens()
+                window.location.href = '/'
+              }, function (index) {
+                console.log(index);
+              });
+            })
+          });
+
+        </script>
+        <div class="nav-icon nav-change" data-button_name="Area" ga4-event="ga4-top-function">
+          <img alt="" src="imgs/web.png">
+        </div>
+        <div class="downBox" id='navDownBox'>
+          <div class="box-item" id="store"><a target="_blank" href="https://store.tineco.com/"
+              data-search_term="Official Store" ga4-event="ga4-search">Official Store</a></div>
+          <div class="box-item"><a href="where-to-buy/" data-search_term="Where to Buy" ga4-event="ga4-search">Where to Buy</a></div>
+    <div class="box-item"><a href="support/" data-search_term="Support" ga4-event="ga4-search">Support</a></div>
+    <div class="box-item"><a href="product/accessories/" data-search_term="Accessories" ga4-event="ga4-search">Accessories</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="visit">
+    <div class="mc">
+      <div class="dlog" style="margin: unset;">
+        <div class="title">
+          <div class="msg">Select Country</div>
+          <div class="x" id='clickx'>
+            <img alt="" src="imgs/x.png">
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="item regionItem" region="North America">North America</div>
+            <div class="item regionItem" region="Europe">Europe</div>
+            <div class="item regionItem" region="Asia Pacific">Asia Pacific</div>
+          </div>
+          <div class="bottom">
+            <div class="regionItemContent" style="display:none;" id="northAmericaContent">
+                    <div class="item">
+                      <a href="https://us.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/c745081f-3c8e-4866-a876-fa2de1caef86.jpg" alt="">
+                        <span class="span1"> United States /</span>
+                        <span class="span2"> English </span> <span class='span3'>USD</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://ca.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/9a65f31c-a139-4e48-82c4-7573af9ad1a8.jpg" alt="">
+                        <span class="span1"> Canada /</span>
+                        <span class="span2"> English </span> <span class='span3'>CAD</span></a>
+                    </div>
+            </div>
+            <div class="regionItemContent" style="display:none;" id="europeContent">
+                    <div class="item">
+                      <a href="https://de.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/b489963d-7a8c-4c8d-a709-11d9b600602d.jpg" alt=""><span
+                          class="span1"> Deutschland /</span><span class="span2"> Deutsch </span> <span
+                          class='span3'>EUR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://de-store.tineco.com/es-es " target="_blank"><img alt="" src="https://static-ussite.tineco.com/ea53a366-8d06-4e58-bba6-e58d4a09e928.jpg" alt=""><span
+                          class="span1"> España /</span><span class="span2"> Español </span> <span
+                          class='span3'>EUR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://fr.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/13a0d533-5a9e-4403-aa84-23b9017bb5e6.jpg" alt=""><span
+                          class="span1"> France /</span><span class="span2"> Français </span> <span
+                          class='span3'>EUR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://it.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/1d9d2cba-1d1c-41aa-abdc-4a0899cb2a5f.jpg" alt=""><span
+                          class="span1"> Italia /</span><span class="span2"> Italiano </span> <span
+                          class='span3'>EUR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://uk.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/1c3aab12-def4-48bb-ac4c-a09501b0c5e3.jpg" alt=""><span
+                          class="span1"> United Kingdom /</span><span class="span2"> English </span> <span
+                          class='span3'>GBP</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://tineco.com.tr" target="_blank"><img alt="" src="https://static-ussite.tineco.com/e6379027-ccf9-4d1b-a746-8180d5904353.jpg_2d6755a7-7.jpg" alt=""><span
+                          class="span1"> Tineco TR /</span><span class="span2"> Türkçe </span> <span
+                          class='span3'>TRY</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://de-store.tineco.com/pl-pl" target="_blank"><img alt="" src="https://static-ussite.tineco.com/Flag_of_Poland9060.png_4f81f4d4-f.png" alt=""><span
+                          class="span1"> Polska /</span><span class="span2"> Polski </span> <span
+                          class='span3'>PLN</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://de-store.tineco.com/nl-nl" target="_blank"><img alt="" src="https://static-ussite.tineco.com/Flag_of_the_Netherlands9060.png_89bdc599-5.png" alt=""><span
+                          class="span1"> Nederland /</span><span class="span2"> Nederlands </span> <span
+                          class='span3'>EUR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://tineco.by" target="_blank"><img alt="" src="https://static-ussite.tineco.com/白俄国旗.png_7c8f3a60-1.png" alt=""><span
+                          class="span1"> Belarus /</span><span class="span2"> ru </span> <span
+                          class='span3'>BYN</span></a>
+                    </div>
+            </div>
+            <div class="regionItemContent" style="display:none;" id="asiaContent">
+                    <div class="item">
+                      <a href="https://au.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/9a2dba15-a53a-47f4-ad5a-3578a26ab035.jpg" alt=""><span
+                          class="span1"> Australia /</span><span class="span2"> English </span> <span
+                          class='span3'>AUD</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://ecovacstineco.com.my" target="_blank"><img alt="" src="https://static-ussite.tineco.com/10ece10b-2268-436d-9e60-4b357b4a8364.jpg" alt=""><span
+                          class="span1"> Malaysia /</span><span class="span2"> English </span> <span
+                          class='span3'>MYR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://ph.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/15d1a88c-48cd-43c6-ae16-d081433d9c33.jpg" alt=""><span
+                          class="span1"> Philippines /</span><span class="span2"> English </span> <span
+                          class='span3'>PHP</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://tineco.com.sg" target="_blank"><img alt="" src="https://static-ussite.tineco.com/0e30281f-3d78-4692-a17e-a34f20b6b146.jpg" alt=""><span
+                          class="span1"> Singapore /</span><span class="span2"> English </span> <span
+                          class='span3'>SGD</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://tineco.id" target="_blank"><img alt="" src="https://static-ussite.tineco.com/idn.png_cc933d87-8.png_ac7f8e59-9.png" alt=""><span
+                          class="span1"> Indonesia /</span><span class="span2"> English </span> <span
+                          class='span3'>IDR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://jp.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/c988b6b4-470e-465b-97ea-fb0b8191e048.jpg" alt=""><span
+                          class="span1"> 日本 /</span><span class="span2"> 日本語 </span> <span
+                          class='span3'>JPY</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://tineco.com.hk" target="_blank"><img alt="" src="https://static-ussite.tineco.com/hongkong.png_cc933d87-8.png_9a6b58cd-8.png" alt=""><span
+                          class="span1"> Hong Kong SAR /</span><span class="span2"> English </span> <span
+                          class='span3'>HKD</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://www.tinecoindia.in" target="_blank"><img alt="" src="https://static-ussite.tineco.com/download.png_2f641d5d-c.png" alt=""><span
+                          class="span1"> India /</span><span class="span2"> English </span> <span
+                          class='span3'>INR</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://tineco.pro" target="_blank"><img alt="" src="https://static-ussite.tineco.com/9b90a548-3bad-4878-8a4c-380f39c26b07.png" alt=""><span
+                          class="span1"> Russia /</span><span class="span2"> русский язык </span> <span
+                          class='span3'>RUS</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://vn.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/514e5b18-1b9d-40f7-bc82-1b74e92fb2e5.jpg" alt=""><span
+                          class="span1"> Việt Nam /</span><span class="span2"> Tiếng Việt </span> <span
+                          class='span3'>VND</span></a>
+                    </div>
+                    <div class="item">
+                      <a href="https://nz.tineco.com" target="_blank"><img alt="" src="https://static-ussite.tineco.com/nz.png_1be0a168-8.png" alt=""><span
+                          class="span1"> New Zealand /</span><span class="span2"> English </span> <span
+                          class='span3'>NZD</span></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;padding-bottom: 60px;">
+          <a target="_blank" href="https://global.tineco.com"
+            style="text-decoration:none;color:#00327D;font-size:18px;font-weight: bold;border-bottom: 2px solid #00327D;">Visit
+            the Global Site>></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script src="https://static-ussite.tineco.com/after-sale-chat.js_83f56ed9-2.js"></script>
+<after-sale-chat></after-sale-chat>
+<script>
+  $(function () {
+    $('body').attr('id', 'ga4-event-container');
+  });
+</script>
+<script defer src="https://static-ussite.tineco.com/PDCounter.js_fb1d1892-a.js"></script>
+<script>
+  window.PDCounterData = {
+    centerText: 'Don\'t miss it!<br>Chic deals end in',//标题文字
+    beginTime: '2025-10-07 12:00:00',//开始时间
+    endTime: '2025-10-09 11:59:59',//结束时间
+    hotCenterText: 'Chic refresh with Tineco!<br>Fall sale starts in ',//预热阶段标题文字
+    hotStartTime: '2025-09-28 12:00:00',//预热开始时间
+    hotEndTime: '2025-10-07 11:59:59',//预热结束时间
+    price: '54%',//价格折扣
+    customerLinkList: [
+      {
+        link: 'https://store.tineco.com/pages/autumnsale',
+        btnName: "Join Now"
+      },
+    ],
+    amazonLink: null,
+    shopifyLink: null
+  }
+  $(document).ready(function () {
+    $('.nav-nav .nav-item2:last .span').addClass('gradient');
+  });
+</script>
+
+		<div class="swiper-container s-2024-04-01" id="index-swiper-box" style="height: auto;">
+			<div class="swiper-wrapper">
+			    <div class="swiper-slide" style="width:100%;">
+					<div class="tk-index-banner-box">
+						<a href="/club" target="_blank">
+						  <div class="video-container">
+							 <video src="https://static-ussite.tineco.com/EN%20banner.webm_89a19e3b-c.webm"  class="video-example"  autoplay  playsinline muted loop />
+						   </div>
+						</a>
+					</div>
+				</div>-->
+						<div class="swiper-slide" style="width:100%;">
+							<div class="tk-index-banner-box" bid="392" bannerOrder="0"
+								title="Find your perfect tineco product" data-banner_name="Find your perfect tineco product" data-position="1" ga4-event="ga4-click-top-banner">
+								<a href="https://us.tineco.com/quiz.html" target="_blank">
+									<img src="https://static-ussite.tineco.com/Banner.png_0d796714-2.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide" style="width:100%;">
+							<div class="tk-index-banner-box" bid="287" bannerOrder="1"
+								title="NO1" data-banner_name="NO1" data-position="2" ga4-event="ga4-click-top-banner">
+								<a href="https://us.tineco.com/about/" target="_blank">
+									<img src="https://static-ussite.tineco.com/首页banner NO.1-PC-三年.jpg_c124fd09-e.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide" style="width:100%;">
+							<div class="tk-index-banner-box" bid="372" bannerOrder="2"
+								title="Tineco Floor One S9 Artist Steam" data-banner_name="Tineco Floor One S9 Artist Steam" data-position="3" ga4-event="ga4-click-top-banner">
+								<a href="https://us.tineco.com/products/floor-one-s9-artist-steam.html" target="_blank">
+									<img src="https://static-ussite.tineco.com/STEAM 首页banner-PC.jpg_b95e36b3-0.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide" style="width:100%;">
+							<div class="tk-index-banner-box" bid="276" bannerOrder="3"
+								title=" TRADE UP" data-banner_name=" TRADE UP" data-position="4" ga4-event="ga4-click-top-banner">
+								<a href="https://us.tineco.com/events/tineco-trade-up/?utm_source=website&utm_medium=banner&utm_campaign=tradeup" target="_blank">
+									<img src="https://static-ussite.tineco.com/官网.jpg_5776586d-f.jpg" alt="">
+								</a>
+							</div>
+						</div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination-banner" id="tk-index-banner-pagination"></div>
+		</div>
+		<script>
+    $(document).ready(function () {
+      $('.swiper-slide_container_icon').click(function (event) {
+        event.stopPropagation(); // 阻止事件冒泡
+        window.open('https://crrecommendedmark.org/Mark/Index/HMLZBQUO?type=digital_manufacturer&sameSite=False&lang=eng'); // 子元素跳转链接
+      });
+
+      $('.swiper-slide_container').click(function () {
+        window.open('https://us.tineco.com/products/carpet-one-cruiser.html'); // 父元素跳转链接
+      });
+    });
+
+  </script>
+		<!--Brand begin-->
+			<div id="brands">
+				<div class='w1280' style="display:flex;">
+					<div class="brand-item" style="padding-right:50px;">
+						<a href="javascript:;">
+							<div class="brand-item-text">As Featured In</div>
+						</a>
+					</div>
+					<div id="indexBrandSwiper" class="swiper-container" style="flex:1;">
+						<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="brand-item">
+										<a href="javascript:;"><img src="https://static-ussite.tineco.com/997dce3a-c0d6-4d50-893b-0b2d85d5decc.png" alt=""></a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="brand-item">
+										<a href="javascript:;"><img src="https://static-ussite.tineco.com/75a6899e-d520-44ab-b3aa-56626974f1c9.png" alt=""></a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="brand-item">
+										<a href="javascript:;"><img src="https://static-ussite.tineco.com/bcd58d6d-7904-4574-bdb2-0d2a79bb27b7.png" alt=""></a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="brand-item">
+										<a href="javascript:;"><img src="https://static-ussite.tineco.com/756696b7-48c9-4098-ad22-c9dfd32ebdc5.png" alt=""></a>
+									</div>
+								</div>
+						</div>
+					</div>
+					<!--<div class="swiper-button-prev2"></div><div class="swiper-button-next2"></div>-->
+				</div>
+			</div>
+			<script>
+				$(function () {
+					var brandNum = 4;
+					if (brandNum > 4) {
+						var indexBrandSwiper = new Swiper("#indexBrandSwiper", {
+							slidesPerView: 4,
+							spaceBetween: 20,
+							autoplay: {
+								disableOnInteraction: true,
+								delay: 3000
+							},
+							loop: false,
+							navigation: {
+								prevEl: '.swiper-button-prev2',
+								nextEl: '.swiper-button-next2',
+							},
+						});
+					}
+					else {
+						$("#indexBrandSwiper").find(".swiper-wrapper").css("justify-content", "space-between");
+						$("#indexBrandSwiper").find(".swiper-slide").css("display", "flex");
+						$("#indexBrandSwiper").find(".swiper-slide").css("justify-content", "center");
+						$("#indexBrandSwiper").find(".swiper-slide").css("flex", "1");
+					}
+				});
+			</script>
+		<!--Brand end -->
+		
+		<h1 style="display:none;">Tineco hot selling product display</h1>
+		
+		<div style='background-color: #fff;'>
+				<div id='product' class="w1280 t2e2s2222t">
+					<!-- 产品引导 start -->
+					<h2 class="module-title">Find the Right Tineco ONE for You</h2>
+						<div class="product-list">
+								<div class="product-list-item product-list-item-1"
+									learnMoreUrl="products/wet-dry-vacuums/" data-page_category="Find the right Tineco ONE for you" data-product_type="Floor Washers" ga4-event="ga4-click-product-type">
+									<div class="product-list-item-img" style="background-image: url(https://static-ussite.tineco.com/水机-pc.jpg_95c38da6-3.jpg);">
+										<img src="https://static-ussite.tineco.com/水机-pc.jpg_95c38da6-3.jpg" alt="">
+									</div>
+									<div class="product-list-item-mask">
+										<div class="product-list-item-title">Floor Washers</div>
+										<div class="product-list-item-info">
+											<div class="product-list-item-info-title">Floor Washers</div>
+											<div class="product-list-item-info-subtitle">FLOOR ONE</div>
+											<div class="product-list-item-info-text">Fresh water cleaning for hygienic, streak-free floors.</div>
+											<a href="products/wet-dry-vacuums/" target="_blank" data-page_category="Find the right Tineco ONE for you" data-product_type="Floor Washers" data-button_name="Floor Washers" ga4-event="ga4-learn-more"
+												class="learn-more-btn">Learn More</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-item product-list-item-2"
+									learnMoreUrl="products/carpet-cleaners/" data-page_category="Find the right Tineco ONE for you" data-product_type="Carpet Cleaners" ga4-event="ga4-click-product-type">
+									<div class="product-list-item-img" style="background-image: url(https://static-ussite.tineco.com/地毯机-pc.jpg_e1eed4b1-1.jpg);">
+										<img src="https://static-ussite.tineco.com/地毯机-pc.jpg_e1eed4b1-1.jpg" alt="">
+									</div>
+									<div class="product-list-item-mask">
+										<div class="product-list-item-title">Carpet Cleaners</div>
+										<div class="product-list-item-info">
+											<div class="product-list-item-info-title">Carpet Cleaners</div>
+											<div class="product-list-item-info-subtitle">CARPET ONE</div>
+											<div class="product-list-item-info-text">Deep-clean and quick-dry your carpets like a true professional. 
+</div>
+											<a href="products/carpet-cleaners/" target="_blank" data-page_category="Find the right Tineco ONE for you" data-product_type="Carpet Cleaners" data-button_name="Carpet Cleaners" ga4-event="ga4-learn-more"
+												class="learn-more-btn">Learn More</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-item product-list-item-3"
+									learnMoreUrl="products/cordless-vacuums/" data-page_category="Find the right Tineco ONE for you" data-product_type="Vacuum Cleaners " ga4-event="ga4-click-product-type">
+									<div class="product-list-item-img" style="background-image: url(https://static-ussite.tineco.com/吸尘器-pc.jpg_649a2c03-b.jpg);">
+										<img src="https://static-ussite.tineco.com/吸尘器-pc.jpg_649a2c03-b.jpg" alt="">
+									</div>
+									<div class="product-list-item-mask">
+										<div class="product-list-item-title">Vacuum Cleaners </div>
+										<div class="product-list-item-info">
+											<div class="product-list-item-info-title">Vacuum Cleaners </div>
+											<div class="product-list-item-info-subtitle">PURE ONE</div>
+											<div class="product-list-item-info-text">Long-lasting suction to intelligently deal with all kinds of debris. 
+</div>
+											<a href="products/cordless-vacuums/" target="_blank" data-page_category="Find the right Tineco ONE for you" data-product_type="Vacuum Cleaners " data-button_name="Vacuum Cleaners " ga4-event="ga4-learn-more"
+												class="learn-more-btn">Learn More</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-item product-list-item-4"
+									learnMoreUrl="products/kitchen/" data-page_category="Find the right Tineco ONE for you" data-product_type="Kitchen" ga4-event="ga4-click-product-type">
+									<div class="product-list-item-img" style="background-image: url(https://static-ussite.tineco.com/73e25d4b-e3a5-420a-853f-27fca03b506e.jpg_05ba688a-0.jpg);">
+										<img src="https://static-ussite.tineco.com/73e25d4b-e3a5-420a-853f-27fca03b506e.jpg_05ba688a-0.jpg" alt="">
+									</div>
+									<div class="product-list-item-mask">
+										<div class="product-list-item-title">Kitchen</div>
+										<div class="product-list-item-info">
+											<div class="product-list-item-info-title">Kitchen</div>
+											<div class="product-list-item-info-subtitle">TOASTY ONE</div>
+											<div class="product-list-item-info-text">Toast to everyone's perfection, at the same time, every time. 
+</div>
+											<a href="products/kitchen/" target="_blank" data-page_category="Find the right Tineco ONE for you" data-product_type="Kitchen" data-button_name="Kitchen" ga4-event="ga4-learn-more"
+												class="learn-more-btn">Learn More</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-item product-list-item-5"
+									learnMoreUrl="products/beauty/" data-page_category="Find the right Tineco ONE for you" data-product_type="Beauty" ga4-event="ga4-click-product-type">
+									<div class="product-list-item-img" style="background-image: url(https://static-ussite.tineco.com/70d3dd93-ad29-497a-bc2d-1663d92ca964.jpg);">
+										<img src="https://static-ussite.tineco.com/70d3dd93-ad29-497a-bc2d-1663d92ca964.jpg" alt="">
+									</div>
+									<div class="product-list-item-mask">
+										<div class="product-list-item-title">Beauty</div>
+										<div class="product-list-item-info">
+											<div class="product-list-item-info-title">Beauty</div>
+											<div class="product-list-item-info-subtitle">MODA ONE</div>
+											<div class="product-list-item-info-text">Provide a healthy and delicate solution to your								hair.</div>
+											<a href="products/beauty/" target="_blank" data-page_category="Find the right Tineco ONE for you" data-product_type="Beauty" data-button_name="Beauty" ga4-event="ga4-learn-more"
+												class="learn-more-btn">Learn More</a>
+										</div>
+									</div>
+								</div>
+						</div>
+						<script type="text/javascript">
+							$(function () {
+								$('.product-list .product-list-item').click(function () {
+									var url = $(this).attr('learnMoreUrl')
+									if (url) {
+										window.open(url)
+									}
+								})
+							})
+						</script>
+					<!-- 产品引导 end -->
+
+					<div class="find-more">
+					<a href="https://us.tineco.com/quiz.html">Cant find the ONE? Try this! >></a>
+					</div>
+
+			<div class="live-room-banner-pc">
+				<a href="https://www.amazon.com/live/channel/a604833e-966b-4963-a4e5-4eb284abb658?maas=maas_adg_61C69B865342DE20B811FCF2368B1265_afap_abs&ref_=aa_maas&tag=maas"
+					rel="noopener noreferrer" target="_blank">
+					<div class="live-room-container">
+						<img alt="Real-time livestream!" class="banner-img"
+							src="https://static-ussite.tineco.com/%E7%9B%B4%E6%92%AD%E7%89%88%E5%9D%97-pc.png_8e7649ec-d.png">
+						<div class="content">
+							<h2 class="title">Real-time livestream!</h2>
+							<div class="desc-text">Check in our livestream!</div>
+							<div class="btn-container">
+								<div class="live-room-btn">Buy now ></div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- about us start -->
+					<div class="about-us">
+						<img class="about-us-bg" src="https://static-ussite.tineco.com/about-us-版块-pc-231201更新.jpg_4b2f208b-f.jpg" alt="" id="aboutUsBg"
+							linkUrl="about/">
+						<div class="about-us-info">
+							<div class="about-us-info-title">Join Our <span>23,000,000</span>* Happy Customers</div>
+							<div class="about-us-info-subtitle">Live Easy. Enjoy Life.</div>
+							<div class="about-us-info-text"><a title="tineco store" href="https://store.tineco.com/" target="_blank" rel="noopener">Tineco</a> showcases its innovative and <a title="CORDLESS VACUUMS" href="https://store.tineco.com/collections/cordless-vacuum-cleaner" target="_blank" rel="noopener">intelligent technology</a> to make the home appliances smarter and easier to use, and focuses on human and things we love.</div>
+							<div class="about-us-info-why">
+								<a class="about-us-info-why-btn" href="about/"
+									target="_blank" data-page_category="Live Easy Enjoy Life" ga4-event="ga4-why-tineco-btn">Why Tineco</a>
+								<a href="#videoModal" data-toggle="modal" data-target="#videoModal"
+									data-title="Tineco ONE for EveryONE | Tineco ONE for EveryONE"
+									data-videofly="https://www.youtube.com/embed/OHznssvH0I4"
+									class="about-us-info-why-video" style="text-decoration: none;" data-page_category="Live Easy Enjoy Life" ga4-event="ga4-about-us-video">
+									<img src="https://static-ussite.tineco.com/play.png_9660a0ca-e.png" alt="">
+								</a>
+							</div>
+							<div class="about-us-info-tips">*Data from Tineco's official net sales records (Jan. 2020 - Oct.2025). Tineco has final interpretation rights.					</div>
+						</div>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+						<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="modal-title"></h5>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body  p-0">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<script>
+						$(function () {
+							$("#videoModal").on("show.bs.modal", function (event) {
+								let button = $(event.relatedTarget); // Button that triggered the modal
+								let url = button.data("videofly"); // Extract url from data-video attribute
+								var title = button.data("title");
+								$("#modal-title").html(title);
+								$(this).find("iframe").attr({
+									src: url,
+									allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								});
+							});
+							// Remove iframe attributes when the modal has finished being hidden from the user
+							$("#videoModal").on("hidden.bs.modal", function () {
+								$("#videoModal iframe").removeAttr("src allow");
+							});
+							$('#aboutUsBg').click(function () {
+								if ($(this).attr('linkUrl')) {
+									window.open($(this).attr('linkUrl'))
+								}
+
+							})
+						})
+
+					</script>
+			<!-- about us end -->
+
+			<!-- news start -->
+				<h2 class="module-title">News & Events</h2>
+				<div class="news-events">
+							<div class="news-events-item" linkurl="https://us.tineco.com/blog/tineco-unveils-revolutionary-pouch-cell-and-more.html" ga4-event="ga4-events-img">
+								<div class="news-events-item-img">
+									<img src="https://static-ussite.tineco.com/pouchcell-pc.jpg_d54b2b1f-f.jpg" alt="">
+								</div>
+								<div class="news-events-item-title">Tineco Unveils Revolutionary Pouch Cell and 3 Innovative Features to Enhance Consumer Benefits in Latest Product Line</div>
+								<div class="news-events-item-text">
+									<span>With the recent introduction of the FLOOR ONE S7 COMBO, PURE ONE Station, and FLOOR ONE S7 Steam, Tineco has proudly emerged as the pioneering brand leveraging pouch cell technology.</span>
+									<a class="news-events-item-btn" href="https://us.tineco.com/blog/tineco-unveils-revolutionary-pouch-cell-and-more.html"
+										target="_blank" data-button_name="Read" ga4-event="ga4-events-read">Read</a>
+								</div>
+							</div>
+							<div class="news-events-item" linkurl="https://us.tineco.com/blog/tineco-recognized-as-global-leader-in-emerging-floor-washer-category/" ga4-event="ga4-events-img">
+								<div class="news-events-item-img">
+									<img src="https://static-ussite.tineco.com/s7steam-pc.jpg_f032f91c-9.jpg" alt="">
+								</div>
+								<div class="news-events-item-title">Tineco Recognized as Global Leader in Emerging Floor Washer Category</div>
+								<div class="news-events-item-text">
+									<span>Tineco ("tin-co") was founded in 1998 with its first SKU as a vacuum cleaner and, in 2019, pioneered the first-ever smart vacuum. </span>
+									<a class="news-events-item-btn" href="https://us.tineco.com/blog/tineco-recognized-as-global-leader-in-emerging-floor-washer-category/"
+										target="_blank" data-button_name="Read" ga4-event="ga4-events-read">Read</a>
+								</div>
+							</div>
+							<div class="news-events-item" linkurl="https://us.tineco.com/blog/Reddot-Design-Award-2023-Tineco.html" ga4-event="ga4-events-img">
+								<div class="news-events-item-img">
+									<img src="https://static-ussite.tineco.com/s7pro-pc.jpg_e5e7d773-f.jpg" alt="">
+								</div>
+								<div class="news-events-item-title">Tineco's top-of-the-line product, the FLOOR ONE S7 Pro, has won a Red Dot Design Award</div>
+								<div class="news-events-item-text">
+									<span>Tineco FLOOR ONE S7 PRO has won the Red Dot Design Award, one of the most authoritative world awards that reward design, and is ready to meet everyone's cleaning needs</span>
+									<a class="news-events-item-btn" href="https://us.tineco.com/blog/Reddot-Design-Award-2023-Tineco.html"
+										target="_blank" data-button_name="Read" ga4-event="ga4-events-read">Read</a>
+								</div>
+							</div>
+				</div>
+				<div class="view-more">
+					<a href="blog/category/newsroom/" target="_blank" data-button_name="View More" data-product_type="Live Easy Enjoy Life" ga4-event="ga4-events-view-more">View More</a>
+				</div>
+				<script type="text/javascript">
+					$(function () {
+						$('.news-events-item').click(function () {
+							if ($(this).attr('linkurl')) {
+								window.open($(this).attr('linkurl'))
+							}
+						})
+					})
+				</script>
+			<!-- news end -->
+
+			<!-- meet start -->
+				<h2 class="module-title pb-20">Meet Tineco @tinecoglobal</h2>
+				<div class="platform-list">
+					<a href="https://www.facebook.com/tinecoglobal/" target="_blank">
+						<img src="https://static-ussite.tineco.com/social-icon1.svg_23e9572f-c.svg" alt="">
+					</a>
+					<a href="https://www.tiktok.com/@tinecoglobal" target="_blank">
+						<img src="https://static-ussite.tineco.com/social-icon2.svg_abdb29b4-3.svg" alt="">
+					</a>
+					<a href="https://www.instagram.com/tinecoglobal/" target="_blank">
+						<img src="https://static-ussite.tineco.com/social-icon3.svg_9d9627a4-6.svg" alt="">
+					</a>
+					<a href="https://twitter.com/tinecoglobal" target="_blank">
+						<img src="https://static-ussite.tineco.com/social-icon4.svg_3b23cca2-4.svg" alt="">
+					</a>
+					<a href="https://www.youtube.com/channel/UCe-XOiQy6sAzI0zoxlyI3DA" target="_blank">
+						<img src="https://static-ussite.tineco.com/social-icon5.svg_dd1f8c91-7.svg" alt="">
+					</a>
+				</div>
+				<div id="meetSwiper">
+					<div class="swiper-container" id="indexMeetSwiperContainer">
+						<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="index-meet-box" style="background-image:url(https://static-ussite.tineco.com/social-1.jpg_4b5ee61e-9.jpg);">
+										<a href="https://www.instagram.com/p/DRODqN5iZMI/" target="_blank">
+											<img src="https://static-ussite.tineco.com/social-1.jpg_4b5ee61e-9.jpg" class="bg" alt="">
+												<img class="look-hover-phone" src="https://static-ussite.tineco.com/meet-icon.png_1e798ef9-e.png" />
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="index-meet-box" style="background-image:url(https://static-ussite.tineco.com/social-2.jpg_28f18ad7-2.jpg);">
+										<a href="https://www.facebook.com/photo.php?fbid=1203067308535241&set=pb.100064959481062.-2207520000&type=3" target="_blank">
+											<img src="https://static-ussite.tineco.com/social-2.jpg_28f18ad7-2.jpg" class="bg" alt="">
+												<img class="look-hover-phone" src="https://static-ussite.tineco.com/meet-icon.png_1e798ef9-e.png" />
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="index-meet-box" style="background-image:url(https://static-ussite.tineco.com/social-3.jpg_8543f9b2-d.jpg);">
+										<a href="https://www.instagram.com/p/DRzWXyqCkxB/" target="_blank">
+											<img src="https://static-ussite.tineco.com/social-3.jpg_8543f9b2-d.jpg" class="bg" alt="">
+												<img class="look-hover-phone" src="https://static-ussite.tineco.com/meet-icon.png_1e798ef9-e.png" />
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="index-meet-box" style="background-image:url(https://static-ussite.tineco.com/social-4.jpg_d2219383-6.jpg);">
+										<a href="https://www.instagram.com/p/DQtSIVllAD_/?img_index=1" target="_blank">
+											<img src="https://static-ussite.tineco.com/social-4.jpg_d2219383-6.jpg" class="bg" alt="">
+												<img class="look-hover-phone" src="https://static-ussite.tineco.com/meet-icon.png_1e798ef9-e.png" />
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="index-meet-box" style="background-image:url(https://static-ussite.tineco.com/social-5.jpg_80abd1d3-8.jpg);">
+										<a href="https://www.facebook.com/photo.php?fbid=1244491124392859&set=pb.100064959481062.-2207520000&type=3" target="_blank">
+											<img src="https://static-ussite.tineco.com/social-5.jpg_80abd1d3-8.jpg" class="bg" alt="">
+												<img class="look-hover-phone" src="https://static-ussite.tineco.com/meet-icon.png_1e798ef9-e.png" />
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="index-meet-box" style="background-image:url(https://static-ussite.tineco.com/c766d6a1-ada9-489e-8f90-0aa8f176dee6.jpg);">
+										<a href="https://www.instagram.com/p/CklUbWTsmgQ/" target="_blank">
+											<img src="https://static-ussite.tineco.com/c766d6a1-ada9-489e-8f90-0aa8f176dee6.jpg" class="bg" alt="">
+												<img class="look-hover-phone" src="https://static-ussite.tineco.com/meet-icon.png_1e798ef9-e.png" />
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="swiper-button-prev1"></div>
+						<div class="swiper-button-next1"></div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$(function () {
+						var indexMeetSwiper = new Swiper("#indexMeetSwiperContainer", {
+							slidesPerView: 5,
+							spaceBetween: 20,
+							autoplay: {
+								disableOnInteraction: true,
+								delay: 3000
+							},
+							loop: true,
+							navigation: {
+								prevEl: '.swiper-button-prev1',
+								nextEl: '.swiper-button-next1',
+							},
+						});
+					})
+				</script>
+			<!-- meet end -->
+
+			<!-- support start -->
+				<h2 class="module-title">Support of Tineco</h2>
+				<div style="text-align: center;margin-bottom: 12px; font-size: 18px;">For customer service, please contact
+					us at
+					<a href="tel:+1-855-292-8864" rel="noopener noreferrer"
+						style="color: #007bff;text-decoration: none;">1-855-292-8864</a>
+					or <a href="/support/submit-ticket/" rel="noopener noreferrer"
+						style="color: #007bff;text-decoration: none;" target="_self">submit a ticket</a>, or click the <a
+						id="liveChatForSupportBtn" href="javascript:0;" rel="noopener noreferrer"
+						style="color: #007bff;text-decoration: none;">blue
+						Chat</a>.
+				</div>
+
+				<div class="support-list">
+						<a class="support-list-item" href="support/troubleshooting/" target="_blank" data-button_name="Troubleshooting" ga4-event="ga4-support">
+							<img class="support-list-item-img" src="https://static-ussite.tineco.com/support-1.png_0c3e280c-d.png" alt="">
+							<img class="support-list-item-active-img" src="https://static-ussite.tineco.com/support-active-1.png_3973f485-f.png" alt="">
+							<div class="support-list-item-text">Troubleshooting</div>
+						</a>
+						<a class="support-list-item" href="support/faqs/" target="_blank" data-button_name="FAQs" ga4-event="ga4-support">
+							<img class="support-list-item-img" src="https://static-ussite.tineco.com/support-2.png_0569f685-2.png" alt="">
+							<img class="support-list-item-active-img" src="https://static-ussite.tineco.com/support-active-2.png_8b5e4543-0.png" alt="">
+							<div class="support-list-item-text">FAQs</div>
+						</a>
+						<a class="support-list-item" href="support/product-care/" target="_blank" data-button_name="Product Care" ga4-event="ga4-support">
+							<img class="support-list-item-img" src="https://static-ussite.tineco.com/support-3.png_dae5cda5-b.png" alt="">
+							<img class="support-list-item-active-img" src="https://static-ussite.tineco.com/support-active-3.png_bf6862f2-5.png" alt="">
+							<div class="support-list-item-text">Product Care</div>
+						</a>
+						<a class="support-list-item" href="support/instruction-manual/" target="_blank" data-button_name="Instruction Manual" ga4-event="ga4-support">
+							<img class="support-list-item-img" src="https://static-ussite.tineco.com/support-4.png_02754fff-7.png" alt="">
+							<img class="support-list-item-active-img" src="https://static-ussite.tineco.com/support-active-4.png_c6344826-8.png" alt="">
+							<div class="support-list-item-text">Instruction Manual</div>
+						</a>
+				</div>
+			<!-- support end -->
+		</div>
+		</div>
+		<!--footer begin-->
+<footer>
+  <!--<div class="v3-reward-box">
+    <div class="v3-reward-container">
+      <div class="v3-reward-close-btn">
+        <img src="https://static-ussite.tineco.com/e4dfd192-c995-4aa8-80e7-bca4f7ca7fb7.png">
+      </div>
+      <div class="v3-reward-info-box">
+        <div>Join Tineco Rewards.</div>
+        <div>Chance to win</div>
+        <div><span>FULL REFUND</span></div>
+        <div class="last">and more!</div>
+      </div>
+      <a class="v3-reward-btn-box"
+        href="https://store.tineco.com/pages/tineco-rewards?utm_source=officialweb&utm_medium=popup&utm_campaign=tinecorewards"
+        target="_blank" data-button_name="Tineco Rewards" ga4-event="ga4-hover-button">
+        Click to Enter
+      </a>
+    </div>
+  </div>
+  <script>
+    $(function () {
+      $(".v3-reward-close-btn").click(function () {
+        $(".v3-reward-box").remove();
+        sessionStorage.setItem("isNotShowReward", "1");
+      });
+      if (sessionStorage.getItem("isNotShowReward") && sessionStorage.getItem("isNotShowReward") == "1") {
+        $(".v3-reward-box").remove();
+      }
+    });
+  </script>-->
+  <div class="footer-search">
+    <img alt="tineco site" src="https://static-ussite.tineco.com/dfcbcb2c-67df-478d-932e-98d7fbd7850e.jpg"
+      class="footerBg">
+    <div class="footer-box-container" tips="modifyInfo-2024-0331">
+      <div class=" w1280">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footerNavLeftSub">
+              <span class="label">Subscription</span>
+              <form method="POST" target="_blank" style="flex: 1;display: flex;position:relative;"
+                action="https://manage.kmail-lists.com/subscriptions/subscribe"
+                onsubmit="return checkSubscribeThis(this);">
+                <input type="hidden" name="a" value="StELfa" />
+                <input type="hidden" name="g" value="Xg7Dz6" />
+                <input class="emailBox" id="email-sub-footer" name="email"
+                  placeholder="Enter your email address" type="text">
+                <button class="submitBtn" type="button"
+                  id="subscribe-footer-btn">SUBSCRIBE</button>
+                <span class='error-msg' id="footer-sub-error-msg">This field is required. Please enter a valid email
+                  address.</span>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="clearfix">
+              <div class="m-right">
+                <span>Join the Conversation</span>
+                <a href="https://www.facebook.com/tinecoglobal/" target='_blank' class="socialNormalBtn">
+                  <img src="imgs/social-icon1.svg" alt="">
+                </a>
+                <a href="https://www.tiktok.com/@tinecoglobal" target='_blank' class="socialNormalBtn">
+                  <img src="imgs/social-icon2.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/tinecoglobal/" target='_blank' class="socialNormalBtn">
+                  <img src="imgs/social-icon3.svg" alt="">
+                </a>
+                <a href="https://twitter.com/tinecoglobal" target='_blank' class="socialNormalBtn">
+                  <img src="imgs/social-icon4.svg" alt="">
+                </a>
+                <a href="https://www.youtube.com/channel/UCe-XOiQy6sAzI0zoxlyI3DA" target='_blank'
+                  class="socialNormalBtn">
+                  <img src="imgs/social-icon5.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="as">
+    <div class="w1280">
+      <div class="item-list">
+              <div class="title" data-navigation_name="Customer Service" data-navigation_group="Customer Service"
+                ga4-event="ga4-bottom-navigation">Customer Service</div>
+                  <div class="item btnFooterItem" sensorsdata="BottomClick" data-navigation_name="Contact"
+                    data-navigation_group="Customer Service" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="/support/">Contact</a></div>
+              <div class="title" data-navigation_name="PR & Media Inquires" data-navigation_group="PR & Media Inquires"
+                ga4-event="ga4-bottom-navigation">PR & Media Inquires</div>
+                  <div class="item normal" sensorsdata="BottomClick" data-navigation_name="marketing@tineco.com"
+                    data-navigation_group="PR & Media Inquires" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="mailto:marketing@tineco.com">marketing@tineco.com</a></div>
+                  <div class="item normal" sensorsdata="BottomClick" data-navigation_name="pr@tineco.com"
+                    data-navigation_group="PR & Media Inquires" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="mailto:pr@tineco.com">pr@tineco.com</a></div>
+      </div>
+      <div class="item-list">
+              <div class="title" data-navigation_name="Products" data-navigation_group="Products"
+                ga4-event="ga4-bottom-navigation">Products</div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Floor Washers"
+                    data-navigation_group="Products" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="products/wet-dry-vacuums/">Floor Washers</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Smart Vacuums"
+                    data-navigation_group="Products" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="products/pure-one-s12/">Smart Vacuums</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Cordless Vacuums"
+                    data-navigation_group="Products" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="products/cordless-vacuums/">Cordless Vacuums</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Smart Hair Dryers"
+                    data-navigation_group="Products" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="products/beauty/">Smart Hair Dryers</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Accessories"
+                    data-navigation_group="Products" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="products/parts-and-accessories.html">Accessories</a></div>
+      </div>
+      <div class="item-list">
+              <div class="title" data-navigation_name="Support" data-navigation_group="Support"
+                ga4-event="ga4-bottom-navigation">Support</div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Troubleshooting"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/troubleshooting/">Troubleshooting</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="FAQS"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/faqs/">FAQS</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Product Care"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/product-care/">Product Care</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Instruction Manuals"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/instruction-manual/">Instruction Manuals</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Register My Product"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/register-my-product/">Register My Product</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Claim My Warranty"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/process-a-warranty/">Claim My Warranty</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="App Download"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/app-downloads/">App Download</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Do Not Sell My Personal Information"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_blank" href="/ccpa-opt-out/">Do Not Sell My Personal Information</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Contact us"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="support/">Contact us</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Safety Data Sheet"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="sds/">Safety Data Sheet</a></div>
+                  <div class="item" sensorsdata="BottomClick" data-navigation_name="Accessibility Statement"
+                    data-navigation_group="Support" ga4-event="ga4-bottom-navigation"><a
+                      target="_self" href="accessibility-statement/">Accessibility Statement</a></div>
+      </div>
+      <div class="item-list">
+              <div class="title" data-navigation_name="Explore" data-navigation_group="Explore"
+                ga4-event="ga4-bottom-navigation">Explore</div>
+                  <div class="item" data-navigation_name="About us" data-navigation_group="Explore"
+                    ga4-event="ga4-bottom-navigation"><a target="_self"
+                      href="about/">About us</a></div>
+                  <div class="item" data-navigation_name="Newsroom" data-navigation_group="Explore"
+                    ga4-event="ga4-bottom-navigation"><a target="_self"
+                      href="blog/category/blog/">Newsroom</a></div>
+                  <div class="item" data-navigation_name="Blog" data-navigation_group="Explore"
+                    ga4-event="ga4-bottom-navigation"><a target="_self"
+                      href="blog/category/blog/">Blog</a></div>
+                  <div class="item" data-navigation_name="Where to buy" data-navigation_group="Explore"
+                    ga4-event="ga4-bottom-navigation"><a target="_self"
+                      href="wheretobuy/">Where to buy</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="re-info">
+    <div class="w1280" style="display:flex;">
+      <div class="buttons" id="navRightBox">
+        <!--
+              <div class="item">
+                  <img src="imgs/naoling.png" alt="">
+              </div>
+              <div class="item">
+                  <img src="imgs/ren.png" alt="">
+              </div>
+              <div class="item">
+                  <img src="imgs/huihua.png" alt="">
+              </div>
+              -->
+        <div class="item" id="footerNavToTop" data-button_name="Go Top" ga4-event="ga4-hover-button">
+          <img src="imgs/gotop.png" alt="">
+        </div>
+      </div>
+      <div class="m-left">Copyright 2025 TINECO INTELLIGENT TECHNOLOGY LIFE USA INC. All Rights Reserved.</div>
+      <div class="center">
+        <div class="item">
+          <a href="sitemap/">Site Map</a>
+        </div>
+        <div class="item">
+          <a href="privacy/">Privacy Policy</a>
+        </div>
+        <div class="item">
+          <a href="cookie/">Cookie Policy</a>
+        </div>
+        <div class="item">
+          <a href="termofuse/">Terms of Use</a>
+        </div>
+      </div>
+      <div class="m-right nav-change-footer-site-choice">
+        <img src="https://static-ussite.tineco.com/c745081f-3c8e-4866-a876-fa2de1caef86.jpg" alt=""> United States / English
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- signup begin -->
+<div id="signup" class="tineco-common-signUp-box">
+  <div class="signup-box">
+    <div class="box-left-bgi"></div>
+    <div class="box-right-text">
+      <div class="right-text-close closeSignUpBoxBtnImg">
+        <img src="imgs/signup/close.png" alt="">
+      </div>
+      <div id="right-type1">
+        <div class="right-text-title">
+          Sign up to get 10% off
+          <br>
+          your next purchase
+        </div>
+        <div class="right-text-msg">
+          Plus exclusive offers, discounts and breaking <br>
+          news about our latest product launches.
+        </div>
+        <form method="POST" target="_blank" action="https://manage.kmail-lists.com/subscriptions/subscribe"
+          onsubmit="return checkSubscribeThis1(this);">
+          <input type="hidden" name="a" value="StELfa" />
+          <input type="hidden" name="g" value="Xg7Dz6" />
+          <div class="right-text-ipt msg-error">
+            <input type="text" name="email" id="signUpEmail-1" placeholder="Enter your email address">
+            <div class="err-msg" id="signUp-error-msg-1" style="display:none">Please use a working email address</div>
+          </div>
+          <div class="right-text-btn">
+            <button type="submit">
+              SUBMIT
+            </button>
+          </div>
+        </form>
+        <div class="right-text-a"><a href="javascript:;" class="closeSignUpBoxBtnImg">Thanks, I’m not interested</a>
+        </div>
+      </div>
+      <!-- 成功 -->
+      <div id="right-type2" style='display:none;'>
+        <div class="right-success-img">
+          <img src="imgs/signup/success-img.png" alt="">
+        </div>
+        <div class="right-thank-msg">Thank You for Subscribing!</div>
+        <div class="right-body-msg">
+          Get ready to enjoy 10% off your next purchase,<br>
+          along with exclusive offers, discounts and breaking <br>
+          news about our latest product launches.
+        </div>
+        <div class="right-logo">
+          <img src="imgs/signup/signup-Logo.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="signup2" class="tineco-common-signUp-box">
+  <div class="signup2-box">
+    <div class="sigup2-bgi">
+      <img src="./imgs/signup/mini-power-brush-plus.png">
+    </div>
+    <div class="signup2-content">
+      <div class="signup2-content-close">
+        <img src="./imgs/signup/close.png" class="closeSignUpBoxBtnImg">
+      </div>
+      <div id="signup2-type1">
+        <div class="signup2-box-title signupTitle">
+          Sign up to get 10% off
+          <br>
+          your next purchase
+        </div>
+        <div class="signup2-box-msg">
+          Plus exclusive offers, discounts and breaking <br>
+          news about our latest product launches.
+        </div>
+        <form method="POST" target="_blank" action="https://manage.kmail-lists.com/subscriptions/subscribe"
+          onsubmit="return checkSubscribeThis2(this);">
+          <input type="hidden" name="a" value="StELfa" />
+          <input type="hidden" name="g" value="Xg7Dz6" />
+          <div class="signup2-box-ipt err">
+            <input type="text" name="email" id="signUpEmail-2" placeholder="Enter your email address">
+            <div class="err-msg" id="signUp-error-msg-2" style="display:none">
+              Please use a working email address
+            </div>
+          </div>
+          <div class="signup2-box-btn"><button type="submit">Subscribe</button></div>
+        </form>
+        <div class="signup2-box-a"><a href="javascript:;" class="closeSignUpBoxBtnImg">Thanks, I’m not interested</a>
+        </div>
+      </div>
+      <div id="signup2-type2" style='display: none;'>
+        <div class="right-success-img">
+          <img src="./imgs/signup/success-img.png" alt="">
+        </div>
+        <div class="right-thank-msg">Thank You for Subscribing!</div>
+        <div class="right-body-msg">
+          Get ready to enjoy 10% off your next purchase,<br>
+          along with exclusive offers, discounts and breaking <br>
+          news about our latest product launches.
+        </div>
+        <div class="right-logo">
+          <img src="./imgs/signup/signup-Logo.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="signup3" class="tineco-common-signUp-box">
+  <div class="signup3-box">
+    <div class="signup3-content-close closeSignUpBoxBtnImg">
+      <img src="./imgs/signup/close.png" alt="">
+    </div>
+    <div id="signup3-type1">
+      <div class="signup3-content-title">
+        Sign up to get 10% off
+        <br>
+        your next purchase
+      </div>
+      <div class="signup3-content-msg">
+        Plus exclusive offers, discounts and breaking <br>
+        news about our latest product launches.
+      </div>
+      <form method="POST" target="_blank" action="https://manage.kmail-lists.com/subscriptions/subscribe"
+        onsubmit="return checkSubscribeThis3(this);">
+        <input type="hidden" name="a" value="StELfa" />
+        <input type="hidden" name="g" value="Xg7Dz6" />
+        <div class="signup3-content-ipt err">
+          <input type="text" name="email" id="signUpEmail-3" placeholder="Enter your email address">
+          <div class="err-msg" id="signUp-error-msg-3" style="display:none">Please use a working email address</div>
+        </div>
+        <div class="signup3-content-btn">
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
+      <div class="signup3-content-a">
+        <a href="javascript:;" class='closeSignUpBoxBtnImg'>Thanks, I’m not interested</a>
+      </div>
+    </div>
+    <div id="signup3-type2" style='display: none;'>
+      <div class="content-success-img">
+        <img src="./imgs/signup/success-img.png" alt="">
+      </div>
+      <div class="content-thank-msg">Thank You for Subscribing!</div>
+      <div class="content-body-msg">
+        Get ready to enjoy 10% off your next purchase,<br>
+        along with exclusive offers, discounts and breaking <br>
+        news about our latest product launches.
+      </div>
+      <div class="content-logo">
+        <img src="./imgs/signup/signup-Logo.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="signup4" class="tineco-common-signUp-box">
+  <div class="signup4-box">
+    <div class="signup4-content-close closeSignUpBoxBtnImg">
+      <img src="./imgs/signup/close.png" alt="">
+    </div>
+    <div id="signup4-type1">
+      <div class="signup4-content-title">
+        Sign up to get 10% off
+        <br>
+        your next purchase
+      </div>
+      <div class="signup4-content-msg">
+        Plus exclusive offers, discounts and breaking <br>
+        news about our latest product launches.
+      </div>
+      <form method="POST" target="_blank" action="https://manage.kmail-lists.com/subscriptions/subscribe"
+        onsubmit="return checkSubscribeThis4(this);">
+        <input type="hidden" name="a" value="StELfa" />
+        <input type="hidden" name="g" value="Xg7Dz6" />
+        <div class="signup4-content-ipt err">
+          <input type="text" name="email" id="signUpEmail-4" placeholder="Enter your email address">
+          <div class="err-msg" id="signUp-error-msg-4" style="display:none">Please use a working email address</div>
+        </div>
+        <div class="signup4-content-btn">
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
+      <div class="signup4-content-a">
+        <a href="javascript:;" class='closeSignUpBoxBtnImg'>Thanks, I’m not interested</a>
+      </div>
+    </div>
+    <div id="signup4-type2" style='display: none;'>
+      <div class="content-success-img">
+        <img src="./imgs/signup/success-img.png" alt="">
+      </div>
+      <div class="content-thank-msg">Thank You for Subscribing!</div>
+      <div class="content-body-msg">
+        Get ready to enjoy 10% off your next purchase,<br>
+        along with exclusive offers, discounts and breaking <br>
+        news about our latest product launches.
+      </div>
+      <div class="content-logo">
+        <img src="./imgs/signup/signup-Logo.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="signup5" class="tineco-common-signUp-box">
+  <div class="signup5-box">
+    <div class="signup5-content-close closeSignUpBoxBtnImg">
+      <img src="./imgs/close-white.png" alt="">
+    </div>
+          <div id="signup5-type1">
+            <div class="signup5-content-logo">
+              <img src="./imgs/signup/signup5-Logo.png" alt="">
+            </div>
+            <div class="signup5-content-title">
+              Sign up to get 5% off<br> your next purchase
+            </div>
+            <div class="signup5-content-msg">
+              Plus exclusive offers, discounts and breaking <br> news about our latest product launches.
+            </div>
+            <input type="hidden" name="a" value="StELfa" />
+            <input type="hidden" name="g" value="Xg7Dz6" />
+            <div class="signup5-content-ipt err">
+              <input type="text" name="email" id="signUpEmail-5" placeholder="Enter your email address">
+              <div class="err-msg" id="signUp-error-msg-5" style="display:none">Please use a working email address</div>
+            </div>
+            <div class="signup5-content-btn" style="padding-top:2%">
+              <button type="button" id="subscribe-email-btn">SUBMIT</button>
+            </div>
+            <div class="signup5-content-a">
+              *Discount is only eligible at <a href="https://store.tineco.com/"
+                style="color:#007bff;text-decoration:none">store.tineco.com</a>
+            </div>
+            <div class="signup5-content-a">
+              <a href="javascript:;" class="closeSignUpBoxBtnImg">Thanks, I’m not interested</a>
+            </div>
+          </div>
+          <div id="signup5-type2" style="display: none;">
+            <div class="content-success-img">
+              <img src="./imgs/signup/success-img.png" alt="">
+            </div>
+            <div class="content-thank-msg">Thank You for Subscribing!</div>
+            <div class="content-body-msg">
+              Get ready to enjoy 5% off your next purchase,<br>  along with exclusive offers, discounts and breaking <br>   news about our latest product launches.
+            </div>
+            <div class="content-logo">
+              <img src="./imgs/signup/signup-Logo.png" alt="">
+            </div>
+          </div>
+  </div>
+</div>
+<!-- signup end2 -->
+
+
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/common-fly-tineco.js"></script>
+<script type="text/javascript">
+  function receiveJoinCode1 () {
+    $("#signup5").show();
+  }
+  function receiveJoinCode2 () {
+    $("#signup5").show();
+  }
+  function receiveJoinCode3 () {
+    $("#signup5").show();
+  }
+  function receiveJoinCode4 () {
+    $("#signup5").show();
+  }
+  function receiveJoinCode5 () {
+    $("#signup5").show();
+  }
+  function CheckEmail (m) {
+    var reg = /^([A-Za-z0-9+_]|\-|\.)+@(([A-Za-z0-9_]|\-)+\.)+[A-Za-z]{2,6}$/
+    if (reg.test(m)) {
+      return true
+    }
+
+    return false
+  }
+  function checkSubscribeThis (obj) {
+    var email = $("#email-sub-footer").val();
+    if (email == "") {
+      $("#footer-sub-error-msg").addClass("show");
+      $("#footer-sub-error-msg").html("Please enter a valid email address.");
+      return false;
+    }
+    if (!CheckEmail(email)) {
+      $("#footer-sub-error-msg").addClass("show");
+      $("#footer-sub-error-msg").html("Please enter a valid email address.");
+      return false;
+    }
+    $("#footer-sub-error-msg").addClass("show");
+    $("#footer-sub-error-msg").css("color", "#ffffff");
+    $("#footer-sub-error-msg").html("Thanks for Subscribing!");
+    return true;
+  }
+  function checkSubscribeThis1 (obj) {
+    var email = $("#signUpEmail-1").val();
+    if (email == "") {
+      $("#signUp-error-msg-1").show();
+      $("#signUp-error-msg-1").html("Please enter a valid email address.");
+      return false;
+    }
+    if (!CheckEmail(email)) {
+      $("#signUp-error-msg-1").show();
+      $("#signUp-error-msg-1").html("Please enter a valid email address.");
+      return false;
+    }
+    $("#signUp-error-msg-1").hide();
+    $("#right-type1").hide();
+    $("#right-type2").show();
+    return true;
+  }
+  function checkSubscribeThis2 (obj) {
+    var email = $("#signUpEmail-2").val();
+    if (email == "") {
+      $("#signUp-error-msg-2").show();
+      $("#signUp-error-msg-2").html("Please enter a valid email address.");
+      return false;
+    }
+    if (!CheckEmail(email)) {
+      $("#signUp-error-msg-2").show();
+      $("#signUp-error-msg-2").html("Please enter a valid email address.");
+      return false;
+    }
+    $("#signUp-error-msg-2").hide();
+    $("#signup2-type1").hide();
+    $("#signup2-type2").show();
+    return true;
+  }
+
+  function checkSubscribeThis3 (obj) {
+    var email = $("#signUpEmail-3").val();
+    if (email == "") {
+      $("#signUp-error-msg-3").show();
+      $("#signUp-error-msg-3").html("Please enter a valid email address.");
+      return false;
+    }
+    if (!CheckEmail(email)) {
+      $("#signUp-error-msg-3").show();
+      $("#signUp-error-msg-3").html("Please enter a valid email address.");
+      return false;
+    }
+    $("#signUp-error-msg-3").hide();
+    $("#signup3-type1").hide();
+    $("#signup3-type2").show();
+    return true;
+  }
+
+  function checkSubscribeThis4 (obj) {
+    var email = $("#signUpEmail-4").val();
+    if (email == "") {
+      $("#signUp-error-msg-4").show();
+      $("#signUp-error-msg-4").html("Please enter a valid email address.");
+      return false;
+    }
+    if (!CheckEmail(email)) {
+      $("#signUp-error-msg-4").show();
+      $("#signUp-error-msg-4").html("Please enter a valid email address.");
+      return false;
+    }
+    $("#signUp-error-msg-4").hide();
+    $("#signup4-type1").hide();
+    $("#signup4-type2").show();
+    return true;
+  }
+
+  function checkSubscribeThis5 (obj) {
+    var email = $("#signUpEmail-5").val();
+    if (email == "") {
+      $("#signUp-error-msg-5").show();
+      $("#signUp-error-msg-5").html("Please enter a valid email address.");
+      return false;
+    }
+    if (!CheckEmail(email)) {
+      $("#signUp-error-msg-5").show();
+      $("#signUp-error-msg-5").html("Please enter a valid email address.");
+      return false;
+    }
+    $("#signUp-error-msg-5").hide();
+    $("#signup5-type1").hide();
+    $("#signup5-type2").show();
+    return true;
+  }
+  function screchInputChange () {
+    console.log($('#search-input').val())
+  }
+  $(function () {
+    $("#subscribe-footer-btn").click(function () {
+      var email = $("#email-sub-footer").val();
+      if (email == "") {
+        $("#footer-sub-error-msg").addClass("show");
+        $("#footer-sub-error-msg").css("color", "red");
+        $("#footer-sub-error-msg").html("Please enter a valid email address.");
+        return false;
+      }
+      if (!CheckEmail(email)) {
+        $("#footer-sub-error-msg").addClass("show");
+        $("#footer-sub-error-msg").css("color", "red");
+        $("#footer-sub-error-msg").html("Please enter a valid email address.");
+        return false;
+      }
+      var dataInfo = {
+        email: email,
+        status: "1"
+      }
+      $.ajax({
+        url: "https://us-ucenter.tineco.com/member/v1/subscribe/email",
+        type: "post",
+        dataType: "json",
+        contentType: "application/json",
+        data: JSON.stringify(dataInfo),
+        success: function (res) {
+          console.log(res);
+          if (res.code == '200') {
+            if (res.data == true) {
+              $("#footer-sub-error-msg").addClass("show");
+              $("#footer-sub-error-msg").css("color", "#ffffff");
+              $("#footer-sub-error-msg").html("Thanks for Subscribing!");
+              $("#email-sub-footer").val("");
+
+              window.dataLayer.push({ "event_parameters": null });
+              window.dataLayer.push({
+                "event": "ga4Event",
+                "event_name": "subscribe",
+                "event_parameters": {
+                  "page_group": window.handleGetPageGroup(),
+                  "button_name": "subscribe",
+                  "status": "fail",
+                }
+              });
+            }
+            else {
+              alert("failed");
+              window.dataLayer.push({ "event_parameters": null });
+              window.dataLayer.push({
+                "event": "ga4Event",
+                "event_name": "subscribe",
+                "event_parameters": {
+                  "page_group": window.handleGetPageGroup(),
+                  "button_name": "subscribe",
+                  "status": "fail",
+                }
+              });
+            }
+          } else {
+
+            alert(res.message);
+          }
+        },
+        error: function (res) {
+          alert(res.responseJSON.message);
+          console.log(res.responseJSON.message);
+          window.dataLayer.push({ "event_parameters": null });
+          window.dataLayer.push({
+            "event": "ga4Event",
+            "event_name": "subscribe",
+            "event_parameters": {
+              "page_group": window.handleGetPageGroup(),
+              "button_name": "subscribe",
+              "status": "fail",
+            }
+          });
+        }
+      })
+    });
+    $("#subscribe-email-btn").click(function () {
+      var email = $("#signUpEmail-5").val();
+      if (email == "") {
+        $("#signUp-error-msg-5").show();
+        $("#signUp-error-msg-5").html("Please enter a valid email address.");
+        return false;
+      }
+      if (!CheckEmail(email)) {
+        $("#signUp-error-msg-5").show();
+        $("#signUp-error-msg-5").html("Please enter a valid email address.");
+        return false;
+      }
+      var dataInfo = {
+        email: email,
+        status: "1"
+      }
+      const isCes2025Page = window.location.pathname.includes('events/ces-2025');
+      if (isCes2025Page) {
+        dataInfo = {
+          email: email,
+          status: "1",
+          channel: "2025CES",
+          activity: "TLcEya"
+        }
+      }
+      $.ajax({
+        url: "https://us-ucenter.tineco.com/member/v1/subscribe/email",
+        type: "post",
+        dataType: "json",
+        contentType: "application/json",
+        data: JSON.stringify(dataInfo),
+        success: function (res) {
+          console.log(res);
+          if (res.code == '200') {
+            if (res.data == true) {
+              $("#signUp-error-msg-5").hide();
+              $("#signup5-type1").hide();
+              $("#signup5-type2").show();
+              window.dataLayer.push({ "event_parameters": null });
+              window.dataLayer.push({
+                "event": "ga4Event",
+                "event_name": "pop_up",
+                "event_parameters": {
+                  "page_group": window.handleGetPageGroup(),
+                  "popup_name": window.handleGetPageGroup(),
+                  "button_name": "Submit",
+                  "status": "success",
+                }
+              });
+            }
+            else {
+              alert("failed");
+              window.dataLayer.push({ "event_parameters": null });
+              window.dataLayer.push({
+                "event": "ga4Event",
+                "event_name": "pop_up",
+                "event_parameters": {
+                  "page_group": window.handleGetPageGroup(),
+                  "popup_name": window.handleGetPageGroup(),
+                  "button_name": "Submit",
+                  "status": "fail",
+                }
+              });
+            }
+          } else {
+            alert(res.message);
+          }
+        },
+        error: function (res) {
+          alert(res.responseJSON.message);
+          console.log(res.responseJSON.message);
+          window.dataLayer.push({ "event_parameters": null });
+          window.dataLayer.push({
+            "event": "ga4Event",
+            "event_name": "pop_up",
+            "event_parameters": {
+              "page_group": window.handleGetPageGroup(),
+              "popup_name": window.handleGetPageGroup(),
+              "button_name": "Submit",
+              "status": "fail",
+            }
+          });
+        }
+      })
+    });
+
+    $(".regionItem").click(function () {
+      var isCur = $(this).hasClass('active')
+      $(".regionItem").removeClass("active");
+      $(".regionItemContent").hide();
+      if (!isCur) {
+        var region = $(this).attr("region");
+        $(this).addClass("active");
+        if (region == "North America") {
+          $("#northAmericaContent").show("slow");
+        } else if (region == "Europe") {
+          $("#europeContent").show("slow");
+        } else if (region == "Asia Pacific") {
+          $("#asiaContent").show("slow");
+        }
+      }
+
+    });
+
+    $(".closeSignUpBoxBtnImg").click(function () {
+      $(".tineco-common-signUp-box").hide();
+    });
+    var headOff100Swiper = new Swiper('#head-content', {
+      direction: 'vertical',
+      loop: true,
+      speed: 300,
+      autoplay: {
+        disableOnInteraction: true,
+        delay: 3000
+      },
+      visibilityFullFit: true,
+      direction: 'horizontal',
+      updateOnImagesReady: true,
+      paginationClickable: true,
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.head-right',
+        prevEl: '.head-left',
+      }
+    });
+
+    //当点击跳转链接后，回到页面顶部位置
+    $("#footerNavToTop").click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      },
+        500);
+      return false;
+    });
+    var pageKeyForScroll = $("#pageKeyForScroll").val();
+    $(document).scroll(function () {
+      var scroH = $(document).scrollTop();  //滚动高度
+      if (!pageKeyForScroll) {
+        if (scroH > 150) {
+          $("#tineco-nav").addClass("fixed-head");
+        }
+        else {
+          $("#tineco-nav").removeClass("fixed-head");
+        }
+      }
+      else if (pageKeyForScroll == "product") {
+        if (scroH > 250) {
+          $("#commonProductNav").addClass("fixed-head");
+        }
+        else {
+          $("#commonProductNav").removeClass("fixed-head");
+        }
+      }
+      else if (pageKeyForScroll == "support") {
+        if (scroH > 450) {
+          $("#supportFixedNavBox").addClass("fixed-head");
+        }
+        else {
+          $("#supportFixedNavBox").removeClass("fixed-head");
+        }
+      }
+      else if (pageKeyForScroll == "about") {
+        if (scroH > 250) {
+          $(".about-fix-left-box").addClass("hide");
+        }
+        else {
+          $("#supportFixedNavBox").removeClass("fixed-head");
+        }
+      }
+      if (scroH > 400) {
+        $("#navRightBox").show();
+      }
+      else {
+        $("#navRightBox").hide();
+      }
+    });
+    $(".first-row").hover(function () {
+      var itemId = $(this).attr("itemId");
+      $(".first-row").removeClass("active");
+      $(this).addClass("active");
+      $(".second-nav-item-row").addClass("hide");
+      $("." + itemId).removeClass("hide");
+    }, function () {
+
+    });
+    $(".nav-sub-item.second-row").hover(function () {
+      $(".nav-sub-item.second-row").removeClass("active");
+      $(this).addClass("active");
+      var itemId = $(this).attr("itemId");
+      $("#threeSubNavImgBox").find("img").css("display", "none");
+      $("#threeSubNavImgBox").find("img[itemid='" + itemId + "']").css("display", "block");
+      $("#threeSubNavImgBox").removeClass("hideNow")
+    }, function () {
+
+    });
+    $('#search-input').bind('keypress', function (event) {
+      if (event.keyCode == "13") {
+        var keyword = $('#search-input').val();
+        if (keyword == "") {
+          return false;
+        }
+        location.href = "search/index.html?keyword=" + keyword;
+        window.dataLayer.push({ "event_parameters": null });
+        window.dataLayer.push({
+          "event": "ga4Event",
+          "event_name": "search",
+          "event_parameters": {
+            "page_group": window.handleGetPageGroup(),
+            "search_term": keyword,
+            "search_type": "recommended_serach",
+            "page_category": "none"
+          }
+        });
+      }
+    });
+    $('#nav-search').click(() => {
+      $('#search-input').css({
+        "width": "150px",
+        marginRight: '20px',
+        'margin-left': '20px'
+      })
+      $('#click-search-hide').show();
+      $('#navDownBox').stop().slideDown("slow")
+      $('#navDownBox').css("opacity", "1");
+    })
+    $('#click-search-hide').click(() => {
+      $('#search-input').css({
+        "width": "0px",
+        marginRight: '0px',
+        'margin-left': '0px'
+      })
+      $('#click-search-hide').hide();
+      $('#navDownBox').stop().slideUp("slow")
+      $('#navDownBox').css("opacity", "0");
+    })
+
+    $('.nav-change').click(() => {
+        $('body').css({
+            'overflow': 'hidden'
+        });
+      $('#visit').show()
+    })
+    $('.nav-change-footer-site-choice').click(() => {
+         $('body').css({
+            'overflow': 'hidden'
+        });
+      $('#visit').show()
+    })
+    $('#clickx').click(() => {
+      $('#visit').hide()
+       $('body').css({
+            'overflow': 'visible'
+        });
+    })
+  })
+</script>
+<script>
+ttd_dom_ready( function() {
+	if (typeof TTDUniversalPixelApi === 'function') {
+		console.log("TTDUniversalPixelApi","ok");
+        var universalPixelApi = new TTDUniversalPixelApi();
+        universalPixelApi.init("m3nv74a", ["792k9k9"], "https://insight.adsrvr.org/track/up");
+    }
+  });                
+</script>
+      <script>
+    (function(){
+        var s    = document.createElement('script');
+        var h    = document.querySelector('head') || document.body;
+        s.src    = 'https://acsbapp.com/apps/app/dist/js/app.js';
+        s.async  = true;
+        s.onload = function(){
+            acsbJS.init({
+                statementLink    : '',
+                footerHtml       : '',
+                hideMobile       : false,
+                hideTrigger      : false,
+                disableBgProcess : false,
+                language         : 'en',
+                position         : 'left',
+                leadColor        : '#146ff8',
+                triggerColor     : '#146ff8',
+                triggerRadius    : '50%',
+                triggerPositionX : 'left',
+                triggerPositionY : 'center',
+                triggerIcon      : 'people',
+                triggerSize      : 'medium',
+                triggerOffsetX   : 20,
+                triggerOffsetY   : 20,
+                mobile           : {
+                    triggerSize      : 'small',
+                    triggerPositionX : 'left',
+                    triggerPositionY : 'center',
+                    triggerOffsetX   : 10,
+                    triggerOffsetY   : 0,
+                    triggerRadius    : '50%'
+                }
+            });
+        };
+        h.appendChild(s);
+    })();
+</script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRXK267"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J52TZZ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script src="js/index.js"></script>
+		<style>
+			@media screen and (min-width:1616px) {
+				.content-wrapper {
+					font-size: 32px;
+				}
+			}
+		</style>
+	</body>
+
+</html>

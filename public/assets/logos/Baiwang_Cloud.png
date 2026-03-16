@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>错误页面</title>
+    <style>
+        .error_page_wrap {
+            width: 100%;
+            height: 100vh;
+            background: #FAFAFA;
+        }
+        .error_page_wrap .error_page_content {
+            width: 100%;
+            height: 100%;
+            padding-top: calc(50vh - 204px);
+            text-align: center;
+        }
+        .error_page_wrap .error_page_content .error_page_img {
+            display: inline-block;
+            vertical-align: top;
+            width: 210px;
+            height: 210px;
+        }
+        .error_page_wrap .error_page_content .error_page_img img {
+            width: 210px;
+            height: 210px;
+        }
+        .error_page_wrap .error_page_content .error_page_text {
+            height: 22px;
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #7A7A7A;
+            line-height: 22px;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .error_page_wrap .error_page_content .error_page_tool {
+            height: 40px;
+            text-align: center;
+        }
+        .error_page_wrap .error_page_content .error_page_tool .btn {
+            height: 40px;
+            width: 126px;
+            text-align: center;
+            background: #0F66F0;
+            border-radius: 3px;
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #FFFFFF;
+            line-height: 38px;
+            font-weight: 400;
+            border: none;
+            cursor: pointer;
+        }
+        .error_page_wrap .error_page_content .error_page_tool .btn:hover {
+            background: #3b89f5;
+        }
+        .error_page_wrap .error_page_content .error_page_tool .btn:active {
+            background: #084bc7;
+        }
+    </style>
+</head>
+<body>
+    <div class="error_page_wrap">
+    <div class="error_page_content">
+      <div class="error_page_img">
+        <img
+          src="/configuration-file/images/404.png"
+          alt="">
+      </div>
+      <div class="error_page_text">
+        您访问的资源不存在
+      </div>
+      <div class="error_page_tool">
+        <button class="btn" onclick="goHome()">返回首页</button>
+      </div>
+    </div>
+  </div>
+
+    <script>
+        function goHome() {
+            fetch('/consoleAlone-ui/static/json/env.json')
+                .then(response => {
+                    if (response.status === 200) {
+                        return response.json().then(data => {
+                        // 在这里可以使用返回的数据
+                        console.log(data);
+                        if (data.containerVersion === '1.0.0') {
+                            location.href = '/bw-main-ui/consoleAlone-ui/commonCloudConsole';
+                        } else {
+                            location.href = '/consoleAlone-ui/commonCloudConsole';
+                        }
+                    });
+                    } else {
+                        location.href = '/consoleAlone-ui/commonCloudConsole';
+                    }
+                })
+                .catch(error => {
+                    // 如果请求失败也跳转到备用地址
+                    location.href = '/consoleAlone-ui/commonCloudConsole';
+                });
+        }
+    </script>
+</body>
+</html>
