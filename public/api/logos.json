@@ -1771,8 +1771,6 @@
   "LARK (FEISHU)": "assets/logos/Lark_Feishu.png",
   "ATLAN": "assets/logos/Atlan.png",
   "CYBEREASON": "assets/logos/Cybereason.png",
-  "REFLECTION AI": "assets/logos/Reflection.png",
-  "REFLECTION": "assets/logos/Reflection.png",
   "NINJACART": "assets/logos/Ninjacart.png",
   "COVARIANT": "assets/logos/Covariant.png",
   "EIGENLAYER (EIGEN LABS)": "assets/logos/EigenLayer_Eigen_Labs.png",
@@ -2125,5 +2123,6 @@
   "VALAR ATOMICS": "assets/logos/Valar_Atomics.png",
   "VARDA": "assets/logos/Varda.png",
   "VULCAN ELEMENTS": "assets/logos/Vulcan_Elements.png",
-  "MICRO1": "assets/logos/micro1.png"
+  "MICRO1": "assets/logos/micro1.png",
+  "REFLECTION.AI": "assets/logos/Reflection.png"
 }
